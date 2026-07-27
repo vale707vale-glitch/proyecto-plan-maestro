@@ -224,15 +224,7 @@ function renderApp() {
   const logoutBtn = $("#logout-btn")
   const indiceBtn = $("#btn-indice")
   const manualBtn = $("#btn-manual")
-  // version debug
-  const brandName = $(".brand-name")
-  if (brandName && !brandName.dataset.versionSet) {
-    brandName.dataset.versionSet = "1"
-    const ver = document.createElement("sup")
-    ver.style.cssText = "font-size:0.55rem;opacity:0.6;margin-left:0.2rem"
-    ver.textContent = "v6"
-    brandName.after(ver)
-  }
+
   const syncDot = document.getElementById("sync-dot")
   if (state.rol === "terapeuta") {
     indicator.hidden = false
