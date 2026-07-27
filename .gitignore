@@ -13,6 +13,6 @@ node_modules/
 # Environment
 .env
 
-# Imagenes originales de los mazos (optimizadas en app/assets/img/)
-[0-9]*/
+# Imagenes originales de los mazos (solo raiz del proyecto)
+/[0-9]*/
 
