@@ -1,9 +1,10 @@
-const CACHE = "mosaico-v14"
+const CACHE = "mosaico-v15"
 
 const PRECACHE = [
   "./",
   "manifest.json",
   "firebase-service.js",
+  "logo.png",
   "data/mazo-la-puerta.json",
   "data/mazo-emociones.json",
   "data/mazo-historia-personal.json",

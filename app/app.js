@@ -230,7 +230,7 @@ function renderApp() {
     brandName.dataset.versionSet = "1"
     const ver = document.createElement("sup")
     ver.style.cssText = "font-size:0.55rem;opacity:0.6;margin-left:0.2rem"
-    ver.textContent = "v5"
+    ver.textContent = "v6"
     brandName.after(ver)
   }
   const syncDot = document.getElementById("sync-dot")

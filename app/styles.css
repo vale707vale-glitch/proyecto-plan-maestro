@@ -1,17 +1,18 @@
 /* MOSAICO - mobile-first, modo claro, sin frameworks */
 
 :root {
-  --bg: #f5f3ee;
+  --bg: #f5f3ef;
   --surface: #ffffff;
   --ink: #1a1a1a;
   --muted: #6b6b6b;
   --line: #e5e1d8;
-  --brand: #2b3a2f;
+  --brand: #1a2a3a;
   --brand-ink: #ffffff;
-  --accent: #b4632a;
+  --accent: #5e8a7f;
+  --accent-hover: #4d756b;
   --error: #b3261e;
-  --code-bg: #1a1a1a;
-  --code-ink: #ffd479;
+  --code-bg: #1a2a3a;
+  --code-ink: #e8d5b5;
   --radius: 10px;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06);
 }
@@ -52,20 +53,24 @@ li { margin-bottom: 0.25em; }
   z-index: 10;
 }
 
-.brand { display: flex; align-items: center; gap: 0.3rem; font-weight: 600; }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+.brand-logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+.brand-sub { font-size: 0.6rem; opacity: 0.7; font-weight: 400; width: 100%; margin-left: calc(28px + 0.3rem); margin-top: -0.2rem; }
 .btn-back {
   background: none; border: none; color: var(--brand-ink);
   font-size: 1.2rem; cursor: pointer; padding: 0.2rem 0.4rem; line-height: 1;
 }
-.brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 28px; height: 28px;
-  background: var(--brand-ink);
-  color: var(--brand);
-  border-radius: 6px;
-  font-weight: 700;
-}
+
 
 .topbar-right { display: flex; align-items: center; gap: 0.5rem; }
 .rol-badge {
@@ -115,7 +120,7 @@ main {
   color: var(--brand-ink);
   border-color: var(--brand);
 }
-.btn-primary:hover { background: #1f2c23; }
+.btn-primary:hover { background: #14202e; }
 
 .btn-ghost {
   background: transparent;
@@ -336,7 +341,7 @@ main {
   font-weight: 700;
   margin-bottom: 0.5rem;
   padding: 0.5rem 0.3rem;
-  border-bottom: 2px solid var(--brand);
+  border-bottom: 2px solid var(--accent);
   color: var(--brand);
   cursor: pointer;
   user-select: none;
@@ -407,12 +412,12 @@ main {
   line-height: 1.4;
 }
 .ph-item-origen--asignada {
-  background: #d3e8d3;
-  color: #1a5e1a;
+  background: #dce8e4;
+  color: #2a5e4a;
 }
 .ph-item-origen--robada {
   background: #dce3f0;
-  color: #2a4a7a;
+  color: #1a2a5a;
 }
 .ph-item-borrar {
   background: none; border: none; color: var(--muted);
@@ -537,7 +542,7 @@ main {
   color: var(--muted);
 }
 .btn-toggle.habilitado {
-  background: #2d6a4f;
+  background: var(--accent);
   color: #ffffff;
 }
 .paciente-sesion-info {
@@ -572,6 +577,7 @@ main {
   align-items: center;
   gap: 0.5rem;
 }
+.manual-sec-tit:hover { background: #14202e; }
 .manual-sec-tit:hover { opacity: 0.85; }
 .manual-chevron {
   display: inline-block;
