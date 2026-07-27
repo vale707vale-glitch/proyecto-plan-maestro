@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 5 (La Sombra)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        shadow: { 50: '#f5f3ff', 500: '#8b5cf6', 600: '#7c3aed', 800: '#5b21b6', 900: '#4c1d95' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #8b5cf6; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-shadow-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-shadow-600/20 border border-shadow-500/30 rounded-full text-shadow-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 5: <span class="italic text-shadow-500">La Sombra</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas S-01 a S-60. Formato de referencia cruzada para consulta rápida del terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato compacto permite al terapeuta buscar rápidamente por código (ej: <span class="code-badge">S-01</span>) y acceder a:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo clínico:</strong> Para qué sirve la carta.</li>
+                <li><strong>Procesos psicológicos:</strong> Qué mecanismos activa.</li>
+                <li><strong>Respuestas y profundización:</strong> Cómo intervenir según la reacción del paciente.</li>
+                <li><strong>Contraindicaciones:</strong> Cuándo NO usarla.</li>
+                <li><strong>Combinaciones:</strong> Qué otras cartas del sistema potencian su efecto.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-shadow-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Detección de la Sombra y Aspectos Rechazados
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas S-07 a S-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- S-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-01</span>
+                        <span class="text-2xl">⚡ 👤</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué cualidad en otra persona te irrita profundamente, y qué dice eso sobre una parte de ti que no quieres reconocer?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Acceder a la proyección de la sombra. La irritación intensa hacia otros suele señalar aspectos propios rechazados. Este es el punto de entrada clásico al trabajo junguiano.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Proyección, identificación proyectiva, conciencia de la sombra, integración de aspectos rechazados.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Proyección clara:</strong> "Me irrita la arrogancia". → <em>Profundizar:</em> "¿En qué momentos te has permitido ser arrogante, aunque sea un 1%? ¿Qué te impide reconocerlo?"</li>
+                            <li><strong>Negación total:</strong> "No tengo nada de eso". → <em>Intervención:</em> "¿Qué pasaría si esa cualidad que tanto te irrita fuera, en realidad, una parte de ti que necesita ser escuchada?"</li>
+                            <li><strong>Curiosidad:</strong> "Nunca lo pensé así". → <em>Profundizar:</em> "¿Qué te enseñaron sobre esa cualidad cuando eras niño? ¿Por qué se volvió 'mala'?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con narcisismo maligno o sin capacidad de auto-observación. Puede generar resistencia defensiva intensa.</p></div>
+                        <div><p class="font-bold text-shadow-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">C-001</span> (creencia nuclear sobre la identidad), <span class="code-badge">H-003</span> (identificación con figuras familiares).</p></div>
+                    </div>
+                </div>
+
+                <!-- S-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-02</span>
+                        <span class="text-2xl">⚡ 🎭</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tuvieras que describir la "máscara" que usas para ser aceptado por los demás, ¿cómo sería?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Identificar la persona (máscara social) y contrastarla con el self auténtico. Explorar el costo de mantener la máscara.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Persona vs. self, autenticidad, costo de la inautenticidad, diferenciación identitaria.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Conciencia clara:</strong> "Soy complaciente". → <em>Profundizar:</em> "¿Qué parte de ti queda oculta detrás de esa máscara? ¿Qué temes que pase si la quitas?"</li>
+                            <li><strong>Identificación con la máscara:</strong> "Esa soy yo". → <em>Intervención:</em> "¿Hay algún momento en que te sientes diferente a esa máscara? ¿Qué pasa ahí?"</li>
+                            <li><strong>Bloqueo:</strong> "No uso máscaras". → <em>Profundizar:</em> "¿Cómo reaccionan los demás cuando muestras algo diferente a lo que esperan?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales sin alianza terapéutica sólida. Puede sentirse como una acusación de falsedad.</p></div>
+                        <div><p class="font-bold text-shadow-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">P-007</span> (explorar roles y máscaras), <span class="code-badge">E-016</span> (brecha entre emoción sentida y expresada).</p></div>
+                    </div>
+                </div>
+
+                <!-- S-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-03</span>
+                        <span class="text-2xl">⚡ 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué lealtad invisible hacia tu familia te impide ser completamente tú mismo/a?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar las lealtades invisibles que limitan la individuación. Muchas veces repetimos destinos familiares por lealtad inconsciente.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Lealtades invisibles, diferenciación del self, individuación, conflictos de autonomía.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Lealtad al sufrimiento:</strong> "No puedo ser más feliz que mis padres". → <em>Profundizar:</em> "¿Qué pasaría si pudieras honrarlos y al mismo tiempo permitirte vivir plenamente?"</li>
+                            <li><strong>Lealtad al rol:</strong> "Soy el que cuida". → <em>Profundizar:</em> "¿Qué parte de ti quiere ser cuidada? ¿A quién traicionarías si dejaras de cuidar?"</li>
+                            <li><strong>Negación:</strong> "No tengo lealtades". → <em>Intervención:</em> "¿Qué decisiones has tomado que contradicen lo que realmente quieres?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes en proceso de duelo reciente o con conflictos familiares activos no procesados.</p></div>
+                        <div><p class="font-bold text-shadow-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-062</span> (lealtades familiares), <span class="code-badge">C-028</span> (lealtades invisibles).</p></div>
+                    </div>
+                </div>
+
+                <!-- S-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-04</span>
+                        <span class="text-2xl">⚡ 🎭</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué emoción o impulso te da más vergüenza admitir, incluso ante ti mismo/a?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Acceder a la vergüenza tóxica que mantiene aspectos de la sombra ocultos. La vergüenza es el guardián principal de la sombra.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Vergüenza tóxica, aspectos rechazados del self, integración de la sombra, autocompasión.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Admisión parcial:</strong> "La envidia". → <em>Profundizar:</em> "¿Qué te dice esa envidia sobre lo que deseas pero no te permites? ¿Quién te enseñó que era 'mala'?"</li>
+                            <li><strong>Resistencia total:</strong> "No tengo vergüenza de nada". → <em>Intervención:</em> "¿Qué pasaría si la vergüenza que sientes es precisamente por no poder admitir que tienes algo que te avergüenza?"</li>
+                            <li><strong>Exploración:</strong> "La rabia". → <em>Profundizar:</em> "¿Qué pasaría si esa rabia tiene algo importante que decirte? ¿De qué te está protegiendo?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con vergüenza tóxica severa sin recursos de autocompasión previos. Puede aumentar la vergüenza.</p></div>
+                        <div><p class="font-bold text-shadow-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">E-021</span> (diferenciar vergüenza de culpa), <span class="code-badge">C-048</span> (autocompasión).</p></div>
+                    </div>
+                </div>
+
+                <!-- S-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-05</span>
+                        <span class="text-2xl">⚡ 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué cualidad admiras profundamente en otros que sientes que tú no puedes tener o expresar?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Acceder a la "sombra dorada": talentos y potencial rechazados. No solo rechazamos lo "malo", también lo "bueno" que nos da miedo expresar.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Sombra dorada, potencial no desarrollado, proyección positiva, autopermisos.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Admiración clara:</strong> "La creatividad". → <em>Profundizar:</em> "¿Qué te impide permitirte esa creatividad? ¿Quién te dijo que no podías?"</li>
+                            <li><strong>Minimización:</strong> "Esas cosas son para otros". → <em>Intervención:</em> "¿Qué pasaría si esa cualidad que admiras ya estuviera en ti, solo que dormida?"</li>
+                            <li><strong>Exploración:</strong> "La valentía". → <em>Profundizar:</em> "¿En qué momentos pequeños ya has mostrado esa valentía? ¿Cómo la reconoces?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con depresión severa donde la comparación puede aumentar la autocrítica.</p></div>
+                        <div><p class="font-bold text-shadow-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">RE-098</span> (mapa de resiliencia), <span class="code-badge">C-006</span> (merecimiento).</p></div>
+                    </div>
+                </div>
+
+                <!-- S-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">S-06</span>
+                        <span class="text-2xl">⚡ 🎭</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué parte de ti has aprendido a ocultar para ser amado/a o aceptado/a?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar el origen adaptativo de la sombra. Muchas partes ocultas fueron sacrificadas en la infancia para mantener el vínculo con las figuras de apego.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Apego, adaptación infantil, sacrificio del self, condicionamiento relacional.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento claro:</strong> "Mi rabia". → <em>Profundizar:</em> "¿Qué pasó la primera vez que mostraste esa parte y te rechazaron? ¿Qué decidiste sobre ti?"</li>
+                            <li><strong>Confusión:</strong> "No sé, soy auténtico". → <em>Intervención:</em> "¿Hay alguna relación donde te sientes más libre de ser tú mismo? ¿Qué es diferente ahí?"</li>
+                            <li><strong>Dolor:</strong> "Mi vulnerabilidad". → <em>Profundizar:</em> "¿Qué necesitaría esa parte vulner

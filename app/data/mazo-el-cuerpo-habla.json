@@ -1,0 +1,2049 @@
+{
+  "id": "el-cuerpo-habla",
+  "nombre": "El Cuerpo Habla",
+  "numero": 7,
+  "rango": "U-01 a U-60",
+  "descripcion": "Somatizacion, conciencia corporal, regulacion del sistema nervioso, trauma y cuerpo.",
+  "cartas": [
+    {
+      "codigo": "B-01",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo pudiera hablar en este preciso instante, ¿qué frase corta te diría antes de que tú empieces a hablar?",
+      "objetivo": "Invertir la jerarquía habitual mente-cuerpo. Darle primacía a la inteligencia somática como vía de acceso al estado emocional basal, evitando la racionalización defensiva del inicio de sesión.",
+      "profundizacion": [
+        "¿En qué tono te lo diría: cansado, enojado, asustado, esperanzado?",
+        "¿Desde qué zona del cuerpo te imaginas que sale esa voz?",
+        "Si pudieras responderle con una sola palabra, ¿cuál sería?",
+        "✔ Sorpresa genuina al descubrir que \"tiene algo que decir\".",
+        "✔ Bloqueo o risa nerviosa ante la personificación del cuerpo.",
+        "✔ Respuesta inmediata y emocional (llanto, suspiro, alivio).",
+        "✔ Disociación: \"mi cuerpo no dice nada, está mudo\"."
+      ],
+      "observacion": [
+        "Sorpresa genuina al descubrir que \"tiene algo que decir\".",
+        "Bloqueo o risa nerviosa ante la personificación del cuerpo.",
+        "Respuesta inmediata y emocional (llanto, suspiro, alivio).",
+        "Disociación: \"mi cuerpo no dice nada, está mudo\"."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Rastrear la ubicación somática de la \"voz\" y acompañar los micro-movimientos que surgen al escucharla.",
+        "IFS:: Tratar la frase del cuerpo como una \"parte\" con intención propia y dialogar con ella.",
+        "Gestalt:: Amplificar el mensaje corporal convirtiéndolo en diálogo de sillas entre \"yo\" y \"mi cuerpo\"."
+      ],
+      "tarea": "Durante esta semana, tres veces al día detente 30 segundos y pregúntale a tu cuerpo: \"¿qué necesitas ahora?\". Anota la primera sensación o palabra que aparezca, sin juzgarla ni elaborarla."
+    },
+    {
+      "codigo": "B-02",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna parte de tu cuerpo que se haya sentido 'abandonada' o 'olvidada' en los últimos tiempos?",
+      "objetivo": "Explorar la desconexión corporal como síntoma de evitación, trauma no integrado o auto-neglect. Identificar zonas somáticas donde se aloja el malestar no procesado.",
+      "profundizacion": [
+        "¿Desde cuándo sentís que esa zona quedó \"afuera\" de tu cuidado?",
+        "¿Qué pasó en tu vida alrededor de ese momento?",
+        "¿Qué necesitaría esa parte para sentirse nuevamente habitada?",
+        "✔ Identificación inmediata con una zona específica (pecho, vientre, espalda).",
+        "✔ Dificultad para reconocer cualquier zona abandonada (negación somática).",
+        "✔ Emoción intensa al nombrarla (duelo, ternura, culpa).",
+        "✔ Asociación con episodios de trauma, enfermedad o sobrecarga prolongada."
+      ],
+      "observacion": [
+        "Identificación inmediata con una zona específica (pecho, vientre, espalda).",
+        "Dificultad para reconocer cualquier zona abandonada (negación somática).",
+        "Emoción intensa al nombrarla (duelo, ternura, culpa).",
+        "Asociación con episodios de trauma, enfermedad o sobrecarga prolongada."
+      ],
+      "intervenciones": [
+        "Somática:: Practicar \"habitar\" la zona con la mano, la respiración y el movimiento lento, sin forzar.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Vulnerable\" que dejó de habitar esa zona como estrategia de protección.",
+        "Humanista:: Validar el abandono como una respuesta adaptativa de supervivencia en su momento."
+      ],
+      "tarea": "Cada noche, antes de dormir, colocá tu mano sobre esa zona \"olvidada\" durante dos minutos. Respirá lento y decile internamente: \"Te veo. Volvé a casa\". Observá qué sensaciones o emociones aparecen."
+    },
+    {
+      "codigo": "B-03",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Dónde sentís hoy la tensión que tu mente todavía no quiere nombrar?",
+      "objetivo": "Bypasear la censura cognitiva usando el cuerpo como detector de contenido emocional no elaborado. Localizar la \"verdad somática\" que precede a la verbalización consciente.",
+      "profundizacion": [
+        "Si esa tensión tuviera forma, color y temperatura, ¿cómo sería?",
+        "¿Hacia dónde quiere moverse esa tensión si la dejás existir sin controlarla?",
+        "¿A qué momento de tu vida te conecta esta sensación, aunque sea lejanamente?",
+        "✔ Localización precisa acompañada de insight emocional súbito.",
+        "✔ Desplazamiento constante de la tensión (no logra fijarla).",
+        "✔ Asociación con un recuerdo específico al nombrarla.",
+        "✔ Respuesta puramente mecánica (\"los hombros, siempre los hombros\") sin resonancia emocional."
+      ],
+      "observacion": [
+        "Localización precisa acompañada de insight emocional súbito.",
+        "Desplazamiento constante de la tensión (no logra fijarla).",
+        "Asociación con un recuerdo específico al nombrarla.",
+        "Respuesta puramente mecánica (\"los hombros, siempre los hombros\") sin resonancia emocional."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Seguir el impulso de movimiento que emerge de la tensión y completar la acción defensiva interrumpida.",
+        "Focusing:: Acompañar al paciente en el proceso de \"sentir el sentido\" (felt sense) de la tensión.",
+        "Psicoanálisis:: Leer la tensión como formación de compromiso entre deseo y defensa."
+      ],
+      "tarea": "Llevá un registro corporal esta semana: cada vez que notes una tensión nueva o conocida, anotá dónde está, qué estaba pensando en ese momento y qué emoción apareció después de 3 respiraciones conscientes sobre la zona."
+    },
+    {
+      "codigo": "B-04",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo está respirando tu cuerpo ahora mismo: como si tuviera que esconderse, como si estuviera huyendo, o como si pudiera permitirse existir?",
+      "objetivo": "Evaluar el patrón respiratorio como indicador del estado del sistema nervioso autónomo. Introducir la conciencia respiratoria sin medicalizarla ni convertirla en técnica forzada.",
+      "profundizacion": [
+        "¿La respiración vive en la parte alta del pecho, en el abdomen, o está contenida en algún lugar?",
+        "¿Hay algo que tu respiración esté evitando expandirse para no sentir?",
+        "Si pudiera respirar como realmente quiere, ¿cómo sería?",
+        "✔ Respiración contenida, superficial o fragmentada (hipercontrol).",
+        "✔ Suspiros frecuentes como micro-liberaciones de tensión acumulada.",
+        "✔ Respiración abdominal profunda con capacidad de autorregulación.",
+        "✔ Cambio visible del patrón al responder la pregunta (toma de conciencia)."
+      ],
+      "observacion": [
+        "Respiración contenida, superficial o fragmentada (hipercontrol).",
+        "Suspiros frecuentes como micro-liberaciones de tensión acumulada.",
+        "Respiración abdominal profunda con capacidad de autorregulación.",
+        "Cambio visible del patrón al responder la pregunta (toma de conciencia)."
+      ],
+      "intervenciones": [
+        "Polivagal:: Usar la exhalación prolongada y el suspiro fisiológico para activar el freno vagal y regular la activación.",
+        "Bioenergética:: Trabajar la respiración completa acompañada de movimiento para liberar corazas caracteriales.",
+        "Mindfulness:: Observar la respiración tal como es, sin intentar modificarla, como práctica de aceptación."
+      ],
+      "tarea": "Durante tres momentos del día (al despertar, a la tarde y antes de dormir), observá tu respiración durante un minuto sin cambiarla. Anotá cómo era y qué estaba sintiendo en ese momento."
+    },
+    {
+      "codigo": "B-05",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Qué historia cuenta tu postura en este momento: la del que aguanta, la del que se esconde, la del que espera, o la del que ya no puede más?",
+      "objetivo": "Leer la postura corporal como narrativa encarnada de patrones relacionales y de supervivencia. Conectar la forma de ocupar el espacio con la historia vincular del paciente.",
+      "profundizacion": [
+        "¿A quién de tu historia te recuerda esta forma de sentarte o de sostenerte?",
+        "¿Qué pasaría si hoy te permitieras ocupar un poco más de espacio?",
+        "¿Qué creés que temerías si cambiaras esta postura habitual?",
+        "✔ Postura colapsada con vergüenza o agotamiento visible.",
+        "✔ Postura rígida y erguida como armadura defensiva.",
+        "✔ Insight al reconocer la postura como imitación de una figura significativa.",
+        "✔ Movimiento espontáneo de reorganización corporal al tomar conciencia."
+      ],
+      "observacion": [
+        "Postura colapsada con vergüenza o agotamiento visible.",
+        "Postura rígida y erguida como armadura defensiva.",
+        "Insight al reconocer la postura como imitación de una figura significativa.",
+        "Movimiento espontáneo de reorganización corporal al tomar conciencia."
+      ],
+      "intervenciones": [
+        "Bioenergética:: Experimentar posturas opuestas a la habitual para explorar nuevos estados emocionales.",
+        "Psicodrama:: Exagerar la postura hasta que revele su mensaje emocional oculto.",
+        "Sistémica:: Mapear de quién fue aprendida esa forma de ocupar (o no ocupar) el espacio familiar."
+      ],
+      "tarea": "Esta semana, al menos una vez al día, detectá tu postura y preguntate: \"¿qué historia está contando mi cuerpo ahora?\". Probá cambiarla conscientemente durante un minuto y observá qué emoción o pensamiento aparece."
+    },
+    {
+      "codigo": "B-06",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Hay algún gesto que hacés sin darte cuenta (tocarte el pelo, apretar las manos, cruzar las piernas) que creés que intenta calmar algo?",
+      "objetivo": "Identificar los gestos auto-regulatorios inconscientes como ventanas a la ansiedad de fondo. Transformar un gesto automático en material consciente de trabajo terapéutico.",
+      "profundizacion": [
+        "¿Qué pasaría si durante los próximos minutos te prohibís hacer ese gesto?",
+        "¿Qué sensación aparece en tu cuerpo cuando lo notás y lo frenás?",
+        "¿Desde qué edad creés que hacés este gesto?",
+        "✔ Sorpresa al descubrir que lo hace con frecuencia.",
+        "✔ Aparición de ansiedad al intentar inhibir el gesto.",
+        "✔ Recuerdo temprano asociado al gesto (escena infantil).",
+        "✔ Minimización: \"es solo una costumbre, no significa nada\"."
+      ],
+      "observacion": [
+        "Sorpresa al descubrir que lo hace con frecuencia.",
+        "Aparición de ansiedad al intentar inhibir el gesto.",
+        "Recuerdo temprano asociado al gesto (escena infantil).",
+        "Minimización: \"es solo una costumbre, no significa nada\"."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Rastrear el gesto hasta su impulso defensivo original y completar la acción protectora.",
+        "Psicoanálisis:: Leer el gesto como acto fallido o formación de compromiso que expresa un contenido reprimido.",
+        "Gestalt:: Amplificar el gesto hasta convertirlo en movimiento expresivo con voz propia."
+      ],
+      "tarea": "Elegí un gesto automático y durante esta semana, cada vez que lo notes, hacé una pausa de 10 segundos y preguntate: \"¿de qué me estoy cuidando ahora?\". Anotá las situaciones en las que aparece."
+    },
+    {
+      "codigo": "B-07",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Cómo suena tu voz cuando hablás de lo que más te duele: se quiebra, se apaga, se acelera, o se vuelve metálica?",
+      "objetivo": "Trabajar la prosodia como expresión de la regulación emocional y la autenticidad. Detectar las defensas que se alojan en el timbre, el ritmo y la intensidad de la voz.",
+      "profundizacion": [
+        "¿A quién se parece esa voz cuando se transforma así?",
+        "¿Qué pasaría si hablaras del mismo tema con tu voz más verdadera, aunque te diera miedo?",
+        "¿Qué parte de vos necesita que la voz suene de esta manera para no desbordarte?",
+        "✔ Voz monótona o plana como anestesia emocional (alexitimia).",
+        "✔ Voz acelerada y aguda como señal de hiperactivación ansiosa.",
+        "✔ Voz que se quiebra al nombrar algo específico (material conmoviendo la defensa).",
+        "✔ Voz metálica o intelectualizada como control defensivo."
+      ],
+      "observacion": [
+        "Voz monótona o plana como anestesia emocional (alexitimia).",
+        "Voz acelerada y aguda como señal de hiperactivación ansiosa.",
+        "Voz que se quiebra al nombrar algo específico (material conmoviendo la defensa).",
+        "Voz metálica o intelectualizada como control defensivo."
+      ],
+      "intervenciones": [
+        "Vocal somática:: Trabajar la resonancia de la voz en el cuerpo para recuperar la conexión con la emoción subyacente.",
+        "Psicodrama:: Repetir la frase con distintos tonos hasta que emerja el tono auténtico.",
+        "ACT:: Notar la voz defensiva sin luchar contra ella, como un intento de protección."
+      ],
+      "tarea": "Grabá durante esta semana un audio de un minuto hablando de algo importante para vos. Escuchate después y anotá: ¿qué emoción transmite tu voz? ¿Qué te gustaría que transmitiera?"
+    },
+    {
+      "codigo": "B-08",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué te pasa en el cuerpo cuando sostenés la mirada de alguien: sentís que te invade, que te ve de verdad, o que te atraviesa?",
+      "objetivo": "Explorar la relación entre contacto visual, intimidad y regulación del sistema nervioso. Detectar patrones vinculares tempranos ligados a la exposición y la vulnerabilidad.",
+      "profundizacion": [
+        "¿A quién de tu historia le resultaba peligroso sostener la mirada?",
+        "¿Qué pasaría si hoy, en este consultorio, sostuvieras mi mirada 10 segundos más de lo habitual?",
+        "¿Qué creés que vería yo si me dejaras mirarte de verdad?",
+        "✔ Evitación sostenida de la mirada con activación visible.",
+        "✔ Mirada fija sin parpadeo como hipervigilancia.",
+        "✔ Emoción al ser visto (lágrimas, rubor, sonrisa tímida).",
+        "✔ Asociación con figuras de cuidado que miraban de manera invasiva o ausente."
+      ],
+      "observacion": [
+        "Evitación sostenida de la mirada con activación visible.",
+        "Mirada fija sin parpadeo como hipervigilancia.",
+        "Emoción al ser visto (lágrimas, rubor, sonrisa tímida).",
+        "Asociación con figuras de cuidado que miraban de manera invasiva o ausente."
+      ],
+      "intervenciones": [
+        "Relacional:: Usar la mirada del terapeuta como experiencia correctiva de ser visto sin ser invadido.",
+        "Polivagal:: Trabajar la co-regulación a través del contacto visual seguro y dosificado.",
+        "Terapia de Esquemas:: Explorar el esquema de desconfianza/abuso ligado a la experiencia de ser mirado."
+      ],
+      "tarea": "Esta semana, en una conversación con alguien de confianza, sostené la mirada tres segundos más de lo que te sale naturalmente. Anotá qué sentiste en el cuerpo antes, durante y después."
+    },
+    {
+      "codigo": "B-09",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué están haciendo tus manos ahora mismo: aferrarse, esconderse, ofrecer, proteger algo, o pedir algo que no te animás a decir?",
+      "objetivo": "Leer las manos como expresión de necesidades no verbalizadas y de patrones de apego. Conectar la gestualidad manual con deseos, miedos y recursos internos.",
+      "profundizacion": [
+        "Si tus manos pudieran pedir algo por vos, ¿qué pedirían?",
+        "¿A qué edad empezaron a hacer este movimiento o a adoptar esta forma?",
+        "¿Qué pasaría si las dejaras hacer exactamente lo que quieren hacer?",
+        "✔ Manos apretadas o entrelazadas con fuerza (auto-contención).",
+        "✔ Manos que buscan contacto con el propio cuerpo o con objetos (autoregulación).",
+        "✔ Manos que se abren al hablar de ciertos temas (disponibilidad).",
+        "✔ Manos ocultas o escondidas (vergüenza, secreto)."
+      ],
+      "observacion": [
+        "Manos apretadas o entrelazadas con fuerza (auto-contención).",
+        "Manos que buscan contacto con el propio cuerpo o con objetos (autoregulación).",
+        "Manos que se abren al hablar de ciertos temas (disponibilidad).",
+        "Manos ocultas o escondidas (vergüenza, secreto)."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Seguir el impulso de las manos y completar el gesto defensivo o expresivo interrumpido.",
+        "Gestalt:: Darle voz a las manos como si fueran una parte con algo que decir.",
+        "EMDR:: Usar el movimiento de las manos como ancla de procesamiento bilateral consciente."
+      ],
+      "tarea": "Al final del día, apoyá tus manos sobre tus rodillas durante dos minutos y preguntales: \"¿qué necesitaron hoy que no les di?\". Anotá lo primero que aparezca, sin analizarlo."
+    },
+    {
+      "codigo": "B-10",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Cómo se apoyan tus pies en el suelo hoy: con seguridad, con miedo a hundirse, con ganas de salir corriendo, o sin sentirlos?",
+      "objetivo": "Evaluar el arraigo (grounding) como indicador de seguridad interna y conexión con el presente. Explorar la relación entre los pies, el sostén y la capacidad de habitar la propia vida.",
+      "profundizacion": [
+        "¿Sentís que el suelo te sostiene o que tenés que sostenerte vos para no caerte?",
+        "Si tus pies pudieran elegir, ¿hacia dónde caminarían ahora?",
+        "¿Qué necesitaría tu cuerpo para sentir que está bien estar parado aquí, en este momento?",
+        "✔ Pies desconectados, como \"flotando\" (disociación, desgrounding).",
+        "✔ Pies firmemente apoyados con sensación de presencia.",
+        "✔ Pies en tensión como preparados para huir (activación de fuga).",
+        "✔ Pies \"congelados\" o insensibles (hipoactivación dorsal vagal)."
+      ],
+      "observacion": [
+        "Pies desconectados, como \"flotando\" (disociación, desgrounding).",
+        "Pies firmemente apoyados con sensación de presencia.",
+        "Pies en tensión como preparados para huir (activación de fuga).",
+        "Pies \"congelados\" o insensibles (hipoactivación dorsal vagal)."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Ejercicios de grounding: empujar el suelo con los pies, sentir el apoyo, completar el impulso de pisar firme.",
+        "Bioenergética:: Trabajo de postura y enraizamiento para recuperar la sensación de sostén vital.",
+        "Mindfulness:: Escaneo consciente de los pies como práctica de anclaje al momento presente."
+      ],
+      "tarea": "Esta semana, caminá descalzo/a por tu casa durante cinco minutos al día sintiendo cada apoyo del pie en el suelo. Anotá cómo cambia tu estado emocional durante y después."
+    },
+    {
+      "codigo": "B-11",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué guarda tu pecho en este momento: un nudo, un vacío, una expansión, un peso, o algo que todavía no tiene nombre?",
+      "objetivo": "Acceder al centro emocional y cardíaco del cuerpo como territorio de la tristeza, el amor, el duelo y la ternura. Explorar la apertura o el cierre del corazón como indicador de disponibilidad vincular.",
+      "profundizacion": [
+        "Si esa sensación del pecho fuera un paisaje, ¿cómo sería?",
+        "¿Qué necesitás que pase para que algo de eso se afloje, aunque sea un poco?",
+        "¿A quién le pertenece originalmente este modo de cuidar (o proteger) tu pecho?",
+        "✔ Mano que va al pecho de manera espontánea al responder.",
+        "✔ Opresión con llanto contenido (duelo no elaborado).",
+        "✔ Vacío o anestesia (desconexión del centro emocional).",
+        "✔ Expansión y alivio al nombrar lo que siente."
+      ],
+      "observacion": [
+        "Mano que va al pecho de manera espontánea al responder.",
+        "Opresión con llanto contenido (duelo no elaborado).",
+        "Vacío o anestesia (desconexión del centro emocional).",
+        "Expansión y alivio al nombrar lo que siente."
+      ],
+      "intervenciones": [
+        "Focusing:: Acompañar al paciente a quedarse con la sensación del pecho hasta que revele su \"sentido sentido\".",
+        "CFT:: Activar el sistema de cuidado y afiliación mediante la mano en el pecho y la respiración cálida.",
+        "EMDR:: Instalar recurso de calidez en el pecho como ancla de seguridad interna."
+      ],
+      "tarea": "Colocá tu mano sobre el pecho tres veces al día durante un minuto. Respirá llevando el aire hacia esa zona y preguntale: \"¿qué necesitás hoy de mí?\". Anotá lo que surja."
+    },
+    {
+      "codigo": "B-12",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué te está diciendo tu estómago hoy que tu cabeza todavía no se anima a pensar?",
+      "objetivo": "Trabajar la intuición visceral (gut feeling) como conocimiento corporal previo al cognitivo. Explorar el segundo cerebro como territorio de decisiones, miedos y verdades no elaboradas.",
+      "profundizacion": [
+        "¿Es un nudo, un vacío, una acidez, un aleteo, una pesadez?",
+        "Si tu estómago pudiera votar sobre una decisión que estás evitando, ¿qué elegiría?",
+        "¿Desde cuándo no le hacés caso a lo que te dice ahí abajo?",
+        "✔ Insight inmediato al conectar el estómago con una decisión postergada.",
+        "✔ Náuseas o malestar físico al nombrar el tema evitado.",
+        "✔ Desconexión total: \"mi estómago no dice nada\".",
+        "✔ Alivio visible al reconocer la sabiduría visceral."
+      ],
+      "observacion": [
+        "Insight inmediato al conectar el estómago con una decisión postergada.",
+        "Náuseas o malestar físico al nombrar el tema evitado.",
+        "Desconexión total: \"mi estómago no dice nada\".",
+        "Alivio visible al reconocer la sabiduría visceral."
+      ],
+      "intervenciones": [
+        "Somática:: Seguir la sensación del estómago como brújula de decisiones auténticas.",
+        "IFS:: Dialogar con la \"parte visceral\" que sabe algo antes que la mente.",
+        "Terapia de Esquemas:: Identificar el modo del \"Niño Intuitivo\" que advierte sobre situaciones peligrosas."
+      ],
+      "tarea": "Antes de tomar una decisión pequeña esta semana, detenete y preguntale a tu estómago: \"¿qué sentís vos con esto?\". Anotá su respuesta y comparala con lo que tu mente eligió finalmente."
+    },
+    {
+      "codigo": "B-13",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué palabras te estás mordiendo hoy que tu mandíbula está apretando en silencio?",
+      "objetivo": "Explorar la mandíbula como territorio de lo no dicho, la rabia contenida y los límites no puestos. Conectar la tensión maseterina con palabras, gritos o verdades retenidas.",
+      "profundizacion": [
+        "Si tu mandíbula pudiera soltarse y hablar, ¿qué diría en voz alta?",
+        "¿A quién le estás aguantando algo que no te animás a decir?",
+        "¿Qué temés que pase si finalmente sueltas esas palabras?",
+        "✔ Conciencia inmediata del apretamiento al ser preguntado.",
+        "✔ Emoción intensa (rabia, bronca) al nombrar lo no dicho.",
+        "✔ Asociación con figuras autoritarias o situaciones de injusticia.",
+        "✔ Minimización: \"es que aprieto los dientes por costumbre\"."
+      ],
+      "observacion": [
+        "Conciencia inmediata del apretamiento al ser preguntado.",
+        "Emoción intensa (rabia, bronca) al nombrar lo no dicho.",
+        "Asociación con figuras autoritarias o situaciones de injusticia.",
+        "Minimización: \"es que aprieto los dientes por costumbre\"."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Permitir el movimiento de la mandíbula y acompañar el impulso de morder, gritar o decir.",
+        "Gestalt:: Usar la silla vacía para decirle a la persona implicada lo que la mandíbula está guardando.",
+        "Bioenergética:: Trabajar la expresión de la rabia a través del mordisco seguro (toalla, almohada)."
+      ],
+      "tarea": "Esta semana, cuando notes la mandíbula apretada, detenete y preguntate: \"¿qué palabra estoy reteniendo?\". Escribila en un papel, aunque no se la digas a nadie. Observá si la tensión disminuye."
+    },
+    {
+      "codigo": "B-14",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué cargas seguís sosteniendo con tus hombros que ya no te pertenecen?",
+      "objetivo": "Explorar los hombros como territorio de responsabilidades ajenas internalizadas, lealtades familiares y mandatos de \"tener que poder\". Diferenciar la carga propia de la heredada.",
+      "profundizacion": [
+        "¿De quién aprendiste a cargar cosas que no te correspondían?",
+        "¿Qué pasaría si soltaras aunque sea una de esas cargas hoy?",
+        "¿A quién temés decepcionar si tus hombros se aflojan?",
+        "✔ Hombros elevados y rígidos como armadura permanente.",
+        "✔ Suspiro de alivio al nombrar la carga ajena.",
+        "✔ Culpa o miedo al imaginar soltarla.",
+        "✔ Asociación con roles parentificados o de cuidado temprano."
+      ],
+      "observacion": [
+        "Hombros elevados y rígidos como armadura permanente.",
+        "Suspiro de alivio al nombrar la carga ajena.",
+        "Culpa o miedo al imaginar soltarla.",
+        "Asociación con roles parentificados o de cuidado temprano."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar las lealtades invisibles que mantienen los hombros cargando por otros.",
+        "Sensoriomotriz:: Movimiento de sacudida y descarga para liberar la tensión acumulada.",
+        "Terapia de Esquemas:: Trabajar el esquema de autosacrificio y el modo del \"Cuidador Punitivo\"."
+      ],
+      "tarea": "Esta semana, hacé una lista de tres \"cargas\" que llevás en los hombros. Al lado de cada una, escribí: \"¿es realmente mía?\". Probá soltar simbólicamente una de ellas durante un día entero."
+    },
+    {
+      "codigo": "B-15",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo está caliente, frío, o en una temperatura que no lográs definir? ¿A qué momento de tu vida te conecta esa temperatura?",
+      "objetivo": "Explorar la temperatura corporal como indicador del estado del sistema nervioso y como puerta a memorias implícitas de seguridad o peligro. Conectar sensación térmica con experiencias tempranas.",
+      "profundizacion": [
+        "Si esa temperatura fuera un recuerdo, ¿cuál sería?",
+        "¿Qué necesita tu cuerpo para entrar en una temperatura más acogedora?",
+        "¿Hay alguna zona de tu cuerpo que esté a una temperatura distinta al resto?",
+        "✔ Manos o pies fríos como señal de vasoconstricción por activación simpática.",
+        "✔ Calor en el rostro o el pecho al nombrar emociones intensas.",
+        "✔ Sensación de frío interno asociada a recuerdos de abandono o soledad.",
+        "✔ Diferencia térmica entre zonas (pecho frío, espalda caliente) como mapa de defensa."
+      ],
+      "observacion": [
+        "Manos o pies fríos como señal de vasoconstricción por activación simpática.",
+        "Calor en el rostro o el pecho al nombrar emociones intensas.",
+        "Sensación de frío interno asociada a recuerdos de abandono o soledad.",
+        "Diferencia térmica entre zonas (pecho frío, espalda caliente) como mapa de defensa."
+      ],
+      "intervenciones": [
+        "Somática:: Usar mantas, bebidas tibias o contacto con las manos para regular la temperatura como acto de cuidado.",
+        "EMDR:: Rastrear la sensación térmica hasta la red de memoria asociada y procesarla.",
+        "Polivagal:: Trabajar la sensación de frío dorsal vagal con movimientos de activación suave y contacto seguro."
+      ],
+      "tarea": "Durante esta semana, al menos una vez al día, registrá la temperatura general de tu cuerpo y la de zonas específicas. Anotá qué estabas pensando y sintiendo en ese momento."
+    },
+    {
+      "codigo": "B-16",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Hay algún temblor, sacudida o movimiento involuntario que tu cuerpo haya hecho últimamente y que vos hayas frenado rápido?",
+      "objetivo": "Identificar los movimientos involuntarios como intentos del sistema nervioso de completar respuestas defensivas o de liberar energía congelada. Validar la sabiduría corporal del temblor neurogénico.",
+      "profundizacion": [
+        "¿Qué estaba pasando en tu vida la última vez que apareció ese movimiento?",
+        "Si lo dejaras ocurrir sin frenarlo, ¿hacia dónde iría?",
+        "¿Qué creés que tu cuerpo está intentando hacer o soltar con ese movimiento?",
+        "✔ Temblor de manos o piernas al hablar de ciertos temas (liberación de energía).",
+        "✔ Sacudidas al terminar una sesión o un episodio de llanto (descarga).",
+        "✔ Miedo al movimiento involuntario (\"me estoy volviendo loco/a\").",
+        "✔ Alivio profundo al permitirlo acompañadamente."
+      ],
+      "observacion": [
+        "Temblor de manos o piernas al hablar de ciertos temas (liberación de energía).",
+        "Sacudidas al terminar una sesión o un episodio de llanto (descarga).",
+        "Miedo al movimiento involuntario (\"me estoy volviendo loco/a\").",
+        "Alivio profundo al permitirlo acompañadamente."
+      ],
+      "intervenciones": [
+        "TRE/Trauma Releasing:: Facilitar los temblores neurogénicos como mecanismo natural de descarga del trauma.",
+        "Sensoriomotriz:: Acompañar el movimiento involuntario hasta completar la respuesta defensiva truncada.",
+        "Somática Experiencing:: Trabajar la pendulación entre la sensación de temblor y recursos de seguridad."
+      ],
+      "tarea": "Si aparece un temblor o sacudida esta semana, no lo frenes. Acompañalo con la respiración durante 30 segundos y preguntale: \"¿qué necesitás hacer?\". Anotá qué pasó después."
+    },
+    {
+      "codigo": "B-17",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "Si tu dolor crónico (o esa molestia recurrente) tuviera un mensaje para vos, ¿cuál creés que sería?",
+      "objetivo": "Trabajar el dolor crónico o recurrente como expresión somática de contenido emocional no procesado. Explorar la intención protectora o comunicativa del síntoma corporal.",
+      "profundizacion": [
+        "¿De qué te está cuidando o protegiendo este dolor?",
+        "¿Qué pasaría si le agradecieras por su esfuerzo y le dijeras que ya podés hacerte cargo?",
+        "¿A quién de tu historia le pertenece originalmente esta forma de expresar el malestar?",
+        "✔ Insight emocional al conectar el dolor con una situación vital específica.",
+        "✔ Resistencia a ver cualquier función en el dolor (\"solo me arruina\").",
+        "✔ Asociación con modelos familiares de expresión somática del malestar.",
+        "✔ Alivio al sentirse escuchado por el propio cuerpo."
+      ],
+      "observacion": [
+        "Insight emocional al conectar el dolor con una situación vital específica.",
+        "Resistencia a ver cualquier función en el dolor (\"solo me arruina\").",
+        "Asociación con modelos familiares de expresión somática del malestar.",
+        "Alivio al sentirse escuchado por el propio cuerpo."
+      ],
+      "intervenciones": [
+        "Sistémica:: Connotación positiva del síntoma como lealtad o mensaje familiar.",
+        "IFS:: Dialogar con la \"parte dolorosa\" como protectora del sistema interno.",
+        "Psicoanálisis:: Leer el dolor como conversión de un conflicto psíquico no elaborado."
+      ],
+      "tarea": "Escribile una carta a tu dolor esta semana. Contale qué pensás de él, qué le preguntás y qué le agradecerías. Después, imaginá qué te respondería él si pudiera escribirte."
+    },
+    {
+      "codigo": "B-18",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué impulso de acción está viviendo tu cuerpo ahora mismo que tu mente todavía no se anima a ejecutar?",
+      "objetivo": "Acceder a los impulsos de acción congelados como vía de procesamiento del trauma y de reconexión con la agencia personal. Diferenciar impulso defensivo de impulso expresivo auténtico.",
+      "profundizacion": [
+        "¿Tu cuerpo quiere empujar algo, huir, abrazar, golpear, o quedarse quieto?",
+        "¿Qué pasaría si le dieras permiso de hacer ese movimiento en cámara lenta?",
+        "¿Qué edad tiene ese impulso? ¿De qué momento de tu vida proviene?",
+        "✔ Impulso de empuje asociado a situaciones de invasión o abuso.",
+        "✔ Impulso de huida vinculado a contextos de peligro no procesado.",
+        "✔ Impulso de abrazo o acercamiento como necesidad de reparación.",
+        "✔ Congelamiento total: \"no siento ningún impulso\"."
+      ],
+      "observacion": [
+        "Impulso de empuje asociado a situaciones de invasión o abuso.",
+        "Impulso de huida vinculado a contextos de peligro no procesado.",
+        "Impulso de abrazo o acercamiento como necesidad de reparación.",
+        "Congelamiento total: \"no siento ningún impulso\"."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Completar el impulso de acción en cámara lenta para restaurar la sensación de agencia.",
+        "EMDR:: Procesar la memoria traumática asociada al impulso congelado.",
+        "Somática Experiencing:: Trabajar la pendulación entre el impulso y los recursos de seguridad."
+      ],
+      "tarea": "Esta semana, en un espacio seguro, dale permiso a tu cuerpo de hacer ese impulso en cámara lenta durante dos minutos. Observá qué emociones y recuerdos aparecen. Anotalos."
+    },
+    {
+      "codigo": "B-19",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna parte de tu cuerpo que parezca 'recordar' algo que tu mente prefiere haber olvidado?",
+      "objetivo": "Explorar la memoria implícita alojada en el cuerpo como territorio de trauma no verbalizado. Conectar sensaciones corporales con experiencias tempranas no narrativizadas.",
+      "profundizacion": [
+        "¿Qué edad parece tener esa zona que recuerda?",
+        "Si pudiera hablar, ¿qué escena te mostraría?",
+        "¿Qué necesita esa zona de vos hoy para sentirse acompañada?",
+        "✔ Asociación inmediata con una escena traumática específica.",
+        "✔ Sensación de extrañeza: \"mi cuerpo sabe algo que yo no\".",
+        "✔ Emoción intensa al contactar con la memoria implícita.",
+        "✔ Disociación: \"no siento nada, está todo olvidado\"."
+      ],
+      "observacion": [
+        "Asociación inmediata con una escena traumática específica.",
+        "Sensación de extrañeza: \"mi cuerpo sabe algo que yo no\".",
+        "Emoción intensa al contactar con la memoria implícita.",
+        "Disociación: \"no siento nada, está todo olvidado\"."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar la red de memoria implícita usando la localización somática como foco.",
+        "Somática Experiencing:: Acompañar la emergencia de la memoria sin abrumar, con pendulación constante.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sanador\" para cuidar la zona que recuerda."
+      ],
+      "tarea": "Esta semana, dedicale dos minutos al día a esa zona que \"recuerda\". Apoyá tu mano ahí, respirá y decile internamente: \"Te veo. Ya no estás sola\". Anotá qué sensaciones o imágenes aparecen."
+    },
+    {
+      "codigo": "B-20",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo pudiera agradecerte algo de todo lo que has hecho por sostenerlo, ¿qué te agradecería hoy?",
+      "objetivo": "Cerrar el trabajo somático con una nota de gratitud y reconocimiento. Fomentar la autocompasión corporal y la reconciliación con el propio cuerpo como aliado, no como enemigo.",
+      "profundizacion": [
+        "¿Qué parte de tu cuerpo te ha acompañado en los momentos más difíciles sin que se lo agradecieras?",
+        "¿Cómo cambiaría tu relación con tu cuerpo si le hablaras desde la gratitud en lugar de la exigencia?",
+        "¿Qué promesa pequeña podrías hacerle a tu cuerpo esta semana para cuidarlo mejor?",
+        "✔ Emoción de ternura o llanto al reconocer el esfuerzo del cuerpo.",
+        "✔ Dificultad para agradecer (\"no hice nada, solo aguantar\").",
+        "✔ Cambio visible en la postura y la respiración al practicar la gratitud.",
+        "✔ Insight sobre la relación hostil o exigente con el propio cuerpo."
+      ],
+      "observacion": [
+        "Emoción de ternura o llanto al reconocer el esfuerzo del cuerpo.",
+        "Dificultad para agradecer (\"no hice nada, solo aguantar\").",
+        "Cambio visible en la postura y la respiración al practicar la gratitud.",
+        "Insight sobre la relación hostil o exigente con el propio cuerpo."
+      ],
+      "intervenciones": [
+        "CFT:: Practicar la autocompasión corporal como vía de activación del sistema de cuidado.",
+        "Humanista:: Validar la historia de resistencia y supervivencia que el cuerpo ha sostenido.",
+        "Mindfulness:: Escaneo corporal de gratitud como práctica de reconexión."
+      ],
+      "tarea": "Escribile una carta de agradecimiento a tu cuerpo esta semana. Contale qué reconocés de él, qué le pedís disculpas y qué le prometés. Leela en voz alta al menos una vez."
+    },
+    {
+      "codigo": "B-21",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Cómo se siente el límite de tu piel hoy: como un muro, como un filtro permeable, o como algo que ni siquiera notás?",
+      "objetivo": "Explorar la regulación de los límites corporales (boundaries) y la sensación de seguridad o vulnerabilidad en la interfaz con el entorno.",
+      "profundizacion": [
+        "¿Hay algo o alguien que sientas que traspasa ese límite sin permiso?",
+        "¿Qué necesitaría tu piel para sentirse protegida sin tener que endurecerse?",
+        "¿En qué momentos de tu historia aprendiste que tu límite no era respetado?",
+        "✔ Cruzar brazos o piernas de forma defensiva al responder.",
+        "✔ Descripción de la piel como \"demasiado delgada\" o \"inexistente\".",
+        "✔ Alivio al ser validada la necesidad de poner un límite físico.",
+        "✔ Indiferencia o desconexión total de la superficie corporal."
+      ],
+      "observacion": [
+        "Cruzar brazos o piernas de forma defensiva al responder.",
+        "Descripción de la piel como \"demasiado delgada\" o \"inexistente\".",
+        "Alivio al ser validada la necesidad de poner un límite físico.",
+        "Indiferencia o desconexión total de la superficie corporal."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Trabajar la conciencia de los límites corporales mediante el toque propioceptivo seguro.",
+        "DBT:: Entrenamiento en habilidades de efectividad interpersonal para establecer límites.",
+        "Terapia de Esquemas:: Proteger al \"Niño Vulnerable\" fortaleciendo el modo del \"Adulto Sano\"."
+      ],
+      "tarea": "Esta semana, cuando sientas que alguien o algo invade tu espacio, detente y nota la sensación en tu piel. Practica dar un pequeño paso atrás físicamente y observa cómo cambia tu estado interno."
+    },
+    {
+      "codigo": "B-22",
+      "iconos": [
+        "span",
+        "🗣️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay algo atascado en tu garganta que tu cuerpo se niega a tragar o a escupir?",
+      "objetivo": "Identificar la represión de la expresión emocional, la rabia no dicha o la verdad silenciada que se somatiza en la zona laríngea.",
+      "profundizacion": [
+        "Si ese nudo pudiera formular una frase, ¿cuál sería?",
+        "¿Qué temés que pase si finalmente lo expulsas o lo dices en voz alta?",
+        "¿A quién estás protegiendo al mantener eso atrapado en tu garganta?",
+        "✔ Carraspeo constante o tensión visible en el cuello.",
+        "✔ Voz que se quiebra o se vuelve apenas un susurro.",
+        "✔ Sensación de \"nudo\" o \"pelota\" al intentar hablar del tema.",
+        "✔ Minimización rápida: \"es solo alergia o reflujo\"."
+      ],
+      "observacion": [
+        "Carraspeo constante o tensión visible en el cuello.",
+        "Voz que se quiebra o se vuelve apenas un susurro.",
+        "Sensación de \"nudo\" o \"pelota\" al intentar hablar del tema.",
+        "Minimización rápida: \"es solo alergia o reflujo\"."
+      ],
+      "intervenciones": [
+        "Gestalt:: Amplificar la sensación y darle voz a través de la silla vacía.",
+        "Bioenergética:: Ejercicios de liberación de la mandíbula y el cuello (sonidos, bostezos provocados).",
+        "Psicoanálisis:: Explorar la censura del superyó sobre el deseo de expresión."
+      ],
+      "tarea": "Dedica 2 minutos en privado esta semana a hacer sonidos libres (suspiros, bostezos, tonos graves) para liberar la tensión laríngea. Anotá qué emoción emerge después."
+    },
+    {
+      "codigo": "B-23",
+      "iconos": [
+        "span",
+        "🎒",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué peso invisible está sosteniendo tu espalda que tus brazos ya no pueden cargar?",
+      "objetivo": "Explorar la somatización de responsabilidades ajenas, lealtades familiares y la fatiga del rol de cuidador o sostén del sistema.",
+      "profundizacion": [
+        "¿Desde qué edad sentís que tu espalda debe ser fuerte por otros?",
+        "¿Qué pasaría si te dieras permiso de doblar las rodillas y dejar caer esa carga?",
+        "¿Quién se beneficiaba de que tú fueras \"el/la fuerte\"?",
+        "✔ Postura encorvada o rigidez extrema en la columna.",
+        "✔ Llanto al reconocer que está cansado/a de sostener.",
+        "✔ Resistencia a la idea de soltar (\"si yo no, se derrumba todo\").",
+        "✔ Alivio físico visible al imaginar dejar la carga en el suelo."
+      ],
+      "observacion": [
+        "Postura encorvada o rigidez extrema en la columna.",
+        "Llanto al reconocer que está cansado/a de sostener.",
+        "Resistencia a la idea de soltar (\"si yo no, se derrumba todo\").",
+        "Alivio físico visible al imaginar dejar la carga en el suelo."
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolver simbólicamente las responsabilidades que no corresponden a cada miembro.",
+        "Sensoriomotriz:: Movimientos de oscilación y sacudida para liberar la tensión dorsal acumulada.",
+        "Terapia de Esquemas:: Desafiar el esquema de Autosacrificio y el modo Cuidador Punitivo."
+      ],
+      "tarea": "Escribí en un papel tres \"pesas\" que llevás en la espalda. Dobla el papel y dejalo físicamente en una silla vacía durante 5 minutos. Observá qué sentís al no cargarlo."
+    },
+    {
+      "codigo": "B-24",
+      "iconos": [
+        "span",
+        "👣",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Tus piernas quieren hoy echar raíces, caminar lejos, o quedarse quietas esperando que pase la tormenta?",
+      "objetivo": "Evaluar los impulsos de acción (lucha/huida/congelamiento) alojados en las extremidades inferiores y la relación con la dirección vital.",
+      "profundizacion": [
+        "Si pudieras caminar hacia cualquier lugar ahora mismo, ¿hacia dónde irían?",
+        "¿Qué te detiene cuando sentís el impulso de moverte o huir?",
+        "¿Tus piernas sienten que tienen un suelo firme bajo ellas?",
+        "✔ Movimiento constante de piernas (necesidad de descarga motora).",
+        "✔ Sensación de pesadez o \"plomo\" en las piernas (hipoactivación).",
+        "✔ Impulso de huida asociado a un recuerdo de amenaza.",
+        "✔ Estabilidad y enraizamiento al hablar de proyectos propios."
+      ],
+      "observacion": [
+        "Movimiento constante de piernas (necesidad de descarga motora).",
+        "Sensación de pesadez o \"plomo\" en las piernas (hipoactivación).",
+        "Impulso de huida asociado a un recuerdo de amenaza.",
+        "Estabilidad y enraizamiento al hablar de proyectos propios."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Completar el impulso de paso o patada en cámara lenta para restaurar la agencia.",
+        "EMDR:: Procesar memorias donde la huida fue imposible, permitiendo la conclusión motora.",
+        "Constructivismo:: Explorar metáforas de \"camino\", \"dirección\" y \"pasos a seguir\"."
+      ],
+      "tarea": "Salí a caminar 10 minutos esta semana sin destino fijo. Presta atención solo a la sensación de tus pies tocando el suelo y a hacia dónde \"quieren\" llevarte tus piernas."
+    },
+    {
+      "codigo": "B-25",
+      "iconos": [
+        "span",
+        "🌀",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué emociones o recuerdos creés que tu cadera ha decidido almacenar y no dejar ir?",
+      "objetivo": "Abordar la cadera como centro de almacenamiento de trauma, especialmente relacionado con la sexualidad, la seguridad básica y la creatividad reprimida.",
+      "profundizacion": [
+        "¿Hay una tensión, un vacío o un bloqueo en esa zona?",
+        "¿Qué pasaría si le dieras permiso a esa zona para soltar lo que guarda?",
+        "¿A qué edad o situación creés que empezó a \"cerrarse\" esta área?",
+        "✔ Rigidez extrema al sentarse o cambiar de postura.",
+        "✔ Emoción intensa (llanto, vergüenza) al mencionar la zona.",
+        "✔ Dolor físico crónico (ciática, tensión) sin causa médica clara.",
+        "✔ Desconexión total: \"no siento nada ahí\"."
+      ],
+      "observacion": [
+        "Rigidez extrema al sentarse o cambiar de postura.",
+        "Emoción intensa (llanto, vergüenza) al mencionar la zona.",
+        "Dolor físico crónico (ciática, tensión) sin causa médica clara.",
+        "Desconexión total: \"no siento nada ahí\"."
+      ],
+      "intervenciones": [
+        "Somática:: Movimientos suaves de rotación de cadera para liberar tensión crónica almacenada.",
+        "EMDR:: Procesar redes de memoria asociadas a invasiones o vulnerabilidad en la zona pélvica.",
+        "Psicoanálisis:: Explorar la represión de pulsiones o deseos alojados en lo bajo."
+      ],
+      "tarea": "Antes de dormir, acostate con las rodillas flexionadas y balancealas suavemente de lado a lado. Preguntale a tu cadera: \"¿qué necesitás soltar?\". Anotá lo que surja."
+    },
+    {
+      "codigo": "B-26",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Tu corazón late hoy con el ritmo de la urgencia, del miedo, o de una calma que recién empieza a llegar?",
+      "objetivo": "Evaluar el estado del sistema nervioso autónomo a través de la conciencia cardíaca, diferenciando entre activación simpática y regulación parasimpática.",
+      "profundizacion": [
+        "¿Podés describir el ritmo: es rápido, irregular, pesado o suave?",
+        "¿Qué mensaje te da ese latido sobre cómo estás viviendo tu semana?",
+        "¿Qué necesitaría tu corazón para latir con un poco más de tranquilidad?",
+        "✔ Taquicardia o palpitaciones al abordar temas emocionales.",
+        "✔ Mano sobre el pecho como gesto espontáneo de autoregulación.",
+        "✔ Ritmo pausado y profundo, indicador de seguridad.",
+        "✔ Miedo al propio latido (ansiedad somática o hipocondría)."
+      ],
+      "observacion": [
+        "Taquicardia o palpitaciones al abordar temas emocionales.",
+        "Mano sobre el pecho como gesto espontáneo de autoregulación.",
+        "Ritmo pausado y profundo, indicador de seguridad.",
+        "Miedo al propio latido (ansiedad somática o hipocondría)."
+      ],
+      "intervenciones": [
+        "Polivagal:: Ejercicios de estimulación vagal (ej. canto, exhalación larga) para bajar la frecuencia cardíaca.",
+        "Mindfulness:: Meditación de atención plena en el latido sin intentar modificarlo.",
+        "CFT:: Imaginar un ritmo cardíaco cálido y compasivo como recurso de calma."
+      ],
+      "tarea": "Colocá tu mano sobre el corazón 3 veces al día. Sentí el latido durante 1 minuto y decile internamente: \"Estoy aquí con vos, estás a salvo\"."
+    },
+    {
+      "codigo": "B-27",
+      "iconos": [
+        "span",
+        "🌙",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué hace tu cuerpo cuando por fin cerrás los ojos: se rinde, se alerta, o se escapa a otro lado?",
+      "objetivo": "Explorar la relación con el descanso, la vulnerabilidad del sueño y los mecanismos de hipervigilancia que impiden la desconexión.",
+      "profundizacion": [
+        "¿Qué teme tu cuerpo que pueda pasar si se entrega completamente al sueño?",
+        "¿Hay pensamientos que tu mente usa para mantener al cuerpo despierto?",
+        "¿Qué necesitaría tu entorno (o tu mente) para permitirte un descanso profundo?",
+        "✔ Ojeras, fatiga crónica y quejas de insomnio de conciliación.",
+        "✔ Hipervigilancia: \"duermo con un oído atento\".",
+        "✔ Uso de sustancias o pantallas para \"apagar\" el cerebro a la fuerza.",
+        "✔ Pesadillas recurrentes que reflejan procesamiento traumático nocturno."
+      ],
+      "observacion": [
+        "Ojeras, fatiga crónica y quejas de insomnio de conciliación.",
+        "Hipervigilancia: \"duermo con un oído atento\".",
+        "Uso de sustancias o pantallas para \"apagar\" el cerebro a la fuerza.",
+        "Pesadillas recurrentes que reflejan procesamiento traumático nocturno."
+      ],
+      "intervenciones": [
+        "TCC-I:: Higiene del sueño y reestructuración cognitiva de creencias sobre el insomnio.",
+        "Somática:: Rutinas de descenso del sistema nervioso previas a la cama (grounding, peso).",
+        "Psicoanálisis:: Análisis del contenido onírico y la resistencia a perder el control en el sueño."
+      ],
+      "tarea": "Crea un \"ritual de cierre\" de 15 minutos antes de dormir: baja las luces, dejá el celular y hacé 5 respiraciones lentas, imaginando que tu cuerpo se hunde suavemente en el colchón."
+    },
+    {
+      "codigo": "B-28",
+      "iconos": [
+        "span",
+        "🍽️",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo te pide hoy alimento real, o te pide algo que la comida no puede darle (calma, compañía, descanso)?",
+      "objetivo": "Diferenciar el hambre fisiológica del hambre emocional, explorando la función reguladora o anestésica de la conducta alimentaria.",
+      "profundizacion": [
+        "¿Dónde sentís el \"hambre\": en el estómago o en el pecho/garganta?",
+        "¿Qué emoción estás intentando llenar o tapar cuando comés sin hambre física?",
+        "¿Cómo te tratás a vos mismo cuando sentís este tipo de hambre?",
+        "✔ Culpa o vergüenza inmediata al hablar de la relación con la comida.",
+        "✔ Dificultad para identificar señales de saciedad o hambre real.",
+        "✔ Uso de la comida como único mecanismo de consuelo disponible.",
+        "✔ Restricción severa como forma de control ante el caos emocional."
+      ],
+      "observacion": [
+        "Culpa o vergüenza inmediata al hablar de la relación con la comida.",
+        "Dificultad para identificar señales de saciedad o hambre real.",
+        "Uso de la comida como único mecanismo de consuelo disponible.",
+        "Restricción severa como forma de control ante el caos emocional."
+      ],
+      "intervenciones": [
+        "Alimentación Consciente:: Ejercicios de escaneo corporal para distinguir hambre física vs. emocional.",
+        "Terapia de Esquemas:: Calmar al \"Niño Vulnerable\" con compasión en lugar de con comida.",
+        "DBT:: Habilidades de tolerancia al malestar alternativas a la conducta alimentaria."
+      ],
+      "tarea": "La próxima vez que sientas un impulso fuerte de comer, esperá 3 minutos. Preguntate: \"¿Qué necesito realmente?\". Anotá la respuesta, aunque decidas comer de todos modos."
+    },
+    {
+      "codigo": "B-29",
+      "iconos": [
+        "span",
+        "🤲",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Tus manos están hoy para construir, para soltar, para defenderte, o para pedir que te sostengan?",
+      "objetivo": "Evaluar la disposición a la acción, la receptividad al cuidado y los patrones de defensa o control alojados en las extremidades superiores.",
+      "profundizacion": [
+        "¿Tus manos están tensas, abiertas, cerradas o escondidas?",
+        "¿Qué pasaría si abrieras las palmas y dejaras de aferrarte a algo?",
+        "¿Te resulta más fácil dar con tus manos que recibir con ellas?",
+        "✔ Puños cerrados o uñas mordidas (ansiedad, agresión contenida).",
+        "✔ Manos que buscan constantemente tocar o arreglar cosas (hiperactividad).",
+        "✔ Manos que se abren al recibir validación o empatía.",
+        "✔ Dificultad para aceptar un gesto de consuelo físico o simbólico."
+      ],
+      "observacion": [
+        "Puños cerrados o uñas mordidas (ansiedad, agresión contenida).",
+        "Manos que buscan constantemente tocar o arreglar cosas (hiperactividad).",
+        "Manos que se abren al recibir validación o empatía.",
+        "Dificultad para aceptar un gesto de consuelo físico o simbólico."
+      ],
+      "intervenciones": [
+        "Gestalt:: Experimento de abrir y cerrar las manos conscientemente, notando las emociones que surgen.",
+        "Sensoriomotriz:: Trabajar el impulso de alcanzar o empujar, completando la acción truncada.",
+        "Terapia de Esquemas:: Fortalecer la capacidad del \"Adulto Sano\" para recibir cuidado."
+      ],
+      "tarea": "Esta semana, observá la postura de tus manos en diferentes momentos. Si están cerradas, abrilas suavemente y dejalas descansar sobre tus muslos durante 1 minuto. Anotá qué sentís."
+    },
+    {
+      "codigo": "B-30",
+      "iconos": [
+        "span",
+        "💧",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Dónde se quedan tus lágrimas cuando tu cuerpo decide que no es seguro llorar?",
+      "objetivo": "Explorar la represión del llanto, la anestesia emocional y los lugares del cuerpo donde se acumula la tristeza no expresada.",
+      "profundizacion": [
+        "¿Sentís presión en los ojos, un nudo en la garganta o un peso en el pecho?",
+        "¿Quién o qué te enseñó que llorar era peligroso o inaceptable?",
+        "¿Qué pasaría si dejaras que esas lágrimas cayeran ahora, en este espacio seguro?",
+        "✔ Ojos brillantes o húmedos con contención activa del llanto.",
+        "✔ Desconexión emocional: \"hace años que no lloro\".",
+        "✔ Llanto liberador al sentirse autorizado por el terapeuta.",
+        "✔ Ira o frustración dirigida hacia la propia \"debilidad\"."
+      ],
+      "observacion": [
+        "Ojos brillantes o húmedos con contención activa del llanto.",
+        "Desconexión emocional: \"hace años que no lloro\".",
+        "Llanto liberador al sentirse autorizado por el terapeuta.",
+        "Ira o frustración dirigida hacia la propia \"debilidad\"."
+      ],
+      "intervenciones": [
+        "Humanista:: Crear un espacio de aceptación incondicional donde el llanto sea bienvenido sin prisa por \"arreglarlo\".",
+        "Somática:: Acompañar la oleada de llanto con la respiración, sin bloquear la onda de descarga.",
+        "Psicoanálisis:: Explorar el mandato superyóico que prohíbe la expresión de la tristeza."
+      ],
+      "tarea": "Buscá una película, canción o poema que sepas que te conmueve. Permitite llorar en privado durante 5 minutos, notando cómo se siente tu cuerpo después de la liberación."
+    },
+    {
+      "codigo": "B-31",
+      "iconos": [
+        "span",
+        "🌀",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué mariposas, nudos o vacíos habitan tu vientre cuando pensás en la semana que viene?",
+      "objetivo": "Conectar la ansiedad anticipatoria con sus manifestaciones viscerales, validando la intuición del \"segundo cerebro\" como señal de alerta o preparación.",
+      "profundizacion": [
+        "¿Esa sensación es de miedo, de emoción, de rechazo o de incertidumbre?",
+        "¿Tu vientre se contrae o se expande al pensar en lo que se viene?",
+        "¿Qué necesita esa zona para sentir un poco más de calma ante el futuro?",
+        "✔ Síntomas gastrointestinales (colon irritable, náuseas) ligados al estrés.",
+        "✔ Contracción visible del abdomen al mencionar el futuro.",
+        "✔ Capacidad de identificar la ansiedad como una señal, no como un enemigo.",
+        "✔ Vacío o \"hueco\" asociado a la incertidumbre o la soledad."
+      ],
+      "observacion": [
+        "Síntomas gastrointestinales (colon irritable, náuseas) ligados al estrés.",
+        "Contracción visible del abdomen al mencionar el futuro.",
+        "Capacidad de identificar la ansiedad como una señal, no como un enemigo.",
+        "Vacío o \"hueco\" asociado a la incertidumbre o la soledad."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Observación curiosa de las sensaciones abdominales sin intentar eliminarlas.",
+        "Somática:: Respiración diafragmática suave para masajear y calmar el sistema nervioso entérico.",
+        "TCC:: Cuestionar las predicciones catastróficas que generan la respuesta visceral."
+      ],
+      "tarea": "Colocá una mano tibia sobre tu vientre antes de una situación que te genere ansiedad. Respirá hacia esa mano durante 1 minuto y decile: \"Estoy acá, podemos manejar esto juntos\"."
+    },
+    {
+      "codigo": "B-32",
+      "iconos": [
+        "span",
+        "🌡️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo busca hoy el calor de un refugio o el frío que adormezca lo que duele?",
+      "objetivo": "Explorar las estrategias somáticas de regulación: la búsqueda de consuelo (calor) vs. la disociación o anestesia (frío) ante el dolor emocional.",
+      "profundizacion": [
+        "¿Sentís tu cuerpo más caliente o más frío de lo habitual?",
+        "¿El frío te ayuda a no sentir, o el calor te ayuda a sentirte contenido?",
+        "¿Qué recuerdo o estado emocional te trae esta temperatura corporal?",
+        "✔ Manos heladas y pies fríos (activación simpática/vasoconstricción).",
+        "✔ Búsqueda constante de mantas o bebidas calientes (necesidad de contención).",
+        "✔ Sensación de calor sofocante asociada a la rabia o la vergüenza.",
+        "✔ Entumecimiento o frío interno (congelamiento dorsal vagal)."
+      ],
+      "observacion": [
+        "Manos heladas y pies fríos (activación simpática/vasoconstricción).",
+        "Búsqueda constante de mantas o bebidas calientes (necesidad de contención).",
+        "Sensación de calor sofocante asociada a la rabia o la vergüenza.",
+        "Entumecimiento o frío interno (congelamiento dorsal vagal)."
+      ],
+      "intervenciones": [
+        "Polivagal:: Usar estímulos térmicos seguros (agua tibia, manta con peso) para regular el estado nervioso.",
+        "Somática:: Explorar la relación entre la temperatura y la emoción subyacente sin juzgarla.",
+        "EMDR:: Instalar un recurso de \"lugar seguro\" con una sensación térmica agradable."
+      ],
+      "tarea": "Identificá qué temperatura te calma más. Esta semana, usá ese recurso (una ducha tibia, una bebida caliente o lavar tu cara con agua fría) de forma consciente, notando el cambio en tu estado."
+    },
+    {
+      "codigo": "B-33",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué pequeño movimiento repetitivo hace tu cuerpo para distraerse de algo que no quiere sentir?",
+      "objetivo": "Identificar tics, hábitos o movimientos estereotipados como mecanismos de autorregulación o evitación de afectos abrumadores.",
+      "profundizacion": [
+        "¿Cuándo notás que aparece este movimiento (morderse las uñas, mover el pie, tocarse el pelo)?",
+        "¿Qué emoción o pensamiento justo anterior parece activarlo?",
+        "¿Qué pasaría si detuvieras el movimiento y te quedaras con la sensación que intenta tapar?",
+        "✔ Movimiento automático que el paciente no notaba hasta que se le señaló.",
+        "✔ Aumento de la ansiedad al intentar inhibir el movimiento conscientemente.",
+        "✔ El movimiento actúa como una válvula de escape de tensión acumulada.",
+        "✔ Asociación del hábito con períodos de alto estrés o trauma."
+      ],
+      "observacion": [
+        "Movimiento automático que el paciente no notaba hasta que se le señaló.",
+        "Aumento de la ansiedad al intentar inhibir el movimiento conscientemente.",
+        "El movimiento actúa como una válvula de escape de tensión acumulada.",
+        "Asociación del hábito con períodos de alto estrés o trauma."
+      ],
+      "intervenciones": [
+        "TCC:: Inversión del hábito: entrenar una respuesta competitiva incompatible con el tic.",
+        "Sensoriomotriz:: Rastrear el impulso detrás del movimiento y permitir su expresión completa y consciente.",
+        "Psicoanálisis:: Interpretar el acto motor como una formación de compromiso o síntoma de conversión."
+      ],
+      "tarea": "Elegí un movimiento repetitivo que hagas. La próxima vez que ocurra, detenelo suavemente y preguntate: \"¿de qué me estoy protegiendo ahora?\". Anotá la respuesta."
+    },
+    {
+      "codigo": "B-34",
+      "iconos": [
+        "span",
+        "📏",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Cuánto espacio necesitás ocupar hoy para sentir que tu cuerpo está a salvo?",
+      "objetivo": "Evaluar la proxémica personal, la autoestima corporal y la historia de violación de límites que lleva a contraerse o a expandirse de forma defensiva.",
+      "profundizacion": [
+        "¿Te sentís cómodo ocupando el lugar donde estás, o sentís que \"molestás\"?",
+        "¿Qué pasaría si te permitieras expandirte un poco más (abrir brazos, piernas)?",
+        "¿Quién en tu historia te hizo sentir que debías hacerte pequeño/a para ser aceptado/a?",
+        "✔ Postura contraída, hombros caídos, piernas cruzadas apretadas.",
+        "✔ Pedir disculpas por ocupar espacio o por moverse.",
+        "✔ Expansión defensiva (ocupar mucho espacio para intimidar o protegerse).",
+        "✔ Alivio visible al ser invitado a ocupar más espacio en el consultorio."
+      ],
+      "observacion": [
+        "Postura contraída, hombros caídos, piernas cruzadas apretadas.",
+        "Pedir disculpas por ocupar espacio o por moverse.",
+        "Expansión defensiva (ocupar mucho espacio para intimidar o protegerse).",
+        "Alivio visible al ser invitado a ocupar más espacio en el consultorio."
+      ],
+      "intervenciones": [
+        "Bioenergética:: Ejercicios de expansión corporal para aumentar la sensación de presencia y derecho a existir.",
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza que obliga a esconderse.",
+        "Gestalt:: Experimento de ocupar físicamente más espacio en la sala y notar las resistencias."
+      ],
+      "tarea": "Esta semana, en un lugar seguro, estirá los brazos y las piernas lo más que puedas durante 30 segundos. Notá cómo se siente ocupar tu máximo espacio. Anotá la emoción que surge."
+    },
+    {
+      "codigo": "B-35",
+      "iconos": [
+        "span",
+        "📜",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué historia de supervivencia cuenta tu piel a través de sus marcas, tensiones o dolores antiguos?",
+      "objetivo": "Reconocer el cuerpo como archivo de la historia personal, validando las cicatrices (físicas o energéticas) como testimonios de resiliencia y no solo de daño.",
+      "profundizacion": [
+        "¿Hay alguna zona de tu cuerpo que guarde la memoria de un evento específico?",
+        "¿Cómo te relacionás con esa marca: con vergüenza, con indiferencia o con orgullo?",
+        "¿Qué le dirías hoy a esa parte de tu cuerpo que tuvo que soportar tanto?",
+        "✔ Tocarse o cubrir una cicatriz o zona específica al hablar del pasado.",
+        "✔ Emoción intensa (duelo, ternura) al reconocer el dolor que esa zona cargó.",
+        "✔ Disociación: \"no siento nada, esa parte de mí está muerta\".",
+        "✔ Re-significación de la marca como símbolo de fortaleza."
+      ],
+      "observacion": [
+        "Tocarse o cubrir una cicatriz o zona específica al hablar del pasado.",
+        "Emoción intensa (duelo, ternura) al reconocer el dolor que esa zona cargó.",
+        "Disociación: \"no siento nada, esa parte de mí está muerta\".",
+        "Re-significación de la marca como símbolo de fortaleza."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia corporal, pasando de \"víctima\" a \"sobreviviente\".",
+        "EMDR:: Procesar el evento traumático asociado a la marca física o dolor crónico.",
+        "Somática:: Toque consciente y respetuoso (auto-toque) para reintegrar la zona disociada."
+      ],
+      "tarea": "Mirá en el espejo una zona de tu cuerpo que tenga una marca o que haya sufrido. Agradecéle en voz alta por haberte permitido llegar hasta aquí. Anotá cómo te sentiste al hacerlo."
+    },
+    {
+      "codigo": "B-36",
+      "iconos": [
+        "span",
+        "🔋",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Tu batería corporal está hoy en modo de ahorro extremo, en sobrecalentamiento, o en recarga lenta?",
+      "objetivo": "Evaluar el nivel de energía vital y el agotamiento (burnout), normalizando los ciclos de descanso y reconociendo los límites de la capacidad de rendimiento.",
+      "profundizacion": [
+        "¿Qué te está consumiendo más energía de la que te devuelve?",
+        "¿Te sentís culpable por estar en \"modo de ahorro\"?",
+        "¿Qué pequeña acción podría ayudarte a conectar con un 5% más de energía hoy?",
+        "✔ Fatiga crónica, arrastrar las palabras, mirada apagada.",
+        "✔ Agitación y \"sobrecalentamiento\" (ansiedad productiva, incapacidad de parar).",
+        "✔ Culpa por no ser \"suficientemente productivo\".",
+        "✔ Reconocimiento honesto de la necesidad de pausa sin justificaciones."
+      ],
+      "observacion": [
+        "Fatiga crónica, arrastrar las palabras, mirada apagada.",
+        "Agitación y \"sobrecalentamiento\" (ansiedad productiva, incapacidad de parar).",
+        "Culpa por no ser \"suficientemente productivo\".",
+        "Reconocimiento honesto de la necesidad de pausa sin justificaciones."
+      ],
+      "intervenciones": [
+        "Activación Conductual:: Planificar actividades placenteras o de dominio pequeñas y graduales.",
+        "ACT:: Aceptar el estado actual de baja energía sin luchar contra él, alineando acciones con valores.",
+        "Terapia de Esquemas:: Desafiar el estándar inalcanzable del \"modo Exigente\"."
+      ],
+      "tarea": "Identificá una actividad que \"drene\" tu batería y una que la \"cargue\". Esta semana, eliminá o delegá la primera por 15 minutos y reemplazala por la segunda."
+    },
+    {
+      "codigo": "B-37",
+      "iconos": [
+        "span",
+        "💃",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo pudiera moverse libremente sin ser juzgado, ¿qué gesto o danza haría ahora?",
+      "objetivo": "Reconectar con la alegría, la espontaneidad y la expresión corporal libre, rompiendo la rigidez y la autoconciencia excesiva.",
+      "profundizacion": [
+        "¿Ese movimiento sería suave, enérgico, caótico o rítmico?",
+        "¿Qué te impide hacer ese movimiento en tu vida diaria?",
+        "¿Qué emoción necesita expresarse a través de ese gesto?",
+        "✔ Sonrisa o brillo en los ojos al imaginar la libertad de movimiento.",
+        "✔ Vergüenza o ridículo ante la idea de \"danzar\" o moverse sin propósito.",
+        "✔ Micro-movimientos espontáneos al describir la danza.",
+        "✔ Tristeza al reconocer cuánto tiempo hace que no se permite jugar con el cuerpo."
+      ],
+      "observacion": [
+        "Sonrisa o brillo en los ojos al imaginar la libertad de movimiento.",
+        "Vergüenza o ridículo ante la idea de \"danzar\" o moverse sin propósito.",
+        "Micro-movimientos espontáneos al describir la danza.",
+        "Tristeza al reconocer cuánto tiempo hace que no se permite jugar con el cuerpo."
+      ],
+      "intervenciones": [
+        "Danza Movimiento Terapia:: Facilitar la expresión emocional a través del movimiento espontáneo y no coreografiado.",
+        "Gestalt:: Amplificar el micro-movimiento que surge en la sesión hasta convertirlo en una expresión completa.",
+        "Humanista:: Crear un espacio de permiso radical para la expresión lúdica y sin juicio."
+      ],
+      "tarea": "Poné una canción que te guste en privado y mové el cuerpo como salga durante 2 minutos, sin coreografía. Observá cómo cambia tu estado de ánimo después."
+    },
+    {
+      "codigo": "B-38",
+      "iconos": [
+        "span",
+        "🧊",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿En qué momento de tu vida aprendió tu cuerpo que quedarse quieto era la única forma de sobrevivir?",
+      "objetivo": "Explorar la respuesta de congelamiento (freeze) como estrategia de supervivencia traumática, validándola y buscando su actualización en el presente.",
+      "profundizacion": [
+        "¿Cómo se siente ese \"congelamiento\" en tu cuerpo hoy (pesadez, entumecimiento, vacío)?",
+        "¿Qué temía tu cuerpo que pasaría si se movía o reaccionaba en ese momento?",
+        "¿Tu cuerpo sabe que hoy, en esta sala, ya no necesita quedarse quieto para estar a salvo?",
+        "✔ Mirada perdida, desconexión del entorno, respuesta lenta.",
+        "✔ Sensación de \"no estar ahí\" o de que el tiempo se detiene.",
+        "✔ Dificultad para acceder a palabras o emociones durante el episodio.",
+        "✔ Alivio al ser guiado suavemente de vuelta al presente (grounding)."
+      ],
+      "observacion": [
+        "Mirada perdida, desconexión del entorno, respuesta lenta.",
+        "Sensación de \"no estar ahí\" o de que el tiempo se detiene.",
+        "Dificultad para acceder a palabras o emociones durante el episodio.",
+        "Alivio al ser guiado suavemente de vuelta al presente (grounding)."
+      ],
+      "intervenciones": [
+        "Somática Experiencing:: Trabajar la pendulación entre la sensación de congelamiento y un recurso de seguridad para descongelar lentamente.",
+        "EMDR:: Procesar el evento inmovilizante que originó la respuesta de freeze.",
+        "Polivagal:: Psicoeducación sobre la respuesta dorsal vagal para eliminar la culpa por \"no haber hecho nada\"."
+      ],
+      "tarea": "Cuando sientas que te \"congelás\" o te desconectás, mové suavemente los dedos de las manos o de los pies. Decite internamente: \"Eso fue entonces, ahora estoy a salvo\"."
+    },
+    {
+      "codigo": "B-39",
+      "iconos": [
+        "span",
+        "✨",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Te permitís sentir placer corporal sin que inmediatamente aparezca la culpa o el miedo a perder el control?",
+      "objetivo": "Explorar la relación con el placer, el disfrute y la sensualidad, identificando mandatos restrictivos, culpas o traumas que bloquean la capacidad de goce.",
+      "profundizacion": [
+        "¿Qué significa para vos \"sentir placer\" (relajación, comida, sexo, descanso)?",
+        "¿Qué voz interna te dice que no lo merecés o que es peligroso?",
+        "¿Cómo sería tu vida si pudieras permitirte un 10% más de disfrute sin culpa?",
+        "✔ Incomodidad o rubor al hablar de placer o disfrute.",
+        "✔ Creencia de que el placer debe ser \"ganado\" a través del sufrimiento.",
+        "✔ Sabotaje de momentos de calma o disfrute (autoboicot).",
+        "✔ Apertura y curiosidad al explorar el derecho al bienestar corporal."
+      ],
+      "observacion": [
+        "Incomodidad o rubor al hablar de placer o disfrute.",
+        "Creencia de que el placer debe ser \"ganado\" a través del sufrimiento.",
+        "Sabotaje de momentos de calma o disfrute (autoboicot).",
+        "Apertura y curiosidad al explorar el derecho al bienestar corporal."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Explorar la prohibición superyóica del goce y la culpa inconsciente asociada.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Punitivo\" que castiga el disfrute y fortalecer el \"Niño Feliz\".",
+        "ACT:: Aceptar la presencia de la culpa mientras se elige actuar en dirección al placer valorado."
+      ],
+      "tarea": "Esta semana, elegí una actividad placentera pequeña (un baño, un café, una caminata). Hacela a propósito, sin multitarea, y cuando aparezca la culpa, decile: \"Gracias, pero hoy elijo disfrutar\"."
+    },
+    {
+      "codigo": "B-40",
+      "iconos": [
+        "span",
+        "🏠",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo fuera una casa, ¿en qué habitación te escondés hoy y cuál necesitás volver a habitar?",
+      "objetivo": "Cierre integrador del mazo. Evaluar la relación global de habitabilidad con el propio cuerpo, fomentando la reconciliación y el regreso al hogar interno.",
+      "profundizacion": [
+        "¿Cómo es esa habitación donde te escondés (oscura, pequeña, segura, solitaria)?",
+        "¿Qué habitación de tu cuerpo está cerrada con llave y necesitás abrir?",
+        "¿Qué necesitaría tu \"casa corporal\" para sentirse como un verdadero hogar hoy?",
+        "✔ Metáfora rica y reveladora sobre el estado de fragmentación o integración.",
+        "✔ Tristeza al reconocer que ha estado \"viviendo en el sótano\" (disociación).",
+        "✔ Deseo genuino de \"redecorar\" o cuidar mejor su cuerpo.",
+        "✔ Sensación de paz y coherencia al imaginar el cuerpo como un hogar seguro."
+      ],
+      "observacion": [
+        "Metáfora rica y reveladora sobre el estado de fragmentación o integración.",
+        "Tristeza al reconocer que ha estado \"viviendo en el sótano\" (disociación).",
+        "Deseo genuino de \"redecorar\" o cuidar mejor su cuerpo.",
+        "Sensación de paz y coherencia al imaginar el cuerpo como un hogar seguro."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con las \"partes\" que habitan las diferentes habitaciones del cuerpo, buscando armonía interna.",
+        "Gestalt:: Visualización guiada de recorrido por la casa corporal, abriendo puertas y limpiando espacios.",
+        "Narrativa:: Re-escribir la historia del cuerpo, pasando de \"lugar de peligro\" a \"lugar de refugio\"."
+      ],
+      "tarea": "Dibujá o escribí un plano simple de tu \"casa corporal\". Marcá con una X dónde estás hoy y con una estrella dónde querés estar. Hacé una pequeña acción esta semana para acercarte a esa estrella."
+    },
+    {
+      "codigo": "B-41",
+      "iconos": [
+        "span",
+        "👁️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué ves cuando cerrás los ojos: oscuridad, imágenes, colores, o un vacío que te asusta?",
+      "objetivo": "Explorar la relación con el mundo interno, la imaginación y la capacidad de introspección visual como indicador de procesamiento emocional y disociación.",
+      "profundizacion": [
+        "¿Esas imágenes son agradables, neutras o perturbadoras?",
+        "¿Podés controlarlas o aparecen solas?",
+        "¿Qué pasaría si te permitieras quedarte con esa oscuridad o vacío sin huir?",
+        "✔ Miedo a cerrar los ojos (trauma visual, pesadillas).",
+        "✔ Riqueza imaginativa con imágenes vívidas y simbólicas.",
+        "✔ Vacío total: \"no veo nada, está todo negro\".",
+        "✔ Imágenes intrusivas que conectan con memorias traumáticas."
+      ],
+      "observacion": [
+        "Miedo a cerrar los ojos (trauma visual, pesadillas).",
+        "Riqueza imaginativa con imágenes vívidas y simbólicas.",
+        "Vacío total: \"no veo nada, está todo negro\".",
+        "Imágenes intrusivas que conectan con memorias traumáticas."
+      ],
+      "intervenciones": [
+        "EMDR:: Trabajar con las imágenes internas como material de procesamiento bilateral.",
+        "Gestalt:: Darle voz a las imágenes que aparecen, tratándolas como partes del self.",
+        "Mindfulness:: Observar las imágenes sin juicio, como nubes que pasan por el cielo de la mente."
+      ],
+      "tarea": "Antes de dormir, cerrá los ojos durante 2 minutos y observá qué aparece. Anotá las imágenes, colores o sensaciones sin intentar controlarlas."
+    },
+    {
+      "codigo": "B-42",
+      "iconos": [
+        "span",
+        "🎵",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo tuviera una banda sonora ahora mismo, ¿qué tipo de música sonaría: lenta, acelerada, disonante, o en silencio?",
+      "objetivo": "Acceder al estado emocional a través de la metáfora musical, evaluando el ritmo interno, la armonía o el caos del sistema nervioso.",
+      "profundizacion": [
+        "¿Esa música te pertenece o sentís que es impuesta desde afuera?",
+        "¿Qué instrumento la tocaría: cuerdas, percusión, viento, o algo electrónico?",
+        "¿Qué necesitaría esa música para volverse más acogedora?",
+        "✔ Música caótica o disonante (ansiedad, sobrecarga).",
+        "✔ Melancolía en tonos menores (tristeza no elaborada).",
+        "✔ Silencio total (disociación, anestesia emocional).",
+        "✔ Música armoniosa y rítmica (regulación, bienestar)."
+      ],
+      "observacion": [
+        "Música caótica o disonante (ansiedad, sobrecarga).",
+        "Melancolía en tonos menores (tristeza no elaborada).",
+        "Silencio total (disociación, anestesia emocional).",
+        "Música armoniosa y rítmica (regulación, bienestar)."
+      ],
+      "intervenciones": [
+        "Musico-terapia:: Usar la música como herramienta de regulación y expresión emocional.",
+        "Somática:: Mover el cuerpo al ritmo de la música interna para liberar tensión.",
+        "Narrativa:: Construir una historia sobre la banda sonora del cuerpo."
+      ],
+      "tarea": "Esta semana, elegí una canción que represente cómo te sentís hoy. Escuchala conscientemente y anotá qué emociones y sensaciones corporales aparecen."
+    },
+    {
+      "codigo": "B-43",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo se siente más como un río que fluye, un lago estancado, o un mar agitado?",
+      "objetivo": "Evaluar la fluidez o el estancamiento de la energía vital y las emociones, usando la metáfora acuática para explorar el movimiento interno.",
+      "profundizacion": [
+        "¿Qué obstaculiza ese flujo: una represa, rocas, o el miedo a desbordarte?",
+        "¿Hacia dónde querés que fluya esa agua emocional?",
+        "¿Qué necesitaría tu cuerpo para sentirse como un río en movimiento?",
+        "✔ Sensación de estancamiento (depresión, bloqueo emocional).",
+        "✔ Oleaje constante e incontrolable (ansiedad, hiperactivación).",
+        "✔ Fluidez y adaptación (regulación, resiliencia).",
+        "✔ Miedo a las profundidades (evitación de emociones intensas)."
+      ],
+      "observacion": [
+        "Sensación de estancamiento (depresión, bloqueo emocional).",
+        "Oleaje constante e incontrolable (ansiedad, hiperactivación).",
+        "Fluidez y adaptación (regulación, resiliencia).",
+        "Miedo a las profundidades (evitación de emociones intensas)."
+      ],
+      "intervenciones": [
+        "Somática:: Movimientos fluidos y ondulantes para liberar el estancamiento corporal.",
+        "EMDR:: Procesar memorias que actúan como \"represas\" emocionales.",
+        "Mindfulness:: Observar las emociones como olas que vienen y van, sin aferrarse a ellas."
+      ],
+      "tarea": "Imaginá que tu cuerpo es un río. Esta semana, preguntate diariamente: \"¿Cómo fluye mi río hoy?\". Anotá qué obstáculos o corrientes encontrás."
+    },
+    {
+      "codigo": "B-44",
+      "iconos": [
+        "span",
+        "🔥",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay algún fuego interno que tu cuerpo esté intentando apagar o, por el contrario, uno que necesite ser encendido?",
+      "objetivo": "Explorar la vitalidad, la pasión y la energía creativa, identificando si hay agotamiento (fuego apagado) o inflamación emocional (fuego descontrolado).",
+      "profundizacion": [
+        "¿Qué combustible alimenta ese fuego: rabia, deseo, miedo, o amor?",
+        "¿Quién o qué intentó apagar ese fuego en tu historia?",
+        "¿Qué necesitaría ese fuego para arder de forma saludable y no destructiva?",
+        "✔ Apatía total: \"no siento nada, estoy apagado\".",
+        "✔ Fuego destructivo (ira crónica, impulsividad).",
+        "✔ Fuego creativo y vital (pasión, motivación).",
+        "✔ Miedo a encender el fuego por experiencias previas de quemadura."
+      ],
+      "observacion": [
+        "Apatía total: \"no siento nada, estoy apagado\".",
+        "Fuego destructivo (ira crónica, impulsividad).",
+        "Fuego creativo y vital (pasión, motivación).",
+        "Miedo a encender el fuego por experiencias previas de quemadura."
+      ],
+      "intervenciones": [
+        "Activación Conductual:: Re-encender el fuego mediante actividades placenteras y de dominio graduales.",
+        "Somática:: Ejercicios de descarga de la rabia contenida (golpear almohadas, gritar en privado).",
+        "Narrativa:: Re-escribir la historia del fuego interno como recurso y no como amenaza."
+      ],
+      "tarea": "Identificá una actividad que te apasione o te haya apasionado. Dedicalle 15 minutos esta semana y observá cómo cambia tu \"fuego interno\"."
+    },
+    {
+      "codigo": "B-45",
+      "iconos": [
+        "span",
+        "🌳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo fuera un árbol, ¿dónde están tus raíces, dónde están tus ramas, y qué hojas estás dejando caer esta temporada?",
+      "objetivo": "Explorar el arraigo, la expansión y los ciclos de soltar y renovar, usando la metáfora arbórea para evaluar la conexión con el pasado, el presente y el crecimiento.",
+      "profundizacion": [
+        "¿Tus raíces están profundas y seguras, o superficiales y expuestas?",
+        "¿Hacia dónde crecen tus ramas: hacia la luz, hacia otros árboles, o encogiéndose?",
+        "¿Qué hojas (creencias, relaciones, roles) necesitás soltar para que el árbol siga creciendo?",
+        "✔ Raíces débiles (inseguridad, falta de grounding).",
+        "✔ Ramas secas o rotas (pérdidas no elaboradas, duelo).",
+        "✔ Árbol frondoso y saludable (vitalidad, conexión).",
+        "✔ Miedo a soltar las hojas por temor a quedarse desnudo."
+      ],
+      "observacion": [
+        "Raíces débiles (inseguridad, falta de grounding).",
+        "Ramas secas o rotas (pérdidas no elaboradas, duelo).",
+        "Árbol frondoso y saludable (vitalidad, conexión).",
+        "Miedo a soltar las hojas por temor a quedarse desnudo."
+      ],
+      "intervenciones": [
+        "Bioenergética:: Ejercicios de grounding para fortalecer las raíces corporales.",
+        "Narrativa:: Re-escribir la historia personal como un árbol que ha sobrevivido a tormentas.",
+        "Sistémica:: Explorar las raíces familiares y las lealtades invisibles."
+      ],
+      "tarea": "Dibujá tu árbol corporal esta semana. Marcá dónde están tus raíces, tus ramas y las hojas que querés soltar. Observá cómo te sentís al hacerlo."
+    },
+    {
+      "codigo": "B-46",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo sabe hacia dónde quiere ir, o se siente perdido sin una brújula interna?",
+      "objetivo": "Evaluar la conexión con la intuición corporal, los deseos auténticos y la capacidad de orientación vital más allá de las demandas externas.",
+      "profundizacion": [
+        "¿Qué te dice tu cuerpo cuando estás en silencio y sin pantallas?",
+        "¿Hay una dirección que tu cuerpo señale aunque tu mente la dude?",
+        "¿Qué te impide confiar en esa brújula interna?",
+        "✔ Confusión total: \"no sé lo que quiero\".",
+        "✔ Brújula clara pero ignorada por miedo o culpa.",
+        "✔ Brújula que apunta en direcciones contradictorias (ambivalencia).",
+        "✔ Confianza en la intuición corporal como guía."
+      ],
+      "observacion": [
+        "Confusión total: \"no sé lo que quiero\".",
+        "Brújula clara pero ignorada por miedo o culpa.",
+        "Brújula que apunta en direcciones contradictorias (ambivalencia).",
+        "Confianza en la intuición corporal como guía."
+      ],
+      "intervenciones": [
+        "Focusing:: Acompañar al paciente a escuchar el \"sentido sentido\" del cuerpo como brújula.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sano\" para escuchar y seguir la intuición.",
+        "ACT:: Clarificar valores a través de la sensación corporal de expansión o contracción."
+      ],
+      "tarea": "Esta semana, antes de tomar una decisión, preguntale a tu cuerpo: \"¿Hacia dónde me señalás?\". Anotá la sensación y comparala con lo que tu mente eligió."
+    },
+    {
+      "codigo": "B-47",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "Cuando te mirás al espejo, ¿qué versión de vos te devuelve: un aliado, un extraño, un crítico, o alguien a quien apenas reconocés?",
+      "objetivo": "Explorar la relación con la imagen corporal, la autoestima y la identidad, evaluando si el espejo refleja aceptación, rechazo o disociación.",
+      "profundizacion": [
+        "¿Qué parte de tu reflejo te gusta y cuál evitás mirar?",
+        "¿A quién se parece esa versión que ves en el espejo?",
+        "¿Qué necesitaría ese reflejo para sentirse más querido por vos?",
+        "✔ Evitación del espejo (vergüenza, dismorfia).",
+        "✔ Crítica feroz al reflejo (autodesprecio).",
+        "✔ Extrañeza: \"no soy yo, no me reconozco\".",
+        "✔ Aceptación compasiva de la imagen corporal."
+      ],
+      "observacion": [
+        "Evitación del espejo (vergüenza, dismorfia).",
+        "Crítica feroz al reflejo (autodesprecio).",
+        "Extrañeza: \"no soy yo, no me reconozco\".",
+        "Aceptación compasiva de la imagen corporal."
+      ],
+      "intervenciones": [
+        "CFT:: Practicar la autocompasión frente al espejo, hablándose con ternura.",
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza que distorsiona la imagen.",
+        "Narrativa:: Re-escribir la historia del cuerpo como un aliado y no como un enemigo."
+      ],
+      "tarea": "Mirate al espejo durante 1 minuto al día esta semana. Decile a tu reflejo algo amable o agradecido. Anotá cómo te sentís después."
+    },
+    {
+      "codigo": "B-48",
+      "iconos": [
+        "span",
+        "🕰️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo vive en el pasado, en el presente, o en un futuro que todavía no llegó?",
+      "objetivo": "Evaluar la orientación temporal del sistema nervioso, identificando si está atrapado en memorias traumáticas, anclado en el presente o ansioso por el futuro.",
+      "profundizacion": [
+        "¿Qué recuerdos o imágenes aparecen cuando tu cuerpo se \"va\" al pasado?",
+        "¿Qué temes que pase si tu cuerpo se queda en el presente?",
+        "¿Qué necesitaría tu cuerpo para sentirse seguro en el aquí y ahora?",
+        "✔ Cuerpo congelado en el pasado (trauma no procesado).",
+        "✔ Cuerpo ansioso y proyectado al futuro (ansiedad anticipatoria).",
+        "✔ Cuerpo presente y regulado (ventana de tolerancia).",
+        "✔ Oscilación constante entre pasado, presente y futuro."
+      ],
+      "observacion": [
+        "Cuerpo congelado en el pasado (trauma no procesado).",
+        "Cuerpo ansioso y proyectado al futuro (ansiedad anticipatoria).",
+        "Cuerpo presente y regulado (ventana de tolerancia).",
+        "Oscilación constante entre pasado, presente y futuro."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar las memorias traumáticas que mantienen al cuerpo en el pasado.",
+        "Mindfulness:: Anclar al cuerpo en el presente a través de los sentidos.",
+        "Somática:: Ejercicios de grounding para traer al cuerpo al aquí y ahora."
+      ],
+      "tarea": "Tres veces al día, detenete y preguntate: \"¿Dónde está mi cuerpo ahora?\". Si no está en el presente, traelo suavemente con 3 respiraciones conscientes."
+    },
+    {
+      "codigo": "B-49",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué máscara usa tu cuerpo para ocultar lo que realmente siente: la del fuerte, la del indiferente, la del complaciente, o la del invisible?",
+      "objetivo": "Identificar las máscaras corporales y las defensas que el cuerpo usa para ocultar la vulnerabilidad, evaluando el costo de sostenerlas.",
+      "profundizacion": [
+        "¿Qué pasaría si te quitaras esa máscara aunque sea por 5 minutos?",
+        "¿Quién te enseñó a usar esa máscara para sobrevivir?",
+        "¿Qué emoción o verdad está escondida detrás de esa máscara?",
+        "✔ Postura rígida y controlada (máscara del fuerte).",
+        "✔ Expresión plana y desconectada (máscara del indiferente).",
+        "✔ Sonrisa forzada y cuerpo tenso (máscara del complaciente).",
+        "✔ Alivio al ser autorizado a quitarse la máscara."
+      ],
+      "observacion": [
+        "Postura rígida y controlada (máscara del fuerte).",
+        "Expresión plana y desconectada (máscara del indiferente).",
+        "Sonrisa forzada y cuerpo tenso (máscara del complaciente).",
+        "Alivio al ser autorizado a quitarse la máscara."
+      ],
+      "intervenciones": [
+        "Gestalt:: Experimento de quitarse la máscara físicamente y explorar lo que aparece.",
+        "Psicodrama:: Representar las diferentes máscaras y dialogar con ellas.",
+        "Humanista:: Crear un espacio de aceptación incondicional donde no sea necesario usar máscaras."
+      ],
+      "tarea": "Esta semana, en un momento seguro, preguntate: \"¿Qué máscara estoy usando ahora?\". Probá quitártela durante 5 minutos y observá qué emoción aparece."
+    },
+    {
+      "codigo": "B-50",
+      "iconos": [
+        "span",
+        "🧩",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué piezas de tu cuerpo sentís que están desconectadas o que no te pertenecen del todo?",
+      "objetivo": "Explorar la fragmentación corporal y la disociación, identificando las zonas del cuerpo que han sido \"abandonadas\" o \"desconectadas\" como estrategia de supervivencia.",
+      "profundizacion": [
+        "¿Desde cuándo sentís que esa zona no te pertenece?",
+        "¿Qué pasó en tu vida que hizo que tu cuerpo se \"desconectara\" de esa parte?",
+        "¿Qué necesitaría esa zona para volver a sentirse parte de vos?",
+        "✔ Desconexión de zonas específicas (pecho, pelvis, abdomen).",
+        "✔ Sensación de cuerpo fragmentado o \"roto\".",
+        "✔ Alivio al comenzar a reconectar con las zonas desconectadas.",
+        "✔ Resistencia a reintegrar esas partes por miedo al dolor."
+      ],
+      "observacion": [
+        "Desconexión de zonas específicas (pecho, pelvis, abdomen).",
+        "Sensación de cuerpo fragmentado o \"roto\".",
+        "Alivio al comenzar a reconectar con las zonas desconectadas.",
+        "Resistencia a reintegrar esas partes por miedo al dolor."
+      ],
+      "intervenciones": [
+        "Somática:: Trabajo gradual de reconexión con las zonas desconectadas mediante el toque consciente.",
+        "IFS:: Dialogar con las \"partes\" que habitan esas zonas desconectadas.",
+        "EMDR:: Procesar las memorias traumáticas asociadas a la desconexión."
+      ],
+      "tarea": "Elegí una zona desconectada y dedicale 2 minutos al día esta semana. Apoyá tu mano ahí, respirá y decile: \"Te veo. Volvé a casa\". Anotá qué sensaciones aparecen."
+    },
+    {
+      "codigo": "B-51",
+      "iconos": [
+        "span",
+        "🎨",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo pudiera pintarse a sí mismo con colores, ¿qué colores usaría hoy y qué formas tendrían?",
+      "objetivo": "Acceder al estado emocional a través de la metáfora visual y cromática, evaluando la vitalidad, la emoción y la energía corporal.",
+      "profundizacion": [
+        "¿Esos colores son cálidos, fríos, brillantes o apagados?",
+        "¿Las formas son suaves, angulares, fluidas o fragmentadas?",
+        "¿Qué necesitaría ese cuadro corporal para sentirse más completo?",
+        "✔ Colores oscuros y formas caóticas (dolor, confusión).",
+        "✔ Colores brillantes y formas armónicas (vitalidad, bienestar).",
+        "✔ Ausencia de color: \"todo es gris o negro\" (depresión, anestesia).",
+        "✔ Insight al descubrir la conexión entre colores y emociones."
+      ],
+      "observacion": [
+        "Colores oscuros y formas caóticas (dolor, confusión).",
+        "Colores brillantes y formas armónicas (vitalidad, bienestar).",
+        "Ausencia de color: \"todo es gris o negro\" (depresión, anestesia).",
+        "Insight al descubrir la conexión entre colores y emociones."
+      ],
+      "intervenciones": [
+        "Arte terapia:: Pintar o dibujar el cuerpo con los colores que emergen, externalizando el estado interno.",
+        "Somática:: Usar los colores como guía para explorar las zonas del cuerpo que los \"necesitan\".",
+        "Gestalt:: Darle voz a los colores y formas como partes del self."
+      ],
+      "tarea": "Dibujá o pintá tu cuerpo con los colores que sentís hoy. No busques realismo, solo expresión. Anotá qué emociones surgen al hacerlo."
+    },
+    {
+      "codigo": "B-52",
+      "iconos": [
+        "span",
+        "🔗",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna cadena invisible que tu cuerpo arrastre y que te impida moverte libremente?",
+      "objetivo": "Explorar las lealtades familiares, los mandatos internalizados y las ataduras emocionales que limitan la libertad corporal y vital.",
+      "profundizacion": [
+        "¿A quién o a qué te atan esas cadenas?",
+        "¿Qué pasaría si rompieras хотя sea un eslabón?",
+        "¿Qué temés que pase si te liberás de esas cadenas?",
+        "✔ Sensación de pesadez o limitación en el movimiento.",
+        "✔ Asociación con figuras familiares o mandatos culturales.",
+        "✔ Miedo a la libertad o a la traición al romper las cadenas.",
+        "✔ Alivio al reconocer y comenzar a soltar las ataduras."
+      ],
+      "observacion": [
+        "Sensación de pesadez o limitación en el movimiento.",
+        "Asociación con figuras familiares o mandatos culturales.",
+        "Miedo a la libertad o a la traición al romper las cadenas.",
+        "Alivio al reconocer y comenzar a soltar las ataduras."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar las lealtades invisibles y devolver simbólicamente las cargas ajenas.",
+        "Gestalt:: Experimento de romper físicamente una cadena simbólica (cuerda, papel).",
+        "Narrativa:: Re-escribir la historia personal como un proceso de liberación."
+      ],
+      "tarea": "Identificá una \"cadena\" que te limita esta semana. Escribí en un papel qué es y a quién te ata. Después, rompé el papel simbólicamente y observá qué sentís."
+    },
+    {
+      "codigo": "B-53",
+      "iconos": [
+        "span",
+        "🌬️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo se siente como una vela encendida, una brasa apagada, o un incendio descontrolado?",
+      "objetivo": "Evaluar el nivel de energía vital, la regulación del sistema nervioso y la capacidad de mantener un equilibrio entre la activación y el descanso.",
+      "profundizacion": [
+        "¿Qué está alimentando o apagando esa llama?",
+        "¿Hay algo que necesite arder más o menos?",
+        "¿Qué necesitaría tu cuerpo para mantener una llama estable y cálida?",
+        "✔ Vela encendida pero vacilante (inestabilidad, inseguridad).",
+        "✔ Brasa apagada (agotamiento, depresión).",
+        "✔ Incendio descontrolado (ansiedad, hiperactivación).",
+        "✔ Llama estable y cálida (regulación, bienestar)."
+      ],
+      "observacion": [
+        "Vela encendida pero vacilante (inestabilidad, inseguridad).",
+        "Brasa apagada (agotamiento, depresión).",
+        "Incendio descontrolado (ansiedad, hiperactivación).",
+        "Llama estable y cálida (regulación, bienestar)."
+      ],
+      "intervenciones": [
+        "Polivagal:: Regular el sistema nervioso para mantener la llama en un estado óptimo.",
+        "Somática:: Ejercicios de activación o calmado según el estado de la llama.",
+        "Mindfulness:: Observar la llama interna sin intentar apagarla ni avivarla."
+      ],
+      "tarea": "Tres veces al día, preguntate: \"¿Cómo está mi llama hoy?\". Anotá qué la alimenta o la apaga, y hacé un pequeño ajuste para cuidarla."
+    },
+    {
+      "codigo": "B-54",
+      "iconos": [
+        "span",
+        "🗝️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Qué puerta de tu cuerpo está cerrada con llave y qué llave necesitarías para abrirla?",
+      "objetivo": "Explorar las zonas corporales bloqueadas o protegidas, identificando las emociones, memorias o recursos necesarios para acceder a ellas.",
+      "profundizacion": [
+        "¿Qué hay detrás de esa puerta cerrada?",
+        "¿Quién o qué puso esa llave y por qué?",
+        "¿Qué necesitarías sentir para animarte a abrir esa puerta?",
+        "✔ Puerta cerrada por miedo al dolor o al trauma.",
+        "✔ Llave perdida o inaccesible (desesperanza).",
+        "✔ Puerta entreabierta con curiosidad por explorar.",
+        "✔ Alivio al reconocer que la puerta puede abrirse gradualmente."
+      ],
+      "observacion": [
+        "Puerta cerrada por miedo al dolor o al trauma.",
+        "Llave perdida o inaccesible (desesperanza).",
+        "Puerta entreabierta con curiosidad por explorar.",
+        "Alivio al reconocer que la puerta puede abrirse gradualmente."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar las memorias traumáticas que mantienen la puerta cerrada.",
+        "Somática:: Trabajo gradual de apertura con recursos de seguridad.",
+        "Gestalt:: Dialogar con la puerta y la llave como partes del self."
+      ],
+      "tarea": "Imaginá esa puerta cerrada en tu cuerpo. Esta semana, acercate a ella sin intentar abrirla todavía. Preguntale: \"¿Qué necesitás para sentirte segura?\". Anotá lo que surja."
+    },
+    {
+      "codigo": "B-55",
+      "iconos": [
+        "span",
+        "🌈",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué arcoíris interno necesita aparecer en tu cuerpo después de la tormenta?",
+      "objetivo": "Fomentar la esperanza, la resiliencia y la búsqueda de recursos internos después de períodos difíciles, validando el proceso de sanación.",
+      "profundizacion": [
+        "¿Qué colores tendría ese arcoíris: alegría, paz, amor, creatividad?",
+        "¿Qué necesita pasar para que ese arcoíris aparezca?",
+        "¿Ya hay algún color de ese arcoíris asomando en tu cuerpo?",
+        "✔ Dificultad para imaginar el arcoíris (desesperanza).",
+        "✔ Colores específicos que aparecen con claridad (recursos).",
+        "✔ Alivio al reconocer que ya hay colores asomando.",
+        "✔ Conexión con la resiliencia y la capacidad de sanación."
+      ],
+      "observacion": [
+        "Dificultad para imaginar el arcoíris (desesperanza).",
+        "Colores específicos que aparecen con claridad (recursos).",
+        "Alivio al reconocer que ya hay colores asomando.",
+        "Conexión con la resiliencia y la capacidad de sanación."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia como un proceso de tormenta y arcoíris.",
+        "Activación Conductual:: Identificar y potenciar los \"colores\" que ya están presentes.",
+        "CFT:: Imaginar el arcoíris como un recurso de compasión y esperanza."
+      ],
+      "tarea": "Esta semana, identificá un \"color\" de tu arcoíris interno (una emoción, actividad o recurso positivo). Dedicalé 10 minutos al día y observá cómo se expande."
+    },
+    {
+      "codigo": "B-56",
+      "iconos": [
+        "span",
+        "🧬",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Qué rasgo corporal heredaste de tu familia que hoy querés honrar, y cuál necesitás transformar?",
+      "objetivo": "Explorar la herencia corporal familiar, las lealtades invisibles y la posibilidad de diferenciar la propia identidad corporal de la familiar.",
+      "profundizacion": [
+        "¿Qué gesto, postura o tensión repetís sin darte cuenta de algún familiar?",
+        "¿Qué parte de tu cuerpo sentís que \"no te pertenece\" del todo?",
+        "¿Qué necesitarías para transformar ese legado sin traicionar a tu familia?",
+        "✔ Reconocimiento inmediato de gestos heredados (risa, llanto, postura).",
+        "✔ Culpa al imaginar transformar un rasgo familiar.",
+        "✔ Orgullo al honrar la fortaleza corporal de los ancestros.",
+        "✔ Confusión entre lo propio y lo heredado."
+      ],
+      "observacion": [
+        "Reconocimiento inmediato de gestos heredados (risa, llanto, postura).",
+        "Culpa al imaginar transformar un rasgo familiar.",
+        "Orgullo al honrar la fortaleza corporal de los ancestros.",
+        "Confusión entre lo propio y lo heredado."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar el genograma corporal y las lealtades invisibles.",
+        "Constelaciones:: Honrar simbólicamente el legado y diferenciar lo propio.",
+        "Narrativa:: Re-escribir la historia corporal como una evolución, no una repetición."
+      ],
+      "tarea": "Identificá un rasgo corporal heredado. Escribí una carta agradeciendo lo que te dio y declarando qué querés transformar. Leela en voz alta."
+    },
+    {
+      "codigo": "B-57",
+      "iconos": [
+        "span",
+        "🕊️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de tu cuerpo necesita ser perdonada por haber sobrevivido como pudo?",
+      "objetivo": "Trabajar la autocompasión corporal, el perdón a las partes que se \"defendieron mal\" o que cargan culpas por decisiones de supervivencia.",
+      "profundizacion": [
+        "¿Qué parte de tu cuerpo juzgás más duramente?",
+        "¿Qué hizo esa parte para protegerte que hoy te avergüenza?",
+        "¿Qué le dirías si pudieras hablarle con ternura en lugar de crítica?",
+        "✔ Llanto al reconocer el esfuerzo de supervivencia del cuerpo.",
+        "✔ Resistencia al perdón (\"no merezco compasión\").",
+        "✔ Alivio físico al soltar la crítica interna.",
+        "✔ Asociación con traumas donde el cuerpo \"no hizo lo suficiente\"."
+      ],
+      "observacion": [
+        "Llanto al reconocer el esfuerzo de supervivencia del cuerpo.",
+        "Resistencia al perdón (\"no merezco compasión\").",
+        "Alivio físico al soltar la crítica interna.",
+        "Asociación con traumas donde el cuerpo \"no hizo lo suficiente\"."
+      ],
+      "intervenciones": [
+        "CFT:: Practicar la autocompasión dirigida a la parte juzgada del cuerpo.",
+        "IFS:: Dialogar con la \"parte exiliada\" que carga la vergüenza.",
+        "EMDR:: Procesar la memoria donde el cuerpo fue criticado o falló."
+      ],
+      "tarea": "Elegí una parte de tu cuerpo que juzgues. Apoyá tu mano ahí y decile: \"Gracias por haberme protegido como pudiste. Te perdono. Te acepto\". Anotá qué sentís."
+    },
+    {
+      "codigo": "B-58",
+      "iconos": [
+        "span",
+        "💫",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué cualidad de tu cuerpo todavía no te animaste a celebrar?",
+      "objetivo": "Fomentar el reconocimiento de los recursos corporales, la autoestima positiva y la gratitud hacia el cuerpo como aliado.",
+      "profundizacion": [
+        "¿Qué hizo tu cuerpo por vos que nadie más podría haber hecho?",
+        "¿Qué te impide celebrar esa cualidad en voz alta?",
+        "¿Cómo cambiaría tu vida si le hablaras a tu cuerpo desde el agradecimiento?",
+        "✔ Dificultad extrema para reconocer cualidades positivas.",
+        "✔ Emoción al descubrir fortalezas no reconocidas.",
+        "✔ Cambio en la postura y respiración al practicar la gratitud.",
+        "✔ Insight sobre la relación hostil con el propio cuerpo."
+      ],
+      "observacion": [
+        "Dificultad extrema para reconocer cualidades positivas.",
+        "Emoción al descubrir fortalezas no reconocidas.",
+        "Cambio en la postura y respiración al practicar la gratitud.",
+        "Insight sobre la relación hostil con el propio cuerpo."
+      ],
+      "intervenciones": [
+        "CFT:: Practicar la autocompasión y el reconocimiento de fortalezas.",
+        "Narrativa:: Re-escribir la historia del cuerpo como aliado y no como enemigo.",
+        "Humanista:: Validar la historia de resistencia y supervivencia corporal."
+      ],
+      "tarea": "Escribí una lista de 5 cualidades de tu cuerpo que nunca celebraste. Leela en voz alta frente al espejo cada mañana esta semana."
+    },
+    {
+      "codigo": "B-59",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué promesa pequeña le harías hoy a tu cuerpo para los próximos 30 días?",
+      "objetivo": "Establecer un compromiso realista de autocuidado corporal, fomentando la coherencia entre intención y acción.",
+      "profundizacion": [
+        "¿Qué necesita tu cuerpo que hasta ahora no le has dado?",
+        "¿Qué te impide cumplir las promesas que te haces?",
+        "¿Cómo sabrás que esta promesa es diferente a las anteriores?",
+        "✔ Promesas grandiosas e irrealistas (sabotaje).",
+        "✔ Compromisos pequeños y concretos (viabilidad).",
+        "✔ Miedo a fallar otra vez.",
+        "✔ Determinación serena y realista."
+      ],
+      "observacion": [
+        "Promesas grandiosas e irrealistas (sabotaje).",
+        "Compromisos pequeños y concretos (viabilidad).",
+        "Miedo a fallar otra vez.",
+        "Determinación serena y realista."
+      ],
+      "intervenciones": [
+        "ACT:: Alinear la promesa con los valores profundos del paciente.",
+        "TCC:: Diseñar la promesa como un hábito pequeño y medible.",
+        "Motivacional:: Explorar la discrepancia entre el cuidado deseado y el real."
+      ],
+      "tarea": "Escribí tu promesa en un papel y firmala. Colgala en un lugar visible. Cada día, marcá con una X si la cumpliste. Al final de los 30 días, evaluá cómo te sentís."
+    },
+    {
+      "codigo": "B-60",
+      "iconos": [
+        "span",
+        "🏡",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo fuera un hogar, ¿cómo lo decorarías hoy para que te dé ganas de quedarte a vivir en él?",
+      "objetivo": "Cierre integrador del mazo. Evaluar la relación global de habitabilidad con el propio cuerpo, fomentando la reconciliación y el regreso al hogar interno.",
+      "profundizacion": [
+        "¿Qué habitación de tu \"casa corporal\" necesita más luz o más orden?",
+        "¿Qué muebles viejos (creencias, tensiones) necesitás sacar?",
+        "¿Qué ritual cotidiano harías para sentirte en casa dentro de tu cuerpo?",
+        "✔ Metáfora rica y reveladora sobre el estado de fragmentación o integración.",
+        "✔ Tristeza al reconocer que ha estado \"viviendo en el sótano\" (disociación).",
+        "✔ Deseo genuino de \"redecorar\" o cuidar mejor su cuerpo.",
+        "✔ Sensación de paz y coherencia al imaginar el cuerpo como un hogar seguro."
+      ],
+      "observacion": [
+        "Metáfora rica y reveladora sobre el estado de fragmentación o integración.",
+        "Tristeza al reconocer que ha estado \"viviendo en el sótano\" (disociación).",
+        "Deseo genuino de \"redecorar\" o cuidar mejor su cuerpo.",
+        "Sensación de paz y coherencia al imaginar el cuerpo como un hogar seguro."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con las \"partes\" que habitan las diferentes habitaciones del cuerpo.",
+        "Gestalt:: Visualización guiada de recorrido por la casa corporal, abriendo puertas.",
+        "Narrativa:: Re-escribir la historia del cuerpo, pasando de \"lugar de peligro\" a \"lugar de refugio\"."
+      ],
+      "tarea": "Dibujá o escribí un plano simple de tu \"casa corporal\". Marcá con una X dónde estás hoy y con una estrella dónde querés estar. Hacé una pequeña acción esta semana para acercarte a esa estrella."
+    }
+  ]
+}

@@ -1,0 +1,1029 @@
+{
+  "id": "cartas-del-terapeuta",
+  "nombre": "Cartas del Terapeuta",
+  "numero": 13,
+  "rango": "T-01 a T-60",
+  "descripcion": "Cartas de uso exclusivo del profesional: supervision, autocuidado, contratransferencia y recursos del terapeuta.",
+  "cartas": [
+    {
+      "codigo": "T-01",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "⚖️",
+        "span"
+      ],
+      "pregunta": "¿Estoy intentando 'salvar' a este paciente porque él me lo pide, o porque yo necesito sentirme útil o indispensable?",
+      "objetivo": "Identificar la contratransferencia de rescate y la trampa del \"Salvador\". Recuperar los límites del encuadre terapéutico y devolver la responsabilidad del cambio al paciente.",
+      "profundizacion": [
+        "¿Qué temo que pasaría si le devuelvo la responsabilidad de su propio proceso?",
+        "¿A qué figura de mi propia historia estoy intentando \"rescatar\" a través de este paciente?",
+        "¿Cómo cambiaría la dinámica si yo me permitiera ser solo un \"facilitador\" y no el \"héroe\" de su historia?",
+        "✔ Sientes agotamiento desproporcionado después de la sesión.",
+        "✔ Te quedas pensando en el paciente fuera del horario laboral de forma obsesiva.",
+        "✔ Sientes frustración o decepción cuando el paciente no sigue tus \"consejos\".",
+        "✔ Tiendes a alargar las sesiones o a bajar tus honorarios inconscientemente."
+      ],
+      "observacion": [
+        "Sientes agotamiento desproporcionado después de la sesión.",
+        "Te quedas pensando en el paciente fuera del horario laboral de forma obsesiva.",
+        "Sientes frustración o decepción cuando el paciente no sigue tus \"consejos\".",
+        "Tiendes a alargar las sesiones o a bajar tus honorarios inconscientemente."
+      ],
+      "intervenciones": [
+        "Supervisión:: Llevar el caso a consulta para analizar la contratransferencia de rescate.",
+        "Análisis Transaccional:: Identificar si estás cayendo en el rol de \"Salvador\" del triángulo dramático.",
+        "Terapia de Esquemas:: Trabajar tu propio esquema de \"Sacrificio\" o \"Estándares Inalcanzables\"."
+      ],
+      "tarea": "Antes de la próxima sesión con este paciente, escribe en tu bitácora: \"Su proceso es su responsabilidad. Mi rol es acompañar, no cargar con su mochila\". Léelo en voz alta para anclar el límite."
+    },
+    {
+      "codigo": "T-02",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Qué paciente me genera una aversión o rechazo silencioso que no me animo a nombrar, ni siquiera en supervisión?",
+      "objetivo": "Identificar la contratransferencia negativa o de rechazo. Explorar cómo la aversión hacia ciertos pacientes puede llevar a la evitación, al distanciamiento emocional o a la atención deficiente.",
+      "profundizacion": [
+        "¿Qué rasgo de este paciente me resulta tan incómodo? (¿Es arrogancia, victimización, manipulación, necesidad?).",
+        "¿A quién de mi propia historia me recuerda este paciente?",
+        "¿Cómo puedo trabajar con esta aversión sin que afecte la calidad de mi atención?",
+        "✔ Sientes alivio cuando el paciente cancela una sesión.",
+        "✔ Tiendes a acortar las sesiones o a \"olvidarte\" de devolver llamadas.",
+        "✔ Notas que tu tono de voz es más frío o distante con este paciente.",
+        "✔ Evitas pensar en el caso durante la supervisión o la planificación."
+      ],
+      "observacion": [
+        "Sientes alivio cuando el paciente cancela una sesión.",
+        "Tiendes a acortar las sesiones o a \"olvidarte\" de devolver llamadas.",
+        "Notas que tu tono de voz es más frío o distante con este paciente.",
+        "Evitas pensar en el caso durante la supervisión o la planificación."
+      ],
+      "intervenciones": [
+        "Supervisión obligatoria:: Traer el caso a consulta, aunque te avergüence. Es la única forma de procesar la contratransferencia.",
+        "Terapia personal:: Explorar qué heridas propias están siendo activadas por este paciente.",
+        "Re-encuadre:: Si la aversión es insuperable, considerar la derivación ética a otro profesional."
+      ],
+      "tarea": "Escribe en tu bitácora, sin censura: \"Lo que más me molesta de este paciente es...\". Luego pregúntate: \"¿Dónde he visto esto en mí o en mi vida?\". No compartas esta reflexión con nadie, es solo para ti."
+    },
+    {
+      "codigo": "T-03",
+      "iconos": [
+        "span",
+        "🔋",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Estoy experimentando fatiga por compasión o burnout, y qué señales de mi cuerpo me lo están gritando hace semanas?",
+      "objetivo": "Prevenir el desgaste profesional mediante la detección temprana del burnout. Validar la fatiga por compasión como un riesgo real de la profesión, no como una debilidad personal.",
+      "profundizacion": [
+        "¿Cuándo fue la última vez que sentiste genuino entusiasmo por tu trabajo?",
+        "¿Qué parte de tu cuerpo está cargando el peso emocional de tus pacientes (espalda, mandíbula, estómago)?",
+        "¿Qué te impide pedir ayuda, reducir tu carga o tomarte un descanso real?",
+        "✔ Sientes cinismo o irritación al escuchar los problemas de los pacientes.",
+        "✔ Te cuesta concentrarte o recordar detalles de las sesiones.",
+        "✔ Sientes agotamiento incluso después de dormir bien.",
+        "✔ Has perdido el interés por la formación continua o la lectura clínica."
+      ],
+      "observacion": [
+        "Sientes cinismo o irritación al escuchar los problemas de los pacientes.",
+        "Te cuesta concentrarte o recordar detalles de las sesiones.",
+        "Sientes agotamiento incluso después de dormir bien.",
+        "Has perdido el interés por la formación continua o la lectura clínica."
+      ],
+      "intervenciones": [
+        "Autocuidado radical:: Reducir la carga de pacientes, aumentar los espacios entre sesiones y proteger tus días libres.",
+        "Somática:: Retomar prácticas de regulación corporal (yoga, meditación, ejercicio, masajes).",
+        "Terapia personal:: Volver a tu propio proceso terapéutico para procesar el desgaste acumulado."
+      ],
+      "tarea": "Haz una auditoría honesta de tu agenda semanal. Identifica 3 espacios que puedas eliminar o delegar esta semana para recuperar aire. Escríbelos como si fueran una prescripción médica para ti mismo."
+    },
+    {
+      "codigo": "T-04",
+      "iconos": [
+        "span",
+        "👑",
+        "span",
+        "span",
+        "⚖️",
+        "span"
+      ],
+      "pregunta": "¿Estoy disfrutando demasiado la idealización de este paciente, o me siento incómodo cuando me coloca en un pedestal?",
+      "objetivo": "Manejar la transferencia idealizadora sin caer en la omnipotencia ni en el rechazo defensivo. Usar la idealización como material clínico, no como validación narcisista.",
+      "profundizacion": [
+        "¿Qué herida mía se siente \"curada\" temporalmente cuando este paciente me admira?",
+        "¿Cómo reacciono internamente cuando el paciente empieza a ver mis fallos humanos?",
+        "¿Qué pasaría si bajara del pedestal y me mostrara como el profesional falible que soy?",
+        "✔ Sientes un \"subidón\" emocional antes o después de las sesiones con este paciente.",
+        "✔ Te cuesta poner límites o cobrar honorarios completos por miedo a \"decepcionarlo\".",
+        "✔ Sientes celos o incomodidad si el paciente menciona a otros profesionales.",
+        "✔ Evitas confrontar al paciente por miedo a romper la \"conexión especial\"."
+      ],
+      "observacion": [
+        "Sientes un \"subidón\" emocional antes o después de las sesiones con este paciente.",
+        "Te cuesta poner límites o cobrar honorarios completos por miedo a \"decepcionarlo\".",
+        "Sientes celos o incomodidad si el paciente menciona a otros profesionales.",
+        "Evitas confrontar al paciente por miedo a romper la \"conexión especial\"."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar qué necesidad narcisista se está alimentando con esta idealización.",
+        "Psicodinámica:: Interpretar la idealización como una repetición de vínculos tempranos, no como una verdad sobre ti.",
+        "Humanización:: Mostrar gradualmente tus límites humanos sin abandonar el rol profesional."
+      ],
+      "tarea": "Antes de la próxima sesión, recuerda un error clínico reciente que hayas cometido. Llévalo como recordatorio de tu humanidad. No lo compartas con el paciente, solo úsalo para mantener los pies en la tierra."
+    },
+    {
+      "codigo": "T-05",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🚧",
+        "span"
+      ],
+      "pregunta": "¿He notado alguna fantasía o atracción hacia un paciente, y cómo estoy manejando esos sentimientos sin actuar sobre ellos?",
+      "objetivo": "Abordar con honestidad y rigor ético la transferencia erótica o romántica. Normalizar la aparición del sentimiento, pero enfatizar la responsabilidad absoluta de no actuar sobre él y de procesarlo en supervisión.",
+      "profundizacion": [
+        "¿Qué necesidad emocional profunda mía está intentando satisfacer esta fantasía?",
+        "¿Cuándo fue la última vez que sentí algo similar con otro paciente, y qué patrón revela?",
+        "¿Qué pasaría si llevara este material a supervisión, aunque me avergüence?",
+        "✔ Piensas en el paciente fuera del horario laboral de forma romántica o sexual.",
+        "✔ Te arreglas más de lo habitual para las sesiones con este paciente.",
+        "✔ Sientes celos o incomodidad si el paciente menciona a su pareja o intereses amorosos.",
+        "✔ Buscas excusas para extender las sesiones o tener contacto fuera del encuadre."
+      ],
+      "observacion": [
+        "Piensas en el paciente fuera del horario laboral de forma romántica o sexual.",
+        "Te arreglas más de lo habitual para las sesiones con este paciente.",
+        "Sientes celos o incomodidad si el paciente menciona a su pareja o intereses amorosos.",
+        "Buscas excusas para extender las sesiones o tener contacto fuera del encuadre."
+      ],
+      "intervenciones": [
+        "Supervisión urgente:: Llevar el caso a consulta de inmediato. Ocultarlo es el primer paso hacia la transgresión ética.",
+        "Terapia personal:: Explorar qué vacío o carencia está intentando llenar esta fantasía.",
+        "Encuadre estricto:: Reforzar los límites físicos, horarios y de contacto sin excepciones."
+      ],
+      "tarea": "Escribe en tu bitácora privada (que nadie más leerá): \"Lo que esta fantasía me dice sobre mí es...\". Luego contacta a tu supervisor esta misma semana para procesarlo."
+    },
+    {
+      "codigo": "T-06",
+      "iconos": [
+        "span",
+        "😴",
+        "span",
+        "span",
+        "🔄",
+        "span"
+      ],
+      "pregunta": "¿Por qué este paciente me aburre tanto, y qué estoy evitando sentir mientras bostezo internamente?",
+      "objetivo": "Utilizar el aburrimiento del terapeuta como información clínica valiosa. Explorar si el aburrimiento es una contratransferencia complementaria (el paciente me hace sentir lo que él siente) o una señal de estancamiento del proceso.",
+      "profundizacion": [
+        "¿El paciente está evitando activamente la emoción profunda, manteniendo la sesión en la superficie?",
+        "¿Siento el mismo aburrimiento que probablemente siente este paciente con su propia vida?",
+        "¿Qué pasaría si le compartiera mi experiencia de aburrimiento como dato clínico?",
+        "✔ Sientes sueño o desconexión durante las sesiones con este paciente.",
+        "✔ Pierdes el hilo de lo que dice o te cuesta recordar sus historias.",
+        "✔ Notas que tus intervenciones son mecánicas o repetitivas.",
+        "✔ Sientes alivio cuando termina la sesión, no satisfacción."
+      ],
+      "observacion": [
+        "Sientes sueño o desconexión durante las sesiones con este paciente.",
+        "Pierdes el hilo de lo que dice o te cuesta recordar sus historias.",
+        "Notas que tus intervenciones son mecánicas o repetitivas.",
+        "Sientes alivio cuando termina la sesión, no satisfacción."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar si el aburrimiento es una contratransferencia complementaria o un indicador de estancamiento.",
+        "Metacomunicación:: Compartir con el paciente tu experiencia: \"Noto que nuestras sesiones se han vuelto muy predecibles, ¿tú cómo las sientes?\".",
+        "Revisión de metas:: Volver al contrato terapéutico inicial y ajustar el enfoque o las técnicas."
+      ],
+      "tarea": "Antes de la próxima sesión, escribe en tu bitácora: \"Lo que este paciente me está haciendo sentir es...\". Lleva esa frase como hipótesis de trabajo, no como juicio."
+    },
+    {
+      "codigo": "T-07",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Me he quedado dormido o disociado durante una sesión, y qué material tan intenso estaba intentando evitarme?",
+      "objetivo": "Identificar la disociación o el sueño del terapeuta como una respuesta contratransferencial al material traumático o abrumador del paciente. Usar esta señal como información clínica valiosa.",
+      "profundizacion": [
+        "¿El paciente está narrando un trauma tan denso que mi sistema nervioso se \"apagó\" para protegerme?",
+        "¿Estoy replicando la disociación del paciente, sintiendo lo que él no puede sentir?",
+        "¿Qué necesito hacer para volver a estar presente y regular mi propio sistema nervioso?",
+        "✔ Te despiertas sobresaltado durante la sesión y no recuerdas los últimos minutos.",
+        "✔ Sientes pesadez extrema en los párpados o el cuerpo solo con ciertos pacientes.",
+        "✔ Notas que tu mente divaga hacia temas completamente ajenos al material clínico.",
+        "✔ Sientes una niebla mental que te impide pensar con claridad durante la sesión."
+      ],
+      "observacion": [
+        "Te despiertas sobresaltado durante la sesión y no recuerdas los últimos minutos.",
+        "Sientes pesadez extrema en los párpados o el cuerpo solo con ciertos pacientes.",
+        "Notas que tu mente divaga hacia temas completamente ajenos al material clínico.",
+        "Sientes una niebla mental que te impide pensar con claridad durante la sesión."
+      ],
+      "intervenciones": [
+        "Somática inmediata:: Levántate, bebe agua, mueve el cuerpo. Regula tu sistema nervioso antes de continuar.",
+        "Supervisión:: Analizar si la disociación es una respuesta al trauma del paciente o a tu propio material no procesado.",
+        "Metacomunicación:: Si es apropiado, compartir con el paciente: \"Noto que me cuesta seguir el hilo cuando hablamos de este tema, ¿tú cómo lo sientes?\"."
+      ],
+      "tarea": "Antes de la próxima sesión con este paciente, haz un ejercicio de grounding de 5 minutos (respiración, escaneo corporal, anclaje sensorial). Lleva un objeto táctil (una piedra, un anillo) para mantenerte presente."
+    },
+    {
+      "codigo": "T-08",
+      "iconos": [
+        "span",
+        "🔥",
+        "span",
+        "span",
+        "⚖️",
+        "span"
+      ],
+      "pregunta": "¿Qué paciente me ha generado una ira o frustración tan intensa que he sentido el impulso de confrontarlo o castigarlo?",
+      "objetivo": "Identificar y gestionar la ira del terapeuta como contratransferencia. Evitar el acting out (confrontación punitiva) y usar la emoción como información clínica sobre la dinámica relacional.",
+      "profundizacion": [
+        "¿Qué comportamiento específico del paciente está detonando esta ira? (¿Manipulación, victimización, agresividad pasiva?).",
+        "¿A quién de mi propia historia me recuerda este paciente cuando actúa así?",
+        "¿Qué necesidad mía está siendo frustrada? (¿Ser reconocido, ser respetado, sentirme útil?).",
+        "✔ Sientes tensión muscular, mandíbula apretada o puños cerrados durante la sesión.",
+        "✔ Imaginas diálogos internos donde le \"dices cuatro verdades\" al paciente.",
+        "✔ Notas que tu tono de voz se vuelve más cortante o sarcástico.",
+        "✔ Sientes alivio cuando el paciente cancela o llega tarde."
+      ],
+      "observacion": [
+        "Sientes tensión muscular, mandíbula apretada o puños cerrados durante la sesión.",
+        "Imaginas diálogos internos donde le \"dices cuatro verdades\" al paciente.",
+        "Notas que tu tono de voz se vuelve más cortante o sarcástico.",
+        "Sientes alivio cuando el paciente cancela o llega tarde."
+      ],
+      "intervenciones": [
+        "Supervisión urgente:: Traer el caso a consulta antes de actuar sobre la ira. Es la única forma de procesarla.",
+        "Terapia personal:: Explorar qué heridas propias están siendo activadas por este paciente.",
+        "Regulación somática:: Practicar técnicas de regulación (respiración, movimiento) antes y después de las sesiones."
+      ],
+      "tarea": "Escribe en tu bitácora privada: \"Lo que este paciente me está haciendo sentir es...\". Luego pregúntate: \"¿Qué parte de mí necesita ser escuchada y cuidada en este momento?\". No compartas esta reflexión con nadie."
+    },
+    {
+      "codigo": "T-09",
+      "iconos": [
+        "span",
+        "💔",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué error clínico reciente me está quitando el sueño, y cómo puedo procesarlo sin caer en la autocrítica destructiva?",
+      "objetivo": "Diferenciar entre la culpa saludable (que lleva a la reparación y el aprendizaje) y la culpa tóxica (que paraliza y genera burnout). Usar el error como material de crecimiento profesional.",
+      "profundizacion": [
+        "¿Qué estándar imposible me estoy exigiendo que ningún terapeuta humano podría cumplir?",
+        "¿Qué hubiera hecho un terapeuta \"suficientemente bueno\" en esa misma situación?",
+        "¿Cómo puedo reparar el daño (si lo hubo) y aprender de esta experiencia sin flagelarme?",
+        "✔ Rumias el error una y otra vez en tu mente, imaginando escenarios alternativos.",
+        "✔ Sientes vergüenza o miedo a que el paciente \"se dé cuenta\" de tu falibilidad.",
+        "✔ Evitas pensar en el caso o te cuesta volver a atender a ese paciente.",
+        "✔ Notas que el error ha activado tu propio \"crítico interno\" de forma despiadada."
+      ],
+      "observacion": [
+        "Rumias el error una y otra vez en tu mente, imaginando escenarios alternativos.",
+        "Sientes vergüenza o miedo a que el paciente \"se dé cuenta\" de tu falibilidad.",
+        "Evitas pensar en el caso o te cuesta volver a atender a ese paciente.",
+        "Notas que el error ha activado tu propio \"crítico interno\" de forma despiadada."
+      ],
+      "intervenciones": [
+        "Supervisión:: Llevar el error a consulta para analizarlo con una mirada externa y compasiva.",
+        "Reparación:: Si es apropiado, reconocer el error con el paciente y disculparte de forma profesional.",
+        "Autocompasión:: Practicar la autocompasión: \"Soy humano, cometo errores, y eso no me hace un mal terapeuta\"."
+      ],
+      "tarea": "Escribe una carta de autocompasión dirigida a ti mismo como terapeuta: \"Cometí este error, y aun así soy un profesional valioso y en crecimiento\". Léela en voz alta antes de dormir."
+    },
+    {
+      "codigo": "T-10",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🚧",
+        "span"
+      ],
+      "pregunta": "¿Estoy cruzando los límites del encuadre con algún paciente (regalos, contacto fuera de sesión, confidencias personales), y qué necesidad mía estoy intentando satisfacer?",
+      "objetivo": "Identificar las transgresiones sutiles del encuadre terapéutico. Explorar qué vacíos o necesidades personales están llevando al terapeuta a buscar gratificación fuera del rol profesional.",
+      "profundizacion": [
+        "¿Qué me impide mantener los límites claros con este paciente? (¿Miedo a perderlo, necesidad de ser querido, soledad?).",
+        "¿Cómo reaccionaría un colega si viera mis interacciones con este paciente?",
+        "¿Qué pasaría si volviera a los límites estrictos del encuadre, aunque me genere incomodidad?",
+        "✔ Aceptas regalos o favores que normalmente rechazarías.",
+        "✔ Respondes mensajes personales del paciente fuera del horario laboral.",
+        "✔ Compartes detalles de tu vida personal que no son clínicamente relevantes.",
+        "✔ Sientes que este paciente es \"especial\" y merece excepciones a las reglas."
+      ],
+      "observacion": [
+        "Aceptas regalos o favores que normalmente rechazarías.",
+        "Respondes mensajes personales del paciente fuera del horario laboral.",
+        "Compartes detalles de tu vida personal que no son clínicamente relevantes.",
+        "Sientes que este paciente es \"especial\" y merece excepciones a las reglas."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar con un colega de confianza si estás cruzando límites éticos.",
+        "Terapia personal:: Explorar qué necesidades emocionales están siendo satisfechas por este paciente.",
+        "Re-encuadre:: Restablecer los límites con claridad y firmeza, explicando al paciente por qué son necesarios."
+      ],
+      "tarea": "Haz una auditoría honesta de tus interacciones con este paciente en las últimas 4 semanas. Identifica 3 momentos donde cruzaste un límite sutil y escribe cómo los restablecerás en la próxima sesión."
+    },
+    {
+      "codigo": "T-11",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Estoy proyectando mis propias expectativas de 'cura' o 'progreso' en este paciente, acelerando un proceso que necesita su propio tiempo?",
+      "objetivo": "Identificar la contratransferencia de urgencia y la impaciencia del terapeuta. Evitar forzar el ritmo del paciente para satisfacer la propia necesidad de ver resultados o validar la eficacia del tratamiento.",
+      "profundizacion": [
+        "¿Qué me dice mi propia ansiedad sobre mi necesidad de \"arreglar\" rápido?",
+        "¿Estoy ignorando las señales sutiles de que el paciente necesita ir más despacio?",
+        "¿Cómo cambiaría mi abordaje si aceptara que este proceso puede llevar el tiempo que necesite?",
+        "✔ Sientes frustración o decepción cuando el paciente \"retrocede\".",
+        "✔ Haces preguntas demasiado directivas para \"avanzar\" la agenda.",
+        "✔ Te sientes personalmente responsable de la falta de progreso.",
+        "✔ Notas que hablas más de lo necesario para llenar los silencios incómodos."
+      ],
+      "observacion": [
+        "Sientes frustración o decepción cuando el paciente \"retrocede\".",
+        "Haces preguntas demasiado directivas para \"avanzar\" la agenda.",
+        "Te sientes personalmente responsable de la falta de progreso.",
+        "Notas que hablas más de lo necesario para llenar los silencios incómodos."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar si la urgencia es genuinamente del paciente o una proyección tuya.",
+        "Mindfulness:: Practicar la presencia sin agenda, permitiendo que el silencio y la pausa tengan valor clínico.",
+        "Terapia personal:: Explorar tu propia relación con el control, la incertidumbre y la validación profesional."
+      ],
+      "tarea": "Antes de la próxima sesión, escribe en tu bitácora: \"El ritmo lo marca el paciente, no mi necesidad de ver resultados\". Léelo para anclar tu rol de acompañante, no de director."
+    },
+    {
+      "codigo": "T-12",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de mi propia historia de vida se está activando con este caso, y cómo puedo distinguirla de la realidad del paciente?",
+      "objetivo": "Identificar la resonancia personal o las \"heridas no resueltas\" del terapeuta. Prevenir la contaminación del proceso terapéutico con material propio no procesado.",
+      "profundizacion": [
+        "¿Qué emoción intensa (tristeza, rabia, miedo) siento que no corresponde completamente a la narrativa del paciente?",
+        "¿A qué experiencia de mi propio pasado me está remitiendo este caso?",
+        "¿Cómo puedo cuidar de esa parte mía sin que interfiera en la escucha empática?",
+        "✔ Reacciones emocionales desproporcionadas ante ciertos temas del paciente.",
+        "✔ Tendencia a dar consejos basados en \"lo que a mí me funcionó\".",
+        "✔ Evitación sutil de ciertos temas que te resultan personalmente dolorosos.",
+        "✔ Sensación de fatiga o drenaje energético específico con este paciente."
+      ],
+      "observacion": [
+        "Reacciones emocionales desproporcionadas ante ciertos temas del paciente.",
+        "Tendencia a dar consejos basados en \"lo que a mí me funcionó\".",
+        "Evitación sutil de ciertos temas que te resultan personalmente dolorosos.",
+        "Sensación de fatiga o drenaje energético específico con este paciente."
+      ],
+      "intervenciones": [
+        "Terapia personal:: Procesar activamente las resonancias personales que surgen en la práctica clínica.",
+        "Supervisión:: Traer el caso a consulta para recibir una mirada externa que desacople tu historia de la del paciente.",
+        "Mentalización:: Practicar la distinción consciente: \"Esto es su dolor, no el mío\"."
+      ],
+      "tarea": "Después de la sesión, escribe en tu bitácora: \"Lo que este caso me recordó de mí fue...\". Reconoce la resonancia y luego visualiza cómo la devuelves simbólicamente a su lugar."
+    },
+    {
+      "codigo": "T-13",
+      "iconos": [
+        "span",
+        "💔",
+        "span",
+        "span",
+        "👑",
+        "span"
+      ],
+      "pregunta": "¿He desarrollado una dependencia emocional hacia este paciente, sintiendo que mi valor profesional depende de su mejoría?",
+      "objetivo": "Abordar el narcisismo terapéutico y la fusión emocional. Recuperar la diferenciación profesional y el desapego saludable necesario para una práctica ética.",
+      "profundizacion": [
+        "¿Siento que si este paciente no mejora, soy un \"mal terapeuta\"?",
+        "¿Me siento excesivamente halagado por su dependencia o admiración?",
+        "¿Qué vacío personal estoy intentando llenar a través de este vínculo profesional?",
+        "✔ Rumias sobre el paciente fuera del horario de trabajo de forma excesiva.",
+        "✔ Sientes euforia cuando el paciente te elogia o depende de ti.",
+        "✔ Te cuesta establecer límites claros por miedo a \"perder\" al paciente.",
+        "✔ Sientes ansiedad o vacío los días que no tienes sesiones con él/ella."
+      ],
+      "observacion": [
+        "Rumias sobre el paciente fuera del horario de trabajo de forma excesiva.",
+        "Sientes euforia cuando el paciente te elogia o depende de ti.",
+        "Te cuesta establecer límites claros por miedo a \"perder\" al paciente.",
+        "Sientes ansiedad o vacío los días que no tienes sesiones con él/ella."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar la contratransferencia narcisista y los límites difusos.",
+        "Terapia personal:: Trabajar la autoestima independiente del rol profesional y los logros de los pacientes.",
+        "Encuadre estricto:: Reafirmar los límites de tiempo, contacto y rol con firmeza y calidez."
+      ],
+      "tarea": "Realiza una actividad de ocio este fin de semana donde no seas \"el terapeuta\" ni el \"ayudador\". Permítete ser simplemente tú, sin la responsabilidad de cuidar a nadie."
+    },
+    {
+      "codigo": "T-14",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🌫️",
+        "span"
+      ],
+      "pregunta": "¿Estoy intelectualizando el caso o usando jerga teórica para no tener que conectar con el dolor emocional que este paciente me evoca?",
+      "objetivo": "Identificar la defensa intelectual del terapeuta. Volver a conectar con la experiencia emocional genuina y la empatía somática, evitando el distanciamiento frío.",
+      "profundizacion": [
+        "¿Estoy más enfocado en \"diagnosticar\" que en \"sentir\" con el paciente?",
+        "¿Qué emoción incómoda estoy evitando al refugiarme en la teoría?",
+        "¿Cómo sería esta sesión si bajara la guardia intelectual y permitiera la vulnerabilidad?",
+        "✔ Tus intervenciones son excesivamente técnicas o académicas.",
+        "✔ Sientes una desconexión emocional o \"frialdad\" durante la sesión.",
+        "✔ El paciente se siente \"analizado\" pero no \"comprendido\".",
+        "✔ Evitas los momentos de silencio emocionalmente cargados."
+      ],
+      "observacion": [
+        "Tus intervenciones son excesivamente técnicas o académicas.",
+        "Sientes una desconexión emocional o \"frialdad\" durante la sesión.",
+        "El paciente se siente \"analizado\" pero no \"comprendido\".",
+        "Evitas los momentos de silencio emocionalmente cargados."
+      ],
+      "intervenciones": [
+        "Supervisión:: Explorar qué emoción te resulta tan amenazante que necesitas protegerte con la intelectualización.",
+        "Práctica somática:: Antes de la sesión, haz un escaneo corporal para conectar con tu propia capacidad de sentir.",
+        "Humanista:: Practicar la presencia empática, priorizando la validación emocional sobre la interpretación cognitiva."
+      ],
+      "tarea": "En la próxima sesión, haz un esfuerzo consciente por no usar ningún término técnico. Describe lo que observas y sientes con palabras simples y humanas."
+    },
+    {
+      "codigo": "T-15",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué juicio moral o valor personal mío está interfiriendo con mi capacidad de mantener una escucha empática y neutral?",
+      "objetivo": "Identificar y gestionar el juicio de valor del terapeuta. Preservar la neutralidad analítica y la aceptación incondicional, esenciales para la alianza terapéutica.",
+      "profundizacion": [
+        "¿Qué acción o creencia del paciente choca frontalmente con mis valores personales?",
+        "¿Cómo se manifiesta ese juicio en mi lenguaje no verbal (gestos, tono de voz)?",
+        "¿Puedo separar mi desaprobación personal de mi rol profesional de acompañamiento?",
+        "✔ Sientes una leve repulsión o irritación ante ciertas decisiones del paciente.",
+        "✔ Tiendes a hacer preguntas \"capciosas\" que revelan tu desaprobación.",
+        "✔ Te cuesta validar las emociones del paciente porque no estás de acuerdo con sus acciones.",
+        "✔ Sientes la necesidad de \"corregir\" moralmente al paciente."
+      ],
+      "observacion": [
+        "Sientes una leve repulsión o irritación ante ciertas decisiones del paciente.",
+        "Tiendes a hacer preguntas \"capciosas\" que revelan tu desaprobación.",
+        "Te cuesta validar las emociones del paciente porque no estás de acuerdo con sus acciones.",
+        "Sientes la necesidad de \"corregir\" moralmente al paciente."
+      ],
+      "intervenciones": [
+        "Supervisión:: Exponer el juicio de valor para recibir una perspectiva ética y clínica externa.",
+        "Terapia personal:: Explorar el origen de tus valores rígidos y tu tolerancia a la diversidad de elecciones vitales.",
+        "Mindfulness:: Observar el juicio surgido sin actuar sobre él, devolviendo la atención a la escucha activa."
+      ],
+      "tarea": "Escribe en tu bitácora: \"Mi rol no es juzgar sus elecciones, sino comprender su mundo\". Repítelo antes de la sesión para suspender temporalmente tu juicio."
+    },
+    {
+      "codigo": "T-16",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Estoy descuidando mis propias necesidades básicas (sueño, alimentación, ocio) por 'dedicarme' demasiado a mis pacientes?",
+      "objetivo": "Prevenir el síndrome del mártir y el desgaste profesional. Validar que el autocuidado del terapeuta no es un lujo, sino un requisito ético para ofrecer un servicio de calidad.",
+      "profundizacion": [
+        "¿Qué creencia tengo sobre que \"cuidar de otros es más importante que cuidar de mí\"?",
+        "¿Qué señales físicas me está dando mi cuerpo de que estoy al límite?",
+        "¿Qué pasaría si priorizara mi descanso con la misma seriedad que una sesión clínica?",
+        "✔ Te saltas comidas o duermes mal por pensar en los casos.",
+        "✔ Sientes culpa cuando tomas tiempo libre o te diviertes.",
+        "✔ Tu agenda está sobrecargada y te niegas a reducir la carga.",
+        "✔ Has dejado de lado hobbies, ejercicio o relaciones personales."
+      ],
+      "observacion": [
+        "Te saltas comidas o duermes mal por pensar en los casos.",
+        "Sientes culpa cuando tomas tiempo libre o te diviertes.",
+        "Tu agenda está sobrecargada y te niegas a reducir la carga.",
+        "Has dejado de lado hobbies, ejercicio o relaciones personales."
+      ],
+      "intervenciones": [
+        "Autocuidado radical:: Programar bloques de descanso en la agenda con la misma rigidez que las sesiones.",
+        "Terapia personal:: Trabajar la creencia de que tu valor como persona depende de tu productividad o sacrificio.",
+        "Supervisión de pares:: Crear un espacio donde se normalice hablar del cansancio sin estigma."
+      ],
+      "tarea": "Elige una necesidad básica que hayas estado ignorando (ej. dormir 8 horas, caminar 20 min). Comprométete a cubrirla hoy como si fuera una \"cita clínica\" inamovible contigo mismo."
+    },
+    {
+      "codigo": "T-17",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Siento que tengo que 'actuar' como el terapeuta perfecto, ocultando mi humanidad, mis dudas o mi cansancio frente a este paciente?",
+      "objetivo": "Abordar la máscara profesional y la presión de la omnipotencia. Fomentar la autenticidad relacional, que permite una conexión más genuina y reparadora.",
+      "profundizacion": [
+        "¿Qué temo que pasaría si el paciente viera que no tengo todas las respuestas?",
+        "¿Esta necesidad de perfección me está agotando o distanciando del paciente?",
+        "¿Cómo puedo ser auténtico sin sobrecargar al paciente con mis propios problemas?",
+        "✔ Sientes una tensión constante por \"decir lo correcto\".",
+        "✔ Evitas admitir cuando no entiendes algo o cuando te equivocas.",
+        "✔ Notas una barrera invisible de formalidad que impide la cercanía real.",
+        "✔ Te sientes agotado por mantener la \"fachada\" profesional."
+      ],
+      "observacion": [
+        "Sientes una tensión constante por \"decir lo correcto\".",
+        "Evitas admitir cuando no entiendes algo o cuando te equivocas.",
+        "Notas una barrera invisible de formalidad que impide la cercanía real.",
+        "Te sientes agotado por mantener la \"fachada\" profesional."
+      ],
+      "intervenciones": [
+        "Terapia personal:: Trabajar la vulnerabilidad y la aceptación de la propia imperfección.",
+        "Relacional:: Practicar la transparencia selectiva (ej. \"Me quedé pensando en lo que dijiste la semana pasada\").",
+        "Supervisión:: Explorar el miedo subyacente a ser \"descubierto\" como insuficiente."
+      ],
+      "tarea": "En la próxima sesión, permite un momento de honestidad humana (ej. \"Hoy me cuesta encontrar la palabra exacta, pero te escucho\"). Observa cómo responde el paciente a tu autenticidad."
+    },
+    {
+      "codigo": "T-18",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Estoy repitiendo un patrón de mis relaciones personales (ej. complacer, controlar, rescatar) dentro de esta relación terapéutica?",
+      "objetivo": "Identificar la repetición de patrones relacionales disfuncionales del terapeuta en el ámbito clínico. Romper el ciclo mediante la conciencia y la supervisión.",
+      "profundizacion": [
+        "¿Me comporto con este paciente de la misma manera que con cierta figura de mi pasado?",
+        "¿Estoy buscando en el paciente la validación o el cuidado que no recibí en otros vínculos?",
+        "¿Cómo puedo interrumpir este patrón para ofrecer una respuesta clínica, no personal?",
+        "✔ Sientes que la dinámica con este paciente es \"demasiado familiar\".",
+        "✔ Reaccionas con emociones (ira, sumisión, celos) desproporcionadas al contexto clínico.",
+        "✔ El paciente te coloca en un rol (padre, madre, pareja) y tú lo aceptas inconscientemente.",
+        "✔ Dificultad para mantener la objetividad profesional."
+      ],
+      "observacion": [
+        "Sientes que la dinámica con este paciente es \"demasiado familiar\".",
+        "Reaccionas con emociones (ira, sumisión, celos) desproporcionadas al contexto clínico.",
+        "El paciente te coloca en un rol (padre, madre, pareja) y tú lo aceptas inconscientemente.",
+        "Dificultad para mantener la objetividad profesional."
+      ],
+      "intervenciones": [
+        "Supervisión intensiva:: Analizar la contratransferencia y los patrones de repetición con un colega de confianza.",
+        "Terapia personal:: Trabajar activamente los patrones de apego y las dinámicas relacionales no resueltas.",
+        "Mentalización:: Detenerse antes de reaccionar y preguntarse: \"¿Esto es sobre el paciente o sobre mí?\"."
+      ],
+      "tarea": "Dibuja un genograma de tus propias relaciones clave. Identifica un patrón recurrente y observa si está presente en tu forma de trabajar con este paciente."
+    },
+    {
+      "codigo": "T-19",
+      "iconos": [
+        "span",
+        "🚪",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Me cuesta despedirme de este paciente o finalizar el proceso porque siento que 'aún hay más por hacer', aunque los objetivos se hayan cumplido?",
+      "objetivo": "Identificar la dificultad del terapeuta para el cierre terapéutico. Diferenciar entre una necesidad clínica real de continuar y el apego o la inseguridad del profesional.",
+      "profundizacion": [
+        "¿Estoy prolongando la terapia por el bienestar del paciente o por el mío propio?",
+        "¿Qué miedo me genera la idea de que este paciente ya no me necesite?",
+        "¿Cómo puedo celebrar el final del proceso como un éxito, no como una pérdida?",
+        "✔ Encuentras constantemente \"nuevos\" temas menores para seguir trabajando.",
+        "✔ Sientes tristeza o vacío anticipado ante la idea del alta.",
+        "✔ Dudas de la capacidad del paciente para funcionar sin ti.",
+        "✔ El paciente muestra señales de querer terminar, pero tú lo retienes sutilmente."
+      ],
+      "observacion": [
+        "Encuentras constantemente \"nuevos\" temas menores para seguir trabajando.",
+        "Sientes tristeza o vacío anticipado ante la idea del alta.",
+        "Dudas de la capacidad del paciente para funcionar sin ti.",
+        "El paciente muestra señales de querer terminar, pero tú lo retienes sutilmente."
+      ],
+      "intervenciones": [
+        "Supervisión:: Revisar objetivamente si se han cumplido los criterios de alta acordados.",
+        "Terapia personal:: Trabajar el apego, la separación y la autoestima independiente del rol de cuidador.",
+        "Planificación del cierre:: Establecer una fecha de finalización con antelación para procesar el duelo gradualmente."
+      ],
+      "tarea": "Escribe una lista de los logros concretos que este paciente ha alcanzado. Léela para recordarte que tu trabajo ha sido efectivo y que soltar es parte del éxito."
+    },
+    {
+      "codigo": "T-20",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Cómo puedo usar mi propia vulnerabilidad o un error en sesión como una herramienta terapéutica auténtica, en lugar de ocultarlo por vergüenza?",
+      "objetivo": "Transformar la ruptura o el error en una oportunidad de reparación y modelado. Fomentar la autenticidad relacional y demostrar que la imperfección es parte del proceso humano.",
+      "profundizacion": [
+        "¿Qué me dice mi vergüenza sobre mis expectativas irreales de perfección?",
+        "¿Cómo podría una disculpa sincera fortalecer, en lugar de debilitar, la alianza terapéutica?",
+        "¿Qué le estoy enseñando al paciente sobre cómo manejar los errores si yo los oculto?",
+        "✔ Sientes un nudo en el estómago tras cometer un desliz o malentendido.",
+        "✔ Intentas \"arreglarlo\" rápidamente sin reconocer el impacto en el paciente.",
+        "✔ Evitas el tema en las sesiones siguientes por incomodidad.",
+        "✔ Alivio y conexión profunda cuando te animas a ser vulnerable y reparar."
+      ],
+      "observacion": [
+        "Sientes un nudo en el estómago tras cometer un desliz o malentendido.",
+        "Intentas \"arreglarlo\" rápidamente sin reconocer el impacto en el paciente.",
+        "Evitas el tema en las sesiones siguientes por incomodidad.",
+        "Alivio y conexión profunda cuando te animas a ser vulnerable y reparar."
+      ],
+      "intervenciones": [
+        "Reparación relacional:: Reconocer el error de forma clara, sin excusas, y validar el impacto en el paciente.",
+        "Supervisión:: Procesar la vergüenza del terapeuta para poder abordar el tema con serenidad.",
+        "Modelado:: Usar el momento para mostrar al paciente cómo se pide perdón y se repara un vínculo."
+      ],
+      "tarea": "Si cometiste un error reciente, planifica cómo lo abordarás en la próxima sesión: \"Me quedé pensando en lo que dije la última vez, y creo que no fue lo más acertado. ¿Cómo te sentó a ti?\"."
+    },
+    {
+      "codigo": "T-21",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Me siento excesivamente responsable si este paciente recaída o empeora, como si su fracaso fuera el mío?",
+      "objetivo": "Identificar la omnipotencia terapéutica y la fusión de responsabilidades. Recordar que el terapeuta facilita el proceso, pero el paciente es el único responsable de sus decisiones y resultados.",
+      "profundizacion": [
+        "¿Qué creencia tengo sobre que \"si lo hiciera mejor, él/ella sanaría\"?",
+        "¿Estoy ignorando los factores externos (sistémicos, biológicos, sociales) que escapan a mi control?",
+        "¿Cómo puedo acompañar el dolor de una recaída sin asumir la culpa por ella?",
+        "✔ Ansiedad o insomnio cuando el paciente reporta una crisis.",
+        "✔ Tendencia a intensificar las sesiones o a estar disponible 24/7.",
+        "✔ Sentimiento de fracaso personal ante la falta de progreso del paciente.",
+        "✔ Dificultad para aceptar los límites de la profesión."
+      ],
+      "observacion": [
+        "Ansiedad o insomnio cuando el paciente reporta una crisis.",
+        "Tendencia a intensificar las sesiones o a estar disponible 24/7.",
+        "Sentimiento de fracaso personal ante la falta de progreso del paciente.",
+        "Dificultad para aceptar los límites de la profesión."
+      ],
+      "intervenciones": [
+        "Supervisión:: Revisar el caso para diferenciar objetivamente lo que depende del terapeuta y lo que no.",
+        "Terapia personal:: Trabajar la necesidad de control y la tolerancia a la incertidumbre.",
+        "Ética profesional:: Releer el código deontológico sobre los límites de la responsabilidad terapéutica."
+      ],
+      "tarea": "Escribe en tu bitácora: \"Yo ofrezco el espacio, las herramientas y la acompañamiento. El paciente es el dueño de su camino y de sus decisiones\". Léelo antes de la próxima sesión."
+    },
+    {
+      "codigo": "T-22",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🌫️",
+        "span"
+      ],
+      "pregunta": "¿Estoy absorbiendo el trauma o el dolor de este paciente como si fuera mío, perdiendo la distancia clínica necesaria?",
+      "objetivo": "Detectar el trauma vicario o la fatiga por compasión. Establecer límites emocionales saludables para proteger la integridad del terapeuta sin perder la empatía.",
+      "profundizacion": [
+        "¿Siento el dolor de este paciente en mi propio cuerpo después de la sesión?",
+        "¿Estoy reviviendo mis propias experiencias traumáticas a través de su relato?",
+        "¿Qué prácticas de autocuidado necesito implementar urgentemente para \"limpiar\" mi espacio?",
+        "✔ Pesadez física, llanto o agotamiento extremo tras las sesiones con este paciente.",
+        "✔ Pensamientos intrusivos sobre el caso fuera del horario laboral.",
+        "✔ Evitación inconsciente de profundizar en el material traumático por miedo a desbordarse.",
+        "✔ Cinismo o embotamiento afectivo como mecanismo de defensa."
+      ],
+      "observacion": [
+        "Pesadez física, llanto o agotamiento extremo tras las sesiones con este paciente.",
+        "Pensamientos intrusivos sobre el caso fuera del horario laboral.",
+        "Evitación inconsciente de profundizar en el material traumático por miedo a desbordarse.",
+        "Cinismo o embotamiento afectivo como mecanismo de defensa."
+      ],
+      "intervenciones": [
+        "Supervisión clínica:: Procesar el impacto emocional del material traumático con un colega.",
+        "Terapia personal:: Abordar las resonancias traumáticas propias que están siendo activadas.",
+        "Somática:: Prácticas de \"sacudida\" o liberación de tensión tras sesiones intensas."
+      ],
+      "tarea": "Crea un \"ritual de cierre\" físico al terminar el día (ej. lavarte las manos con agua fría, cambiar de ropa, una respiración consciente) que simbolice dejar el trabajo en el consultorio."
+    },
+    {
+      "codigo": "T-23",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Cómo reacciono internamente cuando un paciente cuestiona abiertamente mi capacidad, mis intervenciones o mi enfoque?",
+      "objetivo": "Gestionar la herida narcisista y la defensividad profesional. Transformar la crítica del paciente en material terapéutico valioso en lugar de un ataque personal.",
+      "profundizacion": [
+        "¿Qué dice mi crítico interno cuando soy cuestionado? (\"No soy lo suficientemente bueno\").",
+        "¿Estoy escuchando la necesidad detrás de la crítica del paciente o solo me estoy defendiendo?",
+        "¿Puedo modelar la humildad y la apertura al feedback sin perder mi autoridad profesional?",
+        "✔ Irritabilidad, tono de voz defensivo o contraataque sutil.",
+        "✔ Justificación excesiva de las propias intervenciones.",
+        "✔ Deseo de terminar la sesión lo antes posible.",
+        "✔ Rumiación post-sesión sobre \"lo que debí haber dicho\"."
+      ],
+      "observacion": [
+        "Irritabilidad, tono de voz defensivo o contraataque sutil.",
+        "Justificación excesiva de las propias intervenciones.",
+        "Deseo de terminar la sesión lo antes posible.",
+        "Rumiación post-sesión sobre \"lo que debí haber dicho\"."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar la contratransferencia de incompetencia y la herida narcisista.",
+        "Relacional:: Validar la experiencia del paciente: \"Agradezco que me lo digas, quiero entender qué no funcionó\".",
+        "Terapia personal:: Trabajar la autoestima profesional independiente de la aprobación del paciente."
+      ],
+      "tarea": "La próxima vez que seas cuestionado, practica la pausa de 3 segundos. Respira y responde: \"Es una observación importante. Hablemos de cómo te hizo sentir esa intervención\"."
+    },
+    {
+      "codigo": "T-24",
+      "iconos": [
+        "span",
+        "🔋",
+        "span",
+        "span",
+        "🌪️",
+        "span"
+      ],
+      "pregunta": "¿Por qué este paciente en particular me drena tanta energía, y qué estoy haciendo para proteger mi espacio sin abandonarlo?",
+      "objetivo": "Identificar la contratransferencia de agotamiento. Explorar si la dinámica es producto del estilo del paciente, de una colisión de personalidades o de un límite propio no establecido.",
+      "profundizacion": [
+        "¿El paciente es demandante, pasivo-agresivo o caótico de una manera que desestabiliza mi regulación?",
+        "¿Estoy permitiendo que se excedan los límites de tiempo o de rol por culpa o lástima?",
+        "¿Qué necesito cambiar en mi abordaje para que esta sesión sea sostenible para ambos?",
+        "✔ Dolor de cabeza o tensión muscular antes de que llegue este paciente.",
+        "✔ Mirar el reloj constantemente o desear que la sesión termine.",
+        "✔ Sensación de que \"nada de lo que hago es suficiente\".",
+        "✔ Fantasear con la idea de derivarlo a otro profesional."
+      ],
+      "observacion": [
+        "Dolor de cabeza o tensión muscular antes de que llegue este paciente.",
+        "Mirar el reloj constantemente o desear que la sesión termine.",
+        "Sensación de que \"nada de lo que hago es suficiente\".",
+        "Fantasear con la idea de derivarlo a otro profesional."
+      ],
+      "intervenciones": [
+        "Supervisión:: Evaluar si la dinámica es sostenible o si la derivación es la opción más ética.",
+        "Encuadre estricto:: Reafirmar los límites de tiempo, temas y contacto con firmeza inquebrantable.",
+        "Autocuidado:: Programar un bloque de descanso obligatorio después de esta sesión."
+      ],
+      "tarea": "Antes de la sesión, visualiza un escudo de luz a tu alrededor. Repite: \"Puedo escuchar su dolor sin absorberlo. Mi energía es mía y la protejo\"."
+    },
+    {
+      "codigo": "T-25",
+      "iconos": [
+        "span",
+        "🎁",
+        "span",
+        "span",
+        "🚧",
+        "span"
+      ],
+      "pregunta": "¿Cómo manejo los regalos, favores o invitaciones sociales que intentan borrar los límites del encuadre terapéutico?",
+      "objetivo": "Mantener la asimetría ética de la relación terapéutica. Analizar el significado del regalo o la invitación sin rechazarlo de forma que dañe la alianza, pero sin ceder el límite.",
+      "profundizacion": [
+        "¿Qué intenta comprar o asegurar el paciente con este gesto? (¿Aprobación, perdón, cercanía?).",
+        "¿Me siento halagado, incómodo o presionado por esta oferta?",
+        "¿Cómo puedo devolver el gesto simbólicamente sin aceptar el objeto o la invitación?",
+        "✔ Dificultad para decir \"no\" por miedo a herir los sentimientos del paciente.",
+        "✔ Aceptación de pequeños favores que gradualmente erosionan el marco profesional.",
+        "✔ Incomodidad física al recibir el regalo.",
+        "✔ Claridad y calma para establecer el límite con empatía."
+      ],
+      "observacion": [
+        "Dificultad para decir \"no\" por miedo a herir los sentimientos del paciente.",
+        "Aceptación de pequeños favores que gradualmente erosionan el marco profesional.",
+        "Incomodidad física al recibir el regalo.",
+        "Claridad y calma para establecer el límite con empatía."
+      ],
+      "intervenciones": [
+        "Ética profesional:: Revisar las normas del colegio profesional sobre la aceptación de regalos.",
+        "Psicodinámica:: Analizar el regalo como un acting out o una prueba de los límites.",
+        "Comunicación asertiva:: \"Agradezco mucho el gesto, pero mi ética profesional no me permite aceptar regalos. Valoro tu intención\"."
+      ],
+      "tarea": "Si has aceptado algo que te incomoda, planifica cómo abordarás el tema en la próxima sesión para restablecer el límite de forma clara y terapéutica."
+    },
+    {
+      "codigo": "T-26",
+      "iconos": [
+        "span",
+        "🌧️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Estoy permitiendo que mis propias crisis personales (duelo, enfermedad, problemas de pareja) contaminen la atención que le doy a mis pacientes?",
+      "objetivo": "Reconocer la vulnerabilidad humana del terapeuta. Evaluar si es necesario tomar una licencia, reducir la carga o buscar apoyo para no perjudicar a los pacientes.",
+      "profundizacion": [
+        "¿Me cuesta concentrarme o recordar lo que dice el paciente por mis propios pensamientos?",
+        "¿Estoy usando la sesión del paciente para distraerme de mi propio dolor?",
+        "¿Qué apoyo necesito pedir (a mi supervisor, terapeuta o familia) para seguir ejerciendo con ética?",
+        "✔ Lagunas de atención o olvidos frecuentes durante las sesiones.",
+        "✔ Irritabilidad desproporcionada ante pequeñas molestias.",
+        "✔ Llanto o desborde emocional propio durante la sesión.",
+        "✔ Sensación de estar \"actuando\" o fingiendo que todo está bien."
+      ],
+      "observacion": [
+        "Lagunas de atención o olvidos frecuentes durante las sesiones.",
+        "Irritabilidad desproporcionada ante pequeñas molestias.",
+        "Llanto o desborde emocional propio durante la sesión.",
+        "Sensación de estar \"actuando\" o fingiendo que todo está bien."
+      ],
+      "intervenciones": [
+        "Autocuidado radical:: Reducir temporalmente la carga de pacientes o tomar días de licencia si es necesario.",
+        "Terapia personal:: Priorizar tu propio proceso terapéutico en este momento de crisis.",
+        "Supervisión:: Informar a tu supervisor sobre tu situación para ajustar las expectativas clínicas."
+      ],
+      "tarea": "Haz una auditoría honesta de tu capacidad actual. Si estás por debajo del 60%, es ético y necesario reprogramar sesiones o pedir ayuda. No eres un mártir, eres un profesional."
+    },
+    {
+      "codigo": "T-27",
+      "iconos": [
+        "span",
+        "🗣️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuántas veces hoy di un consejo directo en lugar de facilitar que el paciente encontrara su propia respuesta?",
+      "objetivo": "Identificar la tentación de \"arreglar\" al paciente. Recuperar la función de facilitador y promover la autonomía y el descubrimiento interno del paciente.",
+      "profundizacion": [
+        "¿Di ese consejo porque era lo mejor para el paciente o porque me hacía sentir útil y experto?",
+        "¿Cómo reaccionó el paciente? (¿Aceptación pasiva, resistencia o alivio?).",
+        "¿Qué pregunta hubiera sido más poderosa que mi consejo en ese momento?",
+        "✔ Hablas más que el paciente durante la sesión.",
+        "✔ Ofreces soluciones antes de que el paciente haya explorado el problema a fondo.",
+        "✔ Sientes frustración si el paciente no sigue tu consejo al pie de la letra.",
+        "✔ Notas que el paciente se vuelve más pasivo y dependiente de tus ideas."
+      ],
+      "observacion": [
+        "Hablas más que el paciente durante la sesión.",
+        "Ofreces soluciones antes de que el paciente haya explorado el problema a fondo.",
+        "Sientes frustración si el paciente no sigue tu consejo al pie de la letra.",
+        "Notas que el paciente se vuelve más pasivo y dependiente de tus ideas."
+      ],
+      "intervenciones": [
+        "Supervisión:: Revisar grabaciones o notas para identificar patrones de directividad excesiva.",
+        "Terapia personal:: Trabajar la necesidad de control y la validación a través del rol de \"experto\".",
+        "Técnica:: Practicar la regla de \"hacer una pregunta por cada consejo que sientas el impulso de dar\"."
+      ],
+      "tarea": "En la próxima sesión, cuenta mentalmente cuántas veces das una opinión no solicitada. Desafíate a reemplazar al menos la mitad de ellas por una pregunta abierta."
+    },
+    {
+      "codigo": "T-28",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Estoy insistiendo en mi enfoque teórico cuando el paciente claramente necesita otra modalidad o una derivación a un especialista?",
+      "objetivo": "Evaluar la rigidez teórica y el bienestar del paciente por encima del ego profesional. Reconocer los límites de la propia formación y competencia.",
+      "profundizacion": [
+        "¿Estoy tratando de encajar al paciente en mi teoría en lugar de adaptar la teoría al paciente?",
+        "¿Hay síntomas (ej. TCA grave, psicosis, riesgo suicida) que exceden mi ámbito de competencia?",
+        "¿Qué me cuesta de admitir que otro profesional podría ayudarle mejor en esta etapa?",
+        "✔ Estancamiento prolongado del proceso sin cambios en la estrategia.",
+        "✔ Uso excesivo de jerga de tu propia escuela para explicar el fracaso del tratamiento.",
+        "✔ Incomodidad o ansiedad ante la idea de derivar al paciente.",
+        "✔ El paciente muestra signos de deterioro a pesar de la intervención."
+      ],
+      "observacion": [
+        "Estancamiento prolongado del proceso sin cambios en la estrategia.",
+        "Uso excesivo de jerga de tu propia escuela para explicar el fracaso del tratamiento.",
+        "Incomodidad o ansiedad ante la idea de derivar al paciente.",
+        "El paciente muestra signos de deterioro a pesar de la intervención."
+      ],
+      "intervenciones": [
+        "Supervisión:: Evaluar objetivamente si el caso requiere un enfoque multidisciplinario o una derivación.",
+        "Ética profesional:: Recordar que derivar a tiempo es un acto de responsabilidad y cuidado, no de fracaso.",
+        "Formación continua:: Identificar si necesitas capacitación adicional para manejar este tipo de casos."
+      ],
+      "tarea": "Revisa el caso de tu paciente más estancado. Escribe honestamente: \"¿Si no fuera mi paciente, a qué tipo de profesional lo derivaría?\". Luego, actúa en consecuencia."
+    },
+    {
+      "codigo": "T-29",
+      "iconos": [
+        "span",
+        "🚪",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Estoy reteniendo a este paciente por miedo a la soledad profesional, a la pérdida de ingresos, o porque genuinamente aún necesita este espacio?",
+      "objetivo": "Examinar las motivaciones inconscientes detrás de la prolongación de la terapia. Garantizar que el alta terapéutica se base en el bienestar del paciente, no en las necesidades del terapeuta.",
+      "profundizacion": [
+        "¿Qué vacío personal o profesional se llenaría si este paciente se fuera?",
+        "¿Estoy creando \"nuevos problemas\" para justificar la continuidad del tratamiento?",
+        "¿He discutido abiertamente con el paciente la posibilidad de que esté listo para terminar?",
+        "✔ Ansiedad ante la mención del alta o el fin del proceso.",
+        "✔ Minimización de los logros alcanzados por el paciente.",
+        "✔ Sesiones que se han convertido en charlas sociales sin dirección clínica.",
+        "✔ Dependencia mutua establecida entre terapeuta y paciente."
+      ],
+      "observacion": [
+        "Ansiedad ante la mención del alta o el fin del proceso.",
+        "Minimización de los logros alcanzados por el paciente.",
+        "Sesiones que se han convertido en charlas sociales sin dirección clínica.",
+        "Dependencia mutua establecida entre terapeuta y paciente."
+      ],
+      "intervenciones": [
+        "Supervisión:: Analizar la contratransferencia de abandono y las necesidades económicas o emocionales propias.",
+        "Revisión de metas:: Evaluar objetivamente los criterios de alta acordados al inicio del tratamiento.",
+        "Terapia personal:: Trabajar la autoestima independiente de la demanda de pacientes."
+      ],
+      "tarea": "Escribe una lista de las razones clínicas por las que este paciente sigue en terapia. Si la lista es débil, es momento de iniciar la conversación sobre el alta."
+    },
+    {
+      "codigo": "T-30",
+      "iconos": [
+        "span",
+        "🌟",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "¿Por qué elegí ser terapeuta y cómo puedo reconectar con esa vocación original cuando me siento vacío, cínico o agotado?",
+      "objetivo": "Cierre integrador del mazo. Fomentar la renovación del sentido de propósito, la autocompasión profesional y la prevención a largo plazo del burnout.",
+      "profundizacion": [
+        "¿Qué momento de mi carrera me hizo sentir más vivo y conectado con mi propósito?",
+        "¿Qué aspectos de mi práctica actual se han alejado de esos valores originales?",
+        "¿Qué pequeño cambio puedo hacer esta semana para recuperar la alegría de acompañar procesos?",
+        "✔ Sensación de que la terapia se ha convertido en una \"fábrica\" o rutina mecánica.",
+        "✔ Nostalgia por la pasión de los primeros años de práctica.",
+        "✔ Alivio y emoción al recordar los momentos de conexión genuina con los pacientes.",
+        "✔ Compromiso renovado con el autocuidado y el crecimiento profesional."
+      ],
+      "observacion": [
+        "Sensación de que la terapia se ha convertido en una \"fábrica\" o rutina mecánica.",
+        "Nostalgia por la pasión de los primeros años de práctica.",
+        "Alivio y emoción al recordar los momentos de conexión genuina con los pacientes.",
+        "Compromiso renovado con el autocuidado y el crecimiento profesional."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia profesional, destacando los momentos de impacto positivo y aprendizaje.",
+        "Logoterapia:: Reconectar con el sentido profundo de la labor de acompañar el dolor y el crecimiento humano.",
+        "Comunidad:: Buscar grupos de pares o supervisión que nutran en lugar de solo exigir."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del primer día de práctica. Cuéntale lo que has aprendido, lo difícil que ha sido, y por qué, a pesar de todo, sigues aquí. Guárdala como tu brújula."
+    }
+  ]
+}

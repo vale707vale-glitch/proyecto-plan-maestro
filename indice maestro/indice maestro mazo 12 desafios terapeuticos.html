@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 12 (Desafíos Terapéuticos)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        therapist: { 50: '#eef2ff', 500: '#6366f1', 600: '#4f46e5', 800: '#3730a3', 900: '#312e81' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #6366f1; }
+        .therapist-note { background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%); border-left: 4px solid #6366f1; padding: 16px; border-radius: 0 8px 8px 0; margin-top: 16px; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-therapist-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-therapist-600/20 border border-therapist-500/30 rounded-full text-therapist-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 12: <span class="italic text-therapist-500">Desafíos Terapéuticos</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas DT-01 a DT-60. Herramientas de auto-reflexión y supervisión para el terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- NOTA INTRODUCTORIA ESPECIAL -->
+        <section class="therapist-note">
+            <h3 class="font-serif text-2xl text-therapist-800 font-semibold mb-3">🎯 Mazo Exclusivo para el Terapeuta</h3>
+            <p class="text-sm text-slate-700 mb-3">Este mazo es fundamentalmente diferente a los anteriores 11. Mientras que los mazos 1-11 están dirigidos al <strong>paciente</strong>, este mazo está dirigido al <strong>terapeuta</strong>. Es una herramienta de:</p>
+            <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                <li><strong>Auto-reflexión profesional:</strong> Para examinar la propia práctica clínica.</li>
+                <li><strong>Supervisión interna:</strong> Para detectar contratransferencia, sesgos y puntos ciegos.</li>
+                <li><strong>Prevención de burnout:</strong> Para reconocer señales de agotamiento y fatiga por compasión.</li>
+                <li><strong>Desarrollo continuo:</strong> Para fortalecer las competencias terapéuticas.</li>
+            </ul>
+        </section>
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro (Formato Adaptado)</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato está adaptado para la auto-reflexión del terapeuta:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo de auto-reflexión:</strong> Qué aspecto de la práctica clínica explora.</li>
+                <li><strong>Procesos del terapeuta:</strong> Qué mecanismos internos activa (contratransferencia, proyección, etc.).</li>
+                <li><strong>Reflexión y profundización:</strong> Preguntas para que el terapeuta se haga a sí mismo.</li>
+                <li><strong>Cuándo es especialmente útil:</strong> Situaciones clínicas donde esta carta es más relevante.</li>
+                <li><strong>Preguntas complementarias:</strong> Otras cartas del mazo que profundizan el tema.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-therapist-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Contratransferencia y Proyecciones del Terapeuta
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas DT-07 a DT-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- DT-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-01</span>
+                        <span class="text-2xl">🪞 🧠</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué paciente te está generando una reacción emocional que no logras explicar racionalmente?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Identificar contratransferencia no elaborada. Detectar proyecciones personales que pueden estar interfiriendo con la objetividad clínica.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Contratransferencia, proyección, identificación proyectiva, activación de heridas personales del terapeuta.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reacción intensa inexplicable:</strong> Irritación, ternura excesiva, ganas de "salvar". → <em>Reflexionar:</em> "¿A quién de mi historia personal me recuerda este paciente? ¿Qué parte mía está resonando?"</li>
+                            <li><strong>Evitación sutil:</strong> Postergar sesiones, pensar en otro tema. → <em>Reflexionar:</em> "¿Qué estoy evitando sentir cuando estoy con este paciente?"</li>
+                            <li><strong>Sobre-implicación:</strong> Pensar constantemente en el paciente fuera de sesión. → <em>Reflexionar:</em> "¿Este nivel de preocupación es proporcional o está activando algo mío?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando notas que un caso te consume más energía que otros, o cuando sientes una conexión/desconexión inusual.</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-02</span> (heridas personales), <span class="code-badge">DT-15</span> (supervisión necesaria).</p></div>
+                    </div>
+                </div>
+
+                <!-- DT-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-02</span>
+                        <span class="text-2xl">💔 🧠</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué herida personal tuya se está activando con este caso y cómo está influyendo en tu práctica?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Conectar las reacciones del terapeuta con su propia historia personal. Diferenciar lo que pertenece al paciente de lo que pertenece al terapeuta.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Heridas no sanadas, resonancia traumática, activación de esquemas personales, necesidad de reparación vicaria.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Querer "salvar" al paciente:</strong> → <em>Reflexionar:</em> "¿Estoy intentando reparar a través de este paciente algo que no pude reparar en mi propia historia?"</li>
+                            <li><strong>Irritación desproporcionada:</strong> → <em>Reflexionar:</em> "¿Qué aspecto del paciente me refleja algo que no quiero ver en mí mismo?"</li>
+                            <li><strong>Sensación de impotencia:</strong> → <em>Reflexionar:</em> "¿Esta impotencia es del paciente o está tocando una herida mía de impotencia vivida?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando trabajas con pacientes cuyo material resuena con tu propia historia (trauma similar, duelos, relaciones).</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-01</span> (contratransferencia), <span class="code-badge">DT-14</span> (terapia personal).</p></div>
+                    </div>
+                </div>
+
+                <!-- DT-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-03</span>
+                        <span class="text-2xl">🎭 👤</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué máscara profesional estás usando hoy y qué parte auténtica tuya está quedando oculta?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Explorar la autenticidad del terapeuta en sesión. Diferenciar el rol profesional saludable de la máscara defensiva.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Persona profesional vs. self auténtico, uso terapéutico de la vulnerabilidad, autenticidad relacional.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>El "terapeuta sabio":</strong> → <em>Reflexionar:</em> "¿Esta distancia me protege de la intimidad o me permite ser más efectivo?"</li>
+                            <li><strong>El "terapeuta salvador":</strong> → <em>Reflexionar:</em> "¿Qué me da ser necesitado? ¿Qué vacío estoy llenando?"</li>
+                            <li><strong>El "terapeuta técnico":</strong> → <em>Reflexionar:</em> "¿La técnica me ayuda o me protege de conectar emocionalmente?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando sientes que tus sesiones se han vuelto mecánicas o cuando notas rigidez en tu forma de estar con los pacientes.</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-04</span> (vulnerabilidad), <span class="code-badge">DT-28</span> (autenticidad).</p></div>
+                    </div>
+                </div>
+
+                <!-- DT-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-04</span>
+                        <span class="text-2xl">💧 🌱</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Cuándo fue la última vez que te permitiste ser vulnerable con un paciente, y qué efecto tuvo?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Evaluar el uso terapéutico de la auto-divulgación del terapeuta. Diferenciar la vulnerabilidad auténtica de la sobre-exposición.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Uso del self como herramienta, modelado de vulnerabilidad, límites en la auto-divulgación.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Nunca me muestro vulnerable:</strong> → <em>Reflexionar:</em> "¿Qué temo que pase si el paciente me ve como humano? ¿Estoy protegiendo al paciente o protegiéndome yo?"</li>
+                            <li><strong>Me muestro demasiado:</strong> → <em>Reflexionar:</em> "¿Esta auto-divulgación es para el paciente o para mi propia necesidad de ser validado?"</li>
+                            <li><strong>Uso estratégico:</strong> → <em>Reflexionar:</em> "¿Cómo puedo seguir usando mi humanidad como herramienta terapéutica sin perder el encuadre?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando trabajas con pacientes que tienen dificultades con la vulnerabilidad o cuando sientes que tu "profesionalismo" está creando distancia.</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-03</span> (máscara profesional), <span class="code-badge">DT-29</span> (límites éticos).</p></div>
+                    </div>
+                </div>
+
+                <!-- DT-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-05</span>
+                        <span class="text-2xl">⚖️ 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué caso te está generando un dilema ético que no te animás a consultar con nadie?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Identificar dilemas éticos no consultados. Romper el aislamiento profesional que puede llevar a decisiones poco reflexionadas.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Aislamiento profesional, vergüenza por la duda, necesidad de supervisión, responsabilidad ética.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Dilema no consultado:</strong> → <em>Reflexionar:</em> "¿Qué me impide traer este caso a supervisión? ¿Miedo al juicio, vergüenza, omnipotencia?"</li>
+                            <li><strong>Justificación racional:</strong> "Ya sé lo que está bien". → <em>Reflexionar:</em> "¿Esta certeza es genuina o es una defensa para no exponer mi duda?"</li>
+                            <li><strong>Zona gris:</strong> → <em>Reflexionar:</em> "¿Qué pasaría si le contara este caso a un colega respetado? ¿Qué me diría?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando tienes un caso que te genera incomodidad ética, cuando los límites están difusos, o cuando estás considerando salir del encuadre estándar.</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-15</span> (supervisión), <span class="code-badge">DT-29</span> (límites éticos), <span class="code-badge">DT-30</span> (código deontológico).</p></div>
+                    </div>
+                </div>
+
+                <!-- DT-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">DT-06</span>
+                        <span class="text-2xl">😴 ⚡</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué paciente te está haciendo sentir somnoliento, aburrido o desconectado durante las sesiones?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo de auto-reflexión:</p><p class="text-slate-700">Identificar contratransferencia somática. El aburrimiento o somnolencia del terapeuta suele ser información clínica valiosa sobre lo que está pasando en la sesión.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos del terapeuta:</p><p class="text-slate-700">Contratransferencia somática, inducción proyectiva, disociación inducida, evitación mutua del afecto.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💭 Reflexión y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Somnolencia recurrente:</strong> → <em>Reflexionar:</em> "¿Este paciente está induciendo en mí el mismo adormecimiento que él siente? ¿Qué emoción estamos evitando ambos?"</li>
+                            <li><strong>Aburrimiento:</strong> → <em>Reflexionar:</em> "¿El paciente está evitando material importante? ¿O soy yo quien está evitando conectar?"</li>
+                            <li><strong>Desconexión:</strong> → <em>Reflexionar:</em> "¿Qué está pasando en la sesión que nos lleva a ambos a desconectarnos?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-therapist-700 mb-1">✅ Especialmente útil:</p><p class="text-slate-700">Cuando notas patrones somáticos recurrentes con ciertos pacientes (somnolencia, dolor de cabeza, ganas de ir al baño).</p></div>
+                        <div><p class="font-bold text-therapist-700 mb-1">🔗 Preguntas complementarias:</p><p class="text-slate-700"><span class="code-badge">DT-01</span> (contratransferencia), <span class="code-badge">DT-07</span> (evitación mutua).</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE RÁPIDO DE TEMAS DEL MAZO 12 -->
+        <!-- ============================================= -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6">Índice Rápido de Temas - Mazo 12 (Desafíos Terapéuticos)</h3>
+            <p class="text-slate-700 mb-6">Este índice temático permite al terapeuta buscar cartas por <strong>objetivo de auto-reflexión</strong> en lugar de por número. Cada código remite a la entrada completa en el formato detallado mostrado arriba.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- CATEGORÍA: CONTRATRANSFERENCIA Y PROYECCIONES -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🪞 Contratransferencia y Proyecciones (DT-01 a DT-10)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Reacción emocional inexplicable con un paciente</span> <span class="code-badge">DT-01</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Heridas personales activadas por el caso</span> <span class="code-badge">DT-02</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Máscara profesional vs. self auténtico</span> <span class="code-badge">DT-03</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Uso terapéutico de la vulnerabilidad</span> <span class="code-badge">DT-04</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dilemas éticos no consultados</span> <span class="code-badge">DT-05</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Contratransferencia somática (somnolencia, aburrimiento)</span> <span class="code-badge">DT-06</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Paciente que te recuerda a alguien de tu pasado</span> <span class="code-badge">DT-07</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Ganas de "salvar" o "rescatar" al paciente</span> <span class="code-badge">DT-08</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Irritación o rechazo hacia un paciente</span> <span class="code-badge">DT-09</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Sobre-implicación emocional con un caso</span> <span class="code-badge">DT-10</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: LÍMITES Y ENCUADRE -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🚧 Límites y Encuadre (DT-11 a DT-20)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Límites difusos con un paciente específico</span> <span class="code-badge">DT-11</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Extensión de sesiones más allá del horario</span> <span class="code-badge">DT-12</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Contacto fuera del encuadre (redes, mensajes)</span> <span class="code-badge">DT-13</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Necesidad de terapia personal propia</span> <span class="code-badge">DT-14</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cuándo buscar supervisión clínica</span> <span class="code-badge">DT-15</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Derivación: cuándo es lo ético</span> <span class="code-badge">DT-16</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Pacientes que agotan tu energía</span> <span class="code-badge">DT-17</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de la idealización del paciente</span> <span class="code-badge">DT-18</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de la devaluación del paciente</span> <span class="code-badge">DT-19</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Pacientes que no avanzan: ¿es él o sos vos?</span> <span class="code-badge">DT-20</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: FATIGA POR COMPASIÓN Y BURNOUT -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🔥 Fatiga por Compasión y Burnout (DT-21 a DT-30)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Señales tempranas de burnout profesional</span> <span class="code-badge">DT-21</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cinismo o despersonalización con pacientes</span> <span class="code-badge">DT-22</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Sensación de agotamiento emocional crónico</span> <span class="code-badge">DT-23</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dificultad para desconectar del trabajo</span> <span class="code-badge">DT-24</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Pérdida de sentido en la práctica clínica</span> <span class="code-badge">DT-25</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Fatiga por compasión: señales de alerta</span> <span class="code-badge">DT-26</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Trauma vicario: cuando el dolor ajeno te afecta</span> <span class="code-badge">DT-27</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Autenticidad vs. agotamiento del rol</span> <span class="code-badge">DT-28</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Límites éticos en la auto-divulgación</span> <span class="code-badge">DT-29</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Código deontológico como brújula</span> <span class="code-badge">DT-30</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: DESARROLLO PROFESIONAL Y AUTO-CUIDADO -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🌱 Desarrollo Profesional y Auto-cuidado (DT-31 a DT-60)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Formación continua: qué te falta aprender</span> <span class="code-badge">DT-31</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Supervisión como herramienta de crecimiento</span> <span class="code-badge">DT-32</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Red de colegas y comunidad profesional</span> <span class="code-badge">DT-33</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Rituales de transición entre sesiones</span> <span class="code-badge">DT-34</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Prácticas de auto-cuidado no negociables</span> <span class="code-badge">DT-35</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconexión con el propósito vocacional</span> <span class="code-badge">DT-36</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Equilibrio entre vida personal y profesional</span> <span class="code-badge">DT-37</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Gestión de la carga administrativa</span> <span class="code-badge">DT-38</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebración de los logros terapéuticos</span> <span class="code-badge">DT-39</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Aprendizaje a partir de los "fracasos" clínicos</span> <span class="code-badge">DT-40</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Humildad profesional: reconocer limitaciones</span> <span class="code-badge">DT-41</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración de nuevas orientaciones teóricas</span> <span class="code-badge">DT-42</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Mentoría: ser guiado y guiar a otros</span> <span class="code-badge">DT-43</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Creatividad en la práctica clínica</span> <span class="code-badge">DT-44</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de la soledad del terapeuta</span> <span class="code-badge">DT-45</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Legado profesional: qué querés dejar</span> <span class="code-badge">DT-46</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Gratitud hacia los pacientes como maestros</span> <span class="code-badge">DT-47</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Ritual de cierre de la jornada laboral</span> <span class="code-badge">DT-48</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso renovado con la profesión</span> <span class="code-badge">DT-49</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cierre del mazo y transición hacia la autonomía</span> <span class="code-badge">DT-50</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Paciente que enseñó sobre el propio self</span> <span class="code-badge">DT-51</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Libros y autores que acompañaron el crecimiento</span> <span class="code-badge">DT-52</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Colegas y supervisores fundamentales</span> <span class="code-badge">DT-53</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Casos que enseñaron sobre límites de competencia</span> <span class="code-badge">DT-54</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Máscara de "terapeuta perfecto" en proceso de soltar</span> <span class="code-badge">DT-55</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Gestión de fatiga por compasión y señales tempranas</span> <span class="code-badge">DT-56</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Noche oscura profesional y recursos de resiliencia</span> <span class="code-badge">DT-57</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Legado profesional deseado y construcción diaria</span> <span class="code-badge">DT-58</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Auto-agradecimiento por el camino recorrido</span> <span class="code-badge">DT-59</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso renovado con práctica, bienestar y crecimiento</span> <span class="code-badge">DT-60</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOTA FINAL DEL ÍNDICE -->
+        <section class="bg-brand-900 text-white p-8 rounded-xl shadow-lg">
+            <h3 class="font-serif text-2xl text-therapist-500 mb-4">📌 Instrucciones para el Terapeuta</h3>
+            <p class="text-slate-300 mb-4">Este mazo es una herramienta de <strong>auto-reflexión profesional</strong>. No está diseñado para ser usado con pacientes, sino para que el terapeuta lo use consigo mismo, en supervisión, o como parte de su desarrollo profesional continuo.</p>
+            <p class="text-slate-300 mb-4">Se recomienda:</p>
+            <ul class="text-slate-300 space-y-2 ml-4 list-disc">
+                <li>Usar una carta por semana como foco de auto-reflexión.</li>
+                <li>Llevar una bitácora de auto-reflexión profesional.</li>
+                <li>Compartir las reflexiones con un supervisor o colega de confianza.</li>
+                <li>Integrar este mazo en la formación continua del terapeuta.</li>
+            </ul>
+            <p class="text-slate-400 text-sm mt-6 italic">El desarrollo completo de las 60 entradas en formato detallado se encuentra disponible en los archivos fuente del proyecto. Este índice sirve como mapa de navegación rápido para la auto-reflexión profesional.</p>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-6 flex items-center gap-2">✅ Índice de Integridad — Mazo 12 Completo</h3>
+            
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">60 cartas consolidadas (DT-01 a DT-60)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">4 categorías temáticas definidas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Formato adaptado para auto-reflexión del terapeuta</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Índice rápido de temas por objetivo de auto-reflexión</span>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-6 pt-4 border-t border-slate-100">El 100% del contenido del Mazo 12 ha sido consolidado sin omisiones. Mazo completo según el Plan Maestro original.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Anexo A: Índice Maestro de Códigos &bull; Mazo 12: Desafíos Terapéuticos (DT-01 a DT-60)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

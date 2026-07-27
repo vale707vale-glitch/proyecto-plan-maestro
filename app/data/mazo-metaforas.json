@@ -1,0 +1,2049 @@
+{
+  "id": "metaforas",
+  "nombre": "Metaforas",
+  "numero": 11,
+  "rango": "M-01 a M-60",
+  "descripcion": "Lenguaje metaforico, imaginacion, simbolos, narrativa y recursos creativos.",
+  "cartas": [
+    {
+      "codigo": "M-01",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si tu vida actual fuera un tipo de clima, ¿cuál sería y qué pronóstico te gustaría recibir?",
+      "objetivo": "Evaluar el estado emocional y existencial del paciente a través de la metáfora climática. Identificar la percepción de control, previsibilidad y esperanza de cambio.",
+      "profundizacion": [
+        "¿Este clima es estable o cambia constantemente sin aviso?",
+        "¿Tienes algún \"refugio\" o \"paraguas\" interno para protegerte?",
+        "¿Qué necesitaría este clima para volverse más habitable?",
+        "✔ Climas extremos y catastróficos (tormentas, huracanes, sequías).",
+        "✔ Climas estáticos y sin cambio (niebla perpetua, invierno eterno).",
+        "✔ Reconocimiento de recursos internos (refugios, herramientas).",
+        "✔ Capacidad de imaginar un pronóstico diferente al actual."
+      ],
+      "observacion": [
+        "Climas extremos y catastróficos (tormentas, huracanes, sequías).",
+        "Climas estáticos y sin cambio (niebla perpetua, invierno eterno).",
+        "Reconocimiento de recursos internos (refugios, herramientas).",
+        "Capacidad de imaginar un pronóstico diferente al actual."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir el pronóstico climático como una historia de cambio posible.",
+        "ACT:: Aceptación del clima actual mientras se construyen refugios internos.",
+        "Somática:: Explorar cómo se siente el \"clima\" en el cuerpo y qué necesita para regularse."
+      ],
+      "tarea": "Durante esta semana, cada mañana pregúntate: \"¿Cómo está mi clima interno hoy?\". Anota el pronóstico y observa si hay variaciones o patrones."
+    },
+    {
+      "codigo": "M-02",
+      "iconos": [
+        "span",
+        "🏠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu mente fuera una casa, ¿en qué habitación pasas más tiempo y cuál evitas entrar?",
+      "objetivo": "Explorar la topografía interna del paciente. Identificar los espacios mentales habituales, los evitados y la relación con el propio mundo interno.",
+      "profundizacion": [
+        "¿Cómo es esa habitación donde vives: luminosa, ordenada, caótica, acogedora?",
+        "¿Qué hay detrás de la puerta que evitas abrir?",
+        "¿Qué necesitaría esa casa para sentirse más como un hogar y menos como una prisión?",
+        "✔ Habitaciones oscuras, cerradas o en ruinas (depresión, trauma).",
+        "✔ Evitación de ciertas áreas (mecanismos de defensa rígidos).",
+        "✔ Capacidad de describir detalles sensoriales (acceso al mundo interno).",
+        "✔ Deseo de \"renovar\" o \"redecorar\" espacios internos."
+      ],
+      "observacion": [
+        "Habitaciones oscuras, cerradas o en ruinas (depresión, trauma).",
+        "Evitación de ciertas áreas (mecanismos de defensa rígidos).",
+        "Capacidad de describir detalles sensoriales (acceso al mundo interno).",
+        "Deseo de \"renovar\" o \"redecorar\" espacios internos."
+      ],
+      "intervenciones": [
+        "Gestalt:: Diálogo con las diferentes \"habitaciones\" como partes del self.",
+        "IFS:: Explorar qué \"partes\" habitan cada habitación y cuáles están exiliadas.",
+        "Narrativa:: Re-escribir la historia de la casa como un proceso de renovación consciente."
+      ],
+      "tarea": "Dibuja el plano de tu \"casa mental\". Marca con una X dónde estás la mayor parte del tiempo y con una estrella dónde te gustaría estar más. Observa qué necesitas para acercarte a esa estrella."
+    },
+    {
+      "codigo": "M-03",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "Si tu vida fuera una obra de teatro, ¿qué papel estás interpretando y cuál te gustaría probar?",
+      "objetivo": "Explorar la identificación con roles rígidos, las máscaras sociales y la flexibilidad identitaria. Evaluar la autenticidad vs. la complacencia.",
+      "profundizacion": [
+        "¿Quién escribió ese guion: tú, tu familia, la sociedad?",
+        "¿Qué pasaría si te salieras del libreto por un momento?",
+        "¿Qué personaje te gustaría interpretar aunque te dé miedo?",
+        "✔ Roles de víctima, héroe agotado o cuidador eterno.",
+        "✔ Confusión entre el actor y el personaje (fusión identitaria).",
+        "✔ Deseo de explorar otros roles sin culpa.",
+        "✔ Miedo a decepcionar al \"público\" (familia, sociedad)."
+      ],
+      "observacion": [
+        "Roles de víctima, héroe agotado o cuidador eterno.",
+        "Confusión entre el actor y el personaje (fusión identitaria).",
+        "Deseo de explorar otros roles sin culpa.",
+        "Miedo a decepcionar al \"público\" (familia, sociedad)."
+      ],
+      "intervenciones": [
+        "Psicodrama:: Técnicas de inversión de rol y exploración de personajes alternativos.",
+        "ACT:: El Yo como contexto (el actor) vs. el Yo conceptualizado (el personaje).",
+        "Gestalt:: Experimento de \"probar\" el nuevo personaje en la sesión."
+      ],
+      "tarea": "Esta semana, elige una situación donde normalmente actuarías según tu \"rol habitual\". Practica interpretar un personaje diferente (más firme, más vulnerable, más auténtico). Observa qué cambia."
+    },
+    {
+      "codigo": "M-04",
+      "iconos": [
+        "span",
+        "🧳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si llevaras una mochila invisible, ¿qué tres objetos pesados cargarías y cuál te gustaría soltar?",
+      "objetivo": "Identificar las cargas emocionales, lealtades y responsabilidades que el paciente lleva. Evaluar la disposición al desapego y la renuncia necesaria para el crecimiento.",
+      "profundizacion": [
+        "¿De quién heredaste esos objetos y por qué sigues cargándolos?",
+        "¿Qué pasaría si soltaras uno de ellos, aunque sea temporalmente?",
+        "¿Qué objeto nuevo te gustaría meter en la mochila en su lugar?",
+        "✔ Aferramiento feroz a las cargas (\"son parte de mí\").",
+        "✔ Tristeza o duelo al nombrar lo que hay que soltar.",
+        "✔ Alivio físico al imaginar soltar el peso.",
+        "✔ Culpa por \"traicionar\" el origen de las cargas."
+      ],
+      "observacion": [
+        "Aferramiento feroz a las cargas (\"son parte de mí\").",
+        "Tristeza o duelo al nombrar lo que hay que soltar.",
+        "Alivio físico al imaginar soltar el peso.",
+        "Culpa por \"traicionar\" el origen de las cargas."
+      ],
+      "intervenciones": [
+        "Gestalt:: Ritual simbólico de dejar la mochila en el suelo y explorar la sensación de ligereza.",
+        "Sistémica:: Devolver simbólicamente las cargas que no corresponden al paciente.",
+        "ACT:: Aceptación de la pérdida como parte inherente de cualquier transición vital."
+      ],
+      "tarea": "Escribe los tres objetos en un papel. Elige uno y déjalo físicamente en un lugar de tu casa durante un día. Observa qué sensaciones emergen al no cargarlo."
+    },
+    {
+      "codigo": "M-05",
+      "iconos": [
+        "span",
+        "🌉",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "Si estuvieras en un puente entre dos orillas, ¿de qué lado estás partiendo y a cuál te gustaría llegar?",
+      "objetivo": "Metaforizar el proceso terapéutico y la transición vital. Evaluar la capacidad de abstracción, la tolerancia a la incertidumbre y la claridad de objetivos.",
+      "profundizacion": [
+        "¿Qué te llevas en la mochila para cruzar y qué dejas atrás?",
+        "¿Qué te da más miedo: la orilla que dejas o la que aún no conoces?",
+        "¿Qué necesitarías para confiar en que el puente no se romperá a mitad de camino?",
+        "✔ Miedo paralizante a cruzar (resistencia al cambio).",
+        "✔ Impaciencia por llegar sin tolerar el proceso (evitación del duelo).",
+        "✔ Claridad sobre ambas orillas y aceptación del tránsito.",
+        "✔ Dificultad para visualizar la orilla deseada (desesperanza)."
+      ],
+      "observacion": [
+        "Miedo paralizante a cruzar (resistencia al cambio).",
+        "Impaciencia por llegar sin tolerar el proceso (evitación del duelo).",
+        "Claridad sobre ambas orillas y aceptación del tránsito.",
+        "Dificultad para visualizar la orilla deseada (desesperanza)."
+      ],
+      "intervenciones": [
+        "ACT:: Uso de metáforas de aceptación y compromiso. El viaje vs. el destino.",
+        "Constructivismo:: La terapia como proceso activo de construcción de significado durante el tránsito.",
+        "Soluciones:: Definir la \"pequeña señal\" conductual de que se ha cruzado el puente."
+      ],
+      "tarea": "Identifica un \"pequeño puente\" (una acción mínima) que puedas cruzar esta semana para acercarte a tu objetivo. Anota cómo te sientes al dar ese paso y qué descubres en el camino."
+    },
+    {
+      "codigo": "M-06",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🌳",
+        "span"
+      ],
+      "pregunta": "Si fueras un árbol, ¿dónde están tus raíces, dónde están tus ramas y qué hojas estás dejando caer esta temporada?",
+      "objetivo": "Explorar el arraigo, la expansión y los ciclos de soltar y renovar. Evaluar la conexión con el pasado, el presente y el crecimiento futuro.",
+      "profundizacion": [
+        "¿Tus raíces están profundas y seguras, o superficiales y expuestas?",
+        "¿Hacia dónde crecen tus ramas: hacia la luz, hacia otros árboles, o encogiéndose?",
+        "¿Qué hojas (creencias, relaciones, roles) necesitas soltar para que el árbol siga creciendo?",
+        "✔ Raíces débiles o desconectadas (inseguridad, falta de grounding).",
+        "✔ Ramas secas, rotas o encogidas (pérdidas no elaboradas, aislamiento).",
+        "✔ Árbol frondoso y saludable (vitalidad, conexión).",
+        "✔ Miedo a soltar las hojas por temor a quedarse desnudo."
+      ],
+      "observacion": [
+        "Raíces débiles o desconectadas (inseguridad, falta de grounding).",
+        "Ramas secas, rotas o encogidas (pérdidas no elaboradas, aislamiento).",
+        "Árbol frondoso y saludable (vitalidad, conexión).",
+        "Miedo a soltar las hojas por temor a quedarse desnudo."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios de grounding para fortalecer las raíces corporales y la sensación de sostén.",
+        "Narrativa:: Re-escribir la historia personal como un árbol que ha sobrevivido a tormentas.",
+        "Sistémica:: Explorar las raíces familiares y las lealtades invisibles que sostienen o limitan."
+      ],
+      "tarea": "Dibuja tu árbol corporal esta semana. Marca dónde están tus raíces, tus ramas y las hojas que quieres soltar. Observa cómo te sientes al hacerlo y qué necesita tu árbol para seguir creciendo."
+    },
+    {
+      "codigo": "M-07",
+      "iconos": [
+        "span",
+        "🎨",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si tu estado emocional actual fuera un color, ¿cuál sería y qué necesitaría para cambiar de tonalidad?",
+      "objetivo": "Acceder al estado emocional a través de la metáfora cromática. Evaluar la intensidad, la mezcla de emociones y la capacidad de regulación.",
+      "profundizacion": [
+        "¿Es un color brillante, apagado, intenso o suave?",
+        "¿Hay otros colores mezclados o es un color puro?",
+        "¿Qué \"pinceladas\" o acciones podrían modificar este color, aunque sea ligeramente?",
+        "✔ Colores oscuros y pesados (negro, gris, marrón: depresión, agotamiento).",
+        "✔ Colores intensos y caóticos (rojo, naranja: ira, ansiedad).",
+        "✔ Ausencia de color o blanco (disociación, anestesia emocional).",
+        "✔ Capacidad de imaginar colores más luminosos o equilibrados."
+      ],
+      "observacion": [
+        "Colores oscuros y pesados (negro, gris, marrón: depresión, agotamiento).",
+        "Colores intensos y caóticos (rojo, naranja: ira, ansiedad).",
+        "Ausencia de color o blanco (disociación, anestesia emocional).",
+        "Capacidad de imaginar colores más luminosos o equilibrados."
+      ],
+      "intervenciones": [
+        "Arte terapia:: Pintar o dibujar el color actual y explorar qué necesita para transformarse.",
+        "Somática:: Anclar la sensación del color en el cuerpo y explorar qué lo modula.",
+        "Mindfulness:: Observar el color sin juicio, como un fenómeno transitorio."
+      ],
+      "tarea": "Elige un objeto, alimento o lugar que represente el color que te gustaría introducir en tu vida. Dedica 5 minutos esta semana a conectar con ese color y observa cómo cambia tu estado."
+    },
+    {
+      "codigo": "M-08",
+      "iconos": [
+        "span",
+        "🎵",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu vida tuviera una banda sonora ahora mismo, ¿qué tipo de música sonaría: lenta, acelerada, disonante, o en silencio?",
+      "objetivo": "Acceder al estado emocional a través de la metáfora musical. Evaluar el ritmo interno, la armonía o el caos del sistema nervioso y la vida del paciente.",
+      "profundizacion": [
+        "¿Esa música te pertenece o sentís que es impuesta desde afuera?",
+        "¿Qué instrumento la tocaría: cuerdas, percusión, viento, o algo electrónico?",
+        "¿Qué necesitaría esa música para volverse más acogedora o rítmica?",
+        "✔ Música caótica o disonante (ansiedad, sobrecarga, trauma).",
+        "✔ Melancolía en tonos menores (tristeza no elaborada, duelo).",
+        "✔ Silencio total (disociación, anestesia emocional, depresión severa).",
+        "✔ Música armoniosa y rítmica (regulación, bienestar, flow)."
+      ],
+      "observacion": [
+        "Música caótica o disonante (ansiedad, sobrecarga, trauma).",
+        "Melancolía en tonos menores (tristeza no elaborada, duelo).",
+        "Silencio total (disociación, anestesia emocional, depresión severa).",
+        "Música armoniosa y rítmica (regulación, bienestar, flow)."
+      ],
+      "intervenciones": [
+        "Musico-terapia:: Usar la música como herramienta de regulación y expresión emocional.",
+        "Somática:: Mover el cuerpo al ritmo de la música interna para liberar tensión o activar energía.",
+        "Narrativa:: Construir una historia sobre la banda sonora del cuerpo y su evolución."
+      ],
+      "tarea": "Crea una playlist con 3 canciones: una que represente cómo te sientes hoy, una que te gustaría sentir y una que te ayude a transitar del estado actual al deseado. Escúchala conscientemente esta semana."
+    },
+    {
+      "codigo": "M-09",
+      "iconos": [
+        "span",
+        "🗺️",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "Si tu vida fuera un mapa, ¿dónde estás parado/a ahora, hacia dónde apunta tu brújula y qué territorio desconocido te da miedo explorar?",
+      "objetivo": "Evaluar la orientación vital, la claridad de valores y los miedos al crecimiento. Identificar la sensación de dirección o desorientación existencial.",
+      "profundizacion": [
+        "¿Tu brújula apunta hacia un valor propio o hacia la expectativa de otros?",
+        "¿Qué te impide avanzar hacia ese territorio desconocido?",
+        "¿Qué recursos (mapa, guía, provisiones) necesitas para explorar con más seguridad?",
+        "✔ Sensación de estar perdido o sin brújula (crisis existencial, depresión).",
+        "✔ Brújula que apunta en direcciones contradictorias (ambivalencia, conflicto de valores).",
+        "✔ Miedo paralizante al territorio desconocido (evitación experiencial).",
+        "✔ Claridad y entusiasmo al visualizar el mapa deseado."
+      ],
+      "observacion": [
+        "Sensación de estar perdido o sin brújula (crisis existencial, depresión).",
+        "Brújula que apunta en direcciones contradictorias (ambivalencia, conflicto de valores).",
+        "Miedo paralizante al territorio desconocido (evitación experiencial).",
+        "Claridad y entusiasmo al visualizar el mapa deseado."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores como brújula y compromiso con la acción dirigida.",
+        "Logoterapia:: Búsqueda de sentido y propósito como orientación vital.",
+        "Narrativa:: Re-escribir la historia como un viaje con propósito, no como un vagar sin rumbo."
+      ],
+      "tarea": "Dibuja tu \"mapa vital\" actual. Marca dónde estás, hacia dónde apunta tu brújula y qué territorio te da miedo. Luego, identifica un pequeño paso que puedas dar esta semana hacia ese territorio desconocido."
+    },
+    {
+      "codigo": "M-10",
+      "iconos": [
+        "span",
+        "🔥",
+        "span",
+        "span",
+        "💧",
+        "span"
+      ],
+      "pregunta": "Si tu energía vital fuera un elemento (fuego, agua, tierra, aire), ¿cuál sería hoy y cuál necesitarías para sentirte más equilibrado/a?",
+      "objetivo": "Evaluar el estado energético y la regulación del sistema nervioso a través de la metáfora elemental. Identificar excesos o déficits de activación.",
+      "profundizacion": [
+        "¿Ese elemento está en equilibrio o desbordado (fuego que quema, agua que inunda)?",
+        "¿Qué elemento te falta para sentirte más completo/a?",
+        "¿Cómo puedes invocar ese elemento faltante en tu vida cotidiana?",
+        "✔ Fuego descontrolado (ansiedad, ira, hiperactivación).",
+        "✔ Agua estancada o inundación (depresión, emociones desbordadas).",
+        "✔ Tierra pesada o inestable (agotamiento, falta de grounding).",
+        "✔ Aire disperso o ausente (disociación, desconexión)."
+      ],
+      "observacion": [
+        "Fuego descontrolado (ansiedad, ira, hiperactivación).",
+        "Agua estancada o inundación (depresión, emociones desbordadas).",
+        "Tierra pesada o inestable (agotamiento, falta de grounding).",
+        "Aire disperso o ausente (disociación, desconexión)."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios específicos según el elemento faltante (grounding para tierra, respiración para aire).",
+        "Mindfulness:: Meditaciones elementales para equilibrar la energía interna.",
+        "Polivagal:: Regular el sistema nervioso según el estado de activación del elemento."
+      ],
+      "tarea": "Identifica el elemento que te falta. Esta semana, dedica 10 minutos al día a conectar con ese elemento (caminar descalzo para tierra, respirar profundo para aire, nadar o ducharte para agua, moverte para fuego). Observa cómo cambia tu energía."
+    },
+    {
+      "codigo": "M-11",
+      "iconos": [
+        "span",
+        "🌿",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu mente fuera un jardín, ¿qué estás cultivando conscientemente y qué ha crecido de forma silvestre sin que te dieras cuenta?",
+      "objetivo": "Evaluar el cuidado de los pensamientos y emociones. Diferenciar entre lo intencional (valores, hábitos) y lo automático (creencias limitantes, ansiedad).",
+      "profundizacion": [
+        "¿Qué \"maleza\" (pensamientos recurrentes) está robando nutrientes a tus plantas principales?",
+        "¿Quién te enseñó a cuidar (o descuidar) este jardín?",
+        "¿Qué herramienta o recurso necesitas para empezar a podar lo que ya no sirve?",
+        "✔ Dificultad para identificar lo \"silvestre\" (falta de autoconciencia).",
+        "✔ Autocrítica severa por el estado del jardín (\"está todo lleno de maleza\").",
+        "✔ Reconocimiento de pequeños brotes de esperanza o cambio.",
+        "✔ Sensación de abrumamiento ante la idea de tener que \"arreglarlo todo\"."
+      ],
+      "observacion": [
+        "Dificultad para identificar lo \"silvestre\" (falta de autoconciencia).",
+        "Autocrítica severa por el estado del jardín (\"está todo lleno de maleza\").",
+        "Reconocimiento de pequeños brotes de esperanza o cambio.",
+        "Sensación de abrumamiento ante la idea de tener que \"arreglarlo todo\"."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión cognitiva: observar los pensamientos como \"maleza\" sin tener que arrancarlos a la fuerza.",
+        "Narrativa:: Re-escribir la historia del jardín, pasando de abandono a cultivo consciente.",
+        "Mindfulness:: Práctica de atención plena para observar el jardín interno sin juicio."
+      ],
+      "tarea": "Dedica 5 minutos al día esta semana a \"regar\" conscientemente algo positivo (un recuerdo agradable, una cualidad propia). Anota cómo evoluciona esa sensación."
+    },
+    {
+      "codigo": "M-12",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Si tu proceso actual fuera un río, ¿estás nadando a favor de la corriente, luchando contra ella, o te has dejado llevar por los rápidos?",
+      "objetivo": "Explorar la relación del paciente con el flujo de la vida, el control, la aceptación y la resistencia al cambio.",
+      "profundizacion": [
+        "¿Qué te da miedo que pase si dejas de nadar contra la corriente?",
+        "¿Hay remansos de paz en este río o todo son rápidos y obstáculos?",
+        "¿Qué necesitarías para sentir que puedes flotar con confianza en lugar de ahogarte?",
+        "✔ Agotamiento visible por \"luchar contra la corriente\" (hipercontrol).",
+        "✔ Sensación de indefensión o arrastre por los \"rápidos\" (crisis, impulsividad).",
+        "✔ Alivio al recibir permiso para \"flotar\" y soltar el control.",
+        "✔ Dificultad para identificar la dirección de la corriente (desorientación)."
+      ],
+      "observacion": [
+        "Agotamiento visible por \"luchar contra la corriente\" (hipercontrol).",
+        "Sensación de indefensión o arrastre por los \"rápidos\" (crisis, impulsividad).",
+        "Alivio al recibir permiso para \"flotar\" y soltar el control.",
+        "Dificultad para identificar la dirección de la corriente (desorientación)."
+      ],
+      "intervenciones": [
+        "ACT:: Metáfora de los pasajeros en el autobús o el río: aceptación de la experiencia sin lucha.",
+        "Somática:: Ejercicios de fluidez y relajación muscular para contrarrestar la rigidez del control.",
+        "Mindfulness:: Observar la corriente de pensamientos sin engancharse a ellos."
+      ],
+      "tarea": "Identifica una situación esta semana donde sueles \"luchar contra la corriente\". Practica \"flotar\" (aceptar la situación sin intentar cambiarla inmediatamente) durante 5 minutos. Anota qué sucede."
+    },
+    {
+      "codigo": "M-13",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "Cuando te miras en el 'espejo' de tu propia mente, ¿qué distorsión o lente suele alterar la imagen que ves de ti mismo?",
+      "objetivo": "Identificar sesgos cognitivos, distorsiones de la autoimagen y la influencia de las voces internalizadas en la autopercepción.",
+      "profundizacion": [
+        "¿Ese espejo te muestra una imagen ampliada (defectos), reducida (logros) o deformada?",
+        "¿Quién te regaló o instaló ese espejo en primer lugar?",
+        "¿Qué pasaría si pudieras limpiar o cambiar ese espejo por uno más compasivo?",
+        "✔ Autodesprecio inmediato al describir la imagen.",
+        "✔ Reconocimiento de que la \"lente\" pertenece a un crítico interno o figura parental.",
+        "✔ Dificultad para imaginar una imagen distorsionada (fusión cognitiva total).",
+        "✔ Alivio al externalizar el espejo como un objeto, no como la verdad absoluta."
+      ],
+      "observacion": [
+        "Autodesprecio inmediato al describir la imagen.",
+        "Reconocimiento de que la \"lente\" pertenece a un crítico interno o figura parental.",
+        "Dificultad para imaginar una imagen distorsionada (fusión cognitiva total).",
+        "Alivio al externalizar el espejo como un objeto, no como la verdad absoluta."
+      ],
+      "intervenciones": [
+        "TCC:: Identificación y reestructuración de distorsiones cognitivas (lentes sucias).",
+        "IFS:: Dialogar con la \"parte\" que sostiene el espejo distorsionado y entender su intención protectora.",
+        "Gestalt:: Experimento de hablarle al \"reflejo\" para integrar partes rechazadas."
+      ],
+      "tarea": "Esta semana, cada vez que te critiques, pregúntate: \"¿Estoy mirando a través de un espejo distorsionado?\". Escribe una versión más realista y amable de esa misma situación."
+    },
+    {
+      "codigo": "M-14",
+      "iconos": [
+        "span",
+        "🧳",
+        "span",
+        "span",
+        "🕰️",
+        "span"
+      ],
+      "pregunta": "Si tuvieras un baúl bajo la cama donde guardas recuerdos, ¿qué tres cosas has escondido ahí por miedo y cuál te gustaría sacar a la luz?",
+      "objetivo": "Explorar la evitación experiencial, el material reprimido y la disposición gradual a procesar emociones o recuerdos dolorosos.",
+      "profundizacion": [
+        "¿Qué temes que pase si ese baúl se abre por completo?",
+        "¿Quién te ayudó a cerrar ese baúl o a esconderlo?",
+        "¿Qué recurso o apoyo necesitarías para poder mirar ese objeto con seguridad?",
+        "✔ Negación o minimización (\"no tengo nada escondido\").",
+        "✔ Ansiedad o activación somática al mencionar el baúl.",
+        "✔ Curiosidad cautelosa por explorar el contenido.",
+        "✔ Reconocimiento de que el baúl pesa más cerrado que abierto."
+      ],
+      "observacion": [
+        "Negación o minimización (\"no tengo nada escondido\").",
+        "Ansiedad o activación somática al mencionar el baúl.",
+        "Curiosidad cautelosa por explorar el contenido.",
+        "Reconocimiento de que el baúl pesa más cerrado que abierto."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento gradual de los recuerdos almacenados en el \"baúl\" con recursos de seguridad.",
+        "Somática:: Trabajar la sensación de \"peso\" o \"cierre\" en el cuerpo y practicar la apertura gradual.",
+        "Narrativa:: Externalizar el baúl como un contenedor temporal, no como una prisión permanente."
+      ],
+      "tarea": "Escribe en un papel el nombre de una de esas \"cosas\" escondidas. No tienes que compartirla. Solo observa cómo se siente tu cuerpo al tenerla escrita fuera del baúl."
+    },
+    {
+      "codigo": "M-15",
+      "iconos": [
+        "span",
+        "🗼",
+        "span",
+        "span",
+        "🌟",
+        "span"
+      ],
+      "pregunta": "En medio de la niebla o la tormenta de tu vida actual, ¿cuál es ese 'faro' interno que todavía te indica dónde está la costa segura?",
+      "objetivo": "Identificar valores fundamentales, fortalezas y recursos de resiliencia que permanecen estables incluso en momentos de alta crisis o confusión.",
+      "profundizacion": [
+        "¿Ese faro es un valor, un recuerdo, una persona o una creencia?",
+        "¿Cómo has logrado mantenerlo encendido cuando todo está oscuro?",
+        "¿Qué necesitas hacer para que su luz sea un poco más visible hoy?",
+        "✔ Dificultad para identificar cualquier luz (desesperanza severa).",
+        "✔ Emoción profunda y conexión con un valor o persona ancla.",
+        "✔ Reconocimiento de que el faro ha estado ahí, pero la niebla lo ocultaba.",
+        "✔ Alivio y esperanza al visualizar un punto de referencia estable."
+      ],
+      "observacion": [
+        "Dificultad para identificar cualquier luz (desesperanza severa).",
+        "Emoción profunda y conexión con un valor o persona ancla.",
+        "Reconocimiento de que el faro ha estado ahí, pero la niebla lo ocultaba.",
+        "Alivio y esperanza al visualizar un punto de referencia estable."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores como brújula inquebrantable en la tormenta.",
+        "EMDR:: Instalación de recurso del \"faro\" o lugar seguro para fortalecer la regulación.",
+        "Narrativa:: Re-escribir la historia destacando los momentos en que el faro guió al paciente."
+      ],
+      "tarea": "Identifica tu \"faro\" y escríbelo en una tarjeta. Llévala contigo esta semana. Cuando te sientas perdido, tócala y recuerda que la costa segura sigue ahí."
+    },
+    {
+      "codigo": "M-16",
+      "iconos": [
+        "span",
+        "🪢",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si el problema que te trae aquí fuera un nudo, ¿has estado tirando de los extremos con fuerza o estás buscando con calma el hilo que lo deshace?",
+      "objetivo": "Evaluar la estrategia de afrontamiento ante la complejidad. Diferenciar entre la lucha forzada (que aprieta el nudo) y la observación paciente (que lo deshace).",
+      "profundizacion": [
+        "¿Qué te hace creer que tirar con más fuerza es la única solución?",
+        "¿Qué pasaría si dejaras el nudo en la mesa y lo observaras sin tocarlo por un momento?",
+        "¿Necesitas ayuda de alguien más para encontrar el hilo correcto?",
+        "✔ Frustración y agotamiento por \"tirar del nudo\" sin resultados.",
+        "✔ Rigidéz cognitiva (creer que solo hay una forma de deshacerlo).",
+        "✔ Alivio al considerar la paciencia y la observación como estrategias válidas.",
+        "✔ Dificultad para pedir ayuda (querer deshacerlo solo)."
+      ],
+      "observacion": [
+        "Frustración y agotamiento por \"tirar del nudo\" sin resultados.",
+        "Rigidéz cognitiva (creer que solo hay una forma de deshacerlo).",
+        "Alivio al considerar la paciencia y la observación como estrategias válidas.",
+        "Dificultad para pedir ayuda (querer deshacerlo solo)."
+      ],
+      "intervenciones": [
+        "ACT:: Metáfora de la trampa china: cuanto más luchas, más te atrapa. La aceptación como primer paso.",
+        "Soluciones:: Cambio de perspectiva: observar el nudo desde otro ángulo en lugar de forcejear.",
+        "Somática:: Relajación progresiva para soltar la tensión física asociada al \"tirar del nudo\"."
+      ],
+      "tarea": "Esta semana, cuando sientas que estás \"tirando del nudo\" de un problema, detente. Respira y pregúntate: \"¿Hay un hilo más suave que pueda seguir en lugar de forzar?\". Anota el resultado."
+    },
+    {
+      "codigo": "M-17",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🌳",
+        "span"
+      ],
+      "pregunta": "¿Qué 'semilla' de cambio has plantado recientemente y qué condiciones (agua, luz, tierra) necesitas proveerle para que no se marchite?",
+      "objetivo": "Fomentar la responsabilidad activa en el propio proceso de crecimiento. Identificar los recursos y el entorno necesarios para sostener el cambio terapéutico.",
+      "profundizacion": [
+        "¿Qué te hace dudar de que esa semilla pueda crecer?",
+        "¿Quién o qué actúa como \"sol\" o \"agua\" para ese cambio en tu vida?",
+        "¿Qué \"plagas\" o distracciones podrían amenazar su crecimiento y cómo las manejarás?",
+        "✔ Impaciencia por ver resultados inmediatos (querer el árbol, no la semilla).",
+        "✔ Reconocimiento de la propia agencia en el cuidado del proceso.",
+        "✔ Dificultad para identificar las \"condiciones\" necesarias (falta de autocuidado).",
+        "✔ Esperanza y motivación al visualizar el crecimiento a largo plazo."
+      ],
+      "observacion": [
+        "Impaciencia por ver resultados inmediatos (querer el árbol, no la semilla).",
+        "Reconocimiento de la propia agencia en el cuidado del proceso.",
+        "Dificultad para identificar las \"condiciones\" necesarias (falta de autocuidado).",
+        "Esperanza y motivación al visualizar el crecimiento a largo plazo."
+      ],
+      "intervenciones": [
+        "Coaching/Soluciones:: Definir las condiciones ambientales y conductuales específicas para el éxito.",
+        "ACT:: Compromiso con acciones valiosas diarias que \"riegen\" la semilla.",
+        "Narrativa:: Re-enmarcar el proceso terapéutico como un cultivo paciente, no como una fabricación rápida."
+      ],
+      "tarea": "Elige una acción pequeña esta semana que represente \"regar tu semilla\" (ej. dormir 8 horas, poner un límite, practicar 5 min de mindfulness). Registra cómo te sientes después de hacerlo."
+    },
+    {
+      "codigo": "M-18",
+      "iconos": [
+        "span",
+        "🧱",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿El muro que has construido alrededor de ti es para proteger algo valioso en tu interior o para evitar que te hieran de nuevo?",
+      "objetivo": "Diferenciar entre límites saludables (protección de la integridad) y aislamiento defensivo (evitación del dolor y la conexión).",
+      "profundizacion": [
+        "¿Qué hay detrás de ese muro que estás protegiendo con tanta fuerza?",
+        "¿El muro tiene puertas o ventanas, o es completamente ciego?",
+        "¿Qué te costaría emocionalmente bajar un solo ladrillo de ese muro?",
+        "✔ Rigidez y hostilidad defensiva al cuestionar el muro.",
+        "✔ Tristeza o soledad reconocida detrás de la protección.",
+        "✔ Alivio al validar que el muro fue necesario en algún momento.",
+        "✔ Apertura gradual a la idea de instalar una \"puerta\" con cerradura (control seguro)."
+      ],
+      "observacion": [
+        "Rigidez y hostilidad defensiva al cuestionar el muro.",
+        "Tristeza o soledad reconocida detrás de la protección.",
+        "Alivio al validar que el muro fue necesario en algún momento.",
+        "Apertura gradual a la idea de instalar una \"puerta\" con cerradura (control seguro)."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Validar el modo del \"Protector Desapegado\" y negociar con él para permitir la conexión segura.",
+        "Somática:: Explorar la tensión muscular asociada al \"muro\" y practicar la apertura física gradual.",
+        "DBT:: Entrenamiento en asertividad para construir \"puertas con llave\" en lugar de muros ciegos."
+      ],
+      "tarea": "Identifica una situación esta semana donde tu \"muro\" se active. En lugar de cerrarte por completo, practica dejar una \"ventana\" abierta (compartir una pequeña emoción o necesidad). Observa qué pasa."
+    },
+    {
+      "codigo": "M-19",
+      "iconos": [
+        "span",
+        "🎒",
+        "span",
+        "span",
+        "🗺️",
+        "span"
+      ],
+      "pregunta": "Si este proceso terapéutico fuera un viaje en tren, ¿en qué estación crees que estás ahora y quién te acompaña en el vagón?",
+      "objetivo": "Metaforizar la etapa del proceso terapéutico. Evaluar la percepción de progreso, la alianza terapéutica y la sensación de soledad o compañía en el camino.",
+      "profundizacion": [
+        "¿La estación actual es de partida, de tránsito caótico, o de descanso?",
+        "¿Te sientes solo en el vagón o hay alguien (real o simbólico) que te acompaña?",
+        "¿Hacia dónde crees que se dirige este tren, o te da miedo no saberlo?",
+        "✔ Sensación de estar \"atascado\" en una estación interminable.",
+        "✔ Miedo al movimiento o a la velocidad del tren (ansiedad por el cambio).",
+        "✔ Reconocimiento de la alianza terapéutica como compañía en el vagón.",
+        "✔ Claridad sobre el destino o la dirección del proceso."
+      ],
+      "observacion": [
+        "Sensación de estar \"atascado\" en una estación interminable.",
+        "Miedo al movimiento o a la velocidad del tren (ansiedad por el cambio).",
+        "Reconocimiento de la alianza terapéutica como compañía en el vagón.",
+        "Claridad sobre el destino o la dirección del proceso."
+      ],
+      "intervenciones": [
+        "Relacional:: Reforzar la alianza terapéutica como la compañía segura en el vagón.",
+        "Narrativa:: Mapear las \"estaciones\" ya recorridas para validar el progreso realizado.",
+        "ACT:: Aceptar la incertidumbre del destino mientras se valora el viaje presente."
+      ],
+      "tarea": "Dibuja o escribe el nombre de la \"estación\" en la que estás hoy. Al lado, escribe el nombre de la próxima estación a la que te gustaría llegar. Observa qué necesitas para ese trayecto."
+    },
+    {
+      "codigo": "M-20",
+      "iconos": [
+        "span",
+        "🎨",
+        "span",
+        "span",
+        "🌅",
+        "span"
+      ],
+      "pregunta": "Ante la posibilidad de un nuevo comienzo, ¿sientes que tienes un lienzo en blanco lleno de oportunidades o un vacío que te paraliza?",
+      "objetivo": "Explorar la ambivalencia ante la libertad, el cambio y la construcción de una nueva narrativa. Evaluar el miedo a la responsabilidad de crear.",
+      "profundizacion": [
+        "¿Qué pincel o color te gustaría usar primero si no hubiera riesgo de equivocarte?",
+        "¿Quién te dijo que el lienzo en blanco es peligroso o que no sabes pintar?",
+        "¿Qué pasaría si permitieras que la primera pincelada fuera imperfecta?",
+        "✔ Parálisis por perfeccionismo (miedo a arruinar el lienzo).",
+        "✔ Emoción y entusiasmo ante la posibilidad de crear algo nuevo.",
+        "✔ Sensación de vacío o falta de identidad sin las \"manchas\" del pasado.",
+        "✔ Alivio al reconocer que el lienzo se puede repintar las veces que sea necesario."
+      ],
+      "observacion": [
+        "Parálisis por perfeccionismo (miedo a arruinar el lienzo).",
+        "Emoción y entusiasmo ante la posibilidad de crear algo nuevo.",
+        "Sensación de vacío o falta de identidad sin las \"manchas\" del pasado.",
+        "Alivio al reconocer que el lienzo se puede repintar las veces que sea necesario."
+      ],
+      "intervenciones": [
+        "Existencial:: Abrazar la libertad y la responsabilidad de crear el propio significado.",
+        "ACT:: Compromiso con la acción valiosa a pesar de la incertidumbre del resultado.",
+        "Arte terapia:: Uso de materiales creativos para externalizar el miedo al lienzo en blanco."
+      ],
+      "tarea": "Esta semana, haz algo \"imperfecto\" a propósito (un dibujo, un mensaje, una tarea). Observa tu nivel de ansiedad y cómo el mundo no se derrumba por esa imperfección."
+    },
+    {
+      "codigo": "M-21",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu proceso de sanación fuera un reloj de arena, ¿en qué parte crees que estás y qué te hace sentir que la arena cae demasiado rápido o demasiado lento?",
+      "objetivo": "Evaluar la relación del paciente con el tiempo, la paciencia y la tolerancia a los procesos que no se pueden apresurar. Identificar la frustración por la falta de resultados inmediatos.",
+      "profundizacion": [
+        "¿Sientes que puedes darle la vuelta al reloj o que el tiempo se te escapa de las manos?",
+        "¿Qué te hace creer que deberías estar en una parte diferente del reloj?",
+        "¿Qué necesitarías para confiar en que la arena cae a su ritmo natural y necesario?",
+        "✔ Impaciencia crónica y exigencia de \"soluciones rápidas\".",
+        "✔ Sensación de estancamiento (la arena no cae).",
+        "✔ Alivio al recibir validación sobre la lentitud natural de los procesos.",
+        "✔ Angustia por el tiempo \"perdido\" o \"desperdiciado\"."
+      ],
+      "observacion": [
+        "Impaciencia crónica y exigencia de \"soluciones rápidas\".",
+        "Sensación de estancamiento (la arena no cae).",
+        "Alivio al recibir validación sobre la lentitud natural de los procesos.",
+        "Angustia por el tiempo \"perdido\" o \"desperdiciado\"."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación del ritmo propio y defusión de la urgencia impuesta culturalmente.",
+        "Mindfulness:: Práctica de estar con el momento presente sin intentar acelerarlo.",
+        "Narrativa:: Re-enmarcar la espera no como tiempo perdido, sino como tiempo de incubación."
+      ],
+      "tarea": "Esta semana, cuando sientas impaciencia por avanzar, detente y observa algo que crece lentamente en la naturaleza (una planta, el cielo). Anota cómo te sientes al conectar con ese ritmo."
+    },
+    {
+      "codigo": "M-22",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "🕰️",
+        "span"
+      ],
+      "pregunta": "Si tu vida fuera un auto en movimiento, ¿cuánta atención le estás prestando al espejo retrovisor en lugar de al camino que tienes enfrente?",
+      "objetivo": "Explorar la rumiación del pasado, el apego a lo que fue y la dificultad para dirigir la energía hacia el presente y el futuro.",
+      "profundizacion": [
+        "¿Qué ves cuando miras ese retrovisor que te impide soltar el volante hacia adelante?",
+        "¿Necesitas revisar el retrovisor para aprender o para castigarte?",
+        "¿Qué pasaría si taparas ese espejo por un momento y solo miraras el parabrisas?",
+        "✔ Fijación obsesiva en eventos pasados o traumas no procesados.",
+        "✔ Miedo a avanzar por temor a repetir errores del pasado.",
+        "✔ Alivio al reconocer que el retrovisor es pequeño por una razón.",
+        "✔ Dificultad para visualizar un camino futuro claro."
+      ],
+      "observacion": [
+        "Fijación obsesiva en eventos pasados o traumas no procesados.",
+        "Miedo a avanzar por temor a repetir errores del pasado.",
+        "Alivio al reconocer que el retrovisor es pequeño por una razón.",
+        "Dificultad para visualizar un camino futuro claro."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar las memorias del \"retrovisor\" que siguen generando activación en el presente.",
+        "TCC:: Técnicas de redirección de la atención y parada del pensamiento rumiativo.",
+        "ACT:: Compromiso con la acción valiosa en el presente, aceptando que el pasado está en el espejo."
+      ],
+      "tarea": "Identifica un pensamiento recurrente del pasado esta semana. Cuando aparezca, dite: \"Ya revisé ese espejo. Ahora miro el camino\". Anota cómo cambia tu sensación de control."
+    },
+    {
+      "codigo": "M-23",
+      "iconos": [
+        "span",
+        "🕸️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si te sintieras atrapado en una telaraña, ¿qué patrones de pensamiento o conducta te mantienen enredado y qué tijeras podrías usar para cortar el hilo?",
+      "objetivo": "Identificar patrones repetitivos, ciclos de evitación y la sensación de estar atrapado. Fomentar la búsqueda activa de herramientas de corte (cambio).",
+      "profundizacion": [
+        "¿Cómo empezaste a enredarte sin darte cuenta?",
+        "¿Hay alguien más tejiendo esta telaraña contigo o la estás construyendo tú solo/a?",
+        "¿Qué te da miedo que pase si logras liberarte y quedas en el espacio abierto?",
+        "✔ Sensación de indefensión aprendida (\"no puedo salir\").",
+        "✔ Reconocimiento de patrones intergeneracionales o relacionales.",
+        "✔ Creatividad para identificar las \"tijeras\" (recursos) disponibles.",
+        "✔ Miedo a la libertad o a la responsabilidad que conlleva salir."
+      ],
+      "observacion": [
+        "Sensación de indefensión aprendida (\"no puedo salir\").",
+        "Reconocimiento de patrones intergeneracionales o relacionales.",
+        "Creatividad para identificar las \"tijeras\" (recursos) disponibles.",
+        "Miedo a la libertad o a la responsabilidad que conlleva salir."
+      ],
+      "intervenciones": [
+        "TCC:: Análisis funcional de los patrones que mantienen el enredo.",
+        "Sistémica:: Identificar roles y reglas familiares que tejen la telaraña.",
+        "Soluciones:: Enfocarse en excepciones: momentos en que el paciente logró cortar un hilo."
+      ],
+      "tarea": "Dibuja una pequeña telaraña que represente tu patrón. Al lado, dibuja la herramienta (tijeras, fuego, viento) que usarás esta semana para romper un solo hilo. Hazlo."
+    },
+    {
+      "codigo": "M-24",
+      "iconos": [
+        "span",
+        "🧩",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu experiencia actual fuera un rompecabezas, ¿qué pieza sientes que te falta para ver el cuadro completo y qué harías si esa pieza nunca aparece?",
+      "objetivo": "Trabajar la tolerancia a la incertidumbre y la necesidad de cierre. Explorar la integración de partes fragmentadas de la experiencia sin depender de una \"respuesta perfecta\".",
+      "profundizacion": [
+        "¿Estás buscando una pieza que en realidad no pertenece a este rompecabezas?",
+        "¿Puedes encontrar belleza o sentido en el cuadro incluso si está incompleto?",
+        "¿Qué pasaría si dejaras de buscar esa pieza y empezaras a valorar las que ya tienes en la mesa?",
+        "✔ Perfeccionismo y parálisis hasta tener \"toda la información\".",
+        "✔ Angustia por la ambigüedad o los cabos sueltos.",
+        "✔ Alivio al aceptar que algunos rompecabezas de la vida no tienen todas las piezas.",
+        "✔ Capacidad de re-enmarcar el \"vacío\" como espacio de posibilidad."
+      ],
+      "observacion": [
+        "Perfeccionismo y parálisis hasta tener \"toda la información\".",
+        "Angustia por la ambigüedad o los cabos sueltos.",
+        "Alivio al aceptar que algunos rompecabezas de la vida no tienen todas las piezas.",
+        "Capacidad de re-enmarcar el \"vacío\" como espacio de posibilidad."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la incertidumbre y compromiso con la acción a pesar de no tener el cuadro completo.",
+        "Gestalt:: Trabajar la necesidad de cierre (Gestalt abierta) y encontrar formas de cerrarla simbólicamente.",
+        "Narrativa:: Re-escribir la historia aceptando los capítulos con lagunas de información."
+      ],
+      "tarea": "Identifica algo en tu vida que esté \"incompleto\". Esta semana, practica decir: \"Está bien que esto no tenga sentido completo todavía\". Observa cómo cambia tu nivel de ansiedad."
+    },
+    {
+      "codigo": "M-25",
+      "iconos": [
+        "span",
+        "🌋",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Si tu calma actual fuera un volcán dormido, ¿qué emociones o verdades están acumulando presión debajo de la superficie?",
+      "objetivo": "Explorar la contención emocional, la supresión de necesidades y el miedo a la desregulación o a la \"erupción\" emocional.",
+      "profundizacion": [
+        "¿Qué te hace creer que si el volcán despierta, todo será destruido?",
+        "¿Hay alguna válvula de escape segura por la que pueda salir un poco de vapor?",
+        "¿Qué necesitarías para sentir que puedes expresar esa presión sin que sea catastrófico?",
+        "✔ Apariencia de calma extrema con tensión muscular subyacente.",
+        "✔ Miedo a la propia ira, tristeza o necesidades.",
+        "✔ Historial de \"erupciones\" repentinas seguidas de mucha culpa.",
+        "✔ Alivio al ser autorizado a expresar emociones en dosis pequeñas."
+      ],
+      "observacion": [
+        "Apariencia de calma extrema con tensión muscular subyacente.",
+        "Miedo a la propia ira, tristeza o necesidades.",
+        "Historial de \"erupciones\" repentinas seguidas de mucha culpa.",
+        "Alivio al ser autorizado a expresar emociones en dosis pequeñas."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios de descarga controlada (gritar en una almohada, movimiento vigoroso) para liberar presión.",
+        "IFS:: Dialogar con la parte que mantiene la tapa del volcán cerrada por miedo al caos.",
+        "DBT:: Habilidades de regulación emocional para expresar necesidades de forma efectiva, no explosiva."
+      ],
+      "tarea": "Esta semana, identifica una pequeña \"fuga de vapor\" segura (ej. escribir con rabia y romper el papel, hacer ejercicio intenso). Permítete usarla sin juzgarte."
+    },
+    {
+      "codigo": "M-26",
+      "iconos": [
+        "span",
+        "🏕️",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "Si tu mecanismo de defensa fuera un refugio de montaña, ¿te está protegiendo de la tormenta o te está aislando del paisaje?",
+      "objetivo": "Evaluar la función adaptativa vs. desadaptativa del aislamiento o la evitación. Diferenciar entre el autocuidado necesario y la trampa de la soledad.",
+      "profundizacion": [
+        "¿La tormenta ya pasó y sigues dentro por inercia?",
+        "¿Qué te perderías si salieras del refugio ahora mismo?",
+        "¿Puedes dejar la puerta entreabierta para que entre un poco de luz sin que entre el frío?",
+        "✔ Aislamiento social crónico justificado como \"necesidad de paz\".",
+        "✔ Miedo a la vulnerabilidad o al contacto con otros.",
+        "✔ Reconocimiento de que el refugio se ha convertido en una prisión.",
+        "✔ Curiosidad por explorar el exterior de forma gradual."
+      ],
+      "observacion": [
+        "Aislamiento social crónico justificado como \"necesidad de paz\".",
+        "Miedo a la vulnerabilidad o al contacto con otros.",
+        "Reconocimiento de que el refugio se ha convertido en una prisión.",
+        "Curiosidad por explorar el exterior de forma gradual."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo del \"Ermitaño\" o \"Protector Desapegado\".",
+        "Activación Conductual:: Graduar la exposición a situaciones sociales o emocionales desde la seguridad del refugio.",
+        "ACT:: Clarificar valores que requieren salir del refugio (conexión, amor, aventura)."
+      ],
+      "tarea": "Esta semana, da un pequeño paso fuera de tu \"refugio\": envía un mensaje, acepta una invitación o comparte una emoción pequeña. Anota qué descubres al hacerlo."
+    },
+    {
+      "codigo": "M-27",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "Si tu mente proyectara tu vida como un teatro de sombras, ¿qué figuras gigantes ves en la pared que en realidad son pequeñas en la habitación?",
+      "objetivo": "Trabajar con proyecciones, distorsiones cognitivas y la tendencia a magnificar amenazas o problemas, minimizando los recursos reales.",
+      "profundizacion": [
+        "¿Qué \"luz\" o perspectiva está creando esas sombras tan grandes?",
+        "¿Qué pasaría si encendieras la luz principal y vieras el tamaño real de las figuras?",
+        "¿Hay alguna sombra que en realidad sea un recurso o un aliado que no reconoces?",
+        "✔ Catastrofización y magnificación de los problemas.",
+        "✔ Dificultad para evaluar la realidad de forma objetiva.",
+        "✔ Insight al reconocer que la amenaza es una proyección, no la realidad.",
+        "✔ Alivio al \"encender la luz\" y reevaluar la situación."
+      ],
+      "observacion": [
+        "Catastrofización y magnificación de los problemas.",
+        "Dificultad para evaluar la realidad de forma objetiva.",
+        "Insight al reconocer que la amenaza es una proyección, no la realidad.",
+        "Alivio al \"encender la luz\" y reevaluar la situación."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento socrático para evaluar la evidencia real de la amenaza (encender la luz).",
+        "Psicoanálisis:: Análisis de las proyecciones de conflictos internos en el mundo externo.",
+        "Narrativa:: Re-escribir la historia cambiando la perspectiva del narrador."
+      ],
+      "tarea": "Cuando sientas que un problema es \"gigante\" esta semana, pregúntate: \"¿Estoy viendo la figura real o solo su sombra?\". Escribe tres hechos objetivos que reduzcan el tamaño de esa sombra."
+    },
+    {
+      "codigo": "M-28",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tus emociones fueran la marea, ¿estás intentando construir un muro para detenerlas o estás aprendiendo a surfear sus olas?",
+      "objetivo": "Evaluar la relación con la fluctuación emocional. Promover la aceptación de los ciclos naturales de la emoción en lugar de la lucha por el control absoluto.",
+      "profundizacion": [
+        "¿Qué te hace creer que puedes o debes detener la marea?",
+        "¿Qué necesitas para confiar en que, después de la marea alta, siempre viene la baja?",
+        "¿Cómo sería tu vida si dejaras de luchar contra el mar y te movieras con él?",
+        "✔ Agotamiento por intentar \"controlar\" o \"eliminar\" emociones.",
+        "✔ Miedo a ser arrastrado por la marea alta (desregulación).",
+        "✔ Alivio al normalizar los altibajos como parte de la naturaleza humana.",
+        "✔ Curiosidad por aprender a \"surfear\" (regularse en lugar de suprimir)."
+      ],
+      "observacion": [
+        "Agotamiento por intentar \"controlar\" o \"eliminar\" emociones.",
+        "Miedo a ser arrastrado por la marea alta (desregulación).",
+        "Alivio al normalizar los altibajos como parte de la naturaleza humana.",
+        "Curiosidad por aprender a \"surfear\" (regularse en lugar de suprimir)."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la experiencia emocional como un fenómeno natural y transitorio.",
+        "DBT:: Habilidades de tolerancia al malestar y regulación emocional (surfear la ola).",
+        "Somática:: Movimientos ondulantes y respiración para fluir con la activación en lugar de bloquearla."
+      ],
+      "tarea": "La próxima vez que sientas una emoción intensa, no intentes detenerla. Dite: \"Es una ola. Voy a respirar y dejar que pase\". Observa cuánto dura realmente la marea alta."
+    },
+    {
+      "codigo": "M-29",
+      "iconos": [
+        "span",
+        "🗝️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si hubiera una 'llave maestra' que pudiera desbloquear tu estancamiento actual, ¿dónde crees que está escondida y qué te da miedo encontrar al girarla?",
+      "objetivo": "Identificar creencias nucleares o resistencias profundas que bloquean el progreso. Explorar el miedo al cambio o a la verdad que podría revelar esa llave.",
+      "profundizacion": [
+        "¿La llave está en tu poder o sientes que alguien más la tiene?",
+        "¿Qué creencia sobre ti mismo/a se esconde detrás de esa cerradura?",
+        "¿Estarías dispuesto/a a girar la llave aunque lo que encuentres al otro lado te desafíe?",
+        "✔ Externalización de la solución (\"el terapeuta tiene la llave\").",
+        "✔ Miedo a la responsabilidad que conlleva tener la propia llave.",
+        "✔ Insight profundo al conectar con la creencia nuclear bloqueante.",
+        "✔ Valentía para enfrentar lo que hay detrás de la puerta."
+      ],
+      "observacion": [
+        "Externalización de la solución (\"el terapeuta tiene la llave\").",
+        "Miedo a la responsabilidad que conlleva tener la propia llave.",
+        "Insight profundo al conectar con la creencia nuclear bloqueante.",
+        "Valentía para enfrentar lo que hay detrás de la puerta."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Identificar y desafiar el modo del \"Niño Vulnerable\" que cree que no tiene la llave.",
+        "EMDR:: Procesar la memoria origen que instaló la creencia de \"estar bloqueado\".",
+        "Constructivismo:: Explorar cómo el paciente construye la realidad de \"no tener acceso\"."
+      ],
+      "tarea": "Escribe en un papel cuál crees que es esa \"llave maestra\" (ej. \"permitirme fallar\", \"pedir ayuda\"). Llévalo contigo esta semana y observa cómo cambia tu perspectiva."
+    },
+    {
+      "codigo": "M-30",
+      "iconos": [
+        "span",
+        "🌌",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tu mundo interior fuera un universo, ¿estás intentando controlar cada estrella o estás dispuesto a ser un explorador curioso de tu propia vastedad?",
+      "objetivo": "Fomentar la aceptación de la propia complejidad y la renuncia al control absoluto. Promover la curiosidad y la autocompasión como brújulas de exploración interna.",
+      "profundizacion": [
+        "¿Qué te hace creer que debes ser el \"dios\" que controla todo tu universo?",
+        "¿Qué partes de tu universo (agujeros negros, nebulosas) has estado evitando explorar?",
+        "¿Cómo sería tu vida si cambiaras el rol de \"controlador\" por el de \"astronauta curioso\"?",
+        "✔ Agotamiento extremo por intentar mantener el control total.",
+        "✔ Miedo a los \"agujeros negros\" emocionales (vacío, depresión).",
+        "✔ Alivio y asombro al conectar con la curiosidad en lugar del miedo.",
+        "✔ Apertura a la idea de que no todo tiene que tener un propósito o control."
+      ],
+      "observacion": [
+        "Agotamiento extremo por intentar mantener el control total.",
+        "Miedo a los \"agujeros negros\" emocionales (vacío, depresión).",
+        "Alivio y asombro al conectar con la curiosidad en lugar del miedo.",
+        "Apertura a la idea de que no todo tiene que tener un propósito o control."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión del control y apertura a la experiencia tal como es.",
+        "Mindfulness:: Práctica de la curiosidad no juiciosa hacia los propios pensamientos y emociones.",
+        "Junguiana/Arquetípica:: Explorar el arquetipo del Explorador vs. el del Gobernante."
+      ],
+      "tarea": "Esta semana, cuando surja una emoción o pensamiento inesperado, en lugar de juzgarlo o controlarlo, dite: \"Fascinante. Voy a explorar esto un poco más\". Anota qué descubres."
+    },
+    {
+      "codigo": "M-31",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🌟",
+        "span"
+      ],
+      "pregunta": "Si tu vida actual fuera un mar en medio de la niebla, ¿dónde está ese faro interno que todavía te indica que la costa segura existe?",
+      "objetivo": "Identificar valores fundamentales, fortalezas y recursos de resiliencia que permanecen estables incluso en momentos de alta crisis, confusión o desesperanza.",
+      "profundizacion": [
+        "¿Ese faro es un valor, un recuerdo, una persona o una creencia?",
+        "¿Cómo has logrado mantenerlo encendido cuando todo está oscuro?",
+        "¿Qué necesitas hacer para que su luz sea un poco más visible hoy?",
+        "✔ Dificultad para identificar cualquier luz (desesperanza severa).",
+        "✔ Emoción profunda y conexión con un valor o persona ancla.",
+        "✔ Reconocimiento de que el faro ha estado ahí, pero la niebla lo ocultaba.",
+        "✔ Alivio y esperanza al visualizar un punto de referencia estable."
+      ],
+      "observacion": [
+        "Dificultad para identificar cualquier luz (desesperanza severa).",
+        "Emoción profunda y conexión con un valor o persona ancla.",
+        "Reconocimiento de que el faro ha estado ahí, pero la niebla lo ocultaba.",
+        "Alivio y esperanza al visualizar un punto de referencia estable."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores como brújula inquebrantable en la tormenta.",
+        "EMDR:: Instalación de recurso del \"faro\" o lugar seguro para fortalecer la regulación.",
+        "Narrativa:: Re-escribir la historia destacando los momentos en que el faro guió al paciente."
+      ],
+      "tarea": "Identifica tu \"faro\" y escríbelo en una tarjeta. Llévala contigo esta semana. Cuando te sientas perdido, tócala y recuerda que la costa segura sigue ahí, aunque no la veas."
+    },
+    {
+      "codigo": "M-32",
+      "iconos": [
+        "span",
+        "🗺️",
+        "span",
+        "span",
+        "💎",
+        "span"
+      ],
+      "pregunta": "Si tu proceso de sanación fuera un mapa del tesoro, ¿qué 'X' marca el lugar que más te da miedo explorar y qué crees que hay enterrado ahí?",
+      "objetivo": "Explorar la evitación experiencial, el material reprimido y la disposición gradual a procesar emociones, recuerdos o verdades dolorosas.",
+      "profundizacion": [
+        "¿Qué temes que pase si ese cofre se abre por completo?",
+        "¿Quién te ayudó a enterrar ese tesoro o a marcar el mapa como \"peligroso\"?",
+        "¿Qué recurso o apoyo necesitarías para poder mirar ese contenido con seguridad?",
+        "✔ Negación o minimización (\"no hay nada escondido, todo está bien\").",
+        "✔ Ansiedad o activación somática al mencionar el mapa o el cofre.",
+        "✔ Curiosidad cautelosa por explorar el contenido.",
+        "✔ Reconocimiento de que el secreto pesa más que la verdad."
+      ],
+      "observacion": [
+        "Negación o minimización (\"no hay nada escondido, todo está bien\").",
+        "Ansiedad o activación somática al mencionar el mapa o el cofre.",
+        "Curiosidad cautelosa por explorar el contenido.",
+        "Reconocimiento de que el secreto pesa más que la verdad."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento gradual de los recuerdos almacenados con recursos de seguridad.",
+        "Somática:: Trabajar la sensación de \"peso\" o \"cierre\" en el cuerpo y practicar la apertura gradual.",
+        "Narrativa:: Externalizar el cofre como un contenedor temporal, no como una prisión permanente."
+      ],
+      "tarea": "Escribe en un papel el nombre de una de esas \"cosas\" escondidas. No tienes que compartirla. Solo observa cómo se siente tu cuerpo al tenerla escrita fuera del mapa."
+    },
+    {
+      "codigo": "M-33",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "💧",
+        "span"
+      ],
+      "pregunta": "Cuando te miras a ti mismo/a a través del 'espejo empañado' de tu estado de ánimo actual, ¿qué distorsión suele alterar la imagen que ves?",
+      "objetivo": "Identificar sesgos cognitivos, distorsiones de la autoimagen y la influencia de las emociones intensas en la autopercepción.",
+      "profundizacion": [
+        "¿Ese espejo te muestra una imagen ampliada (defectos), reducida (logros) o deformada?",
+        "¿Quién te regaló o instaló ese espejo distorsionado en primer lugar?",
+        "¿Qué pasaría si pudieras limpiar ese espejo o cambiarlo por uno más compasivo?",
+        "✔ Autodesprecio inmediato al describir la imagen.",
+        "✔ Reconocimiento de que la \"lente\" pertenece a un crítico interno o figura parental.",
+        "✔ Dificultad para imaginar una imagen distorsionada (fusión cognitiva total).",
+        "✔ Alivio al externalizar el espejo como un objeto, no como la verdad absoluta."
+      ],
+      "observacion": [
+        "Autodesprecio inmediato al describir la imagen.",
+        "Reconocimiento de que la \"lente\" pertenece a un crítico interno o figura parental.",
+        "Dificultad para imaginar una imagen distorsionada (fusión cognitiva total).",
+        "Alivio al externalizar el espejo como un objeto, no como la verdad absoluta."
+      ],
+      "intervenciones": [
+        "TCC:: Identificación y reestructuración de distorsiones cognitivas (lentes sucias).",
+        "IFS:: Dialogar con la \"parte\" que sostiene el espejo distorsionado y entender su intención protectora.",
+        "Gestalt:: Experimento de hablarle al \"reflejo\" para integrar partes rechazadas."
+      ],
+      "tarea": "Esta semana, cada vez que te critiques, pregúntate: \"¿Estoy mirando a través de un espejo empañado?\". Escribe una versión más realista y amable de esa misma situación."
+    },
+    {
+      "codigo": "M-34",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🪨",
+        "span"
+      ],
+      "pregunta": "Ante las corrientes fuertes de la vida, ¿prefieres ser la roca que resiste hasta desgastarse o el agua que fluye y encuentra otro camino?",
+      "objetivo": "Evaluar la flexibilidad psicológica vs. la rigidez defensiva. Explorar la relación del paciente con el control y la adaptación al cambio.",
+      "profundizacion": [
+        "¿Qué te hace creer que si te mueves o cedes, te vas a romper?",
+        "¿En qué situaciones has sido agua y cómo te fue?",
+        "¿Qué necesitarías para confiar en que fluir no significa rendirse, sino adaptarse?",
+        "✔ Rigidez extrema y agotamiento por \"aguantar\" todo.",
+        "✔ Miedo a la vulnerabilidad que implica ceder o adaptarse.",
+        "✔ Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "✔ Reconocimiento de que la roca, aunque fuerte, termina erosionada por la lucha constante."
+      ],
+      "observacion": [
+        "Rigidez extrema y agotamiento por \"aguantar\" todo.",
+        "Miedo a la vulnerabilidad que implica ceder o adaptarse.",
+        "Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "Reconocimiento de que la roca, aunque fuerte, termina erosionada por la lucha constante."
+      ],
+      "intervenciones": [
+        "ACT:: Flexibilidad psicológica y aceptación de la impermanencia.",
+        "Somática:: Ejercicios de fluidez y relajación muscular para contrarrestar la rigidez del control.",
+        "Narrativa:: Re-escribir la historia de la \"fortaleza\" como la capacidad de adaptarse, no de endurecerse."
+      ],
+      "tarea": "Identifica una situación esta semana donde sueles \"hacerte la roca\". Practica ser \"agua\": cede un poco, busca un camino alternativo. Anota cómo cambia tu nivel de tensión."
+    },
+    {
+      "codigo": "M-35",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🏠",
+        "span"
+      ],
+      "pregunta": "Si tu corazón fuera un invernadero, ¿qué plantas vulnerables estás protegiendo con esmero y cuáles has dejado abandonar a la intemperie?",
+      "objetivo": "Explorar el autocuidado selectivo, la autocompasión y las partes de uno mismo que se protegen vs. las que se descuidan o castigan.",
+      "profundizacion": [
+        "¿Por qué crees que algunas partes merecen cuidado y otras no?",
+        "¿Qué necesitas para empezar a regar esa planta que has dejado secar?",
+        "¿Quién te enseñó que ciertas emociones o necesidades no merecían un invernadero?",
+        "✔ Negación del descuido (\"cuido todo por igual\").",
+        "✔ Tristeza o culpa al reconocer áreas de abandono interno.",
+        "✔ Ternura y deseo genuino de reparar el daño.",
+        "✔ Reconocimiento de que el invernadero requiere mantenimiento constante."
+      ],
+      "observacion": [
+        "Negación del descuido (\"cuido todo por igual\").",
+        "Tristeza o culpa al reconocer áreas de abandono interno.",
+        "Ternura y deseo genuino de reparar el daño.",
+        "Reconocimiento de que el invernadero requiere mantenimiento constante."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión dirigida a las partes descuidadas.",
+        "IFS:: Dialogar con las partes exiliadas que han sido dejadas a la intemperie.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Nutricio\" para cuidar al \"Niño Vulnerable\"."
+      ],
+      "tarea": "Elige una \"planta\" (una necesidad o emoción) que hayas descuidado. Esta semana, dedícale 10 minutos de \"riego\" consciente (descanso, validación, un gusto). Anota cómo responde."
+    },
+    {
+      "codigo": "M-36",
+      "iconos": [
+        "span",
+        "🌀",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "Si te sintieras atrapado en un laberinto, ¿qué te hace creer que no hay salida y qué pequeña pista podrías seguir para encontrar el centro?",
+      "objetivo": "Trabajar la desesperanza y la sensación de estar atrapado. Fomentar la búsqueda de soluciones y la confianza en que el laberinto tiene un diseño y una salida.",
+      "profundizacion": [
+        "¿Has estado corriendo en círculos o te has detenido a observar las paredes?",
+        "¿Qué recurso interno (intuición, memoria, calma) puede ser tu hilo de Ariadna?",
+        "¿Qué pasaría si dejaras de buscar la salida urgente y simplemente exploraras el camino?",
+        "✔ Sensación de indefensión aprendida (\"da igual lo que haga\").",
+        "✔ Agotamiento por intentar todas las direcciones sin éxito.",
+        "✔ Creatividad para identificar nuevas pistas o perspectivas.",
+        "✔ Alivio al recordar que un laberinto, a diferencia de una trampa, tiene salida."
+      ],
+      "observacion": [
+        "Sensación de indefensión aprendida (\"da igual lo que haga\").",
+        "Agotamiento por intentar todas las direcciones sin éxito.",
+        "Creatividad para identificar nuevas pistas o perspectivas.",
+        "Alivio al recordar que un laberinto, a diferencia de una trampa, tiene salida."
+      ],
+      "intervenciones": [
+        "Soluciones:: Enfocarse en excepciones: momentos en que el paciente encontró un camino.",
+        "ACT:: Aceptación de la confusión temporal mientras se mantiene la acción valiosa.",
+        "Narrativa:: Re-enmarcar el laberinto como un viaje de descubrimiento, no como un castigo."
+      ],
+      "tarea": "Dibuja un pequeño laberinto. Marca con un color dónde estás y con otro una pista pequeña que puedas seguir esta semana (ej. pedir ayuda, descansar). Sigue esa pista."
+    },
+    {
+      "codigo": "M-37",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Cuando sientes que tu 'brújula interna' apunta en una dirección pero tus pies caminan en otra, ¿qué conflicto de valores está generando esa descalibración?",
+      "objetivo": "Identificar la disonancia entre valores profundos y conductas actuales. Explorar la presión externa o los miedos que desalinean la acción del deseo.",
+      "profundizacion": [
+        "¿Hacia dónde apunta realmente tu brújula si la dejas de forzar?",
+        "¿Quién o qué está imantando tu brújula para que marque el norte equivocado?",
+        "¿Qué te costaría emocionalmente alinear tus pies con la dirección de tu brújula?",
+        "✔ Confusión y malestar constante por vivir en contradicción.",
+        "✔ Reconocimiento de que se está viviendo un \"guion\" ajeno.",
+        "✔ Miedo a las consecuencias de ser auténtico.",
+        "✔ Alivio al nombrar el valor verdadero que está siendo ignorado."
+      ],
+      "observacion": [
+        "Confusión y malestar constante por vivir en contradicción.",
+        "Reconocimiento de que se está viviendo un \"guion\" ajeno.",
+        "Miedo a las consecuencias de ser auténtico.",
+        "Alivio al nombrar el valor verdadero que está siendo ignorado."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y trabajo con la barrera de la evitación.",
+        "Sistémica:: Explorar lealtades familiares que obligan a caminar en dirección opuesta al deseo propio.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Niño Sumiso\" que obedece a otros."
+      ],
+      "tarea": "Escribe el valor que marca tu brújula y la acción que estás tomando que va en contra. Debajo, escribe un paso microscópico para alinearlos esta semana."
+    },
+    {
+      "codigo": "M-38",
+      "iconos": [
+        "span",
+        "⚓",
+        "span",
+        "span",
+        "⛵",
+        "span"
+      ],
+      "pregunta": "Para navegar este momento de tu vida, ¿necesitas echar el ancla y estabilizarte, o levantar la vela y permitir que el viento te lleve a un cambio?",
+      "objetivo": "Evaluar la necesidad actual del paciente: regulación y grounding (ancla) vs. exploración y movimiento (vela). Ajustar la intervención a la fase del proceso.",
+      "profundizacion": [
+        "¿Sientes que estás a la deriva y necesitas estabilidad, o estancado y necesitas movimiento?",
+        "¿Qué te da miedo de echar el ancla (aburrimiento, confrontación) o de levantar la vela (incertidumbre, riesgo)?",
+        "¿Puedes tener un poco de ambas cosas: estabilidad en ti mismo y apertura al cambio?",
+        "✔ Hiperactividad y evitación del anclaje (miedo a sentir).",
+        "✔ Estancamiento depresivo y resistencia a levantar la vela.",
+        "✔ Claridad sobre qué necesita el cuerpo en este momento exacto.",
+        "✔ Alivio al recibir permiso para elegir la estrategia adecuada."
+      ],
+      "observacion": [
+        "Hiperactividad y evitación del anclaje (miedo a sentir).",
+        "Estancamiento depresivo y resistencia a levantar la vela.",
+        "Claridad sobre qué necesita el cuerpo en este momento exacto.",
+        "Alivio al recibir permiso para elegir la estrategia adecuada."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios de grounding (ancla) o de movimiento expansivo (vela) según la necesidad.",
+        "Polivagal:: Regular el sistema nervioso hacia la ventana de tolerancia antes de decidir la dirección.",
+        "ACT:: Aceptación de la necesidad actual sin juzgarla como \"mala\" o \"débil\"."
+      ],
+      "tarea": "Pregúntate cada mañana: \"¿Hoy necesito ancla o vela?\". Elige una acción pequeña que responda a esa necesidad (ej. ancla: dormir más; vela: probar algo nuevo)."
+    },
+    {
+      "codigo": "M-39",
+      "iconos": [
+        "span",
+        "🗣️",
+        "span",
+        "span",
+        "🏔️",
+        "span"
+      ],
+      "pregunta": "Si tu diálogo interno fuera un eco en una montaña, ¿qué frase estás gritando que sigue rebotando y amplificando tu malestar?",
+      "objetivo": "Explorar la autocrítica, los patrones de pensamiento repetitivos y cómo el lenguaje interno moldea la experiencia emocional.",
+      "profundizacion": [
+        "¿De quién es la voz original que gritó esa frase por primera vez?",
+        "¿Qué pasaría si en lugar de gritar, susurraras una frase de compasión?",
+        "¿Cómo cambiaría el eco si decidieras no responder al grito, sino dejar que se desvanezca?",
+        "✔ Ecos de vergüenza, indignidad o fracaso (\"no sirvo\", \"siempre lo arruino\").",
+        "✔ Dificultad para distinguir el eco de la realidad.",
+        "✔ Insight al reconocer que el eco se alimenta de la propia atención.",
+        "✔ Alivio al experimentar el poder de cambiar el mensaje original."
+      ],
+      "observacion": [
+        "Ecos de vergüenza, indignidad o fracaso (\"no sirvo\", \"siempre lo arruino\").",
+        "Dificultad para distinguir el eco de la realidad.",
+        "Insight al reconocer que el eco se alimenta de la propia atención.",
+        "Alivio al experimentar el poder de cambiar el mensaje original."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva para cambiar el \"grito\" por un pensamiento alternativo.",
+        "ACT:: Defusión cognitiva: observar el eco como un sonido, no como una orden.",
+        "CFT:: Desarrollar una voz interna cálida que genere un eco de apoyo."
+      ],
+      "tarea": "Identifica el \"grito\" habitual esta semana. Cuando aparezca, responde conscientemente con una frase de compasión. Observa cómo cambia el eco en tu mente."
+    },
+    {
+      "codigo": "M-40",
+      "iconos": [
+        "span",
+        "🌉",
+        "span",
+        "span",
+        "🤝",
+        "span"
+      ],
+      "pregunta": "Al cruzar este 'puente de cuerda' hacia lo desconocido, ¿en quién o en qué recurso interno confías para no perder el equilibrio?",
+      "objetivo": "Fortalecer la confianza en la alianza terapéutica y en los recursos de resiliencia propios durante procesos de transición o cambio incierto.",
+      "profundizacion": [
+        "¿El puente se siente más estable cuando miras hacia atrás o cuando miras hacia adelante?",
+        "¿Qué te ayuda a mantener el equilibrio cuando el puente se mueve?",
+        "¿Qué le dirías a la parte de ti que tiene vértigo y quiere retroceder?",
+        "✔ Miedo paralizante a dar el siguiente paso.",
+        "✔ Dependencia exclusiva del terapeuta como \"barandilla\".",
+        "✔ Reconocimiento de fortalezas internas que han sostenido cruces anteriores.",
+        "✔ Valentía y compromiso a pesar del vértigo."
+      ],
+      "observacion": [
+        "Miedo paralizante a dar el siguiente paso.",
+        "Dependencia exclusiva del terapeuta como \"barandilla\".",
+        "Reconocimiento de fortalezas internas que han sostenido cruces anteriores.",
+        "Valentía y compromiso a pesar del vértigo."
+      ],
+      "intervenciones": [
+        "Relacional:: Reforzar la alianza terapéutica como un espacio seguro desde el cual arriesgarse.",
+        "EMDR:: Instalación de recurso de \"confianza\" o \"equilibrio\" para el procesamiento.",
+        "Narrativa:: Re-escribir la historia del paciente como un \"caminante valiente\"."
+      ],
+      "tarea": "Escribe el nombre de ese recurso o persona en la que confías. Llévalo contigo esta semana. Cuando sientas que el \"puente se mueve\", tócalo y recuerda que tienes apoyo."
+    },
+    {
+      "codigo": "M-41",
+      "iconos": [
+        "span",
+        "🗿",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si fueras el escultor de tu propia vida, ¿qué 'mármol sobrante' (creencias, roles, miedos) estás listo para quitar para revelar la figura que hay debajo?",
+      "objetivo": "Trabajar el desapego y la eliminación de lo innecesario para el crecimiento personal. Fomentar la visión de la identidad como algo que se revela, no solo que se construye.",
+      "profundizacion": [
+        "¿Qué temes que pase si quitas esa parte que ya no te sirve?",
+        "¿Quién te dijo originalmente que esa parte era esencial para tu supervivencia?",
+        "¿Cómo se siente tu cuerpo al imaginar la figura liberada y más auténtica?",
+        "✔ Aferramiento a la \"piedra\" por miedo a perder la identidad conocida.",
+        "✔ Alivio y expansión torácica al visualizar la liberación.",
+        "✔ Dificultad para imaginar la forma final sin las defensas.",
+        "✔ Tristeza o duelo por el desapego de lo que se deja ir."
+      ],
+      "observacion": [
+        "Aferramiento a la \"piedra\" por miedo a perder la identidad conocida.",
+        "Alivio y expansión torácica al visualizar la liberación.",
+        "Dificultad para imaginar la forma final sin las defensas.",
+        "Tristeza o duelo por el desapego de lo que se deja ir."
+      ],
+      "intervenciones": [
+        "Gestalt:: Experimento de \"tallar\" simbólicamente, nombrando y soltando lo que sobra.",
+        "Narrativa:: Re-escribir la historia enfocándose en la esencia, no en los adornos o máscaras.",
+        "ACT:: Defusión de la identidad fusionada con el \"mármol sobrante\" (creencias rígidas)."
+      ],
+      "tarea": "Escribe en un papel 3 cosas que \"sobran\" en tu vida actual (un hábito, una creencia, un compromiso). Rómpelo y tíralo como acto simbólico de desapego."
+    },
+    {
+      "codigo": "M-42",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🌿",
+        "span"
+      ],
+      "pregunta": "Si tu mente fuera un jardín zen, ¿qué patrones caóticos necesitas rastrillar hoy para encontrar un momento de orden y calma?",
+      "objetivo": "Introducir la metáfora de la regulación mental y la creación intencional de espacios de paz interior frente al caos de los pensamientos intrusivos.",
+      "profundizacion": [
+        "¿Qué \"hojas secas\" (pensamientos recurrentes) están cubriendo la arena de tu calma?",
+        "¿Quién te enseñó a tolerar el desorden mental o a creer que era inevitable?",
+        "¿Qué movimiento suave y repetitivo puedes hacer hoy para calmar tu sistema nervioso?",
+        "✔ Agitación motora o mental al describir el caos interno.",
+        "✔ Suspiro de alivio al visualizar el acto de rastrillar y ordenar.",
+        "✔ Perfeccionismo (querer el jardín \"perfecto\" e impoluto de inmediato).",
+        "✔ Conexión consciente con la respiración como herramienta de rastrillado."
+      ],
+      "observacion": [
+        "Agitación motora o mental al describir el caos interno.",
+        "Suspiro de alivio al visualizar el acto de rastrillar y ordenar.",
+        "Perfeccionismo (querer el jardín \"perfecto\" e impoluto de inmediato).",
+        "Conexión consciente con la respiración como herramienta de rastrillado."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Práctica de atención plena en un movimiento repetitivo y calmante.",
+        "TCC:: Identificación y \"rastrillado\" (reestructuración) de pensamientos intrusivos.",
+        "Somática:: Movimientos rítmicos y suaves para regular el sistema nervioso autónomo."
+      ],
+      "tarea": "Dedica 5 minutos hoy a una actividad repetitiva y calmante (ordenar un cajón, barrer, respirar profundo) visualizando que estás rastrillando tu mente."
+    },
+    {
+      "codigo": "M-43",
+      "iconos": [
+        "span",
+        "🗺️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Estás confundiendo el 'mapa' (lo que te dijeron que eres) con el 'territorio' (quien realmente eres en este momento)?",
+      "objetivo": "Diferenciar entre las creencias internalizadas sobre uno mismo y la experiencia vivida real y presente. Desafiar las etiquetas autoimpuestas.",
+      "profundizacion": [
+        "¿Quién dibujó ese mapa original y con qué intención o limitación?",
+        "¿Qué partes del territorio real estás ignorando porque no aparecen en ese mapa viejo?",
+        "¿Te animarías a dibujar un nuevo mapa con tus propios colores y fronteras?",
+        "✔ Rigidez al defender el \"mapa\" antiguo aunque cause sufrimiento.",
+        "✔ Sorpresa y asombro al descubrir territorios inexplorados de sí mismo.",
+        "✔ Alivio profundo al soltar una etiqueta que nunca le perteneció.",
+        "✔ Confusión inicial o vértigo al perder la referencia del mapa conocido."
+      ],
+      "observacion": [
+        "Rigidez al defender el \"mapa\" antiguo aunque cause sufrimiento.",
+        "Sorpresa y asombro al descubrir territorios inexplorados de sí mismo.",
+        "Alivio profundo al soltar una etiqueta que nunca le perteneció.",
+        "Confusión inicial o vértigo al perder la referencia del mapa conocido."
+      ],
+      "intervenciones": [
+        "Constructivismo:: Explorar cómo el paciente construye su realidad y sus etiquetas personales.",
+        "Narrativa:: Externalizar el \"mapa\" como un objeto separado de la esencia de la persona.",
+        "ACT:: Defusión de las reglas y etiquetas autoimpuestas o heredadas."
+      ],
+      "tarea": "Dibuja un mapa simple de cómo te ves hoy, sin usar palabras que te hayan dicho otros, solo las que tú eliges y sientes como verdaderas."
+    },
+    {
+      "codigo": "M-44",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "En la cuerda floja de tu vida actual, ¿qué dos necesidades opuestas estás intentando equilibrar y qué red de seguridad tienes si caes?",
+      "objetivo": "Validar la dificultad de los conflictos internos y la importancia vital de tener recursos de contención (red de seguridad) ante el miedo al fracaso.",
+      "profundizacion": [
+        "¿Qué pasaría si soltaras uno de los dos polos de la balanza por un momento?",
+        "¿Quién sostiene la cuerda y quién te sostiene a ti realmente si pierdes el equilibrio?",
+        "¿Puedes permitirte bajar de la cuerda y caminar por el suelo firme un rato?",
+        "✔ Tensión muscular visible (hombros, mandíbula) al hablar del equilibrio.",
+        "✔ Miedo paralizante a \"caer\", fracasar o decepcionar.",
+        "✔ Reconocimiento de que la cuerda es autoimpuesta, no una exigencia real.",
+        "✔ Alivio al identificar una red de apoyo real y confiable."
+      ],
+      "observacion": [
+        "Tensión muscular visible (hombros, mandíbula) al hablar del equilibrio.",
+        "Miedo paralizante a \"caer\", fracasar o decepcionar.",
+        "Reconocimiento de que la cuerda es autoimpuesta, no una exigencia real.",
+        "Alivio al identificar una red de apoyo real y confiable."
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapear la red de apoyo real (la red de seguridad) y fortalecerla.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Exigente\" que obliga a estar en la cuerda sin descanso.",
+        "Somática:: Ejercicios de grounding para sentir el \"suelo firme\" y bajar de la cuerda imaginaria."
+      ],
+      "tarea": "Identifica tu \"red de seguridad\" (3 personas o recursos). Esta semana, contacta a uno de ellos solo para compartir algo pequeño, sin pedir nada a cambio."
+    },
+    {
+      "codigo": "M-45",
+      "iconos": [
+        "span",
+        "🏝️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si te sintieras náufrago en una isla desierta emocional, ¿qué tres recursos de tu interior sacarías de la mochila para sobrevivir y construir un refugio?",
+      "objetivo": "Activar la identificación de fortalezas internas y recursos de resiliencia en momentos de sensación de aislamiento, soledad o crisis.",
+      "profundizacion": [
+        "¿Por qué crees que estás solo en esa isla y no hay barcos cercanos?",
+        "¿Qué habilidades de supervivencia ya has usado antes y olvidaste que tenías?",
+        "¿Qué señales de ayuda estás dispuesto a emitir al exterior sin vergüenza?",
+        "✔ Sensación de indefensión o soledad absoluta e insuperable.",
+        "✔ Creatividad y sorpresa al nombrar recursos internos inesperados.",
+        "✔ Tristeza o duelo por el aislamiento percibido.",
+        "✔ Empoderamiento al reconocer su propia capacidad de construcción."
+      ],
+      "observacion": [
+        "Sensación de indefensión o soledad absoluta e insuperable.",
+        "Creatividad y sorpresa al nombrar recursos internos inesperados.",
+        "Tristeza o duelo por el aislamiento percibido.",
+        "Empoderamiento al reconocer su propia capacidad de construcción."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia del náufrago como un explorador que se encuentra a sí mismo.",
+        "Soluciones:: Enfocarse en las excepciones y recursos que ya funcionaron en el pasado.",
+        "CFT:: Activar el sistema de calmado y auto-compasión en la \"isla\"."
+      ],
+      "tarea": "Escribe una lista de 3 \"herramientas de supervivencia\" (ej. mi sentido del humor, mi resiliencia) y ponla en tu billetera o teléfono esta semana."
+    },
+    {
+      "codigo": "M-46",
+      "iconos": [
+        "span",
+        "🎻",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si tus emociones y pensamientos fueran una orquesta, ¿qué instrumento está tocando demasiado fuerte ahora mismo y cómo puedes pedirle que baje el volumen?",
+      "objetivo": "Trabajar la regulación emocional y la integración de partes internas sin suprimir ninguna, sino ajustando su intensidad de forma compasiva.",
+      "profundizacion": [
+        "¿Qué intenta decirte ese instrumento con su volumen tan alto?",
+        "¿Qué otros instrumentos (recursos, calma, alegría) están callados y necesitan sonar?",
+        "¿Quién es el director de esta orquesta y puede tomar el control con amabilidad?",
+        "✔ Agobio y saturación por el \"ruido\" interno constante.",
+        "✔ Dificultad para identificar al \"director\" (el Yo Observador).",
+        "✔ Alivio al visualizar la posibilidad de modular el volumen sin silenciar.",
+        "✔ Reconocimiento de que todos los instrumentos son necesarios en la pieza."
+      ],
+      "observacion": [
+        "Agobio y saturación por el \"ruido\" interno constante.",
+        "Dificultad para identificar al \"director\" (el Yo Observador).",
+        "Alivio al visualizar la posibilidad de modular el volumen sin silenciar.",
+        "Reconocimiento de que todos los instrumentos son necesarios en la pieza."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la \"parte\" ruidosa y negociar su volumen de forma respetuosa.",
+        "Mindfulness:: Observar los sonidos internos sin intentar silenciarlos a la fuerza.",
+        "Somática:: Respiración rítmica y coherente para armonizar el sistema nervioso."
+      ],
+      "tarea": "Cuando sientas una emoción desbordante, imagina que bajas el volumen de ese \"instrumento\" con un control imaginario. Respira y observa el cambio."
+    },
+    {
+      "codigo": "M-47",
+      "iconos": [
+        "span",
+        "🏺",
+        "span",
+        "span",
+        "✨",
+        "span"
+      ],
+      "pregunta": "Como en el arte japonés del Kintsugi, ¿qué grietas o heridas de tu pasado estás dispuesto a rellenar con 'oro' (aprendizaje, compasión) para hacerte más valioso?",
+      "objetivo": "Transformar la narrativa de la vergüenza o el trauma en una de resiliencia, belleza y valor agregado por la experiencia vivida y superada.",
+      "profundizacion": [
+        "¿Qué grieta te ha enseñado la lección más profunda sobre ti mismo?",
+        "¿Qué \"oro\" (sabiduría, empatía, fortaleza) puedes extraer de esa experiencia?",
+        "¿Cómo cambiaría tu visión si te vieras como una obra de arte reparada, no como algo roto?",
+        "✔ Vergüenza o rechazo intenso a las propias \"grietas\" o vulnerabilidades.",
+        "✔ Emoción profunda y ternura al re-enmarcar la herida como fortaleza.",
+        "✔ Orgullo silencioso por la supervivencia y la transformación.",
+        "✔ Dificultad inicial para ver el \"valor\" o la belleza en el daño."
+      ],
+      "observacion": [
+        "Vergüenza o rechazo intenso a las propias \"grietas\" o vulnerabilidades.",
+        "Emoción profunda y ternura al re-enmarcar la herida como fortaleza.",
+        "Orgullo silencioso por la supervivencia y la transformación.",
+        "Dificultad inicial para ver el \"valor\" o la belleza en el daño."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia de trauma hacia una historia de superación y sabiduría.",
+        "CFT:: Aplicar autocompasión directa y calidez a las partes heridas.",
+        "Logoterapia:: Encontrar sentido y propósito en el sufrimiento pasado."
+      ],
+      "tarea": "Escribe sobre una \"grieta\" de tu pasado. Debajo, escribe tres cosas valiosas que aprendiste o ganaste gracias a haber pasado por eso."
+    },
+    {
+      "codigo": "M-48",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "🌀",
+        "span"
+      ],
+      "pregunta": "Cuando te pierdes en el laberinto de tus propias proyecciones y juicios, ¿qué hilo de realidad puedes seguir para encontrar la salida hacia ti mismo?",
+      "objetivo": "Identificar la desorientación causada por la sobre-intelectualización, la rumiación o las distorsiones cognitivas, y encontrar anclas de realidad.",
+      "profundizacion": [
+        "¿Qué reflejos son distorsiones de tu mente y cuál es tu rostro real?",
+        "¿Quién o qué te dio ese hilo (un valor, una persona, una sensación) para no perderte?",
+        "¿Qué pasa si dejas de mirarte en los espejos y simplemente cierras los ojos?",
+        "✔ Confusión mental y sensación de dar vueltas en círculo sin salida.",
+        "✔ Alivio inmediato al conectar con una sensación corporal simple (el hilo).",
+        "✔ Miedo a enfrentar la realidad sin las distorsiones conocidas.",
+        "✔ Insight claro al distinguir entre un pensamiento y un hecho real."
+      ],
+      "observacion": [
+        "Confusión mental y sensación de dar vueltas en círculo sin salida.",
+        "Alivio inmediato al conectar con una sensación corporal simple (el hilo).",
+        "Miedo a enfrentar la realidad sin las distorsiones conocidas.",
+        "Insight claro al distinguir entre un pensamiento y un hecho real."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento socrático para distinguir hechos de interpretaciones (espejos).",
+        "Mindfulness:: Anclaje en la respiración o en los pies en el suelo (el hilo de realidad).",
+        "ACT:: Defusión de los pensamientos repetitivos y juzgadores."
+      ],
+      "tarea": "Cuando te sientas perdido en tus pensamientos esta semana, toca un objeto real a tu lado y describe 3 características físicas de él para volver al \"aquí y ahora\"."
+    },
+    {
+      "codigo": "M-49",
+      "iconos": [
+        "span",
+        "🚦",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Si tu cuerpo tuviera un semáforo interno, ¿en qué color está ahora mismo y qué te está pidiendo que hagas antes de seguir avanzando?",
+      "objetivo": "Fomentar la escucha somática y la detección temprana de señales de agotamiento (rojo), precaución (amarillo) o fluidez (verde) en el sistema nervioso.",
+      "profundizacion": [
+        "¿Qué sensaciones físicas específicas te indican que estás en rojo, amarillo o verde?",
+        "¿Qué pasa en tu cuerpo y tu vida si ignoras la luz roja y sigues acelerando?",
+        "¿Qué necesitas para pasar del rojo al amarillo, o del amarillo al verde?",
+        "✔ Ignorancia total de las señales de \"rojo\" hasta el colapso o burnout.",
+        "✔ Reconocimiento claro y preciso de las señales corporales.",
+        "✔ Culpa o ansiedad por tener que \"parar\" (luz roja).",
+        "✔ Alivio profundo al recibir permiso para respetar el semáforo."
+      ],
+      "observacion": [
+        "Ignorancia total de las señales de \"rojo\" hasta el colapso o burnout.",
+        "Reconocimiento claro y preciso de las señales corporales.",
+        "Culpa o ansiedad por tener que \"parar\" (luz roja).",
+        "Alivio profundo al recibir permiso para respetar el semáforo."
+      ],
+      "intervenciones": [
+        "Somática:: Escaneo corporal para identificar el color actual y sus sensaciones asociadas.",
+        "Psicoeducación:: Enseñar la ventana de tolerancia y las señales del sistema nervioso autónomo.",
+        "TCC:: Reestructurar la creencia de que \"parar es de débiles\" o \"improductivo\"."
+      ],
+      "tarea": "Chequea tu \"semáforo interno\" tres veces hoy. Si está en amarillo o rojo, haz una pausa de 2 minutos para respirar antes de continuar con tu actividad."
+    },
+    {
+      "codigo": "M-50",
+      "iconos": [
+        "span",
+        "🏝️",
+        "span",
+        "span",
+        "🌉",
+        "span"
+      ],
+      "pregunta": "Si tu personalidad fuera un archipiélago, ¿qué islas (facetas tuyas) están conectadas por puentes fuertes y cuáles se sienten aisladas y solitarias?",
+      "objetivo": "Explorar la integración de la identidad, reconociendo la multiplicidad del ser y la necesidad de conexión interna entre diferentes partes o roles.",
+      "profundizacion": [
+        "¿Qué isla visitas con más frecuencia y cuál evitas a toda costa?",
+        "¿Qué necesitaría la isla aislada para que te animes a construirle un puente?",
+        "¿Quién es el barquero interno que puede navegar con calma entre todas tus islas?",
+        "✔ Sensación de fragmentación o \"no ser uno mismo\" en diferentes contextos.",
+        "✔ Tristeza o compasión por las partes de sí mismo que ha dejado aisladas.",
+        "✔ Curiosidad y apertura por explorar las islas desconocidas.",
+        "✔ Alivio al reconocer que todas las islas pertenecen al mismo archipiélago."
+      ],
+      "observacion": [
+        "Sensación de fragmentación o \"no ser uno mismo\" en diferentes contextos.",
+        "Tristeza o compasión por las partes de sí mismo que ha dejado aisladas.",
+        "Curiosidad y apertura por explorar las islas desconocidas.",
+        "Alivio al reconocer que todas las islas pertenecen al mismo archipiélago."
+      ],
+      "intervenciones": [
+        "IFS:: Mapear las diferentes \"partes\" (islas) y facilitar el diálogo entre ellas.",
+        "Narrativa:: Integrar las diferentes historias de vida en una narrativa coherente del archipiélago.",
+        "Gestalt:: Diálogo entre la isla \"fuerte\" y la isla \"vulnerable\" para tender puentes."
+      ],
+      "tarea": "Dibuja un mapa simple de tu archipiélago. Marca con un corazón la isla que más necesita tu visita y atención esta semana, y haz algo pequeño por ella."
+    },
+    {
+      "codigo": "M-51",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "Si tu vida actual fuera un océano, ¿estás intentando controlar las olas o aprendiendo a navegar con ellas?",
+      "objetivo": "Explorar la relación del paciente con el control y la incertidumbre. Fomentar la aceptación radical y la flexibilidad ante las circunstancias inmanejables.",
+      "profundizacion": [
+        "¿Qué te da tanto miedo soltar el timón y dejar que la corriente te lleve un poco?",
+        "¿En qué momentos de tu vida has descubierto que sabes flotar mejor de lo que creías?",
+        "¿Qué tipo de embarcación (recursos) tienes realmente a tu disposición ahora?",
+        "✔ Agotamiento extremo por intentar \"calmar\" el mar (control obsesivo).",
+        "✔ Pánico inicial ante la idea de no tener el control total.",
+        "✔ Alivio al reconocer que algunas olas son inevitables y solo hay que atravesarlas.",
+        "✔ Reconocimiento de habilidades de supervivencia pasadas (flotar)."
+      ],
+      "observacion": [
+        "Agotamiento extremo por intentar \"calmar\" el mar (control obsesivo).",
+        "Pánico inicial ante la idea de no tener el control total.",
+        "Alivio al reconocer que algunas olas son inevitables y solo hay que atravesarlas.",
+        "Reconocimiento de habilidades de supervivencia pasadas (flotar)."
+      ],
+      "intervenciones": [
+        "ACT:: Trabajo con la aceptación radical y la defusión de la necesidad de control.",
+        "DBT:: Habilidades de tolerancia al malestar y efectividad interpersonal en la tormenta.",
+        "Narrativa:: Re-escribir la historia de \"víctima de la tormenta\" a \"navegante experimentado\"."
+      ],
+      "tarea": "Identifica una \"ola\" (situación) que no puedes controlar esta semana. En lugar de luchar contra ella, practica observar cómo pasa sin intentar detenerla."
+    },
+    {
+      "codigo": "M-52",
+      "iconos": [
+        "span",
+        "🔑",
+        "span",
+        "span",
+        "🚪",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna puerta en tu vida que estás empujando con todas tus fuerzas, cuando en realidad solo necesita ser jalada o simplemente dejada cerrada?",
+      "objetivo": "Cuestionar la perseverancia rígida en estrategias que no funcionan. Invitar a la reevaluación de la dirección y el esfuerzo invertido en metas bloqueadas.",
+      "profundizacion": [
+        "¿Quién te dijo que esa era la única puerta y que debías abrirla a como diera lugar?",
+        "¿Qué pasaría si te dieras permiso para dar media vuelta y buscar otra entrada?",
+        "¿Qué te cuesta más: el esfuerzo de empujar o el miedo a admitir que quizás no es tu puerta?",
+        "✔ Frustración crónica y agotamiento por la lucha constante e infructuosa.",
+        "✔ Rigidez cognitiva: \"Tiene que ser esta puerta y tiene que ser ahora\".",
+        "✔ Alivio y expansión al considerar la posibilidad de soltar o cambiar de estrategia.",
+        "✔ Tristeza o duelo por el tiempo y energía invertidos en vano."
+      ],
+      "observacion": [
+        "Frustración crónica y agotamiento por la lucha constante e infructuosa.",
+        "Rigidez cognitiva: \"Tiene que ser esta puerta y tiene que ser ahora\".",
+        "Alivio y expansión al considerar la posibilidad de soltar o cambiar de estrategia.",
+        "Tristeza o duelo por el tiempo y energía invertidos en vano."
+      ],
+      "intervenciones": [
+        "Terapia Breve:: Cuestionamiento del \"más de lo mismo\" y propuesta de hacer algo radicalmente diferente.",
+        "ACT:: Evaluación de la viabilidad de los valores detrás de esa puerta vs. el costo de la lucha.",
+        "Gestalt:: Experimento de \"soltar la manija\" y explorar qué sensaciones emergen en el cuerpo."
+      ],
+      "tarea": "Esta semana, elige una situación donde sueles \"empujar\" (forzar). Intenta \"jalar\" (cambiar el enfoque) o simplemente \"alejarte de la puerta\" por 24 horas. Observa qué sucede."
+    },
+    {
+      "codigo": "M-53",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "Si tu autocrítica fuera un personaje con voz propia, ¿cómo se llamaría, qué aspecto tendría y qué mensaje te repite con más frecuencia?",
+      "objetivo": "Externalizar la autocrítica para reducir su poder e identificación. Facilitar el diálogo compasivo con esa parte interna hostil.",
+      "profundizacion": [
+        "¿A quién se parece esa voz? ¿Es tuya o es un eco de alguien de tu pasado?",
+        "¿Qué cree ese personaje que está logrando al tratarte así? (¿Protección, motivación?)",
+        "¿Qué le respondería tu 'yo compasivo' o tu 'yo adulto' a ese personaje hoy?",
+        "✔ Identificación inmediata y risa nerviosa al reconocer la caricatura de su crítico.",
+        "✔ Tristeza al darse cuenta de lo cruel que es esa voz interna.",
+        "✔ Dificultad para separar su identidad de la voz del personaje.",
+        "✔ Empoderamiento al empezar a responderle o ponerle límites al personaje."
+      ],
+      "observacion": [
+        "Identificación inmediata y risa nerviosa al reconocer la caricatura de su crítico.",
+        "Tristeza al darse cuenta de lo cruel que es esa voz interna.",
+        "Dificultad para separar su identidad de la voz del personaje.",
+        "Empoderamiento al empezar a responderle o ponerle límites al personaje."
+      ],
+      "intervenciones": [
+        "IFS:: Trabajar con la \"parte crítica\" para entender su intención positiva y negociar un rol menos destructivo.",
+        "CFT:: Desarrollar la \"voz compasiva\" como contrapeso directo y entrenar su uso diario.",
+        "Narrativa:: Externalización total: \"El Crítico\" es un problema separado de la persona."
+      ],
+      "tarea": "Dibuja o describe a ese personaje. La próxima vez que hable, nómbralo en tu mente (\"Ahí está 'El Juez' otra vez\") para crear distancia y no fusionarte con su mensaje."
+    },
+    {
+      "codigo": "M-54",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🪨",
+        "span"
+      ],
+      "pregunta": "¿Eres la roca que resiste la tormenta o el agua que fluye alrededor de ella? ¿Cuál de las dos estrategias te ha servido más y cuál te ha agotado?",
+      "objetivo": "Explorar los estilos de afrontamiento: rigidez vs. flexibilidad. Validar la resistencia pasada, pero invitar a la adaptabilidad cuando la rigidez causa sufrimiento.",
+      "profundizacion": [
+        "¿En qué momentos de tu vida fue absolutamente necesario ser una roca inquebrantable?",
+        "¿Qué precio has pagado por mantener esa dureza cuando la situación ya pedía fluidez?",
+        "¿Qué te asusta de la idea de \"ceder\" o \"fluir\"? ¿Lo confundes con debilidad?",
+        "✔ Orgullo por la resistencia, pero agotamiento somático subyacente.",
+        "✔ Miedo a que \"fluir\" signifique perder el control o desmoronarse.",
+        "✔ Alivio al redefinir la flexibilidad como una forma de fortaleza inteligente, no de debilidad.",
+        "✔ Reconocimiento de que ambos modos (roca y agua) son necesarios en diferentes contextos."
+      ],
+      "observacion": [
+        "Orgullo por la resistencia, pero agotamiento somático subyacente.",
+        "Miedo a que \"fluir\" signifique perder el control o desmoronarse.",
+        "Alivio al redefinir la flexibilidad como una forma de fortaleza inteligente, no de debilidad.",
+        "Reconocimiento de que ambos modos (roca y agua) son necesarios en diferentes contextos."
+      ],
+      "intervenciones": [
+        "Somática:: Explorar la tensión crónica de \"ser la roca\" y practicar la liberación controlada (fluir).",
+        "ACT:: Flexibilidad psicológica: estar presente y abrirse a la experiencia sin aferrarse rígidamente.",
+        "Narrativa:: Re-autoría de la historia de \"supervivencia rígida\" a \"adaptación sabia\"."
+      ],
+      "tarea": "Identifica una situación esta semana donde sueles ponerte \"rígido como una roca\". Practica conscientemente \"ceder un poco\" como el agua, observando que no te rompes por hacerlo."
+    },
+    {
+      "codigo": "M-55",
+      "iconos": [
+        "span",
+        "🎒",
+        "span",
+        "span",
+        "🦋",
+        "span"
+      ],
+      "pregunta": "Si pudieras abrir tu mochila emocional y dejar caer solo una piedra que has cargado por años, ¿cuál sería y cómo se sentiría tu espalda sin ese peso?",
+      "objetivo": "Facilitar el duelo y el desapego de culpas, rencores o responsabilidades que no pertenecen al paciente. Visualizar el alivio de soltar.",
+      "profundizacion": [
+        "¿Quién te puso esa piedra en la mochila y por qué aceptaste cargarla?",
+        "¿Qué crees que pasaría si la dejaras en el camino? ¿Te sentirías libre o culpable?",
+        "¿Qué necesitas de ti mismo o de otros para darte permiso de soltarla hoy?",
+        "✔ Alivio físico visible (suspiro profundo, relajación de hombros) al imaginar soltar la carga.",
+        "✔ Culpa o lealtad invisible que impide soltar la piedra (\"si la suelto, traiciono a...\").",
+        "✔ Tristeza por el tiempo perdido cargando algo que no era suyo.",
+        "✔ Dificultad para identificar cuál es la piedra más pesada (normalización del sufrimiento)."
+      ],
+      "observacion": [
+        "Alivio físico visible (suspiro profundo, relajación de hombros) al imaginar soltar la carga.",
+        "Culpa o lealtad invisible que impide soltar la piedra (\"si la suelto, traiciono a...\").",
+        "Tristeza por el tiempo perdido cargando algo que no era suyo.",
+        "Dificultad para identificar cuál es la piedra más pesada (normalización del sufrimiento)."
+      ],
+      "intervenciones": [
+        "Gestalt:: Ritual simbólico de dejar la piedra (usar un objeto real en la sesión).",
+        "Sistémica:: Devolver la carga a quien pertenece (\"Esto es tuyo, yo ya no lo cargo\").",
+        "ACT:: Trabajo con la aceptación y el compromiso de avanzar más ligero."
+      ],
+      "tarea": "Escribe en una piedra real (o un papel pesado) esa carga. Llévala contigo un día y luego déjala en un lugar simbólico (un río, un parque) como acto de liberación."
+    },
+    {
+      "codigo": "M-56",
+      "iconos": [
+        "span",
+        "🕸️",
+        "span",
+        "span",
+        "✂️",
+        "span"
+      ],
+      "pregunta": "¿Qué hilo de la telaraña de tus pensamientos recurrentes puedes cortar hoy para dejar de alimentar el ciclo de la rumiación?",
+      "objetivo": "Interrumpir patrones de rumiación y preocupación crónica. Fomentar la acción consciente sobre la reflexión obsesiva.",
+      "profundizacion": [
+        "¿Qué crees que estás logrando al dar vueltas sobre el mismo pensamiento una y otra vez?",
+        "¿Qué pequeño paso práctico puedes dar hoy que sea más útil que seguir pensando en ello?",
+        "¿Quién o qué te ayuda a \"cortar\" el hilo cuando te ves atrapado?",
+        "✔ Agitación mental y dificultad para salir del bucle de pensamiento.",
+        "✔ Falsa sensación de productividad (\"si lo pienso suficiente, lo resolveré\").",
+        "✔ Alivio al ser interrumpido amablemente y redirigido a la acción o al presente.",
+        "✔ Reconocimiento de que la rumiación es un mecanismo de evitación, no de solución."
+      ],
+      "observacion": [
+        "Agitación mental y dificultad para salir del bucle de pensamiento.",
+        "Falsa sensación de productividad (\"si lo pienso suficiente, lo resolveré\").",
+        "Alivio al ser interrumpido amablemente y redirigido a la acción o al presente.",
+        "Reconocimiento de que la rumiación es un mecanismo de evitación, no de solución."
+      ],
+      "intervenciones": [
+        "TCC:: Técnicas de detención del pensamiento y reestructuración cognitiva.",
+        "Mindfulness:: Observar el pensamiento como un evento mental pasajero, sin engancharse a él.",
+        "Activación Conductual:: Programar una actividad incompatible con la rumiación (ejercicio, tarea manual)."
+      ],
+      "tarea": "La próxima vez que notes que estás \"tejiendo la telaraña\" de la rumiación, di en voz alta \"¡Corto!\" y cambia inmediatamente de actividad física o entorno."
+    },
+    {
+      "codigo": "M-57",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌉",
+        "span"
+      ],
+      "pregunta": "Si estuvieras en un puente mirando hacia el amanecer, ¿qué parte de la noche oscura que acaba de pasar estás agradecido de haber sobrevivido?",
+      "objetivo": "Fomentar la resiliencia y la gratitud retrospectiva. Integrar las experiencias difíciles como parte del camino recorrido, no solo como traumas a olvidar.",
+      "profundizacion": [
+        "¿Qué fortaleza descubriste en ti durante esa \"noche oscura\" que no sabías que tenías?",
+        "¿Quién o qué te ayudó a no perderte completamente en la oscuridad?",
+        "¿Cómo ha cambiado tu visión del \"amanecer\" (el futuro) después de haber pasado por esa noche?",
+        "✔ Emoción profunda y lágrimas de alivio al reconocer la propia supervivencia.",
+        "✔ Dificultad inicial para encontrar algo \"agradecible\" en el sufrimiento.",
+        "✔ Orgullo silencioso y aumento de la autoeficacia al nombrar las fortalezas usadas.",
+        "✔ Cambio en la postura corporal: de la contracción a la apertura hacia el \"amanecer\"."
+      ],
+      "observacion": [
+        "Emoción profunda y lágrimas de alivio al reconocer la propia supervivencia.",
+        "Dificultad inicial para encontrar algo \"agradecible\" en el sufrimiento.",
+        "Orgullo silencioso y aumento de la autoeficacia al nombrar las fortalezas usadas.",
+        "Cambio en la postura corporal: de la contracción a la apertura hacia el \"amanecer\"."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia de trauma hacia una historia de supervivencia y crecimiento postraumático.",
+        "Logoterapia:: Encontrar sentido y propósito en el sufrimiento superado.",
+        "Psicología Positiva:: Ejercicios de gratitud enfocados en la resiliencia personal."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ti mismo por haber atravesado esa \"noche oscura\". Reconoce específicamente tres fortalezas que usaste para llegar al amanecer."
+    },
+    {
+      "codigo": "M-58",
+      "iconos": [
+        "span",
+        "🪴",
+        "span",
+        "span",
+        "🏺",
+        "span"
+      ],
+      "pregunta": "Si fueras una planta en una maceta, ¿tus raíces tienen espacio para crecer o estás atrapado en un contenedor que ya te queda chico?",
+      "objetivo": "Evaluar la necesidad de cambio de entorno, de límites o de expansión personal. Identificar la sensación de asfixia o estancamiento en el contexto actual.",
+      "profundizacion": [
+        "¿Qué te impide trasplantarte a una maceta más grande o a la tierra firme?",
+        "¿Quién o qué te puso en este contenedor y por qué sigues aceptando sus límites?",
+        "¿Qué necesitarías para atreverte a romper la maceta y arriesgarte a crecer?",
+        "✔ Sensación de asfixia, claustrofobia o estancamiento vital.",
+        "✔ Miedo a lo desconocido fuera de la \"maceta\" conocida (aunque sea pequeña).",
+        "✔ Alivio y excitación al visualizar la expansión y el crecimiento en un nuevo espacio.",
+        "✔ Reconocimiento de que el dolor actual es señal de que es hora de cambiar."
+      ],
+      "observacion": [
+        "Sensación de asfixia, claustrofobia o estancamiento vital.",
+        "Miedo a lo desconocido fuera de la \"maceta\" conocida (aunque sea pequeña).",
+        "Alivio y excitación al visualizar la expansión y el crecimiento en un nuevo espacio.",
+        "Reconocimiento de que el dolor actual es señal de que es hora de cambiar."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los límites familiares o de pareja que actúan como la \"maceta\" restrictiva.",
+        "Gestalt:: Experimento de \"romper la maceta\" simbólicamente y explorar el miedo y la libertad que surge.",
+        "Coaching:: Planificación concreta de los pasos para \"trasplantarse\" a un entorno más favorable."
+      ],
+      "tarea": "Identifica un área de tu vida donde te sientes \"apretado\" o sin espacio. Esta semana, haz un cambio pequeño pero tangible que amplíe ese espacio (un límite, una nueva actividad, un \"no\")."
+    },
+    {
+      "codigo": "M-59",
+      "iconos": [
+        "span",
+        "🧵",
+        "span",
+        "span",
+        "🧶",
+        "span"
+      ],
+      "pregunta": "Si tu vida fuera un tejido, ¿qué hilos de colores (personas, experiencias, valores) están sosteniendo la estructura y cuáles están a punto de romperse?",
+      "objetivo": "Visualizar la red de apoyo, los valores fundamentales y las áreas de vulnerabilidad en la vida del paciente. Fomentar la reparación y el fortalecimiento de los hilos débiles.",
+      "profundizacion": [
+        "¿Qué hilo es el más fuerte y te ha sostenido en los momentos más difíciles?",
+        "¿Qué hilo estás descuidando y que, si se rompe, deshará parte del tejido?",
+        "¿Qué nuevo color o hilo te gustaría incorporar a tu tejido a partir de hoy?",
+        "✔ Claridad visual sobre qué áreas de la vida están desatendidas.",
+        "✔ Tristeza al reconocer hilos rotos (relaciones perdidas, valores abandonados).",
+        "✔ Esperanza y creatividad al imaginar nuevos hilos y patrones.",
+        "✔ Reconocimiento de la interconexión: un hilo débil afecta a todo el tejido."
+      ],
+      "observacion": [
+        "Claridad visual sobre qué áreas de la vida están desatendidas.",
+        "Tristeza al reconocer hilos rotos (relaciones perdidas, valores abandonados).",
+        "Esperanza y creatividad al imaginar nuevos hilos y patrones.",
+        "Reconocimiento de la interconexión: un hilo débil afecta a todo el tejido."
+      ],
+      "intervenciones": [
+        "Narrativa:: Co-construir una nueva trama para el tejido, integrando los hilos rotos de forma significativa (como el Kintsugi).",
+        "Sistémica:: Mapear la red de apoyo (los hilos fuertes) y planificar cómo fortalecer los débiles.",
+        "ACT:: Identificar los hilos de \"valores\" y comprometerse a tejer más con ellos."
+      ],
+      "tarea": "Dibuja tu \"tejido vital\". Marca con rojo los hilos que necesitan atención urgente esta semana y da un paso concreto para reparar uno de ellos."
+    },
+    {
+      "codigo": "M-60",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🦅",
+        "span"
+      ],
+      "pregunta": "Si este proceso terapéutico fuera un vuelo, ¿ya estás listo para desplegar tus propias alas y confiar en que sabes navegar el aire, o aún necesitas que yo sostenga el nido?",
+      "objetivo": "Evaluar la preparación para el cierre terapéutico o la transición hacia la autonomía. Abordar el miedo a la independencia y celebrar la capacidad adquirida.",
+      "profundizacion": [
+        "¿Qué habilidades de vuelo has aprendido aquí que ya son tuyas y no mías?",
+        "¿Qué miedo te paraliza al pensar en volar solo por primera vez?",
+        "¿Cómo sabrás que es el momento correcto para saltar del nido?",
+        "✔ Ambivalencia: deseo de volar vs. miedo a la caída.",
+        "✔ Dependencia excesiva del terapeuta como \"nido\" seguro.",
+        "✔ Orgullo y empoderamiento al reconocer las propias alas (recursos internalizados).",
+        "✔ Tristeza saludable por la despedida del espacio terapéutico."
+      ],
+      "observacion": [
+        "Ambivalencia: deseo de volar vs. miedo a la caída.",
+        "Dependencia excesiva del terapeuta como \"nido\" seguro.",
+        "Orgullo y empoderamiento al reconocer las propias alas (recursos internalizados).",
+        "Tristeza saludable por la despedida del espacio terapéutico."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" para que cuide al \"Niño Vulnerable\" sin necesidad del terapeuta.",
+        "Gradualidad:: Planificar un cierre progresivo (espaciar sesiones) como práctica de vuelo con red de seguridad.",
+        "Narrativa:: Co-escribir el \"capítulo del primer vuelo\" como una historia de éxito y confianza."
+      ],
+      "tarea": "Escribe una lista de 5 \"herramientas de vuelo\" que te llevas de este proceso. La próxima vez que sientas miedo, lee la lista y recuerda que ya sabes volar."
+    }
+  ]
+}

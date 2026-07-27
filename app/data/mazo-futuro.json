@@ -1,0 +1,2049 @@
+{
+  "id": "futuro",
+  "nombre": "Futuro",
+  "numero": 10,
+  "rango": "F-01 a F-60",
+  "descripcion": "Proyeccion, esperanza, visualizacion positiva, metas, legado y sentido de vida.",
+  "cartas": [
+    {
+      "codigo": "F-01",
+      "iconos": [
+        "span",
+        "🔮",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras saltar un año en el tiempo y ver tu vida desde ahí, ¿qué pequeña señal te indicaría que las cosas han mejorado?",
+      "objetivo": "Fomentar la visualización positiva y la orientación a soluciones. Ayudar al paciente a identificar indicadores concretos y realistas de progreso, saliendo de la rumiación del presente.",
+      "profundizacion": [
+        "¿Esa señal tiene que ver con tu estado interno, con tus relaciones o con tu entorno?",
+        "¿Qué estarías haciendo de manera diferente para que esa señal sea posible?",
+        "¿Qué parte de ti se resiste a imaginar ese futuro mejor y por qué?",
+        "✔ Dificultad para visualizar (desesperanza aprendida o depresión).",
+        "✔ Metas mágicas o irreales (\"todo será perfecto y sin esfuerzo\").",
+        "✔ Capacidad de detallar indicadores conductuales pequeños y alcanzables.",
+        "✔ Emoción de alivio o esperanza al conectar con esa imagen."
+      ],
+      "observacion": [
+        "Dificultad para visualizar (desesperanza aprendida o depresión).",
+        "Metas mágicas o irreales (\"todo será perfecto y sin esfuerzo\").",
+        "Capacidad de detallar indicadores conductuales pequeños y alcanzables.",
+        "Emoción de alivio o esperanza al conectar con esa imagen."
+      ],
+      "intervenciones": [
+        "Soluciones:: Uso de la \"Pregunta del Milagro\" adaptada para identificar señales de cambio.",
+        "ACT:: Clarificación de valores detrás de esa visión de futuro deseada.",
+        "EMDR:: Instalación de recurso de \"Futuro Deseado\" para fortalecer la motivación."
+      ],
+      "tarea": "Escribe esa \"pequeña señal\" en un papel. Durante la próxima semana, actúa como un detective y anota cada vez que observes un micro-indicio de esa señal en tu presente, por mínimo que sea."
+    },
+    {
+      "codigo": "F-02",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué miedo sobre el futuro te está paralizando hoy, y qué evidencia real tienes de que ese miedo se vaya a cumplir?",
+      "objetivo": "Identificar y desafiar las distorsiones cognitivas catastróficas sobre el futuro. Separar la ansiedad anticipatoria de la probabilidad real de los eventos.",
+      "profundizacion": [
+        "¿De quién es esa voz que te advierte sobre ese futuro terrible?",
+        "¿En el pasado, cuántas veces ese miedo catastrófico se hizo realidad tal como lo imaginaste?",
+        "¿Qué recursos tienes hoy que no tenías en el pasado para enfrentar ese escenario si ocurriera?",
+        "✔ Pensamiento catastrófico y generalización (\"siempre me va a ir mal\").",
+        "✔ Dificultad para encontrar evidencia que contradiga el miedo.",
+        "✔ Alivio al reconocer que el miedo es una posibilidad, no una certeza.",
+        "✔ Reconocimiento de la propia resiliencia pasada."
+      ],
+      "observacion": [
+        "Pensamiento catastrófico y generalización (\"siempre me va a ir mal\").",
+        "Dificultad para encontrar evidencia que contradiga el miedo.",
+        "Alivio al reconocer que el miedo es una posibilidad, no una certeza.",
+        "Reconocimiento de la propia resiliencia pasada."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento socrático y búsqueda de evidencia a favor y en contra del pensamiento catastrófico.",
+        "ACT:: Defusión cognitiva: \"Estoy teniendo el pensamiento de que...\", en lugar de \"Va a pasar\".",
+        "Somática:: Regular la activación del sistema nervioso que el miedo al futuro genera en el cuerpo."
+      ],
+      "tarea": "Cuando aparezca ese miedo, escribe en una columna \"Lo que mi miedo dice\" y en otra \"Lo que la evidencia real dice\". Compara ambas y observa cuál tiene más peso."
+    },
+    {
+      "codigo": "F-03",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🕰️",
+        "span"
+      ],
+      "pregunta": "Si tu 'yo' de dentro de 10 años pudiera darte un solo consejo hoy, ¿cuál crees que sería?",
+      "objetivo": "Activar la sabiduría interna y la perspectiva a largo plazo. Fomentar la autocompasión y reducir la urgencia ansiosa del momento presente.",
+      "profundizacion": [
+        "¿Ese consejo sería de prudencia, de valentía, de paciencia o de soltar?",
+        "¿Qué te dice ese consejo sobre lo que realmente es importante para ti?",
+        "¿Qué te impide seguir ese consejo empezando hoy mismo?",
+        "✔ Consejos severos o autocríticos (\"deberías esforzarte más\").",
+        "✔ Consejos compasivos y validantes (\"todo va a estar bien, respira\").",
+        "✔ Bloqueo total para acceder a una voz interna sabia.",
+        "✔ Insight profundo al conectar con la propia intuición."
+      ],
+      "observacion": [
+        "Consejos severos o autocríticos (\"deberías esforzarte más\").",
+        "Consejos compasivos y validantes (\"todo va a estar bien, respira\").",
+        "Bloqueo total para acceder a una voz interna sabia.",
+        "Insight profundo al conectar con la propia intuición."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Sanador\" o \"Yo Observador\" que trasciende el momento actual.",
+        "Gestalt:: Técnica de silla vacía dialogando con el \"yo\" del futuro.",
+        "Narrativa:: Re-escribir la historia desde la perspectiva del final ya resuelto."
+      ],
+      "tarea": "Escribe una carta breve desde tu \"yo\" de dentro de 10 años dirigida a ti hoy. Léela en voz alta antes de dormir y observa qué emociones surgen."
+    },
+    {
+      "codigo": "F-04",
+      "iconos": [
+        "span",
+        "👣",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuál es el paso más pequeño e insignificante que podrías dar esta semana para acercarte a ese futuro que deseas?",
+      "objetivo": "Romper la parálisis por la magnitud de la meta. Fomentar la acción comprometida a través de pasos microscópicos y de bajo riesgo.",
+      "profundizacion": [
+        "¿Por qué ese paso te parece \"insignificante\" o difícil de dar?",
+        "¿Qué excusa sueles usar para posponer ese pequeño paso?",
+        "¿Cómo te sentirías contigo mismo si lo completaras hoy?",
+        "✔ Desdén por los pasos pequeños (\"eso no cambia nada\").",
+        "✔ Perfeccionismo que rechaza cualquier acción que no sea \"la solución total\".",
+        "✔ Alivio al reducir la presión y ver una acción viable.",
+        "✔ Activación y energía renovada al visualizar el primer paso."
+      ],
+      "observacion": [
+        "Desdén por los pasos pequeños (\"eso no cambia nada\").",
+        "Perfeccionismo que rechaza cualquier acción que no sea \"la solución total\".",
+        "Alivio al reducir la presión y ver una acción viable.",
+        "Activación y energía renovada al visualizar el primer paso."
+      ],
+      "intervenciones": [
+        "TCC:: Desglose de tareas (shaping) hasta llegar a un paso ridículamente pequeño y alcanzable.",
+        "Activación Conductual:: Programar la micro-acción en la agenda con hora y lugar específicos.",
+        "ACT:: Compromiso con la acción valiosa a pesar de la presencia de dudas o pereza."
+      ],
+      "tarea": "Define ese micro-paso. Hazlo en las próximas 48 horas. Al terminar, anota en tu celular: \"Hice [acción] y avancé\". Observa cómo cambia tu sensación de control."
+    },
+    {
+      "codigo": "F-05",
+      "iconos": [
+        "span",
+        "🎒",
+        "span",
+        "span",
+        "🌅",
+        "span"
+      ],
+      "pregunta": "¿Qué equipaje emocional o creencia necesitas dejar en la estación anterior para poder subir al tren de tu nuevo futuro?",
+      "objetivo": "Explorar el desapego y la renuncia necesaria para el crecimiento. Identificar lealtades, culpas o identidades obsoletas que impiden el avance.",
+      "profundizacion": [
+        "¿Qué te ha protegido ese equipaje hasta ahora que te hace difícil soltarlo?",
+        "¿Qué pasaría si intentaras avanzar cargando con eso mismo por 10 años más?",
+        "¿A quién pertenecía originalmente esa carga que hoy llevas tú?",
+        "✔ Aferramiento defensivo (\"no puedo soltarlo, es parte de mí\").",
+        "✔ Tristeza o duelo genuino al nombrar lo que hay que dejar ir.",
+        "✔ Alivio físico visible al imaginar soltar el peso.",
+        "✔ Culpa por \"traicionar\" el pasado al avanzar."
+      ],
+      "observacion": [
+        "Aferramiento defensivo (\"no puedo soltarlo, es parte de mí\").",
+        "Tristeza o duelo genuino al nombrar lo que hay que dejar ir.",
+        "Alivio físico visible al imaginar soltar el peso.",
+        "Culpa por \"traicionar\" el pasado al avanzar."
+      ],
+      "intervenciones": [
+        "Gestalt:: Ritual simbólico de despedida o de dejar la carga en una silla vacía.",
+        "Sistémica:: Devolver simbólicamente las cargas que no corresponden al paciente.",
+        "ACT:: Aceptación de la pérdida como parte inherente de cualquier transición vital."
+      ],
+      "tarea": "Escribe en un papel esa creencia o carga que quieres dejar. Dobla el papel, déjalo en un lugar de tu casa por un día y luego tíralo o quémalo como acto simbólico de liberación."
+    },
+    {
+      "codigo": "F-06",
+      "iconos": [
+        "span",
+        "📜",
+        "span",
+        "span",
+        "👥",
+        "span"
+      ],
+      "pregunta": "Cuando mires atrás desde el final de tu vida, ¿qué te gustaría que dijeran de ti las personas que más te quieren?",
+      "objetivo": "Clarificar valores profundos y el legado personal. Conectar con el sentido de vida más allá de las preocupaciones cotidianas y los síntomas.",
+      "profundizacion": [
+        "¿Esas palabras describen quien eres hoy o quien te gustaría ser?",
+        "¿Qué pequeño cambio en tu rutina de hoy te alinearía más con ese legado?",
+        "¿Hay alguna discrepancia entre cómo te tratas a ti mismo y cómo te gustaría ser recordado?",
+        "✔ Dificultad para imaginar el final de la vida (evitación existencial).",
+        "✔ Respuestas centradas en logros materiales vs. cualidades humanas.",
+        "✔ Emoción intensa (ternura, propósito) al conectar con el legado.",
+        "✔ Insight sobre la desconexión entre valores y acciones actuales."
+      ],
+      "observacion": [
+        "Dificultad para imaginar el final de la vida (evitación existencial).",
+        "Respuestas centradas en logros materiales vs. cualidades humanas.",
+        "Emoción intensa (ternura, propósito) al conectar con el legado.",
+        "Insight sobre la desconexión entre valores y acciones actuales."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Exploración del sentido de la vida y la trascendencia a través del legado.",
+        "ACT:: Ejercicio de la \"Ceremonia fúnebre\" (versión adaptada) para clarificar valores.",
+        "Narrativa:: Construcción de la \"leyenda personal\" basada en virtudes, no solo en hechos."
+      ],
+      "tarea": "Escribe 3 adjetivos que te gustaría que definieran tu legado. Esta semana, elige una acción diaria que sea una expresión concreta de uno de esos adjetivos."
+    },
+    {
+      "codigo": "F-07",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "De las metas que tienes para el futuro, ¿cuáles son genuinamente tuyas y cuáles sientes que son un 'debería' impuesto por otros?",
+      "objetivo": "Diferenciar la motivación intrínseca de la extrínseca. Explorar la diferenciación del self y las lealtades familiares que dirigen las elecciones de vida.",
+      "profundizacion": [
+        "¿Cómo se siente tu cuerpo cuando piensas en una meta propia vs. una impuesta?",
+        "¿Qué pasaría si decidieras abandonar una de esas metas impuestas hoy?",
+        "¿A quién temes decepcionar si eliges un camino diferente al esperado?",
+        "✔ Confusión total (\"no sé qué quiero yo, solo sé lo que esperan de mí\").",
+        "✔ Enojo o resentimiento al reconocer la presión externa.",
+        "✔ Alivio y expansión al reclamar la propia agencia.",
+        "✔ Culpa intensa ante la idea de no cumplir las expectativas ajenas."
+      ],
+      "observacion": [
+        "Confusión total (\"no sé qué quiero yo, solo sé lo que esperan de mí\").",
+        "Enojo o resentimiento al reconocer la presión externa.",
+        "Alivio y expansión al reclamar la propia agencia.",
+        "Culpa intensa ante la idea de no cumplir las expectativas ajenas."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma de expectativas y exploración de lealtades invisibles.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sano\" frente al modo del \"Niño Sumiso\".",
+        "ACT:: Clarificación de valores propios vs. valores fusionados con las reglas de otros."
+      ],
+      "tarea": "Haz dos listas: \"Mis metas\" y \"Metas de otros para mí\". Tacha todo lo que no sea 100% tuyo. Quédate solo con lo que resuena contigo y léelo en voz alta."
+    },
+    {
+      "codigo": "F-08",
+      "iconos": [
+        "span",
+        "☀️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Imagina un día perfecto en tu futuro, dentro de 5 años. ¿A qué hora despiertas, qué hueles y qué es lo primero que haces?",
+      "objetivo": "Utilizar la visualización sensorial detallada para activar el sistema de recompensa, generar esperanza y clarificar deseos concretos más allá de la abstracción.",
+      "profundizacion": [
+        "¿Quién está a tu lado en ese día o estás disfrutando de tu propia compañía?",
+        "¿Qué ausencia de problemas o preocupaciones notas en ese día?",
+        "¿Qué elemento de ese día perfecto podrías introducir en tu vida actual, aunque sea en pequeña escala?",
+        "✔ Bloqueo en la visualización (anhedonia o trauma que impide imaginar seguridad).",
+        "✔ Riqueza de detalles sensoriales (indicador de acceso a deseos genuinos).",
+        "✔ Tristeza al contrastar ese día perfecto con la realidad actual.",
+        "✔ Motivación y brillo al describir la escena."
+      ],
+      "observacion": [
+        "Bloqueo en la visualización (anhedonia o trauma que impide imaginar seguridad).",
+        "Riqueza de detalles sensoriales (indicador de acceso a deseos genuinos).",
+        "Tristeza al contrastar ese día perfecto con la realidad actual.",
+        "Motivación y brillo al describir la escena."
+      ],
+      "intervenciones": [
+        "Somática:: Anclaje de las sensaciones placenteras de la visualización en el cuerpo.",
+        "Activación Conductual:: Planificación de actividades que se acerquen a esa visión ideal.",
+        "Narrativa:: Escribir ese día como un cuento en presente, como si ya estuviera ocurriendo."
+      ],
+      "tarea": "Escribe la descripción de ese día perfecto con todos los detalles sensoriales. Léela cada mañana durante una semana como una meditación guiada personal."
+    },
+    {
+      "codigo": "F-09",
+      "iconos": [
+        "span",
+        "🛠️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué habilidad o recurso nuevo necesitas desarrollar para estar a la altura del futuro que estás construyendo?",
+      "objetivo": "Evaluar la brecha entre el estado actual y el deseado. Fomentar la mentalidad de crecimiento y la proactividad en el desarrollo personal.",
+      "profundizacion": [
+        "¿Por qué no has desarrollado esa habilidad hasta ahora?",
+        "¿Qué pequeño paso puedes dar esta semana para empezar a cultivarla?",
+        "¿Quién o qué podría ayudarte a aprender o fortalecer ese recurso?",
+        "✔ Mentalidad fija (\"ya es tarde para aprender\", \"no soy así\").",
+        "✔ Entusiasmo y curiosidad por el aprendizaje.",
+        "✔ Sobrestimación de la dificultad de la habilidad.",
+        "✔ Claridad sobre los pasos concretos a seguir."
+      ],
+      "observacion": [
+        "Mentalidad fija (\"ya es tarde para aprender\", \"no soy así\").",
+        "Entusiasmo y curiosidad por el aprendizaje.",
+        "Sobrestimación de la dificultad de la habilidad.",
+        "Claridad sobre los pasos concretos a seguir."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración de creencias de incapacidad (\"no puedo\") a creencias de aprendizaje (\"aún no puedo\").",
+        "Coaching/Soluciones:: Establecimiento de un plan de aprendizaje con hitos pequeños.",
+        "ACT:: Compromiso con la acción de aprendizaje a pesar de la incomodidad inicial."
+      ],
+      "tarea": "Identifica un recurso (libro, curso, persona, práctica) que te ayude a desarrollar esa habilidad. Dedica 15 minutos esta semana a explorarlo."
+    },
+    {
+      "codigo": "F-10",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Qué compromiso concreto estás dispuesto a hacer hoy contigo mismo para honrar el futuro que quieres construir?",
+      "objetivo": "Cierre integrador de la proyección futura. Pasar de la visualización a la acción comprometida, fortaleciendo la alianza terapéutica y la autoeficacia.",
+      "profundizacion": [
+        "¿Es este compromiso realista y bajo tu control total?",
+        "¿Qué harás si en el camino aparece la tentación de romper este compromiso?",
+        "¿Cómo te sentirás contigo mismo cuando cumplas este compromiso?",
+        "✔ Compromisos grandiosos e irrealistas (sabotaje garantizado).",
+        "✔ Compromisos pequeños, concretos y medibles.",
+        "✔ Miedo a fallar y romper la promesa.",
+        "✔ Determinación serena y sentido de responsabilidad."
+      ],
+      "observacion": [
+        "Compromisos grandiosos e irrealistas (sabotaje garantizado).",
+        "Compromisos pequeños, concretos y medibles.",
+        "Miedo a fallar y romper la promesa.",
+        "Determinación serena y sentido de responsabilidad."
+      ],
+      "intervenciones": [
+        "ACT:: Firma simbólica de un \"contrato de compromiso\" alineado con valores.",
+        "TCC:: Análisis de obstáculos anticipados y planificación de respuestas de afrontamiento.",
+        "Narrativa:: El compromiso como el primer párrafo del nuevo capítulo de la vida del paciente."
+      ],
+      "tarea": "Escribe tu compromiso en una tarjeta, fírmalo y ponle la fecha. Llévalo contigo esta semana. Cada vez que lo leas, recuerda que es un regalo que te haces a tu futuro."
+    },
+    {
+      "codigo": "F-11",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo puedes aprender a confiar en tu capacidad de manejar lo desconocido, aunque no tengas todas las respuestas hoy?",
+      "objetivo": "Trabajar la tolerancia a la incertidumbre. Desplazar el foco desde la necesidad de control absoluto hacia la confianza en la propia resiliencia y capacidad de adaptación.",
+      "profundizacion": [
+        "¿En qué momentos del pasado manejaste lo desconocido mejor de lo que creías?",
+        "¿Qué te dice tu ansiedad sobre lo que podría pasar si no tienes el control?",
+        "¿Qué pequeño acto de fe en ti mismo puedes realizar esta semana?",
+        "✔ Ansiedad paralizante ante la falta de garantías.",
+        "✔ Reconocimiento de fortalezas pasadas olvidadas.",
+        "✔ Alivio al aceptar que la incertidumbre es parte de la vida.",
+        "✔ Búsqueda compulsiva de consejos externos para sentir seguridad."
+      ],
+      "observacion": [
+        "Ansiedad paralizante ante la falta de garantías.",
+        "Reconocimiento de fortalezas pasadas olvidadas.",
+        "Alivio al aceptar que la incertidumbre es parte de la vida.",
+        "Búsqueda compulsiva de consejos externos para sentir seguridad."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la incertidumbre como condición inherente a la vida, no como un enemigo.",
+        "TCC:: Cuestionamiento de las creencias catastróficas sobre \"no saber qué pasará\".",
+        "Somática:: Regular el sistema nervioso para tolerar la sensación física de lo desconocido."
+      ],
+      "tarea": "Esta semana, toma una decisión pequeña sin buscar la opinión de nadie más ni investigar en exceso. Observa cómo toleras la incertidumbre resultante."
+    },
+    {
+      "codigo": "F-12",
+      "iconos": [
+        "span",
+        "👣",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué huella te gustaría dejar en las personas que te rodean, más allá de tus logros o posesiones?",
+      "objetivo": "Conectar con valores relacionales y trascendentales. Evaluar la calidad de los vínculos y el deseo de impacto positivo en el entorno.",
+      "profundizacion": [
+        "¿Cómo te gustaría que te recuerden cuando no estés en la habitación?",
+        "¿Tus acciones actuales están alineadas con esa huella que deseas dejar?",
+        "¿Qué te impide ser esa persona hoy mismo, en las pequeñas cosas?",
+        "✔ Dificultad para imaginar un impacto positivo (baja autoestima).",
+        "✔ Enfoque excesivo en logros materiales como única medida de valor.",
+        "✔ Emoción profunda al conectar con el deseo de ser recordado con amor.",
+        "✔ Insight sobre la discrepancia entre valores y conducta actual."
+      ],
+      "observacion": [
+        "Dificultad para imaginar un impacto positivo (baja autoestima).",
+        "Enfoque excesivo en logros materiales como única medida de valor.",
+        "Emoción profunda al conectar con el deseo de ser recordado con amor.",
+        "Insight sobre la discrepancia entre valores y conducta actual."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Exploración del sentido a través del valor de actitud y la experiencia.",
+        "ACT:: Clarificación de valores relacionales y acciones comprometidas.",
+        "Sistémica:: Explorar el lugar del paciente en el sistema familiar y su impacto."
+      ],
+      "tarea": "Elige a una persona y realiza esta semana un acto de bondad o presencia plena que refleje la huella que quieres dejar. Anota cómo te sientes después."
+    },
+    {
+      "codigo": "F-13",
+      "iconos": [
+        "span",
+        "🎋",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si el futuro te exige ser más flexible de lo que eres hoy, ¿qué parte de tu rigidez estás dispuesto a soltar?",
+      "objetivo": "Evaluar la flexibilidad psicológica. Identificar reglas rígidas, perfeccionismo o control que podrían obstaculizar el crecimiento futuro.",
+      "profundizacion": [
+        "¿Qué crees que pasaría si las cosas no salen exactamente como las planeaste?",
+        "¿Qué te ha protegido esta rigidez hasta ahora?",
+        "¿Cómo sería tu vida si permitieras un 10% más de improvisación?",
+        "✔ Miedo catastrófico a perder el control.",
+        "✔ Agotamiento por mantener estándares imposibles.",
+        "✔ Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "✔ Resistencia a cambiar reglas internalizadas desde la infancia."
+      ],
+      "observacion": [
+        "Miedo catastrófico a perder el control.",
+        "Agotamiento por mantener estándares imposibles.",
+        "Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "Resistencia a cambiar reglas internalizadas desde la infancia."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de reglas rígidas y promoción de la flexibilidad psicológica.",
+        "TCC:: Experimentos conductuales para probar que el mundo no se cae si se rompe una regla.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Exigente\" o \"Estándar Inflexible\"."
+      ],
+      "tarea": "Esta semana, cambia deliberadamente una pequeña rutina o regla que sueles seguir al pie de la letra. Observa tu nivel de ansiedad y cómo se disipa."
+    },
+    {
+      "codigo": "F-14",
+      "iconos": [
+        "span",
+        "💤",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué sueño o deseo postergado sigue vivo en ti, esperando el momento adecuado para ser retomado?",
+      "objetivo": "Reactivar la esperanza y la motivación intrínseca. Identificar proyectos o deseos personales que han sido silenciados por las demandas de la vida o el miedo.",
+      "profundizacion": [
+        "¿Qué te hizo abandonar o pausar ese sueño en su momento?",
+        "¿Qué necesitarías hoy para darle aunque sea un 5% de tu energía?",
+        "¿Cómo te sentirías si empezaras a honrar ese deseo, sin importar el resultado final?",
+        "✔ Tristeza o duelo por el tiempo \"perdido\".",
+        "✔ Brillo y energía al hablar del tema, seguido de desánimo.",
+        "✔ Justificaciones lógicas para no intentarlo (\"ya es tarde\", \"no tengo dinero\").",
+        "✔ Reconocimiento de que el deseo sigue presente y válido."
+      ],
+      "observacion": [
+        "Tristeza o duelo por el tiempo \"perdido\".",
+        "Brillo y energía al hablar del tema, seguido de desánimo.",
+        "Justificaciones lógicas para no intentarlo (\"ya es tarde\", \"no tengo dinero\").",
+        "Reconocimiento de que el deseo sigue presente y válido."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia, integrando el sueño postergado como un capítulo pendiente, no cerrado.",
+        "ACT:: Clarificación de valores y acción comprometida hacia lo que importa.",
+        "Gestalt:: Diálogo con el \"sueño\" como una parte del self que pide atención."
+      ],
+      "tarea": "Dedica 15 minutos esta semana a hacer algo, por mínimo que sea, relacionado con ese sueño postergado. Anota cómo te sientes al reconectar con él."
+    },
+    {
+      "codigo": "F-15",
+      "iconos": [
+        "span",
+        "🧱",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué hábito pequeño, si lo construyeras ladrillo a ladrillo, transformaría radicalmente tu futuro?",
+      "objetivo": "Enfocar la energía en la construcción de hábitos atómicos. Desmitificar el cambio radical y promover la consistencia en acciones microscópicas.",
+      "profundizacion": [
+        "¿Por qué has subestimado el poder de este pequeño hábito en el pasado?",
+        "¿Qué obstáculo interno sueles poner para no ser consistente?",
+        "¿Cómo se vería tu vida dentro de un año si mantuvieras este hábito sin falta?",
+        "✔ Búsqueda de soluciones mágicas o rápidas.",
+        "✔ Frustración por la falta de resultados inmediatos.",
+        "✔ Claridad y motivación al visualizar el efecto compuesto.",
+        "✔ Reconocimiento de patrones de auto-sabotaje en la consistencia."
+      ],
+      "observacion": [
+        "Búsqueda de soluciones mágicas o rápidas.",
+        "Frustración por la falta de resultados inmediatos.",
+        "Claridad y motivación al visualizar el efecto compuesto.",
+        "Reconocimiento de patrones de auto-sabotaje en la consistencia."
+      ],
+      "intervenciones": [
+        "TCC:: Técnicas de modificación de conducta y programación de hábitos.",
+        "Activación Conductual:: Establecimiento de metas microscópicas y sistemas de recompensa.",
+        "ACT:: Compromiso con la acción valiosa diaria, independientemente de la motivación fluctuante."
+      ],
+      "tarea": "Elige ese hábito pequeño. Defínelo tan claramente que sea imposible malinterpretarlo (ej: \"leer 2 páginas\", no \"leer más\"). Hazlo durante 5 días seguidos y registra el proceso."
+    },
+    {
+      "codigo": "F-16",
+      "iconos": [
+        "span",
+        "🕊️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te comprometes a perdonar a tu 'yo' del futuro por los errores que inevitablemente cometerá en el camino?",
+      "objetivo": "Desactivar el perfeccionismo y el miedo al fracaso futuro. Fomentar la autocompasión anticipada como red de seguridad emocional.",
+      "profundizacion": [
+        "¿Qué estándar imposible te estás exigiendo para el futuro?",
+        "¿Cómo tratarías a un amigo que comete esos mismos errores?",
+        "¿Qué aprenderías de esos errores que no podrías aprender de otra manera?",
+        "✔ Horror o rechazo a la idea de cometer errores futuros.",
+        "✔ Autocrítica severa proyectada hacia el futuro.",
+        "✔ Alivio al normalizar el error como parte del aprendizaje humano.",
+        "✔ Dificultad para diferenciarse de las expectativas de otros."
+      ],
+      "observacion": [
+        "Horror o rechazo a la idea de cometer errores futuros.",
+        "Autocrítica severa proyectada hacia el futuro.",
+        "Alivio al normalizar el error como parte del aprendizaje humano.",
+        "Dificultad para diferenciarse de las expectativas de otros."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión y diálogo interno amable.",
+        "ACT:: Aceptación de la imperfección como parte de la experiencia humana.",
+        "Narrativa:: Re-enmarcar los \"errores\" como \"datos necesarios\" para la navegación."
+      ],
+      "tarea": "Escribe una carta de perdón anticipado a tu \"yo\" del futuro. Dile que tiene permiso para equivocarse, aprender y seguir adelante sin culpa. Guárdala."
+    },
+    {
+      "codigo": "F-17",
+      "iconos": [
+        "span",
+        "🌳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras plantar una semilla hoy que solo dará frutos dentro de 10 años, ¿cuál sería y por qué vale la pena esperar?",
+      "objetivo": "Fomentar el pensamiento a largo plazo y la paciencia. Conectar con acciones de legado, inversión emocional o proyectos de vida de lento desarrollo.",
+      "profundizacion": [
+        "¿Qué te impide hoy valorar los procesos lentos en un mundo de inmediatez?",
+        "¿Quién más se beneficiará de esa semilla que estás plantando?",
+        "¿Cómo puedes cuidar esa semilla hoy sin obsesionarte con el fruto?",
+        "✔ Impaciencia crónica y necesidad de gratificación inmediata.",
+        "✔ Conexión profunda con valores de legado y trascendencia.",
+        "✔ Dificultad para confiar en que el esfuerzo actual tendrá recompensa.",
+        "✔ Ternura al imaginar el cuidado de algo a largo plazo."
+      ],
+      "observacion": [
+        "Impaciencia crónica y necesidad de gratificación inmediata.",
+        "Conexión profunda con valores de legado y trascendencia.",
+        "Dificultad para confiar en que el esfuerzo actual tendrá recompensa.",
+        "Ternura al imaginar el cuidado de algo a largo plazo."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Sentido a través de la creación o la experiencia de valores a largo plazo.",
+        "ACT:: Compromiso con acciones valiosas cuyos resultados no son inmediatos.",
+        "Mindfulness:: Práctica de la paciencia y la atención al proceso, no solo al resultado."
+      ],
+      "tarea": "Identifica esa \"semilla\" (una relación, un estudio, un hábito de salud). Dedica 10 minutos esta semana a cuidarla sin esperar ningún resultado visible inmediato."
+    },
+    {
+      "codigo": "F-18",
+      "iconos": [
+        "span",
+        "🎉",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te imaginas celebrando tus logros futuros, en lugar de pasar inmediatamente al siguiente desafío?",
+      "objetivo": "Trabajar la capacidad de disfrutar y reconocer los logros. Desafiar la cultura del \"siempre más\" y la incapacidad de detenerse a celebrar.",
+      "profundizacion": [
+        "¿Por qué te resulta difícil detenerte a celebrar lo que ya lograste?",
+        "¿Qué creencia tienes sobre que \"celebrar es de vanidosos\" o \"peligroso\"?",
+        "¿Qué forma de celebración sería auténtica y nutritiva para ti?",
+        "✔ Minimización de los logros (\"cualquiera lo haría\", \"no fue para tanto\").",
+        "✔ Ansiedad inmediata por el siguiente objetivo.",
+        "✔ Emoción y permiso al ser autorizado a celebrar.",
+        "✔ Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "observacion": [
+        "Minimización de los logros (\"cualquiera lo haría\", \"no fue para tanto\").",
+        "Ansiedad inmediata por el siguiente objetivo.",
+        "Emoción y permiso al ser autorizado a celebrar.",
+        "Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento de creencias disfuncionales sobre el éxito y el merecimiento.",
+        "Activación Conductual:: Programación explícita de rituales de celebración tras metas cumplidas.",
+        "CFT:: Fomentar el merecimiento y la alegría como emociones válidas y necesarias."
+      ],
+      "tarea": "Identifica un logro reciente, por pequeño que sea. Celebra esta semana de una forma que te guste (una comida, un paseo, contárselo a alguien). No lo minimices."
+    },
+    {
+      "codigo": "F-19",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Cuando te sientas perdido en el futuro, ¿cuál será tu 'norte' o tu ancla interna para volver a encontrarte?",
+      "objetivo": "Identificar y consolidar un recurso interno de orientación (valores, mantra, sensación corporal) que sirva como brújula en momentos de crisis o desorientación.",
+      "profundizacion": [
+        "¿Ese norte es un valor, una persona, una creencia o una sensación?",
+        "¿Cómo has usado ese recurso en el pasado sin darte cuenta?",
+        "¿Qué necesitas hacer hoy para mantener esa brújula calibrada?",
+        "✔ Sensación de vacío o falta de dirección vital.",
+        "✔ Dependencia exclusiva de brújulas externas (pareja, trabajo, opiniones).",
+        "✔ Claridad y paz al conectar con un valor o recurso interno profundo.",
+        "✔ Dificultad para nombrar algo que sea genuinamente propio."
+      ],
+      "observacion": [
+        "Sensación de vacío o falta de dirección vital.",
+        "Dependencia exclusiva de brújulas externas (pareja, trabajo, opiniones).",
+        "Claridad y paz al conectar con un valor o recurso interno profundo.",
+        "Dificultad para nombrar algo que sea genuinamente propio."
+      ],
+      "intervenciones": [
+        "ACT:: Ejercicios profundos de clarificación de valores como brújula de vida.",
+        "EMDR:: Instalación de recurso de \"lugar seguro\" o \"figura sabia\" como ancla.",
+        "Somática:: Anclaje corporal de la sensación de \"estar en el camino correcto\"."
+      ],
+      "tarea": "Define tu \"norte\" en una frase corta. Escríbela y llévala contigo. Cuando te sientas perdido esta semana, léela y respira hondo tres veces."
+    },
+    {
+      "codigo": "F-20",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué promesa te haces hoy para proteger la esperanza y la curiosidad de tu 'yo' del futuro, pase lo que pase?",
+      "objetivo": "Cierre integrador del lote. Fomentar el autocuidado, la alianza con uno mismo y el compromiso de mantener viva la chispa de la esperanza y el aprendizaje.",
+      "profundizacion": [
+        "¿Qué amenaza suele apagar tu esperanza y cómo puedes prevenirla?",
+        "¿Cómo te hablarás a ti mismo en los momentos difíciles para no rendirte?",
+        "¿Qué pequeña acción diaria puede ser el sello de esa promesa?",
+        "✔ Cínismo o desesperanza como mecanismo de defensa.",
+        "✔ Emoción profunda y compromiso genuino con el propio bienestar.",
+        "✔ Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "✔ Empoderamiento al tomar las riendas de su propia narrativa futura."
+      ],
+      "observacion": [
+        "Cínismo o desesperanza como mecanismo de defensa.",
+        "Emoción profunda y compromiso genuino con el propio bienestar.",
+        "Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "Empoderamiento al tomar las riendas de su propia narrativa futura."
+      ],
+      "intervenciones": [
+        "ACT:: Firma simbólica de un contrato de compromiso con uno mismo.",
+        "Narrativa:: La promesa como el tema central del próximo capítulo de vida.",
+        "CFT:: Desarrollar una voz interna de ánimo y protección incondicional."
+      ],
+      "tarea": "Escribe esa promesa en un papel, fírmala y ponle la fecha de hoy. Guárdala en un lugar especial. Cada vez que la leas, recuerda que eres tu propio aliado más importante."
+    },
+    {
+      "codigo": "F-21",
+      "iconos": [
+        "span",
+        "🌟",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras diseñar tu propio 'día ideal' en el futuro, ¿qué tres elementos no negociables incluirías en él?",
+      "objetivo": "Clarificar valores fundamentales a través de la visualización concreta. Ayudar al paciente a identificar qué aspectos de su vida son verdaderamente prioritarios más allá de las expectativas sociales.",
+      "profundizacion": [
+        "¿Esos elementos tienen que ver con conexión, propósito, descanso o creatividad?",
+        "¿Qué te impide hoy introducir aunque sea un 10% de esos elementos en tu rutina?",
+        "¿Cómo se siente tu cuerpo al imaginar ese día con total libertad?",
+        "✔ Dificultad para imaginar un día sin obligaciones (culpa por el descanso).",
+        "✔ Elementos centrados exclusivamente en el rendimiento o el logro.",
+        "✔ Emoción de alivio y expansión al permitirse soñar.",
+        "✔ Claridad sobre la discrepancia entre su vida actual y la deseada."
+      ],
+      "observacion": [
+        "Dificultad para imaginar un día sin obligaciones (culpa por el descanso).",
+        "Elementos centrados exclusivamente en el rendimiento o el logro.",
+        "Emoción de alivio y expansión al permitirse soñar.",
+        "Claridad sobre la discrepancia entre su vida actual y la deseada."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y traducción de esos elementos en acciones comprometidas.",
+        "Narrativa:: Re-escribir la rutina diaria para que refleje progresivamente esa visión ideal.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Exigente\" que prohíbe el placer o el autocuidado."
+      ],
+      "tarea": "Elige uno de esos tres elementos no negociables y busca una forma microscópica de incorporarlo a tu semana actual. Anota cómo cambia tu estado de ánimo al hacerlo."
+    },
+    {
+      "codigo": "F-22",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué creencia limitante sobre tu futuro estás dispuesto a cuestionar hoy para abrir nuevas posibilidades?",
+      "objetivo": "Identificar y desafiar las profecías autocumplidas y las creencias nucleares negativas que restringen la visión del futuro y la capacidad de acción.",
+      "profundizacion": [
+        "¿De quién es originalmente esa voz que te dice que \"no podrás\" o \"no mereces\"?",
+        "¿Qué evidencia real tienes de que esa creencia sea una verdad absoluta?",
+        "¿Cómo sería tu vida si empezaras a actuar como si esa creencia no fuera cierta?",
+        "✔ Rigidez cognitiva y defensa de la creencia limitante (\"es que es la realidad\").",
+        "✔ Insight al reconocer el origen externo de la creencia (familia, trauma).",
+        "✔ Alivio al darse permiso para dudar de esa \"verdad\".",
+        "✔ Curiosidad por explorar alternativas más flexibles."
+      ],
+      "observacion": [
+        "Rigidez cognitiva y defensa de la creencia limitante (\"es que es la realidad\").",
+        "Insight al reconocer el origen externo de la creencia (familia, trauma).",
+        "Alivio al darse permiso para dudar de esa \"verdad\".",
+        "Curiosidad por explorar alternativas más flexibles."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento socrático y búsqueda de evidencia contradictoria.",
+        "ACT:: Defusión cognitiva: \"Estoy teniendo el pensamiento de que...\", no \"Es una verdad\".",
+        "Narrativa:: Externalizar la creencia como un \"guion viejo\" que puede ser reescrito."
+      ],
+      "tarea": "Escribe esa creencia limitante en un papel. Debajo, escribe tres contra-ejemplos de tu propia vida que demuestren que esa creencia no es una verdad absoluta."
+    },
+    {
+      "codigo": "F-23",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿A quién te gustaría invitar a formar parte de tu futuro y de qué manera específica necesitas que te acompañe?",
+      "objetivo": "Evaluar y diseñar la red de apoyo futura. Fomentar la asertividad en la petición de necesidades relacionales y el establecimiento de vínculos nutritivos.",
+      "profundizacion": [
+        "¿Qué te impide hoy pedirle a esa persona el tipo de acompañamiento que necesitas?",
+        "¿Cómo sabrás que esa relación es recíproca y no solo unidireccional?",
+        "¿Qué límites necesitas establecer para que esa persona sume y no reste?",
+        "✔ Aislamiento autoimpuesto (\"mejor solo, así no me decepciono\").",
+        "✔ Dependencia de una sola persona para toda la regulación emocional.",
+        "✔ Claridad y madurez al definir el tipo de apoyo necesario.",
+        "✔ Miedo a ser una carga para los demás."
+      ],
+      "observacion": [
+        "Aislamiento autoimpuesto (\"mejor solo, así no me decepciono\").",
+        "Dependencia de una sola persona para toda la regulación emocional.",
+        "Claridad y madurez al definir el tipo de apoyo necesario.",
+        "Miedo a ser una carga para los demás."
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapeo de la red social y reestructuración de roles relacionales.",
+        "DBT:: Entrenamiento en habilidades interpersonales efectivas para pedir apoyo.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono o Desconfianza que aísla al paciente."
+      ],
+      "tarea": "Identifica a esa persona y esta semana comunícale una necesidad pequeña y concreta. Observa su respuesta y cómo te sientes al ser vulnerable."
+    },
+    {
+      "codigo": "F-24",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "Cuando el futuro se sienta incierto o abrumador, ¿cuál será tu 'plan de emergencia' emocional para no perder el rumbo?",
+      "objetivo": "Desarrollar un plan de afrontamiento proactivo. Dotar al paciente de herramientas concretas de regulación para momentos de crisis o alta activación.",
+      "profundizacion": [
+        "¿Qué señales tempranas en tu cuerpo te avisan de que estás entrando en zona de peligro?",
+        "¿Qué tres acciones concretas (físicas, mentales o sociales) puedes ejecutar de inmediato?",
+        "¿A quién puedes contactar si tu propio plan no es suficiente en ese momento?",
+        "✔ Bloqueo total ante la idea de una crisis futura (evitación).",
+        "✔ Planes poco realistas o dependientes exclusivamente de otros.",
+        "✔ Empoderamiento al reconocer que ya posee herramientas de regulación.",
+        "✔ Claridad en la identificación de sus propias señales de alarma somática."
+      ],
+      "observacion": [
+        "Bloqueo total ante la idea de una crisis futura (evitación).",
+        "Planes poco realistas o dependientes exclusivamente de otros.",
+        "Empoderamiento al reconocer que ya posee herramientas de regulación.",
+        "Claridad en la identificación de sus propias señales de alarma somática."
+      ],
+      "intervenciones": [
+        "TCC/DBT:: Construcción de un \"Kit de Habilidades de Afrontamiento\" personalizado.",
+        "Somática:: Práctica en sesión de las técnicas de regulación (ej. respiración, grounding).",
+        "ACT:: Aceptación de la incertidumbre como parte del proceso, sin necesidad de eliminarla."
+      ],
+      "tarea": "Escribe tu \"Plan de Emergencia\" en una tarjeta pequeña. Guárdala en tu billetera o en el teléfono. Revísalo y actualízalo si es necesario al final de la semana."
+    },
+    {
+      "codigo": "F-25",
+      "iconos": [
+        "span",
+        "🎋",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué versión de ti mismo estás cultivando hoy que tu 'yo' del futuro te agradecerá enormemente?",
+      "objetivo": "Fomentar la autocompasión y la visión a largo plazo. Conectar las acciones pequeñas del presente con sus beneficios acumulativos en el futuro.",
+      "profundizacion": [
+        "¿Es una versión más amable, más firme, más curiosa o más descansada?",
+        "¿Qué pequeño hábito estás construyendo que sostiene a esa versión?",
+        "¿Qué te cuesta creer sobre tu propia capacidad de cambio a largo plazo?",
+        "✔ Dificultad para verse a sí mismo como alguien en evolución.",
+        "✔ Ternura y orgullo al reconocer el propio esfuerzo.",
+        "✔ Impaciencia por ver resultados inmediatos en lugar de procesos.",
+        "✔ Conexión profunda con el deseo de bienestar futuro."
+      ],
+      "observacion": [
+        "Dificultad para verse a sí mismo como alguien en evolución.",
+        "Ternura y orgullo al reconocer el propio esfuerzo.",
+        "Impaciencia por ver resultados inmediatos en lugar de procesos.",
+        "Conexión profunda con el deseo de bienestar futuro."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión y diálogo interno de ánimo.",
+        "Activación Conductual:: Reforzar los micro-hábitos que construyen esa versión deseada.",
+        "Narrativa:: Re-escribir la identidad como un \"proyecto en construcción\" valioso."
+      ],
+      "tarea": "Escribe una carta breve de agradecimiento desde tu \"yo\" del futuro, reconociendo el esfuerzo que estás haciendo hoy. Léela cuando te sientas desmotivado."
+    },
+    {
+      "codigo": "F-26",
+      "iconos": [
+        "span",
+        "🕰️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si el tiempo y el dinero no fueran obstáculos, ¿qué proyecto o sueño empezarías a gestar esta misma semana?",
+      "objetivo": "Eliminar las excusas superficiales para acceder a los deseos profundos. Identificar la verdadera barrera (miedo, vergüenza, falta de permiso) detrás de la postergación.",
+      "profundizacion": [
+        "Una vez eliminados el tiempo y el dinero, ¿qué miedo real queda en el camino?",
+        "¿Qué paso microscópico de ese proyecto podrías dar hoy sin necesidad de recursos extra?",
+        "¿A quién estás esperando que te dé \"permiso\" para empezar?",
+        "✔ Bloqueo inmediato al eliminar las excusas lógicas (\"igual no sé cómo\").",
+        "✔ Emoción y vitalidad al conectar con el sueño genuino.",
+        "✔ Reconocimiento de que el obstáculo es interno, no externo.",
+        "✔ Tristeza por el tiempo que se ha pasado esperando las \"condiciones perfectas\"."
+      ],
+      "observacion": [
+        "Bloqueo inmediato al eliminar las excusas lógicas (\"igual no sé cómo\").",
+        "Emoción y vitalidad al conectar con el sueño genuino.",
+        "Reconocimiento de que el obstáculo es interno, no externo.",
+        "Tristeza por el tiempo que se ha pasado esperando las \"condiciones perfectas\"."
+      ],
+      "intervenciones": [
+        "ACT:: Compromiso con la acción valiosa a pesar de la presencia de miedo o incomodidad.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Punitivo\" que exige condiciones perfectas.",
+        "Soluciones:: Identificar el recurso más pequeño y disponible para dar el primer paso."
+      ],
+      "tarea": "Dedica 15 minutos esta semana a hacer algo, por mínimo que sea, relacionado con ese sueño. No planifiques, solo ejecuta una acción pequeña."
+    },
+    {
+      "codigo": "F-27",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cómo sabrás que estás avanzando en la dirección correcta, incluso cuando los resultados no sean inmediatamente visibles?",
+      "objetivo": "Definir indicadores de progreso intrínsecos y procesales, no solo basados en resultados externos. Fomentar la paciencia y la confianza en el proceso.",
+      "profundizacion": [
+        "¿Qué cambios sutiles en tu estado de ánimo, energía o relaciones notarías?",
+        "¿Cómo te tratarías a ti mismo en los días en que sientas que \"no avanzas\"?",
+        "¿Qué te dice tu cuerpo cuando estás alineado con tu camino, aunque sea difícil?",
+        "✔ Dependencia exclusiva de validación externa o logros tangibles.",
+        "✔ Capacidad de identificar señales internas de coherencia y paz.",
+        "✔ Frustración ante la lentitud del cambio terapéutico.",
+        "✔ Madurez al aceptar que el progreso no es lineal."
+      ],
+      "observacion": [
+        "Dependencia exclusiva de validación externa o logros tangibles.",
+        "Capacidad de identificar señales internas de coherencia y paz.",
+        "Frustración ante la lentitud del cambio terapéutico.",
+        "Madurez al aceptar que el progreso no es lineal."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración de la definición de \"éxito\" para incluir el esfuerzo y el proceso.",
+        "ACT:: Clarificación de valores como brújula, independientemente de la velocidad del avance.",
+        "Somática:: Anclaje de la sensación corporal de \"estar en el camino correcto\"."
+      ],
+      "tarea": "Define 3 \"señales internas\" de progreso (ej. \"duermo mejor\", \"me critico menos\"). Registra si aparecen esta semana, sin importar lo que digan los resultados externos."
+    },
+    {
+      "codigo": "F-28",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué límites saludables necesitas establecer hoy para proteger la energía y la visión de tu futuro?",
+      "objetivo": "Empoderar al paciente en la protección de sus recursos. Identificar fugas de energía (personas, hábitos, compromisos) que sabotearían sus metas futuras.",
+      "profundizacion": [
+        "¿Qué relación, hábito o compromiso te está drenando la energía que necesitas para tu futuro?",
+        "¿Qué temes que pase si empiezas a decir \"no\" a eso?",
+        "¿Cómo puedes comunicar ese límite de manera firme pero compasiva?",
+        "✔ Culpa intensa ante la idea de priorizarse a sí mismo.",
+        "✔ Reconocimiento claro de relaciones o situaciones tóxicas.",
+        "✔ Dificultad práctica para ejecutar el límite (falta de habilidades).",
+        "✔ Alivio y sensación de poder al imaginar el espacio recuperado."
+      ],
+      "observacion": [
+        "Culpa intensa ante la idea de priorizarse a sí mismo.",
+        "Reconocimiento claro de relaciones o situaciones tóxicas.",
+        "Dificultad práctica para ejecutar el límite (falta de habilidades).",
+        "Alivio y sensación de poder al imaginar el espacio recuperado."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades de efectividad interpersonal para establecer límites.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" para proteger al \"Niño Vulnerable\" del agotamiento.",
+        "Sistémica:: Explorar la homeostasis familiar que resiste al cambio de límites del paciente."
+      ],
+      "tarea": "Identifica un límite que necesitas poner esta semana. Practica la frase exacta que usarás frente al espejo antes de comunicarla en la vida real."
+    },
+    {
+      "codigo": "F-29",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué le dirías a tu 'yo' del futuro para asegurarle que estás haciendo todo lo posible hoy, con los recursos que tienes?",
+      "objetivo": "Fomentar la autocompasión radical y la aceptación de las limitaciones actuales. Reducir la autoexigencia y la culpa por no estar \"más avanzado\" en el proceso.",
+      "profundizacion": [
+        "¿Qué te estás exigiendo hoy que es injusto o imposible dada tu situación actual?",
+        "¿Cómo puedes celebrar el hecho de que estás intentándolo, a pesar de todo?",
+        "¿Qué promesa de cuidado puedes hacerle a ese \"yo\" del futuro hoy mismo?",
+        "✔ Autocrítica severa y descalificación del esfuerzo actual.",
+        "✔ Llanto de alivio al ser autorizado a \"hacer lo que se puede\".",
+        "✔ Dificultad para aceptar la propia vulnerabilidad o cansancio.",
+        "✔ Ternura y conexión genuina con la propia historia de esfuerzo."
+      ],
+      "observacion": [
+        "Autocrítica severa y descalificación del esfuerzo actual.",
+        "Llanto de alivio al ser autorizado a \"hacer lo que se puede\".",
+        "Dificultad para aceptar la propia vulnerabilidad o cansancio.",
+        "Ternura y conexión genuina con la propia historia de esfuerzo."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de la carta compasiva dirigida al yo futuro y al yo presente.",
+        "Gestalt:: Diálogo de integración y perdón entre el yo actual y el yo idealizado.",
+        "ACT:: Defusión de la regla \"debo estar más avanzado\" y conexión con el momento presente."
+      ],
+      "tarea": "Escribe esa mensaje de aseguramiento y cuidado. Ponlo en un lugar donde lo veas al final de cada día, como un recordatorio de que estás haciendo lo suficiente."
+    },
+    {
+      "codigo": "F-30",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la primera piedra, por pequeña que sea, que estás dispuesto a colocar hoy para construir el futuro que deseas?",
+      "objetivo": "Cierre integrador del bloque. Pasar de la proyección y la visualización a la acción concreta, inmediata y viable en el presente.",
+      "profundizacion": [
+        "¿Por qué has pospuesto la colocación de esta \"primera piedra\" hasta ahora?",
+        "¿Qué necesitas (tiempo, permiso, apoyo) para colocarla en las próximas 48 horas?",
+        "¿Cómo te sentirás contigo mismo una vez que hayas dado este primer paso tangible?",
+        "✔ Parálisis por análisis o búsqueda de la acción \"perfecta\".",
+        "✔ Entusiasmo y determinación al definir un paso microscópico.",
+        "✔ Miedo a que el primer paso sea insuficiente.",
+        "✔ Empoderamiento al reclamar la agencia sobre el propio destino."
+      ],
+      "observacion": [
+        "Parálisis por análisis o búsqueda de la acción \"perfecta\".",
+        "Entusiasmo y determinación al definir un paso microscópico.",
+        "Miedo a que el primer paso sea insuficiente.",
+        "Empoderamiento al reclamar la agencia sobre el propio destino."
+      ],
+      "intervenciones": [
+        "TCC:: Desglose de la meta en el paso más pequeño y ridículamente fácil posible.",
+        "ACT:: Compromiso firme con la acción valiosa, aceptando la incomodidad inicial.",
+        "Soluciones:: Enfoque en \"qué hacer ahora\" en lugar de \"por qué no se hizo antes\"."
+      ],
+      "tarea": "Define esa \"primera piedra\". Hazla en las próximas 48 horas. Al terminar, celebra el acto (aunque sea con un suspiro de alivio) y anota cómo cambió tu sensación de control."
+    },
+    {
+      "codigo": "F-31",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cómo equilibras la necesidad de planificar tu futuro con la capacidad de disfrutar el momento presente sin ansiedad?",
+      "objetivo": "Trabajar la tensión entre la orientación al futuro y la atención plena al presente. Evitar que la planificación se convierta en una fuente de ansiedad o control rígido.",
+      "profundizacion": [
+        "¿Sientes que si dejas de planificar, todo se derrumbará?",
+        "¿Qué te impide soltar el control y confiar en que podrás manejar lo que venga?",
+        "¿Cómo se siente tu cuerpo cuando logras estar aquí y ahora sin pensar en el mañana?",
+        "✔ Hiperplanificación como mecanismo de defensa contra la incertidumbre.",
+        "✔ Culpa al intentar descansar o disfrutar sin \"producir\".",
+        "✔ Alivio al recibir permiso para habitar el presente.",
+        "✔ Dificultad para desconectar mentalmente de las metas futuras."
+      ],
+      "observacion": [
+        "Hiperplanificación como mecanismo de defensa contra la incertidumbre.",
+        "Culpa al intentar descansar o disfrutar sin \"producir\".",
+        "Alivio al recibir permiso para habitar el presente.",
+        "Dificultad para desconectar mentalmente de las metas futuras."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Entrenamiento en la atención plena para anclar la conciencia en el momento presente.",
+        "ACT:: Defusión de la fusión con el futuro y compromiso con la acción valiosa en el ahora.",
+        "TCC:: Cuestionamiento de las creencias catastróficas sobre \"no tener el control\"."
+      ],
+      "tarea": "Esta semana, programa una \"cita con el presente\" de 15 minutos donde esté prohibido planificar, hablar del futuro o ser productivo. Solo observa, respira o saborea."
+    },
+    {
+      "codigo": "F-32",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Existe algún miedo oculto a tener éxito o a ser feliz que te esté haciendo sabotearte inconscientemente?",
+      "objetivo": "Explorar el autoboicot y las lealtades invisibles al sufrimiento o al fracaso. Identificar creencias limitantes sobre el merecimiento del éxito.",
+      "profundizacion": [
+        "¿Qué crees que pasaría de malo si todo te saliera bien?",
+        "¿A quién en tu historia le fue \"demasiado bien\" y pagó un precio por ello?",
+        "¿Qué parte de ti siente que no merece la plenitud o el descanso?",
+        "✔ Patrones repetitivos de arruinar las cosas justo antes de lograrlas.",
+        "✔ Incomodidad o desconfianza cuando las cosas van bien (\"espero el otro zapato\").",
+        "✔ Insight al conectar el autoboicot con lealtades familiares.",
+        "✔ Miedo a la envidia o al aislamiento si se tiene éxito."
+      ],
+      "observacion": [
+        "Patrones repetitivos de arruinar las cosas justo antes de lograrlas.",
+        "Incomodidad o desconfianza cuando las cosas van bien (\"espero el otro zapato\").",
+        "Insight al conectar el autoboicot con lealtades familiares.",
+        "Miedo a la envidia o al aislamiento si se tiene éxito."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar lealtades invisibles al sufrimiento familiar y rituales de permiso.",
+        "IFS:: Dialogar con la \"parte protectora\" que sabotea para evitar un peligro percibido.",
+        "Psicoanálisis:: Análisis de la culpa inconsciente y la necesidad de castigo."
+      ],
+      "tarea": "Identifica un área donde te saboteas. Escribe: \"Tengo permiso para tener éxito y ser feliz sin que nada malo pase\". Léelo en voz alta y nota la resistencia o el alivio."
+    },
+    {
+      "codigo": "F-33",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Cuando todo a tu alrededor sea un caos, ¿cuál será tu 'ancla' interna para no perder tu centro?",
+      "objetivo": "Identificar y fortalecer los recursos internos de regulación y los valores inquebrantables que sirven de brújula en tiempos de crisis.",
+      "profundizacion": [
+        "¿Ese ancla es un valor, un recuerdo, una persona o una práctica?",
+        "¿Cómo has usado ese recurso en el pasado sin darte cuenta de su poder?",
+        "¿Qué necesitas hacer hoy para mantener ese ancla fuerte y accesible?",
+        "✔ Sensación de vacío o dependencia total de anclas externas.",
+        "✔ Claridad y paz al conectar con un recurso interno profundo.",
+        "✔ Dificultad para nombrar algo que sea genuinamente propio y estable.",
+        "✔ Empoderamiento al reconocer su propia capacidad de autoregulación."
+      ],
+      "observacion": [
+        "Sensación de vacío o dependencia total de anclas externas.",
+        "Claridad y paz al conectar con un recurso interno profundo.",
+        "Dificultad para nombrar algo que sea genuinamente propio y estable.",
+        "Empoderamiento al reconocer su propia capacidad de autoregulación."
+      ],
+      "intervenciones": [
+        "EMDR:: Instalación de recurso de \"lugar seguro\" o \"figura sabia\" como ancla somática.",
+        "ACT:: Ejercicios profundos de clarificación de valores como brújula de vida.",
+        "Somática:: Anclaje corporal de la sensación de \"estar en el camino correcto\"."
+      ],
+      "tarea": "Define tu \"ancla\" en una frase corta o una imagen. Escríbela o dibújala y llévala contigo. Cuando te sientas desbordado esta semana, tócala y respira hondo tres veces."
+    },
+    {
+      "codigo": "F-34",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué enseñanza o valor de tu historia familiar quieres preservar en tu futuro, y cuál estás decidido a dejar atrás?",
+      "objetivo": "Trabajar la diferenciación del self y las lealtades transgeneracionales. Fomentar la elección consciente de qué herencia emocional conservar.",
+      "profundizacion": [
+        "¿Qué te ha dado fuerza de tu familia y qué te ha limitado?",
+        "¿Qué te costará emocionalmente romper con ese patrón que decides dejar atrás?",
+        "¿Cómo honrarás a tu familia siendo fiel a ti mismo y no repitiendo sus errores?",
+        "✔ Culpa intensa ante la idea de \"traicionar\" a la familia.",
+        "✔ Reconocimiento claro de patrones tóxicos a interrumpir.",
+        "✔ Orgullo al identificar fortalezas heredadas que quiere cultivar.",
+        "✔ Confusión entre amor y lealtad a dinámicas destructivas."
+      ],
+      "observacion": [
+        "Culpa intensa ante la idea de \"traicionar\" a la familia.",
+        "Reconocimiento claro de patrones tóxicos a interrumpir.",
+        "Orgullo al identificar fortalezas heredadas que quiere cultivar.",
+        "Confusión entre amor y lealtad a dinámicas destructivas."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma para visualizar patrones y rituales de despedida simbólica.",
+        "Narrativa:: Re-autoría de la historia familiar, posicionándose como el \"cambio de ciclo\".",
+        "Gestalt:: Diálogo con las figuras parentales para devolverles lo que no les pertenece."
+      ],
+      "tarea": "Escribe una carta simbólica a tu linaje: agradece lo que te sirve y declara con respeto que dejas atrás lo que te limita. No necesitas enviarla, el acto es para ti."
+    },
+    {
+      "codigo": "F-35",
+      "iconos": [
+        "span",
+        "🎋",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Si el futuro te exige ser más flexible de lo que eres hoy, ¿qué regla rígida estás dispuesto a romper?",
+      "objetivo": "Evaluar y desafiar la rigidez cognitiva y el perfeccionismo. Promover la flexibilidad psicológica como recurso de adaptación y bienestar.",
+      "profundizacion": [
+        "¿Qué crees catastrófico que pasaría si las cosas no salen exactamente como las planeaste?",
+        "¿Qué te ha protegido esta rigidez hasta ahora?",
+        "¿Cómo sería tu vida si permitieras un 10% más de improvisación y error?",
+        "✔ Miedo catastrófico a perder el control o \"fallar\".",
+        "✔ Agotamiento crónico por mantener estándares imposibles.",
+        "✔ Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "✔ Resistencia a cambiar reglas internalizadas desde la infancia."
+      ],
+      "observacion": [
+        "Miedo catastrófico a perder el control o \"fallar\".",
+        "Agotamiento crónico por mantener estándares imposibles.",
+        "Alivio al considerar la flexibilidad como una fortaleza, no como debilidad.",
+        "Resistencia a cambiar reglas internalizadas desde la infancia."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de reglas rígidas y promoción de la flexibilidad psicológica.",
+        "TCC:: Experimentos conductuales para probar que el mundo no se cae si se rompe una regla.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Exigente\" o \"Estándar Inflexible\"."
+      ],
+      "tarea": "Esta semana, cambia deliberadamente una pequeña rutina o regla que sueles seguir al pie de la letra (ej. otra ruta al trabajo, otro orden de tareas). Observa tu ansiedad y cómo se disipa."
+    },
+    {
+      "codigo": "F-36",
+      "iconos": [
+        "span",
+        "🎉",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te comprometes a celebrar tus pequeños logros en el camino, en lugar de pasar inmediatamente al siguiente desafío?",
+      "objetivo": "Trabajar la capacidad de disfrutar y reconocer los logros intermedios. Desafiar la cultura del \"siempre más\" y la incapacidad de detenerse a validar el propio esfuerzo.",
+      "profundizacion": [
+        "¿Por qué te resulta difícil detenerte a celebrar lo que ya lograste?",
+        "¿Qué creencia tienes sobre que \"celebrar es de vanidosos\" o \"peligroso\"?",
+        "¿Qué forma de celebración sería auténtica, sencilla y nutritiva para ti?",
+        "✔ Minimización de los logros (\"cualquiera lo haría\", \"no fue para tanto\").",
+        "✔ Ansiedad inmediata por el siguiente objetivo sin procesar el actual.",
+        "✔ Emoción y permiso al ser autorizado a celebrar.",
+        "✔ Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "observacion": [
+        "Minimización de los logros (\"cualquiera lo haría\", \"no fue para tanto\").",
+        "Ansiedad inmediata por el siguiente objetivo sin procesar el actual.",
+        "Emoción y permiso al ser autorizado a celebrar.",
+        "Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento de creencias disfuncionales sobre el éxito y el merecimiento.",
+        "Activación Conductual:: Programación explícita de rituales de celebración tras metas cumplidas.",
+        "CFT:: Fomentar el merecimiento y la alegría como emociones válidas y necesarias."
+      ],
+      "tarea": "Identifica un logro reciente, por pequeño que sea. Celebra esta semana de una forma que te guste (una comida, un paseo, contárselo a alguien). No lo minimices."
+    },
+    {
+      "codigo": "F-37",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿A quién necesitas pedirle perdón o agradecer en tu vida para poder avanzar hacia tu futuro con el corazón más ligero?",
+      "objetivo": "Facilitar el cierre de ciclos relacionales pendientes. Explorar el perdón y la gratitud como herramientas de liberación emocional y avance personal.",
+      "profundizacion": [
+        "¿Qué te impide dar ese paso de perdón o agradecimiento hoy?",
+        "¿Ese perdón es para ellos o, principalmente, para liberarte a ti mismo?",
+        "¿Cómo cambiaría tu energía si soltaras esa carga relacional?",
+        "✔ Resistencia feroz al perdón (\"no se lo merecen\").",
+        "✔ Llanto liberador al conectar con la gratitud o el duelo relacional.",
+        "✔ Confusión entre perdonar y olvidar o permitir el abuso.",
+        "✔ Alivio físico al imaginar soltar el rencor o la deuda emocional."
+      ],
+      "observacion": [
+        "Resistencia feroz al perdón (\"no se lo merecen\").",
+        "Llanto liberador al conectar con la gratitud o el duelo relacional.",
+        "Confusión entre perdonar y olvidar o permitir el abuso.",
+        "Alivio físico al imaginar soltar el rencor o la deuda emocional."
+      ],
+      "intervenciones": [
+        "Gestalt:: Silla vacía para expresar lo no dicho y cerrar la gestalt relacional.",
+        "CFT:: Entrenamiento en autocompasión y perdón como acto de cuidado propio.",
+        "Narrativa:: Re-enmarcar la relación desde la aprendizaje y no desde la victimización."
+      ],
+      "tarea": "Escribe una carta de perdón o agradecimiento (no es obligatorio enviarla). El simple acto de escribirla y luego romperla o guardarla tiene un potente efecto liberador."
+    },
+    {
+      "codigo": "F-38",
+      "iconos": [
+        "span",
+        "🕊️",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo te comprometes a ser compasivo con tu 'yo' del futuro cuando cometa errores inevitables en el camino?",
+      "objetivo": "Desactivar el perfeccionismo y el miedo al fracaso futuro. Fomentar la autocompasión anticipada como red de seguridad emocional.",
+      "profundizacion": [
+        "¿Qué estándar imposible te estás exigiendo para el futuro?",
+        "¿Cómo tratarías a un amigo querido que comete esos mismos errores?",
+        "¿Qué aprenderías de esos errores que no podrías aprender de otra manera?",
+        "✔ Horror o rechazo a la idea de cometer errores futuros.",
+        "✔ Autocrítica severa proyectada hacia el propio futuro.",
+        "✔ Alivio al normalizar el error como parte del aprendizaje humano.",
+        "✔ Dificultad para diferenciarse de las expectativas de otros."
+      ],
+      "observacion": [
+        "Horror o rechazo a la idea de cometer errores futuros.",
+        "Autocrítica severa proyectada hacia el propio futuro.",
+        "Alivio al normalizar el error como parte del aprendizaje humano.",
+        "Dificultad para diferenciarse de las expectativas de otros."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión y diálogo interno amable y protector.",
+        "ACT:: Aceptación de la imperfección como parte inherente de la experiencia humana.",
+        "Narrativa:: Re-enmarcar los \"errores\" como \"datos necesarios\" para la navegación."
+      ],
+      "tarea": "Escribe una carta de perdón anticipado a tu \"yo\" del futuro. Dile que tiene permiso para equivocarse, aprender y seguir adelante sin culpa. Guárdala como un escudo."
+    },
+    {
+      "codigo": "F-39",
+      "iconos": [
+        "span",
+        "🔍",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué curiosidad o deseo de aprender algo completamente nuevo te gustaría cultivar en tu futuro, solo por el placer de hacerlo?",
+      "objetivo": "Reactivar el sistema de exploración y juego. Fomentar la mentalidad de crecimiento y la conexión con la vitalidad más allá de la productividad.",
+      "profundizacion": [
+        "¿Por qué has pospuesto o descartado esa curiosidad en el pasado?",
+        "¿Qué te dice la voz crítica cuando piensas en aprender algo \"inútil\"?",
+        "¿Cómo sería tu vida si dedicaras un pequeño espacio semanal a esa curiosidad?",
+        "✔ Mentalidad fija (\"ya soy muy viejo/a\" o \"no soy bueno/a en eso\").",
+        "✔ Entusiasmo y brillo al hablar de un tema no relacionado con el trabajo.",
+        "✔ Culpa por dedicar tiempo a algo que no genera dinero o estatus.",
+        "✔ Reconocimiento de la necesidad de juego y exploración."
+      ],
+      "observacion": [
+        "Mentalidad fija (\"ya soy muy viejo/a\" o \"no soy bueno/a en eso\").",
+        "Entusiasmo y brillo al hablar de un tema no relacionado con el trabajo.",
+        "Culpa por dedicar tiempo a algo que no genera dinero o estatus.",
+        "Reconocimiento de la necesidad de juego y exploración."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el \"Niño Juguetón\" o \"Niño Feliz\" frente al \"Exigente\".",
+        "Activación Conductual:: Programar la curiosidad como una actividad placentera obligatoria.",
+        "ACT:: Compromiso con la acción valiosa de aprendizaje a pesar de la incomodidad inicial."
+      ],
+      "tarea": "Dedica 20 minutos esta semana a explorar esa curiosidad (ver un video, leer un artículo, probar una herramienta). Sin meta de perfección, solo por el placer de descubrir."
+    },
+    {
+      "codigo": "F-40",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la promesa más sagrada que puedes hacerte hoy para proteger la esperanza y la visión de tu futuro, pase lo que pase?",
+      "objetivo": "Cierre integrador del bloque. Fomentar el autocuidado radical, la alianza con uno mismo y el compromiso inquebrantable de mantener viva la chispa de la esperanza.",
+      "profundizacion": [
+        "¿Qué amenaza suele apagar tu esperanza y cómo puedes prevenirla?",
+        "¿Cómo te hablarás a ti mismo en los momentos difíciles para no rendirte?",
+        "¿Qué pequeña acción diaria puede ser el sello visible de esa promesa?",
+        "✔ Cínismo o desesperanza como mecanismo de defensa ante el dolor.",
+        "✔ Emoción profunda y compromiso genuino con el propio bienestar.",
+        "✔ Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "✔ Empoderamiento al tomar las riendas de su propia narrativa futura."
+      ],
+      "observacion": [
+        "Cínismo o desesperanza como mecanismo de defensa ante el dolor.",
+        "Emoción profunda y compromiso genuino con el propio bienestar.",
+        "Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "Empoderamiento al tomar las riendas de su propia narrativa futura."
+      ],
+      "intervenciones": [
+        "ACT:: Firma simbólica de un contrato de compromiso con uno mismo.",
+        "Narrativa:: La promesa como el tema central y el juramento del próximo capítulo de vida.",
+        "CFT:: Desarrollar una voz interna de ánimo, protección y lealtad incondicional."
+      ],
+      "tarea": "Escribe esa promesa en un papel, fírmala y ponle la fecha de hoy. Guárdala en un lugar especial. Cada vez que la leas, recuerda que eres tu propio aliado más importante."
+    },
+    {
+      "codigo": "F-41",
+      "iconos": [
+        "span",
+        "🕰️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te relacionas con la idea de envejecer: como una pérdida temida, como una sabiduría ganada, o como algo en lo que prefieres no pensar?",
+      "objetivo": "Explorar la relación con el ciclo vital, el paso del tiempo y la finitud. Identificar temores culturales, mandatos de juventud o sabiduría adquirida sobre el envejecimiento.",
+      "profundizacion": [
+        "¿Qué imágenes o creencias tienes sobre lo que significa \"envejecer bien\"?",
+        "¿Qué partes de ti ya están envejeciendo sabiamente y cuáles se resisten?",
+        "¿Qué te enseñaron en tu familia sobre la vejez: algo temido, algo honrado?",
+        "✔ Rechazo frontal al envejecimiento (culto a la juventud).",
+        "✔ Aceptación serena y conexión con la sabiduría de la edad.",
+        "✔ Angustia anticipatoria por la pérdida de capacidades.",
+        "✔ Duelo no elaborado por etapas vitales ya cerradas."
+      ],
+      "observacion": [
+        "Rechazo frontal al envejecimiento (culto a la juventud).",
+        "Aceptación serena y conexión con la sabiduría de la edad.",
+        "Angustia anticipatoria por la pérdida de capacidades.",
+        "Duelo no elaborado por etapas vitales ya cerradas."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido en cada etapa vital, incluyendo la madurez.",
+        "Sistémica:: Explorar el genograma de la vejez: cómo envejecieron los referentes del paciente.",
+        "Narrativa:: Re-escribir la vejez como etapa de integración, no de declive."
+      ],
+      "tarea": "Identifica a una persona mayor que admires. Esta semana, observa qué cualidades tiene que tú también estás cultivando. Anota tres cosas que te gustaría aprender de su forma de envejecer."
+    },
+    {
+      "codigo": "F-42",
+      "iconos": [
+        "span",
+        "🎁",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué legado emocional, más allá de lo material, te gustaría dejar a las personas que vendrán después de ti?",
+      "objetivo": "Conectar con el sentido trascendente de la vida. Explorar el deseo de impacto positivo en las generaciones futuras y la coherencia con las acciones presentes.",
+      "profundizacion": [
+        "¿Qué valores, enseñanzas o gestos quieres que te recuerden?",
+        "¿Tus acciones de hoy están construyendo ese legado o lo están contradiciendo?",
+        "¿Qué legado recibiste tú que quieres preservar, y cuál quieres interrumpir?",
+        "✔ Dificultad para pensar en trascendencia (vida centrada en lo inmediato).",
+        "✔ Consciencia clara del legado que se quiere construir.",
+        "✔ Dolor al reconocer que se está repitiendo un legado no deseado.",
+        "✔ Ternura y propósito al conectar con la dimensión trascendente."
+      ],
+      "observacion": [
+        "Dificultad para pensar en trascendencia (vida centrada en lo inmediato).",
+        "Consciencia clara del legado que se quiere construir.",
+        "Dolor al reconocer que se está repitiendo un legado no deseado.",
+        "Ternura y propósito al conectar con la dimensión trascendente."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Exploración del sentido a través de la creación de un legado valioso.",
+        "Sistémica:: Trabajo con lealtades transgeneracionales y elección consciente del legado.",
+        "Narrativa:: Construcción de la \"leyenda personal\" basada en valores, no solo en hechos."
+      ],
+      "tarea": "Escribe una \"carta al futuro\" dirigida a las personas que vendrán después. Cuéntales qué valores quieres transmitirles y qué les pedirías que recordaran de ti."
+    },
+    {
+      "codigo": "F-43",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te llevas con el cambio: lo ves como una amenaza, como una oportunidad, o como algo inevitable que te desborda?",
+      "objetivo": "Evaluar la relación con la impermanencia y la adaptación. Explorar la flexibilidad psicológica frente a las transiciones vitales inevitables.",
+      "profundizacion": [
+        "¿Qué cambio reciente te costó más aceptar y qué te enseñó?",
+        "¿Qué parte de ti se aferra a lo conocido aunque ya no te sirva?",
+        "¿Cómo sería tu vida si confiaras más en tu capacidad de adaptación?",
+        "✔ Rigidez y resistencia feroz ante cualquier cambio.",
+        "✔ Búsqueda compulsiva de cambio como evitación del compromiso.",
+        "✔ Aceptación serena de la impermanencia como parte de la vida.",
+        "✔ Agotamiento por cambios impuestos no elaborados."
+      ],
+      "observacion": [
+        "Rigidez y resistencia feroz ante cualquier cambio.",
+        "Búsqueda compulsiva de cambio como evitación del compromiso.",
+        "Aceptación serena de la impermanencia como parte de la vida.",
+        "Agotamiento por cambios impuestos no elaborados."
+      ],
+      "intervenciones": [
+        "ACT:: Flexibilidad psicológica y aceptación de la impermanencia.",
+        "Narrativa:: Re-escribir las transiciones pasadas como historias de crecimiento.",
+        "Somática:: Explorar la sensación corporal de \"soltar\" y \"recibir lo nuevo\"."
+      ],
+      "tarea": "Identifica un cambio pequeño que puedas introducir esta semana (una rutina, un hábito, una perspectiva). Observa tu nivel de resistencia y qué aprendes de esa experiencia."
+    },
+    {
+      "codigo": "F-44",
+      "iconos": [
+        "span",
+        "👥",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo imaginas tu futuro compartido con las personas que más quieres: qué rituales, tradiciones o momentos te gustaría construir con ellas?",
+      "objetivo": "Explorar la dimensión relacional del futuro. Fomentar la construcción intencional de vínculos y la creación de tradiciones significativas.",
+      "profundizacion": [
+        "¿Qué tradiciones de tu infancia quieres recrear y cuáles quieres dejar atrás?",
+        "¿Qué te impide crear esos momentos compartidos hoy, aunque sea en pequeña escala?",
+        "¿Cómo te gustaría ser recordado/a por las personas que amas?",
+        "✔ Dificultad para imaginar un futuro relacional (aislamiento anticipado).",
+        "✔ Riqueza de ideas sobre rituales y momentos compartidos.",
+        "✔ Tristeza por relaciones que no tendrán futuro compartido.",
+        "✔ Compromiso genuino con la construcción de vínculos."
+      ],
+      "observacion": [
+        "Dificultad para imaginar un futuro relacional (aislamiento anticipado).",
+        "Riqueza de ideas sobre rituales y momentos compartidos.",
+        "Tristeza por relaciones que no tendrán futuro compartido.",
+        "Compromiso genuino con la construcción de vínculos."
+      ],
+      "intervenciones": [
+        "Sistémica:: Diseño intencional de rituales familiares o vinculares nuevos.",
+        "Narrativa:: Construcción de la \"historia compartida\" como proyecto a co-crear.",
+        "Activación Conductual:: Programación de momentos de calidad con personas significativas."
+      ],
+      "tarea": "Elige una persona importante y propón esta semana un pequeño ritual compartido (una llamada semanal, una cena mensual, un paseo). Observa cómo se fortalece el vínculo."
+    },
+    {
+      "codigo": "F-45",
+      "iconos": [
+        "span",
+        "🦋",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué versión de ti mismo/a estás dispuesto/a a dejar morir para que nazca la persona que quieres ser en el futuro?",
+      "objetivo": "Explorar la muerte simbólica de identidades obsoletas como condición para el renacimiento personal. Fomentar la valentía en la transformación.",
+      "profundizacion": [
+        "¿Qué identidades, roles o creencias ya cumplieron su ciclo en tu vida?",
+        "¿Qué te da más miedo: soltar lo viejo o abrazar lo nuevo?",
+        "¿Qué rituales de despedida necesitas para honrar a esa versión que fue?",
+        "✔ Aferramiento feroz a una identidad aunque cause sufrimiento.",
+        "✔ Duelo genuino por la versión que se está dejando ir.",
+        "✔ Entusiasmo por la transformación y el renacimiento.",
+        "✔ Confusión entre \"quién soy\" y \"quién he sido\"."
+      ],
+      "observacion": [
+        "Aferramiento feroz a una identidad aunque cause sufrimiento.",
+        "Duelo genuino por la versión que se está dejando ir.",
+        "Entusiasmo por la transformación y el renacimiento.",
+        "Confusión entre \"quién soy\" y \"quién he sido\"."
+      ],
+      "intervenciones": [
+        "Gestalt:: Ritual simbólico de despedida de la identidad obsoleta.",
+        "Narrativa:: Re-autoría como proceso de muerte y renacimiento simbólicos.",
+        "Arquetípica/Junguiana:: Trabajo con el símbolo de la metamorfosis."
+      ],
+      "tarea": "Escribe una carta de despedida a esa versión de ti que ya no te sirve. Agradécele por lo que te enseñó y dile que estás listo/a para evolucionar. Luego, escribe una carta de bienvenida a quien quieres ser."
+    },
+    {
+      "codigo": "F-46",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué miedos sobre el futuro heredaste de tu familia que hoy te paralizan sin que te des cuenta?",
+      "objetivo": "Identificar las profecías familiares autocumplidas y los mandatos transgeneracionales sobre el futuro. Diferenciar los miedos propios de los heredados.",
+      "profundizacion": [
+        "¿Qué frases escuchabas en tu familia sobre \"el futuro\", \"el dinero\", \"el amor\" o \"el éxito\"?",
+        "¿Qué destino familiar temes repetir o evitar a toda costa?",
+        "¿Qué pasaría si te dieras permiso de escribir tu propio guion sobre el futuro?",
+        "✔ Repetición inconsciente de destinos familiares.",
+        "✔ Rebelión feroz contra mandatos que aún dirigen la vida.",
+        "✔ Insight al reconocer que los miedos no son propios.",
+        "✔ Alivio al darse permiso de tener un futuro diferente al clan."
+      ],
+      "observacion": [
+        "Repetición inconsciente de destinos familiares.",
+        "Rebelión feroz contra mandatos que aún dirigen la vida.",
+        "Insight al reconocer que los miedos no son propios.",
+        "Alivio al darse permiso de tener un futuro diferente al clan."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma de miedos y lealtades invisibles al destino familiar.",
+        "Constelaciones:: Devolución simbólica de los miedos que no pertenecen al paciente.",
+        "Narrativa:: Re-autoría del guion familiar y creación de uno nuevo."
+      ],
+      "tarea": "Escribe tres frases que escuchabas en tu familia sobre el futuro. Al lado de cada una, escribe tu propia versión, la que tú eliges creer. Léelas en voz alta y observa cómo te sientes."
+    },
+    {
+      "codigo": "F-47",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "Si el dinero y el reconocimiento social no existieran, ¿a qué dedicarías tu vida y por qué eso te haría sentir pleno?",
+      "objetivo": "Acceder a la vocación profunda y al sentido existencial más allá de las demandas externas. Diferenciar el deseo auténtico del mandato social.",
+      "profundizacion": [
+        "¿Qué actividad te haría perder la noción del tiempo aunque no generara ingresos?",
+        "¿Qué te impide hoy dedicar aunque sea un pequeño porcentaje de tu vida a eso?",
+        "¿Cómo se siente tu cuerpo al imaginar una vida dedicada a esa pasión?",
+        "✔ Bloqueo total (\"no sé qué me gusta, solo sé lo que debo hacer\").",
+        "✔ Conexión con una pasión olvidada de la infancia.",
+        "✔ Tristeza por el tiempo dedicado a lo \"productivo\" vs. lo significativo.",
+        "✔ Entusiasmo y vitalidad al nombrar la vocación auténtica."
+      ],
+      "observacion": [
+        "Bloqueo total (\"no sé qué me gusta, solo sé lo que debo hacer\").",
+        "Conexión con una pasión olvidada de la infancia.",
+        "Tristeza por el tiempo dedicado a lo \"productivo\" vs. lo significativo.",
+        "Entusiasmo y vitalidad al nombrar la vocación auténtica."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Exploración del sentido vocacional más allá del éxito material.",
+        "ACT:: Clarificación de valores profundos y acción comprometida.",
+        "Narrativa:: Recuperación de las pasiones infantiles como pistas del yo auténtico."
+      ],
+      "tarea": "Dedica 30 minutos esta semana a esa actividad que te apasiona, aunque no sea \"productiva\". Observa cómo cambia tu energía vital después de hacerlo."
+    },
+    {
+      "codigo": "F-48",
+      "iconos": [
+        "span",
+        "🕯️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te relacionas con la idea de tu propia finitud: la evitas, la niegas, o la integras como parte de lo que da sentido a tu vida?",
+      "objetivo": "Explorar la relación con la muerte y la finitud como dimensión existencial. Trabajar la consciencia de la muerte como motor de una vida auténtica.",
+      "profundizacion": [
+        "¿Qué cambiaría en tu vida si realmente integraras que tu tiempo es limitado?",
+        "¿Qué estás postergando \"para cuando tengas más tiempo\" que quizás nunca llegue?",
+        "¿Qué legado te gustaría que quedara cuando ya no estés?",
+        "✔ Evitación feroz del tema (tabú cultural o trauma).",
+        "✔ Angustia paralizante ante la consciencia de la finitud.",
+        "✔ Aceptación serena que da sentido y urgencia a la vida.",
+        "✔ Duelo no elaborado por muertes cercanas."
+      ],
+      "observacion": [
+        "Evitación feroz del tema (tabú cultural o trauma).",
+        "Angustia paralizante ante la consciencia de la finitud.",
+        "Aceptación serena que da sentido y urgencia a la vida.",
+        "Duelo no elaborado por muertes cercanas."
+      ],
+      "intervenciones": [
+        "Logoterapia:: La consciencia de la muerte como motor del sentido vital (Viktor Frankl).",
+        "Existencial:: Exploración de la libertad, la responsabilidad y la finitud.",
+        "ACT:: Clarificación de valores a partir de la consciencia del tiempo limitado."
+      ],
+      "tarea": "Escribe una lista de 5 cosas que harías si supieras que te queda un año de vida. Luego, identifica cuál de esas cosas puedes empezar a integrar en tu vida actual, aunque sea en pequeña escala."
+    },
+    {
+      "codigo": "F-49",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo imaginas la evolución de tus relaciones más importantes en los próximos años: qué necesitas cultivar hoy para que sigan siendo nutritivas?",
+      "objetivo": "Evaluar la proyección relacional del futuro. Fomentar la inversión consciente en los vínculos significativos y la prevención de deterioros relacionales.",
+      "profundizacion": [
+        "¿Qué relaciones sientes que están en su mejor momento y cuáles en declive?",
+        "¿Qué estás haciendo hoy que está construyendo o destruyendo esos vínculos?",
+        "¿Qué conversación pendiente necesitas tener para asegurar un futuro sano con esas personas?",
+        "✔ Negación del deterioro de vínculos importantes.",
+        "✔ Consciencia clara de las relaciones que necesitan atención.",
+        "✔ Tristeza por relaciones que no tendrán futuro.",
+        "✔ Compromiso activo con el cuidado de los vínculos."
+      ],
+      "observacion": [
+        "Negación del deterioro de vínculos importantes.",
+        "Consciencia clara de las relaciones que necesitan atención.",
+        "Tristeza por relaciones que no tendrán futuro.",
+        "Compromiso activo con el cuidado de los vínculos."
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapeo de la red relacional y su evolución esperada.",
+        "Terapia de Pareja/Familiar:: Planificación de conversaciones pendientes y rituales de conexión.",
+        "ACT:: Compromiso con acciones relacionales alineadas al valor del amor."
+      ],
+      "tarea": "Identifica una conversación pendiente con alguien importante. Esta semana, da un pequeño paso para iniciarla (un mensaje, una invitación, una pregunta). Observa cómo cambia la dinámica."
+    },
+    {
+      "codigo": "F-50",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo se integran en ti tu pasado, tu presente y tu futuro: como enemigos en guerra, como extraños que no se conocen, o como aliados que caminan juntos?",
+      "objetivo": "Evaluar la coherencia temporal de la identidad. Fomentar la integración del pasado, presente y futuro como una narrativa unificada y significativa.",
+      "profundizacion": [
+        "¿Qué parte de tu pasado está saboteando tu presente o tu futuro?",
+        "¿Qué parte de tu futuro te impide disfrutar el presente?",
+        "¿Cómo sería tu vida si esas tres dimensiones conversaran en paz?",
+        "✔ Fragmentación temporal (vivir atrapado en el pasado o en el futuro).",
+        "✔ Integración serena y coherencia narrativa.",
+        "✔ Conflicto interno entre las tres dimensiones.",
+        "✔ Alivio al imaginar la integración."
+      ],
+      "observacion": [
+        "Fragmentación temporal (vivir atrapado en el pasado o en el futuro).",
+        "Integración serena y coherencia narrativa.",
+        "Conflicto interno entre las tres dimensiones.",
+        "Alivio al imaginar la integración."
+      ],
+      "intervenciones": [
+        "Narrativa:: Construcción de una historia de vida coherente que integre las tres dimensiones.",
+        "Gestalt:: Diálogo de sillas entre el \"yo\" del pasado, presente y futuro.",
+        "EMDR:: Procesamiento de memorias que bloquean la integración temporal."
+      ],
+      "tarea": "Dibuja una línea de tiempo con tres secciones: pasado, presente, futuro. Escribe en cada una qué estás llevando, qué estás viviendo y qué estás construyendo. Observa cómo se conectan."
+    },
+    {
+      "codigo": "F-51",
+      "iconos": [
+        "span",
+        "🕯️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué pequeño ritual personal te gustaría crear para honrar los comienzos de cada nueva etapa en tu vida?",
+      "objetivo": "Diseñar rituales de transición conscientes. Fomentar la atención plena ante los cambios vitales y la creación de símbolos personales de cierre y apertura.",
+      "profundizacion": [
+        "¿Qué elementos tendrían ese ritual (palabras, objetos, movimientos, sonidos)?",
+        "¿En qué momentos de tu vida hubieras necesitado uno de estos rituales?",
+        "¿Cómo te ayudaría este ritual a soltar lo viejo y recibir lo nuevo?",
+        "✔ Ausencia total de rituales en la vida del paciente.",
+        "✔ Rituales compulsivos sin conciencia de su función.",
+        "✔ Curiosidad y creatividad al diseñar uno propio.",
+        "✔ Alivio al reconocer el poder simbólico de los actos conscientes."
+      ],
+      "observacion": [
+        "Ausencia total de rituales en la vida del paciente.",
+        "Rituales compulsivos sin conciencia de su función.",
+        "Curiosidad y creatividad al diseñar uno propio.",
+        "Alivio al reconocer el poder simbólico de los actos conscientes."
+      ],
+      "intervenciones": [
+        "Narrativa:: Creación de rituales de cierre y apertura de ciclos vitales.",
+        "Somática:: Rituales corporales de regulación (respiración, movimiento, toque).",
+        "Gestalt:: Rituales simbólicos de despedida o bienvenida."
+      ],
+      "tarea": "Diseña un pequeño ritual de 2-3 minutos para marcar el inicio de una nueva semana o proyecto. Hazlo durante 5 días seguidos y observa cómo cambia tu sensación de transición."
+    },
+    {
+      "codigo": "F-52",
+      "iconos": [
+        "span",
+        "✉️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras escribir una carta a tu 'yo' de dentro de 5 años, ¿qué le contarías, qué le preguntarías y qué le pedirías?",
+      "objetivo": "Establecer un diálogo simbólico con el yo futuro. Fomentar la reflexión sobre el crecimiento, las prioridades y la continuidad de la identidad.",
+      "profundizacion": [
+        "¿Qué te gustaría que ese \"yo\" del futuro hubiera logrado o aprendido?",
+        "¿Qué preguntas le harías sobre cómo manejó los desafíos que hoy te preocupan?",
+        "¿Qué le pedirías que no olvide de quien eres hoy?",
+        "✔ Bloqueo total al imaginar el futuro (desesperanza).",
+        "✔ Carta llena de exigencias o reproches al yo futuro.",
+        "✔ Ternura y conexión genuina con el proceso de crecimiento.",
+        "✔ Emoción profunda al reconocer la continuidad del self."
+      ],
+      "observacion": [
+        "Bloqueo total al imaginar el futuro (desesperanza).",
+        "Carta llena de exigencias o reproches al yo futuro.",
+        "Ternura y conexión genuina con el proceso de crecimiento.",
+        "Emoción profunda al reconocer la continuidad del self."
+      ],
+      "intervenciones": [
+        "Narrativa:: La carta como puente entre el yo actual y el yo proyectado.",
+        "Gestalt:: Diálogo de sillas entre el \"yo\" actual y el \"yo\" futuro.",
+        "ACT:: Clarificación de valores a través de las preguntas al futuro."
+      ],
+      "tarea": "Escribe esa carta hoy. Guárdala en un sobre cerrado con la fecha de apertura (dentro de 5 años). Al terminarla, reflexiona: ¿qué dice esta carta sobre lo que realmente importa para ti?"
+    },
+    {
+      "codigo": "F-53",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es el compromiso más sagrado que puedes hacer hoy contigo mismo/a para honrar el futuro que estás construyendo?",
+      "objetivo": "Consolidar la alianza terapéutica interna. Fomentar el autocuidado radical y el compromiso inquebrantable con el propio bienestar.",
+      "profundizacion": [
+        "¿Qué amenaza suele romper este tipo de compromisos y cómo puedes prevenirla?",
+        "¿Cómo te hablarás a ti mismo/a en los momentos difíciles para no rendirte?",
+        "¿Qué pequeña acción diaria puede ser el sello visible de esa promesa?",
+        "✔ Cínismo o desesperanza como mecanismo de defensa.",
+        "✔ Emoción profunda y compromiso genuino con el propio bienestar.",
+        "✔ Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "✔ Empoderamiento al tomar las riendas de su propia narrativa."
+      ],
+      "observacion": [
+        "Cínismo o desesperanza como mecanismo de defensa.",
+        "Emoción profunda y compromiso genuino con el propio bienestar.",
+        "Dificultad para hacer promesas por miedo a no cumplirlas.",
+        "Empoderamiento al tomar las riendas de su propia narrativa."
+      ],
+      "intervenciones": [
+        "ACT:: Firma simbólica de un contrato de compromiso con uno mismo.",
+        "Narrativa:: La promesa como el juramento del próximo capítulo de vida.",
+        "CFT:: Desarrollar una voz interna de ánimo y lealtad incondicional."
+      ],
+      "tarea": "Escribe esa promesa en un papel, fírmala y ponle la fecha de hoy. Guárdala en un lugar especial. Cada vez que la leas, recuerda que eres tu propio aliado más importante."
+    },
+    {
+      "codigo": "F-54",
+      "iconos": [
+        "span",
+        "🧩",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué aprendizajes de todo este proceso de exploración del futuro te llevas como herramientas esenciales para el camino?",
+      "objetivo": "Integrar y sintetizar los aprendizajes del mazo. Consolidar los recursos descubiertos y fortalecer la sensación de autoeficacia.",
+      "profundizacion": [
+        "¿Qué descubriste sobre ti mismo/a que no sabías antes de empezar?",
+        "¿Qué recursos nuevos tienes ahora que antes no reconocías?",
+        "¿Cómo usarás estos aprendizajes en los próximos meses?",
+        "✔ Dificultad para reconocer el crecimiento (minimización).",
+        "✔ Orgullo y sorpresa al identificar aprendizajes concretos.",
+        "✔ Gratitud hacia el proceso terapéutico como catalizador.",
+        "✔ Claridad sobre cómo aplicar los recursos en la vida diaria."
+      ],
+      "observacion": [
+        "Dificultad para reconocer el crecimiento (minimización).",
+        "Orgullo y sorpresa al identificar aprendizajes concretos.",
+        "Gratitud hacia el proceso terapéutico como catalizador.",
+        "Claridad sobre cómo aplicar los recursos en la vida diaria."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia personal incluyendo estos nuevos aprendizajes.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Competente\" que ha desarrollado nuevas habilidades.",
+        "ACT:: Compromiso con el uso consciente de estos recursos."
+      ],
+      "tarea": "Haz una lista de 5 aprendizajes esenciales. Escríbelos en una tarjeta que puedas consultar cuando dudes de tu capacidad de avanzar."
+    },
+    {
+      "codigo": "F-55",
+      "iconos": [
+        "span",
+        "🙏",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Por qué aspectos de tu camino recorrido, por pequeños que sean, puedes sentir gratitud hoy?",
+      "objetivo": "Fomentar la gratitud hacia el propio proceso. Reconocer el esfuerzo, la valentía y los micro-logros que han permitido llegar hasta aquí.",
+      "profundizacion": [
+        "¿Qué partes difíciles del camino te hicieron más fuerte o más sabio/a?",
+        "¿A quién le agradecerías el acompañamiento en este proceso?",
+        "¿Cómo cambiaría tu relación contigo mismo/a si practicaras esta gratitud regularmente?",
+        "✔ Dificultad para reconocerse méritos (autocrítica dominante).",
+        "✔ Llanto o emoción al reconocer el propio esfuerzo.",
+        "✔ Ternura hacia el \"yo\" que ha transitado el camino.",
+        "✔ Alivio al permitirse celebrar sin culpa."
+      ],
+      "observacion": [
+        "Dificultad para reconocerse méritos (autocrítica dominante).",
+        "Llanto o emoción al reconocer el propio esfuerzo.",
+        "Ternura hacia el \"yo\" que ha transitado el camino.",
+        "Alivio al permitirse celebrar sin culpa."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en gratitud dirigida hacia uno mismo.",
+        "Narrativa:: Re-escribir la historia destacando los \"documentos de resiliencia\".",
+        "Terapia de Esquemas:: Desafiar el modo del \"Punitivo\" que prohíbe el auto-reconocimiento."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ti mismo/a por el camino recorrido. Léela en voz alta cuando necesites recordarte de qué eres capaz."
+    },
+    {
+      "codigo": "F-56",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras vivir por un día como la versión de ti mismo/a que ya ha construido el futuro que deseas, ¿cómo sería ese día?",
+      "objetivo": "Activar la visualización encarnada del futuro deseado. Usar la experiencia somática del \"como si\" para motivar la acción presente.",
+      "profundizacion": [
+        "¿Cómo te despertarías, qué harías primero, cómo te moverías?",
+        "¿Qué pensarías y sentirías que hoy aún te cuesta creer?",
+        "¿Qué elemento de ese día podrías traer a tu vida actual, aunque sea en pequeña escala?",
+        "✔ Bloqueo en la visualización (desconexión del deseo).",
+        "✔ Vividez sensorial y emoción al describir el día.",
+        "✔ Tristeza al contrastar ese día con la realidad actual.",
+        "✔ Motivación y activación al conectar con la posibilidad."
+      ],
+      "observacion": [
+        "Bloqueo en la visualización (desconexión del deseo).",
+        "Vividez sensorial y emoción al describir el día.",
+        "Tristeza al contrastar ese día con la realidad actual.",
+        "Motivación y activación al conectar con la posibilidad."
+      ],
+      "intervenciones": [
+        "Somática:: Anclaje de las sensaciones placenteras de la visualización en el cuerpo.",
+        "Activación Conductual:: Planificación de actividades que se acerquen a esa visión ideal.",
+        "Narrativa:: Escribir ese día como un cuento en presente, como si ya estuviera ocurriendo."
+      ],
+      "tarea": "Elige un elemento pequeño de ese día ideal e introdúcelo en tu rutina de esta semana. Observa cómo cambia tu estado de ánimo al encarnar aunque sea una fracción de ese futuro."
+    },
+    {
+      "codigo": "F-57",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo te comprometes a ser el mejor aliado de tu 'yo' del futuro en los momentos en que dude de sí mismo?",
+      "objetivo": "Fortalecer la alianza interna entre el yo presente y el yo futuro. Desarrollar una voz interna de apoyo incondicional.",
+      "profundizacion": [
+        "¿Qué le dirías a ese \"yo\" del futuro cuando tenga miedo o dude?",
+        "¿Qué recursos le recordarías que ya tiene hoy?",
+        "¿Cómo le demostrarías con hechos que confías en su capacidad?",
+        "✔ Voz crítica o exigente hacia el yo futuro.",
+        "✔ Ternura y compasión genuina al imaginar el diálogo.",
+        "✔ Reconocimiento de la propia sabiduría acumulada.",
+        "✔ Compromiso firme con el autocuidado futuro."
+      ],
+      "observacion": [
+        "Voz crítica o exigente hacia el yo futuro.",
+        "Ternura y compasión genuina al imaginar el diálogo.",
+        "Reconocimiento de la propia sabiduría acumulada.",
+        "Compromiso firme con el autocuidado futuro."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en el diálogo interno compasivo y protector.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sanador\" como aliado del \"Niño Vulnerable\" futuro.",
+        "IFS:: Acceso al \"Self\" como recurso de sabiduría y calma incondicional."
+      ],
+      "tarea": "Escribe una carta de apoyo a tu \"yo\" del futuro. Incluye recordatorios de tus fortalezas actuales y promesas de cuidado. Guárdala como un escudo emocional."
+    },
+    {
+      "codigo": "F-58",
+      "iconos": [
+        "span",
+        "🎉",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te comprometes a celebrar no solo los grandes logros, sino también los pequeños pasos y las intenciones valientes del camino?",
+      "objetivo": "Desactivar la cultura del \"siempre más\". Fomentar la capacidad de disfrutar y reconocer los logros intermedios como parte esencial del proceso.",
+      "profundizacion": [
+        "¿Qué creencia te impide detenerte a celebrar lo que ya lograste?",
+        "¿Qué forma de celebración sería auténtica y nutritiva para ti?",
+        "¿Cómo cambiaría tu energía si reconocieras cada pequeño avance?",
+        "✔ Minimización de los logros (\"cualquiera lo haría\").",
+        "✔ Ansiedad inmediata por el siguiente objetivo.",
+        "✔ Emoción y permiso al ser autorizado a celebrar.",
+        "✔ Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "observacion": [
+        "Minimización de los logros (\"cualquiera lo haría\").",
+        "Ansiedad inmediata por el siguiente objetivo.",
+        "Emoción y permiso al ser autorizado a celebrar.",
+        "Reconocimiento de la necesidad de pausas de gratificación."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento de creencias disfuncionales sobre el éxito y el merecimiento.",
+        "Activación Conductual:: Programación explícita de rituales de celebración tras metas cumplidas.",
+        "CFT:: Fomentar el merecimiento y la alegría como emociones válidas."
+      ],
+      "tarea": "Esta semana, identifica 3 pequeños pasos que hayas dado. Celebra cada uno de una forma que te guste (aunque sea con un suspiro de alivio). Anota cómo te sientes."
+    },
+    {
+      "codigo": "F-59",
+      "iconos": [
+        "span",
+        "📜",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras redactar un 'Manifiesto Personal' para tu futuro, ¿cuáles serían los 5 principios innegociables que guiarían tus decisiones?",
+      "objetivo": "Consolidar los valores fundamentales en forma de principios declarados. Crear una brújula ética y emocional para la toma de decisiones futuras.",
+      "profundizacion": [
+        "¿De dónde vienen estos principios: de ti, de tu familia, de tus experiencias?",
+        "¿Qué harías si la vida te exigiera traicionar uno de ellos?",
+        "¿Cómo te sentirías si vivieras cada día alineado con estos 5 principios?",
+        "✔ Dificultad para identificar principios propios (valores impuestos).",
+        "✔ Claridad y convicción al nombrarlos.",
+        "✔ Alivio al tener una brújula clara para la toma de decisiones.",
+        "✔ Insight sobre la discrepancia entre principios y conducta actual."
+      ],
+      "observacion": [
+        "Dificultad para identificar principios propios (valores impuestos).",
+        "Claridad y convicción al nombrarlos.",
+        "Alivio al tener una brújula clara para la toma de decisiones.",
+        "Insight sobre la discrepancia entre principios y conducta actual."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación profunda de valores y traducción en principios de vida.",
+        "Logoterapia:: Los principios como fuente de sentido y dirección.",
+        "Narrativa:: El manifiesto como la constitución del nuevo capítulo vital."
+      ],
+      "tarea": "Redacta tu Manifiesto Personal con los 5 principios. Escríbelo en un papel especial, fírmalo y ponlo en un lugar visible. Léelo cada mañana como un recordatorio de quién decides ser."
+    },
+    {
+      "codigo": "F-60",
+      "iconos": [
+        "span",
+        "🌟",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "Ahora que has explorado todas las dimensiones de tu futuro, ¿qué le dirías a tu 'yo' del inicio de este proceso que no sabía todo lo que ahora sabe?",
+      "objetivo": "Cierre integrador del mazo. Consolidar los aprendizajes, reconocer el crecimiento y fortalecer la identidad de persona con recursos, visión y esperanza.",
+      "profundizacion": [
+        "¿Qué le dirías para tranquilizarlo/a sobre el proceso que estaba por comenzar?",
+        "¿Qué le agradecerías por haber iniciado este camino de autoconocimiento?",
+        "¿Qué promesa le harías de que seguirás cuidando tu futuro con la misma valentía?",
+        "✔ Ternura y compasión hacia el \"yo\" del pasado.",
+        "✔ Orgullo por el camino recorrido y los recursos descubiertos.",
+        "✔ Compromiso con el autocuidado futuro.",
+        "✔ Emoción de cierre y gratitud por el proceso."
+      ],
+      "observacion": [
+        "Ternura y compasión hacia el \"yo\" del pasado.",
+        "Orgullo por el camino recorrido y los recursos descubiertos.",
+        "Compromiso con el autocuidado futuro.",
+        "Emoción de cierre y gratitud por el proceso."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integración de la historia de crecimiento en la identidad.",
+        "Gestalt:: Diálogo con el \"yo\" del pasado para cerrar el ciclo.",
+        "ACT:: Compromiso con los valores y recursos descubiertos."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del inicio de este proceso. Cuéntale todo lo que has descubierto, lo que has aprendido y lo que prometes seguir cuidando. Guárdala como testimonio de tu crecimiento."
+    }
+  ]
+}

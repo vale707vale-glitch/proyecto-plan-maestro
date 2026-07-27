@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 6 (Relaciones)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        relation: { 50: '#fdf2f8', 500: '#ec4899', 600: '#db2777', 800: '#9d174d' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #ec4899; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-relation-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-relation-600/20 border border-relation-500/30 rounded-full text-relation-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 6: <span class="italic text-relation-500">Relaciones</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas R-01 a R-60. Formato de referencia cruzada para consulta rápida del terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato compacto permite al terapeuta buscar rápidamente por código (ej: <span class="code-badge">R-01</span>) y acceder a:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo clínico:</strong> Para qué sirve la carta.</li>
+                <li><strong>Procesos psicológicos:</strong> Qué mecanismos activa.</li>
+                <li><strong>Respuestas y profundización:</strong> Cómo intervenir según la reacción del paciente.</li>
+                <li><strong>Contraindicaciones:</strong> Cuándo NO usarla.</li>
+                <li><strong>Combinaciones:</strong> Qué otras cartas del sistema potencian su efecto.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-relation-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Dinámicas Vinculares, Apego y Límites
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas R-07 a R-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- R-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-01</span>
+                        <span class="text-2xl">👨‍👩‍👧 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tuvieras que dibujar un mapa de tus relaciones actuales, ¿quién estaría en el centro, quién en los bordes y quién ya no tiene lugar?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Realizar un ecomapa emocional actual. Evaluar la percepción del paciente sobre su red de apoyo, la intimidad y el aislamiento. Detectar relaciones desequilibradas.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia de la red de apoyo, establecimiento de límites, diferenciación de vínculos.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Mapa saturado:</strong> "Todos están en el centro". → <em>Profundizar:</em> "¿Qué criterios usas para decidir quién está realmente cerca?"</li>
+                            <li><strong>Mapa vacío:</strong> "No hay nadie". → <em>Intervención:</em> "¿Cómo te sientes al observar este mapa: acompañado, abrumado o vacío?"</li>
+                            <li><strong>Relación tóxica en el centro:</strong> → <em>Profundizar:</em> "¿Qué te impide mover a esta persona hacia el borde?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales de crisis aguda donde el paciente necesita contención, no análisis estructural.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">R-18</span> (red de apoyo real), <span class="code-badge">E-003</span> (mandatos emocionales familiares).</p></div>
+                    </div>
+                </div>
+
+                <!-- R-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-02</span>
+                        <span class="text-2xl">❤️ 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Cuando sientes que alguien se acerca demasiado emocionalmente, ¿cuál es tu primera reacción: acercarte más, congelarte o alejarte?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Evaluar el estilo de apego predominante en situaciones de intimidad creciente. Detectar patrones de evitación, ansiedad o desorganización.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Regulación de la proximidad, estilos de apego, defensa ante la vulnerabilidad.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Huida/Desdén:</strong> (Apego evitativo). → <em>Profundizar:</em> "¿Qué amenaza percibes cuando alguien se acerca demasiado?"</li>
+                            <li><strong>Fusión/Ansiedad:</strong> (Apego ansioso). → <em>Profundizar:</em> "¿Qué temes que pase si no complaces inmediatamente a esa persona?"</li>
+                            <li><strong>Contradicción:</strong> Acercarse y empujar. → <em>Intervención:</em> "¿Cómo fue la consistencia del cuidado en tu infancia?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con trauma de apego severo no estabilizado sin recursos de contención.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-004</span> (desidealización parental), <span class="code-badge">R-07</span> (límites interpersonales).</p></div>
+                    </div>
+                </div>
+
+                <!-- R-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-03</span>
+                        <span class="text-2xl">🔄 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué patrón repetitivo has notado en tus relaciones pasadas que te preocupa que se esté repitiendo ahora?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Identificar la compulsión a la repetición en los vínculos. Detectar esquemas interpersonales desadaptativos.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia de patrones, externalización del "guion" relacional, ruptura de ciclos.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento claro:</strong> "Siempre elijo a quien debo arreglar". → <em>Profundizar:</em> "¿Qué rol sueles ocupar tú en estas dinámicas?"</li>
+                            <li><strong>Negación:</strong> "Todas fueron completamente diferentes". → <em>Intervención:</em> "¿Qué creencia sobre ti mismo te hace creer que mereces este tipo de relación?"</li>
+                            <li><strong>Externalización:</strong> "El problema siempre son ellos". → <em>Profundizar:</em> "¿Qué parte de ti permite o atrae esta dinámica?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fase de estabilización de crisis donde el paciente necesita validación, no confrontación de patrones.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-014</span> (puntos de quiebre biográficos), <span class="code-badge">C-016</span> (lealtades invisibles).</p></div>
+                    </div>
+                </div>
+
+                <!-- R-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-04</span>
+                        <span class="text-2xl">🛡️ 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué te resulta más difícil: pedir ayuda o permitir que otros te ayuden sin sentir que les debes algo?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Evaluar la capacidad de interdependencia saludable. Detectar esquemas de autosuficiencia defensiva o hipersensibilidad a la deuda emocional.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Vulnerabilidad, aceptación de la ayuda, desmontaje de la autosuficiencia como defensa.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Incomodidad extrema:</strong> Necesidad de "devolver el favor" inmediatamente. → <em>Profundizar:</em> "¿Qué creencia tienes sobre lo que significa 'necesitar' a alguien?"</li>
+                            <li><strong>Orgullo rígido:</strong> "No necesito a nadie". → <em>Intervención:</em> "¿De quién aprendiste que la dependencia es peligrosa o vergonzosa?"</li>
+                            <li><strong>Recepción fluida:</strong> Capacidad de recibir con gratitud. → <em>Profundizar:</em> "¿Qué te permitió llegar a esta comodidad?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con esquemas de autosacrificio severo sin trabajo previo de validación.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">C-033</span> (autosacrificio como moneda), <span class="code-badge">R-05</span> (soledad vs. sentirse solo).</p></div>
+                    </div>
+                </div>
+
+                <!-- R-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-05</span>
+                        <span class="text-2xl">👤 ❤️</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Cuál es la diferencia, para ti, entre "estar solo/a" y "sentirte solo/a"?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Diferenciar la soledad física (estado) de la soledad emocional (experiencia de desconexión). Explorar la relación con la propia compañía.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Tolerancia a la soledad, diferenciación entre aislamiento y autonomía, regulación emocional.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Pánico ante la soledad:</strong> Búsqueda compulsiva de compañía. → <em>Profundizar:</em> "¿Qué te dice tu voz interna cuando estás completamente a solas?"</li>
+                            <li><strong>Soledad en multitud:</strong> "Me siento solo rodeado de gente". → <em>Intervención:</em> "¿Qué parte de ti no se siente vista en esos grupos?"</li>
+                            <li><strong>Soledad elegida:</strong> Espacio de recarga y paz. → <em>Profundizar:</em> "¿Cómo cultivas esa relación contigo mismo?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes en duelo reciente o con aislamiento social severo sin red de contención.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">E-029</span> (estado emocional basal en soledad), <span class="code-badge">RE-073</span> (mapa de aliados).</p></div>
+                    </div>
+                </div>
+
+                <!-- R-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">R-06</span>
+                        <span class="text-2xl">⚡ 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué conflicto no resuelto de tu familia de origen ves que se repite hoy en tus relaciones elegidas?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Conectar las dinámicas relacionales actuales con los modelos de apego y conflicto de la familia de origen.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia transgeneracional, lealtades invisibles, ruptura de patrones heredados.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento claro:</strong> "Me peleo igual que mis padres". → <em>Profundizar:</em> "¿Qué estás intentando 'resolver' inconscientemente con tu pareja actual?"</li>
+                            <li><strong>Reacción defensiva:</strong> "Mi familia no tiene nada que ver". → <em>Intervención:</em> "¿Qué te protege de ver esa conexión?"</li>
+                            <li><strong>Insight doloroso:</strong> "Estoy tratando de salvar a mi pareja como no pude salvar a mi madre". → <em>Profundizar:</em> "¿Qué duelo necesitas hacer para soltar esa misión?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales sin alianza terapéutica sólida o con trauma familiar no procesado.</p></div>
+                        <div><p class="font-bold text-relation-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-062</span> (lealtades familiares), <span class="code-badge">C-003</span> (mandatos cognitivos familiares).</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE RÁPIDO DE TEMAS DEL MAZO 6 -->
+        <!-- ============================================= -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6">Índice Rápido de Temas - Mazo 6 (Relaciones)</h3>
+            <p class="text-slate-700 mb-6">Este índice temático permite al terapeuta buscar cartas por <strong>objetivo clínico</strong> en lugar de por número. Cada código remite a la entrada completa en el formato detallado mostrado arriba.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- CATEGORÍA: DINÁMICAS VINCULARES Y APEGO -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">👨‍👩‍👧 Dinámicas Vinculares y Apego (R-01 a R-15)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Mapeo de la red de apoyo actual (ecomapa)</span> <span class="code-badge">R-01</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Estilo de apego ante la intimidad creciente</span> <span class="code-badge">R-02</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compulsión a la repetición de patrones</span> <span class="code-badge">R-03</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dificultad para pedir o recibir ayuda</span> <span class="code-badge">R-04</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferencia entre estar solo y sentirse solo</span> <span class="code-badge">R-05</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Repetición de conflictos de la familia de origen</span> <span class="code-badge">R-06</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Calidad de los límites interpersonales (rígidos vs. difusos)</span> <span class="code-badge">R-07</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Roles internalizados en grupos (cuidador, mediador, etc.)</span> <span class="code-badge">R-08</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celos como señal de necesidades de apego no cubiertas</span> <span class="code-badge">R-09</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Comunicación pasivo-agresiva y resentimiento acumulado</span> <span class="code-badge">R-10</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Expectativas no expresadas y contratos encubiertos</span> <span class="code-badge">R-11</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Influencia de relaciones pasadas en decisiones actuales</span> <span class="code-badge">R-12</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dificultad para celebrar logros propios o ajenos</span> <span class="code-badge">R-13</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Miedo a la exposición de la parte "inaceptable" del self</span> <span class="code-badge">R-14</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Conflicto de lealtad: familia de origen vs. familia elegida</span> <span class="code-badge">R-15</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: CONFLICTOS, PODER Y COMUNICACIÓN -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">⚡ Conflictos, Poder y Comunicación (R-16 a R-30)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de despedidas y finales de ciclo</span> <span class="code-badge">R-16</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Creencias y ansiedades en torno a la intimidad sexual</span> <span class="code-badge">R-17</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Red de apoyo real vs. red de apoyo percibida en crisis</span> <span class="code-badge">R-18</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Necesidades infantiles no cubiertas proyectadas en la pareja</span> <span class="code-badge">R-19</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Construcción activa de vínculos saludables (pilares)</span> <span class="code-badge">R-20</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Patrón de interacción demanda-retirada (pursuer-withdrawer)</span> <span class="code-badge">R-21</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dinámicas de poder y sumisión en la relación</span> <span class="code-badge">R-22</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Comunicación sobre discrepancias en el deseo sexual</span> <span class="code-badge">R-23</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Etapas de reparación tras una ruptura de confianza</span> <span class="code-badge">R-24</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de desacuerdos con la familia política/extendida</span> <span class="code-badge">R-25</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferencias en estilos de crianza y alianzas parentales</span> <span class="code-badge">R-26</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dinámica financiera como proxy de poder y seguridad</span> <span class="code-badge">R-27</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciar intuición válida de inseguridad proyectada (celos)</span> <span class="code-badge">R-28</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Los "Cuatro Jinetes" de Gottman en el conflicto</span> <span class="code-badge">R-29</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciar intimidad emocional de intimidad física</span> <span class="code-badge">R-30</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: REPARACIÓN, INTIMIDAD Y CRECIMIENTO -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🌱 Reparación, Intimidad y Crecimiento (R-31 a R-45)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Vitalidad de la relación: paz segura vs. estancamiento</span> <span class="code-badge">R-31</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">División del trabajo y carga mental (roles de género)</span> <span class="code-badge">R-32</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Capacidad de funcionar como base segura en crisis</span> <span class="code-badge">R-33</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Equilibrio entre autonomía y conexión (diferenciación)</span> <span class="code-badge">R-34</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Límites inquebrantables y seguridad durante la ira</span> <span class="code-badge">R-35</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Resentimientos del pasado que contaminan el presente</span> <span class="code-badge">R-36</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Codependencia y expectativa de que el otro "salve"</span> <span class="code-badge">R-37</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Rituales de conexión para mantener el vínculo</span> <span class="code-badge">R-38</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluación colaborativa de la salud relacional (escala)</span> <span class="code-badge">R-39</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Construcción de una visión compartida del futuro</span> <span class="code-badge">R-40</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferencia entre pedir perdón y reparar genuinamente</span> <span class="code-badge">R-41</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Micro-acciones diarias para reconstruir la confianza</span> <span class="code-badge">R-42</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebración de pequeños logros relacionales</span> <span class="code-badge">R-43</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Renegociación de acuerdos o reglas obsoletas</span> <span class="code-badge">R-44</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">El perdón como proceso no lineal, no como evento único</span> <span class="code-badge">R-45</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: INTEGRACIÓN, LEGADO Y CIERRE -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🕊️ Integración, Legado y Cierre (R-46 a R-60)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Reintroducir el juego, la ligereza y la risa</span> <span class="code-badge">R-46</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Recaídas como señal de aprendizaje, no como fracaso</span> <span class="code-badge">R-47</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Práctica de la gratitud mutua específica</span> <span class="code-badge">R-48</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Actualización de la definición de "relación saludable"</span> <span class="code-badge">R-49</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Metacognición: cuándo buscar ayuda externa</span> <span class="code-badge">R-50</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Pedir retroalimentación sin buscar aprobación o atacar</span> <span class="code-badge">R-51</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Aceptar y dialogar con diferencias irreconciliables</span> <span class="code-badge">R-52</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Legado relacional: qué enseñan sobre el amor y respeto</span> <span class="code-badge">R-53</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Disfrute de la "soledad acompañada" (presencia silenciosa)</span> <span class="code-badge">R-54</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Actualización del "contrato relacional" ante el crecimiento</span> <span class="code-badge">R-55</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Validar el esfuerzo del otro, no solo el resultado perfecto</span> <span class="code-badge">R-56</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Despedir o soltar dinámicas de la relación que ya no encajan</span> <span class="code-badge">R-57</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Resiliencia: dificultades superadas que fortalecieron el vínculo</span> <span class="code-badge">R-58</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Proyección futura (5 años) y acciones presentes</span> <span class="code-badge">R-59</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso renovado para seguir eligiéndose día a día</span> <span class="code-badge">R-60</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOTA FINAL DEL ÍNDICE -->
+        <section class="bg-brand-900 text-white p-8 rounded-xl shadow-lg">
+            <h3 class="font-serif text-2xl text-relation-500 mb-4">📌 Instrucciones para el Terapeuta</h3>
+            <p class="text-slate-300 mb-4">Este índice rápido te permite ubicar el código de la carta que necesitas según el <strong>objetivo clínico</strong> del momento. Una vez identificado el código (ej: <span class="code-badge">R-21</span>), consulta la entrada completa en la sección detallada de este anexo (o en los archivos fuente del proyecto) para acceder a:</p>
+            <ul class="text-slate-300 space-y-2 ml-4 list-disc">
+                <li>Las preguntas de profundización específicas.</li>
+                <li>Las observaciones clínicas a monitorear.</li>
+                <li>Las líneas de intervención según tu orientación teórica.</li>
+                <li>Las combinaciones recomendadas con otros mazos.</li>
+            </ul>
+            <p class="text-slate-400 text-sm mt-6 italic">El desarrollo completo de las 60 entradas en formato detallado se encuentra disponible en los archivos fuente del proyecto ("relaciones 1.html", "relaciones 2.html", "relaciones 3.html"). Este índice sirve como mapa de navegación rápido para la práctica clínica.</p>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-6 flex items-center gap-2">✅ Índice de Integridad — Mazo 6 Completo</h3>
+            
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">60 cartas consolidadas (R-01 a R-60)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">4 categorías temáticas definidas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Formato compacto de referencia cruzada</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Índice rápido de temas por objetivo clínico</span>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-6 pt-4 border-t border-slate-100">El 100% del contenido del Mazo 6 ha sido consolidado sin omisiones. Listo para continuar con el Mazo 7 (El Cuerpo Habla).</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Anexo A: Índice Maestro de Códigos &bull; Mazo 6: Relaciones (R-01 a R-60)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

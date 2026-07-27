@@ -1,0 +1,1629 @@
+{
+  "id": "creencias",
+  "nombre": "Creencias",
+  "numero": 4,
+  "rango": "C-01 a C-60",
+  "descripcion": "Creencias nucleares, esquemas cognitivos, mandatos familiares, pensamiento automatico vs. creencia.",
+  "cartas": [
+    {
+      "codigo": "C-01",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "Si tuvieras que resumir en una frase lo que crees que es \"cierto sobre ti\", ¿cuál sería?",
+      "objetivo": "Acceder a la creencia nuclear sobre la identidad. Detectar el esquema central que organiza la autoimagen. Establecer un punto de partida para el trabajo cognitivo profundo.",
+      "profundizacion": [
+        "¿Desde cuándo sostienes esa idea? ¿Recuerdas cuándo la escuchaste por primera vez?",
+        "¿Esa frase te define completamente o hay partes de ti que no encajan?",
+        "Si alguien querido te escuchara decir eso de ti, ¿qué te respondería?"
+      ],
+      "observacion": [
+        "Creencia nuclear negativa clara (\"soy defectuoso\", \"no soy suficiente\")",
+        "Respuesta vaga o intelectualizada (\"soy una persona normal\")",
+        "Creencia condicional (\"soy valioso solo si...\")",
+        "Bloqueo o dificultad para verbalizar"
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Identificar el esquema nuclear central mediante la técnica de la Flecha Descendente.",
+        "TCC:: Formular la creencia nuclear en formato \"Yo soy...\" para trabajarla con registro de evidencias.",
+        "Narrativa:: Explorar la historia de vida que sostiene esa identidad y buscar contra-narrativas.",
+        "ACT:: Defusión de la identificación total con la creencia identitaria (\"estoy teniendo el pensamiento de que soy...\")."
+      ],
+      "tarea": "Escribe en un papel tu frase \"soy...\" tal como la dijiste. Debajo, escribe tres evidencias de tu vida que la confirman y tres que la contradicen. Observa qué pesa más."
+    },
+    {
+      "codigo": "C-02",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "¿Cuál es la diferencia, para ti, entre un \"pensamiento\" y una \"creencia\"?",
+      "objetivo": "Evaluar la comprensión psicoeducativa del paciente sobre su propia vida cognitiva. Detectar confusiones conceptuales que pueden estar perpetuando el sufrimiento (ej. creer que todo pensamiento es una verdad).",
+      "profundizacion": [
+        "¿Cuánta certeza le das a un pensamiento pasajero? ¿Y a una creencia?",
+        "¿Alguna vez confundiste un pensamiento automático con una verdad absoluta?",
+        "¿Qué harías diferente si supieras que muchas de tus \"verdades\" son solo creencias aprendidas?"
+      ],
+      "observacion": [
+        "Fusión cognitiva total (todo pensamiento = verdad)",
+        "Comprensión intelectual sin aplicación personal",
+        "Claridad conceptual útil para el trabajo clínico",
+        "Resistencia a diferenciar (\"lo que pienso es real\")"
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Diferenciar niveles de certeza, duración y rigidez entre pensamientos y creencias.",
+        "ACT (defusión):: Entrenar el distanciamiento cognitivo con la frase \"estoy teniendo el pensamiento de que...\".",
+        "TCC:: Registro diferenciado de pensamientos automáticos vs. creencias subyacentes en columna."
+      ],
+      "tarea": "Durante 3 días, cuando tengas un pensamiento angustiante, anota: \"Esto es un pensamiento, no necesariamente una creencia ni un hecho\". Observa cómo cambia tu relación con él."
+    },
+    {
+      "codigo": "C-03",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencias sobre la vida te transmitió tu familia como si fueran verdades absolutas?",
+      "objetivo": "Explorar los mandatos cognitivos familiares internalizados. Identificar creencias \"heredadas\" que el paciente sigue sosteniendo sin cuestionar. Mapear la historia transgeneracional de creencias.",
+      "profundizacion": [
+        "¿Quién en tu familia las decía más fuerte? ¿Con qué tono?",
+        "¿Qué pasaba cuando alguien dudaba de esas verdades?",
+        "¿Cuáles de esas creencias hoy te siguen sirviendo y cuáles ya no?"
+      ],
+      "observacion": [
+        "Reconocimiento claro de mandatos (\"el dinero es difícil\", \"no se puede confiar\")",
+        "Creencias heredadas aún activas sin cuestionar",
+        "Dificultad para recordar (\"en mi familia todo era normal\")",
+        "Rabia o duelo por creencias limitantes heredadas"
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapear mandatos transgeneracionales con un genograma cognitivo de 3 generaciones.",
+        "Terapia de Esquemas:: Identificar los modos parentales internalizados (crítico, exigente, sobreprotector).",
+        "Narrativa:: Externalizar las creencias heredadas como \"relatos familiares\" que pueden ser reescritos."
+      ],
+      "tarea": "Haz dos listas: \"Creencias que heredé y me sirven\" y \"Creencias que heredé y ya no me sirven\". Al lado de cada una que ya no sirve, escribe: \"Hoy, como adulto, elijo creer que...\"."
+    },
+    {
+      "codigo": "C-04",
+      "iconos": [
+        "🧠",
+        "⚡"
+      ],
+      "pregunta": "¿Qué creencia sobre ti se formó a partir de una experiencia dolorosa de tu infancia?",
+      "objetivo": "Acceder a la memoria emocional que originó una creencia nuclear. Identificar el momento de \"cristalización\" de un esquema. Conectar trauma temprano con cognición actual.",
+      "profundizacion": [
+        "¿Qué edad tenías y qué pasó exactamente?",
+        "¿Qué decidiste sobre ti, sobre los demás o sobre el mundo en ese momento?",
+        "¿Esa decisión de niño te sigue gobernando hoy?"
+      ],
+      "observacion": [
+        "Memoria vívida con emoción intensa actual",
+        "Disociación o minimización (\"no fue para tanto\")",
+        "Múltiples recuerdos similares (patrón repetido)",
+        "Insight sobre el origen de la creencia"
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento de la memoria traumática que cristalizó la creencia nuclear.",
+        "Terapia de Esquemas:: Reparentalización del niño que formó la creencia como estrategia de supervivencia.",
+        "CFT:: Compasión hacia la parte que adoptó la creencia como forma de protegerse.",
+        "Sensoriomotriz:: Trabajar la huella corporal del momento cristalizado y completar impulsos de acción truncados."
+      ],
+      "tarea": "Escribe una carta a ese niño/a que fuiste, diciéndole: \"Lo que pasó no definió quién eres. Esa creencia fue una forma de sobrevivir, no una verdad. Hoy podemos revisarla juntos\"."
+    },
+    {
+      "codigo": "C-05",
+      "iconos": [
+        "🧠",
+        "🌱"
+      ],
+      "pregunta": "¿Qué creencia limitante te ha costado más soltar hasta ahora, y qué te ha dado sostenerla?",
+      "objetivo": "Explorar la función protectora de la creencia limitante. Detectar el beneficio secundario de sostenerla. Introducir la idea de que toda creencia, incluso las dolorosas, tuvo una intención positiva.",
+      "profundizacion": [
+        "¿De qué te ha protegido no soltarla?",
+        "¿Qué temes que pasaría si la soltaras completamente?",
+        "¿A quién traicionarías si dejaras de creerla?"
+      ],
+      "observacion": [
+        "Reconocimiento del beneficio secundario (\"me mantiene seguro\")",
+        "Resistencia total a soltarla (\"es la verdad\")",
+        "Lealtad invisible (\"si la suelto, traiciono a mi familia\")",
+        "Curiosidad por explorar alternativas"
+      ],
+      "intervenciones": [
+        "ACT:: Análisis funcional de los costos y beneficios de sostener la creencia vs. soltarla.",
+        "Terapia de Esquemas:: Explorar el modo protector (sobreviviente disociado, complaciente) detrás de la creencia.",
+        "Sistémica:: Identificar lealtades invisibles que sostienen la creencia y trabajar su devolución simbólica.",
+        "Narrativa:: Re-autoría de la historia con la creencia como personaje que puede ser despedido con respeto."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa creencia limitante. Dile: \"Gracias por haberme protegido de... Hoy ya no te necesito tanto. Puedo empezar a soltarte con respeto\"."
+    },
+    {
+      "codigo": "C-06",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "Si tuvieras que puntuar de 0 a 10 cuánto te crees merecedor/a de cosas buenas, ¿qué número pondrías y por qué?",
+      "objetivo": "Evaluar la creencia nuclear de merecimiento. Detectar el nivel de autoestima condicional vs. incondicional. Explorar la relación entre merecimiento y autocastigo.",
+      "profundizacion": [
+        "¿Qué tendrías que hacer para subir ese número un punto?",
+        "¿De quién aprendiste cuánto mereces?",
+        "¿Qué pasa en tu cuerpo cuando recibes algo bueno sin haberlo \"ganado\"?"
+      ],
+      "observacion": [
+        "Puntuación baja con autocastigo (\"no merezco\")",
+        "Merecimiento condicional (\"solo si produzco/soy perfecto\")",
+        "Puntuación alta con base sólida",
+        "Dificultad para responder (bloqueo o evitación)"
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de privación emocional y defectuosidad con reparentalización.",
+        "CFT:: Cultivar la autocompasión y el merecimiento incondicional a través de ejercicios de calor y seguridad.",
+        "TCC:: Registro diario de evidencias de merecimiento vs. momentos de autocastigo.",
+        "Humanista:: Experiencia correctiva de aceptación incondicional en el vínculo terapéutico."
+      ],
+      "tarea": "Esta semana, haz una cosa pequeña que sientas que \"no mereces del todo\" (aceptar un cumplido, descansar sin culpa, comprarte algo). Anota qué sentiste antes, durante y después."
+    },
+    {
+      "codigo": "C-07",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "¿Cuál es la frase más dura que te dices a ti mismo/a cuando te equivocas?",
+      "objetivo": "Acceder al diálogo interno crítico. Identificar la voz del \"juez interior\" y su relación con creencias de defectuosidad. Explorar el origen de esa voz internalizada.",
+      "profundizacion": [
+        "¿A quién se parece esa voz? ¿Suena como alguien de tu infancia?",
+        "¿Qué creencia hay detrás de esa frase?",
+        "¿Le dirías lo mismo a un niño/a que cometió el mismo error?"
+      ],
+      "observacion": [
+        "Voz crítica feroz (\"soy un desastre\", \"nunca aprendo\")",
+        "Reconocimiento del origen (\"es la voz de mi padre/madre\")",
+        "Dificultad para identificar la voz (automatización total)",
+        "Respuesta compasiva hacia sí mismo"
+      ],
+      "intervenciones": [
+        "CFT:: Desarrollar la voz compasiva como contrapunto activo al juez interior internalizado.",
+        "Terapia de Esquemas:: Trabajar el modo del Padre/Madre Crítico y fortalecer el Adulto Saludable.",
+        "Gestalt:: Diálogo con la voz crítica mediante la técnica de silla vacía.",
+        "Narrativa:: Externalizar la voz crítica como personaje separado de la identidad."
+      ],
+      "tarea": "Escribe la frase crítica en un papel. Al lado, escribe lo que le diría a un ser querido en la misma situación. Compara ambos mensajes. ¿Qué te dice esa diferencia?"
+    },
+    {
+      "codigo": "C-08",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre tu capacidad de cambiar algo importante de tu vida?",
+      "objetivo": "Evaluar la creencia de autoeficacia y locus de control. Detectar indefensión aprendida o creencias de inmutabilidad. Explorar la relación entre creencia de cambio y acción.",
+      "profundizacion": [
+        "¿Qué te hace creer eso? ¿En qué experiencias te basas?",
+        "¿Hubo algún momento en tu vida en que sí lograste cambiar algo?",
+        "¿Qué sería diferente si creyeras que el cambio es posible para ti?"
+      ],
+      "observacion": [
+        "Indefensión aprendida (\"soy así y no puedo cambiar\")",
+        "Creencia de cambio parcial (\"puedo cambiar cosas pequeñas\")",
+        "Autoeficacia sólida con evidencia",
+        "Ambivalencia (\"quiero cambiar pero no creo poder\")"
+      ],
+      "intervenciones": [
+        "TCC:: Identificar y reforzar evidencias conductuales pasadas de autoeficacia.",
+        "Entrevista Motivacional:: Explorar la ambivalencia hacia el cambio con preguntas evocadoras.",
+        "Narrativa:: Buscar \"episodios únicos\" de cambio exitoso que contradigan la creencia de inmutabilidad.",
+        "Breve orientada a soluciones:: Escala de 0 a 10 y preguntas de excepción (\"¿cuándo has estado un punto más arriba?\")."
+      ],
+      "tarea": "Escribe tres cambios pequeños que hayas logrado en los últimos años (aunque parezcan insignificantes). Al lado de cada uno, anota qué creencia sobre ti mismo sustentó ese cambio."
+    },
+    {
+      "codigo": "C-09",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "Si tuvieras que describir tu \"valor como persona\" sin mencionar tus logros, roles o relaciones, ¿qué dirías?",
+      "objetivo": "Explorar la autoestima incondicional vs. condicional. Detectar si el valor personal está atado a factores externos. Trabajar la identidad más allá del hacer.",
+      "profundizacion": [
+        "¿Te resultó difícil responder sin mencionar logros o roles?",
+        "¿Qué pasaría si perdieras todo eso? ¿Seguirías valiendo?",
+        "¿De quién aprendiste que tu valor depende de algo externo?"
+      ],
+      "observacion": [
+        "Bloqueo total (no puede separar valor de logros)",
+        "Valor condicional (\"valgo si soy útil/bueno/productivo\")",
+        "Valor incondicional con base sólida",
+        "Respuesta reflexiva con matices"
+      ],
+      "intervenciones": [
+        "Humanista:: Ofrecer experiencia de aceptación incondicional en sesión como base correctiva.",
+        "CFT:: Cultivar el yo valioso más allá del rendimiento con ejercicios de flujo de compasión.",
+        "ACT:: Clarificación de valores desligados de logros y roles externos.",
+        "Terapia de Esquemas:: Trabajar el esquema de estándares inalcanzables y el modo del Niño Exigido."
+      ],
+      "tarea": "Escribe una lista de 10 cualidades tuyas que no tengan nada que ver con lo que haces ni con quién te necesita. Lee esa lista cada mañana durante una semana."
+    },
+    {
+      "codigo": "C-10",
+      "iconos": [
+        "🧠",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre tus propios errores? ¿Son pruebas de que algo está mal en ti o parte natural de aprender?",
+      "objetivo": "Evaluar la relación con el error y la imperfección. Detectar creencias perfeccionistas o de defectuosidad. Explorar la mentalidad fija vs. crecimiento.",
+      "profundizacion": [
+        "¿Qué significaba equivocarte en tu familia?",
+        "¿Qué crees que dirían de ti si te vieran cometer un error grave?",
+        "¿Puedes recordar un error que te haya enseñado algo valioso?"
+      ],
+      "observacion": [
+        "Creencia de defectuosidad (\"errores = soy malo\")",
+        "Perfeccionismo rígido (\"no puedo equivocarme\")",
+        "Mentalidad de crecimiento (\"errores = aprendizaje\")",
+        "Ambivalencia entre ambas posturas"
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva de creencias perfeccionistas con experimentos conductuales.",
+        "CFT:: Autocompasión activa ante el error como parte inherente de la condición humana.",
+        "Terapia de Esquemas:: Trabajar el modo del Padre/Madre Crítico y el Niño Perfeccionista.",
+        "Narrativa:: Re-significar errores como capítulos de aprendizaje en la historia de vida."
+      ],
+      "tarea": "Esta semana, comete un error pequeño a propósito (equivócate en algo sin importancia). Observa qué sientes, qué te dices y qué pasa realmente. Anota tus descubrimientos."
+    },
+    {
+      "codigo": "C-11",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre si las personas, en el fondo, son confiables o no?",
+      "objetivo": "Explorar la creencia nuclear sobre la confiabilidad de los demás. Detectar esquemas de desconfianza/abuso o de privación emocional. Mapear el modelo interno de apego.",
+      "profundizacion": [
+        "¿Qué experiencias te llevaron a creer eso?",
+        "¿Hay alguna persona en tu vida que rompa esa regla?",
+        "¿Cómo afecta esa creencia a tus relaciones actuales?"
+      ],
+      "observacion": [
+        "Desconfianza global (\"no se puede confiar en nadie\")",
+        "Desconfianza selectiva (\"solo algunos son confiables\")",
+        "Confianza básica con matices realistas",
+        "Confianza ingenua sin filtro"
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de desconfianza/abuso con reparentalización limitada.",
+        "Teoría del Apego:: Explorar el modelo interno de trabajo y su origen en vínculos tempranos.",
+        "EMDR:: Procesar memorias específicas de traición o abuso de confianza.",
+        "TCC:: Diseñar experimentos conductuales de confianza gradual y calibrada."
+      ],
+      "tarea": "Haz una lista de 5 personas en tu vida (presentes o pasadas) que hayan sido confiables en algo. Al lado de cada una, anota qué te enseñaron sobre la confianza."
+    },
+    {
+      "codigo": "C-12",
+      "iconos": [
+        "🧠",
+        "🌍"
+      ],
+      "pregunta": "¿El mundo es, para ti, un lugar básicamente seguro o básicamente peligroso?",
+      "objetivo": "Evaluar la creencia nuclear sobre la seguridad del mundo. Detectar esquemas de vulnerabilidad al daño o de hipervigilancia. Explorar el impacto del trauma en la cosmovisión.",
+      "profundizacion": [
+        "¿Qué experiencias te llevaron a sentirlo así?",
+        "¿En qué zonas de tu vida sientes más peligro? ¿Y más seguridad?",
+        "¿Cómo afecta esa creencia a tus decisiones diarias?"
+      ],
+      "observacion": [
+        "Mundo percibido como hostil (\"en cualquier momento puede pasar algo malo\")",
+        "Visión realista con matices",
+        "Mundo percibido como seguro sin hipervigilancia",
+        "Respuesta ambivalente según áreas"
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento de memorias traumáticas que generaron hipervigilancia global.",
+        "Sensoriomotriz:: Trabajar la activación del sistema nervioso y completar respuestas defensivas truncadas.",
+        "TCC:: Exposición gradual y jerarquizada a situaciones percibidas como peligrosas.",
+        "Somática:: Regular el sistema nervioso autónomo con recursos de anclaje corporal."
+      ],
+      "tarea": "Dibuja un mapa de tu vida: marca las zonas donde te sientes seguro/a y las zonas donde te sientes en peligro. Observa qué patrones aparecen."
+    },
+    {
+      "codigo": "C-13",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "¿Crees que la vida es justa? ¿Y que tú recibirás lo que mereces?",
+      "objetivo": "Explorar la creencia sobre la justicia del mundo y el merecimiento personal. Detectar esquemas de castigo o de injusticia. Trabajar la aceptación de la incertidumbre.",
+      "profundizacion": [
+        "¿Qué experiencias te llevaron a creer eso?",
+        "¿Qué haces cuando ves que la vida no es justa?",
+        "¿Cómo afecta esa creencia a tu forma de actuar?"
+      ],
+      "observacion": [
+        "Creencia de injusticia global (\"la vida es injusta conmigo\")",
+        "Esquema de castigo (\"algo malo me va a pasar\")",
+        "Visión realista con aceptación",
+        "Creencia de justicia condicional (\"si soy bueno, me irá bien\")"
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación radical de la incertidumbre y trabajo con valores más allá de la justicia.",
+        "Terapia de Esquemas:: Trabajar el esquema de castigo emocional y la creencia de merecer sufrimiento.",
+        "Existencial:: Explorar la construcción de sentido ante la injusticia inevitable.",
+        "TCC:: Reestructuración de creencias de justicia condicional con análisis de evidencias."
+      ],
+      "tarea": "Escribe tres momentos de tu vida donde la vida fue injusta contigo y tres donde recibiste algo bueno sin haberlo \"ganado\". Observa qué dice cada lista sobre tu creencia."
+    },
+    {
+      "codigo": "C-14",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre si tus necesidades emocionales serán atendidas por los demás?",
+      "objetivo": "Evaluar el esquema de privación emocional. Detectar la creencia de que las necesidades propias no serán satisfechas. Explorar el impacto en la vinculación.",
+      "profundizacion": [
+        "¿Qué necesidades sientes que nunca fueron atendidas?",
+        "¿Qué hiciste de niño/a para intentar que las atendieran?",
+        "¿Cómo afecta esa creencia a lo que pides (o no pides) hoy?"
+      ],
+      "observacion": [
+        "Privación emocional global (\"nadie me va a entender nunca\")",
+        "Privación selectiva (\"solo algunas necesidades sí\")",
+        "Confianza en que las necesidades pueden ser atendidas",
+        "Evitación de pedir (\"mejor no pedir para no decepcionarme\")"
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de privación emocional con reparentalización del Niño Vulnerable.",
+        "Teoría del Apego:: Reparar el modelo interno de que las necesidades no serán atendidas.",
+        "DBT:: Entrenamiento en habilidades de asertividad para pedir necesidades (habilidad FAST y DEAR MAN).",
+        "Humanista:: Experiencia correctiva de sintonía empática en el vínculo terapéutico."
+      ],
+      "tarea": "Escribe una lista de 5 necesidades emocionales tuyas. Al lado de cada una, anota: ¿se la pedirías a alguien cercano? ¿Por qué sí o por qué no?"
+    },
+    {
+      "codigo": "C-15",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre si las personas te abandonarán si las decepcionas o muestras tus partes difíciles?",
+      "objetivo": "Explorar el esquema de abandono/inestabilidad y de subordinación. Detectar la creencia de que el amor es condicional. Trabajar la autenticidad en las relaciones.",
+      "profundizacion": [
+        "¿Qué experiencias te enseñaron eso?",
+        "¿Qué partes de ti escondes para no ser abandonado/a?",
+        "¿Qué pasaría si mostraras esas partes y la persona se quedara?"
+      ],
+      "observacion": [
+        "Miedo al abandono con complacencia (\"si me muestro, me dejan\")",
+        "Creencia de amor condicional (\"me quieren solo si soy perfecto\")",
+        "Seguridad en el vínculo con autenticidad",
+        "Ambivalencia (\"quiero mostrarme pero tengo miedo\")"
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de abandono/inestabilidad con vínculo terapéutico como base segura.",
+        "Teoría del Apego:: Usar el vínculo terapéutico como experiencia correctiva de vínculo seguro.",
+        "Humanista:: Fomentar la congruencia entre experiencia interna y expresión auténtica.",
+        "Gestalt:: Experimento en sesión de mostrar partes escondidas y observar la respuesta del terapeuta."
+      ],
+      "tarea": "Elige una persona segura y muéstrale esta semana una parte de ti que normalmente escondes. Observa qué pasa, qué sientes y qué aprendes."
+    },
+    {
+      "codigo": "C-16",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Hay alguna creencia tuya que sientas que \"no te pertenece\", que parece venir de otro lado?",
+      "objetivo": "Explorar la introyección cognitiva: creencias heredadas del sistema familiar o de figuras significativas. Identificar lealtades invisibles y mandatos transgeneracionales.",
+      "profundizacion": [
+        "¿A quién de tu familia se parece esa creencia?",
+        "¿Cuándo apareció por primera vez en tu vida?",
+        "¿Qué pasaría si se la devolvieras a su dueño original?"
+      ],
+      "observacion": [
+        "Reconocimiento claro (\"es la creencia de mi madre/padre\")",
+        "Confusión sobre el origen de la creencia",
+        "Lealtad invisible (\"no puedo soltarla, sería traicionar\")",
+        "Alivio al reconocer que no le pertenece"
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolución simbólica de la creencia a su dueño original con ritual terapéutico.",
+        "Constelaciones:: Trabajo con lealtades invisibles transgeneracionales y órdenes del amor.",
+        "Narrativa:: Externalizar la creencia como herencia no elegida que puede ser revisada.",
+        "Terapia de Esquemas:: Diferenciar esquemas propios de introyecciones parentales."
+      ],
+      "tarea": "Escribe una carta a la persona de quien crees que heredaste esa creencia. Dile: \"Te devuelvo esto con respeto. Es tuyo, no mío. Yo elijo creer otras cosas\". Observa cómo te sientes después."
+    },
+    {
+      "codigo": "C-17",
+      "iconos": [
+        "🧠",
+        "🌱"
+      ],
+      "pregunta": "Si pudieras darle un nombre propio a tu creencia más limitante, ¿cómo la llamarías?",
+      "objetivo": "Externalizar la creencia para reducir la identificación con ella. Introducir la técnica narrativa de dar nombre propio a los esquemas cognitivos. Facilitar la relación observadora con la propia vida mental.",
+      "profundizacion": [
+        "¿Cómo es su personalidad? ¿Cuándo aparece?",
+        "¿Qué quiere de ti cuando llega?",
+        "¿Qué le dirías si la tuvieras delante?"
+      ],
+      "observacion": [
+        "Nombre hostil (\"el Juez\", \"la Vocera de mi madre\")",
+        "Nombre compasivo (\"el Niño Asustado\", \"la Parte Protectora\")",
+        "Bloqueo creativo o resistencia al ejercicio",
+        "Nombre humorístico que alivia la tensión"
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalización completa de la creencia como personaje con historia propia.",
+        "IFS:: Dialogar con la \"parte\" que sostiene la creencia y explorar su intención positiva.",
+        "Gestalt:: Silla vacía para confrontar y negociar con la creencia personificada.",
+        "Terapia de Esquemas:: Trabajar el modo específico asociado a esa creencia externalizada."
+      ],
+      "tarea": "Esta semana, cada vez que aparezca esa creencia, salúdala por su nombre: \"Hola [nombre], ya llegaste\". Observa si eso cambia tu relación con ella. Anota lo que descubras."
+    },
+    {
+      "codigo": "C-18",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "Si pudieras elegir una creencia para sostener el resto de tu vida, ¿cuál sería y por qué?",
+      "objetivo": "Explorar los valores cognitivos del paciente. Identificar qué creencias asocia con bienestar, plenitud o sentido. Detectar creencias idealizadas o evitadas.",
+      "profundizacion": [
+        "¿Cuándo fue la última vez que la sentiste verdadera?",
+        "¿Qué condiciones necesitas para que se sostenga?",
+        "¿Qué te impide creerla más a menudo?"
+      ],
+      "observacion": [
+        "Elección de creencias de seguridad (\"todo va a estar bien\")",
+        "Elección de creencias de capacidad (\"puedo con lo que venga\")",
+        "Elección de creencias de conexión (\"no estoy solo/a\")",
+        "Dificultad para elegir o idealización irreal"
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores a través de las creencias deseadas como brújula vital.",
+        "TCC:: Construcción de evidencia conductual diaria que sostenga la creencia elegida.",
+        "Psicología Positiva:: Cultivo deliberado de creencias potenciadoras con ejercicios de gratitud y fortalezas.",
+        "Narrativa:: Re-autoría de la historia de vida con la creencia elegida como hilo conductor."
+      ],
+      "tarea": "Esta semana, escribe esa creencia elegida en un papel y ponlo donde la veas cada día. Cada vez que la leas, pregúntate: \"¿Qué haría hoy alguien que cree esto de verdad?\""
+    },
+    {
+      "codigo": "C-19",
+      "iconos": [
+        "🧠",
+        "⚡"
+      ],
+      "pregunta": "¿Qué creencia te \"secuestra\" más a menudo, llevándote a tomar decisiones de las que después te arrepientes?",
+      "objetivo": "Identificar las creencias que generan impulsividad cognitiva y conductas desreguladas. Explorar el ciclo creencia-emoción-acción-arrepentimiento. Trabajar la regulación cognitiva.",
+      "profundizacion": [
+        "¿Qué señales mentales te avisan antes del secuestro?",
+        "¿Qué necesidad estás intentando cubrir con esa creencia?",
+        "¿Qué podrías hacer diferente la próxima vez?"
+      ],
+      "observacion": [
+        "\"No soy capaz\" como secuestradora principal",
+        "\"No me quieren\" como secuestradora",
+        "\"Todo va a salir mal\" como secuestradora",
+        "Reconocimiento de señales tempranas"
+      ],
+      "intervenciones": [
+        "TCC:: Identificar señales tempranas y reestructurar la creencia en caliente antes de actuar.",
+        "DBT:: Habilidades TIPP (Temperatura, Intensidad, Pausa, Paced breathing) para interrumpir el secuestro.",
+        "Mindfulness:: Entrenamiento en la pausa entre la creencia y la acción impulsiva.",
+        "ACT:: Defusión de la creencia secuestradora en el momento (\"estoy teniendo el pensamiento de que...\")."
+      ],
+      "tarea": "Crea tu \"kit de emergencia cognitiva\": una lista de 5 preguntas que puedes hacerte cuando sientas que una creencia te secuestra (ej. \"¿Esto es un hecho o una interpretación?\", \"¿Qué le diría a un amigo?\"). Llévalo contigo."
+    },
+    {
+      "codigo": "C-20",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "Si pudieras diseñar tu \"dieta cognitiva\" ideal, ¿qué creencias incluirías y cuáles evitarías?",
+      "objetivo": "Explorar la relación del paciente con la diversidad cognitiva. Detectar la ilusión de control sobre los pensamientos y la evitación de lo incómodo. Introducir la metáfora de la \"dieta cognitiva balanceada\".",
+      "profundizacion": [
+        "¿Es posible tener solo creencias \"positivas\"?",
+        "¿Qué pasaría si eliminaras todas las \"incómodas\"?",
+        "¿Qué creencias \"difíciles\" te han hecho crecer?"
+      ],
+      "observacion": [
+        "Deseo de eliminar todo lo incómodo (evitación)",
+        "Reconocimiento de la necesidad de todas las creencias",
+        "Comprensión de la función adaptativa de cada creencia",
+        "Resistencia a aceptar creencias difíciles"
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación radical de todo el espectro cognitivo y trabajo con la flexibilidad psicológica.",
+        "Psicoeducación:: Explicar la función adaptativa de cada tipo de creencia (seguridad, alerta, vínculo).",
+        "Mindfulness:: Observación sin juicio de todas las creencias como eventos mentales pasajeros.",
+        "TCC:: Flexibilidad cognitiva y tolerancia a la ambivalencia como habilidad entrenable."
+      ],
+      "tarea": "Escribe tu \"dieta cognitiva ideal\" incluyendo TODAS las creencias, incluso las difíciles. Al lado de cada una, anota qué función cumple. Observa cómo cambia tu relación con ellas al verlas como necesarias."
+    },
+    {
+      "codigo": "C-21",
+      "iconos": [
+        "❤️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Crees que el amor que recibes depende de lo que haces o de quién eres?",
+      "objetivo": "Evaluar la creencia nuclear sobre el amor condicional vs. incondicional. Detectar esquemas de subordinación o de estándares inalcanzables. Explorar la base del merecimiento afectivo.",
+      "profundizacion": [
+        "¿Qué tendrías que dejar de hacer para que te dejen de querer?",
+        "¿De quién aprendiste que el amor se \"gana\" y no se \"da\"?",
+        "¿Cómo afecta esta creencia a tu forma de relacionarte hoy?"
+      ],
+      "observacion": [
+        "Creencia firme de amor condicional (\"si no soy útil, no valgo\").",
+        "Confusión o ambivalencia entre ambos tipos de amor.",
+        "Acceso a experiencias de amor incondicional en la historia.",
+        "Ansiedad ante la idea de \"no hacer lo suficiente\"."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo del Niño Exigido y el Padre Crítico que condiciona el afecto.",
+        "Humanista:: Ofrecer una experiencia correctiva de aceptación incondicional en el vínculo terapéutico.",
+        "ACT:: Defusión de la regla \"debo producir para ser amado\" y clarificación de valores relacionales.",
+        "TCC:: Registro de evidencias de afecto recibido sin mediación de logros o sacrificios."
+      ],
+      "tarea": "Escribe una lista de 5 momentos en los que fuiste querido/a sin haber \"hecho\" nada especial para merecerlo. Reflexiona sobre cómo se siente leer esa lista."
+    },
+    {
+      "codigo": "C-22",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre poner límites? ¿Sientes que te protege o que te aleja de los demás?",
+      "objetivo": "Explorar la creencia nuclear sobre la asertividad y los límites personales. Detectar esquemas de subordinación o de sacrificio. Evaluar el miedo al rechazo asociado a la autonomía.",
+      "profundizacion": [
+        "¿Qué pasaba en tu familia cuando alguien decía \"no\"?",
+        "¿Qué temes que pase si empiezas a poner límites claros?",
+        "¿Has confundido alguna vez poner un límite con ser egoísta?"
+      ],
+      "observacion": [
+        "Creencia de que los límites destruyen el vínculo (\"si digo no, me abandonan\").",
+        "Culpa intensa tras establecer un límite saludable.",
+        "Límites rígidos y defensivos por miedo a la invasión.",
+        "Reconocimiento de los límites como acto de autocuidado."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades de asertividad (DEAR MAN) para poner límites con eficacia interpersonal.",
+        "Terapia de Esquemas:: Trabajar el modo de Rendición sumisa y fortalecer el Adulto Saludable que protege los límites.",
+        "Gestalt:: Experimento en sesión de decir \"no\" y observar la respuesta del terapeuta (experiencia correctiva).",
+        "Sistémica:: Explorar las reglas familiares invisibles sobre la obediencia y la autonomía."
+      ],
+      "tarea": "Esta semana, identifica una situación pequeña donde normalmente dirías \"sí\" por compromiso. Practica decir \"no\" o \"déjame pensarlo\". Anota qué sentiste antes, durante y después."
+    },
+    {
+      "codigo": "C-23",
+      "iconos": [
+        "❤️",
+        "👤"
+      ],
+      "pregunta": "¿Cuál es tu creencia sobre estar solo/a? ¿Es un estado de paz o una amenaza?",
+      "objetivo": "Diferenciar entre soledad elegida (recurso) y soledad no deseada (abandono). Detectar creencias de dependencia emocional o miedo a la desvinculación.",
+      "profundizacion": [
+        "¿Qué pensamientos aparecen cuando estás completamente solo/a?",
+        "¿De quién aprendiste que estar solo es peligroso o triste?",
+        "¿Qué necesitarías para disfrutar de tu propia compañía?"
+      ],
+      "observacion": [
+        "Pánico o ansiedad ante la soledad (búsqueda compulsiva de compañía).",
+        "Soledad vivida como abandono o rechazo.",
+        "Soledad elegida como espacio de recarga y creatividad.",
+        "Evitación de la soledad mediante ruido, pantallas o relaciones tóxicas."
+      ],
+      "intervenciones": [
+        "ACT:: Exposición gradual a la soledad con aceptación de las emociones que surgen, sin evitarlas.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono/Inestabilidad y la vulnerabilidad al estar solo.",
+        "CFT:: Desarrollar un \"yo compasivo\" que pueda acompañar al paciente en la soledad de forma segura.",
+        "Conductual:: Programación de actividades placenteras en solitario para reasociar la soledad con bienestar."
+      ],
+      "tarea": "Programa una \"cita contigo mismo\" de 30 minutos esta semana, sin pantallas ni distracciones. Solo tú, un cuaderno y un café o té. Observa qué emerge y anótalo sin juzgar."
+    },
+    {
+      "codigo": "C-24",
+      "iconos": [
+        "⚡",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre la confianza después de haber sido traicionado o decepcionado?",
+      "objetivo": "Explorar el impacto del trauma relacional en la creencia de confiabilidad. Detectar esquemas de Desconfianza/Abuso. Evaluar la generalización de la desconfianza.",
+      "profundizacion": [
+        "¿La traición fue de una persona o sientes que \"el mundo\" es así?",
+        "¿Qué señales buscas ahora para decidir si alguien es confiable?",
+        "¿Te has cerrado a nuevas relaciones por miedo a que se repita?"
+      ],
+      "observacion": [
+        "Desconfianza globalizada (\"todos van a traicionarme tarde o temprano\").",
+        "Hipervigilancia constante en las relaciones nuevas.",
+        "Capacidad de discriminar entre personas confiables y no confiables.",
+        "Dificultad para perdonar o soltar el resentimiento."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento de la memoria específica de la traición para reducir la carga emocional y la generalización.",
+        "Terapia de Esquemas:: Trabajar el modo de Protector Hipervigilante y validar el dolor sin perpetuar el aislamiento.",
+        "TCC:: Experimentos conductuales de confianza gradual y calibrada (escalera de confianza).",
+        "Teoría del Apego:: Reparar el modelo interno de trabajo a través de un vínculo terapéutico consistente y transparente."
+      ],
+      "tarea": "Escribe una carta a la persona que te traicionó (no es necesario enviarla). Expresa tu dolor y luego escribe: \"Hoy elijo no dejar que esa experiencia defina todas mis relaciones futuras\"."
+    },
+    {
+      "codigo": "C-25",
+      "iconos": [
+        "🧠",
+        "❤️"
+      ],
+      "pregunta": "¿Crees que el conflicto en una relación significa que algo está mal o que es parte natural de la cercanía?",
+      "objetivo": "Evaluar la creencia sobre el conflicto interpersonal. Detectar esquemas de búsqueda de aprobación o miedo a la pérdida de control. Diferenciar conflicto destructivo de conflicto reparador.",
+      "profundizacion": [
+        "¿Qué pasaba en tu familia cuando había un desacuerdo?",
+        "¿Prefieres \"hacer las paces\" rápido aunque no se resuelva nada?",
+        "¿Qué temes que pase si mantienes tu posición en un desacuerdo?"
+      ],
+      "observacion": [
+        "Evitación fóbica del conflicto (complacencia inmediata).",
+        "Escalada agresiva ante cualquier desacuerdo (lucha por poder).",
+        "Visión del conflicto como oportunidad de negociación y crecimiento.",
+        "Disociación o cierre emocional durante las discusiones."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en regulación emocional y efectividad interpersonal durante el conflicto.",
+        "Gottman (Terapia de Pareja/Individual):: Psicoeducación sobre los \"Cuatro Jinetes\" y construcción de diálogo reparador.",
+        "Terapia de Esquemas:: Trabajar el modo de Complacencia sumisa que evita el conflicto a costa de las propias necesidades.",
+        "Narrativa:: Re-autoría de la historia del conflicto: de \"guerra\" a \"diferencia de perspectivas\"."
+      ],
+      "tarea": "Recuerda un conflicto reciente. Escribe cómo lo manejaste y luego reescríbelo imaginando cómo lo manejaría tu \"Adulto Saludable\" con asertividad y calma. Compara ambas versiones."
+    },
+    {
+      "codigo": "C-26",
+      "iconos": [
+        "❤️",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre tu derecho a recibir ayuda sin tener que devolver el favor inmediatamente?",
+      "objetivo": "Explorar la creencia sobre la reciprocidad y la deuda emocional. Detectar esquemas de autosacrificio o de hipersensibilidad a la obligación. Evaluar la capacidad de recibir.",
+      "profundizacion": [
+        "¿Te sientes incómodo/a cuando alguien hace algo por ti sin pedir nada a cambio?",
+        "¿Crees que \"nada es gratis\" en las relaciones?",
+        "¿Qué te dice tu voz interna cuando aceptas ayuda?"
+      ],
+      "observacion": [
+        "Incomodidad extrema al recibir (necesidad de \"pagar\" de inmediato).",
+        "Creencia de que recibir ayuda es signo de debilidad.",
+        "Capacidad de recibir con gratitud sin sentir deuda asfixiante.",
+        "Uso de la ayuda como herramienta de control sobre otros."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Autosacrificio y la creencia de que las propias necesidades son una carga.",
+        "Humanista:: Validación de la interdependencia como parte natural y saludable de la condición humana.",
+        "ACT:: Aceptación de la vulnerabilidad que implica recibir, sin fusionarse con la historia de \"ser una carga\".",
+        "Sistémica:: Explorar las reglas familiares sobre el dar y el recibir (ej. \"en esta familia nos bastamos solos\")."
+      ],
+      "tarea": "Esta semana, acepta una pequeña ayuda o favor sin ofrecer nada a cambio inmediatamente. Solo di \"gracias\". Observa la ansiedad o incomodidad que pueda surgir y anótala."
+    },
+    {
+      "codigo": "C-27",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Crees que eres responsable de las emociones de las personas que te importan?",
+      "objetivo": "Evaluar la creencia de responsabilidad emocional exagerada. Detectar patrones de codependencia o de rol de \"salvador\". Explorar los límites de la responsabilidad afectiva.",
+      "profundizacion": [
+        "¿Qué sientes cuando alguien cercano está triste y no puedes \"arreglarlo\"?",
+        "¿Alguna vez has dejado de expresar tu verdad para no \"herir\" a otro?",
+        "¿Dónde termina tu responsabilidad y empieza la de la otra persona?"
+      ],
+      "observacion": [
+        "Culpa intensa por el malestar ajeno (codependencia).",
+        "Agotamiento por intentar \"salvar\" o \"arreglar\" a los demás.",
+        "Claridad sobre los límites de la responsabilidad emocional propia.",
+        "Indiferencia defensiva como reacción al miedo a la responsabilidad."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo de Rescatador y el derecho del Adulto Saludable a priorizarse.",
+        "DBT:: Entrenamiento en la validación de las emociones ajenas sin asumir la responsabilidad de resolverlas.",
+        "Sistémica:: Visualización de límites energéticos y devolución de responsabilidades que no corresponden.",
+        "ACT:: Defusión de la regla \"si no lo arreglo, soy mala persona\", enfocándose en la acción comprometida con valores propios."
+      ],
+      "tarea": "Dibuja dos círculos: uno pequeño (tú) y uno grande (la otra persona). Escribe dentro del tuyo lo que SÍ puedes controlar de sus emociones, y fuera lo que NO puedes controlar. Observa el alivio que puede generar este límite."
+    },
+    {
+      "codigo": "C-28",
+      "iconos": [
+        "⚡",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Sientes que has tenido que elegir entre ser leal a tu familia y ser fiel a ti mismo/a?",
+      "objetivo": "Explorar las lealtades invisibles y los conflictos de autonomía vs. pertenencia. Detectar mandatos transgeneracionales que limitan el desarrollo individual.",
+      "profundizacion": [
+        "¿Qué pasaría en tu familia si lograras más éxito o felicidad que ellos?",
+        "¿Hay algún \"mandato\" familiar que sientas que estás traicionando al vivir como vives?",
+        "¿Qué precio has pagado por mantener esa lealtad?"
+      ],
+      "observacion": [
+        "Culpa por superar a los padres o salir del rol asignado.",
+        "Autosabotaje inconsciente para \"no dejar a la familia atrás\".",
+        "Rebelión agresiva contra los mandatos familiares sin resolución interna.",
+        "Integración madura: pertenecer a la familia sin renunciar a la individualidad."
+      ],
+      "intervenciones": [
+        "Constelaciones Familiares / Sistémica:: Ritual de devolución de lealtades invisibles y permiso simbólico para ser feliz.",
+        "Narrativa:: Re-autoría de la historia familiar, pasando de la \"traición\" a la \"evolución\" del linaje.",
+        "Terapia de Esquemas:: Trabajar la culpa del sobreviviente o del que \"rompe el molde\".",
+        "Psicodinámica:: Explorar el conflicto edípico o de individuación no resuelto."
+      ],
+      "tarea": "Escribe una frase de permiso: \"Con todo mi respeto y amor por mi familia, me doy permiso para [logro/elección personal]. Mi felicidad no los traiciona, los honra\". Léela en voz alta."
+    },
+    {
+      "codigo": "C-29",
+      "iconos": [
+        "❤️",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre mostrar tu vulnerabilidad? ¿Es un riesgo o una conexión?",
+      "objetivo": "Evaluar la creencia nuclear sobre la vulnerabilidad. Detectar esquemas de desconfianza o de defectuosidad. Explorar la relación entre autenticidad y riesgo relacional.",
+      "profundizacion": [
+        "¿Qué te enseñaron sobre \"mostrarse débil\"?",
+        "¿Alguna vez usaron tu vulnerabilidad en tu contra?",
+        "¿Qué pasaría si dejaras caer la armadura un poco más?"
+      ],
+      "observacion": [
+        "Vulnerabilidad asociada a peligro o humillación.",
+        "Fachada de fortaleza inquebrantable (evitación de la intimidad).",
+        "Capacidad de compartir vulnerabilidad de forma selectiva y segura.",
+        "Desbordamiento emocional al intentar ser vulnerable (falta de regulación)."
+      ],
+      "intervenciones": [
+        "Humanista:: Creación de un espacio terapéutico de aceptación radical donde la vulnerabilidad sea recibida con empatía.",
+        "Terapia de Esquemas:: Trabajar el modo de Protector Desapegado que evita la vulnerabilidad para no sufrir.",
+        "EFT (Emocionalmente Focalizada):: Facilitar la expresión de necesidades de apego vulnerables subyacentes a la ira o el distanciamiento.",
+        "Brené Brown (Investigación aplicada):: Psicoeducación sobre la vulnerabilidad como cuna de la innovación, la alegría y la conexión."
+      ],
+      "tarea": "Comparte esta semana una pequeña vulnerabilidad con alguien de confianza (ej. \"me sentí inseguro/a en esa situación\"). Observa si el mundo se cae o si la conexión se profundiza."
+    },
+    {
+      "codigo": "C-30",
+      "iconos": [
+        "🌱",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre el perdón? ¿Es algo que se da, algo que se gana o algo que te das a ti mismo/a?",
+      "objetivo": "Explorar la conceptualización del perdón. Detectar resentimientos crónicos, esquemas de castigo o confusiones entre perdón, reconciliación y olvido.",
+      "profundizacion": [
+        "¿Crees que perdonar significa aceptar lo que pasó?",
+        "¿Hay alguien a quien sientes que \"no merece\" tu perdón?",
+        "¿Qué te cuesta más: perdonar a otro o perdonarte a ti mismo/a?"
+      ],
+      "observacion": [
+        "Perdón confundido con sumisión o debilidad.",
+        "Resentimiento como identidad (\"soy la persona que fue traicionada\").",
+        "Perdón prematuro (evitación del dolor legítimo).",
+        "Comprensión del perdón como liberación personal, no como absolución del otro."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Encontrar sentido en el sufrimiento sin justificar al ofensor, facilitando el perdón como acto de libertad.",
+        "CFT:: Trabajar la autocompasión como primer paso para perdonar, reduciendo la vergüenza tóxica.",
+        "Terapia de Esquemas:: Trabajar el modo de Castigo y la creencia de que el sufrimiento propio es necesario para que el otro \"pague\".",
+        "Narrativa:: Re-escribir la historia del daño, pasando del rol de víctima pasiva al de sobreviviente que elige soltar."
+      ],
+      "tarea": "Escribe una carta de perdón (no necesariamente para enviar). No tiene que decir \"estás perdonado\", puede decir \"decido soltar el peso de este resentimiento porque merezco paz\"."
+    },
+    {
+      "codigo": "C-31",
+      "iconos": [
+        "⚡",
+        "❤️"
+      ],
+      "pregunta": "¿Crees que las relaciones estables son aburridas o que la pasión requiere inestabilidad?",
+      "objetivo": "Evaluar la creencia sobre la compatibilidad entre seguridad y deseo. Detectar patrones de repetición de vínculos caóticos o evitación de la intimidad estable.",
+      "profundizacion": [
+        "¿Qué aprendiste sobre el amor observando a tus padres o figuras de apego?",
+        "¿Te has aburrido o has saboteado relaciones cuando \"todo iba bien\"?",
+        "¿Asocias la calma con la falta de amor?"
+      ],
+      "observacion": [
+        "Adicción al drama o a la montaña rusa emocional.",
+        "Sabotaje de relaciones saludables por sentirse \"demasiado tranquilas\".",
+        "Capacidad de disfrutar tanto de la pasión como de la calma.",
+        "Confusión entre ansiedad (mariposas en el estómago) y amor."
+      ],
+      "intervenciones": [
+        "Teoría del Apego:: Explorar cómo el apego ansioso o evitativo distorsiona la percepción de la seguridad como \"aburrimiento\".",
+        "Terapia de Esquemas:: Trabajar el modo de Estimulación y Búsqueda de Sensaciones como evitación de la intimidad real.",
+        "Psicoeducación:: Diferenciar entre la excitación del sistema nervioso (lucha/huida) y la conexión genuina.",
+        "EFT:: Ayudar al paciente a tolerar y nombrar la calma como una emoción segura, no como una amenaza."
+      ],
+      "tarea": "Haz una lista de las relaciones \"estables\" en tu vida (amigos, familia, pareja). Anota qué hay de valioso en esa estabilidad que a veces confundes con aburrimiento."
+    },
+    {
+      "codigo": "C-32",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre decir la verdad cuando sabes que va a doler? ¿Es mejor la honestidad brutal o la mentira piadosa?",
+      "objetivo": "Explorar la creencia sobre la comunicación auténtica vs. la protección. Detectar patrones de agresividad pasiva, evitación o falta de tacto emocional.",
+      "profundizacion": [
+        "¿Alguna vez usaste la \"honestidad\" como excusa para ser cruel?",
+        "¿Alguna vez callaste algo importante por miedo a \"hacer daño\"?",
+        "¿Cómo se puede ser honesto y compasivo al mismo tiempo?"
+      ],
+      "observacion": [
+        "Honestidad brutal sin empatía (agresión disfrazada de sinceridad).",
+        "Mentira piadosa crónica (evitación del conflicto a costa de la autenticidad).",
+        "Capacidad de comunicación asertiva y empática.",
+        "Parálisis ante la decisión de hablar o callar."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en la habilidad de \"Efectividad Interpersonal\" (equilibrar objetivos, relación y auto-respeto).",
+        "Comunicación No Violenta (CNV):: Reestructurar la \"honestidad brutal\" en observaciones, sentimientos, necesidades y peticiones.",
+        "Terapia de Esquemas:: Trabajar el modo de Atacador que usa la verdad como arma, o el de Complaciente que la oculta.",
+        "Gestalt:: Experimento de expresar una verdad difícil en sesión con el apoyo del terapeuta para regular el impacto."
+      ],
+      "tarea": "Piensa en algo que has estado evitando decir. Escribe cómo lo dirías con \"honestidad brutal\" y luego reescríbelo aplicando los 4 pasos de la Comunicación No Violenta. Compara la energía de ambas frases."
+    },
+    {
+      "codigo": "C-33",
+      "iconos": [
+        "❤️",
+        "👤"
+      ],
+      "pregunta": "¿Crees que tu valor en una relación depende de cuánto das o sacrificas por los demás?",
+      "objetivo": "Evaluar la creencia de autosacrificio como moneda de intercambio afectivo. Detectar el síndrome del cuidador o patrones codependientes.",
+      "profundizacion": [
+        "¿Qué sientes cuando no puedes ayudar a alguien?",
+        "¿Te has sentido resentido/a por dar tanto y recibir tan poco?",
+        "¿Quién te enseñó que amar es sinónimo de sacrificarse?"
+      ],
+      "observacion": [
+        "Agotamiento crónico y resentimiento encubierto.",
+        "Identidad fusionada con el rol de \"el que ayuda\".",
+        "Capacidad de dar desde la abundancia, no desde el vacío.",
+        "Miedo a ser \"egoísta\" al priorizar necesidades propias."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Autosacrificio y fortalecer el modo del Niño Vulnerable que también necesita cuidado.",
+        "CFT:: Cultivar la autocompasión para permitir que el paciente se cuide a sí mismo con la misma intensidad que cuida a otros.",
+        "ACT:: Clarificación de valores: ¿estoy dando por amor o por miedo al rechazo?",
+        "Sistémica:: Reequilibrio del sistema de dar y recibir, permitiendo que otros también tengan el rol de cuidadores."
+      ],
+      "tarea": "Esta semana, dedica 1 hora exclusiva a hacer algo que NO beneficie a nadie más que a ti. Anota cómo te sientes al hacerlo y qué voces internas aparecen."
+    },
+    {
+      "codigo": "C-34",
+      "iconos": [
+        "🌱",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre la envidia o la comparación en tus relaciones cercanas? ¿Es un defecto o una señal?",
+      "objetivo": "Desestigmatizar la envidia y explorarla como información sobre deseos no cumplidos. Detectar esquemas de insuficiencia o de fracaso.",
+      "profundizacion": [
+        "¿De quién has sentido envidia últimamente y qué tiene esa persona que tú deseas?",
+        "¿Qué te dice tu voz interna cuando te comparas con un amigo o familiar?",
+        "¿Puedes transformar la envidia en admiración o en un plan de acción?"
+      ],
+      "observacion": [
+        "Vergüenza tóxica por sentir envidia (negación del sentimiento).",
+        "Competitividad destructiva en relaciones cercanas.",
+        "Uso de la envidia como brújula para identificar valores y deseos propios.",
+        "Minimización de los logros ajenos para proteger la autoestima."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de la idea de que \"sentir envidia me hace mala persona\", aceptándola como un evento mental.",
+        "Terapia de Esquemas:: Trabajar el esquema de Insuficiencia que se activa al compararse con otros.",
+        "Narrativa:: Re-enmarcar la envidia como \"un mapa de tus propios anhelos\" en lugar de un defecto moral.",
+        "Positiva:: Práctica de \"fiero compasivo\" (celebrar los logros ajenos como evidencia de que es posible)."
+      ],
+      "tarea": "La próxima vez que sientas envidia, no la juzgues. Pregúntate: \"¿Qué me está mostrando esta emoción sobre lo que yo quiero para mi vida?\". Anota la respuesta."
+    },
+    {
+      "codigo": "C-35",
+      "iconos": [
+        "❤️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Crees que las personas pueden cambiar realmente en una relación, o que \"la gente no cambia\"?",
+      "objetivo": "Evaluar la creencia sobre la maleabilidad de las relaciones y las personas. Detectar cinismo relacional, indefensión aprendida o, por el contrario, ingenuidad en la esperanza de cambio.",
+      "profundizacion": [
+        "¿En qué experiencias basas esa creencia?",
+        "¿Has visto ejemplos de cambio genuino en tu entorno?",
+        "¿Estás esperando que alguien cambie para que tú puedas estar bien?"
+      ],
+      "observacion": [
+        "Cinismo absoluto (\"todos son iguales, nadie cambia\").",
+        "Esperanza ingenua y prolongada en alguien que no muestra esfuerzos.",
+        "Visión matizada: el cambio es posible, pero requiere trabajo y deseo genuino.",
+        "Proyección del propio miedo al cambio en los demás."
+      ],
+      "intervenciones": [
+        "TCC:: Análisis de evidencias reales de cambio en el paciente y en otros, desafiando la generalización absoluta.",
+        "Entrevista Motivacional:: Explorar la ambivalencia del paciente sobre su propio cambio o el de su pareja.",
+        "Terapia de Esquemas:: Trabajar la esperanza irreal (modo del Niño Esperanzado) frente a la realidad de los hechos.",
+        "Sistémica:: Observar cómo el cambio de una pieza del sistema (el paciente) obliga al resto del sistema a reajustarse."
+      ],
+      "tarea": "Escribe una lista de 3 personas que hayan cambiado significativamente para bien en tu vida (incluyéndote a ti). ¿Qué condiciones permitieron ese cambio? ¿Están presentes en tu relación actual?"
+    },
+    {
+      "codigo": "C-36",
+      "iconos": [
+        "⚡",
+        "👤"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre la sexualidad y el afecto físico? ¿Son una obligación, un premio, una conexión o un territorio propio?",
+      "objetivo": "Explorar las creencias nucleares sobre la intimidad física y sexual. Detectar mandatos religiosos, culturales o traumáticos que afectan la vivencia del placer y el consentimiento.",
+      "profundizacion": [
+        "¿Qué mensajes recibiste sobre el sexo y el cuerpo al crecer?",
+        "¿Sientes que tu cuerpo te pertenece completamente?",
+        "¿Cómo afecta esta creencia a tu capacidad de decir \"sí\" o \"no\" en la intimidad?"
+      ],
+      "observacion": [
+        "Sexualidad vivida como obligación o deber conyugal.",
+        "Desconexión corporal o disociación durante el contacto físico.",
+        "Creencia de que el afecto físico debe \"ganarse\".",
+        "Vivencia de la sexualidad como espacio de placer, autonomía y conexión."
+      ],
+      "intervenciones": [
+        "Sexología Clínica / Sensoriomotriz:: Reconexión con las sensaciones corporales y el derecho al placer sin culpa.",
+        "EMDR:: Procesamiento de memorias de abuso, coerción o vergüenza sexual temprana.",
+        "Sistémica:: Exploración de los mandatos transgeneracionales sobre el cuerpo y la moralidad.",
+        "ACT:: Aceptación de las propias necesidades de intimidad y clarificación de valores sexuales auténticos."
+      ],
+      "tarea": "Escribe una carta a tu cuerpo agradeciéndole por algo específico que hace por ti (no relacionado con la apariencia). Reivindica tu derecho a decidir sobre él."
+    },
+    {
+      "codigo": "C-37",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "¿Crees que perteneces a los grupos en los que estás (trabajo, amigos, familia) o que eres un impostor?",
+      "objetivo": "Evaluar el síndrome del impostor en contextos relacionales. Detectar esquemas de defectuosidad o de exclusión social. Explorar la sensación de no-encaje.",
+      "profundizacion": [
+        "¿Qué te hace sentir que \"no encajas\" del todo?",
+        "¿Crees que si te conocieran realmente, te expulsarían?",
+        "¿Qué evidencia tienes de que sí perteneces?"
+      ],
+      "observacion": [
+        "Síndrome del impostor severo en múltiples ámbitos.",
+        "Hiperadaptación para \"encajar\" perdiendo la autenticidad.",
+        "Sentimiento real de no-pertenencia en entornos tóxicos (intuición sana).",
+        "Seguridad en la pertenencia basada en la autenticidad, no en la perfección."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración de las distorsiones cognitivas que alimentan el síndrome del impostor (ej. filtraje, descalificación de lo positivo).",
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza y el modo del Niño Avergonzado.",
+        "Narrativa:: Externalizar la \"voz del impostor\" como un relato impuesto, no como una verdad identitaria.",
+        "Humanista:: Validación de la experiencia de no-pertenencia y exploración de comunidades más afines a los valores del paciente."
+      ],
+      "tarea": "Haz una lista de 3 momentos en los que alguien te incluyó, te buscó o valoró tu presencia específicamente. Guarda esta lista para cuando la \"voz del impostor\" hable fuerte."
+    },
+    {
+      "codigo": "C-38",
+      "iconos": [
+        "❤️",
+        "🌱"
+      ],
+      "pregunta": "¿Qué creencia tienes sobre las despedidas? ¿Son un fracaso o una parte natural de los ciclos?",
+      "objetivo": "Explorar la relación con el cierre de ciclos y el duelo relacional. Detectar esquemas de abandono o dificultades con la transición y la impermanencia.",
+      "profundizacion": [
+        "¿Cómo te enseñaron a despedirte en tu familia?",
+        "¿Prefieres \"cortar por lo sano\" o alargar las cosas por miedo al final?",
+        "¿Qué crees que se lleva la persona o la etapa que se va, y qué te deja a ti?"
+      ],
+      "observacion": [
+        "Evitación fóbica de las despedidas (fantasmas, relaciones \"zombi\").",
+        "Duelo no resuelto que contamina nuevas relaciones.",
+        "Capacidad de cerrar ciclos con gratitud y tristeza saludable.",
+        "Despedidas abruptas como mecanismo de defensa (huir antes de ser dejado)."
+      ],
+      "intervenciones": [
+        "Gestalt:: Trabajo con sillas vacías para completar gestalts pendientes de despedidas no dichas.",
+        "Logoterapia:: Encontrar sentido en la finitud de los vínculos y en lo que perdura más allá de la presencia física.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono que hace que toda despedida se sienta como una catástrofe.",
+        "Narrativa:: Crear un ritual de cierre simbólico para honrar lo que fue y permitir que termine."
+      ],
+      "tarea": "Escribe una despedida simbólica a una etapa, relación o versión de ti mismo que ya no existe. Agradece lo que te dio y declara que la sueltas con amor."
+    },
+    {
+      "codigo": "C-39",
+      "iconos": [
+        "🧠",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Crees que mereces una relación donde no tengas que \"luchar\" constantemente por ser visto/a?",
+      "objetivo": "Evaluar la creencia sobre el esfuerzo relacional y el merecimiento de la facilidad. Detectar patrones de persecución-retirada o normalización del sufrimiento amoroso.",
+      "profundizacion": [
+        "¿Asocias el amor con el esfuerzo y el sacrificio?",
+        "¿Qué te asusta de una relación que fluye con calma?",
+        "¿Quién te enseñó que el amor debe doler o costar?"
+      ],
+      "observacion": [
+        "Normalización de relaciones de alto conflicto o indiferencia.",
+        "Aburrimiento o desconfianza ante la estabilidad y el cuidado mutuo.",
+        "Reconocimiento del derecho a una relación recíproca y fluida.",
+        "Culpa por \"no luchar lo suficiente\" cuando la relación es sana."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Privación Emocional y la creencia de que las propias necesidades no serán atendidas sin lucha.",
+        "Teoría del Apego:: Psicoeducación sobre cómo el apego ansioso confunde la activación del sistema de amenaza con \"pasión\".",
+        "ACT:: Clarificación de valores: ¿quiero una relación basada en la lucha o en la construcción conjunta?",
+        "Humanista:: Validación del derecho inherente a ser amado sin condiciones ni batallas constantes."
+      ],
+      "tarea": "Escribe una descripción de cómo sería un día ordinario en una relación donde no tuvieras que \"luchar\" por ser visto/a. Sé específico/a con las acciones y las sensaciones."
+    },
+    {
+      "codigo": "C-40",
+      "iconos": [
+        "🎯",
+        "🌱"
+      ],
+      "pregunta": "Si pudieras reescribir una creencia relacional que te ha hecho daño, ¿por cuál la reemplazarías a partir de hoy?",
+      "objetivo": "Cierre del lote con enfoque en la reestructuración cognitiva y la agencia personal. Consolidar la capacidad de elegir nuevas narrativas relacionales.",
+      "profundizacion": [
+        "¿Qué evidencia, por pequeña que sea, ya apoya esta nueva creencia?",
+        "¿Qué harás diferente esta semana para actuar como si esta nueva creencia fuera verdad?",
+        "¿Quién te apoyará en sostener este nuevo relato?"
+      ],
+      "observacion": [
+        "Elección de una nueva creencia realista y empoderadora.",
+        "Dificultad para imaginar una alternativa (rigidez cognitiva).",
+        "Nueva creencia idealizada o mágica (evitación de la realidad).",
+        "Compromiso conductual claro con la nueva narrativa."
+      ],
+      "intervenciones": [
+        "TCC:: Diseño de un experimento conductual para poner a prueba la nueva creencia en la vida real.",
+        "Narrativa:: Ceremonia de \"graduación\" de la vieja creencia y bienvenida a la nueva historia de vida.",
+        "ACT:: Compromiso de acción alineado con la nueva creencia, aceptando la incomodidad inicial del cambio.",
+        "Terapia de Esquemas:: Refuerzo del modo del Adulto Saludable como gestor de la nueva narrativa."
+      ],
+      "tarea": "Escribe tu nueva creencia relacional en una tarjeta. Llévala en tu bolsillo o cartera durante una semana. Cada vez que la toques, recuerda: \"Estoy eligiendo esta verdad para mis relaciones\"."
+    },
+    {
+      "codigo": "C-41",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "Si pudieras elegir una creencia antigua para \"jubilarse\", ¿cuál sería y qué creencia nueva la reemplazaría?",
+      "objetivo": "Iniciar formalmente el proceso de reestructuración cognitiva. Identificar la creencia diana principal y co-crear una alternativa más adaptativa y realista.",
+      "profundizacion": [
+        "¿Qué evidencia mínima ya existe en tu vida que apoye esta nueva creencia?",
+        "¿Qué te asusta de soltar la antigua y adoptar la nueva?",
+        "¿Cómo sonaría tu diálogo interno si la nueva creencia fuera ya un hecho?"
+      ],
+      "observacion": [
+        "Elección de una nueva creencia realista y matizada.",
+        "Dificultad para generar alternativas (rigidez cognitiva).",
+        "Nueva creencia idealizada o mágica (evitación de la realidad).",
+        "Entusiasmo genuino y compromiso con el cambio."
+      ],
+      "intervenciones": [
+        "TCC:: Técnica del doble registro: contrastar la creencia antigua con la nueva y buscar evidencias conductuales de esta última.",
+        "Narrativa:: Ejercicio de \"re-autoría\" donde el paciente se escribe a sí mismo ya viviendo bajo la nueva creencia.",
+        "ACT:: Clarificación de valores: ¿cómo te acerca esta nueva creencia a la vida que quieres vivir?",
+        "Terapia de Esquemas:: Diálogo entre el Adulto Saludable y el Niño Vulnerable para validar el miedo al cambio y reforzar la nueva narrativa."
+      ],
+      "tarea": "Escribe la creencia antigua en un papel y rómpelo simbólicamente. Escribe la nueva creencia en una tarjeta y llévala contigo durante una semana como recordatorio."
+    },
+    {
+      "codigo": "C-42",
+      "iconos": [
+        "🧠",
+        "🔍"
+      ],
+      "pregunta": "¿Qué evidencias reales, por pequeñas que sean, contradicen tu creencia limitante más arraigada?",
+      "objetivo": "Debilitar la creencia nuclear negativa mediante la búsqueda activa de evidencia contradictoria (desconfirmación). Romper el sesgo de confirmación.",
+      "profundizacion": [
+        "¿Por qué has ignorado o minimizado estas evidencias hasta ahora?",
+        "¿Qué tendría que pasar para que le dieras a estas evidencias el mismo peso que a las negativas?",
+        "¿Alguien más en tu vida ha notado estas excepciones?"
+      ],
+      "observacion": [
+        "Descalificación automática de lo positivo (\"fue suerte\").",
+        "Sorpresa genuina al recordar excepciones olvidadas.",
+        "Bloqueo inicial seguido de hallazgos significativos.",
+        "Intelectualización sin conexión emocional con las evidencias."
+      ],
+      "intervenciones": [
+        "TCC:: Registro de evidencias a favor y en contra, con énfasis en desafiar la descalificación de lo positivo.",
+        "Entrevista Motivacional:: Preguntas evocadoras para que el paciente descubra sus propias excepciones.",
+        "Soluciones:: Preguntas de excepción: \"¿Cuándo fue la última vez que esta creencia NO fue cierta?\".",
+        "CFT:: Validar la dificultad de ver lo positivo y cultivar la calidez al reconocer los propios logros."
+      ],
+      "tarea": "Crea un \"frasco de evidencias\". Durante esta semana, cada vez que ocurra algo que contradiga tu creencia limitante, escríbelo en un papel y guárdalo. Léelos todos el domingo."
+    },
+    {
+      "codigo": "C-43",
+      "iconos": [
+        "🌱",
+        "🧠"
+      ],
+      "pregunta": "Si un ser querido tuviera exactamente tu misma creencia limitante, ¿qué le dirías para ayudarlo a cambiarla?",
+      "objetivo": "Utilizar la técnica de la \"doble estándar\" o \"distanciamiento perspectivo\" para acceder a la sabiduría interna del paciente y aplicarla a sí mismo, reduciendo la autocrítica.",
+      "profundizacion": [
+        "¿Por qué te resulta más fácil ser compasivo con otro que contigo mismo?",
+        "¿Qué te impide aplicar ese mismo consejo a tu propia vida?",
+        "¿Cómo sonaría si te lo dijeras a ti mismo con la misma sinceridad?"
+      ],
+      "observacion": [
+        "Respuesta compasiva y sabia hacia el \"otro\", pero bloqueo hacia sí mismo.",
+        "Insight repentino sobre la dureza del auto-trato.",
+        "Dificultad para imaginar a alguien más con ese problema (sentimiento de unicidad negativa).",
+        "Integración fluida del consejo propio."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de la \"carta compasiva\": escribirse a sí mismo desde la perspectiva de un amigo sabio y bondadoso.",
+        "Gestalt:: Técnica de la silla vacía: dialogar con el \"otro\" y luego cambiar de silla para recibir el mensaje.",
+        "TCC:: Identificación de la distorsión cognitiva de \"filtro mental\" o \"etiquetado\" que se aplica a uno mismo pero no a otros.",
+        "Narrativa:: Re-enmarcar la historia propia con la misma generosidad narrativa que se aplica a los demás."
+      ],
+      "tarea": "Escribe una carta dirigida a ti mismo, pero firmada por ese \"ser querido imaginario\" que te quiere profundamente. Léela en voz alta."
+    },
+    {
+      "codigo": "C-44",
+      "iconos": [
+        "🎯",
+        "🧠"
+      ],
+      "pregunta": "¿Qué harías diferente esta semana si actuaras \"como si\" tu nueva creencia ya fuera 100% verdadera?",
+      "objetivo": "Introducir el \"experimento conductual\" o la \"actuación como si\" (acting as if) para generar nuevas experiencias que consoliden la creencia alternativa desde la acción, no solo desde el pensamiento.",
+      "profundizacion": [
+        "¿Qué pequeño paso sería manejable y seguro para probar esto?",
+        "¿Qué obstáculos anticipas y cómo los sortearías?",
+        "¿Cómo te sentirías al final del día si lo lograras?"
+      ],
+      "observacion": [
+        "Propuestas de acción concretas, graduales y realistas.",
+        "Parálisis por perfeccionismo (\"tendría que cambiar todo de golpe\").",
+        "Miedo a la exposición o al fracaso del experimento.",
+        "Entusiasmo y planificación colaborativa con el terapeuta."
+      ],
+      "intervenciones": [
+        "TCC:: Diseño y ejecución de un experimento conductual jerarquizado para poner a prueba la nueva creencia.",
+        "ACT:: Acción comprometida: alinear el comportamiento con el valor subyacente a la nueva creencia, a pesar de la incomodidad.",
+        "Sistémica:: Observar cómo este pequeño cambio conductual altera las respuestas del entorno (cambio sistémico).",
+        "Soluciones:: Definir el \"primer paso más pequeño posible\" hacia la nueva realidad."
+      ],
+      "tarea": "Elige UNA acción pequeña que harías si creyeras plenamente en tu nueva creencia. Hazla esta semana. No importa el resultado, solo importa que la intentes. Registra lo que aprendiste."
+    },
+    {
+      "codigo": "C-45",
+      "iconos": [
+        "⚡",
+        "🧠"
+      ],
+      "pregunta": "Cuando aparece la disonancia cognitiva (la incomodidad de sostener dos ideas contradictorias), ¿cómo sueles resolverla: volviendo a lo viejo o avanzando hacia lo nuevo?",
+      "objetivo": "Psicoeducar sobre la disonancia cognitiva como señal de crecimiento, no de fracaso. Identificar los patrones de regresión a la creencia antigua por comodidad o familiaridad.",
+      "profundizacion": [
+        "¿Dónde sientes esa incomodidad en el cuerpo?",
+        "¿Qué excusas te das para volver a la creencia antigua?",
+        "¿Puedes tolerar esa incomodidad el tiempo suficiente para que la nueva creencia se asiente?"
+      ],
+      "observacion": [
+        "Regresión rápida a la creencia antigua ante la primera señal de estrés.",
+        "Reconocimiento de la disonancia como \"dolores de crecimiento\".",
+        "Intolerancia a la ambigüedad que bloquea el proceso.",
+        "Curiosidad por observar el conflicto interno sin juzgarlo."
+      ],
+      "intervenciones": [
+        "ACT:: Expansión y aceptación de la disonancia como parte natural del cambio, sin intentar eliminarla inmediatamente.",
+        "TCC:: Psicoeducación sobre la disonancia cognitiva y reestructuración de la idea de que \"el cambio debe ser indoloro\".",
+        "Sensoriomotriz:: Trabajar la regulación del sistema nervioso cuando la disonancia activa una respuesta de amenaza.",
+        "Narrativa:: Re-enmarcar la disonancia como el \"capítulo de transición\" de la historia, no como un retroceso."
+      ],
+      "tarea": "La próxima vez que sientas la incomodidad de la disonancia, detente y di: \"Esto no es una señal de que algo va mal, es la sensación de mi cerebro creando una nueva conexión\". Anota qué pasó después."
+    },
+    {
+      "codigo": "C-46",
+      "iconos": [
+        "👤",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo cambia tu definición de \"quién soy\" al integrar esta nueva creencia?",
+      "objetivo": "Trabajar la reestructuración de la identidad. Ayudar al paciente a actualizar su autoconcepto para que sea congruente con la nueva creencia, evitando la disonancia identitaria.",
+      "profundizacion": [
+        "¿Qué adjetivos nuevos te describen ahora?",
+        "¿Qué roles antiguos estás dispuesto/a a soltar?",
+        "¿Cómo te imagina tu \"yo del futuro\" con esta nueva identidad?"
+      ],
+      "observacion": [
+        "Expansión del autoconcepto con lenguaje más flexible y compasivo.",
+        "Duelo por la pérdida de la identidad antigua (ej. \"ya no soy el fuerte\").",
+        "Resistencia a actualizar la identidad a pesar del cambio cognitivo.",
+        "Integración fluida y celebración del nuevo autoconcepto."
+      ],
+      "intervenciones": [
+        "Narrativa:: Ejercicio de \"re-autoría de la identidad\": escribir un nuevo párrafo introductorio de la propia vida.",
+        "Terapia de Esquemas:: Fortalecer el modo del Adulto Saludable como el nuevo gestor de la identidad.",
+        "ACT:: Trabajo con el \"Yo como contexto\": observar que la identidad es un paisaje en cambio, no una caja fija.",
+        "Humanista:: Validación y celebración del proceso de individuación y crecimiento personal."
+      ],
+      "tarea": "Escribe una lista de 5 adjetivos que definían tu \"yo antiguo\" y tacha los que ya no resuenan. Escribe 5 nuevos adjetivos que definan tu \"yo en evolución\"."
+    },
+    {
+      "codigo": "C-47",
+      "iconos": [
+        "⚡",
+        "🛡️"
+      ],
+      "pregunta": "Cuando la vida te ponga a prueba y la vieja creencia intente volver, ¿cuál será tu \"plan de emergencia\" cognitivo?",
+      "objetivo": "Prevención de recaídas cognitivas. Co-crear un plan de acción concreto para manejar los detonantes futuros que activan la creencia antigua, normalizando las fluctuaciones.",
+      "profundizacion": [
+        "¿Cuáles son tus 3 detonantes más probables?",
+        "¿Qué señal corporal te avisará que la vieja creencia está volviendo?",
+        "¿A quién puedes acudir o qué recurso puedes usar en ese momento?"
+      ],
+      "observacion": [
+        "Plan concreto, realista y con recursos identificados.",
+        "Negación del riesgo (\"eso ya no me va a pasar nunca\").",
+        "Catastrofismo ante la posibilidad de una recaída.",
+        "Reconocimiento maduro de la vulnerabilidad y la preparación."
+      ],
+      "intervenciones": [
+        "TCC:: Elaboración de un \"plan de prevención de recaídas\" con identificación de señales de alerta temprana y respuestas alternativas.",
+        "DBT:: Creación de un \"kit de habilidades de crisis\" personalizado para momentos de alta vulnerabilidad cognitiva.",
+        "ACT:: Tarjetas de recordatorio de valores y defusión para usar en momentos de \"secuestro\" por la vieja creencia.",
+        "Sistémica:: Identificar qué personas del entorno pueden actuar como \"copilotos\" en este plan de emergencia."
+      ],
+      "tarea": "Diseña tu \"Tarjeta de Emergencia Cognitiva\": 3 pasos concretos que seguirás cuando la vieja creencia ataque. Guárdala en tu teléfono o billetera."
+    },
+    {
+      "codigo": "C-48",
+      "iconos": [
+        "❤️",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo puedes usar la autocompasión para suavizar el proceso de cambiar una creencia que has sostenido durante años?",
+      "objetivo": "Integrar la autocompasión como lubricante del cambio cognitivo. Reducir la frustración y la autocrítica cuando el cambio no es lineal o es más lento de lo esperado.",
+      "profundizacion": [
+        "¿Te exiges cambiar de creencia \"ya\" o te permites un proceso?",
+        "¿Qué te dirías si un amigo estuviera luchando con este mismo cambio?",
+        "¿Puedes reconocer el esfuerzo que ya has hecho, independientemente del resultado?"
+      ],
+      "observacion": [
+        "Autocrítica severa por \"no cambiar lo suficientemente rápido\".",
+        "Apertura a tratarse con la misma bondad que a un amigo.",
+        "Confusión entre autocompasión y autocomplacencia.",
+        "Alivio visible al recibir permiso para ir a su propio ritmo."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de \"pausa compasiva\": detenerse, calmar el sistema nervioso y hablarse con calidez ante la dificultad del cambio.",
+        "ACT:: Defusión de la idea de que \"debo ser perfecto en mi recuperación\" y aceptación del proceso humano imperfecto.",
+        "Terapia de Esquemas:: Calmar al \"Niño Exigido\" que critica el ritmo del cambio y fortalecer al \"Adulto Compasivo\".",
+        "Mindfulness:: Observar la frustración sin engancharse a ella, reconociéndola como parte del camino."
+      ],
+      "tarea": "Pon una mano en tu corazón y di en voz alta: \"Cambiar es difícil y está bien que me tome tiempo. Me doy permiso para avanzar a mi propio ritmo\". Observa la sensación física."
+    },
+    {
+      "codigo": "C-49",
+      "iconos": [
+        "📖",
+        "🧠"
+      ],
+      "pregunta": "Si tu vida fuera un libro, ¿cómo reescribirías el capítulo actual ahora que tienes esta nueva creencia?",
+      "objetivo": "Consolidar el cambio a través de la re-narración. Ayudar al paciente a ver su presente y futuro inmediato desde la óptica de la nueva creencia, cerrando la brecha entre el insight y la identidad narrativa.",
+      "profundizacion": [
+        "¿Cuál sería el título de este nuevo capítulo?",
+        "¿Qué decisiones tomaría el protagonista (tú) que no tomaba antes?",
+        "¿Cómo describirías el tono emocional de este nuevo capítulo?"
+      ],
+      "observacion": [
+        "Narrativa coherente, empoderada y con sentido de agencia.",
+        "Dificultad para imaginar un futuro diferente (pesimismo narrativo).",
+        "Título o descripción que aún contiene elementos de la vieja creencia.",
+        "Creatividad y emoción positiva al proyectar la nueva historia."
+      ],
+      "intervenciones": [
+        "Narrativa:: Técnica de \"re-autoría\": escribir activamente el nuevo capítulo con detalles sensoriales y emocionales.",
+        "Logoterapia:: Encontrar el sentido y el propósito en este nuevo capítulo de la vida.",
+        "Positiva:: Visualización del mejor yo posible (Best Possible Self) integrada en la narrativa.",
+        "Gestalt:: Leer el nuevo capítulo en voz alta en sesión para anclarlo somática y emocionalmente."
+      ],
+      "tarea": "Escribe el primer párrafo de este \"nuevo capítulo\" de tu vida. Empieza con: \"A partir de hoy, decido que...\". Guárdalo en un lugar visible."
+    },
+    {
+      "codigo": "C-50",
+      "iconos": [
+        "🧠",
+        "🎯"
+      ],
+      "pregunta": "¿En qué se diferencia una \"esperanza\" de una \"creencia\"? ¿Cómo conviertes esta nueva esperanza en una creencia sólida?",
+      "objetivo": "Diferenciar el deseo superficial de la convicción profunda. Trabajar la consolidación de la nueva creencia mediante la repetición, la evidencia y la integración conductual.",
+      "profundizacion": [
+        "¿Qué le falta a esta idea para que deje de ser solo un \"desearía\" y pase a ser un \"yo sé\"?",
+        "¿Qué acciones diarias pueden \"regalar\" esta creencia a tu cerebro?",
+        "¿Cuánto tiempo crees que tomará que se sienta natural?"
+      ],
+      "observacion": [
+        "Comprensión clara de que las creencias se construyen con acción, no solo con deseo.",
+        "Frustración por la lentitud del proceso de consolidación.",
+        "Confusión persistente entre querer algo y creerlo.",
+        "Compromiso con un plan de acción repetitivo y paciente."
+      ],
+      "intervenciones": [
+        "TCC:: Psicoeducación sobre la neuroplasticidad: explicar que las creencias son caminos neuronales que se fortalecen con la repetición.",
+        "Conductual:: Diseño de un \"hábito de creencia\": una acción micro-diaria que refuerce la nueva narrativa.",
+        "ACT:: Compromiso sostenido con acciones alineadas a la nueva creencia, a pesar de la ausencia de certeza absoluta inicial.",
+        "Sistémica:: Involucrar al entorno para que \"refleje\" y valide la nueva creencia del paciente."
+      ],
+      "tarea": "Elige una micro-acción que puedas hacer todos los días durante 21 días que demuestre que estás empezando a creer en esta nueva idea. Registra tu racha."
+    },
+    {
+      "codigo": "C-51",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿Cómo puedes construir un \"portafolio de creencias\" diversificado, para no depender de una sola idea sobre ti mismo o el mundo?",
+      "objetivo": "Fomentar la flexibilidad cognitiva y la resiliencia. Evitar que el paciente reemplace una creencia rígida negativa por una creencia rígida positiva frágil, promoviendo un sistema de creencias matizado y adaptable.",
+      "profundizacion": [
+        "¿Qué otras verdades sobre ti complementan esta nueva creencia?",
+        "¿Cómo te ayuda tener múltiples perspectivas a ser más resiliente?",
+        "¿Puedes aceptar que a veces una creencia aplica y a veces otra?"
+      ],
+      "observacion": [
+        "Apertura a la complejidad y la ambigüedad saludable.",
+        "Necesidad de una \"única verdad absoluta\" (pensamiento dicotómico).",
+        "Capacidad de integrar paradojas (\"soy fuerte Y a veces necesito ayuda\").",
+        "Alivio al no tener que sostener una perfección cognitiva."
+      ],
+      "intervenciones": [
+        "ACT:: Trabajo con la flexibilidad psicológica y la aceptación de la paradoja como parte de la riqueza humana.",
+        "TCC:: Desafío del pensamiento \"todo o nada\" mediante la generación de alternativas múltiples y matizadas.",
+        "Terapia de Esquemas:: Integración de modos: reconocer que diferentes situaciones activan diferentes partes, y todas son válidas.",
+        "Positiva:: Cultivo de la sabiduría como la capacidad de sostener múltiples perspectivas simultáneamente."
+      ],
+      "tarea": "Escribe 3 creencias sobre ti que parezcan opuestas pero que ambas sean verdaderas (ej. \"Soy independiente\" Y \"Necesito a los demás\"). Observa cómo se sostienen juntas."
+    },
+    {
+      "codigo": "C-52",
+      "iconos": [
+        "⚖️",
+        "🧠"
+      ],
+      "pregunta": "¿Qué \"ganancia oculta\" o beneficio secundario estás dispuesto/a a soltar al dejar ir tu creencia antigua?",
+      "objetivo": "Abordar la resistencia al cambio desde la honestidad radical. Identificar y elaborar el duelo por la pérdida de los beneficios secundarios (ej. atención, excusa, seguridad) que la creencia antigua proporcionaba.",
+      "profundizacion": [
+        "¿De qué te ha protegido esta creencia hasta ahora?",
+        "¿Qué responsabilidad nueva tendrás que asumir si la sueltas?",
+        "¿Cómo puedes obtener esa misma necesidad de forma más saludable?"
+      ],
+      "observacion": [
+        "Reconocimiento honesto del beneficio secundario y duelo asociado.",
+        "Defensa o negación de cualquier beneficio (\"no hay ninguno\").",
+        "Miedo abrumador a la responsabilidad que implica el cambio.",
+        "Planificación creativa de nuevas formas de satisfacer la necesidad."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Validar la función protectora original del esquema y negociar con el Adulto Saludable una forma mejor de cubrir esa necesidad.",
+        "ACT:: Análisis funcional de la conducta: clarificar los costos a largo plazo de mantener el beneficio secundario a corto plazo.",
+        "Psicodinámica:: Explorar la resistencia y el duelo por la pérdida de la \"enfermedad\" o el rol conocido.",
+        "Sistémica:: Negociar nuevos roles en el sistema familiar que no dependan de la vieja creencia."
+      ],
+      "tarea": "Escribe una \"carta de despido\" al beneficio secundario. Agradece su servicio, pero declara que ahora tienes formas más sanas de cuidar de ti. Lée y luego destruye la carta."
+    },
+    {
+      "codigo": "C-53",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo impactará esta nueva creencia en tus relaciones más cercanas? ¿Quién la apoyará y quién podría resistirse?",
+      "objetivo": "Anticipar y gestionar el impacto sistémico del cambio cognitivo individual. Preparar al paciente para las posibles reacciones del entorno (homéostasis sistémica) y fortalecer su red de apoyo.",
+      "profundizacion": [
+        "¿Cómo reaccionará tu pareja/familia cuando ya no actúes desde la vieja creencia?",
+        "¿Qué límites necesitarás establecer con quienes se resistan?",
+        "¿Quién en tu vida ya está sembrando esta nueva creencia contigo?"
+      ],
+      "observacion": [
+        "Conciencia clara de las dinámicas sistémicas y preparación para establecer límites.",
+        "Miedo paralizante al rechazo o al conflicto relacional.",
+        "Subestimación del impacto del cambio en el sistema (\"no pasará nada\").",
+        "Identificación proactiva de aliados y estrategias de comunicación."
+      ],
+      "intervenciones": [
+        "Sistémica:: Análisis de la homeostasis familiar y ensayo de respuestas asertivas ante la resistencia del sistema.",
+        "DBT:: Entrenamiento en habilidades de efectividad interpersonal para comunicar el cambio sin generar conflicto innecesario.",
+        "Terapia de Esquemas:: Fortalecer el Adulto Saludable para mantener los límites sin caer en la complacencia o el ataque.",
+        "Narrativa:: Co-crear una \"historia de actualización\" para compartir con seres queridos de forma clara y calmada."
+      ],
+      "tarea": "Identifica a una persona de tu entorno que sea un \"aliado\" de tu cambio. Compártele tu nueva creencia y pídele que te ayude a recordarla cuando dudes."
+    },
+    {
+      "codigo": "C-54",
+      "iconos": [
+        "❤️",
+        "👤"
+      ],
+      "pregunta": "¿Dónde sientes en tu cuerpo la diferencia entre la vieja creencia y la nueva? ¿Qué cambia en tu postura, respiración o tensión?",
+      "objetivo": "Integración somática del cambio cognitivo. Asegurar que la nueva creencia no sea solo un ejercicio intelectual, sino que esté anclada en una experiencia corporal de seguridad y expansión.",
+      "profundizacion": [
+        "Si la vieja creencia tuviera una postura corporal, ¿cuál sería?",
+        "¿Cómo se expande o relaja tu cuerpo cuando abrazas la nueva creencia?",
+        "¿Qué necesitas hacer físicamente para \"habitar\" esta nueva verdad?"
+      ],
+      "observacion": [
+        "Cambio visible y reportado en la respiración, postura o tono muscular.",
+        "Disociación: puede describir el cambio mentalmente, pero no siente nada en el cuerpo.",
+        "Aparición de tensión o malestar somático al intentar sostener la nueva creencia.",
+        "Integración fluida: el cuerpo \"asiente\" y se relaja con la nueva narrativa."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Exploración de los impulsos de acción completados y anclaje de la postura de \"empoderamiento\" asociada a la nueva creencia.",
+        "Somática:: Body scan comparativo: notar las diferencias de activación del sistema nervioso entre ambas creencias.",
+        "Gestalt:: Experimento de encarnación: adoptar físicamente la postura de la nueva creencia y hablar desde ella.",
+        "EMDR:: Instalación de la creencia positiva (CP) con estimulación bilateral para anclarla somáticamente."
+      ],
+      "tarea": "Cierra los ojos. Imagina la vieja creencia y nota tu cuerpo. Luego, imagina la nueva creencia y nota el cambio. Quédate con la nueva sensación durante 30 segundos y anota qué cambió."
+    },
+    {
+      "codigo": "C-55",
+      "iconos": [
+        "🎯",
+        "🌱"
+      ],
+      "pregunta": "Imagina tu vida dentro de un año si esta nueva creencia se hubiera consolidado completamente. ¿Qué es diferente?",
+      "objetivo": "Future pacing (proyección futura). Utilizar la visualización detallada para motivar el cambio, clarificar los beneficios a largo plazo y crear un mapa mental atractivo hacia el que el cerebro pueda orientarse.",
+      "profundizacion": [
+        "¿Cómo es un día ordinario en ese futuro?",
+        "¿Qué decisiones has dejado de tomar y cuáles has empezado a tomar?",
+        "¿Cómo te describen los demás en ese escenario?"
+      ],
+      "observacion": [
+        "Visualización rica, detallada y con carga emocional positiva.",
+        "Bloqueo o ansiedad al intentar proyectarse en el futuro.",
+        "Descripción vaga o genérica sin conexión personal.",
+        "Emergencia espontánea de nuevos objetivos y deseos."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio detallado del \"Mejor Yo Posible\" (Best Possible Self) con escritura expresiva.",
+        "Soluciones:: Preguntas de milagro: \"Si mañana esta creencia fuera realidad, ¿cuál sería la primera pequeña señal que notarías?\".",
+        "ACT:: Visualización de la vida valiosa: conectar la proyección futura con los valores fundamentales del paciente.",
+        "Coaching:: Establecimiento de hitos inversos: ¿qué paso debe darse hoy para llegar a esa visión de un año?"
+      ],
+      "tarea": "Escribe una \"carta desde el futuro\" fechada dentro de un año, contándole a tu yo de hoy cómo ha cambiado tu vida gracias a esta nueva creencia. Sé muy específico."
+    },
+    {
+      "codigo": "C-56",
+      "iconos": [
+        "🧠",
+        "⚡"
+      ],
+      "pregunta": "Cuando aparece el \"Sí, pero...\" (la objeción interna que intenta sabotear la nueva creencia), ¿cómo puedes responderle con firmeza y compasión?",
+      "objetivo": "Identificar y gestionar la distorsión cognitiva del \"sí, pero...\" (descalificación de lo positivo). Entrenar al paciente en respuestas de reestructuración interna que no sean ni agresivas ni sumisas.",
+      "profundizacion": [
+        "¿Cuál es tu \"pero\" más habitual?",
+        "¿Ese \"pero\" te ayuda o te frena?",
+        "¿Cómo sería una respuesta que valide la preocupación pero elija avanzar de todos modos?"
+      ],
+      "observacion": [
+        "Reconocimiento rápido del patrón \"sí, pero...\" y su función de freno.",
+        "Enganche total con el \"pero\", abandonando el cambio.",
+        "Lucha interna feroz contra el \"pero\" (generando más resistencia).",
+        "Desarrollo de una respuesta integradora (\"sí, tengo miedo, y lo hago de todos modos\")."
+      ],
+      "intervenciones": [
+        "TCC:: Técnica del \"y, además...\": reemplazar el \"pero\" (que anula) por \"y\" (que suma), validando la emoción y manteniendo la acción.",
+        "ACT:: Defusión: \"Estoy teniendo el pensamiento de que 'sí, pero...'\". Observarlo sin obedecerlo.",
+        "Terapia de Esquemas:: Diálogo entre el Adulto Saludable y el Crítico, donde el Adulto pone un límite firme pero amable al \"pero\".",
+        "DBT:: Habilidad de \"Ambivalencia\": aceptar que dos cosas opuestas pueden ser ciertas al mismo tiempo."
+      ],
+      "tarea": "Escribe tu \"sí, pero...\" más común. Debajo, reescríbelo usando la fórmula: \"Es cierto que [objeción], Y ADEMÁS elijo [nueva acción/creencia] porque [valor]\"."
+    },
+    {
+      "codigo": "C-57",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿Qué ritual o práctica puedes crear para celebrar y anclar esta nueva creencia en tu vida diaria?",
+      "objetivo": "Consolidación a través del ritual. Utilizar la simbolización y la repetición intencional para marcar la transición y reforzar la nueva narrativa a nivel consciente e inconsciente.",
+      "profundizacion": [
+        "¿Qué tipo de ritual resuena contigo (escrito, corporal, verbal, simbólico)?",
+        "¿Con qué frecuencia necesitas recordarte esta nueva verdad?",
+        "¿Qué objetos, palabras o gestos pueden servirte como anclas?"
+      ],
+      "observacion": [
+        "Creación de un ritual significativo, realista y sostenible.",
+        "Resistencia a lo \"simbólico\" o consideración de ello como \"pérdida de tiempo\".",
+        "Ritual excesivamente complejo o poco práctico para el día a día.",
+        "Conexión emocional profunda con la idea del anclaje ritual."
+      ],
+      "intervenciones": [
+        "Narrativa:: Diseño de un ritual de paso o transición que marque formalmente el cierre de la vieja historia.",
+        "Conductual:: Establecimiento de un hábito de \"anclaje\" (ej. una afirmación matutina, un objeto en la billetera).",
+        "Somática:: Creación de un \"anclaje kinestésico\" (ej. tocar el pecho) asociado a la sensación de la nueva creencia.",
+        "Humanista:: Validación de la necesidad humana de ritualizar los cambios significativos de identidad."
+      ],
+      "tarea": "Diseña tu propio \"ritual de anclaje\". Puede ser tan simple como mirar al espejo cada mañana y decir tu nueva creencia, o encender una vela cada noche para celebrar un pequeño avance. Hazlo durante 7 días."
+    },
+    {
+      "codigo": "C-58",
+      "iconos": [
+        "👤",
+        "❤️"
+      ],
+      "pregunta": "Si pudieras viajar en el tiempo y hablar con tu \"yo del pasado\" que sostenía la vieja creencia, ¿qué le dirías para prepararlo para este cambio?",
+      "objetivo": "Integración temporal y reparentalización interna. Ofrecer al paciente la oportunidad de ser el mentor compasivo que su yo pasado necesitaba, cerrando ciclos de dolor y validando el camino recorrido.",
+      "profundizacion": [
+        "¿Qué necesitaba escuchar ese yo del pasado para no sentirse tan solo/a?",
+        "¿Cómo puedes darte a ti mismo/a ese mensaje hoy?",
+        "¿Qué orgullo sientes al ver cuánto has avanzado desde entonces?"
+      ],
+      "observacion": [
+        "Expresión de profunda compasión, orgullo y conexión con el yo pasado.",
+        "Desconexión emocional o dificultad para visualizar al yo pasado.",
+        "Juicio o impaciencia hacia el yo pasado (\"debiste darte cuenta antes\").",
+        "Integración emocional con catarsis liberadora y sanadora."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Diálogo de reparentalización: el Adulto Saludable consuela y valida al Niño Vulnerable del pasado.",
+        "EMDR:: Técnica de puente al pasado o carta al yo niño, procesando la carga emocional remanente.",
+        "Gestalt:: Silla vacía: conversación directa y emocional con el \"yo del pasado\" para ofrecer cierre y perdón.",
+        "CFT:: Generación de un flujo de calidez y seguridad dirigido hacia el yo que sufrió bajo la vieja creencia."
+      ],
+      "tarea": "Escribe una carta a tu \"yo del pasado\". Dile: \"Sé que creías [vieja creencia] porque era lo único que conocías. Quiero que sepas que lo hiciste lo mejor que pudiste. Hoy, yo me encargo de nosotros\"."
+    },
+    {
+      "codigo": "C-59",
+      "iconos": [
+        "🧠",
+        "🌱"
+      ],
+      "pregunta": "¿Qué lección te deja este proceso de cambiar una creencia sobre tu propia capacidad de transformar tu vida?",
+      "objetivo": "Metacognición y consolidación de la autoeficacia. Ayudar al paciente a internalizar no solo la nueva creencia, sino la *confianza en su capacidad* de seguir cambiando y creciendo en el futuro.",
+      "profundizacion": [
+        "¿Qué descubriste sobre tu resiliencia que no sabías antes?",
+        "¿Cómo cambia esto tu visión sobre los próximos desafíos?",
+        "¿Qué herramienta de este proceso te llevarás para siempre?"
+      ],
+      "observacion": [
+        "Reconocimiento claro de la propia agencia y fortaleza.",
+        "Atribución del cambio exclusivamente al terapeuta o a la suerte (locus de control externo).",
+        "Visión esperanzada y realista sobre la capacidad de cambio continuo.",
+        "Orgullo genuino y validación del esfuerzo invertido."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio de \"fortalezas en acción\": identificar y celebrar las fortalezas de carácter que permitieron este cambio.",
+        "Narrativa:: Consolidar la identidad de \"aprendiz permanente\" y \"agente de cambio\" en la historia de vida.",
+        "TCC:: Reforzar el locus de control interno, atribuyendo el éxito al esfuerzo y las estrategias del paciente.",
+        "Logoterapia:: Enfatizar el sentido de logro y la libertad de elegir la propia actitud ante las circunstancias."
+      ],
+      "tarea": "Escribe una lista de \"3 cosas que aprendí sobre mí mismo/a al cambiar esta creencia\". Guárdala como un recordatorio de tu capacidad de transformación."
+    },
+    {
+      "codigo": "C-60",
+      "iconos": [
+        "🧠",
+        "❤️",
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "Tu mosaico de creencias está completo. No es perfecto, pero es flexible, verdadero y tuyo. ¿Cómo eliges sostenerlo a partir de hoy?",
+      "objetivo": "Cierre e integración final del Mazo de Creencias. Consolidar la idea de que las creencias no son verdades absolutas e inmutables, sino piezas de un mosaico que puede ser revisado, ajustado y cuidado con flexibilidad y compasión.",
+      "profundizacion": [
+        "¿Qué significa para ti \"sostener\" una creencia sin aferrarte rígidamente a ella?",
+        "¿Cómo te relacionarás con las futuras dudas o cuestionamientos?",
+        "¿Qué palabra resume tu estado actual al terminar este trabajo?"
+      ],
+      "observacion": [
+        "Sensación de cierre, paz y aceptación de la propia complejidad.",
+        "Reconocimiento de que el trabajo con las creencias es un proceso de por vida.",
+        "Expresión de gratitud hacia el proceso y hacia sí mismo/a.",
+        "Integración fluida de la metáfora del mosaico como identidad resiliente."
+      ],
+      "intervenciones": [
+        "Narrativa:: Ritual de cierre: el terapeuta valida y celebra la completitud del trabajo, entregando simbólicamente el \"mosaico\" al paciente.",
+        "ACT:: Aceptación radical de la naturaleza cambiante de la mente, con compromiso a volver a los valores como brújula, no a las creencias rígidas.",
+        "Humanista:: Celebración de la autenticidad alcanzada y la capacidad del paciente de ser el autor de su propia vida.",
+        "Positiva:: Anclaje de la emoción de logro y plenitud como recurso para futuros desafíos."
+      ],
+      "tarea": "Dibuja o describe tu \"Mosaico de Creencias\" actual. No tiene que ser perfecto, solo tiene que ser tuyo. Escribe en el centro: \"Soy el artista de mi propia mente, y puedo ajustar las piezas cuando lo necesite\"."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2b3a2f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <title>MOSAICO</title>
+  <link rel="stylesheet" href="styles.css?v=15" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <button id="btn-back" class="btn-back" hidden>&larr;</button>
+      <span class="brand-mark">M</span>
+      <span class="brand-name">MOSAICO</span>
+    </div>
+    <div class="topbar-right">
+      <span id="rol-indicator" class="rol-badge" hidden></span>
+      <span id="sync-dot" class="sync-dot sync-dot--offline" title="Sin conexion" hidden></span>
+      <button id="btn-indice" class="btn-ghost" hidden>Indice</button>
+      <button id="btn-manual" class="btn-ghost" hidden>Manual</button>
+      <button id="logout-btn" class="btn-ghost" hidden>Cerrar sesion</button>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <!-- ============== TEMPLATES ============== -->
+
+  <template id="tpl-login">
+    <section class="login">
+      <h1>Acceso</h1>
+      <p class="muted">Ingresa con tu cuenta de terapeuta o accede como paciente.</p>
+      <form id="login-form" class="login-form">
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" placeholder="terapeuta@ejemplo.com" required />
+        </label>
+        <label>
+          Contraseña
+          <input type="password" name="password" autocomplete="current-password" placeholder="••••••••" required />
+        </label>
+        <div class="login-actions">
+          <button type="submit" class="btn-primary">Entrar como terapeuta</button>
+          <button type="button" id="login-paciente" class="btn-ghost">Entrar como paciente</button>
+        </div>
+        <p id="login-error" class="error" hidden></p>
+      </form>
+    </section>
+  </template>
+
+  <template id="tpl-paciente">
+    <section class="paciente">
+      <div class="robar-bar">
+        <label class="select-mazo">
+          Mazo
+          <select id="select-mazo"></select>
+        </label>
+        <button id="btn-robar" class="btn-primary btn-robar">Robar carta</button>
+      </div>
+
+      <div id="carta-area" class="carta-area" hidden>
+        <article class="carta">
+          <div class="carta-imagen-wrap">
+            <img id="carta-imagen" class="carta-imagen" alt="" />
+            <span id="carta-codigo-overlay" class="carta-codigo-overlay"></span>
+          </div>
+          <div class="carta-cuerpo">
+            <span id="carta-codigo" class="carta-codigo"></span>
+            <h2 id="carta-pregunta" class="carta-pregunta"></h2>
+            <div class="carta-tarea">
+              <h3>Tarea</h3>
+              <p id="carta-tarea"></p>
+            </div>
+            <textarea id="carta-notas" class="sv-notas" placeholder="Mis notas sobre esta carta..." style="margin-top:0.75rem"></textarea>
+          </div>
+        </article>
+      </div>
+
+      <div id="empty-state" class="empty-state">
+        <p>Toca "Robar carta" para empezar.</p>
+      </div>
+
+      <div id="ph-historial" class="ph-historial" hidden>
+        <h3>Mi historial</h3>
+        <div id="ph-lista" class="ph-lista"></div>
+        <div id="ph-acciones" class="ph-acciones" hidden>
+          <button id="btn-ph-export" class="btn-ghost">Exportar mi historial</button>
+          <button id="btn-ph-vaciar" class="btn-ghost btn-peligro">Vaciar historial</button>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-pacientes-list">
+    <section class="tpl-section">
+      <header class="tpl-section-head">
+        <h2>Pacientes</h2>
+      </header>
+
+      <form id="form-nuevo-paciente" class="nuevo-paciente-form">
+        <input id="input-nuevo-paciente" type="text" placeholder="Nombre del paciente" required />
+        <button type="submit" class="btn-primary">+ Nuevo</button>
+      </form>
+
+      <input id="filter-pacientes" type="search" placeholder="Buscar paciente..." autocomplete="off" />
+
+      <div id="lista-pacientes" class="lista-pacientes"></div>
+    </section>
+  </template>
+
+  <template id="tpl-paciente-view">
+    <section class="tpl-section">
+      <header class="tpl-section-head">
+        <div>
+          <h2 id="pv-nombre"></h2>
+          <span id="pv-info" class="muted" style="font-size:0.85rem"></span>
+        </div>
+        <button id="btn-nueva-sesion" class="btn-primary">+ Nueva sesion</button>
+      </header>
+
+      <div id="pv-historial" class="pv-historial"></div>
+
+      <div id="pv-empty" class="empty-state" hidden>
+        <p>Todavia no tiene sesiones registradas.</p>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-sesion-view">
+    <section class="tpl-section">
+      <header class="tpl-section-head">
+        <div>
+          <span id="sv-paciente-nombre" class="muted" style="font-size:0.85rem"></span>
+          <h2>Sesion <span id="sv-fecha"></span></h2>
+        </div>
+        <button id="btn-cerrar-sesion" class="btn-ghost">Cerrar sesion</button>
+      </header>
+
+      <div class="sv-puerta-paciente">
+        <div class="sv-puerta-codigo">
+          <span class="sv-puerta-label">Codigo para el paciente</span>
+          <span id="sv-codigo-valor" class="sv-puerta-codigo-valor">----</span>
+        </div>
+        <div class="sv-puerta-toggle">
+          <span class="sv-puerta-label">Permitir al paciente robar</span>
+          <button id="sv-habilitar-toggle" class="btn-toggle">Deshabilitado</button>
+        </div>
+        <p class="sv-puerta-ayuda muted">El paciente debe ingresar este codigo en su pantalla. Solo podra robar cartas mientras este habilitado.</p>
+      </div>
+
+      <div class="sv-bar">
+        <label class="select-mazo">
+          Mazo
+          <select id="sv-select-mazo"></select>
+        </label>
+        <button id="btn-sv-robar" class="btn-primary">Robar</button>
+      </div>
+
+      <div id="sv-card-browser" class="sv-card-browser"></div>
+
+      <div id="sv-carta-area" class="sv-carta-area" hidden>
+        <article class="carta">
+          <div class="carta-imagen-wrap">
+            <img id="sv-carta-imagen" class="carta-imagen" alt="" />
+            <span id="sv-carta-codigo-overlay" class="carta-codigo-overlay"></span>
+          </div>
+          <div class="carta-cuerpo">
+            <span id="sv-carta-codigo" class="carta-codigo"></span>
+            <h2 id="sv-carta-pregunta" class="carta-pregunta"></h2>
+            <div class="cc-objetivo"><strong>Objetivo:</strong> <span id="sv-carta-objetivo"></span></div>
+            <div id="sv-carta-profundizacion" class="cc-lista"><strong>Profundizacion:</strong></div>
+            <div id="sv-carta-observacion" class="cc-lista"><strong>Observacion:</strong></div>
+            <div id="sv-carta-intervenciones" class="cc-lista"><strong>Intervenciones:</strong></div>
+            <div class="carta-tarea">
+              <h3>Tarea</h3>
+              <p id="sv-carta-tarea"></p>
+            </div>
+          </div>
+        </article>
+        <textarea id="sv-notas-carta" class="sv-notas" placeholder="Notas sobre esta carta..."></textarea>
+        <button id="btn-sv-asignar" class="btn-primary">Asignar carta a sesion</button>
+      </div>
+
+      <div class="sv-notas-sesion-wrap">
+        <h3>Notas de la sesion</h3>
+        <textarea id="sv-notas-sesion" class="sv-notas" placeholder="Notas generales de la sesion..."></textarea>
+      </div>
+
+      <div id="sv-cartas-asignadas" class="sv-cartas-asignadas">
+        <h3>Cartas asignadas en esta sesion</h3>
+        <div id="sv-lista-cartas"></div>
+        <div id="sv-no-cartas" class="empty-state">
+          <p>Aun no se asignaron cartas.</p>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-indice-maestro">
+    <section class="tpl-section">
+      <header class="tpl-section-head">
+        <h2>Indice Maestro</h2>
+      </header>
+      <div id="im-lista" class="im-lista"></div>
+      <div id="im-carta-view" hidden>
+        <article class="carta">
+          <div class="carta-imagen-wrap">
+            <img id="im-carta-imagen" class="carta-imagen" alt="" />
+            <span id="im-carta-codigo-overlay" class="carta-codigo-overlay"></span>
+          </div>
+          <div class="carta-cuerpo">
+            <span id="im-carta-codigo" class="carta-codigo"></span>
+            <h2 id="im-carta-pregunta" class="carta-pregunta"></h2>
+            <div class="cc-objetivo"><strong>Objetivo:</strong> <span id="im-carta-objetivo"></span></div>
+            <div id="im-carta-profundizacion" class="cc-lista"><strong>Profundizacion:</strong></div>
+            <div id="im-carta-observacion" class="cc-lista"><strong>Observacion:</strong></div>
+            <div id="im-carta-intervenciones" class="cc-lista"><strong>Intervenciones:</strong></div>
+            <div class="carta-tarea">
+              <h3>Tarea</h3>
+              <p id="im-carta-tarea"></p>
+            </div>
+          </div>
+        </article>
+        <button id="btn-im-volver" class="btn-ghost" style="margin-top:0.5rem">&larr; Volver al indice</button>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-historial-sesion">
+    <section class="tpl-section">
+      <header class="tpl-section-head">
+        <div>
+          <span id="hs-paciente-nombre" class="muted" style="font-size:0.85rem"></span>
+          <h2>Sesion <span id="hs-fecha"></span></h2>
+        </div>
+      </header>
+
+      <div id="hs-notas-sesion" class="hs-notas-bloque"></div>
+
+      <div id="hs-cartas" class="sv-cartas-asignadas">
+        <h3>Cartas asignadas</h3>
+        <div id="hs-lista-cartas"></div>
+      </div>
+    </section>
+  </template>
+
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js").catch(() => {});
+    }
+  </script>
+  <script src="firebase-service.js"></script>
+  <script src="app.js?v=15"></script>
+
+  <div id="img-modal" class="img-modal" hidden>
+    <span class="img-modal-close">&times;</span>
+    <img class="img-modal-content" id="img-modal-content" />
+  </div>
+</body>
+</html>

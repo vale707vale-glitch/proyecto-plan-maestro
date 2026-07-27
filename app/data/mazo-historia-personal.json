@@ -1,0 +1,1389 @@
+{
+  "id": "historia-personal",
+  "nombre": "Historia Personal",
+  "numero": 3,
+  "rango": "H-01 a H-60",
+  "descripcion": "Primeros recuerdos, infancia, figuras de apego, clima emocional familiar, mandatos heredados.",
+  "cartas": [
+    {
+      "codigo": "H-01",
+      "iconos": [],
+      "pregunta": "¿Cuál es el recuerdo más antiguo que tienes de tu vida?",
+      "objetivo": "Acceder a la memoria episódica temprana como puerta de entrada a la historia emocional del paciente. Los primeros recuerdos suelen condensar el clima afectivo familiar, las figuras de apego predominantes y los temas nucleares que organizarán la identidad.",
+      "profundizacion": [
+        "¿Qué edad crees que tenías? ¿Qué detalles sensoriales recuerdas (olores, colores, sonidos)?",
+        "¿Quién más aparece en ese recuerdo? ¿Qué emoción predomina?",
+        "¿Por qué crees que ese recuerdo sobrevivió y otros se borraron?"
+      ],
+      "observacion": [
+        "Recuerdo vívido con carga emocional intensa.",
+        "Recuerdo fragmentado o con zonas oscuras.",
+        "Recuerdo que parece \"prestado\" (contado por otros).",
+        "Ausencia total de recuerdos tempranos (posible disociación)."
+      ],
+      "intervenciones": [
+        "Narrativa:: Explorar el recuerdo como mito fundacional de la identidad.",
+        "EMDR:: Evaluar si el recuerdo contiene material traumático no procesado.",
+        "Psicoanálisis:: Análisis del recuerdo como pantalla de contenidos reprimidos."
+      ],
+      "tarea": "Escribe ese recuerdo con el mayor detalle posible, incluyendo sensaciones, colores, olores y emociones. Si aparecen lagunas, déjalas en blanco. Al final, escribe qué te dice ese recuerdo sobre quién eras en ese momento."
+    },
+    {
+      "codigo": "H-02",
+      "iconos": [],
+      "pregunta": "Si tuvieras que describir el \"clima emocional\" de tu casa cuando eras niño/a con una palabra o una imagen, ¿cuál sería?",
+      "objetivo": "Acceder al tono afectivo dominante del hogar de origen. El clima emocional familiar (tenso, frío, caótico, sobreprotector, alegre, silencioso) configura el sistema nervioso del niño y sus modelos internos de trabajo.",
+      "profundizacion": [
+        "¿Ese clima cambió en algún momento? ¿Por qué?",
+        "¿Qué rol ocupabas tú en ese clima? ¿El que calmaba, el que callaba, el que entretenía?",
+        "¿Cómo se siente tu cuerpo al recordar ese clima ahora?"
+      ],
+      "observacion": [
+        "Imágenes de tensión, frío o vacío.",
+        "Imágenes cálidas pero con matices de sobreprotección.",
+        "Imágenes caóticas o impredecibles.",
+        "Dificultad para caracterizar el clima (\"no sé, era normal\")."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar el clima emocional como regulador del sistema familiar.",
+        "Apego:: Relacionar el clima con el estilo de apego desarrollado.",
+        "Somática:: Conectar el clima con el estado actual del sistema nervioso."
+      ],
+      "tarea": "Dibuja la casa de tu infancia como si fuera un paisaje: ¿hay sol, niebla, tormenta, invierno eterno? Observa qué dice ese paisaje sobre cómo tu cuerpo registró ese clima. Guárdalo para la próxima sesión."
+    },
+    {
+      "codigo": "H-03",
+      "iconos": [],
+      "pregunta": "¿A quién de tu familia te pareces más, y qué carga llevas de esa persona?",
+      "objetivo": "Explorar la identificación con figuras familiares y las lealtades invisibles. La pregunta revela qué aspectos del sistema familiar han sido introyectados y qué mandatos se transmiten sin decirse.",
+      "profundizacion": [
+        "¿Es una identificación que te enorgullece o te pesa?",
+        "¿Qué destino, emoción o patrón repites de esa persona?",
+        "¿Qué pasaría si pudieras quedarte con lo bueno y devolver lo que no te corresponde?"
+      ],
+      "observacion": [
+        "Identificación con figuras dolorosas o conflictivas.",
+        "Identificación con figuras idealizadas.",
+        "Rechazo consciente pero repetición inconsciente.",
+        "Conciencia clara de la herencia y elección consciente."
+      ],
+      "intervenciones": [
+        "Sistémica / Constelaciones:: Explorar lealtades invisibles y destinos repetidos.",
+        "Terapia de Esquemas:: Identificar modos heredados de figuras parentales.",
+        "Narrativa:: Diferenciar la propia historia de la historia heredada."
+      ],
+      "tarea": "Haz dos listas: \"Lo que heredé de [esa persona] y me enriquece\" y \"Lo que heredé y ya no quiero cargar\". Observa qué emociones surgen al diferenciar herencia de elección."
+    },
+    {
+      "codigo": "H-04",
+      "iconos": [],
+      "pregunta": "¿Cuál fue el primer momento en que te diste cuenta de que los adultos también sufrían, o también se equivocaban?",
+      "objetivo": "Acceder al momento de \"desidealización\" de las figuras parentales. Este hito del desarrollo suele estar cargado emocionalmente y marca el inicio de la autonomía psíquica o, en algunos casos, de la parentificación.",
+      "profundizacion": [
+        "¿Qué edad tenías y qué pasó exactamente?",
+        "¿Qué sentiste: alivio, tristeza, rabia, soledad?",
+        "¿Qué decidiste sobre ti y sobre el mundo a partir de ese momento?"
+      ],
+      "observacion": [
+        "Desidealización temprana (parentificación).",
+        "Desidealización tardía (idealización prolongada).",
+        "Emoción de traición o decepción profunda.",
+        "Emoción de compasión o ternura hacia los adultos."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Vulnerable\" herido.",
+        "Narrativa:: Re-autoría del momento como inicio de la propia mirada crítica.",
+        "EMDR:: Reprocesamiento si el evento fue traumático."
+      ],
+      "tarea": "Escribe una carta al niño/a que eras en ese momento. Dile lo que ahora sabes sobre los adultos y su fragilidad. Observa qué emoción emerge al hacerlo."
+    },
+    {
+      "codigo": "H-05",
+      "iconos": [],
+      "pregunta": "¿Qué frase escuchabas mucho en tu casa cuando eras niño/a y que hoy te sigue hablando?",
+      "objetivo": "Identificar los mandatos familiares internalizados como \"voces introyectadas\". Las frases repetidas en la infancia (\"los hombres no lloran\", \"hay que ser fuerte\", \"no seas egoísta\") se convierten en diálogos internos que organizan la vida adulta.",
+      "profundizacion": [
+        "¿De quién era esa frase originalmente? ¿La decías tú también?",
+        "¿En qué momentos de tu vida actual aparece esa voz?",
+        "¿Qué pasaría si pudieras responderle hoy, como adulto?"
+      ],
+      "observacion": [
+        "Frase restrictiva o limitante aún activa.",
+        "Frase protectora que ya no es necesaria.",
+        "Frase contradictoria con otras del sistema.",
+        "Imposibilidad de recordar frases (\"no decían mucho\")."
+      ],
+      "intervenciones": [
+        "Gestalt:: Diálogo con la voz introyectada en silla vacía.",
+        "Terapia de Esquemas:: Identificar el \"modo del Padre/Madre Crítico\".",
+        "Narrativa:: Deconstrucción del mandato y re-autoría."
+      ],
+      "tarea": "Escribe esa frase en un papel. Al lado, escribe tu respuesta de adulto: \"Hoy te digo que...\". Guarda ambas frases y obsérvalas cuando la voz aparezca durante la semana."
+    },
+    {
+      "codigo": "H-06",
+      "iconos": [],
+      "pregunta": "¿Cuál fue el primer momento en que sentiste que tenías que \"hacerte cargo\" de algo que no te correspondía?",
+      "objetivo": "Identificar el origen de la parentificación o la sobre-responsabilidad. Muchos adultos cargan roles que asumieron en la infancia: cuidar a un padre deprimido, mediar en conflictos, sostener emocionalmente a la familia.",
+      "profundizacion": [
+        "¿Qué edad tenías y de qué te hiciste cargo?",
+        "¿Qué hubiera pasado si no lo hacías?",
+        "¿Qué parte de ti sigue cargando eso hoy?"
+      ],
+      "observacion": [
+        "Parentificación emocional (cuidar a un adulto).",
+        "Parentificación instrumental (tareas del hogar).",
+        "Orgullo por la madurez temprana.",
+        "Rabia o duelo por la infancia robada."
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolución simbólica de la carga a quien correspondía.",
+        "Terapia de Esquemas:: Reparentalización del \"Niño Parentificado\".",
+        "CFT:: Compasión hacia el niño que tuvo que crecer rápido."
+      ],
+      "tarea": "Escribe una carta al adulto que te puso en ese rol. Dile lo que sentiste entonces y lo que sientes ahora. No tienes que enviarla. Luego, escribe una carta al niño que fuiste, diciéndole: \"No te correspondía. Hoy te devuelvo esa carga\"."
+    },
+    {
+      "codigo": "H-07",
+      "iconos": [],
+      "pregunta": "¿Qué secreto, silencio o \"no se habla de esto\" marcó tu historia familiar?",
+      "objetivo": "Identificar los secretos familiares que organizan la vida psíquica sin nombrarse. Los secretos (adopciones, enfermedades mentales, suicidios, abortos, traumas de guerra, infidelidades) ejercen una fuerza invisible sobre las generaciones siguientes.",
+      "profundizacion": [
+        "¿Cuándo te enteraste (o sospechaste) de ese secreto?",
+        "¿Qué emoción te produjo saberlo?",
+        "¿Qué parte de tu vida actual crees que está organizada por ese silencio?"
+      ],
+      "observacion": [
+        "Secreto revelado con alivio o traición.",
+        "Secreto intuido pero nunca confirmado.",
+        "Secreto que explica patrones repetidos.",
+        "Negación (\"en mi familia no hay secretos\")."
+      ],
+      "intervenciones": [
+        "Sistémica / Constelaciones:: Explorar el impacto transgeneracional del secreto.",
+        "Narrativa:: Dar voz a lo silenciado sin traicionar la lealtad familiar.",
+        "Psicoanálisis:: Análisis de lo no-dicho como estructurante del síntoma."
+      ],
+      "tarea": "Si te animas, escribe ese secreto en un papel sellado. No tienes que mostrármelo. Observa cómo te sientes al externalizarlo, aunque sea en privado. La próxima sesión, comparte solo lo que quieras compartir sobre cómo fue el ejercicio."
+    },
+    {
+      "codigo": "H-08",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera pérdida importante que viviste, y cómo te enseñaron a manejarla?",
+      "objetivo": "Explorar la historia temprana de duelos y la educación emocional alrededor de la pérdida. Las primeras pérdidas (mascotas, abuelos, mudanzas, divorcios) configuran la relación con el duelo adulto.",
+      "profundizacion": [
+        "¿Qué edad tenías y qué perdiste?",
+        "¿Qué te dijeron los adultos? ¿Te dejaron llorar?",
+        "¿Qué aprendiste entonces sobre el dolor y la despedida?"
+      ],
+      "observacion": [
+        "Duelo acompañado y validado.",
+        "Duelo silenciado (\"no llores, sé fuerte\").",
+        "Duelo no reconocido (pérdidas minimizadas).",
+        "Duelo que activó un rol de sostén familiar."
+      ],
+      "intervenciones": [
+        "Duelo terapéutico:: Revisitar duelos no resueltos.",
+        "Narrativa:: Re-escribir la historia del duelo con la mirada adulta.",
+        "Terapia de Esquemas:: Trabajar el \"Niño Abandonado\" en esa pérdida."
+      ],
+      "tarea": "Escribe una carta de despedida a esa primera pérdida. Dile lo que no pudiste decir entonces. Luego, escribe una carta al niño que fuiste, acompañándolo en ese duelo que no tuvo espacio. Observa qué emoción surge."
+    },
+    {
+      "codigo": "H-09",
+      "iconos": [],
+      "pregunta": "¿Qué lugar de tu infancia (una casa, un cuarto, un jardín) sigue vivo en tu memoria, y qué representa para ti?",
+      "objetivo": "Acceder a los \"lugares de la memoria\" como anclas emocionales. Los espacios físicos de la infancia suelen condensar estados afectivos, vínculos y momentos fundacionales que siguen operando en el presente.",
+      "profundizacion": [
+        "¿Qué detalles sensoriales recuerdas (olores, texturas, sonidos)?",
+        "¿Quién habitaba ese lugar contigo? ¿Quién faltaba?",
+        "¿Volverías hoy? ¿Qué encontrarías si volvieras?"
+      ],
+      "observacion": [
+        "Lugar-refugio con carga positiva.",
+        "Lugar con carga ambivalente (refugio y prisión).",
+        "Lugar perdido que se idealiza.",
+        "Incapacidad de evocar un lugar seguro."
+      ],
+      "intervenciones": [
+        "Narrativa:: Explorar el lugar como metáfora del estado interno.",
+        "EMDR:: Usar el lugar como recurso o como objetivo de reprocesamiento.",
+        "Gestalt:: Diálogo con el lugar como si fuera un personaje."
+      ],
+      "tarea": "Dibuja ese lugar con todos los detalles que recuerdes. Incluye quién está y quién falta. Al lado, escribe qué representa para ti hoy. Observa si ese lugar sigue siendo un refugio interno o si necesitas construir uno nuevo."
+    },
+    {
+      "codigo": "H-10",
+      "iconos": [],
+      "pregunta": "¿Qué objeto de tu infancia guardas (o hubieras querido guardar), y qué significa para ti?",
+      "objetivo": "Explorar los objetos transicionales y los \"tesoros\" de la infancia como anclas de identidad, vínculos y afectos. Los objetos condensan historias, vínculos y emociones que las palabras no alcanzan a nombrar.",
+      "profundizacion": [
+        "¿De quién era originalmente ese objeto? ¿Te lo dieron o lo encontraste?",
+        "¿Qué emociones te produce verlo o recordarlo?",
+        "¿Qué pasaría si lo perdieras hoy?"
+      ],
+      "observacion": [
+        "Objeto como vínculo con figura de apego.",
+        "Objeto como refugio ante la soledad.",
+        "Objeto perdido con duelo no resuelto.",
+        "Ausencia total de objetos significativos."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis del objeto transicional como puente entre mundos.",
+        "Narrativa:: Explorar el objeto como símbolo de la historia personal.",
+        "Duelo terapéutico:: Trabajar la pérdida de objetos significativos."
+      ],
+      "tarea": "Si tienes ese objeto, sostenlo entre las manos esta semana y obsérvalo con atención. Si lo perdiste, dibújalo o escribe una carta hacia él. Observa qué emociones aparecen y qué vínculo representa."
+    },
+    {
+      "codigo": "H-11",
+      "iconos": [],
+      "pregunta": "¿Qué ritual, costumbre o tradición familiar sigues repitiendo hoy, aunque quizás ya no le encuentres sentido?",
+      "objetivo": "Identificar los rituales familiares heredados que siguen organizando la vida del paciente. Los rituales (comidas, celebraciones, formas de resolver conflictos, silencios) transmiten valores, lealtades y mandatos sin decirse.",
+      "profundizacion": [
+        "¿Quién inició ese ritual y qué sentido tenía originalmente?",
+        "¿Qué pasaría si decidieras no repetirlo más?",
+        "¿Qué ritual nuevo te gustaría crear para tu propia vida?"
+      ],
+      "observacion": [
+        "Ritual que aporta pertenencia y continuidad.",
+        "Ritual que se repite por culpa o lealtad.",
+        "Ritual vacío de sentido pero difícil de abandonar.",
+        "Rechazo consciente de los rituales familiares."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los rituales como transmisores de lealtades.",
+        "Narrativa:: Re-significar o crear nuevos rituales personales.",
+        "Constructivismo:: Co-construcción de rituales propios."
+      ],
+      "tarea": "Haz una lista de los rituales familiares que repites. Al lado de cada uno, escribe: \"Lo sigo haciendo porque...\" y \"¿Quiero seguir haciéndolo?\". Elige uno para transformar o reemplazar esta semana."
+    },
+    {
+      "codigo": "H-12",
+      "iconos": [],
+      "pregunta": "¿Hay alguna foto de tu infancia que evites mirar, o que te produzca una emoción intensa al verla?",
+      "objetivo": "Explorar las fotografías como \"congeladores\" de momentos históricos y emocionales. Las fotos pueden evocar nostalgia, dolor, vergüenza o verdades no dichas. La reacción ante ciertas imágenes revela material emocional significativo.",
+      "profundizacion": [
+        "¿Qué hay en esa foto que te afecta? ¿Quién está, quién falta?",
+        "¿Qué estaba pasando fuera del encuadre, en ese momento?",
+        "¿Qué le dirías a ese niño/a de la foto hoy?"
+      ],
+      "observacion": [
+        "Fotos evitadas por dolor o vergüenza.",
+        "Fotos que muestran una \"falsa felicidad\".",
+        "Fotos con personas que ya no están o se perdieron.",
+        "Ausencia total de fotos de la infancia."
+      ],
+      "intervenciones": [
+        "Fototerapia:: Trabajo con imágenes como material clínico.",
+        "EMDR:: Usar la foto como punto de acceso a memorias traumáticas.",
+        "Narrativa:: Re-escribir la historia detrás de la foto."
+      ],
+      "tarea": "Si te animas, trae una foto (o descríbela) que te produzca una emoción intensa. Escribe lo que ves, lo que no se ve, y lo que te hubiera gustado que esa foto mostrara. Tráelo a la próxima sesión."
+    },
+    {
+      "codigo": "H-13",
+      "iconos": [],
+      "pregunta": "¿Qué rol ocupabas en tu familia de origen (el responsable, el divertido, el invisible, el problemático), y cómo te sigue condicionando hoy?",
+      "objetivo": "Identificar el rol familiar asignado o adoptado en la infancia. Los roles (héroe, chivo expiatorio, niño dorado, mascota, perdido) organizan la identidad y se repiten en las relaciones adultas.",
+      "profundizacion": [
+        "¿Quién te asignó ese rol o cómo lo asumiste?",
+        "¿Qué ganabas y qué perdías al ocuparlo?",
+        "¿Qué rol te gustaría experimentar ahora, si pudieras elegir?"
+      ],
+      "observacion": [
+        "Rol de cuidador o mediador (parentificación).",
+        "Rol de \"problema\" que captaba la atención.",
+        "Rol invisible para no molestar.",
+        "Rechazo consciente del rol asignado."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar el rol como función homeostática del sistema.",
+        "Terapia de Esquemas:: Trabajar los modos asociados al rol familiar.",
+        "Psicodrama:: Experimentar nuevos roles en sesión."
+      ],
+      "tarea": "Esta semana, en una situación familiar o social, practica ocupar un rol diferente al habitual. Observa qué emociones surgen y cómo reaccionan los demás. Anota tus descubrimientos."
+    },
+    {
+      "codigo": "H-14",
+      "iconos": [],
+      "pregunta": "¿Qué momento de tu vida marcaría el \"antes\" y el \"después\" de tu historia personal?",
+      "objetivo": "Identificar los hitos biográficos que reorganizaron la identidad del paciente. Los puntos de quiebre (mudanzas, divorcios, pérdidas, diagnósticos, encuentros) suelen estructurar la narrativa vital.",
+      "profundizacion": [
+        "¿Qué edad tenías y qué pasó exactamente?",
+        "¿Qué se perdió y qué se ganó en ese quiebre?",
+        "¿Cómo te hubiera gustado que te acompañaran en ese momento?"
+      ],
+      "observacion": [
+        "Quiebre traumático no procesado.",
+        "Quiebre reconocido como inicio de crecimiento.",
+        "Quiebre silenciado o minimizado.",
+        "Dificultad para identificar un quiebre claro."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del quiebre como parte de la historia.",
+        "EMDR:: Reprocesamiento si el quiebre fue traumático.",
+        "Logoterapia:: Búsqueda de sentido en el punto de quiebre."
+      ],
+      "tarea": "Dibuja una línea de vida y marca ese punto de quiebre. Escribe arriba qué perdiste y abajo qué ganaste. Al final, escribe una frase que resuma lo que ese quiebre te enseñó sobre ti."
+    },
+    {
+      "codigo": "H-15",
+      "iconos": [],
+      "pregunta": "¿Qué historia te contaban en tu familia sobre tu propio nacimiento o tus primeros años, y cómo te hace sentir hoy?",
+      "objetivo": "Explorar los \"mitos de origen\" personales. Las historias que la familia cuenta sobre el nacimiento o la infancia del paciente configuran la narrativa identitaria y pueden revelar expectativas, decepciones o amores condicionados.",
+      "profundizacion": [
+        "¿Esa historia te hacía sentir esperado/a, aceptado/a, o había algo raro?",
+        "¿Qué versión alternativa te hubiera gustado escuchar?",
+        "¿Cómo influye esa historia en cómo te ves hoy?"
+      ],
+      "observacion": [
+        "Historia de niño esperado y celebrado.",
+        "Historia con matices de decepción o rechazo.",
+        "Historia heroica o de \"niño milagro\".",
+        "Silencio o versiones contradictorias."
+      ],
+      "intervenciones": [
+        "Narrativa:: Deconstrucción del mito de origen y re-autoría.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño No Deseado\" si aplica.",
+        "Psicoanálisis:: Análisis del mito como estructura identitaria."
+      ],
+      "tarea": "Escribe tu propia versión de la historia de tu nacimiento o primeros años, desde tu mirada actual. No tiene que coincidir con la versión familiar. Observa qué emociones surgen al apropiarte de tu propia historia."
+    },
+    {
+      "codigo": "H-16",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sentías en tu cuerpo cuando había conflictos o tensiones en tu casa de niño/a?",
+      "objetivo": "Explorar la huella somática de los conflictos familiares. El cuerpo del niño registra las tensiones del hogar antes de que la mente pueda nombrarlas. Estas huellas suelen reactivarse en las relaciones adultas.",
+      "profundizacion": [
+        "¿Dónde sentías esa emoción en el cuerpo?",
+        "¿Qué hacías para sobrevivir a esos momentos?",
+        "¿Sigues sintiendo esa misma sensación en situaciones actuales?"
+      ],
+      "observacion": [
+        "Contracción, miedo, parálisis.",
+        "Hipervigilancia y estado de alerta.",
+        "Disociación o \"irse\" del cuerpo.",
+        "Reconocimiento de la huella somática actual."
+      ],
+      "intervenciones": [
+        "Somática:: Trabajar la memoria corporal del conflicto.",
+        "Sensoriomotriz:: Completar impulsos de acción truncados.",
+        "EMDR:: Reprocesamiento de memorias de conflicto familiar."
+      ],
+      "tarea": "Esta semana, cuando sientas esa misma sensación corporal en situaciones actuales, detente y pregúntate: \"¿Cuántos años tengo realmente ahora? ¿Estoy en el presente o mi cuerpo viajó al pasado?\". Anota tus descubrimientos."
+    },
+    {
+      "codigo": "H-17",
+      "iconos": [],
+      "pregunta": "¿Qué figura de tu familia (presente o ausente) te hubiera gustado que te hubiera dicho algo que nunca te dijo?",
+      "objetivo": "Acceder a las necesidades emocionales no satisfechas de la infancia. Las palabras no dichas (\"te quiero\", \"estoy orgulloso\", \"perdón\", \"no fue tu culpa\") suelen quedar como heridas abiertas que organizan la vida adulta.",
+      "profundizacion": [
+        "¿Qué crees que le impidió decirlo?",
+        "¿Qué hubiera cambiado en tu vida si lo hubieras escuchado?",
+        "¿Puedes decirte tú eso ahora, como adulto?"
+      ],
+      "observacion": [
+        "Dolor por palabras de amor no escuchadas.",
+        "Rabia por reconocimiento no recibido.",
+        "Duelo por figuras ausentes o emocionalmente indisponibles.",
+        "Apertura a recibir esas palabras de sí mismo."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización del \"Niño Vulnerable\".",
+        "Gestalt:: Silla vacía para el diálogo con la figura ausente.",
+        "Narrativa:: Re-escribir la historia con las palabras que se necesitaban."
+      ],
+      "tarea": "Escribe una carta a esa figura diciéndole lo que necesitabas escuchar. Luego, escribe la respuesta que te hubiera gustado recibir. Finalmente, escribe esa misma respuesta como si te la dijeras tú mismo hoy."
+    },
+    {
+      "codigo": "H-18",
+      "iconos": [],
+      "pregunta": "¿Qué recuerdo de tu infancia te hace sentir que, a pesar de todo, algo bueno también pasó?",
+      "objetivo": "Equilibrar la exploración del pasado con la identificación de recursos y momentos positivos. Los \"documentos de resiliencia\" son fundamentales para sostener el proceso terapéutico y construir una narrativa más integrada.",
+      "profundizacion": [
+        "¿Quién estaba contigo en ese recuerdo?",
+        "¿Qué aprendiste de ti mismo en ese momento?",
+        "¿Cómo puedes traer algo de eso a tu vida actual?"
+      ],
+      "observacion": [
+        "Recuerdo vívido con emoción cálida.",
+        "Dificultad para acceder a recuerdos positivos.",
+        "Recuerdos pequeños pero significativos.",
+        "Reconocimiento de la propia resiliencia."
+      ],
+      "intervenciones": [
+        "Narrativa:: Construcción de \"documentos de identidad alternativa\".",
+        "EMDR:: Instalación de este recuerdo como recurso.",
+        "CFT:: Activación del sistema de calma y afiliación."
+      ],
+      "tarea": "Escribe ese recuerdo con todos los detalles posibles. Guárdalo como un \"tesoro interno\". Cada vez que te sientas abrumado, vuelve a él y recuerda que algo bueno también habitó tu historia."
+    },
+    {
+      "codigo": "H-19",
+      "iconos": [],
+      "pregunta": "¿Qué historia no contada de tu familia (de tus padres, abuelos, tíos) crees que te afecta hoy sin que lo sepas del todo?",
+      "objetivo": "Explorar la transmisión transgeneracional de traumas, duelos y secretos. Las historias no contadas de generaciones anteriores suelen repetirse en los síntomas y patrones de los descendientes.",
+      "profundizacion": [
+        "¿Qué sospechas o intuyes sobre esa historia?",
+        "¿Qué patrón tuyo podría estar conectado con ella?",
+        "¿Qué pasaría si pudieras conocerla y honrarla sin cargarla?"
+      ],
+      "observacion": [
+        "Intuición clara de historias silenciadas.",
+        "Repetición de destinos familiares sin saberlo.",
+        "Síntomas que parecen \"prestados\" de otra generación.",
+        "Desconocimiento total de la historia familiar."
+      ],
+      "intervenciones": [
+        "Sistémica / Constelaciones:: Explorar lealtades invisibles y destinos repetidos.",
+        "Narrativa:: Reconstrucción de la historia familiar silenciada.",
+        "Psicoanálisis:: Análisis de lo transmitido sin decirse."
+      ],
+      "tarea": "Si te animas, pregunta a un familiar mayor sobre una historia no contada de la familia. Si no es posible, escribe lo que intuyes. Observa qué patrón tuyo podría estar conectado con esa historia."
+    },
+    {
+      "codigo": "H-20",
+      "iconos": [],
+      "pregunta": "Si pudieras escribir una carta al niño o niña que fuiste, ¿qué le dirías hoy que necesitas que escuche?",
+      "objetivo": "Cerrar el lote con una intervención reparadora. La carta al niño interno permite integrar lo trabajado, ofrecer la validación que no se recibió y fortalecer el \"Adulto Sanador\" que cuida de las partes vulnerables.",
+      "profundizacion": [
+        "¿Qué necesitaba escuchar ese niño que no escuchó?",
+        "¿Qué le prometiste que aún no has cumplido?",
+        "¿Cómo te sientes al escribirle ahora?"
+      ],
+      "observacion": [
+        "Emoción intensa y conexión con el niño interno.",
+        "Dificultad para acceder al niño o para escribirle.",
+        "Alivio al ofrecer validación reparadora.",
+        "Compromiso del adulto con el cuidado del niño."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecimiento del \"Adulto Sanador\".",
+        "CFT:: Activación del sistema de cuidado hacia uno mismo.",
+        "Narrativa:: Re-autoría de la historia desde la mirada compasiva actual."
+      ],
+      "tarea": "Escribe esa carta con calma. Guárdala en un lugar especial. Cada vez que te sientas desconectado o autocrítico, léela. Ese niño sigue viviendo en ti, y hoy tiene un adulto que lo cuida: tú."
+    },
+    {
+      "codigo": "H-21",
+      "iconos": [],
+      "pregunta": "¿Cuál fue tu primer amor o primer desengaño amoroso, y qué aprendiste sobre ti en esa experiencia?",
+      "objetivo": "Explorar los prototipos de apego romántico temprano. Las primeras experiencias amorosas suelen establecer los patrones de idealización, abandono, celos o entrega que se repetirán en la vida adulta.",
+      "profundizacion": [
+        "¿Cómo te hizo sentir esa experiencia respecto a tu propio valor?",
+        "¿Repetiste ese patrón en relaciones posteriores?",
+        "¿Qué necesidad emocional intentaba cubrir esa relación?"
+      ],
+      "observacion": [
+        "Idealización persistente de la primera relación.",
+        "Vergüenza o minimización del dolor de esa época.",
+        "Reconocimiento claro del patrón repetitivo.",
+        "Integración madura de la experiencia como aprendizaje."
+      ],
+      "intervenciones": [
+        "Apego:: Explorar el estilo de apego activado en esa primera relación.",
+        "Narrativa:: Re-autoría de la historia amorosa desde la mirada adulta.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Abandonado\" o \"Enamorado\"."
+      ],
+      "tarea": "Escribe una carta de despedida a ese primer amor (no para enviarla). Agradece lo que te enseñó sobre ti y suelta formalmente cualquier expectativa o dolor residual que aún cargues de esa época."
+    },
+    {
+      "codigo": "H-22",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera vez que te diste cuenta de que tus padres no tenían la razón o eran falibles?",
+      "objetivo": "Identificar el momento de la \"caída del pedestal parental\", un hito crucial en la separación-individuación. Este momento puede vivirse con alivio, traición, tristeza o una madurez prematura.",
+      "profundizacion": [
+        "¿Qué situación específica desencadenó esta revelación?",
+        "¿Cómo reaccionaste internamente y externamente?",
+        "¿Cómo cambió tu relación con ellos a partir de ese momento?"
+      ],
+      "observacion": [
+        "Decepción profunda o sensación de traición.",
+        "Alivio al verlos como humanos, no como dioses.",
+        "Parentificación: tener que \"cuidar\" al padre fallido.",
+        "Negación o idealización persistente de los padres."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar la devaluación o idealización de figuras parentales.",
+        "Narrativa:: Re-escribir el evento desde la compasión hacia la imperfección humana.",
+        "Psicodinámica:: Análisis del duelo por los padres ideales."
+      ],
+      "tarea": "Escribe una lista de \"mitos\" que creías sobre tus padres y la realidad que descubriste. Al lado de cada uno, escribe: \"Hoy acepto que eran humanos, con luces y sombras, y eso no me quita valor a mí\"."
+    },
+    {
+      "codigo": "H-23",
+      "iconos": [],
+      "pregunta": "¿Hubo algún viaje, mudanza o cambio de entorno en tu adolescencia que marcara un \"antes y un después\"?",
+      "objetivo": "Explorar los \"viajes iniciáticos\" o cambios geográficos como catalizadores de transformación identitaria. Los cambios de entorno suelen forzar la redefinición del yo y la ruptura con roles familiares antiguos.",
+      "profundizacion": [
+        "¿Qué dejaste atrás y qué te llevaste contigo?",
+        "¿Te sentiste liberado o perdido en ese nuevo entorno?",
+        "¿Cómo te habría gustado que te acompañaran en esa transición?"
+      ],
+      "observacion": [
+        "El cambio como liberación y oportunidad.",
+        "El cambio como desarraigo y pérdida de referentes.",
+        "Nostalgia persistente por el lugar dejado.",
+        "Reconocimiento del cambio como punto de inflexión."
+      ],
+      "intervenciones": [
+        "Narrativa:: Explorar el viaje como metáfora del viaje interior.",
+        "Duelo terapéutico:: Procesar la pérdida del lugar o la comunidad de origen.",
+        "Existencial:: La búsqueda de pertenencia y hogar."
+      ],
+      "tarea": "Dibuja un mapa de ese viaje o mudanza. Marca el punto de salida y el de llegada. En el medio, escribe las emociones que sentiste en el trayecto. Observa cómo ese movimiento físico reflejó un movimiento interno."
+    },
+    {
+      "codigo": "H-24",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera vez que mentiste a tu familia para proteger tu independencia o tu privacidad?",
+      "objetivo": "Normalizar y explorar la mentira adolescente no como un defecto moral, sino como un intento de establecer límites y un \"yo\" separado. Revela el nivel de permisividad o control del sistema familiar.",
+      "profundizacion": [
+        "¿Qué necesitabas proteger con esa mentira?",
+        "¿Cómo te sentiste después: culpable, aliviado, poderoso?",
+        "¿Sigues usando estrategias similares para mantener tu privacidad hoy?"
+      ],
+      "observacion": [
+        "Culpa intensa por la transgresión.",
+        "Alivio por haber establecido un límite necesario.",
+        "Patrones actuales de ocultamiento o falta de autenticidad.",
+        "Reconocimiento de la mentira como herramienta de supervivencia."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los límites difusos que obligaron a la mentira.",
+        "Humanista:: Validar la necesidad de privacidad como derecho.",
+        "ACT:: Trabajar la autenticidad y el costo de la evitación."
+      ],
+      "tarea": "Reflexiona: ¿En qué áreas de tu vida adulta sigues \"mintiendo\" u ocultando partes de ti por miedo a la reacción de los demás? Escribe una forma pequeña y segura de ser más auténtico esta semana."
+    },
+    {
+      "codigo": "H-25",
+      "iconos": [],
+      "pregunta": "¿Qué amigo o amiga de tu adolescencia marcó tu forma de ver las relaciones y la confianza?",
+      "objetivo": "Explorar los vínculos de pares como agentes de socialización y espejos de identidad. Las amistades adolescentes suelen ser más determinantes que la familia en la formación de la autoestima y los modelos de confianza.",
+      "profundizacion": [
+        "¿Qué te enseñó esa persona sobre la lealtad o la traición?",
+        "¿Cómo terminó esa amistad y cómo te afectó?",
+        "¿Buscas ese mismo tipo de persona en tus relaciones actuales?"
+      ],
+      "observacion": [
+        "Idealización de la amistad perdida.",
+        "Dolor no resuelto por una traición de esa época.",
+        "Reconocimiento de la amistad como refugio seguro.",
+        "Patrones de amistad tóxica repetidos desde entonces."
+      ],
+      "intervenciones": [
+        "Apego:: Explorar el apego entre pares como modelo de relaciones adultas.",
+        "Narrativa:: Re-autoría del final de la amistad con compasión.",
+        "Gestalt:: Silla vacía para cerrar asuntos pendientes con ese amigo/a."
+      ],
+      "tarea": "Escribe una carta a ese amigo/a de la adolescencia. Agradece lo que te dio y suelta lo que te dolió. No necesitas enviarla; el objetivo es liberar la carga emocional que aún guardas de ese vínculo."
+    },
+    {
+      "codigo": "H-26",
+      "iconos": [],
+      "pregunta": "¿Cómo te hicieron sentir los cambios en tu cuerpo durante la pubertad, y qué mensajes recibiste al respecto?",
+      "objetivo": "Explorar la imagen corporal temprana y los mensajes internalizados sobre la sexualidad, la belleza y la normalidad. Las experiencias de esta etapa configuran la relación con el cuerpo en la adultez.",
+      "profundizacion": [
+        "¿Te sentiste orgulloso, avergonzado, confundido o invisible?",
+        "¿Qué te decían tu familia, tus pares o la sociedad sobre tu cuerpo?",
+        "¿Cómo influye eso en cómo te tratas hoy?"
+      ],
+      "observacion": [
+        "Vergüenza corporal o trastornos de la conducta alimentaria tempranos.",
+        "Objetivación o comentarios inapropiados recibidos.",
+        "Aceptación natural y mensajes positivos.",
+        "Desconexión actual del cuerpo como estrategia de defensa."
+      ],
+      "intervenciones": [
+        "Somática:: Reconexión con el cuerpo desde la compasión.",
+        "TCC:: Reestructuración de creencias negativas sobre la imagen corporal.",
+        "Feminista/Sistémica:: Deconstrucción de mandatos de género y belleza."
+      ],
+      "tarea": "Escribe una carta de disculpa y agradecimiento a tu cuerpo de esa época. Dile: \"Siento que te juzgué o te ignoré. Gracias por haberme sostenido. Hoy prometo tratarte con más respeto\"."
+    },
+    {
+      "codigo": "H-27",
+      "iconos": [],
+      "pregunta": "¿Guardaste algún secreto importante de tus padres durante tu adolescencia? ¿Por qué sentiste que no podías contarlo?",
+      "objetivo": "Explorar la construcción de la intimidad psíquica y los miedos al rechazo o castigo. Los secretos adolescentes suelen indicar áreas donde el sistema familiar era percibido como inseguro o demasiado controlador.",
+      "profundizacion": [
+        "¿Qué temías que pasaría si lo descubrían?",
+        "¿Ese secreto te unió a alguien más o te aisló?",
+        "¿Sigues sintiendo que hay partes de ti que tu familia \"no podría manejar\"?"
+      ],
+      "observacion": [
+        "Alivio al revelar el secreto en el espacio terapéutico.",
+        "Vergüenza persistente o miedo al juicio.",
+        "Patrones actuales de ocultamiento en relaciones de confianza.",
+        "Orgullo por la autonomía que ese secreto representó."
+      ],
+      "intervenciones": [
+        "Humanista:: Creación de un espacio de aceptación incondicional.",
+        "Sistémica:: Explorar los límites rígidos o el miedo al conflicto en la familia.",
+        "Narrativa:: Externalizar el secreto como un protector de esa época."
+      ],
+      "tarea": "Si te sientes seguro, escribe ese secreto en un papel. Luego, quémalo o rómpelo simbólicamente, diciéndole: \"Ya no necesito cargar esto para estar a salvo. Hoy soy un adulto que puede manejar su propia verdad\"."
+    },
+    {
+      "codigo": "H-28",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera vez que tomaste una decisión importante por ti mismo, sin consultar a nadie?",
+      "objetivo": "Identificar los primeros actos de autonomía real. Estos momentos son fundacionales para la autoeficacia y la confianza en el propio criterio, o por el contrario, pueden estar cargados de culpa si transgredieron mandatos familiares.",
+      "profundizacion": [
+        "¿Qué decisión fue y qué te motivó a tomarla solo?",
+        "¿Cómo te sentiste después: empoderado, asustado, culpable?",
+        "¿Cómo reaccionó tu entorno cuando se enteró (si es que lo hizo)?"
+      ],
+      "observacion": [
+        "Orgullo y sensación de crecimiento personal.",
+        "Culpa o miedo a las consecuencias.",
+        "Dificultad actual para tomar decisiones sin aprobación externa.",
+        "Reconocimiento de ese momento como un punto de inflexión."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Autónomo\".",
+        "Narrativa:: Re-enmarcar la decisión como un acto de valentía, no de rebeldia.",
+        "ACT:: Clarificación de valores propios vs. valores heredados."
+      ],
+      "tarea": "Identifica una decisión pequeña que tengas pendiente esta semana. Tómalala por ti mismo, sin consultar a nadie. Observa qué emociones surgen y cómo te sientes al confiar en tu propio criterio."
+    },
+    {
+      "codigo": "H-29",
+      "iconos": [],
+      "pregunta": "¿Tuviste algún momento de \"rebeldía\" que, mirándolo hoy, ves que era en realidad una búsqueda desesperada de identidad?",
+      "objetivo": "Re-significar la rebeldía adolescente no como un problema, sino como un intento saludable (aunque torpe) de diferenciación. Ayuda a despatologizar conductas pasadas y a comprender la necesidad subyacente de ser visto.",
+      "profundizacion": [
+        "¿Qué comportamiento \"rebeldes\" tuviste?",
+        "¿Qué necesitabas decir o probar con esa conducta?",
+        "¿Te escucharon o te castigaron? ¿Cómo te hizo sentir?"
+      ],
+      "observacion": [
+        "Rebeldía externa (ropa, música, salidas).",
+        "Rebeldía interna (aislamiento, silencio, desinterés).",
+        "Vergüenza retrospectiva por esos actos.",
+        "Comprensión compasiva de esa necesidad de diferenciación."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la \"rebeldía\" como \"búsqueda de identidad\".",
+        "Sistémica:: Explorar cómo el sistema familiar manejó la diferenciación.",
+        "Humanista:: Validar la necesidad de autenticidad."
+      ],
+      "tarea": "Escribe una carta a tu \"yo rebelde\" de esa época. Dile: \"Te entiendo. No eras malo, solo estabas intentando descubrir quién eras. Gracias por luchar por nuestro espacio\"."
+    },
+    {
+      "codigo": "H-30",
+      "iconos": [],
+      "pregunta": "¿Hubo algún momento en tu adolescencia en que sentiste vergüenza de tu familia, tu origen o tu situación económica?",
+      "objetivo": "Explorar la vergüenza de origen y su impacto en la identidad. Esta emoción suele generar lealtades invisibles, compensaciones excesivas en la adultez o un distanciamiento doloroso de la familia de origen.",
+      "profundizacion": [
+        "¿Qué situación específica detonó esa vergüenza?",
+        "¿Cómo intentaste ocultarlo o compensarlo?",
+        "¿Cómo te relacionas hoy con tus raíces o tu pasado?"
+      ],
+      "observacion": [
+        "Vergüenza tóxica aún activa en el presente.",
+        "Sobrecompensación (éxito, dinero, estatus) para borrar el origen.",
+        "Distanciamiento emocional o geográfico de la familia.",
+        "Integración y orgullo recuperado de las raíces."
+      ],
+      "intervenciones": [
+        "CFT:: Trabajar la vergüenza tóxica con autocompasión.",
+        "Sistémica:: Honrar el origen sin quedar atrapado en él.",
+        "Narrativa:: Re-escribir la historia de origen como una de resiliencia, no de carencia."
+      ],
+      "tarea": "Escribe una lista de 3 cosas valiosas que tu familia o tu origen te dieron (resiliencia, humor, trabajo duro, etc.). Léela cuando sientas que tu pasado te define negativamente."
+    },
+    {
+      "codigo": "H-31",
+      "iconos": [],
+      "pregunta": "¿Hubo algún maestro, entrenador, tío o figura adulta fuera de tu núcleo familiar que te marcó positivamente?",
+      "objetivo": "Identificar figuras de apego seguro o mentores alternativos. Estas figuras suelen ser cruciales para contrarrestar mensajes negativos del núcleo familiar y ofrecer modelos de identificación saludables.",
+      "profundizacion": [
+        "¿Qué vio esa persona en ti que otros no veían?",
+        "¿Qué te dijo o hizo que te hizo sentir especial o capaz?",
+        "¿Cómo influye ese recuerdo en quién eres hoy?"
+      ],
+      "observacion": [
+        "Emoción cálida y gratitud al recordar a la figura.",
+        "Reconocimiento de esa figura como salvavidas emocional.",
+        "Tristeza por la pérdida o el distanciamiento de esa figura.",
+        "Ausencia total de figuras de apoyo externas."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integrar los mensajes positivos de esa figura en la identidad actual.",
+        "CFT:: Usar el recuerdo de esa figura como recurso de soothing.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sanador\" con las cualidades de ese mentor."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa persona. Si es posible y apropiado, considérala enviarla. Si no, guárdala como un recordatorio de que fuiste visto y valorado en tu momento justo."
+    },
+    {
+      "codigo": "H-32",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera vez que experimentaste una pérdida o un final que te hizo sentir, por primera vez, que la vida era frágil o seria?",
+      "objetivo": "Explorar el despertar de la conciencia existencial. Las primeras pérdidas significativas (no necesariamente muertes, pueden ser divorcios, mudanzas forzosas o finales de etapas) rompen la burbuja de la infancia.",
+      "profundizacion": [
+        "¿Qué perdiste y cómo te afectó en ese momento?",
+        "¿Te permitieron llorar o procesar ese duelo?",
+        "¿Cómo cambió tu visión del mundo después de eso?"
+      ],
+      "observacion": [
+        "Duelo no acompañado o invalidado.",
+        "Maduración forzada o cinismo temprano.",
+        "Reconocimiento de la pérdida como catalizador de crecimiento.",
+        "Evitación de temas relacionados con la finitud o el final."
+      ],
+      "intervenciones": [
+        "Duelo terapéutico:: Procesar el duelo retrasado de la adolescencia.",
+        "Existencial:: Explorar la finitud como motivadora de sentido.",
+        "Narrativa:: Integrar la pérdida como un capítulo de fortaleza, no solo de dolor."
+      ],
+      "tarea": "Dedica un momento a honrar esa pérdida. Enciende una vela o escribe el nombre de lo que perdiste. Reconoce que ese dolor fue real y que te ayudó a formar la profundidad que tienes hoy."
+    },
+    {
+      "codigo": "H-33",
+      "iconos": [],
+      "pregunta": "¿Descubriste algún talento, pasión o interés en esa época que te hiciera sentir \"vivo\" o competente?",
+      "objetivo": "Identificar los \"documentos de resiliencia\" y las fuentes de autoeficacia temprana. Estos intereses suelen ser pistas valiosas sobre los valores y fortalezas nucleares del paciente, a menudo abandonados en la adultez por presiones prácticas.",
+      "profundizacion": [
+        "¿Qué hacías y cómo te sentías al hacerlo?",
+        "¿Alguien apoyó ese talento o te pidió que lo dejaras por algo \"más serio\"?",
+        "¿Sigues cultivando esa pasión de alguna forma hoy?"
+      ],
+      "observacion": [
+        "Nostalgia por una pasión abandonada.",
+        "Orgullo por una habilidad que se mantuvo.",
+        "Tristeza por el apoyo que no se recibió.",
+        "Reconocimiento de esa pasión como un recurso latente."
+      ],
+      "intervenciones": [
+        "Positiva:: Cultivo de fortalezas y reintroducción de actividades gratificantes.",
+        "Narrativa:: Re-conectar la pasión de la adolescencia con los valores actuales.",
+        "Gestalt:: Experimentar de nuevo esa actividad en sesión o como tarea."
+      ],
+      "tarea": "Esta semana, dedica al menos 30 minutos a retomar esa pasión o talento, aunque sea de forma muy simple (dibujar, tocar un instrumento, escribir, cocinar). Observa cómo te sientes al reconectar con esa parte de ti."
+    },
+    {
+      "codigo": "H-34",
+      "iconos": [],
+      "pregunta": "¿Hubo algún momento en que sentiste que no encajabas en ningún grupo o que eras \"demasiado\" o \"muy poco\" para los demás?",
+      "objetivo": "Explorar la experiencia de alienación o diferencia en la adolescencia. Estos sentimientos suelen ser el caldo de cultivo para la baja autoestima, pero también para la creatividad, la empatía y la autenticidad futura.",
+      "profundizacion": [
+        "¿Qué te hacía sentir diferente?",
+        "¿Cómo manejabas esa soledad o exclusión?",
+        "¿Hoy valoras esa diferencia o sigues intentando ocultarla?"
+      ],
+      "observacion": [
+        "Dolor persistente por el rechazo de pares.",
+        "Adaptación excesiva (camaleón) para encajar.",
+        "Orgullo actual por esa singularidad.",
+        "Aislamiento social como defensa."
+      ],
+      "intervenciones": [
+        "CFT:: Compasión por el adolescente que se sintió excluido.",
+        "ACT:: Aceptación de la diferencia como valor, no como defecto.",
+        "Narrativa:: Re-enmarcar la \"rareza\" como \"originalidad\" o \"autenticidad\"."
+      ],
+      "tarea": "Escribe una lista de las cosas que te hacían \"diferente\" en esa época. Al lado de cada una, escribe cómo esa misma característica es hoy una fortaleza o un don en tu vida adulta."
+    },
+    {
+      "codigo": "H-35",
+      "iconos": [],
+      "pregunta": "¿Recuerdas algún momento de soledad elegida en tu adolescencia que, en lugar de aislarte, te fortaleció o te dio claridad?",
+      "objetivo": "Diferenciar la soledad dolorosa del aislamiento de la \"soledad fértil\". Explorar los recursos internos de autocontención y reflexión que el paciente desarrolló tempranamente.",
+      "profundizacion": [
+        "¿Dónde estabas y qué hacías en esos momentos?",
+        "¿Qué pensabas o soñabas en esa soledad?",
+        "¿Cómo puedes recrear ese espacio de claridad en tu vida actual?"
+      ],
+      "observacion": [
+        "Recuerdo de paz, lectura, música o naturaleza.",
+        "Reconocimiento de la soledad como refugio creativo.",
+        "Confusión entre soledad elegida y aislamiento defensivo.",
+        "Dificultad para estar solo en el presente."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Cultivar la soledad consciente y no reactiva.",
+        "Narrativa:: Valorar la soledad como espacio de gestación de la identidad.",
+        "Humanista:: Fomentar la relación saludable con uno mismo."
+      ],
+      "tarea": "Programa esta semana una \"cita contigo mismo\" de 30 minutos, sin pantallas ni distracciones. Haz algo que hacías en esa época (leer, caminar, escuchar música). Observa qué claridad o calma te trae."
+    },
+    {
+      "codigo": "H-36",
+      "iconos": [],
+      "pregunta": "¿Cuál fue la primera vez que defendiste a alguien o a ti mismo con firmeza, a pesar del miedo?",
+      "objetivo": "Identificar los primeros actos de asertividad y valentía moral. Estos momentos son cruciales para la construcción de la autoestima y el sentido de agencia personal.",
+      "profundizacion": [
+        "¿Qué situación lo requería y qué te movió a actuar?",
+        "¿Cómo te sentiste en tu cuerpo durante y después del acto?",
+        "¿Reconoces esa misma valentía en ti hoy?"
+      ],
+      "observacion": [
+        "Orgullo y empoderamiento retrospectivo.",
+        "Sorpresa por la propia capacidad de firmeza.",
+        "Dificultad actual para establecer límites o defenderse.",
+        "Reconocimiento de ese momento como un punto de inflexión en la autoestima."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Saludable\" protector.",
+        "DBT:: Entrenamiento en asertividad y defensa de valores.",
+        "Narrativa:: Integrar ese acto de valentía en la identidad actual."
+      ],
+      "tarea": "Escribe sobre ese momento con detalle. Luego, identifica una situación actual donde necesites esa misma firmeza. Planifica una pequeña acción asertiva para esta semana, basándote en esa fortaleza que ya demostraste tener."
+    },
+    {
+      "codigo": "H-37",
+      "iconos": [],
+      "pregunta": "¿Hay algún ritual, hábito o costumbre de esa época que todavía conservas, o que te costó mucho soltar?",
+      "objetivo": "Explorar la continuidad y la discontinuidad en la construcción de la identidad. Los hábitos que perduran son anclas de seguridad; los que se soltaron con dolor pueden indicar duelos no resueltos por la juventud.",
+      "profundizacion": [
+        "¿Qué es ese hábito y qué función cumplía para ti?",
+        "¿Por qué crees que lo mantienes o por qué tuviste que dejarlo?",
+        "¿Te conecta con tu esencia o es una camisa de fuerza del pasado?"
+      ],
+      "observacion": [
+        "Hábitos saludables que brindan estabilidad.",
+        "Rituales de ansiedad que ya no son útiles.",
+        "Nostalgia por un hábito perdido (ej. escribir, dibujar).",
+        "Conciencia de la evolución personal a través de los hábitos."
+      ],
+      "intervenciones": [
+        "TCC:: Análisis funcional de hábitos persistentes.",
+        "Narrativa:: Explorar el hábito como un hilo conductor de la identidad.",
+        "Mindfulness:: Evaluar si el hábito actual es consciente o automático."
+      ],
+      "tarea": "Elige un hábito de esa época que perdiste y que te gustaría recuperar (aunque sea en una versión adulta). Dedica 15 minutos esta semana a practicarlo. Observa qué emociones despierta."
+    },
+    {
+      "codigo": "H-38",
+      "iconos": [],
+      "pregunta": "¿Cuándo fue la primera vez que sentiste que eras el único responsable de tu propio futuro?",
+      "objetivo": "Identificar el momento de la \"toma de las riendas\" existencial. Este hito marca la transición de la mentalidad de \"lo que me hacen\" a \"lo que yo construyo\", y suele estar cargado de una mezcla de vértigo y empoderamiento.",
+      "profundizacion": [
+        "¿Qué evento o conversación desencadenó esta sensación?",
+        "¿Te sentiste liberado o abrumado por esa responsabilidad?",
+        "¿Cómo ha evolucionado esa sensación de responsabilidad hasta hoy?"
+      ],
+      "observacion": [
+        "Vértigo o ansiedad ante la libertad.",
+        "Empoderamiento y claridad de propósito.",
+        "Resentimiento por tener que asumir esa responsabilidad demasiado pronto.",
+        "Integración madura de la autonomía."
+      ],
+      "intervenciones": [
+        "Existencial:: Explorar la libertad y la responsabilidad como dos caras de la misma moneda.",
+        "ACT:: Clarificación de valores y acción comprometida con el propio futuro.",
+        "Terapia de Esquemas:: Trabajar el miedo al fracaso o la hipersresponsabilidad."
+      ],
+      "tarea": "Escribe una declaración de intenciones para tu futuro, comenzando con: \"Hoy asumo la responsabilidad de...\". Incluye al menos un área que hayas estado evitando. Léela en voz alta."
+    },
+    {
+      "codigo": "H-39",
+      "iconos": [],
+      "pregunta": "¿Hay algún \"error\" o decisión equivocada de esa época de la que hoy te sientes orgulloso por lo que te enseñó?",
+      "objetivo": "Re-enmarcar los fracasos o errores juveniles como experiencias de aprendizaje valiosas. Esto fomenta la autocompasión y una mentalidad de crecimiento, rompiendo con la autocrítica retroactiva.",
+      "profundizacion": [
+        "¿Qué decidiste o hiciste que considerabas un \"error\"?",
+        "¿Qué habilidad, límite o valor descubriste gracias a eso?",
+        "¿Cómo te hablarías hoy sobre ese error si fueras tu mejor amigo?"
+      ],
+      "observacion": [
+        "Vergüenza persistente que impide ver el aprendizaje.",
+        "Reconocimiento claro de la lección aprendida.",
+        "Humor y ligereza al recordar el \"error\".",
+        "Integración del error como parte necesaria del camino."
+      ],
+      "intervenciones": [
+        "CFT:: Autocompasión por los errores del pasado.",
+        "Narrativa:: Re-autoría del \"fracaso\" como \"capítulo de aprendizaje\".",
+        "ACT:: Defusión de la etiqueta de \"error\" y conexión con los valores."
+      ],
+      "tarea": "Escribe sobre ese \"error\" como si fuera el prólogo de un libro de éxito que escribiste después. Titúlalo: \"Gracias a ese error, hoy sé que...\"."
+    },
+    {
+      "codigo": "H-40",
+      "iconos": [],
+      "pregunta": "Si pudieras encontrarte hoy con el adolescente que fuiste, ¿qué le dirías sobre el camino que está por recorrer?",
+      "objetivo": "Cerrar el bloque de la adolescencia con una intervención de integración y reparentalización. Permite al paciente ofrecer la validación, la advertencia o el consuelo que él mismo necesitaba, fortaleciendo el vínculo con el \"Adulto Sanador\".",
+      "profundizacion": [
+        "¿Lo tranquilizarías, lo felicitarías o le pedirías paciencia?",
+        "¿Qué le dirías sobre los dolores que vendrán y cómo los superará?",
+        "¿Cómo te sientes tú, como adulto, al ofrecerle este mensaje?"
+      ],
+      "observacion": [
+        "Emoción intensa y conexión compasiva con el yo adolescente.",
+        "Dificultad para ser amable con esa versión de sí mismo.",
+        "Alivio al poder ofrecer consuelo retroactivo.",
+        "Reconocimiento de la resiliencia del camino recorrido."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Diálogo de reparentalización entre el Adulto Sanador y el Niño/Adolescente Vulnerable.",
+        "Gestalt:: Silla vacía para el encuentro con el yo adolescente.",
+        "CFT:: Activación del sistema de cuidado y afiliación hacia uno mismo."
+      ],
+      "tarea": "Escribe esa carta o mensaje para tu yo adolescente. Guárdala en tu billetera o en tu teléfono. Cada vez que te sientas perdido o autocrítico, léela para recordar que ya has superado mucho y que tienes un aliado en ti mismo."
+    },
+    {
+      "codigo": "H-41",
+      "iconos": [],
+      "pregunta": "¿Cuál fue el primer momento en que sentiste que realmente \"te habías hecho adulto/a\"?",
+      "objetivo": "Identificar el hito subjetivo de la adultez psicológica. No se trata de la edad cronológica, sino del momento en que el paciente asumió la responsabilidad total de su vida. Este momento revela valores nucleares y la relación con la autonomía.",
+      "profundizacion": [
+        "¿Qué situación específica desencadenó esa sensación?",
+        "¿Te sentiste empoderado/a, abrumado/a, o ambas cosas?",
+        "¿Qué parte de tu infancia o adolescencia sentiste que dejaste atrás en ese momento?"
+      ],
+      "observacion": [
+        "Orgullo por la autonomía lograda.",
+        "Duelo por la infancia que terminó abruptamente.",
+        "Parentificación temprana como detonante.",
+        "Confusión sobre qué significa \"ser adulto\"."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del hito como acto de valentía, no de pérdida.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Adulto Funcional\" vs. el \"Niño Vulnerable\".",
+        "Existencial:: Explorar la libertad y responsabilidad de la adultez."
+      ],
+      "tarea": "Escribe sobre ese momento con detalle. Luego, escribe una carta al \"yo\" de ese día diciéndole: \"Gracias por haber dado ese paso. Hoy sigo construyendo sobre lo que empezaste\". Observa qué emoción emerge."
+    },
+    {
+      "codigo": "H-42",
+      "iconos": [],
+      "pregunta": "¿Qué relación adulta (de pareja, amistad o familia elegida) ha redefinido tu forma de entender el amor o la pertenencia?",
+      "objetivo": "Explorar los vínculos adultos reparadores. Estas relaciones suelen ofrecer el apego seguro que faltó en la infancia y reconfiguran los modelos internos de trabajo sobre el amor, la confianza y la pertenencia.",
+      "profundizacion": [
+        "¿Qué te enseñó esa persona sobre ti mismo/a?",
+        "¿Qué sanó o qué abrió en ti esa relación?",
+        "¿Cómo influye esa experiencia en tus vínculos actuales?"
+      ],
+      "observacion": [
+        "Gratitud por un vínculo reparador.",
+        "Duelo por un vínculo perdido que marcó época.",
+        "Reconocimiento de la familia elegida como refugio.",
+        "Dificultad para identificar vínculos reparadores."
+      ],
+      "intervenciones": [
+        "Apego:: Explorar cómo este vínculo reconfigura el modelo de apego.",
+        "Narrativa:: Integrar este vínculo como \"documento de identidad alternativa\".",
+        "CFT:: Activar el sistema de afiliación y cuidado."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa persona (la envíes o no). Dile específicamente qué te enseñó sobre el amor o la pertenencia. Observa cómo te sientes al honrar ese vínculo."
+    },
+    {
+      "codigo": "H-43",
+      "iconos": [],
+      "pregunta": "¿Cuál ha sido la crisis más profunda que has atravesado como adulto, y qué versión de ti sobrevivió a ella?",
+      "objetivo": "Explorar las crisis adultas como catalizadores de transformación. Las crisis (divorcios, despidos, enfermedades, pérdidas) suelen marcar el fin de una identidad y el inicio de otra más integrada. Preguntar por \"la versión que sobrevivió\" honra la resiliencia.",
+      "profundizacion": [
+        "¿Qué se rompió en esa crisis y qué se reconstruyó?",
+        "¿Qué fortaleza descubriste que no sabías que tenías?",
+        "¿Cómo te ves hoy diferente gracias a haber atravesado eso?"
+      ],
+      "observacion": [
+        "Reconocimiento de la crisis como punto de inflexión positivo.",
+        "Duelo no resuelto por lo perdido en la crisis.",
+        "Orgullo por la resiliencia demostrada.",
+        "Evitación de la crisis por el dolor asociado."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la crisis como historia de transformación.",
+        "Logoterapia:: Búsqueda de sentido en el sufrimiento atravesado.",
+        "EMDR:: Reprocesamiento si la crisis dejó huellas traumáticas."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo actual\" hacia tu \"yo de antes de la crisis\". Dile: \"Sé que no podías imaginarlo, pero sobrevivimos. Y mira lo que construimos después\". Guárdala como testimonio de tu fortaleza."
+    },
+    {
+      "codigo": "H-44",
+      "iconos": [],
+      "pregunta": "¿Cuál ha sido la pérdida más significativa de tu vida adulta, y cómo te ha transformado?",
+      "objetivo": "Explorar los duelos adultos significativos (pérdida de padres, parejas, hijos, trabajos, salud, proyectos). Estos duelos reconfiguran la identidad y suelen dejar \"cicatrices sabias\" que merecen ser honradas, no solo superadas.",
+      "profundizacion": [
+        "¿Qué perdiste y qué parte de ti se fue con esa pérdida?",
+        "¿Cómo te acompañaron (o no) en ese duelo?",
+        "¿Qué aprendiste sobre ti y sobre la vida que no habrías aprendido sin esa pérdida?"
+      ],
+      "observacion": [
+        "Duelo integrado con sabiduría y gratitud.",
+        "Duelo congelado o no procesado.",
+        "Duelo complicado con culpa o rabia persistente.",
+        "Reconocimiento de la pérdida como maestra."
+      ],
+      "intervenciones": [
+        "Duelo terapéutico:: Procesar duelos no resueltos con rituales de despedida.",
+        "Narrativa:: Integrar la pérdida como parte de la historia sin que la defina.",
+        "Logoterapia:: Encontrar sentido en lo perdido."
+      ],
+      "tarea": "Escribe una carta a lo que perdiste. Agradece lo que te dio, suelta lo que te dolió, y reconoce cómo te transformó. Si te animas, crea un pequeño ritual simbólico de despedida o integración."
+    },
+    {
+      "codigo": "H-45",
+      "iconos": [],
+      "pregunta": "¿En qué momento de tu vida adulta te diste cuenta de que te habías convertido en algo parecido a tus padres?",
+      "objetivo": "Explorar la identificación adulta con las figuras parentales. Este momento suele generar una mezcla de ternura, vergüenza o aceptación. Revela las lealtades invisibles y los mandatos que se han encarnado sin darse cuenta.",
+      "profundizacion": [
+        "¿En qué gesto, frase o actitud te reconociste?",
+        "¿Cómo te sentiste al darte cuenta?",
+        "¿Qué parte de esa herencia quieres conservar y cuál soltar?"
+      ],
+      "observacion": [
+        "Ternura y aceptación de la herencia.",
+        "Vergüenza o rechazo de lo heredado.",
+        "Conciencia clara de qué conservar y qué soltar.",
+        "Sorpresa por la repetición inconsciente."
+      ],
+      "intervenciones": [
+        "Sistémica / Constelaciones:: Explorar lealtades invisibles y destinos repetidos.",
+        "Terapia de Esquemas:: Identificar modos parentales introyectados.",
+        "Narrativa:: Diferenciar conscientemente la herencia de la elección."
+      ],
+      "tarea": "Haz dos listas: \"Lo de mis padres que habito con orgullo\" y \"Lo de mis padres que quiero transformar\". Observa cómo te sientes al diferenciar herencia de elección consciente."
+    },
+    {
+      "codigo": "H-46",
+      "iconos": [],
+      "pregunta": "¿Qué logro de tu vida adulta te enorgullece más, aunque nadie más parezca notarlo?",
+      "objetivo": "Identificar los \"logros invisibles\" que el paciente no celebra. Suelen ser los más significativos: haber roto un patrón, haber puesto un límite, haber criado hijos con más amor del recibido, haber sanado una relación. Fomentar el reconocimiento propio.",
+      "profundizacion": [
+        "¿Por qué crees que nadie más lo nota?",
+        "¿Qué te costó lograrlo?",
+        "¿Qué dice ese logro sobre quién eres realmente?"
+      ],
+      "observacion": [
+        "Reconocimiento con emoción y orgullo.",
+        "Dificultad para identificar logros propios.",
+        "Minimización del logro (\"cualquiera lo haría\").",
+        "Lágrimas de alivio al ser validado."
+      ],
+      "intervenciones": [
+        "CFT:: Activar el sistema de soothing y celebración propia.",
+        "Narrativa:: Integrar el logro como \"documento de identidad alternativa\".",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sanador\" que reconoce el mérito."
+      ],
+      "tarea": "Escribe ese logro en una tarjeta especial. Guárdala en un lugar visible. Cada vez que te sientas insuficiente, léela y recuerda: \"Esto también soy yo\"."
+    },
+    {
+      "codigo": "H-47",
+      "iconos": [],
+      "pregunta": "Si eres padre o madre, ¿en qué momento sentiste que estabas rompiendo un patrón familiar con tus hijos?",
+      "objetivo": "Explorar la parentalidad consciente como acto de transformación transgeneracional. Para quienes no son padres, la pregunta puede adaptarse a \"¿en qué relación has roto un patrón heredado?\".",
+      "profundizacion": [
+        "¿Qué patrón estabas rompiendo?",
+        "¿Cómo te sentiste al hacerlo diferente?",
+        "¿Qué te hubiera gustado recibir tú a esa edad?"
+      ],
+      "observacion": [
+        "Orgullo por haber roto el ciclo.",
+        "Culpa por no haberlo hecho antes.",
+        "Emoción al reconocer el impacto en los hijos.",
+        "Adaptación a personas sin hijos (otras relaciones significativas)."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar la transformación transgeneracional.",
+        "Terapia de Esquemas:: Reconocer al \"Adulto Sanador\" que cuida al \"Niño\" en los hijos.",
+        "Narrativa:: Re-escribir la historia familiar como historia de cambio."
+      ],
+      "tarea": "Escribe una carta al niño que fuiste, diciéndole: \"Lo que no recibiste, hoy lo estoy dando a otros. Lo que te faltó, hoy lo estoy construyendo\". Observa qué emoción emerge."
+    },
+    {
+      "codigo": "H-48",
+      "iconos": [],
+      "pregunta": "¿Qué \"muerte simbólica\" has atravesado en tu vida adulta (el fin de un rol, una identidad, una etapa)?",
+      "objetivo": "Explorar las muertes simbólicas: el fin de la juventud, de una profesión, de un matrimonio, de un sueño, de una versión de uno mismo. Estos duelos no siempre son reconocidos, pero reconfiguran profundamente la identidad.",
+      "profundizacion": [
+        "¿Qué murió en ti y qué nació a partir de esa pérdida?",
+        "¿Te permitiste llorar esa muerte o la negaste?",
+        "¿Quién eres hoy gracias a ese duelo?"
+      ],
+      "observacion": [
+        "Duelo integrado con sabiduría.",
+        "Duelo negado o minimizado.",
+        "Reconocimiento de la muerte simbólica como renacimiento.",
+        "Resistencia a soltar la identidad antigua."
+      ],
+      "intervenciones": [
+        "Duelo terapéutico:: Ritualizar la despedida de la identidad antigua.",
+        "Narrativa:: Re-autoría del fin como inicio de un nuevo capítulo.",
+        "Junguiana:: Explorar el arquetipo de muerte y renacimiento."
+      ],
+      "tarea": "Escribe un breve \"obituario\" de esa versión de ti que murió. Reconoce lo que fue, lo que aportó, y despídela con gratitud. Luego, escribe una \"bienvenida\" a quien eres hoy."
+    },
+    {
+      "codigo": "H-49",
+      "iconos": [],
+      "pregunta": "¿Qué \"no dicho\" en tu vida adulta sigue pesando, y qué pasaría si finalmente lo nombras?",
+      "objetivo": "Identificar los \"no dichos\" adultos: declaraciones de amor no hechas, perdones no pedidos, renuncias no expresadas, verdades no compartidas. Estos silencios suelen pesar más que las palabras dichas.",
+      "profundizacion": [
+        "¿A quién le debes ese \"no dicho\"?",
+        "¿Qué te impide decirlo ahora?",
+        "¿Qué cambiaría en ti (aunque no en el otro) si lo nombras?"
+      ],
+      "observacion": [
+        "Alivio al reconocer el \"no dicho\".",
+        "Miedo a las consecuencias de decirlo.",
+        "Tristeza por oportunidades no tomadas.",
+        "Apertura a decirlo simbólicamente aunque no sea al destinatario."
+      ],
+      "intervenciones": [
+        "Gestalt:: Silla vacía para decir lo no dicho.",
+        "Narrativa:: Externalizar el \"no dicho\" como un peso que puede soltarse.",
+        "ACT:: Aceptación de lo no dicho y acción comprometida con la verdad."
+      ],
+      "tarea": "Escribe ese \"no dicho\" en una carta. No tienes que enviarla. El acto de nombrarlo ya libera parte de su peso. Luego, decide si hay alguna forma segura de expresarlo en tu vida actual."
+    },
+    {
+      "codigo": "H-50",
+      "iconos": [],
+      "pregunta": "¿Qué sueño o proyecto de tu juventud abandonaste, y qué te enseñó esa renuncia?",
+      "objetivo": "Explorar los sueños abandonados como material de duelo y sabiduría. Renunciar a un sueño no es fracasar; es elegir. Este trabajo permite integrar lo que el sueño representaba y honrar el camino recorrido.",
+      "profundizacion": [
+        "¿Qué representaba ese sueño para ti?",
+        "¿Por qué lo abandonaste: por miedo, por realidad, por madurez?",
+        "¿Qué parte de ese sueño sigue viva en ti de otra forma?"
+      ],
+      "observacion": [
+        "Duelo no resuelto por el sueño perdido.",
+        "Aceptación serena de la renuncia como elección.",
+        "Reconocimiento de que el sueño se transformó, no murió.",
+        "Amargura por lo que pudo ser y no fue."
+      ],
+      "intervenciones": [
+        "Duelo terapéutico:: Procesar el duelo por el sueño abandonado.",
+        "Narrativa:: Re-enmarcar la renuncia como acto de madurez, no de fracaso.",
+        "Logoterapia:: Encontrar el sentido de lo no realizado."
+      ],
+      "tarea": "Escribe una carta de despedida a ese sueño. Agradece lo que te enseñó, suelta lo que te dolió, y reconoce cómo se transformó en otra cosa. Observa qué emoción emerge al honrarlo."
+    },
+    {
+      "codigo": "H-51",
+      "iconos": [],
+      "pregunta": "¿Qué relación de tu vida adulta te enseñó algo que ninguna otra podría haberte enseñado?",
+      "objetivo": "Identificar las relaciones \"maestras\" de la adultez. Suelen ser vínculos intensos (no siempre positivos) que dejaron enseñanzas profundas sobre límites, amor, traición, perdón o autonomía.",
+      "profundizacion": [
+        "¿Qué te enseñó esa persona, aunque fuera a través del dolor?",
+        "¿Cómo cambió tu forma de vincularte después de esa relación?",
+        "¿Qué le agradecerías hoy, aunque la relación haya terminado?"
+      ],
+      "observacion": [
+        "Gratitud por una relación sanadora.",
+        "Reconocimiento de una relación dolorosa pero formativa.",
+        "Duelo por una relación perdida.",
+        "Integración madura de la enseñanza."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integrar la relación como capítulo de aprendizaje.",
+        "Gestalt:: Silla vacía para cerrar la relación con gratitud.",
+        "CFT:: Compasión por el dolor y gratitud por la enseñanza."
+      ],
+      "tarea": "Escribe una carta a esa persona (no necesitas enviarla). Dile: \"Me enseñaste que... y hoy soy quien soy gracias a eso\". Observa cómo te sientes al honrar la enseñanza sin quedar atrapado en el dolor."
+    },
+    {
+      "codigo": "H-52",
+      "iconos": [],
+      "pregunta": "¿Qué \"perdón\" (hacia ti mismo, hacia otros o de otros) sigue pendiente en tu vida?",
+      "objetivo": "Explorar los perdones pendientes como material de sanación profunda. El perdón no es olvido ni justificación; es liberación. Puede ser hacia uno mismo, hacia otros, o aceptar el perdón que otros nos ofrecen.",
+      "profundizacion": [
+        "¿A quién necesitas perdonar o de quién necesitas recibir perdón?",
+        "¿Qué te impide dar o recibir ese perdón?",
+        "¿Qué pasaría en tu cuerpo y en tu vida si ese perdón se diera hoy?"
+      ],
+      "observacion": [
+        "Resentimiento hacia otros que pesa.",
+        "Autocrítica feroz que impide el autoperdón.",
+        "Dificultad para recibir perdón de otros.",
+        "Apertura al perdón como acto de liberación."
+      ],
+      "intervenciones": [
+        "Perdón terapéutico:: Proceso estructurado de perdón (Worthington, Enright).",
+        "Gestalt:: Silla vacía para el diálogo de perdón.",
+        "CFT:: Autocompasión como base del autoperdón."
+      ],
+      "tarea": "Escribe una carta de perdón (a ti mismo, a otro, o pidiendo perdón). No tienes que enviarla. El acto de escribirla ya es un paso hacia la liberación. Observa cómo te sientes después."
+    },
+    {
+      "codigo": "H-53",
+      "iconos": [],
+      "pregunta": "¿Qué cicatriz de tu vida adulta te ha enseñado más que cualquier herida abierta?",
+      "objetivo": "Explorar las \"cicatrices sabias\" como testimonio de supervivencia y crecimiento. Las cicatrices (físicas o emocionales) son prueba de que la herida sanó, y suelen contener enseñanzas profundas.",
+      "profundizacion": [
+        "¿Qué herida sanó para convertirse en esta cicatriz?",
+        "¿Qué te dice esa cicatriz sobre tu capacidad de resiliencia?",
+        "¿Cómo la miras hoy: con vergüenza, con orgullo, con indiferencia?"
+      ],
+      "observacion": [
+        "Orgullo por la cicatriz como testimonio de supervivencia.",
+        "Vergüenza o deseo de ocultarla.",
+        "Reconocimiento de la cicatriz como maestra.",
+        "Integración serena de la herida sanada."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la cicatriz como historia de fortaleza.",
+        "CFT:: Compasión y celebración de la resiliencia.",
+        "Somática:: Reconexión con el cuerpo a través de la cicatriz."
+      ],
+      "tarea": "Si es una cicatriz física, obsérvala con atención esta semana. Si es emocional, dibújala o descríbela. Escribe qué te enseñó y cómo te hizo más fuerte. Honra tu historia de supervivencia."
+    },
+    {
+      "codigo": "H-54",
+      "iconos": [],
+      "pregunta": "¿Qué verdad sobre ti mismo has descubierto en la adultez que de joven jamás hubieras aceptado?",
+      "objetivo": "Explorar las verdades madurativas que solo la adultez puede revelar. Suelen ser aceptaciones profundas sobre la propia vulnerabilidad, los límites, la sexualidad, la identidad o la relación con los padres.",
+      "profundizacion": [
+        "¿Cómo la descubriste? ¿Fue un proceso gradual o una revelación?",
+        "¿Qué te costó aceptarla?",
+        "¿Cómo ha cambiado tu vida desde que la aceptaste?"
+      ],
+      "observacion": [
+        "Alivio por la aceptación de la verdad.",
+        "Tristeza por el tiempo que tardó en ser aceptada.",
+        "Orgullo por la madurez alcanzada.",
+        "Resistencia parcial a aceptar la verdad completa."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integrar la verdad como parte de la identidad adulta.",
+        "ACT:: Aceptación radical de la verdad sobre uno mismo.",
+        "Logoterapia:: Encontrar sentido en el proceso de descubrimiento."
+      ],
+      "tarea": "Escribe esa verdad en una tarjeta. Al lado, escribe: \"Hoy la acepto porque...\". Guárdala como testimonio de tu madurez. Léela cuando dudes de quién eres."
+    },
+    {
+      "codigo": "H-55",
+      "iconos": [],
+      "pregunta": "¿Qué conversación pendiente con alguien de tu pasado (viva o muerta) necesitas tener para cerrar un ciclo?",
+      "objetivo": "Identificar las conversaciones pendientes como material de cierre. A menudo son con personas que ya no están o con quienes la relación se rompió. El trabajo simbólico permite cerrar ciclos sin necesidad de contacto real.",
+      "profundizacion": [
+        "¿Qué necesitas decir o escuchar en esa conversación?",
+        "¿Qué te impide tenerla (aunque sea simbólicamente)?",
+        "¿Qué cambiaría en ti si pudieras tenerla hoy?"
+      ],
+      "observacion": [
+        "Dolor por la imposibilidad de tenerla en la realidad.",
+        "Apertura al cierre simbólico.",
+        "Rabia o resentimiento que bloquea la conversación.",
+        "Alivio al imaginar el cierre."
+      ],
+      "intervenciones": [
+        "Gestalt:: Silla vacía para la conversación simbólica.",
+        "Narrativa:: Re-escribir la conversación como cierre interno.",
+        "Duelo terapéutico:: Ritual de despedida o cierre."
+      ],
+      "tarea": "Escribe esa conversación completa: lo que dirías y lo que te gustaría escuchar. Si es posible, haz el ejercicio de la silla vacía en sesión. Si no, guarda la carta como testimonio del cierre simbólico."
+    },
+    {
+      "codigo": "H-56",
+      "iconos": [],
+      "pregunta": "¿Qué \"yo\" de tu pasado necesitas integrar hoy para sentirte más completo/a?",
+      "objetivo": "Explorar las partes del yo que han sido rechazadas, olvidadas o disociadas a lo largo de la vida. La integración de estas partes es clave para la individuación y la sensación de totalidad.",
+      "profundizacion": [
+        "¿Qué \"yo\" has rechazado (el niño, el rebelde, el vulnerable, el creativo)?",
+        "¿Por qué lo rechazaste en su momento?",
+        "¿Qué te aportaría integrarlo hoy?"
+      ],
+      "observacion": [
+        "Reconocimiento de partes rechazadas.",
+        "Dificultad para identificar partes disociadas.",
+        "Apertura a la integración con compasión.",
+        "Resistencia a recuperar partes dolorosas."
+      ],
+      "intervenciones": [
+        "IFS:: Diálogo con las partes rechazadas.",
+        "Junguiana:: Integración de la sombra.",
+        "Gestalt:: Diálogo con las partes disociadas."
+      ],
+      "tarea": "Escribe una carta de bienvenida a ese \"yo\" rechazado. Dile: \"Te he dejado de lado, pero hoy te invito a volver. Te necesito para ser más completo\". Observa qué emoción emerge al darle la bienvenida."
+    },
+    {
+      "codigo": "H-57",
+      "iconos": [],
+      "pregunta": "Si tu vida fuera un libro, ¿cómo titularías el capítulo que estás viviendo ahora?",
+      "objetivo": "Fomentar la metacognición y la perspectiva narrativa sobre la propia vida. El título elegido revela cómo el paciente se posiciona frente a su momento actual: como protagonista, víctima, aprendiz, héroe cansado.",
+      "profundizacion": [
+        "¿Es un título de transición, de consolidación, de crisis o de renacimiento?",
+        "¿Qué nombre tendría el próximo capítulo si empezaras a escribirlo hoy?",
+        "¿Qué te gustaría que dijera la contraportada de tu vida?"
+      ],
+      "observacion": [
+        "Títulos esperanzados o de crecimiento.",
+        "Títulos de crisis o estancamiento.",
+        "Títulos de transición o renacimiento.",
+        "Bloqueo para titular el capítulo actual."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del capítulo actual.",
+        "Logoterapia:: Búsqueda de sentido en el momento presente.",
+        "Constructivismo:: Co-construcción del próximo capítulo."
+      ],
+      "tarea": "Escribe el título del capítulo actual y un breve resumen de lo que está pasando. Luego, escribe el título del próximo capítulo que te gustaría vivir. Observa cómo te sientes al proyectarte hacia adelante."
+    },
+    {
+      "codigo": "H-58",
+      "iconos": [],
+      "pregunta": "¿Qué legado emocional quieres dejar en las personas que amas y en el mundo?",
+      "objetivo": "Explorar la dimensión trascendente de la vida. El legado emocional (cómo queremos ser recordados, qué emociones queremos dejar) revela los valores más profundos y da sentido a la existencia.",
+      "profundizacion": [
+        "¿Cómo te gustaría que te recordaran emocionalmente?",
+        "¿Qué estás haciendo ya para transmitir ese legado?",
+        "¿Qué necesitarías cambiar para alinearte con ese legado?"
+      ],
+      "observacion": [
+        "Legado de amor, paz o alegría.",
+        "Legado de fortaleza o resiliencia.",
+        "Dificultad para pensar en el legado.",
+        "Coherencia entre valores y acciones actuales."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido y legado.",
+        "ACT:: Clarificación de valores y acción comprometida.",
+        "Existencial:: Exploración de la trascendencia."
+      ],
+      "tarea": "Escribe tu \"testamento emocional\": qué emoción quieres dejar en el mundo y cómo. Léelo cada vez que necesites recordar tu propósito. Observa cómo te sientes al comprometerte con ese legado."
+    },
+    {
+      "codigo": "H-59",
+      "iconos": [],
+      "pregunta": "Si pudieras resumir tu historia en una sola frase, ¿cuál sería?",
+      "objetivo": "Sintetizar la narrativa vital del paciente en una frase. Este ejercicio de condensación revela la esencia de la historia personal y permite evaluar si el paciente se reconoce como protagonista, víctima, aprendiz o sobreviviente.",
+      "profundizacion": [
+        "¿Es una frase de dolor, de superación, de búsqueda o de gratitud?",
+        "¿Te representa completamente o hay algo que falta?",
+        "¿Cómo te sentirías si pudieras añadirle una segunda frase más esperanzadora?"
+      ],
+      "observacion": [
+        "Frase de victimización (\"la vida me ha tratado mal\").",
+        "Frase de resiliencia (\"he sobrevivido a todo\").",
+        "Frase de búsqueda (\"aún no sé quién soy\").",
+        "Frase de gratitud o integración."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la frase vital.",
+        "Logoterapia:: Búsqueda de sentido en la historia condensada.",
+        "ACT:: Defusión de la identidad fija en la frase."
+      ],
+      "tarea": "Escribe tu frase vital. Luego, escribe una segunda frase que la complemente con esperanza o sentido. Guárdalas juntas como tu \"narrativa completa\". Léelas cuando necesites recordar quién eres."
+    },
+    {
+      "codigo": "H-60",
+      "iconos": [],
+      "pregunta": "¿Qué rito o gesto te ayudaría a cerrar este mazo de historia personal y llevar contigo lo aprendido?",
+      "objetivo": "Cerrar el mazo con un ritual consciente que integre lo trabajado. Los rituales de cierre permiten honrar el recorrido, soltar lo que ya no sirve y prepararse para los siguientes mazos con una narrativa más integrada.",
+      "profundizacion": [
+        "¿Qué necesitas \"dejar aquí\" y qué quieres \"llevar contigo\"?",
+        "¿Cómo te gustaría celebrar o reconocer este recorrido?",
+        "¿Qué intención te llevas para los próximos mazos?"
+      ],
+      "observacion": [
+        "Necesidad de ritualizar el cierre y la transición.",
+        "Dificultad para soltar el material trabajado.",
+        "Apertura y entusiasmo por continuar.",
+        "Integración serena del recorrido."
+      ],
+      "intervenciones": [
+        "Simbólica:: Creación de rituales personales de cierre.",
+        "Narrativa:: Re-autoría del proceso como viaje con etapas.",
+        "Mindfulness:: Atención plena al momento presente y a la transición."
+      ],
+      "tarea": "Diseña tu propio \"rito de cierre\" para este mazo. Puede ser escribir una carta final, encender una vela, crear un objeto simbólico, o hacer una lista de gratitud por tu historia. Practícalo conscientemente antes de pasar al siguiente mazo."
+    }
+  ]
+}

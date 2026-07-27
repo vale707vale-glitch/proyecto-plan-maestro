@@ -1,0 +1,1389 @@
+{
+  "id": "emociones",
+  "nombre": "Emociones",
+  "numero": 2,
+  "rango": "E-01 a E-60",
+  "descripcion": "Alfabetizacion emocional, emociones primarias, conciencia corporal y regulacion inicial.",
+  "cartas": [
+    {
+      "codigo": "E-01",
+      "iconos": [],
+      "pregunta": "Si tuvieras que nombrar la emoción que más te ha acompañado esta última semana, ¿cuál sería?",
+      "objetivo": "Evaluar la conciencia emocional basal del paciente. Detectar alexitimia, predominio de emociones secundarias o dificultad para acceder al repertorio afectivo. Establecer un punto de partida para la alfabetización emocional.",
+      "profundizacion": [
+        "¿Esa emoción apareció en un momento específico o fue un \"fondo\" constante?",
+        "¿Podrías describirla con una palabra más precisa? (ej. tristeza → melancolía, pena, desolación).",
+        "¿Hubo alguna otra emoción que apareciera brevemente y que quizás ignoraste?"
+      ],
+      "observacion": [
+        "Alexitimia: \"no sé\", \"estoy raro\", \"bien\".",
+        "Respuesta intelectualizada (\"supongo que ansiedad\").",
+        "Claridad emocional con vocabulario rico.",
+        "Emoción dominante que revela un estado afectivo sostenido."
+      ],
+      "intervenciones": [
+        "EFT:: Diferenciar emoción primaria vs. secundaria vs. instrumental.",
+        "Psicoeducación:: Introducir la rueda de emociones de Plutchik.",
+        "Mindfulness:: Entrenar la atención a los estados afectivos momentáneos."
+      ],
+      "tarea": "Durante esta semana, pon una alarma 3 veces al día. Cuando suene, pregúntate: \"¿Qué emoción estoy sintiendo ahora?\". Anótala sin juzgarla. Al final de la semana, revisa tu registro."
+    },
+    {
+      "codigo": "E-02",
+      "iconos": [],
+      "pregunta": "¿Cuál es la diferencia, para ti, entre una \"emoción\" y un \"estado de ánimo\"?",
+      "objetivo": "Evaluar la comprensión psicoeducativa del paciente sobre su propia vida afectiva. Detectar confusiones conceptuales que pueden estar perpetuando sufrimiento (ej. creer que un estado de ánimo es una emoción puntual o viceversa).",
+      "profundizacion": [
+        "¿Cuánto dura una y cuánto dura el otro?",
+        "¿Alguna vez has confundido un estado de ánimo prolongado con una emoción específica?",
+        "¿Qué harías diferente si supieras que lo que sientes es un estado de ánimo y no una emoción puntual?"
+      ],
+      "observacion": [
+        "Confusión total entre ambos conceptos.",
+        "Comprensión intelectual sin aplicación personal.",
+        "Claridad conceptual útil para el trabajo clínico.",
+        "Resistencia a diferenciar (\"todo es lo mismo\")."
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Aclarar duración, intensidad y función de cada uno.",
+        "TCC:: Monitoreo de estados de ánimo con registro diario.",
+        "ACT:: Defusión de la identificación con estados afectivos prolongados."
+      ],
+      "tarea": "Durante 3 días, distingue en tu registro diario: \"Hoy sentí [emoción]\" vs. \"Hoy mi estado de ánimo fue [descripción]\". Observa cómo cambia tu relación con lo que sientes al ponerle el nombre correcto."
+    },
+    {
+      "codigo": "E-03",
+      "iconos": [],
+      "pregunta": "En tu familia, ¿qué emociones estaban permitidas y cuáles estaban prohibidas?",
+      "objetivo": "Explorar los mandatos emocionales familiares internalizados. Identificar emociones \"prohibidas\" que el paciente sigue evitando o juzgando en sí mismo. Mapear la historia afectiva transgeneracional.",
+      "profundizacion": [
+        "¿Qué pasaba cuando alguien mostraba una emoción prohibida?",
+        "¿Qué emociones podías mostrar según tu género? ¿Y las demás personas de tu familia?",
+        "¿Qué emociones tuyas de hoy te hacen sentir que \"no deberías\" sentirlas?"
+      ],
+      "observacion": [
+        "Reconocimiento claro de mandatos (ej. \"los hombres no lloran\").",
+        "Emociones prohibidas aún activas (vergüenza al nombrarlas).",
+        "Dificultad para recordar (\"en mi familia todo estaba bien\").",
+        "Rabia o duelo por emociones no permitidas en la infancia."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar mandatos transgeneracionales y lealtades invisibles.",
+        "EFT:: Rehabilitar emociones primarias prohibidas.",
+        "Terapia de Esquemas:: Identificar el modo del \"Niño Castigado\" por sentir ciertas emociones."
+      ],
+      "tarea": "Escribe una lista de \"emociones prohibidas en mi familia\" y otra de \"emociones permitidas\". Al lado de cada prohibida, escribe: \"Hoy, como adulto, me doy permiso de sentir...\"."
+    },
+    {
+      "codigo": "E-04",
+      "iconos": [],
+      "pregunta": "¿Dónde sientes en tu cuerpo la emoción que estás sintiendo ahora mismo?",
+      "objetivo": "Conectar emoción con experiencia somática. Evaluar la capacidad de interocepção y detectar disociación cuerpo-emoción. Introducir el cuerpo como brújula emocional.",
+      "profundizacion": [
+        "¿Esa sensación tiene forma, color, temperatura o textura?",
+        "¿Se mueve o está estática?",
+        "Si pudiera hablar, ¿qué te diría esa parte de tu cuerpo?"
+      ],
+      "observacion": [
+        "Conexión clara y descripción sensorial rica.",
+        "Alexitimia somática (\"no siento nada en el cuerpo\").",
+        "Sensación localizada en zonas de tensión crónica.",
+        "Disociación (describir desde fuera del cuerpo)."
+      ],
+      "intervenciones": [
+        "Somática:: Body scan guiado y pendulación.",
+        "Sensoriomotriz:: Exploración de impulsos de acción asociados a la sensación.",
+        "Focusing:: Trabajar con el \"sentido sentido\" (felt sense)."
+      ],
+      "tarea": "Dibuja un contorno de cuerpo humano en un papel. Cada vez que sientas una emoción intensa esta semana, marca dónde la sientes y anota su \"forma\" o \"color\". Al final tendrás tu propio mapa emocional corporal."
+    },
+    {
+      "codigo": "E-05",
+      "iconos": [],
+      "pregunta": "Si la emoción que más te cuesta sentir tuviera un mensaje importante para ti, ¿cuál crees que sería?",
+      "objetivo": "Reformular la emoción evitada como información adaptativa. Introducir el modelo de las emociones como señales. Trabajar la evitación experiencial sin confrontarla directamente.",
+      "profundizacion": [
+        "¿De qué te está protegiendo no sentir esa emoción?",
+        "¿Qué pasaría si la escucharas aunque sea un 10%?",
+        "¿A quién de tu historia le pertenecía originalmente ese mensaje?"
+      ],
+      "observacion": [
+        "Resistencia total (\"esa emoción no sirve para nada\").",
+        "Curiosidad tímida por explorar el mensaje.",
+        "Insight sobre la función adaptativa de la emoción.",
+        "Confusión (\"no sé qué mensaje podría tener\")."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación radical y defusión del juicio sobre la emoción.",
+        "EFT:: Exploración de la emoción primaria adaptativa detrás de la evitación.",
+        "Evolucionista:: Explicar la función de supervivencia de cada emoción."
+      ],
+      "tarea": "Escribe una carta desde esa emoción \"prohibida\" hacia ti. Empieza con: \"Querido/a [tu nombre], quiero que sepas que intento protegerte de...\". Léela en voz alta y observa qué pasa."
+    },
+    {
+      "codigo": "E-06",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más fácil expresar y cuál te resulta más difícil?",
+      "objetivo": "Mapear el repertorio emocional del paciente. Identificar emociones \"seguras\" vs. \"peligrosas\" y explorar las razones históricas de esa distribución.",
+      "profundizacion": [
+        "¿Qué hace que una sea fácil y la otra difícil?",
+        "¿Cómo reaccionan los demás cuando expresas la difícil?",
+        "¿Qué pasaría si invirtieras parcialmente esa jerarquía?"
+      ],
+      "observacion": [
+        "Patrón común: fácil la ira, difícil la tristeza (o viceversa).",
+        "Todo es difícil (bloqueo emocional generalizado).",
+        "Todo es fácil (hiperexpresividad sin filtro).",
+        "Reconocimiento claro con historia de aprendizaje."
+      ],
+      "intervenciones": [
+        "EFT:: Trabajar la emoción primaria evitada en sesión.",
+        "Gestalt:: Amplificar la emoción difícil en un experimento seguro.",
+        "DBT:: Entrenamiento en regulación emocional gradual."
+      ],
+      "tarea": "Esta semana, busca una situación pequeña donde puedas expresar la emoción \"difícil\" en un 10% más de lo habitual. Puede ser un suspiro, una palabra, una pausa. Registra cómo te sentiste."
+    },
+    {
+      "codigo": "E-07",
+      "iconos": [],
+      "pregunta": "¿Recuerdas la primera vez que sentiste que una emoción tuya \"era demasiado\" para alguien?",
+      "objetivo": "Acceder a memorias tempranas de invalidación emocional. Identificar el origen de la vergüenza tóxica asociada a ciertas emociones. Explorar heridas de apego relacionadas con la expresión afectiva.",
+      "profundizacion": [
+        "¿Qué edad tenías y quién estaba ahí?",
+        "¿Qué te dijeron o qué hicieron?",
+        "¿Qué decidiste sobre ti mismo/a a partir de ese momento?"
+      ],
+      "observacion": [
+        "Memoria vívida con emoción intensa actual.",
+        "Disociación o minimización (\"no fue para tanto\").",
+        "Múltiples recuerdos similares (patrón repetido).",
+        "Rabia o duelo por la invalidación sufrida."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesamiento de la memoria de invalidación.",
+        "Terapia de Esquemas:: Reparentalización del \"Niño Vulnerable\" invalidado.",
+        "CFT:: Compasión hacia la parte que aprendió a esconder sus emociones."
+      ],
+      "tarea": "Escribe una carta a ese niño/a que fuiste, diciéndole: \"Tus emociones nunca fueron demasiado. Eran válidas. Lo que pasó no fue tu culpa\". Léela en voz alta y observa qué emerge."
+    },
+    {
+      "codigo": "E-08",
+      "iconos": [],
+      "pregunta": "¿Qué haces habitualmente cuando sientes una emoción \"incómoda\"? ¿La evitas, la amplificas, la congelas o la transformas en otra?",
+      "objetivo": "Identificar las estrategias de regulación emocional del paciente (adaptativas vs. desadaptativas). Mapear los mecanismos de evitación experiencial y los patrones de reactividad.",
+      "profundizacion": [
+        "¿Qué estrategias aprendiste de pequeño para manejar lo incómodo?",
+        "¿Cuáles te funcionan y cuáles ya no?",
+        "¿Qué necesitarías para probar una estrategia nueva?"
+      ],
+      "observacion": [
+        "Evitación (comer, pantallas, sustancias, dormir).",
+        "Amplificación (rumiación, catastrofismo, búsqueda de conflicto).",
+        "Transformación (ira → tristeza, tristeza → ira).",
+        "Regulación adaptativa (ejercicio, escritura, hablar)."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades de tolerancia al malestar.",
+        "ACT:: Identificación de estrategias de control y sus costos.",
+        "TCC:: Análisis funcional de conductas de regulación."
+      ],
+      "tarea": "Lleva un \"diario de regulación\" esta semana. Cada vez que sientas una emoción incómoda, anota: 1) qué sentiste, 2) qué hiciste para manejarlo, 3) cómo te sentiste 10 minutos después."
+    },
+    {
+      "codigo": "E-09",
+      "iconos": [],
+      "pregunta": "Si pudieras darle un nombre propio a tu emoción más recurrente, ¿cómo la llamarías?",
+      "objetivo": "Externalizar la emoción para reducir la identificación con ella. Introducir la técnica narrativa de dar nombre propio a los estados afectivos. Facilitar la relación observadora con la propia vida emocional.",
+      "profundizacion": [
+        "¿Cómo es su personalidad? ¿Cuándo aparece?",
+        "¿Qué quiere de ti cuando llega?",
+        "¿Qué le dirías si la tuvieras delante?"
+      ],
+      "observacion": [
+        "Nombre hostil (\"el Saboteador\", \"la Sombra\").",
+        "Nombre compasivo (\"el Niño Asustado\", \"la Parte Cansada\").",
+        "Bloqueo creativo o resistencia al ejercicio.",
+        "Nombre humorístico que alivia la tensión."
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalización completa de la emoción como personaje.",
+        "IFS:: Dialogar con la \"parte\" que trae esa emoción.",
+        "Gestalt:: Silla vacía para dialogar con la emoción personificada."
+      ],
+      "tarea": "Esta semana, cada vez que aparezca esa emoción, salúdala por su nombre: \"Hola [nombre], ya llegaste\". Observa si eso cambia tu relación con ella. Anota lo que descubras."
+    },
+    {
+      "codigo": "E-10",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes justo antes de sentir la que normalmente identificas?",
+      "objetivo": "Acceder a la emoción primaria detrás de la secundaria. Introducir el modelo de emociones en cadena (ej. antes de la ira suele haber dolor o miedo; antes de la alegría maníaca puede haber vacío). Diferenciar emoción reactiva de emoción nuclear.",
+      "profundizacion": [
+        "¿Qué pasó en tu cuerpo justo antes del cambio?",
+        "¿Hay alguna emoción más vulnerable escondida debajo?",
+        "¿Qué te impide quedarte en esa emoción primaria?"
+      ],
+      "observacion": [
+        "Descubrimiento de tristeza debajo de la ira.",
+        "Miedo debajo de la ansiedad.",
+        "Vergüenza debajo de la culpa.",
+        "Dificultad para acceder a la capa más profunda."
+      ],
+      "intervenciones": [
+        "EFT:: Búsqueda sistemática de la emoción primaria adaptativa.",
+        "Gestalt:: Amplificación de la transición emocional en sesión.",
+        "Psicodinámica:: Exploración de las defensas contra la emoción nuclear."
+      ],
+      "tarea": "La próxima vez que sientas tu emoción habitual, haz una pausa de 10 segundos y pregúntate: \"¿Qué había justo antes?\". Anota lo que descubras. Hazlo al menos 3 veces esta semana."
+    },
+    {
+      "codigo": "E-11",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más difícil ver en los demás y por qué?",
+      "objetivo": "Explorar la proyección emocional: lo que no toleramos en otros suele ser lo que no toleramos en nosotros. Identificar emociones sombra y juicios internalizados.",
+      "profundizacion": [
+        "¿A quién de tu historia te recuerda esa emoción en otros?",
+        "¿Qué temes que pase si tú la expresas?",
+        "¿Qué te dice sobre ti el hecho de que te moleste tanto?"
+      ],
+      "observacion": [
+        "Intolerancia a la tristeza (asociada a debilidad).",
+        "Intolerancia a la alegría (asociada a irresponsabilidad).",
+        "Intolerancia a la ira (asociada a peligro).",
+        "Reconocimiento del patrón proyectivo."
+      ],
+      "intervenciones": [
+        "Junguiana:: Trabajo con la sombra emocional.",
+        "Gestalt:: Re-proyección: \"Lo que me molesta de ti es algo mío\".",
+        "ACT:: Defusión del juicio sobre la emoción en otros y en uno mismo."
+      ],
+      "tarea": "Esta semana, cuando veas a alguien expresando esa emoción \"difícil\", en lugar de juzgar, pregúntate: \"¿Qué parte de mí necesita permiso para sentir esto?\". Anota tus descubrimientos."
+    },
+    {
+      "codigo": "E-12",
+      "iconos": [],
+      "pregunta": "¿Cuál es tu \"emoción refugio\", esa a la que recurres cuando no quieres sentir otras?",
+      "objetivo": "Identificar la emoción \"paraguas\" que el paciente usa para cubrir emociones más vulnerables. Detectar patrones de sustitución emocional (ej. la ira como refugio contra la tristeza, la apatía como refugio contra el miedo).",
+      "profundizacion": [
+        "¿Qué te da esa emoción que otras no te dan?",
+        "¿De qué te protege?",
+        "¿Qué tendrías que enfrentar si la soltaras?"
+      ],
+      "observacion": [
+        "Ira como refugio contra el dolor.",
+        "Apatía como refugio contra la ansiedad.",
+        "Ansiedad como refugio contra el vacío.",
+        "Tristeza como refugio contra la responsabilidad."
+      ],
+      "intervenciones": [
+        "EFT:: Explorar la emoción primaria oculta bajo el refugio.",
+        "Psicodinámica:: Análisis de las defensas emocionales.",
+        "ACT:: Aceptación de la vulnerabilidad bajo el refugio."
+      ],
+      "tarea": "Esta semana, cuando notes que aparece tu \"emoción refugio\", pregúntate: \"¿Qué estoy evitando sentir ahora?\". Anota lo que descubras sin juzgarte."
+    },
+    {
+      "codigo": "E-13",
+      "iconos": [],
+      "pregunta": "¿Hay alguna emoción que sientes que \"no te pertenece\", que parece venir de otro lado?",
+      "objetivo": "Explorar la introyección emocional: emociones heredadas del sistema familiar o de figuras significativas. Identificar lealtades invisibles y mandatos transgeneracionales afectivos.",
+      "profundizacion": [
+        "¿A quién de tu familia se parece esa emoción?",
+        "¿Cuándo apareció por primera vez?",
+        "¿Qué pasaría si se la devolvieras a su dueño original?"
+      ],
+      "observacion": [
+        "Reconocimiento claro (\"es la tristeza de mi madre\").",
+        "Confusión sobre el origen de la emoción.",
+        "Lealtad invisible (\"no puedo soltarla, sería traicionar\").",
+        "Alivio al reconocer que no le pertenece."
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolución simbólica de la emoción a su dueño original.",
+        "Constelaciones:: Trabajo con lealtades invisibles.",
+        "Narrativa:: Externalización de la emoción introyectada."
+      ],
+      "tarea": "Escribe una carta a la persona de quien crees que heredaste esa emoción. Dile: \"Te devuelvo esto con respeto. Es tuyo, no mío. Yo elijo sentir otras cosas\". Observa cómo te sientes después."
+    },
+    {
+      "codigo": "E-14",
+      "iconos": [],
+      "pregunta": "Si pudieras elegir una emoción para sentir más a menudo en tu vida, ¿cuál sería y por qué?",
+      "objetivo": "Explorar los valores emocionales del paciente. Identificar qué estados afectivos asocia con bienestar, plenitud o sentido. Detectar emociones idealizadas o evitadas.",
+      "profundizacion": [
+        "¿Cuándo fue la última vez que la sentiste?",
+        "¿Qué condiciones necesitas para que aparezca?",
+        "¿Qué te impide sentirla más a menudo?"
+      ],
+      "observacion": [
+        "Elección de emociones de calma (paz, serenidad).",
+        "Elección de emociones de vitalidad (alegría, pasión).",
+        "Elección de emociones de conexión (amor, ternura).",
+        "Dificultad para elegir o idealización irreal."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores a través de las emociones deseadas.",
+        "Positiva:: Cultivo deliberado de emociones positivas.",
+        "Conductual:: Programación de actividades que evocan la emoción elegida."
+      ],
+      "tarea": "Esta semana, programa una actividad pequeña cada día que te acerque a esa emoción elegida. Puede ser escuchar música, caminar, llamar a alguien. Registra cómo te sientes antes y después."
+    },
+    {
+      "codigo": "E-15",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más difícil aceptar en ti mismo/a?",
+      "objetivo": "Identificar la emoción más juzgada internamente. Explorar la autocrítica emocional y la vergüenza tóxica asociada a ciertas experiencias afectivas. Trabajar la aceptación radical.",
+      "profundizacion": [
+        "¿Qué te dice tu voz interna cuando aparece esa emoción?",
+        "¿Qué crees que dirían los demás si la vieran?",
+        "¿Qué pasaría si la aceptaras tal como es?"
+      ],
+      "observacion": [
+        "Vergüenza intensa al nombrarla.",
+        "Autocrítica feroz (\"no debería sentir esto\").",
+        "Reconocimiento con alivio (\"por fin lo digo\").",
+        "Resistencia total a aceptarla."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación radical y defusión del juicio.",
+        "CFT:: Autocompasión hacia la parte que siente esa emoción.",
+        "Humanista:: Aceptación incondicional del terapeuta."
+      ],
+      "tarea": "Escribe una frase de aceptación: \"Aunque siento [emoción], me acepto completamente\". Repítela cada mañana frente al espejo durante una semana. Observa cómo cambia tu relación con esa emoción."
+    },
+    {
+      "codigo": "E-16",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría que los demás vieran más de ti, pero que no sueles mostrar?",
+      "objetivo": "Explorar la brecha entre la emoción sentida y la emoción expresada. Identificar emociones auténticas ocultas detrás de máscaras sociales. Trabajar la autenticidad emocional.",
+      "profundizacion": [
+        "¿Qué temes que pase si la muestras?",
+        "¿A quién te gustaría mostrársela primero?",
+        "¿Qué cambiaría en tus relaciones si la expresaras?"
+      ],
+      "observacion": [
+        "Deseo de mostrar vulnerabilidad (tristeza, miedo).",
+        "Deseo de mostrar fuerza (ira, límites).",
+        "Deseo de mostrar alegría auténtica.",
+        "Miedo al rechazo o la incomprensión."
+      ],
+      "intervenciones": [
+        "Humanista:: Fomentar la congruencia entre experiencia y expresión.",
+        "Gestalt:: Experimentos de expresión emocional en sesión.",
+        "DBT:: Entrenamiento en expresión emocional asertiva."
+      ],
+      "tarea": "Esta semana, elige una persona de confianza y muéstrale un 10% más de esa emoción oculta. Puede ser una palabra, un gesto, una pausa. Observa cómo reacciona y cómo te sientes tú."
+    },
+    {
+      "codigo": "E-17",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes que te \"secuestra\" más a menudo, llevándote a hacer cosas de las que después te arrepientes?",
+      "objetivo": "Identificar las emociones que generan impulsividad y conductas desreguladas. Explorar el ciclo emoción-impulso-acción-arrepentimiento. Trabajar la regulación emocional y el control de impulsos.",
+      "profundizacion": [
+        "¿Qué señales corporales te avisan antes del secuestro?",
+        "¿Qué necesitas en ese momento que no estás obteniendo?",
+        "¿Qué podrías hacer diferente la próxima vez?"
+      ],
+      "observacion": [
+        "Ira como secuestradora principal.",
+        "Ansiedad como secuestradora.",
+        "Tristeza o vacío como secuestradores.",
+        "Reconocimiento de señales tempranas."
+      ],
+      "intervenciones": [
+        "DBT:: Habilidades TIPP (Temperatura, Intensidad, Pausa, Paced breathing).",
+        "Somática:: Identificación de señales corporales tempranas.",
+        "Mindfulness:: Entrenamiento en la pausa entre estímulo y respuesta."
+      ],
+      "tarea": "Crea tu \"kit de emergencia emocional\": una lista de 5 acciones que puedes hacer cuando sientas que la emoción te secuestra (ej. lavarte la cara con agua fría, caminar 5 minutos, respirar 4-7-8). Llévalo contigo."
+    },
+    {
+      "codigo": "E-18",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha enseñado algo importante sobre ti mismo/a en el último año?",
+      "objetivo": "Fomentar la mentalización y el aprendizaje emocional. Identificar insights derivados de la experiencia afectiva. Consolidar la relación curiosa y no juzgadora con las emociones.",
+      "profundizacion": [
+        "¿Qué te reveló esa emoción sobre tus necesidades o valores?",
+        "¿Cómo cambió tu forma de ver las cosas?",
+        "¿Qué le agradecerías a esa emoción si pudiera escucharte?"
+      ],
+      "observacion": [
+        "Reconocimiento de aprendizajes profundos.",
+        "Dificultad para encontrar aprendizajes (\"solo me hicieron daño\").",
+        "Gratitud hacia la emoción como maestra.",
+        "Integración de la experiencia emocional."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia emocional como aprendizaje.",
+        "Logoterapia:: Búsqueda de sentido en el sufrimiento emocional.",
+        "Positiva:: Cultivo de la gratitud hacia las emociones difíciles."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa emoción que te enseñó algo. Dile: \"Gracias por enseñarme que...\". Guárdala para releerla en momentos difíciles."
+    },
+    {
+      "codigo": "E-19",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más difícil de regular cuando estás con otras personas?",
+      "objetivo": "Explorar la regulación emocional en contexto social. Identificar detonantes interpersonales y patrones de reactividad relacional. Trabajar habilidades de regulación en vivo.",
+      "profundizacion": [
+        "¿Qué tipo de personas o situaciones la detonan?",
+        "¿Qué haces habitualmente para manejarla en público?",
+        "¿Qué necesitarías para sentirte más seguro expresándola?"
+      ],
+      "observacion": [
+        "Vergüenza o ansiedad social como detonantes.",
+        "Ira o irritabilidad en contextos específicos.",
+        "Tristeza o vulnerabilidad en grupos.",
+        "Reconocimiento de patrones interpersonales."
+      ],
+      "intervenciones": [
+        "DBT:: Habilidades de regulación interpersonal (DEAR MAN).",
+        "TCC:: Exposición gradual a situaciones detonantes.",
+        "Sistémica:: Explorar patrones familiares de expresión emocional en público."
+      ],
+      "tarea": "Esta semana, identifica una situación social donde normalmente reprimirías esa emoción. Practica expresarla en un 5% más de lo habitual. Observa qué pasa y cómo te sientes."
+    },
+    {
+      "codigo": "E-20",
+      "iconos": [],
+      "pregunta": "Si pudieras diseñar tu \"dieta emocional\" ideal, ¿qué emociones incluirías y cuáles evitarías?",
+      "objetivo": "Explorar la relación del paciente con la diversidad emocional. Detectar la ilusión de control sobre las emociones y la evitación de lo incómodo. Introducir la metáfora de la \"dieta emocional balanceada\".",
+      "profundizacion": [
+        "¿Es posible tener solo emociones \"buenas\"?",
+        "¿Qué pasaría si eliminaras todas las \"incómodas\"?",
+        "¿Qué emociones \"difíciles\" te han hecho crecer?"
+      ],
+      "observacion": [
+        "Deseo de eliminar todo lo incómodo (evitación).",
+        "Reconocimiento de la necesidad de todas las emociones.",
+        "Comprensión de la función adaptativa de cada emoción.",
+        "Resistencia a aceptar emociones difíciles."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación radical de todo el espectro emocional.",
+        "Psicoeducación:: Explicar la función de cada emoción.",
+        "Mindfulness:: Observación sin juicio de todas las emociones."
+      ],
+      "tarea": "Escribe tu \"dieta emocional ideal\" incluyendo TODAS las emociones, incluso las difíciles. Al lado de cada una, anota qué función cumple. Observa cómo cambia tu relación con ellas al verlas como necesarias."
+    },
+    {
+      "codigo": "E-21",
+      "iconos": [],
+      "pregunta": "¿Cuál es la diferencia, para ti, entre sentir vergüenza y sentir culpa?",
+      "objetivo": "Diferenciar dos emociones morales frecuentemente confundidas. La culpa dice \"hice algo malo\"; la vergüenza dice \"yo soy malo\". Esta distinción es clave para el trabajo clínico con trauma, adicciones y trastornos de la autoestima.",
+      "profundizacion": [
+        "¿Cuál de las dos sientes con más frecuencia?",
+        "¿Qué pasa en tu cuerpo cuando sientes cada una?",
+        "¿A quién de tu historia le pertenece cada una?"
+      ],
+      "observacion": [
+        "Confusión total entre ambas emociones.",
+        "Predominio de vergüenza tóxica (\"soy defectuoso\").",
+        "Predominio de culpa patológica (no relacionada con acciones reales).",
+        "Capacidad de distinguir y acceder a ambas con claridad."
+      ],
+      "intervenciones": [
+        "CFT:: Trabajar la vergüenza tóxica con compasión y psicoeducación.",
+        "TCC:: Reestructuración de creencias de culpa irracionales.",
+        "EMDR:: Procesamiento de memorias de vergüenza temprana."
+      ],
+      "tarea": "Durante esta semana, cada vez que sientas una de estas emociones, anota: \"Hoy sentí [vergüenza/culpa] porque...\". Al lado, escribe si se refiere a algo que hiciste o a algo que eres. Observa el patrón."
+    },
+    {
+      "codigo": "E-22",
+      "iconos": [],
+      "pregunta": "¿De qué te avergüenzas hoy que antes no te avergonzaba, o viceversa?",
+      "objetivo": "Explorar la evolución del mapa de la vergüenza a lo largo de la vida. Detectar cómo las experiencias, relaciones o traumas han reconfigurado lo que el paciente considera \"vergonzoso\". Identificar vergüenzas adquiridas vs. vergüenzas tempranas.",
+      "profundizacion": [
+        "¿Qué experiencia hizo que eso se volviera vergonzoso?",
+        "¿Hay algo que antes te daba vergüenza y ahora no?",
+        "¿Qué dice ese cambio sobre ti?"
+      ],
+      "observacion": [
+        "Vergüenzas adquiridas tras trauma o humillación.",
+        "Vergüenzas superadas como señal de crecimiento.",
+        "Nuevas vergüenzas asociadas a la vulnerabilidad adulta.",
+        "Dificultad para identificar cambios en el mapa de la vergüenza."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de los momentos en que se adquirió la vergüenza.",
+        "CFT:: Compasión hacia la parte que aprendió a avergonzarse.",
+        "Constructivismo:: Explorar cómo se construyen las vergüenzas socialmente."
+      ],
+      "tarea": "Haz una línea de tiempo de tus vergüenzas: ¿qué te avergonzaba a los 10 años, a los 20, y hoy? Observa qué experiencias marcaron cada cambio. Escribe una breve reflexión sobre lo que descubras."
+    },
+    {
+      "codigo": "E-23",
+      "iconos": [],
+      "pregunta": "¿A quién en tu vida envidias (o has envidiado) últimamente, aunque sea un poquito, y qué te dice esa envidia sobre ti?",
+      "objetivo": "Trabajar la envidia como emoción reveladora de deseos no reconocidos. La envidia señala lo que anhelamos pero creemos no merecer o no poder alcanzar. Despatologizar la envidia y usarla como brújula de valores.",
+      "profundizacion": [
+        "¿Qué tiene esa persona que tú sientes que no tienes?",
+        "¿Qué creencia sobre ti sostiene esa envidia?",
+        "¿Qué paso pequeño podrías dar hacia eso que envidias?"
+      ],
+      "observacion": [
+        "Negación total (\"no envidio a nadie\").",
+        "Vergüenza tóxica al admitirla.",
+        "Envidia destructiva (deseo de que el otro pierda).",
+        "Envidia benigna (reconocida como deseo propio)."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Explorar la envidia como deseo desplazado.",
+        "ACT:: Clarificación de valores a partir de lo envidiado.",
+        "CFT:: Compasión hacia la parte que envidia sin juzgarla."
+      ],
+      "tarea": "Escribe una carta honesta (que no enviarás) a esa persona envidiada. Dile: \"Te envidio porque tienes X, y eso me muestra que yo deseo Y\". Luego, escribe un pequeño paso concreto que podrías dar esta semana hacia eso que deseas."
+    },
+    {
+      "codigo": "E-24",
+      "iconos": [],
+      "pregunta": "¿Qué culpa arrastras que en realidad no te corresponde?",
+      "objetivo": "Identificar culpas introyectadas, culpas de superviviente o culpas mágicas infantiles (\"si yo hubiera hecho X, no habría pasado Y\"). Diferenciar culpa sana (reparadora) de culpa patológica (paralizante e injusta).",
+      "profundizacion": [
+        "¿De quién es realmente esa culpa?",
+        "¿Qué edad tenías cuando la asumiste?",
+        "¿Qué pasaría si se la devolvieras a su dueño legítimo?"
+      ],
+      "observacion": [
+        "Culpa de superviviente (\"por qué yo sí y otros no\").",
+        "Culpa parental por hijos o padres.",
+        "Culpa mágica infantil aún activa.",
+        "Alivio al reconocer que no le corresponde."
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolución simbólica de la culpa a su dueño.",
+        "EMDR:: Reprocesamiento de memorias de culpa infantil.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Culpable\"."
+      ],
+      "tarea": "Escribe esa culpa en un papel. Debajo, escribe: \"Esta culpa en realidad le pertenece a...\". Si te animas, haz un pequeño ritual simbólico de devolución (quemar el papel, enterrarlo, soltarlo al viento). Observa cómo te sientes después."
+    },
+    {
+      "codigo": "E-25",
+      "iconos": [],
+      "pregunta": "¿Qué resentimiento sigues sosteniendo, y qué parte de ti se beneficia de no soltarlo?",
+      "objetivo": "Explorar la función oculta del resentimiento. A menudo el resentimiento protege una necesidad no satisfecha, sostiene una identidad de víctima o mantiene un vínculo simbólico con el agresor. Preguntar por el beneficio secundario abre una puerta profunda.",
+      "profundizacion": [
+        "¿Qué te da ese resentimiento que no quieres perder?",
+        "¿Quién serías sin ese resentimiento?",
+        "¿Qué necesitarías para soltarlo sin traicionarte?"
+      ],
+      "observacion": [
+        "Resentimiento como identidad (\"soy el que fue traicionado\").",
+        "Resentimiento como protección contra nueva vulnerabilidad.",
+        "Resentimiento como vínculo con el agresor.",
+        "Apertura a explorar el beneficio secundario."
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalización del resentimiento como personaje.",
+        "Gestalt:: Diálogo con el resentimiento en silla vacía.",
+        "Perdón terapéutico:: No como obligación, sino como posibilidad."
+      ],
+      "tarea": "Escribe una lista de \"lo que me da este resentimiento\" (ej. razón para no confiar, identidad de víctima, vínculo con el otro). Luego escribe: \"¿Qué podría reemplazar eso si lo suelto?\". No tienes que soltarlo hoy, solo observarlo."
+    },
+    {
+      "codigo": "E-26",
+      "iconos": [],
+      "pregunta": "¿Qué emoción contradictoria has sentido últimamente: dos cosas al mismo tiempo que parecen no poder coexistir?",
+      "objetivo": "Trabajar la ambivalencia emocional y la capacidad de sostener emociones contradictorias (ej. amar y estar enojado con la misma persona; sentir alivio y dolor por una pérdida). Introducir la idea de que la complejidad emocional es salud, no patología.",
+      "profundizacion": [
+        "¿Qué parte de ti siente cada emoción?",
+        "¿Qué pasaría si ambas tuvieran derecho a existir?",
+        "¿A quién de tu historia le resultaba insoportable la contradicción?"
+      ],
+      "observacion": [
+        "Ambivalencia amor-odio en vínculos significativos.",
+        "Alivio y culpa ante una separación o cambio.",
+        "Orgullo y tristeza por el crecimiento.",
+        "Necesidad de elegir una y eliminar la otra."
+      ],
+      "intervenciones": [
+        "IFS:: Dar voz a cada parte que sostiene una emoción.",
+        "Dialéctica (DBT):: Síntesis de opuestos como camino de crecimiento.",
+        "Gestalt:: Diálogo entre las dos partes contradictorias."
+      ],
+      "tarea": "Dibuja dos círculos que se intersectan. En uno escribe una emoción, en el otro la contraria. En la intersección, escribe qué tienen en común. Observa cómo se transforma tu relación con la contradicción al darle espacio a ambas."
+    },
+    {
+      "codigo": "E-27",
+      "iconos": [],
+      "pregunta": "¿Qué nostalgia sientes por un tiempo, lugar o versión de ti que ya no existe?",
+      "objetivo": "Trabajar el duelo por lo perdido (infancia, relaciones, identidades, lugares). La nostalgia es una emoción legítima que merece ser honrada, no minimizada. Explorar qué necesita el paciente integrar de ese pasado para soltarlo con amor.",
+      "profundizacion": [
+        "¿Qué tenías ahí que hoy sientes que perdiste?",
+        "¿Qué parte de eso puedes traer al presente de otra forma?",
+        "¿Qué te impide despedirte de ese tiempo con gratitud?"
+      ],
+      "observacion": [
+        "Nostalgia por la infancia no vivida plenamente.",
+        "Nostalgia por una relación terminada.",
+        "Nostalgia por la versión joven o \"sin cargas\".",
+        "Nostalgia idealizada (se omite lo doloroso)."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integración del pasado en la identidad actual.",
+        "Logoterapia:: Sentido de lo vivido, incluso lo perdido.",
+        "Duelo terapéutico:: Rituales de despedida simbólica."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ese tiempo, lugar o versión de ti. Dile: \"Gracias por haber existido. Me llevo X, Y, Z. Hoy te dejo ir con amor\". Observa cómo te sientes al honrarlo sin quedarte atrapado."
+    },
+    {
+      "codigo": "E-28",
+      "iconos": [],
+      "pregunta": "¿Qué sientes cuando alguien cercano logra algo que tú aún no has logrado?",
+      "objetivo": "Explorar la mezcla compleja entre alegría por el otro, envidia, autocrítica y comparación. Esta emoción mixta es universal pero suele silenciarse por vergüenza. Nombrarla reduce su poder.",
+      "profundizacion": [
+        "¿Qué parte de ti se alegra genuinamente?",
+        "¿Qué parte se compara y se siente insuficiente?",
+        "¿Qué creencia sobre el \"éxito\" o el \"merecimiento\" se activa?"
+      ],
+      "observacion": [
+        "Alegría genuina sin mezcla (poco común).",
+        "Envidia silenciosa con culpa por sentirla.",
+        "Autocrítica feroz (\"debería estar ahí también\").",
+        "Reconocimiento honesto de la mezcla emocional."
+      ],
+      "intervenciones": [
+        "CFT:: Autocompasión por la comparación inevitable.",
+        "ACT:: Defusión de las creencias de merecimiento.",
+        "Humanista:: Validación de la ambivalencia como humana."
+      ],
+      "tarea": "La próxima vez que sientas esta mezcla, escribe: \"Me alegra por ti que..., y también me duele porque yo...\". Observa cómo al nombrar ambas partes, la tensión disminuye."
+    },
+    {
+      "codigo": "E-29",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando estás completamente solo/a, sin nadie mirándote ni pidiéndote nada?",
+      "objetivo": "Acceder al estado emocional basal cuando caen las máscaras sociales. La soledad sin estímulos revela la relación del paciente consigo mismo: ¿aparece paz, vacío, ansiedad, aburrimiento, tristeza?",
+      "profundizacion": [
+        "¿Buscas distracciones rápidamente o puedes quedarte con eso?",
+        "¿Esa emoción te resulta familiar o te asusta?",
+        "¿Qué te dice sobre tu relación contigo mismo?"
+      ],
+      "observacion": [
+        "Paz, calma, conexión consigo mismo.",
+        "Vacío, aburrimiento, desconexión.",
+        "Ansiedad, necesidad urgente de distracción.",
+        "Tristeza o melancolía sin causa aparente."
+      ],
+      "intervenciones": [
+        "Existencial:: Explorar el vacío y el sentido.",
+        "Mindfulness:: Cultivar la capacidad de estar solo sin huir.",
+        "Psicodinámica:: Explorar la relación con el objeto interno."
+      ],
+      "tarea": "Esta semana, dedica 15 minutos a estar completamente solo sin pantallas, libros ni música. Solo tú y lo que aparezca. Anota qué emoción surge primero y qué te dice sobre tu relación contigo mismo."
+    },
+    {
+      "codigo": "E-30",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te produce pensar en tu propia muerte o en el paso del tiempo?",
+      "objetivo": "Acceder a emociones existenciales profundas: angustia, terror, paz, indiferencia o rebeldía. La conciencia de la finitud organiza la vida afectiva y revela valores no vividos. Es material clínico de alto valor terapéutico.",
+      "profundizacion": [
+        "¿Esa emoción te paraliza o te empuja a vivir distinto?",
+        "¿Qué dejarías de hacer si esa emoción te guiara?",
+        "¿Qué empezarías a hacer?"
+      ],
+      "observacion": [
+        "Terror paralizante o evitación total del tema.",
+        "Angustia existencial con búsqueda de sentido.",
+        "Paz o aceptación serena.",
+        "Indiferencia defensiva (\"no pienso en eso\")."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido frente a la finitud.",
+        "Existencial:: Exploración de la libertad y responsabilidad.",
+        "ACT:: Clarificación de valores a partir de la conciencia de la muerte."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del futuro, al final de su vida. Pregúntale: \"¿Qué te hubiera gustado haber hecho? ¿De qué te arrepientes?\". Luego, escribe una acción concreta que puedes hacer esta semana alineada con esa sabiduría."
+    },
+    {
+      "codigo": "E-31",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando alguien te elogia o reconoce algo bueno que hiciste?",
+      "objetivo": "Explorar la capacidad de recibir validación positiva. Muchas personas con baja autoestima, trauma o vergüenza tóxica reaccionan al elogio con incomodidad, descalificación o sospecha. Esta carta revela la relación con el merecimiento.",
+      "profundizacion": [
+        "¿Te resulta cómodo o incómodo recibirlo?",
+        "¿Qué haces con el elogio: lo aceptas, lo minimizas, lo devuelves?",
+        "¿Qué voz interna aparece cuando alguien te reconoce?"
+      ],
+      "observacion": [
+        "Aceptación fluida y gratitud.",
+        "Incomodidad y minimización (\"cualquiera lo haría\").",
+        "Sospecha (\"algo quiere de mí\").",
+        "Descalificación inmediata (\"no es para tanto\")."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en recibir compasión y reconocimiento.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Desvalorizado\".",
+        "Humanista:: Validación positiva incondicional."
+      ],
+      "tarea": "La próxima vez que recibas un elogio, practica decir solo \"gracias\" sin minimizarlo. Observa qué emoción aparece y qué voz interna intenta sabotear ese momento. Anótalo."
+    },
+    {
+      "codigo": "E-32",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando te equivocas en público?",
+      "objetivo": "Explorar la relación con el error, la imperfección y la exposición social. Esta emoción revela el nivel de autoexigencia, la tolerancia a la vulnerabilidad y la internalización de figuras críticas.",
+      "profundizacion": [
+        "¿Qué temes que piensen los demás?",
+        "¿Cómo te hablas después del error?",
+        "¿A quién de tu historia le hubiera molestado tu error?"
+      ],
+      "observacion": [
+        "Vergüenza paralizante y deseo de desaparecer.",
+        "Rabia hacia uno mismo (autocrítica feroz).",
+        "Curiosidad y aprendizaje del error.",
+        "Humor como mecanismo de defensa."
+      ],
+      "intervenciones": [
+        "CFT:: Autocompasión ante el error.",
+        "TCC:: Reestructuración de creencias perfeccionistas.",
+        "Gestalt:: Diálogo con la figura crítica internalizada."
+      ],
+      "tarea": "Esta semana, comete un error pequeño a propósito en un contexto seguro (ej. preguntar algo obvio, decir una palabra mal). Observa qué emoción aparece y cómo reaccionan los demás. Anota tus descubrimientos."
+    },
+    {
+      "codigo": "E-33",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te produce ver una injusticia en el mundo, aunque no te afecte directamente?",
+      "objetivo": "Explorar las emociones morales y el sentido de justicia del paciente. La indignación, la compasión o la impotencia ante el sufrimiento ajeno revelan valores profundos y la conexión con la humanidad.",
+      "profundizacion": [
+        "¿Qué te moviliza esa emoción a hacer?",
+        "¿O te paraliza y te hace sentir impotente?",
+        "¿A qué valores tuyos conecta esa reacción?"
+      ],
+      "observacion": [
+        "Indignación movilizada hacia la acción.",
+        "Impotencia paralizante o cinismo.",
+        "Compasión con deseo de ayudar.",
+        "Indiferencia defensiva (\"no puedo con todo\")."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores a través de la indignación.",
+        "Humanista:: Conexión con la empatía y la compasión.",
+        "Positiva:: Cultivo de la emoción moral como recurso."
+      ],
+      "tarea": "Identifica una causa injusta que te movilice. Esta semana, haz una acción pequeña y concreta a favor de esa causa (firmar, donar, informar, ayudar). Observa cómo te sientes al alinear emoción y acción."
+    },
+    {
+      "codigo": "E-34",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando alguien llora frente a ti?",
+      "objetivo": "Explorar la relación con la vulnerabilidad ajena y la propia capacidad de acompañar el dolor. La reacción ante el llanto del otro revela mandatos internalizados, miedos a la intimidad emocional y recursos empáticos.",
+      "profundizacion": [
+        "¿Te conmueve, te incomoda, te irrita o te paraliza?",
+        "¿Qué haces habitualmente: consuelas, distraes, te alejas?",
+        "¿Qué te enseñaron de niño sobre el llanto?"
+      ],
+      "observacion": [
+        "Conmoción empática y acompañamiento sereno.",
+        "Incomodidad y necesidad de \"arreglar\" rápido.",
+        "Irritación o juicio (\"está exagerando\").",
+        "Contagio emocional y desborde propio."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar mandatos familiares sobre el llanto.",
+        "Humanista:: Entrenamiento en presencia empática.",
+        "Somática:: Regular la propia activación ante el llanto ajeno."
+      ],
+      "tarea": "La próxima vez que alguien llore frente a ti, practica quedarte en silencio 10 segundos antes de reaccionar. Observa qué emoción aparece en ti y qué necesidad tienes en ese momento. Anótalo."
+    },
+    {
+      "codigo": "E-35",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando te cuidas a ti mismo (descansar, comer bien, poner límites)?",
+      "objetivo": "Explorar la relación con el autocuidado. Muchas personas sienten culpa, egoísmo o incomodidad al cuidarse, revelando mandatos de autosacrificio. Esta carta revela la internalización de la propia dignidad.",
+      "profundizacion": [
+        "¿Te sientes merecedor de ese cuidado?",
+        "¿Qué voz interna aparece cuando te cuidas?",
+        "¿A quién de tu historia le molestaría que te cuidaras?"
+      ],
+      "observacion": [
+        "Placer y merecimiento.",
+        "Culpa o sensación de egoísmo.",
+        "Incomodidad o extrañeza (\"no estoy acostumbrado\").",
+        "Dificultad para identificar la emoción."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión y merecimiento.",
+        "Sistémica:: Explorar mandatos familiares de autosacrificio.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Desatendido\"."
+      ],
+      "tarea": "Esta semana, haz una acción de autocuidado cada día (dormir más, comer algo nutritivo, decir no a algo). Cuando la hagas, observa qué emoción aparece. Si es culpa, pregúntate: \"¿De quién es esa voz?\"."
+    },
+    {
+      "codigo": "E-36",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando alguien te dice \"te quiero\" o \"te amo\"?",
+      "objetivo": "Explorar la capacidad de recibir amor. Las reacciones van desde la reciprocidad fluida hasta la incomodidad, la sospecha, la parálisis o la huida. Esta carta revela el modelo de apego y la relación con la intimidad emocional.",
+      "profundizacion": [
+        "¿Te resulta fácil devolver el \"te quiero\"?",
+        "¿Qué pasa en tu cuerpo cuando lo escuchas?",
+        "¿Qué temes que signifique ese \"te quiero\"?"
+      ],
+      "observacion": [
+        "Reciprocidad fluida y emoción cálida.",
+        "Incomodidad o parálisis (\"no sé qué decir\").",
+        "Sospecha (\"¿qué quiere de mí?\").",
+        "Tristeza por no sentir lo mismo."
+      ],
+      "intervenciones": [
+        "Apego:: Explorar modelos internos de trabajo.",
+        "CFT:: Entrenamiento en recibir y dar afecto.",
+        "EMDR:: Procesar memorias de amor no correspondido o condicionado."
+      ],
+      "tarea": "Esta semana, di \"te quiero\" o \"te aprecio\" a alguien que lo merezca, aunque te incomode. Observa qué emoción aparece al decirlo y al recibir la respuesta. Anota tus descubrimientos."
+    },
+    {
+      "codigo": "E-37",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando alguien a quien amas sufre, y tú no puedes hacer nada para ayudarlo?",
+      "objetivo": "Explorar la impotencia emocional ante el sufrimiento ajeno. Esta emoción revela la relación con el control, la tolerancia a la incertidumbre y la capacidad de acompañar sin \"arreglar\".",
+      "profundizacion": [
+        "¿Qué haces con esa impotencia: te paraliza, te enoja, te aleja?",
+        "¿Qué te dice sobre tu necesidad de control?",
+        "¿Qué necesitarías para sostener esa emoción sin huir?"
+      ],
+      "observacion": [
+        "Impotencia paralizante con culpa.",
+        "Rabia por no poder controlar la situación.",
+        "Acompañamiento sereno desde la presencia.",
+        "Evitación o distanciamiento emocional."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la impotencia como parte del amor.",
+        "Humanista:: Presencia empática sin necesidad de arreglar.",
+        "Mindfulness:: Tolerancia a la incertidumbre emocional."
+      ],
+      "tarea": "La próxima vez que alguien cercano sufra y no puedas hacer nada, practica decir: \"No sé qué decir, pero estoy aquí contigo\". Observa cómo te sientes al sostener la impotencia sin huir."
+    },
+    {
+      "codigo": "E-38",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando te miras al espejo y te observas con atención?",
+      "objetivo": "Explorar la relación con la propia imagen y la autoaceptación. El espejo revela la brecha entre el yo ideal y el yo real, y activa emociones profundas de autovaloración o autodesprecio.",
+      "profundizacion": [
+        "¿Qué parte de ti te gusta y cuál te rechaza?",
+        "¿A quién se parece tu mirada crítica?",
+        "¿Qué pasaría si te miraras con compasión?"
+      ],
+      "observacion": [
+        "Aceptación serena o curiosidad amable.",
+        "Rechazo, vergüenza o autocrítica feroz.",
+        "Indiferencia o evitación de la mirada.",
+        "Tristeza por el paso del tiempo."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión frente al espejo.",
+        "Gestalt:: Diálogo con la imagen reflejada.",
+        "Humanista:: Aceptación incondicional del yo."
+      ],
+      "tarea": "Durante un minuto cada día, mírate al espejo en silencio. Practica decirte: \"Te veo. Eres digno de amor, tal como eres\". Observa qué emoción aparece y cómo cambia con los días."
+    },
+    {
+      "codigo": "E-39",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando alguien establece un límite contigo que tú no esperabas?",
+      "objetivo": "Explorar la reacción emocional ante los límites ajenos. Esta emoción revela la relación con el control, el rechazo, la autonomía del otro y los propios patrones de invasión o sumisión.",
+      "profundizacion": [
+        "¿Te sientes rechazado, respetado, enojado o aliviado?",
+        "¿Qué creencia sobre ti se activa?",
+        "¿Qué harías diferente si pudieras respetar ese límite con calma?"
+      ],
+      "observacion": [
+        "Rabia o sensación de rechazo.",
+        "Respeto y reconocimiento de la autonomía.",
+        "Tristeza por el límite percibido como distancia.",
+        "Alivio por la claridad del otro."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar patrones familiares de límites.",
+        "DBT:: Entrenamiento en tolerancia a la frustración.",
+        "ACT:: Aceptación de la autonomía del otro."
+      ],
+      "tarea": "La próxima vez que alguien te ponga un límite, practica decir: \"Entiendo y respeto tu límite\". Observa qué emoción aparece y qué creencia sobre ti se activa. Anótalo."
+    },
+    {
+      "codigo": "E-40",
+      "iconos": [],
+      "pregunta": "¿Qué emoción compleja o \"prohibida\" has descubierto en ti durante este proceso terapéutico?",
+      "objetivo": "Consolidar el trabajo de alfabetización emocional. Identificar las emociones que el paciente ha ido reconociendo y nombrando a lo largo del proceso. Evaluar la expansión del repertorio emocional y la integración de la complejidad afectiva.",
+      "profundizacion": [
+        "¿Cómo te sentiste al descubrirla?",
+        "¿Qué cambió en tu relación contigo mismo?",
+        "¿Qué harías diferente ahora que la conoces?"
+      ],
+      "observacion": [
+        "Reconocimiento con alivio y gratitud.",
+        "Reconocimiento con vergüenza pero aceptación.",
+        "Dificultad para identificar emociones nuevas.",
+        "Integración de la complejidad emocional."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del proceso como expansión emocional.",
+        "CFT:: Celebración del crecimiento en la conciencia emocional.",
+        "ACT:: Compromiso con la vida emocional plena."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ti mismo por el trabajo emocional hecho hasta ahora. Reconoce cada emoción nueva que has descubierto y cómo te ha enriquecido. Guárdala para releerla en momentos de duda."
+    },
+    {
+      "codigo": "E-41",
+      "iconos": [],
+      "pregunta": "¿Qué estrategia de regulación emocional te ha funcionado mejor hasta ahora, y cuál te gustaría aprender?",
+      "objetivo": "Evaluar el repertorio actual de regulación emocional del paciente. Identificar estrategias adaptativas ya consolidadas y áreas de aprendizaje. Fomentar la curiosidad hacia nuevas herramientas.",
+      "profundizacion": [
+        "¿Cómo descubriste esa estrategia que te funciona?",
+        "¿Qué te impide aprender nuevas estrategias?",
+        "¿Qué emoción específica te gustaría regular mejor?"
+      ],
+      "observacion": [
+        "Repertorio amplio y flexible de estrategias.",
+        "Estrategias rígidas o desadaptativas predominantes.",
+        "Apertura al aprendizaje de nuevas herramientas.",
+        "Resistencia o escepticismo hacia nuevas estrategias."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades de regulación emocional (TIPP, STOP, ACCEPTS).",
+        "Mindfulness:: Prácticas de observación sin reacción.",
+        "Somática:: Técnicas de regulación corporal (respiración, grounding)."
+      ],
+      "tarea": "Esta semana, elige una estrategia nueva que te gustaría probar (ej. respiración 4-7-8, escritura expresiva, caminar consciente). Practícala al menos 3 veces y anota cómo te sientes antes y después."
+    },
+    {
+      "codigo": "E-42",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más difícil de regular cuando estás cansado/a o estresado/a?",
+      "objetivo": "Identificar las emociones más vulnerables a la desregulación en condiciones de agotamiento. Explorar la relación entre recursos físicos y capacidad de regulación emocional. Detectar patrones de recaída emocional.",
+      "profundizacion": [
+        "¿Qué señales corporales te avisan que estás llegando a ese límite?",
+        "¿Qué necesitas cuando estás en ese estado?",
+        "¿Qué harías diferente si pudieras detectarlo antes?"
+      ],
+      "observacion": [
+        "Irrabilidad o ira como emoción más vulnerable.",
+        "Tristeza o llanto fácil.",
+        "Ansiedad o pánico.",
+        "Reconocimiento de señales tempranas de agotamiento."
+      ],
+      "intervenciones": [
+        "Somática:: Chequeo corporal de señales de agotamiento.",
+        "DBT:: Plan de prevención de recaídas emocionales.",
+        "Psicoeducación:: Relación entre sueño, alimentación y regulación emocional."
+      ],
+      "tarea": "Crea tu \"semáforo emocional\": rojo (necesito parar ya), amarillo (estoy llegando al límite), verde (estoy bien). Esta semana, identifica en qué color estás 3 veces al día. Anota qué necesitas en cada estado."
+    },
+    {
+      "codigo": "E-43",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría poder transformar en otra más útil o adaptativa?",
+      "objetivo": "Explorar la posibilidad de transformación emocional (no supresión). Introducir la idea de que las emociones pueden ser alquimizadas: la ansiedad puede convertirse en entusiasmo, la tristeza en compasión, la ira en acción justa.",
+      "profundizacion": [
+        "¿En qué emoción te gustaría transformarla?",
+        "¿Qué necesitaría esa emoción para transformarse?",
+        "¿Qué pasaría si en lugar de transformarla, la dejaras ser lo que es?"
+      ],
+      "observacion": [
+        "Deseo de eliminar la emoción (evitación).",
+        "Curiosidad por la transformación.",
+        "Comprensión de que la emoción ya es útil.",
+        "Dificultad para imaginar la transformación."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación y defusión antes de la transformación.",
+        "EFT:: Transformación emocional a través de la activación de emociones primarias adaptativas.",
+        "Alquimia emocional:: Explorar la energía de la emoción y su redirección."
+      ],
+      "tarea": "La próxima vez que sientas esa emoción, pregúntate: \"¿Qué energía tiene esta emoción? ¿Cómo podría usarla de forma constructiva?\". Anota tus descubrimientos."
+    },
+    {
+      "codigo": "E-44",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando logras regular una emoción difícil con éxito?",
+      "objetivo": "Explorar la emoción meta: la sensación de autoeficacia emocional. Identificar el orgullo, la satisfacción o la paz que surge al lograr regularse. Consolidar la motivación para seguir practicando.",
+      "profundizacion": [
+        "¿Cómo se siente ese logro en tu cuerpo?",
+        "¿Qué te dice sobre tus capacidades?",
+        "¿Qué harías para repetir esa experiencia?"
+      ],
+      "observacion": [
+        "Orgullo y satisfacción genuinos.",
+        "Alivio y paz interior.",
+        "Minimización del logro (\"cualquiera podría hacerlo\").",
+        "Dificultad para reconocer el éxito."
+      ],
+      "intervenciones": [
+        "CFT:: Celebración del logro y activación del sistema de soothing.",
+        "TCC:: Refuerzo de la autoeficacia emocional.",
+        "Narrativa:: Integración del logro en la identidad personal."
+      ],
+      "tarea": "Cada vez que logres regular una emoción difícil esta semana, detente 10 segundos y saborea ese logro. Di mentalmente: \"Lo logré. Soy capaz de regular mis emociones\". Anota cómo te sientes."
+    },
+    {
+      "codigo": "E-45",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha enseñado algo importante sobre tus límites personales?",
+      "objetivo": "Explorar cómo las emociones señalan los límites personales (físicos, emocionales, relacionales). La incomodidad, el agotamiento o la irritación suelen indicar que se ha cruzado un límite. Trabajar la conciencia de los propios límites.",
+      "profundizacion": [
+        "¿Qué límite te estaba señalando esa emoción?",
+        "¿Qué pasaría si respetaras ese límite?",
+        "¿Qué te impide respetarlo habitualmente?"
+      ],
+      "observacion": [
+        "Irritación como señal de límite cruzado.",
+        "Agotamiento como señal de sobreextensión.",
+        "Ansiedad como señal de peligro o invasión.",
+        "Reconocimiento claro de la función señaladora."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en establecimiento de límites (FAST).",
+        "Sistémica:: Explorar patrones familiares de límites difusos.",
+        "Somática:: Chequeo corporal de señales de límite."
+      ],
+      "tarea": "Esta semana, cada vez que sientas una emoción intensa, pregúntate: \"¿Qué límite me está señalando esta emoción?\". Anota el límite y qué podrías hacer para respetarlo."
+    },
+    {
+      "codigo": "E-46",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te resulta más difícil regular en tus relaciones cercanas?",
+      "objetivo": "Explorar la regulación emocional en contexto relacional. Las emociones se intensifican en vínculos cercanos debido a la historia de apego, las expectativas y las heridas no resueltas. Identificar detonantes específicos.",
+      "profundizacion": [
+        "¿Qué situaciones o palabras detonan esa emoción?",
+        "¿A quién de tu historia te recuerda esa reacción?",
+        "¿Qué necesitarías para regularla en ese contexto?"
+      ],
+      "observacion": [
+        "Ira o irritabilidad con pareja o familia.",
+        "Ansiedad o miedo al abandono.",
+        "Tristeza o decepción recurrente.",
+        "Reconocimiento de patrones relacionales específicos."
+      ],
+      "intervenciones": [
+        "Apego:: Explorar modelos internos de trabajo en relaciones cercanas.",
+        "DBT:: Habilidades de regulación interpersonal.",
+        "EFT:: Trabajar emociones primarias en el contexto relacional."
+      ],
+      "tarea": "La próxima vez que sientas esa emoción con alguien cercano, practica hacer una pausa de 5 segundos antes de reaccionar. Respira y pregúntate: \"¿Qué necesito realmente?\". Anota qué pasa."
+    },
+    {
+      "codigo": "E-47",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha ayudado a tomar una decisión importante en tu vida?",
+      "objetivo": "Explorar la emoción como guía de decisiones. Las emociones contienen información valiosa sobre valores, necesidades y deseos. Reconocer el papel adaptativo de las emociones en la toma de decisiones.",
+      "profundizacion": [
+        "¿Qué te dijo esa emoción que la razón no podía ver?",
+        "¿Cómo habrías decidido sin escuchar esa emoción?",
+        "¿Qué te enseña eso sobre tu sabiduría emocional?"
+      ],
+      "observacion": [
+        "Entusiasmo o alegría como guía.",
+        "Miedo o intuición como señal de peligro.",
+        "Tristeza como señal de pérdida o fin de ciclo.",
+        "Reconocimiento de la sabiduría emocional."
+      ],
+      "intervenciones": [
+        "Toma de decisiones emocional:: Integrar emoción y razón.",
+        "ACT:: Clarificación de valores a través de las emociones.",
+        "Narrativa:: Re-autoría de decisiones pasadas como actos de sabiduría."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa emoción que te guió. Dile: \"Gracias por mostrarme el camino cuando yo no podía ver\". Observa cómo te sientes al honrar tu sabiduría emocional."
+    },
+    {
+      "codigo": "E-48",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes cuando piensas en todo lo que has aprendido sobre tus emociones en este proceso?",
+      "objetivo": "Evaluar la integración del aprendizaje emocional. Explorar la emoción meta del proceso terapéutico: gratitud, orgullo, esperanza, o quizás tristeza por lo que aún falta. Consolidar los avances.",
+      "profundizacion": [
+        "¿Qué es lo que más te ha sorprendido?",
+        "¿Qué te hubiera gustado saber antes?",
+        "¿Cómo ha cambiado tu relación contigo mismo?"
+      ],
+      "observacion": [
+        "Gratitud y orgullo por el camino recorrido.",
+        "Esperanza y motivación para seguir.",
+        "Tristeza por el tiempo que tardó en llegar.",
+        "Integración serena del aprendizaje."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del proceso como viaje de descubrimiento.",
+        "CFT:: Celebración del crecimiento emocional.",
+        "Logoterapia:: Sentido del sufrimiento emocional transformado en sabiduría."
+      ],
+      "tarea": "Escribe una lista de \"10 cosas que he aprendido sobre mis emociones\". Léela cada vez que dudes de tu proceso. Observa cómo te sientes al reconocer tu crecimiento."
+    },
+    {
+      "codigo": "E-49",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría poder compartir más libremente con el mundo?",
+      "objetivo": "Explorar la brecha entre la emoción sentida y la emoción expresada públicamente. Trabajar la autenticidad emocional y la valentía de mostrar la vulnerabilidad. Fomentar la congruencia entre experiencia interna y expresión externa.",
+      "profundizacion": [
+        "¿Qué temes que pase si la expresas?",
+        "¿Qué cambiaría en tu vida si la mostrara más?",
+        "¿Qué paso pequeño podrías dar esta semana?"
+      ],
+      "observacion": [
+        "Deseo de mostrar vulnerabilidad (tristeza, miedo).",
+        "Deseo de mostrar fuerza (ira, límites).",
+        "Deseo de mostrar alegría auténtica.",
+        "Miedo al rechazo o la incomprensión."
+      ],
+      "intervenciones": [
+        "Humanista:: Fomentar la congruencia y la autenticidad.",
+        "Gestalt:: Experimentos de expresión emocional en sesión.",
+        "ACT:: Acción comprometida con los valores de autenticidad."
+      ],
+      "tarea": "Esta semana, elige un momento seguro para expresar esa emoción un 10% más de lo habitual. Puede ser con una persona de confianza, en un diario, o en un espacio creativo. Observa cómo te sientes al mostrarte más auténtico."
+    },
+    {
+      "codigo": "E-50",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha acompañado en los momentos más difíciles de tu vida, y qué le agradecerías por eso?",
+      "objetivo": "Explorar la emoción como compañera en el sufrimiento. Incluso las emociones difíciles han sostenido al paciente en momentos críticos. Trabajar la gratitud hacia la propia vida emocional y reconocer la resiliencia.",
+      "profundizacion": [
+        "¿Qué te dio esa emoción en esos momentos?",
+        "¿Cómo te ayudó a sobrevivir o a seguir adelante?",
+        "¿Qué le dirías si pudiera escucharte?"
+      ],
+      "observacion": [
+        "Tristeza como compañera en el duelo.",
+        "Ira como fuerza para salir de situaciones dañinas.",
+        "Miedo como protector ante el peligro.",
+        "Reconocimiento con gratitud de la función adaptativa."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del sufrimiento como historia de resiliencia.",
+        "CFT:: Gratitud hacia la emoción como aliada.",
+        "Logoterapia:: Sentido del sufrimiento transformado."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa emoción que te acompañó en los momentos difíciles. Dile: \"Gracias por estar ahí cuando más te necesitaba. Gracias por ayudarme a sobrevivir\". Guárdala para releerla."
+    },
+    {
+      "codigo": "E-51",
+      "iconos": [],
+      "pregunta": "¿Qué emoción sientes en tu cuerpo cuando estás en paz contigo mismo?",
+      "objetivo": "Explorar la experiencia somática de la paz interior. Identificar las señales corporales de bienestar y calma. Consolidar el recurso de la paz como ancla emocional.",
+      "profundizacion": [
+        "¿Dónde sientes esa paz en el cuerpo?",
+        "¿Qué la provoca o la facilita?",
+        "¿Cómo puedes cultivarla más a menudo?"
+      ],
+      "observacion": [
+        "Calma, expansión, ligereza corporal.",
+        "Dificultad para acceder a la experiencia de paz.",
+        "Reconocimiento claro de las condiciones que la facilitan.",
+        "Conexión profunda con el cuerpo en calma."
+      ],
+      "intervenciones": [
+        "Somática:: Anclaje corporal de la paz como recurso.",
+        "Mindfulness:: Cultivo de la atención plena a la calma.",
+        "EMDR:: Instalación de la paz como recurso cognitivo-emocional."
+      ],
+      "tarea": "Cada vez que sientas paz esta semana, detente 30 segundos y obsérvala en tu cuerpo. Memoriza dónde la sientes, cómo se siente. Practica \"anclarla\" tocando suavemente esa zona del cuerpo."
+    },
+    {
+      "codigo": "E-52",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría que fuera tu \"brújula interna\" a partir de ahora?",
+      "objetivo": "Explorar la emoción como guía de vida. Identificar qué emoción el paciente quiere que oriente sus decisiones y acciones futuras. Trabajar la intención de vivir desde valores emocionales específicos.",
+      "profundizacion": [
+        "¿Qué valores representa esa emoción?",
+        "¿Cómo cambiaría tu vida si la siguieras más?",
+        "¿Qué necesitas para cultivarla?"
+      ],
+      "observacion": [
+        "Elección de amor, compasión o gratitud.",
+        "Elección de valentía, fuerza o determinación.",
+        "Elección de paz, calma o serenidad.",
+        "Claridad de valores y compromiso con la emoción elegida."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y acción comprometida.",
+        "Positiva:: Cultivo deliberado de la emoción elegida.",
+        "Narrativa:: Re-autoría de la vida desde la nueva brújula emocional."
+      ],
+      "tarea": "Escribe esa emoción en una tarjeta y llévala contigo. Cada vez que la veas, pregúntate: \"¿Estoy actuando desde esta emoción hoy?\". Al final de la semana, evalúa cómo ha cambiado tu orientación."
+    },
+    {
+      "codigo": "E-53",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha enseñado que eres más fuerte de lo que creías?",
+      "objetivo": "Explorar la emoción como reveladora de fortalezas internas. Identificar cómo ciertas emociones han mostrado al paciente su propia resiliencia, valentía o capacidad de resistencia. Consolidar la autoeficacia.",
+      "profundizacion": [
+        "¿En qué momento te mostraste fuerte a través de esa emoción?",
+        "¿Qué descubriste sobre ti que no sabías?",
+        "¿Cómo puedes usar esa fortaleza en el futuro?"
+      ],
+      "observacion": [
+        "Miedo enfrentado como muestra de valentía.",
+        "Tristeza atravesada como muestra de resiliencia.",
+        "Ira canalizada como muestra de dignidad.",
+        "Reconocimiento de la propia fortaleza."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia personal como historia de fortaleza.",
+        "TCC:: Refuerzo de la autoeficacia y autoestima.",
+        "CFT:: Celebración de la propia resiliencia."
+      ],
+      "tarea": "Escribe una carta a ti mismo reconociendo tu fortaleza. Dile: \"Gracias por haberme mostrado que soy más fuerte de lo que creía. Gracias por haber atravesado eso\". Guárdala para momentos de duda."
+    },
+    {
+      "codigo": "E-54",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría transmitir a las personas que amas, y cómo puedes hacerlo?",
+      "objetivo": "Explorar el deseo de compartir emociones positivas con los seres queridos. Trabajar la generosidad emocional y la capacidad de contagiar bienestar. Identificar acciones concretas para transmitir esa emoción.",
+      "profundizacion": [
+        "¿Por qué esa emoción en particular?",
+        "¿Qué acciones concretas la transmiten?",
+        "¿Cómo te sentirías al transmitirla?"
+      ],
+      "observacion": [
+        "Deseo de transmitir amor, calma o alegría.",
+        "Reconocimiento de acciones concretas para transmitirla.",
+        "Dificultad para identificar cómo transmitirla.",
+        "Compromiso con la generosidad emocional."
+      ],
+      "intervenciones": [
+        "Positiva:: Cultivo de emociones positivas en las relaciones.",
+        "Sistémica:: Explorar el contagio emocional en el sistema familiar.",
+        "ACT:: Acción comprometida con valores de amor y cuidado."
+      ],
+      "tarea": "Esta semana, elige una acción concreta para transmitir esa emoción a alguien que amas (una llamada, un mensaje, un gesto, tiempo de calidad). Observa cómo te sientes al darla y cómo reacciona el otro."
+    },
+    {
+      "codigo": "E-55",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha enseñado que no estás solo/a, aunque a veces lo sientas?",
+      "objetivo": "Explorar la emoción como puente de conexión con los demás. Identificar cómo ciertas emociones revelan la humanidad compartida y la interdependencia. Trabajar la sensación de soledad existencial.",
+      "profundizacion": [
+        "¿Qué emoción te conecta con otros seres humanos?",
+        "¿Cómo te hace sentir saber que otros también la sienten?",
+        "¿Qué harías para cultivar esa conexión?"
+      ],
+      "observacion": [
+        "Tristeza como emoción universal que conecta.",
+        "Amor o compasión como puente con los demás.",
+        "Miedo compartido como experiencia humana común.",
+        "Reconocimiento de la humanidad compartida."
+      ],
+      "intervenciones": [
+        "CFT:: Activación del sistema de afiliación y conexión.",
+        "Existencial:: Exploración de la soledad y la conexión humana.",
+        "Humanista:: Reconocimiento de la experiencia humana compartida."
+      ],
+      "tarea": "Esta semana, cuando sientas esa emoción de conexión, observa a tu alrededor y reconoce que otros también la sienten. Saluda mentalmente a esa humanidad compartida. Anota cómo te sientes al reconocerlo."
+    },
+    {
+      "codigo": "E-56",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría integrar más plenamente en tu vida diaria?",
+      "objetivo": "Explorar el deseo de integración emocional. Identificar emociones que el paciente reconoce como valiosas pero que aún no ha logrado incorporar plenamente en su vida. Trabajar la coherencia entre conocimiento emocional y vivencia emocional.",
+      "profundizacion": [
+        "¿Qué te impide integrarla más?",
+        "¿Qué pasos pequeños podrías dar?",
+        "¿Cómo sería tu vida con esa emoción más presente?"
+      ],
+      "observacion": [
+        "Deseo de integrar alegría, paz o amor.",
+        "Reconocimiento de obstáculos internos.",
+        "Compromiso con la integración gradual.",
+        "Dificultad para identificar pasos concretos."
+      ],
+      "intervenciones": [
+        "ACT:: Acción comprometida con la integración emocional.",
+        "Mindfulness:: Cultivo de la atención plena a la emoción deseada.",
+        "TCC:: Planificación de actividades que evocan la emoción."
+      ],
+      "tarea": "Elige una acción pequeña y concreta para integrar esa emoción esta semana (ej. gratitud antes de dormir, alegría en una actividad, paz en una pausa). Practícala diariamente y observa cómo cambia tu experiencia."
+    },
+    {
+      "codigo": "E-57",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha enseñado que la vida vale la pena ser vivida?",
+      "objetivo": "Explorar la emoción como fuente de sentido y vitalidad. Identificar qué emociones conectan al paciente con el valor de la vida. Trabajar la esperanza y el sentido existencial.",
+      "profundizacion": [
+        "¿Cuándo sentiste esa emoción con más intensidad?",
+        "¿Qué hace que esa emoción te conecte con la vida?",
+        "¿Cómo puedes cultivarla más?"
+      ],
+      "observacion": [
+        "Alegría, asombro o gratitud como fuentes de sentido.",
+        "Amor o conexión como razones para vivir.",
+        "Dificultad para acceder a emociones que den sentido.",
+        "Reconocimiento claro de la emoción vitalizante."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido a través de las emociones.",
+        "Positiva:: Cultivo de emociones que dan vitalidad.",
+        "Existencial:: Exploración del sentido de la vida."
+      ],
+      "tarea": "Escribe una lista de \"10 momentos en que sentí que la vida vale la pena\". Incluye las emociones que sentiste en cada uno. Léela cuando necesites recordar por qué vales la pena tú también."
+    },
+    {
+      "codigo": "E-58",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría que definiera tu legado emocional en el mundo?",
+      "objetivo": "Explorar la dimensión trascendente de la vida emocional. Identificar qué emoción quiere dejar el paciente como huella en los demás y en el mundo. Trabajar el sentido de propósito y legado.",
+      "profundizacion": [
+        "¿Cómo te gustaría que te recordaran emocionalmente?",
+        "¿Qué estás haciendo ya para transmitir esa emoción?",
+        "¿Qué necesitarías cambiar para lograrlo?"
+      ],
+      "observacion": [
+        "Deseo de dejar amor, paz o alegría.",
+        "Reconocimiento de la coherencia entre valores y acciones.",
+        "Dificultad para pensar en el legado.",
+        "Compromiso con la transformación personal."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido y legado.",
+        "ACT:: Clarificación de valores y acción comprometida.",
+        "Narrativa:: Re-autoría de la vida como legado emocional."
+      ],
+      "tarea": "Escribe tu \"testamento emocional\": qué emoción quieres dejar en el mundo y cómo. Léelo cada vez que necesites recordar tu propósito. Observa cómo te sientes al comprometerte con ese legado."
+    },
+    {
+      "codigo": "E-59",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te ha acompañado en este proceso terapéutico y qué le agradecerías por eso?",
+      "objetivo": "Consolidar el trabajo del mazo explorando la emoción que ha sido compañera del proceso terapéutico. Reconocer la gratitud hacia la propia vida emocional. Cerrar el mazo con una mirada de aprecio.",
+      "profundizacion": [
+        "¿Cómo te ha ayudado esa emoción en el proceso?",
+        "¿Qué te ha enseñado sobre ti?",
+        "¿Qué le dirías si pudiera escucharte?"
+      ],
+      "observacion": [
+        "Curiosidad como motor del proceso.",
+        "Valentía para enfrentar emociones difíciles.",
+        "Esperanza como guía del cambio.",
+        "Gratitud hacia la propia vida emocional."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría del proceso como historia de crecimiento.",
+        "CFT:: Gratitud y autocompasión por el camino recorrido.",
+        "Positiva:: Celebración del crecimiento emocional."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa emoción que te ha acompañado. Dile: \"Gracias por estar conmigo en este proceso. Gracias por enseñarme tanto\". Guárdala como recuerdo de tu viaje emocional."
+    },
+    {
+      "codigo": "E-60",
+      "iconos": [],
+      "pregunta": "¿Qué rito o gesto te ayudaría a cerrar este mazo de emociones y llevar contigo lo aprendido?",
+      "objetivo": "Fomentar la conciencia de las transiciones y los rituales de cierre. Evaluar la capacidad de integrar lo trabajado y prepararse para los siguientes mazos. Crear un ritual personal de cierre del mazo.",
+      "profundizacion": [
+        "¿Qué necesitas \"dejar aquí\" y qué quieres \"llevar contigo\"?",
+        "¿Cómo te gustaría celebrar o reconocer este cierre?",
+        "¿Qué intención te llevas para el próximo mazo?"
+      ],
+      "observacion": [
+        "Necesidad de ritualizar el cierre y la transición.",
+        "Dificultad para soltar el material trabajado.",
+        "Apertura y entusiasmo por continuar.",
+        "Resistencia a cerrar o pasar a otro tema."
+      ],
+      "intervenciones": [
+        "Simbólica:: Creación de rituales personales de cierre y transición.",
+        "Mindfulness:: Atención plena al momento presente y a la transición.",
+        "Narrativa:: Re-autoría del proceso como un viaje con etapas."
+      ],
+      "tarea": "Diseña tu propio \"rito de cierre\" para este mazo. Puede ser escribir una carta, encender una vela, hacer una lista de gratitud, o crear un objeto simbólico. Practícalo conscientemente antes de pasar al siguiente mazo."
+    }
+  ]
+}

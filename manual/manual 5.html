@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 5 (Continuación)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .chapter-heading { position: relative; padding-left: 1.5rem; }
+        .chapter-heading::before { content: ''; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 4px; background-color: #10b981; border-radius: 2px; }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .task-card { background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); border-left: 4px solid #059669; }
+        .dynamic-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; transition: all 0.2s; }
+        .dynamic-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #10b981; }
+        .dynamic-number { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; background: #0f172a; color: #10b981; border-radius: 50%; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 0.95rem; }
+        .category-badge { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+        .cat-cie { background: #ede9fe; color: #5b21b6; }
+        .step-list { counter-reset: step-counter; list-style: none; padding-left: 0; }
+        .step-list li { counter-increment: step-counter; position: relative; padding-left: 2.5rem; margin-bottom: 0.75rem; }
+        .step-list li::before { content: counter(step-counter); position: absolute; left: 0; top: 0; width: 1.75rem; height: 1.75rem; background: #ecfdf5; color: #059669; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; }
+        .resume-banner { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section, .dynamic-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="../app/" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- HEADER DE RETOME -->
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Bloque 5 &bull; Continuación</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Dinámicas 52-55</h1>
+            <p class="text-lg text-slate-300 font-light max-w-2xl">Cierre del Bloque 5: últimas dinámicas de cierre y proyección + Índice de Integridad completo.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- BANNER DE RETOME -->
+        <div class="resume-banner p-5 rounded-r-lg">
+            <p class="text-sm text-amber-900"><strong>📌 Nota de retome:</strong> Este documento continúa el Bloque 5 desde la Dinámica 52. Las dinámicas 29-51 fueron entregadas en la parte anterior de este bloque. Las dinámicas 1-28 pertenecen al Bloque 4.</p>
+        </div>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA D: CIERRE Y PROYECCIÓN (CONTINUACIÓN) -->
+        <!-- ============================================= -->
+        <section id="cat-d">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-cie">Categoría D</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Cierre y Proyección (Continuación)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 52-55: Herramientas finales para el cierre simbólico de etapas, la integración del proceso y la proyección hacia el futuro.</p>
+
+            <div class="space-y-6">
+
+                <!-- Dinámica 52 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">52</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Carta al Pasado</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Despedida temporal</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Cerrar simbólicamente una etapa del pasado mediante una carta escrita conscientemente.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">F</span> Futuro</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica una etapa del pasado que necesita cerrar (infancia, una relación, un trabajo, una identidad).</li>
+                            <li>Elige una carta de <span class="code-badge">H</span> que represente esa etapa.</li>
+                            <li>Escribe una carta a esa etapa: "Querida [etapa], hoy te escribo para..."</li>
+                            <li>La carta debe incluir tres movimientos: <strong>agradecimiento</strong> por lo aprendido, <strong>perdón</strong> por lo pendiente (hacia sí mismo y hacia otros), y <strong>despedida consciente</strong>.</li>
+                            <li>Lee la carta en voz alta en sesión.</li>
+                            <li>Elige una carta de <span class="code-badge">F</span> que represente la etapa que comienza.</li>
+                            <li>Cierra: "¿Qué te llevás de esa etapa? ¿Qué dejás atrás? ¿Qué abraza esta nueva etapa?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Guardar la carta en un sobre sellado. Quemarla simbólicamente si el paciente lo desea. Escribir también una carta de respuesta desde la etapa pasada.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Transiciones vitales, duelos, pacientes aferrados al pasado, cierres de proceso terapéutico.</span></div>
+                </div>
+
+                <!-- Dinámica 53 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">53</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Hilo Rojo del Proceso</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Integración narrativa</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar el tema central que atravesó todo el proceso terapéutico y darle coherencia narrativa.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700">Todos los mazos (el paciente elige sus cartas significativas)</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente revisa todas las cartas trabajadas durante el proceso (o las que guardó como significativas).</li>
+                            <li>Elige 5-7 cartas que representen los momentos más importantes del proceso.</li>
+                            <li>Las dispone en línea cronológica sobre la mesa.</li>
+                            <li>Explora cada carta: "¿Qué momento representa? ¿Qué aprendiste?"</li>
+                            <li>Pregunta clave: "Si hubiera un hilo rojo que conecta todas estas cartas, ¿cuál sería el tema central de tu proceso?"</li>
+                            <li>El paciente identifica el tema (ej. "aprender a poner límites", "darme permiso", "soltar el control").</li>
+                            <li>Elige una carta final que represente ese "hilo rojo" como símbolo unificador.</li>
+                            <li>Cierra: "¿Cómo se reescribe tu historia sabiendo que este fue tu tema? ¿Qué capítulo sigue?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Usar un hilo rojo físico para conectar las cartas. Escribir el "hilo rojo" en una frase y enmarcarlo. Hacerlo trimestralmente para ver cómo evoluciona.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Cierre de proceso, pacientes con narrativas fragmentadas, revisión trimestral, trabajo desde narrativa.</span></div>
+                </div>
+
+                <!-- Dinámica 54 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">54</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Legado Terapéutico</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Proyección transgeneracional</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Reflexionar sobre qué quiere transmitir el paciente a otros (hijos, pacientes, cercanos) a partir de lo trabajado.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">C</span> Creencias + <span class="code-badge">F</span> Futuro + <span class="code-badge">R</span> Relaciones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica qué patrones familiares o creencias heredadas quiere romper.</li>
+                            <li>Elige una carta de <span class="code-badge">C</span> que represente esa creencia heredada: "Esto es lo que NO quiero transmitir."</li>
+                            <li>Luego identifica qué nuevas verdades quiere transmitir.</li>
+                            <li>Elige una carta de <span class="code-badge">F</span> que represente el legado que quiere construir: "Esto es lo que SÍ quiero transmitir."</li>
+                            <li>Elige una carta de <span class="code-badge">R</span> que represente a quién va dirigido ese legado (hijos, futuros pacientes, su comunidad).</li>
+                            <li>Explora: "¿Cómo vas a encarnar ese legado en tu vida cotidiana? ¿Qué acciones concretas lo expresan?"</li>
+                            <li>Cierra: "Si tu vida fuera un mensaje para los que vienen después, ¿qué diría ese mensaje?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir el legado en una carta física para entregar a los hijos o guardar. En terapia con padres, trabajar el legado directo hacia los niños.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Padres/madres, terapeutas en formación, pacientes en etapa final del proceso, trabajo desde perspectiva sistémica transgeneracional.</span></div>
+                </div>
+
+                <!-- Dinámica 55 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">55</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Última Carta</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Cierre maestro</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Cerrar el proceso terapéutico eligiendo una carta que sintetice todo el recorrido y se convierta en emblema personal.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700">Todos los mazos (el paciente elige libremente)</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>Se extienden todos los mazos trabajados sobre la mesa (o las cartas significativas del proceso).</li>
+                            <li>El paciente recorre las cartas en silencio durante 2-3 minutos.</li>
+                            <li>El terapeuta pregunta: "Si solo pudieras llevarte UNA carta que represente todo tu proceso, ¿cuál sería?"</li>
+                            <li>El paciente elige la carta. La sostiene en sus manos.</li>
+                            <li>Explora: "¿Por qué esta carta? ¿Qué te dice? ¿Qué te recuerda?"</li>
+                            <li>El paciente le pone un título personal a su proceso usando la carta como símbolo.</li>
+                            <li>El terapeuta hace una devolución breve y significativa del recorrido.</li>
+                            <li>Cierre ritual: el paciente se lleva la carta consigo como emblema del proceso.</li>
+                        </ol>
+                    </div>
+                    <div class="bg-white border-l-4 border-accent-600 p-4 rounded-r-lg mt-4">
+                        <p class="text-sm text-slate-700"><strong>Nota clínica:</strong> Esta dinámica es especialmente poderosa como cierre de proceso. El objeto físico (la carta) se convierte en un <em>objeto transicional terapéutico</em> que el paciente puede mirar en momentos difíciles para reconectarse con lo trabajado.</p>
+                    </div>
+                    <div class="text-sm mt-3"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Fotografiar al paciente con su carta. Escribir una dedicatoria en el reverso. En grupo, cada miembro elige su carta y la comparte con el grupo.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Alta terapéutica, cierre de procesos largos, pacientes que necesitan un símbolo tangible del cambio.</span></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE DE INTEGRIDAD — BLOQUE 5 COMPLETO -->
+        <!-- ============================================= -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-6 flex items-center gap-2">✅ Índice de Integridad — Bloque 5 Completo</h3>
+            
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Categoría A continuación: 7 dinámicas (29-35)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Categoría B continuación: 8 dinámicas (36-43)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Categoría C continuación: 7 dinámicas (44-50)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Categoría D continuación: 4 dinámicas (52-55)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Total del Bloque 5: 27 dinámicas nuevas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Acumulado Bloques 4+5: 55 dinámicas</span>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-200 pt-6">
+                <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4">Detalle de dinámicas entregadas en este bloque</h4>
+                
+                <div class="space-y-4 text-sm">
+                    <div>
+                        <p class="font-bold text-brand-900 mb-2">🔵 Categoría A — Diagnóstico y Evaluación (29-35):</p>
+                        <ul class="ml-4 space-y-1 text-slate-700">
+                            <li>29. El Radar de Emociones</li>
+                            <li>30. La Constelación de Roles</li>
+                            <li>31. El Termómetro del Dolor</li>
+                            <li>32. La Red de Apoyo</li>
+                            <li>33. El Inventario de Miedos</li>
+                            <li>34. La Cartografía del Deseo</li>
+                            <li>35. El Mapa de Conflictos</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="font-bold text-brand-900 mb-2">🟡 Categoría B — Desbloqueo y Ruptura de Patrones (36-43):</p>
+                        <ul class="ml-4 space-y-1 text-slate-700">
+                            <li>36. El Espejo Invertido</li>
+                            <li>37. La Carta Quemada</li>
+                            <li>38. El Tribunal Interno</li>
+                            <li>39. La Pregunta Imposible</li>
+                            <li>40. El Diálogo con el Síntoma</li>
+                            <li>41. La Escalera de Miedos</li>
+                            <li>42. El Contrato de Cambio</li>
+                            <li>43. La Silla Vacía al Revés</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="font-bold text-brand-900 mb-2">🟢 Categoría C — Fortalecimiento de Recursos (44-50):</p>
+                        <ul class="ml-4 space-y-1 text-slate-700">
+                            <li>44. El Árbol de Recursos</li>
+                            <li>45. La Medalla al Mérito</li>
+                            <li>46. El Mentor Imaginario</li>
+                            <li>47. El Banco de Recuerdos</li>
+                            <li>48. La Caja de Herramientas</li>
+                            <li>49. El Mapa de Gratitud</li>
+                            <li>50. La Red de Seguridad</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="font-bold text-brand-900 mb-2">🟣 Categoría D — Cierre y Proyección (52-55):</p>
+                        <ul class="ml-4 space-y-1 text-slate-700">
+                            <li>52. La Carta al Pasado</li>
+                            <li>53. El Hilo Rojo del Proceso</li>
+                            <li>54. El Legado Terapéutico</li>
+                            <li>55. La Última Carta</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-200 pt-6 mt-6">
+                <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-3">Estado global del Banco de Dinámicas</h4>
+                <div class="bg-gradient-to-br from-brand-900 to-brand-800 text-white p-5 rounded-lg">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        <div>
+                            <p class="text-3xl font-serif font-bold text-accent-500">55</p>
+                            <p class="text-xs text-slate-300 uppercase tracking-widest mt-1">Dinámicas entregadas</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-serif font-bold text-accent-500">45+</p>
+                            <p class="text-xs text-slate-300 uppercase tracking-widest mt-1">Restantes para +100</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-serif font-bold text-accent-500">4</p>
+                            <p class="text-xs text-slate-300 uppercase tracking-widest mt-1">Categorías clínicas</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-serif font-bold text-accent-500">13</p>
+                            <p class="text-xs text-slate-300 uppercase tracking-widest mt-1">Mazos integrados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-6 pt-4 border-t border-slate-100">El 100% del contenido planificado para el Bloque 5 ha sido trasladado sin omisiones. Todas las dinámicas mantienen la estructura profesional: Nombre, Objetivo, Mazos necesarios, Paso a paso numerado, Variantes e Indicación clínica.</p>
+        </section>
+
+        <!-- ============================================= -->
+        <!-- PROPUESTA DE PRÓXIMOS PASOS -->
+        <!-- ============================================= -->
+        <section class="bg-gradient-to-br from-accent-50 to-white p-8 rounded-xl border border-accent-500/20">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">🚀 Próximos Pasos Sugeridos</h3>
+            <p class="text-slate-700 mb-6">Con el Bloque 5 completado, ya tenemos <strong>55 dinámicas desarrolladas</strong> (más de la mitad del banco proyectado de +100). Te propongo dos caminos posibles para continuar:</p>
+
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white p-5 rounded-lg border border-slate-100 shadow-sm">
+                    <h4 class="font-sans font-bold text-accent-700 uppercase text-xs tracking-widest mb-2">🅰️ Camino A (Recomendado)</h4>
+                    <p class="font-serif text-lg text-brand-900 font-semibold mb-2">Completar el banco de dinámicas</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>Bloque 6: Dinámicas 56-80 (25 dinámicas especializadas)</li>
+                        <li>Bloque 7: Dinámicas 81-105 (25 dinámicas avanzadas)</li>
+                        <li>Total final: +105 dinámicas</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-5 rounded-lg border border-slate-100 shadow-sm">
+                    <h4 class="font-sans font-bold text-accent-700 uppercase text-xs tracking-widest mb-2">🅱️ Camino B</h4>
+                    <p class="font-serif text-lg text-brand-900 font-semibold mb-2">Cerrar el manual con los Anexos</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>Anexo A: Índice Maestro de Códigos</li>
+                        <li>Anexo B: Plantillas de Registro de Sesión</li>
+                        <li>Anexo C: Glosario de Términos Clínicos</li>
+                        <li>Cierre editorial del manual</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="text-sm text-slate-600 mt-6 italic">💡 Mi sugerencia como Director Creativo: seguir el <strong>Camino A</strong> para completar el banco (que es el corazón práctico del manual) y luego cerrar con los Anexos en un Bloque 8 final. Así garantizamos que el manual tenga la densidad clínica prometida.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm">
+        <div class="max-w-4xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Manual Clínico Profesional &bull; Bloque 5 de 8 (COMPLETO)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

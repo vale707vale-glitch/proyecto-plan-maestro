@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 4 (Creencias)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        belief: { 50: '#fffbeb', 500: '#d97706', 600: '#b45309', 800: '#78350f' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #d97706; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-belief-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-belief-600/20 border border-belief-500/30 rounded-full text-belief-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 4: <span class="italic text-belief-500">Creencias</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas C-01 a C-60. Formato de referencia cruzada para consulta rápida del terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato compacto permite al terapeuta buscar rápidamente por código (ej: <span class="code-badge">C-01</span>) y acceder a:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo clínico:</strong> Para qué sirve la carta.</li>
+                <li><strong>Procesos psicológicos:</strong> Qué mecanismos activa.</li>
+                <li><strong>Respuestas y profundización:</strong> Cómo intervenir según la reacción del paciente.</li>
+                <li><strong>Contraindicaciones:</strong> Cuándo NO usarla.</li>
+                <li><strong>Combinaciones:</strong> Qué otras cartas del sistema potencian su efecto.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-belief-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Detección de Esquemas Nucleares y Mandatos Internalizados
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas C-07 a C-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- C-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-01</span>
+                        <span class="text-2xl">🧠 👤</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tuvieras que resumir en una frase lo que crees que es "cierto sobre ti", ¿cuál sería?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Acceder a la creencia nuclear sobre la identidad. Detectar el esquema central que organiza la autoimagen. Establecer un punto de partida para el trabajo cognitivo profundo.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Auto-observación, conciencia de partes internas, identificación de temas fundacionales.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Creencia nuclear negativa:</strong> "Soy defectuoso". → <em>Profundizar:</em> "¿Desde cuándo sostienes esa idea? ¿Recuerdas cuándo la escuchaste por primera vez?"</li>
+                            <li><strong>Respuesta vaga:</strong> "Soy una persona normal". → <em>Profundizar:</em> "¿Esa frase te define completamente o hay partes de ti que no encajan?"</li>
+                            <li><strong>Bloqueo:</strong> Dificultad para verbalizar. → <em>Intervención:</em> "Si alguien querido te escuchara decir eso de ti, ¿qué te respondería?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales de trauma no estabilizado sin recursos de contención previos.</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">E-004</span> (conexión somática), <span class="code-badge">H-01</span> (primeros recuerdos).</p></div>
+                    </div>
+                </div>
+
+                <!-- C-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-02</span>
+                        <span class="text-2xl">🧠 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Cuál es la diferencia, para ti, entre un "pensamiento" y una "creencia"?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Evaluar la comprensión psicoeducativa del paciente sobre su propia vida cognitiva. Detectar fusiones cognitivas (creer que todo pensamiento es una verdad).</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Metacognición, diferenciación de niveles de certeza, defusión cognitiva.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Fusión total:</strong> "Es lo mismo". → <em>Profundizar:</em> "¿Cuánta certeza le das a un pensamiento pasajero? ¿Y a una creencia?"</li>
+                            <li><strong>Intelectual:</strong> Explicación teórica correcta. → <em>Profundizar:</em> "¿Alguna vez confundiste un pensamiento automático con una verdad absoluta en tu vida?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con pensamiento concreto severo o en fase de estabilización de crisis aguda.</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">C-023</span> (creencias limitantes), <span class="code-badge">RE-041</span> (estrategias de regulación).</p></div>
+                    </div>
+                </div>
+
+                <!-- C-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-03</span>
+                        <span class="text-2xl">🧠 👨‍👩‍👧</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué creencias sobre la vida te transmitió tu familia como si fueran verdades absolutas?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar los mandatos cognitivos familiares internalizados. Identificar creencias "heredadas" que el paciente sigue sosteniendo sin cuestionar.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia transgeneracional, externalización de mandatos, diferenciación emocional.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento claro:</strong> "El dinero es difícil". → <em>Profundizar:</em> "¿Quién en tu familia las decía más fuerte? ¿Con qué tono?"</li>
+                            <li><strong>Minimización:</strong> "En mi familia todo era normal". → <em>Profundizar:</em> "¿Qué pasaba cuando alguien dudaba de esas verdades?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales con pacientes con trauma familiar no procesado o sin alianza sólida.</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-062</span> (lealtades familiares), <span class="code-badge">S-003</span> (lealtades invisibles).</p></div>
+                    </div>
+                </div>
+
+                <!-- C-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-04</span>
+                        <span class="text-2xl">🧠 ⚡</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué creencia sobre ti se formó a partir de una experiencia dolorosa de tu infancia?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Acceder a la memoria emocional que originó una creencia nuclear. Identificar el momento de "cristalización" de un esquema.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Memoria autobiográfica, conexión trauma-cognición, reparentalización.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Memoria vívida:</strong> Detalles con emoción intensa. → <em>Profundizar:</em> "¿Qué edad tenías y qué decidiste sobre ti en ese momento?"</li>
+                            <li><strong>Disociación:</strong> "No fue para tanto". → <em>Intervención:</em> "¿Esa decisión de niño te sigue gobernando hoy?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con trauma no estabilizado sin recursos de contención previos (puede desencadenar flashbacks).</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">RE-020</span> (carta al niño interno), <span class="code-badge">U-016</span> (huella somática).</p></div>
+                    </div>
+                </div>
+
+                <!-- C-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-05</span>
+                        <span class="text-2xl">🧠 🌱</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué creencia limitante te ha costado más soltar hasta ahora, y qué te ha dado sostenerla?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar la función protectora de la creencia limitante. Detectar el beneficio secundario de sostenerla.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Análisis funcional, aceptación radical, reencuadre de la intención positiva.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento del beneficio:</strong> "Me mantiene seguro". → <em>Profundizar:</em> "¿De qué te ha protegido no soltarla? ¿Qué temes que pasaría si la soltaras?"</li>
+                            <li><strong>Resistencia total:</strong> "Es la verdad". → <em>Intervención:</em> "¿A quién traicionarías si dejaras de creerla?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fase de estabilización de trauma donde la evitación es un mecanismo de supervivencia necesario.</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">S-090</span> (mapa de sombras), <span class="code-badge">RE-098</span> (mapa de resiliencia).</p></div>
+                    </div>
+                </div>
+
+                <!-- C-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">C-06</span>
+                        <span class="text-2xl">🧠 👤</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tuvieras que puntuar de 0 a 10 cuánto te crees merecedor/a de cosas buenas, ¿qué número pondrías y por qué?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Evaluar la creencia nuclear de merecimiento. Detectar el nivel de autoestima condicional vs. incondicional.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Autoestima, diferenciación de valor inherente vs. logros, autocompasión.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Puntuación baja:</strong> "No merezco". → <em>Profundizar:</em> "¿De quién aprendiste cuánto mereces? ¿Qué tendrías que hacer para subir ese número un punto?"</li>
+                            <li><strong>Merecimiento condicional:</strong> "Solo si produzco". → <em>Profundizar:</em> "¿Qué pasa en tu cuerpo cuando recibes algo bueno sin haberlo 'ganado'?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con culpa severa por no haber "cuidado bien" a un familiar enfermo o fallecido.</p></div>
+                        <div><p class="font-bold text-belief-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">RE-074</span> (carta de poder), <span class="code-badge">C-048</span> (autocompasión).</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE RÁPIDO DE TEMAS DEL MAZO 4 -->
+        <!-- ============================================= -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6">Índice Rápido de Temas - Mazo 4 (Creencias)</h3>
+            <p class="text-slate-700 mb-6">Este índice temático permite al terapeuta buscar cartas por <strong>objetivo clínico</strong> en lugar de por número. Cada código remite a la entrada completa en el formato detallado mostrado arriba.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- CATEGORÍA: DETECCIÓN Y ESQUEMAS NUCLEARES -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🧠 Detección y Esquemas Nucleares (C-01 a C-20)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Acceder a la creencia nuclear sobre la identidad</span> <span class="code-badge">C-01</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciar pensamiento de creencia (metacognición)</span> <span class="code-badge">C-02</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar mandatos cognitivos familiares internalizados</span> <span class="code-badge">C-03</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Acceder a la memoria emocional que cristalizó la creencia</span> <span class="code-badge">C-04</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la función protectora de la creencia limitante</span> <span class="code-badge">C-05</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia nuclear de merecimiento</span> <span class="code-badge">C-06</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Acceder al diálogo interno crítico (juez interior)</span> <span class="code-badge">C-07</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia de autoeficacia y locus de control</span> <span class="code-badge">C-08</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la autoestima incondicional vs. condicional</span> <span class="code-badge">C-09</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la relación con el error y la imperfección</span> <span class="code-badge">C-10</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la creencia sobre la confiabilidad de los demás</span> <span class="code-badge">C-11</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia nuclear sobre la seguridad del mundo</span> <span class="code-badge">C-12</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la creencia sobre la justicia y el merecimiento</span> <span class="code-badge">C-13</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar el esquema de privación emocional</span> <span class="code-badge">C-14</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar el miedo al abandono y la autenticidad</span> <span class="code-badge">C-15</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la introyección cognitiva y lealtades invisibles</span> <span class="code-badge">C-16</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Externalizar la creencia para reducir la identificación</span> <span class="code-badge">C-17</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar los valores cognitivos y creencias deseadas</span> <span class="code-badge">C-18</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Identificar creencias que generan impulsividad</span> <span class="code-badge">C-19</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Introducir la metáfora de la "dieta cognitiva balanceada"</span> <span class="code-badge">C-20</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: CREENCIAS RELACIONALES Y VINCULARES -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">❤️ Creencias Relacionales y Vinculares (C-21 a C-40)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar el amor condicional vs. incondicional</span> <span class="code-badge">C-21</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la creencia sobre la asertividad y los límites</span> <span class="code-badge">C-22</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciar soledad elegida de soledad no deseada</span> <span class="code-badge">C-23</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar el impacto del trauma relacional en la confianza</span> <span class="code-badge">C-24</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia sobre el conflicto interpersonal</span> <span class="code-badge">C-25</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la creencia sobre la reciprocidad y la deuda</span> <span class="code-badge">C-26</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia de responsabilidad emocional exagerada</span> <span class="code-badge">C-27</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar lealtades invisibles y conflictos de autonomía</span> <span class="code-badge">C-28</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia nuclear sobre la vulnerabilidad</span> <span class="code-badge">C-29</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la conceptualización del perdón</span> <span class="code-badge">C-30</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia sobre compatibilidad entre seguridad y deseo</span> <span class="code-badge">C-31</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la creencia sobre la comunicación auténtica</span> <span class="code-badge">C-32</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia de autosacrificio como moneda de cambio</span> <span class="code-badge">C-33</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Desestigmatizar la envidia como información sobre deseos</span> <span class="code-badge">C-34</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia sobre la maleabilidad de las personas</span> <span class="code-badge">C-35</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar creencias nucleares sobre la intimidad física</span> <span class="code-badge">C-36</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar el síndrome del impostor en contextos relacionales</span> <span class="code-badge">C-37</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Explorar la relación con el cierre de ciclos y el duelo</span> <span class="code-badge">C-38</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evaluar la creencia sobre el esfuerzo relacional y el merecimiento</span> <span class="code-badge">C-39</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cierre del lote: reestructuración cognitiva y agencia personal</span> <span class="code-badge">C-40</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: REESTRUCTURACIÓN, INTEGRACIÓN Y CIERRE -->
+                <div class="md:col-span-2">
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🌱 Reestructuración, Integración y Cierre (C-41 a C-60)</h4>
+                    <ul class="grid md:grid-cols-2 gap-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Iniciar formalmente el proceso de reestructuración cognitiva</span> <span class="code-badge">C-41</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Debilitar la creencia nuclear mediante búsqueda de evidencia</span> <span class="code-badge">C-42</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Utilizar la técnica de la "doble estándar" o distanciamiento</span> <span class="code-badge">C-43</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Introducir el "experimento conductual" o acting as if</span> <span class="code-badge">C-44</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Psicoeducar sobre la disonancia cognitiva como crecimiento</span> <span class="code-badge">C-45</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Trabajar la reestructuración de la identidad</span> <span class="code-badge">C-46</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Prevención de recaídas cognitivas y plan de emergencia</span> <span class="code-badge">C-47</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integrar la autocompasión como lubricante del cambio</span> <span class="code-badge">C-48</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Consolidar el cambio a través de la re-narración</span> <span class="code-badge">C-49</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciar el deseo superficial de la convicción profunda</span> <span class="code-badge">C-50</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Fomentar la flexibilidad cognitiva y resiliencia</span> <span class="code-badge">C-51</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Abordar la resistencia al cambio desde la honestidad radical</span> <span class="code-badge">C-52</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Anticipar y gestionar el impacto sistémico del cambio</span> <span class="code-badge">C-53</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración somática del cambio cognitivo</span> <span class="code-badge">C-54</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Future pacing: visualización detallada para motivar el cambio</span> <span class="code-badge">C-55</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Identificar y gestionar la distorsión del "sí, pero..."</span> <span class="code-badge">C-56</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Consolidación a través del ritual y la simbolización</span> <span class="code-badge">C-57</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración temporal y reparentalización interna</span> <span class="code-badge">C-58</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Metacognición y consolidación de la autoeficacia</span> <span class="code-badge">C-59</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cierre e integración final del Mazo de Creencias</span> <span class="code-badge">C-60</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOTA FINAL DEL ÍNDICE -->
+        <section class="bg-brand-900 text-white p-8 rounded-xl shadow-lg">
+            <h3 class="font-serif text-2xl text-belief-500 mb-4">📌 Instrucciones para el Terapeuta</h3>
+            <p class="text-slate-300 mb-4">Este índice rápido te permite ubicar el código de la carta que necesitas según el <strong>objetivo clínico</strong> del momento. Una vez identificado el código (ej: <span class="code-badge">C-06</span>), consulta la entrada completa en la sección detallada de este anexo (o en los archivos fuente del proyecto) para acceder a:</p>
+            <ul class="text-slate-300 space-y-2 ml-4 list-disc">
+                <li>Las preguntas de profundización específicas.</li>
+                <li>Las observaciones clínicas a monitorear.</li>
+                <li>Las líneas de intervención según tu orientación teórica.</li>
+                <li>Las combinaciones recomendadas con otros mazos.</li>
+            </ul>
+            <p class="text-slate-400 text-sm mt-6 italic">El desarrollo completo de las 60 entradas en formato detallado se encuentra disponible en los archivos fuente del proyecto ("creencias 1.html", "creencias 2.html", "creencias 3.html"). Este índice sirve como mapa de navegación rápido para la práctica clínica.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Anexo A: Índice Maestro de Códigos &bull; Mazo 4: Creencias (C-01 a C-60)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

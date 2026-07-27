@@ -1,0 +1,1372 @@
+{
+  "id": "la-puerta",
+  "nombre": "La Puerta",
+  "numero": 1,
+  "rango": "P-01 a P-60",
+  "descripcion": "Inicio de sesion, encuadre, alianza terapeutica, contrato y rituales de inicio.",
+  "cartas": [
+    {
+      "codigo": "P-01",
+      "iconos": [],
+      "pregunta": "¿Qué parte de vos decidió venir hoy?",
+      "objetivo": "Abrir la sesión. Detectar motivación. Observar disposición y posibles conflictos internos (ambivalencia) desde el primer minuto.",
+      "profundizacion": [
+        "¿Qué esperaba esa parte al venir?",
+        "¿Qué otra parte de ti no quería venir o prefería estar en otro lado?",
+        "Si esa parte que dudaba pudiera hablar ahora mismo… ¿qué diría?"
+      ],
+      "observacion": [
+        "Evita responder o da rodeos intelectuales.",
+        "Responde desde la exigencia (\"tengo que arreglarme\").",
+        "Muestra alivio o vergüenza al confesar su ambivalencia.",
+        "Cambia de tema rápidamente hacia \"el problema\"."
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalizar la \"parte\" que trajo al paciente y darle una voz propia.",
+        "ACT:: Defusión cognitiva de la identidad fija (\"Yo soy el que no quería venir\" vs. \"Noto que hay una parte...\").",
+        "Gestalt:: Silla vacía para dialogar con la parte que se quedó en casa."
+      ],
+      "tarea": "Durante esta semana, observa y anota en tu celular o libreta en qué momentos del día sientes que \"otra parte\" de ti toma el control o duda. No la juzgues, solo regístrala como un dato curioso."
+    },
+    {
+      "codigo": "P-02",
+      "iconos": [],
+      "pregunta": "Si tuvieras que explicar con una imagen o metáfora cómo te sentías justo antes de cruzar la puerta, ¿cuál sería?",
+      "objetivo": "Evaluar el estado emocional basal y la ansiedad pre-sesión. Hacer un bypass a las respuestas automáticas y sociales (\"bien\", \"todo igual\").",
+      "profundizacion": [
+        "¿Qué colores o temperatura tiene esa imagen?",
+        "¿Hay movimiento o está estática/congelada?",
+        "¿Qué necesitaría esa imagen para sentirse un poco más segura aquí en el consultorio?"
+      ],
+      "observacion": [
+        "Bloqueo creativo (miedo a \"equivocarse\").",
+        "Imagen catastrófica o de aislamiento.",
+        "Imagen de alivio o refugio.",
+        "Desconexión corporal (dificultad hemisferio derecho)."
+      ],
+      "intervenciones": [
+        "Somática:: Trabajar la regulación del sistema nervioso a partir de la metáfora.",
+        "EMDR:: Identificar si la imagen conecta con una red de trauma o recurso.",
+        "Humanista:: Validar la vulnerabilidad del acto de pedir ayuda."
+      ],
+      "tarea": "Dibuja o describe en una nota de tu celular esa imagen/metáfora al menos una vez esta semana cuando sientas esa misma emoción. Observa si cambia de color o forma con el tiempo."
+    },
+    {
+      "codigo": "P-03",
+      "iconos": [],
+      "pregunta": "De todo lo que te está pasando ahora mismo, ¿qué es lo que más te urge que entendamos hoy?",
+      "objetivo": "Focalizar la sesión. Diferenciar entre el \"motivo de consulta\" histórico y la \"necesidad presente\". Establecer el contrato terapéutico del día.",
+      "profundizacion": [
+        "Si al final de la sesión te vas sintiendo que eso fue comprendido, ¿qué cambiaría en tu semana?",
+        "¿Qué es lo que no quieres que toquemos hoy bajo ningún concepto?",
+        "¿De quién es la urgencia: tuya, de tu pareja, de tu familia?"
+      ],
+      "observacion": [
+        "Urgencia ansiosa (pensamiento mágico: \"arreglarlo todo ya\").",
+        "Vaguedad o dispersión (\"todo me pasa al mismo tiempo\").",
+        "Demanda directiva al terapeuta (\"quiero que me digas qué hacer\")."
+      ],
+      "intervenciones": [
+        "TCC:: Establecimiento de agenda y metas realistas para la sesión.",
+        "Sistémica:: Explorar quién más está involucrado o \"sintomático\" en esa urgencia.",
+        "Psicoanálisis:: Analizar la transferencia y la demanda al analista."
+      ],
+      "tarea": "Escribe en un papel la \"urgencia\" de hoy. Al final de la semana, tacha lo que ya no es urgente y reflexiona sobre qué quedó realmente importante."
+    },
+    {
+      "codigo": "P-04",
+      "iconos": [],
+      "pregunta": "¿Hay algo que hayas ensayado mentalmente antes de venir, o algo que hayas decidido deliberadamente no contarme?",
+      "objetivo": "Romper la resistencia inicial. Traer a la luz la censura consciente y la ansiedad performativa frente a la figura del terapeuta.",
+      "profundizacion": [
+        "¿Qué temías que pasara (o que yo pensara) si me lo decías?",
+        "¿De quién es la voz que te dice que eso es mejor guardarlo?",
+        "¿Qué peso te quita de los hombros el solo hecho de admitir que hay un secreto?"
+      ],
+      "observacion": [
+        "Risa nerviosa o minimización (\"es una tontería\").",
+        "Mirada evasiva o lenguaje corporal de cierre.",
+        "Desafío o prueba de confianza (\"a ver si adivinas\")."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Trabajo con la resistencia, el secreto y la censura.",
+        "ACT:: Aceptación de la incomodidad y conexión con los valores de la honestidad.",
+        "Relacional:: Fortalecer la alianza validando el miedo a ser juzgado."
+      ],
+      "tarea": "Si hay algo que decidiste no contar, escríbelo en un papel y guárdalo en un sobre cerrado. El simple acto de externalizarlo reduce su carga, sin obligación de compartirlo aún."
+    },
+    {
+      "codigo": "P-05",
+      "iconos": [],
+      "pregunta": "¿Quién o qué te sostuvo esta última semana para que pudieras llegar hasta aquí?",
+      "objetivo": "Identificar recursos externos e internos. Fomentar la mentalización sobre la red de apoyo, la resiliencia y los objetos transicionales.",
+      "profundizacion": [
+        "¿Cómo te hablaste a vos mismo en los momentos más difíciles de estos días?",
+        "¿Hay alguna persona, aunque no lo sepa, que te haya servido de ancla?",
+        "¿Qué rol han jugado tus rutinas, tus mascotas o tu cuerpo para mantenerte a flote?"
+      ],
+      "observacion": [
+        "Aislamiento total (\"nadie, estoy solo en esto\").",
+        "Dependencia extrema o codependencia.",
+        "Reconocimiento de recursos no humanos (naturaleza, arte).",
+        "Autocompasión vs. autocrítica feroz."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma de apoyo o escultura de la red de contención.",
+        "Narrativa:: Re-escribir la historia enfocándose en los \"documentos de resiliencia\".",
+        "CFT:: Activar el sistema de calmado y afiliación."
+      ],
+      "tarea": "Envía un mensaje de agradecimiento (aunque sea mental o no lo envíes) a esa persona, mascota o recurso que te sostuvo. Reconoce explícitamente su apoyo."
+    },
+    {
+      "codigo": "P-06",
+      "iconos": [],
+      "pregunta": "Si esta sesión fuera un puente, ¿de qué orilla estás partiendo hoy y a qué orilla te gustaría llegar en los próximos 50 minutos?",
+      "objetivo": "Metaforizar el proceso terapéutico. Alinear expectativas y evaluar la capacidad de abstracción, proyección a corto plazo y tolerancia a la transición.",
+      "profundizacion": [
+        "¿Qué te llevas en la mochila para cruzar?",
+        "¿Qué te da miedo dejar en esta orilla?",
+        "¿Y si el puente se corta a la mitad o nos sorprenden la niebla o la tormenta?"
+      ],
+      "observacion": [
+        "Pensamiento concreto (dificultad para sostener la metáfora).",
+        "Expectativas irreales (\"paz absoluta y no volver a sentir dolor\").",
+        "Miedo al cambio o a la orilla desconocida."
+      ],
+      "intervenciones": [
+        "ACT:: Uso de metáforas de aceptación y compromiso. El viaje vs. el destino.",
+        "Constructivismo:: La terapia como proceso activo de construcción de significado.",
+        "Estratégica:: Definir la \"pequeña señal\" conductual de que se ha cruzado el puente."
+      ],
+      "tarea": "Identifica un \"pequeño puente\" (una acción mínima) que puedas cruzar esta semana para acercarte a tu objetivo. Anota cómo te sientes al dar ese paso."
+    },
+    {
+      "codigo": "P-07",
+      "iconos": [],
+      "pregunta": "¿Con qué \"sombrero\" o \"rol\" entras hoy a este espacio?",
+      "objetivo": "Identificar la identificación con roles rígidos. Explorar la flexibilidad del yo, la fatiga de rol y las máscaras sociales.",
+      "profundizacion": [
+        "¿Qué pasaría si por estos 50 minutos te sacaras ese sombrero?",
+        "¿Quién queda debajo cuando te quitas el disfraz?",
+        "¿Te da vértigo o angustia pensar en no llevarlo puesto?"
+      ],
+      "observacion": [
+        "Confusión de roles (\"no sé quién soy sin mi trabajo\").",
+        "Alivio físico y emocional al imaginar soltar el peso.",
+        "Angustia ante la pérdida de la función o la utilidad para los demás."
+      ],
+      "intervenciones": [
+        "Gestalt:: Exploración de las identificaciones y el \"darse cuenta\".",
+        "ACT:: El Yo como contexto (el cielo) vs. el Yo conceptualizado (el clima/los sombreros).",
+        "Psicodrama:: Técnicas de inversión, exageración o desidentificación de rol."
+      ],
+      "tarea": "Elige un \"sombrero\" o rol que uses mucho. Dedica 10 minutos esta semana a \"colgarlo\" conscientemente en una percha imaginaria y observa qué sensación queda en tu cuerpo sin él."
+    },
+    {
+      "codigo": "P-08",
+      "iconos": [],
+      "pregunta": "En una escala del 1 al 10, ¿qué tan \"presente\" sientes que estás en tu cuerpo y en esta habitación en este preciso instante?",
+      "objetivo": "Evaluar la disociación, la hiperactivación o la hipoactivación del sistema nervioso al inicio de la sesión (Ventana de Tolerancia).",
+      "profundizacion": [
+        "¿Dónde sientes físicamente ese número en tu cuerpo?",
+        "¿Qué necesitaría tu cuerpo para subir o bajar un punto y sentirse más cómodo para hablar?",
+        "¿Hay alguna parte de ti que se haya quedado en otro lugar o en otro tiempo?"
+      ],
+      "observacion": [
+        "Disociación (números muy bajos, mirada perdida, voz monótona).",
+        "Hiperfoco ansioso (números muy altos pero con tensión muscular extrema).",
+        "Dificultad para el escaneo corporal (alexitimia)."
+      ],
+      "intervenciones": [
+        "Somática:: Grounding, anclaje, pendulación entre el recurso y la activación.",
+        "Mindfulness:: Atención focalizada y abierta al momento presente sin juicio.",
+        "Teoría Polivagal:: Ejercicios de regulación del nervio vago (ej. suspiro fisiológico)."
+      ],
+      "tarea": "Realiza un chequeo corporal de 1 minuto (del 1 al 10) tres veces al día. Solo obsérvalo, sin intentar cambiarlo. Registra si el número fluctúa."
+    },
+    {
+      "codigo": "P-09",
+      "iconos": [],
+      "pregunta": "¿Qué te diría la versión de ti mismo de hace un año al verte sentándote aquí hoy?",
+      "objetivo": "Fomentar la autocompasión, la perspectiva temporal (línea de vida) y evaluar el sentido de progreso, duelo o estancamiento.",
+      "profundizacion": [
+        "¿Te juzgaría, te abrazaría, o se sorprendería de que sigas aguantando?",
+        "¿Qué le dirías tú a esa versión del pasado para tranquilizarla?",
+        "¿Qué promesas le hiciste a ese \"yo\" del pasado que aún no has cumplido?"
+      ],
+      "observacion": [
+        "Autocrítica feroz y descalificación del propio esfuerzo.",
+        "Nostalgia o dolor agudo por el tiempo perdido.",
+        "Orgullo silencioso o validación del camino recorrido."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría, conectando historias y habilidades a través del tiempo.",
+        "EMDR:: Instalación de recurso (el yo adulto de hoy cuidando al yo vulnerable del pasado).",
+        "Terapia de Esquemas:: Fortalecimiento del modo del \"Adulto Sanador\"."
+      ],
+      "tarea": "Escribe una breve nota de agradecimiento o compasión dirigida a tu \"yo\" de hace un año. Reconoce lo que esa versión de ti logró para que tú estés aquí hoy."
+    },
+    {
+      "codigo": "P-10",
+      "iconos": [],
+      "pregunta": "Si el síntoma o el problema que te trae aquí hoy tuviera un mensaje positivo o una intención de cuidado hacia ti, ¿cuál crees que sería?",
+      "objetivo": "Reformulación positiva. Búsqueda de la intención secundaria, la lealtad invisible o la función adaptativa y de supervivencia del síntoma.",
+      "profundizacion": [
+        "¿De qué te está intentando proteger este dolor/ansiedad?",
+        "¿Qué pasaría si le agradecieras por su esfuerzo, pero le dijeras que ya tienes nuevas herramientas?",
+        "¿A quién de tu historia le pertenece originalmente esta forma de cuidarte?"
+      ],
+      "observacion": [
+        "Resistencia a ver lo positivo (\"esto solo me arruina la vida\").",
+        "Insight emocional profundo (conexión con traumas tempranos).",
+        "Culpa al pensar en soltar el síntoma."
+      ],
+      "intervenciones": [
+        "Sistémica:: Connotación positiva o prescripción del síntoma.",
+        "IFS:: Dialogar con la parte \"Protectora\" o el \"Bombero\".",
+        "Psicoanálisis:: Exploración de la ganancia secundaria de la enfermedad."
+      ],
+      "tarea": "Cuando el síntoma o malestar aparezca esta semana, di mentalmente: \"Veo que intentas protegerme. Gracias, pero ya estoy a salvo\". Observa si la intensidad cambia."
+    },
+    {
+      "codigo": "P-11",
+      "iconos": [],
+      "pregunta": "Si esta sesión fuera un éxito rotundo para ti, ¿qué pequeña señal o cambio notarías en tu semana que viene?",
+      "objetivo": "Establecer una meta concreta y observable (orientación a soluciones). Ayudar al paciente a visualizar el resultado deseado, pasando de la queja a la construcción de expectativas realistas.",
+      "profundizacion": [
+        "¿Cómo sabrías que esa señal está presente?",
+        "¿Quién más en tu entorno notaría ese pequeño cambio?",
+        "¿Qué te impide creer que esa señal es posible?"
+      ],
+      "observacion": [
+        "Respuestas vagas o mágicas (\"quiero ser feliz\").",
+        "Dificultad para imaginar un futuro diferente (desesperanza aprendida).",
+        "Capacidad de detallar indicadores conductuales específicos."
+      ],
+      "intervenciones": [
+        "Breve / Soluciones:: Uso de la \"Pregunta del Milagro\" adaptada o escalamiento.",
+        "TCC:: Definición de metas SMART (específicas, medibles, alcanzables).",
+        "ACT:: Clarificación de valores detrás de esa señal de éxito."
+      ],
+      "tarea": "Durante la próxima semana, anota en tu celular o en una libreta cada vez que observes esa \"pequeña señal\", aunque sea por solo un minuto. No intentes forzarla, solo regístrala como un detective de tu propio proceso."
+    },
+    {
+      "codigo": "P-12",
+      "iconos": [],
+      "pregunta": "¿Qué necesidad de pausa o de silencio traes hoy que a veces no te permites en tu día a día?",
+      "objetivo": "Validar el agotamiento, la sobrecarga o la necesidad de regulación del sistema nervioso antes de exigir contenido cognitivo. Fomentar la autocompasión.",
+      "profundizacion": [
+        "¿Qué pasaría si te dieras permiso para no \"producir\" o \"arreglar\" nada en los próximos 10 minutos?",
+        "¿Dónde sientes en tu cuerpo esa necesidad de pausa?",
+        "¿Qué voz interna te dice que no tienes derecho a detenerte?"
+      ],
+      "observacion": [
+        "Inquietud motora o dificultad para estar en silencio.",
+        "Llanto de alivio al ser validada la necesidad de descanso.",
+        "Justificación excesiva (\"es que tengo mucho trabajo, pero...\")."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios de grounding (anclaje) y regulación del tono vagal.",
+        "Gestalt:: Tomar conciencia del \"debería\" vs. el \"quiero/puedo\" (necesito parar).",
+        "CFT:: Trabajar la autocrítica que demoniza el descanso."
+      ],
+      "tarea": "Esta semana, programa una \"micro-pausa\" intencional de 2 minutos al día. Durante ese tiempo, no hagas nada productivo: solo observa tu respiración o mira por la ventana sin juzgar lo que ves."
+    },
+    {
+      "codigo": "P-13",
+      "iconos": [],
+      "pregunta": "Si tuvieras que titular el capítulo de tu vida que te trae hoy a consulta, ¿cómo se llamaría?",
+      "objetivo": "Fomentar la externalización y la metacognición. Ayudar al paciente a observar su narrativa desde una perspectiva de autor, no solo de protagonista atrapado en la trama.",
+      "profundizacion": [
+        "¿Es un título de tragedia, de misterio, de transición o de cansancio?",
+        "¿Qué nombre tendría el próximo capítulo si empezaras a escribirlo hoy?",
+        "¿Quién más aparece en la portada de este capítulo?"
+      ],
+      "observacion": [
+        "Títulos catastróficos o absolutistas (\"El fin\", \"Sin salida\").",
+        "Bloqueo creativo (no poder ponerle nombre).",
+        "Títulos que revelan una narrativa de víctima o de héroe agotado."
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalización del problema y re-autoría de la historia.",
+        "Logoterapia:: Búsqueda de sentido incluso en los capítulos difíciles.",
+        "Constructivismo:: Explorar cómo el lenguaje moldea la experiencia de la realidad."
+      ],
+      "tarea": "Escribe ese título en una nota adhesiva (post-it) y pégalo en un lugar visible (espejo, monitor). Obsérvalo durante la semana y pregúntate: \"¿Estoy de acuerdo con este título o me gustaría editarle una palabra?\"."
+    },
+    {
+      "codigo": "P-14",
+      "iconos": [],
+      "pregunta": "¿Qué es lo más difícil de admitir en voz alta hoy, aquí y ahora?",
+      "objetivo": "Romper la evitación experiencial. Crear un espacio de seguridad radical para que emergan vergüenzas, culpas o miedos que el paciente ha estado silenciando.",
+      "profundizacion": [
+        "¿Qué temes que pase (o que yo piense) si lo dices en voz alta?",
+        "¿A quién estás protegiendo al mantener eso en silencio?",
+        "¿Qué peso físico sientes al soltar esa frase por primera vez?"
+      ],
+      "observacion": [
+        "Voz quebrada, mirada hacia el suelo, largos silencios.",
+        "Minimización inmediata después de decirlo (\"pero no es para tanto\").",
+        "Prueba de la alianza terapéutica (esperar la reacción del terapeuta)."
+      ],
+      "intervenciones": [
+        "Humanista:: Aceptación incondicional y validación empática profunda.",
+        "EMDR:: Identificar si esta admisión activa una red de memoria traumática o creencia negativa.",
+        "ACT:: Defusión de la vergüenza y aceptación de la vulnerabilidad como valor."
+      ],
+      "tarea": "Si te animas, repite esa frase en voz alta frente al espejo una vez esta semana. Observa qué emoción surge y practica respirar a través de ella sin intentar cambiarla."
+    },
+    {
+      "codigo": "P-15",
+      "iconos": [],
+      "pregunta": "¿Qué límite necesitas establecer hoy, conmigo o contigo mismo, para sentirte plenamente seguro en este espacio?",
+      "objetivo": "Empoderar al paciente en la co-creación del marco terapéutico. Evaluar la capacidad de asertividad y la historia de violación de límites.",
+      "profundizacion": [
+        "¿Hay algún tema que hoy prefieras no tocar?",
+        "¿Necesitas que yo haga algo diferente (hablar más, hablar menos, no dar consejos)?",
+        "¿Cómo sueles reaccionar cuando alguien no respeta tus límites fuera de aquí?"
+      ],
+      "observacion": [
+        "Dificultad extrema para pedir algo (sumisión o complacencia).",
+        "Límites rígidos o desconfianza inicial alta.",
+        "Claridad y asertividad saludable desde el inicio."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los patrones familiares de límites (difusos, rígidos, claros).",
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Sano\" para proteger al \"Niño Vulnerable\".",
+        "DBT:: Entrenamiento en habilidades de asertividad (DEAR MAN)."
+      ],
+      "tarea": "Identifica una situación pequeña esta semana donde normalmente dirías \"sí\" por compromiso, y practica decir \"no\" o \"necesito pensarlo\" de manera amable pero firme."
+    },
+    {
+      "codigo": "P-16",
+      "iconos": [],
+      "pregunta": "En una sola palabra, ¿qué necesitas que yo (tu terapeuta) sepa sobre ti antes de empezar a profundizar?",
+      "objetivo": "Sintetizar la identidad o el estado actual del paciente. Ofrecer al terapeuta una \"brújula\" emocional inmediata para calibrar el tono de la sesión.",
+      "profundizacion": [
+        "¿Por qué elegiste esa palabra y no otra?",
+        "¿Esa palabra es un refugio, una queja o una declaración de principios?",
+        "¿Cómo se siente tu cuerpo al decir esa palabra en voz alta?"
+      ],
+      "observacion": [
+        "Elección de palabras de carga emocional intensa (\"roto\", \"agotado\").",
+        "Indecisión o petición de que el terapeuta elija por él/ella.",
+        "Palabras intelectualizadas que distancian de la emoción (\"funcional\")."
+      ],
+      "intervenciones": [
+        "Focalizada en Soluciones:: Usar esa palabra como ancla o recurso durante la sesión.",
+        "Gestalt:: Amplificar la palabra, repetirla, explorar sus resonancias somáticas.",
+        "Psicoanálisis:: Analizar la elección de palabra como un acto fallido o una verdad revelada."
+      ],
+      "tarea": "Guarda esa palabra en tu mente. Antes de tu próxima sesión, tómate 30 segundos para preguntarte: \"¿Sigue siendo esta la palabra que me define hoy, o ha cambiado?\"."
+    },
+    {
+      "codigo": "P-17",
+      "iconos": [],
+      "pregunta": "Si el problema o la emoción que te trae hoy fuera un invitado a tu casa, ¿cómo lo recibirías?",
+      "objetivo": "Evaluar la relación del paciente con su propio malestar (lucha, evitación, resignación o aceptación). Introducir la metáfora de la hospitalidad hacia las propias emociones.",
+      "profundizacion": [
+        "¿Le cerrarías la puerta en la cara, lo dejarías en la sala o lo invitarías a pasar?",
+        "¿Qué te ofrece este \"invitado\" aunque sea incómodo?",
+        "¿Qué necesitarías para sentirte más cómodo con su presencia?"
+      ],
+      "observacion": [
+        "Hostilidad o deseo de expulsión inmediata (\"lo odio, quiero que se vaya\").",
+        "Resignación pasiva (\"ya vive aquí, no tengo opción\").",
+        "Curiosidad compasiva hacia la propia experiencia interna."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión y aceptación radical. El invitado no te controla, tú eres la casa.",
+        "IFS:: Dialogar con la parte exiliada o protectora que trae este \"invitado\".",
+        "Mindfulness:: Observación sin juicio de la emoción como un fenómeno transitorio."
+      ],
+      "tarea": "La próxima vez que sientas esta emoción o problema, en lugar de luchar contra él, di mentalmente: \"Veo que has llegado. Puedes sentarte un rato, pero yo sigo a cargo de la casa\". Observa si la intensidad cambia."
+    },
+    {
+      "codigo": "P-18",
+      "iconos": [],
+      "pregunta": "¿Qué estás dispuesto a soltar hoy, aunque sea solo un 5%, para hacer espacio a algo nuevo?",
+      "objetivo": "Evaluar la motivación al cambio y la disposición al sacrificio o la renuncia necesaria para el crecimiento. Romper la ilusión de que se puede ganar sin soltar nada.",
+      "profundizacion": [
+        "¿Qué te cuesta tanto soltar? (control, una queja, una relación, una identidad).",
+        "¿Qué miedo aparece al imaginar ese 5% de espacio vacío?",
+        "¿Qué podría entrar en ese espacio si lo liberaras?"
+      ],
+      "observacion": [
+        "Negación absoluta (\"no tengo que soltar nada, el problema es externo\").",
+        "Miedo al vacío o a la pérdida de identidad.",
+        "Alivio al reconocer que no tiene que soltarlo todo, solo un poco."
+      ],
+      "intervenciones": [
+        "Motivacional:: Explorar la discrepancia entre los valores actuales y la conducta de aferramiento.",
+        "ACT:: El apego como fuente de sufrimiento y la flexibilidad psicológica como meta.",
+        "Gestalt:: Experimento de soltar físicamente algo (un objeto apretado) mientras se habla de lo emocional."
+      ],
+      "tarea": "Elige un objeto físico, un compromiso menor o un pensamiento recurrente esta semana y \"suéltalo\" conscientemente. Observa la sensación de espacio que deja y cómo toleras esa pequeña incertidumbre."
+    },
+    {
+      "codigo": "P-19",
+      "iconos": [],
+      "pregunta": "¿Quién en tu vida sabe que estás haciendo este trabajo y cómo te sostiene (o presiona) ese saber?",
+      "objetivo": "Mapear la red de apoyo o de presión social respecto a la terapia. Evaluar el estigma internalizado o, por el contrario, la validación del entorno.",
+      "profundizacion": [
+        "¿Qué te dijeron cuando les contaste que venías a terapia?",
+        "¿Hay alguien a quien no se lo has dicho? ¿Por qué?",
+        "¿Sientes que haces esto por ti o para demostrarle algo a alguien más?"
+      ],
+      "observacion": [
+        "Secreto total por vergüenza o miedo al juicio.",
+        "Presión de pareja/familia (\"te mandaron a arreglar\").",
+        "Orgullo y naturalización del cuidado de la salud mental."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar el equilibrio homeostático del sistema familiar ante el cambio de un miembro.",
+        "Narrativa:: Identificar si el paciente está viviendo un \"guión\" impuesto por otros.",
+        "Psicoeducación:: Normalizar la terapia y fortalecer la autonomía del paciente."
+      ],
+      "tarea": "Si hay alguien que te ha apoyado, envíale un mensaje breve de agradecimiento esta semana. Si lo mantienes en secreto, escribe en un papel por qué ese secreto te protege y si quieres seguir protegiéndolo."
+    },
+    {
+      "codigo": "P-20",
+      "iconos": [],
+      "pregunta": "Antes de profundizar en el tema central, ¿hay algo que necesites ajustar en tu postura, tu respiración o tu entorno para estar plenamente aquí?",
+      "objetivo": "Fomentar la regulación somática y la atención plena al entorno. Asegurar que el paciente está en su \"ventana de tolerancia\" antes de abordar material emocionalmente cargado.",
+      "profundizacion": [
+        "¿Necesitas un vaso de agua, una manta o cambiar de posición?",
+        "¿Hay algún ruido o distracción que podamos gestionar ahora?",
+        "¿Cómo se siente la transición entre el \"afuera\" y el \"aquí\"?"
+      ],
+      "observacion": [
+        "Pacientes que ignoran sus necesidades físicas hasta el agotamiento.",
+        "Alivio visible al ser autorizado a cuidar de sí mismo en el espacio terapéutico.",
+        "Ansiedad por \"aprovechar el tiempo\" y rechazo a la pausa."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Chequeo corporal (body scan) rápido y ajuste postural.",
+        "Terapia Relacional:: El terapeuta como co-regulador que modela el autocuidado.",
+        "Mindfulness:: Anclaje en el momento presente a través de los sentidos."
+      ],
+      "tarea": "Crea un \"rito de transición\" de 1 minuto antes de cada sesión (presencial u online). Puede ser lavarte las manos, respirar hondo tres veces o dejar el celular en otra habitación. Hazlo conscientemente."
+    },
+    {
+      "codigo": "P-21",
+      "iconos": [],
+      "pregunta": "¿Qué esperabas que fuera este espacio y qué descubriste que es en realidad?",
+      "objetivo": "Explorar las expectativas iniciales del paciente y contrastarlas con su experiencia actual. Detectar decepciones, sorpresas o ajustes en la representación mental de la terapia.",
+      "profundizacion": [
+        "¿De dónde venía esa imagen inicial? (películas, conocidos, lecturas).",
+        "¿Hay algo que te gustaría que fuera diferente?",
+        "¿Qué te sorprendió para bien o para mal?"
+      ],
+      "observacion": [
+        "Expectativa mágica (\"pensé que saldría curado\").",
+        "Decepción velada (\"no es lo que imaginaba\").",
+        "Sorpresa positiva (\"es más humano de lo que creía\").",
+        "Confusión de roles (\"pensé que me darías consejos\")."
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Aclarar el rol del terapeuta y el proceso terapéutico.",
+        "Constructivismo:: Explorar cómo se construyen las expectativas y su impacto en la experiencia.",
+        "Relacional:: Trabajar la transferencia y las fantasías iniciales."
+      ],
+      "tarea": "Escribe en una hoja dos columnas: \"Lo que imaginaba\" y \"Lo que estoy viviendo\". Al final de la semana, añade una tercera columna: \"Lo que me gustaría que fuera\"."
+    },
+    {
+      "codigo": "P-22",
+      "iconos": [],
+      "pregunta": "¿Qué necesitas que yo haga, o que no haga, para que este espacio funcione para ti?",
+      "objetivo": "Co-construir el encuadre terapéutico. Empoderar al paciente en la definición de las reglas implícitas del espacio y fortalecer la alianza desde el inicio.",
+      "profundizacion": [
+        "¿Prefieres que sea más directivo o más silencioso?",
+        "¿Hay algo que te haya molestado de otros terapeutas o ayudantes en el pasado?",
+        "¿Cómo te gustaría que te hablara en los momentos difíciles?"
+      ],
+      "observacion": [
+        "Dificultad para pedir (\"no sé, como usted diga\").",
+        "Lista extensa de exigencias (control ansioso).",
+        "Claridad asertiva y autoconocimiento.",
+        "Miedo a \"ofender\" al terapeuta con sus peticiones."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar patrones familiares de autoridad y obediencia.",
+        "DBT:: Entrenamiento en asertividad y negociación.",
+        "Humanista:: Validación radical de las necesidades del paciente."
+      ],
+      "tarea": "Escribe tres \"reglas de oro\" para nuestra relación terapéutica. Tráelas la próxima sesión para revisarlas juntos y ver si siguen vigentes."
+    },
+    {
+      "codigo": "P-23",
+      "iconos": [],
+      "pregunta": "¿Qué te dijo la última persona a la que le contaste que ibas a terapia?",
+      "objetivo": "Explorar el estigma internalizado, las lealtades familiares respecto a la salud mental y las narrativas sociales que el paciente trae al espacio.",
+      "profundizacion": [
+        "¿Cómo te hizo sentir esa reacción?",
+        "¿Hay partes de lo que te dijo con las que estás de acuerdo?",
+        "¿A quién más le has contado o a quién no le contarías nunca?"
+      ],
+      "observacion": [
+        "Vergüenza o secreto (\"no se lo dije a nadie\").",
+        "Validación social (\"me dijo que era valiente\").",
+        "Minimización familiar (\"son tonterías, ya se te pasará\").",
+        "Envidia o competencia (\"yo también necesito ir\")."
+      ],
+      "intervenciones": [
+        "Narrativa:: Deconstruir discursos sociales dominantes sobre la \"locura\" o la \"debilidad\".",
+        "Sistémica:: Explorar mitos y mandatos familiares sobre el dolor y la ayuda.",
+        "Psicoeducación:: Normalizar la terapia como cuidado de la salud."
+      ],
+      "tarea": "Escribe una carta (que no tienes que enviar) a esa persona contándole lo que la terapia está significando realmente para ti. Observa qué emociones surgen al escribirla."
+    },
+    {
+      "codigo": "P-24",
+      "iconos": [],
+      "pregunta": "¿Qué pasaría si hoy no vinieras a esta sesión? ¿Qué te perderías?",
+      "objetivo": "Evaluar la motivación intrínseca vs. extrínseca. Explorar la ambivalencia y el costo de oportunidad de asistir a terapia.",
+      "profundizacion": [
+        "¿Qué ganarías si te quedaras en casa?",
+        "¿Qué parte de ti te trajo hoy a pesar de todo?",
+        "¿Cómo te sentirías mañana si hoy no hubieras venido?"
+      ],
+      "observacion": [
+        "\"No sé, nada especial\" (desconexión motivacional).",
+        "Alivio al imaginar no venir (evitación activa).",
+        "Reconocimiento del valor del espacio.",
+        "Culpa anticipada (\"me sentiría mal conmigo mismo\")."
+      ],
+      "intervenciones": [
+        "Motivacional:: Explorar la discrepancia entre valores y conducta.",
+        "ACT:: Clarificación de valores y acción comprometida.",
+        "Gestalt:: Diálogo entre la parte que quiere venir y la que quiere huir."
+      ],
+      "tarea": "Al final de esta semana, escribe una lista de \"lo que me estoy dando al venir a terapia\" y \"lo que me cuesta\". Compárala con la de la próxima sesión."
+    },
+    {
+      "codigo": "P-25",
+      "iconos": [],
+      "pregunta": "Si pudieras diseñar tu propia terapia ideal, ¿cómo sería?",
+      "objetivo": "Acceder a las preferencias, necesidades y fantasías del paciente sobre el proceso terapéutico. Identificar brechas entre lo deseado y lo posible.",
+      "profundizacion": [
+        "¿Dónde sería? ¿En un consultorio, en la naturaleza, en otro lugar?",
+        "¿Cuánto duraría? ¿Cada cuánto irías?",
+        "¿Qué haría el terapeuta? ¿Qué no haría nunca?"
+      ],
+      "observacion": [
+        "Fantasía de solución mágica (\"una sesión y listo\").",
+        "Necesidad de control total sobre el proceso.",
+        "Creatividad y apertura al proceso.",
+        "Evitación del dolor (\"que no me haga llorar\")."
+      ],
+      "intervenciones": [
+        "Constructivismo:: Co-construcción del marco terapéutico.",
+        "Psicoanálisis:: Análisis de la fantasía del \"terapeuta ideal\" como objeto transicional.",
+        "Humanista:: Negociación realista de expectativas."
+      ],
+      "tarea": "Dibuja o describe tu \"consultorio ideal\" en una hoja. Observa qué elementos aparecen y qué dicen sobre tus necesidades profundas de cuidado."
+    },
+    {
+      "codigo": "P-26",
+      "iconos": [],
+      "pregunta": "¿Cómo te sientes al saber que hay alguien (yo) que te va a escuchar sin interrumpir, sin juzgar y sin darte consejos?",
+      "objetivo": "Explorar la relación del paciente con la escucha activa y la atención sostenida. Detectar historias de invalidación o sobreprotección.",
+      "profundizacion": [
+        "¿Te resulta cómodo o incómodo?",
+        "¿Te recuerda a alguien de tu historia?",
+        "¿Qué temes que pueda pasar si te escuchan así?"
+      ],
+      "observacion": [
+        "Alivio y emoción (\"nunca tuve esto\").",
+        "Incomodidad o desconfianza (\"¿y después qué?\").",
+        "Miedo a ser vulnerable o \"abrumar\" al otro.",
+        "Frustración (\"quiero que me digas qué hacer\")."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación de la experiencia emocional de ser escuchado.",
+        "Apego:: Explorar modelos internos de trabajo y expectativas relacionales.",
+        "Sistémica:: Genograma de patrones de escucha/invalidación familiar."
+      ],
+      "tarea": "Identifica esta semana un momento en que alguien te escuchó (aunque fuera brevemente). Anota cómo te sentiste y qué necesitabas en ese momento."
+    },
+    {
+      "codigo": "P-27",
+      "iconos": [],
+      "pregunta": "¿Qué temes que pueda pasar si empezamos a tocar temas profundos?",
+      "objetivo": "Explorar los miedos anticipatorios respecto al proceso terapéutico. Evaluar la capacidad de tolerancia a la incertidumbre y al dolor emocional.",
+      "profundizacion": [
+        "¿Qué catástrofe imaginas que podría ocurrir?",
+        "¿Quién te sostendría si eso pasara?",
+        "¿Hay algo que ya sabes que va a aparecer pero que estás postergando?"
+      ],
+      "observacion": [
+        "Miedo a \"romperse\" o desbordarse.",
+        "Miedo a descubrir algo insoportable sobre sí mismo.",
+        "Miedo a que el terapeuta lo rechace.",
+        "\"No tengo miedo\" (evitación intelectualizada)."
+      ],
+      "intervenciones": [
+        "Trauma:: Evaluación de la ventana de tolerancia y recursos de regulación.",
+        "ACT:: Aceptación de la incomodidad como parte del proceso.",
+        "Psicoeducación:: Normalizar el malestar temporal como señal de trabajo profundo."
+      ],
+      "tarea": "Escribe tu mayor miedo en un papel. Al lado, escribe tres recursos internos o externos que te ayudarían si ese miedo se materializara. Guárdalo para revisarlo en un mes."
+    },
+    {
+      "codigo": "P-28",
+      "iconos": [],
+      "pregunta": "¿Qué pequeña victoria de esta semana te gustaría celebrar hoy aquí?",
+      "objetivo": "Fomentar la atención a los recursos, logros y avances mínimos. Contrarrestar el sesgo de negatividad y la autocrítica feroz.",
+      "profundizacion": [
+        "¿Cómo te sentiste al lograrlo?",
+        "¿Quién más podría celebrarlo contigo?",
+        "¿Qué dice esta victoria sobre tus capacidades?"
+      ],
+      "observacion": [
+        "Bloqueo total (\"no tuve ninguna\").",
+        "Minimización (\"fue una tontería, cualquiera lo haría\").",
+        "Reconocimiento genuino y emoción positiva.",
+        "Dificultad para recibir validación externa."
+      ],
+      "intervenciones": [
+        "CFT:: Activación del sistema de cuidado y soothing.",
+        "TCC:: Reestructuración del sesgo de negatividad.",
+        "Narrativa:: Construcción de \"documentos de identidad alternativa\" basada en logros."
+      ],
+      "tarea": "Crea un \"frasco de las victorias\" (físico o digital). Cada día de esta semana, anota una pequeña victoria, aunque sea mínima. Al final de la semana, léelas todas juntas."
+    },
+    {
+      "codigo": "P-29",
+      "iconos": [],
+      "pregunta": "¿Cómo reaccionaría tu familia si supiera exactamente en qué punto estás hoy?",
+      "objetivo": "Explorar la lealtad familiar, los mandatos de silencio y la tensión entre el cambio individual y la homeostasis del sistema.",
+      "profundizacion": [
+        "¿A quién protegerías al no contarlo?",
+        "¿Qué temes que dijeran o hicieran?",
+        "¿Hay alguien que sí lo entendería?"
+      ],
+      "observacion": [
+        "Miedo al rechazo o la incomprensión.",
+        "Lealtad invisible (\"no puedo cambiar más que ellos\").",
+        "Deseo de que lo sepan para ser validado.",
+        "Indiferencia (\"a nadie le importa\")."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar lealtades invisibles y mandatos transgeneracionales.",
+        "Narrativa:: Externalización de las voces familiares internalizadas.",
+        "Diferenciación:: Trabajo en la individuación sin ruptura del vínculo."
+      ],
+      "tarea": "Escribe una carta imaginaria a tu familia contándoles dónde estás hoy. No tienes que enviarla. Observa qué emociones surgen y qué te dice sobre tus lealtades."
+    },
+    {
+      "codigo": "P-30",
+      "iconos": [],
+      "pregunta": "¿Qué palabra o frase te gustaría que definiera nuestra relación terapéutica?",
+      "objetivo": "Definir el tono y la calidad del vínculo terapéutico desde la perspectiva del paciente. Establecer un ancla simbólica para la alianza.",
+      "profundizacion": [
+        "¿Por qué elegiste esa palabra?",
+        "¿Qué opuesta te gustaría evitar a toda costa?",
+        "¿Cómo sabrías que estamos cumpliendo esa palabra?"
+      ],
+      "observacion": [
+        "Palabras de cuidado (\"confianza\", \"respeto\").",
+        "Palabras de distancia (\"profesional\", \"objetivo\").",
+        "Palabras de intensidad (\"honestidad brutal\").",
+        "Bloqueo o dificultad para elegir."
+      ],
+      "intervenciones": [
+        "Relacional:: Uso de la palabra como contrato simbólico de la alianza.",
+        "Constructivismo:: Co-construcción de significado compartido.",
+        "Gestalt:: Amplificación de la palabra y su resonancia corporal."
+      ],
+      "tarea": "Escribe esa palabra en un post-it y pégalo en un lugar visible. Cada vez que lo veas, pregúntate: \"¿Cómo estoy honrando esta palabra en mi relación conmigo mismo?\"."
+    },
+    {
+      "codigo": "P-31",
+      "iconos": [],
+      "pregunta": "¿Qué parte de tu historia sientes que es \"demasiado\" para contar?",
+      "objetivo": "Identificar los límites de lo narrable, las zonas de vergüenza tóxica o trauma no integrado. Evaluar la capacidad de simbolización del dolor.",
+      "profundizacion": [
+        "¿De quién es la voz que dice que es \"demasiado\"?",
+        "¿Qué pasaría si lo contaras en fragmentos, a tu ritmo?",
+        "¿Qué necesitarías para sentir que puedo sostenerlo?"
+      ],
+      "observacion": [
+        "Vergüenza tóxica (\"soy demasiado\").",
+        "Miedo a dañar al terapeuta con el dolor.",
+        "Disociación o amnesia de zonas específicas.",
+        "Apertura gradual y confianza en el proceso."
+      ],
+      "intervenciones": [
+        "Trauma:: Trabajo con la ventana de tolerancia y titración.",
+        "CFT:: Compasión hacia la parte que carga con lo \"demasiado\".",
+        "Narrativa:: Externalización de la vergüenza como constructo social."
+      ],
+      "tarea": "Escribe en un papel lo que es \"demasiado\", pero hazlo en tercera persona, como si le pasara a otra persona. Observa si cambia la intensidad emocional al leerlo."
+    },
+    {
+      "codigo": "P-32",
+      "iconos": [],
+      "pregunta": "¿Qué has aprendido de ti mismo en el tiempo que llevamos trabajando juntos?",
+      "objetivo": "Evaluar el progreso terapéutico, la integración de insights y la construcción de una narrativa más compleja y compasiva de sí mismo.",
+      "profundizacion": [
+        "¿Qué te sorprendió descubrir?",
+        "¿Qué creencia sobre ti ha cambiado?",
+        "¿Cómo se siente tu cuerpo al reconocer este aprendizaje?"
+      ],
+      "observacion": [
+        "Reconocimiento genuino y emoción de orgullo.",
+        "\"No sé, no he cambiado nada\" (desesperanza).",
+        "Intelectualización sin conexión emocional.",
+        "Aprendizajes dolorosos pero integrados."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia personal con los nuevos elementos.",
+        "Metacognición:: Consolidación de la capacidad de observación de sí mismo.",
+        "ACT:: Clarificación de valores emergentes del proceso."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del primer día de terapia contándole todo lo que has aprendido. Guárdala para releerla en momentos de duda."
+    },
+    {
+      "codigo": "P-33",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría que estuviera más presente en nuestras sesiones?",
+      "objetivo": "Explorar el repertorio emocional del paciente y sus deseos de expansión emocional. Identificar emociones evitadas o subexpresadas.",
+      "profundizacion": [
+        "¿Qué te impide sentir esa emoción más a menudo?",
+        "¿Dónde la sientes en el cuerpo cuando aparece?",
+        "¿Quién en tu historia te enseñó que esa emoción era peligrosa o indebida?"
+      ],
+      "observacion": [
+        "Deseo de alegría, liviandad, paz.",
+        "Deseo de rabia, límites, fuerza.",
+        "Deseo de tristeza, duelo, permiso para llorar.",
+        "Alexitimia (\"no sé qué emociones siento\")."
+      ],
+      "intervenciones": [
+        "EFT:: Trabajo con emociones primarias vs. secundarias.",
+        "Gestalt:: Amplificación y expresión de la emoción deseada.",
+        "Sistémica:: Explorar mandatos familiares sobre la expresión emocional."
+      ],
+      "tarea": "Busca esta semana una canción, película o situación que evoque esa emoción. Permítete sentirla aunque sea por unos minutos. Anota qué descubriste."
+    },
+    {
+      "codigo": "P-34",
+      "iconos": [],
+      "pregunta": "¿Qué crees que yo pienso de ti en este momento?",
+      "objetivo": "Explorar la transferencia, los modelos internos de trabajo y las proyecciones sobre la figura del terapeuta. Acceder a creencias nucleares sobre el ser aceptado o rechazado.",
+      "profundizacion": [
+        "¿En qué te basas para pensar eso?",
+        "¿Cómo te afecta creer que yo pienso eso de ti?",
+        "¿A quién de tu historia te recuerda esa mirada imaginada?"
+      ],
+      "observacion": [
+        "Proyección de juicio (\"piensa que soy débil\").",
+        "Proyección de admiración (\"piensa que soy interesante\").",
+        "Indiferencia (\"no le importo, es su trabajo\").",
+        "Curiosidad genuina (\"no sé qué piensas\")."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis de la transferencia y las proyecciones.",
+        "Terapia de Esquemas:: Identificación del modo del \"Niño Criticado\" o \"Abandonado\".",
+        "Relacional:: Feedback auténtico del terapeuta sobre su experiencia con el paciente."
+      ],
+      "tarea": "Escribe qué crees que pienso de ti. Luego, escribe qué te gustaría que pensara de ti. Compara ambas listas y observa qué brecha existe."
+    },
+    {
+      "codigo": "P-35",
+      "iconos": [],
+      "pregunta": "¿Qué te dirías a ti mismo si fueras tu propio terapeuta hoy?",
+      "objetivo": "Evaluar la capacidad de autocompasión, auto-observación y la internalización de la función terapéutica. Explorar el diálogo interno.",
+      "profundizacion": [
+        "¿Serías más amable o más exigente que yo?",
+        "¿Qué pregunta te harías?",
+        "¿Te escucharías o te ignorarías como sueles hacer?"
+      ],
+      "observacion": [
+        "Autocrítica feroz (\"me diría que deje de quejarme\").",
+        "Autocompasión genuina (\"me abrazaría\").",
+        "Bloqueo (\"no sé cómo hablarme bien\").",
+        "Evitación (\"prefiero que me lo digas tú\")."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en el \"yo compasivo\" y diálogos internos.",
+        "TCC:: Reestructuración del diálogo interno autocrítico.",
+        "Gestalt:: Diálogo entre el \"yo crítico\" y el \"yo vulnerable\"."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo terapeuta\" hacia tu \"yo paciente\". Guárdala y léela cada mañana durante una semana."
+    },
+    {
+      "codigo": "P-36",
+      "iconos": [],
+      "pregunta": "¿Qué te hubiera gustado que alguien te preguntara cuando tenías [edad clave] y nadie te preguntó?",
+      "objetivo": "Acceder a necesidades emocionales históricas no satisfechas. Explorar duelos por la infancia o adolescencia no acompañada.",
+      "profundizacion": [
+        "¿Qué edad tenías exactamente?",
+        "¿Qué hubiera cambiado si alguien te hubiera preguntado?",
+        "¿Puedes hacerte tú esa pregunta ahora, como adulto?"
+      ],
+      "observacion": [
+        "Emoción intensa y duelo por lo no tenido.",
+        "Rabia hacia figuras de cuidado que no preguntaron.",
+        "Reconocimiento de la propia capacidad de auto-cuidado ahora.",
+        "Confusión (\"no sé qué me faltó\")."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización del \"Niño Vulnerable\".",
+        "EMDR:: Procesamiento de memorias de negligencia emocional.",
+        "Narrativa:: Re-escribir la historia desde la mirada del adulto compasivo."
+      ],
+      "tarea": "Escribe una carta a ese niño/adolescente que tú eras, haciéndole todas las preguntas que nadie le hizo. Respóndele tú mismo como el adulto que eres hoy."
+    },
+    {
+      "codigo": "P-37",
+      "iconos": [],
+      "pregunta": "¿Qué crees que te traería de vuelta a terapia si dejaras de venir?",
+      "objetivo": "Evaluar la conciencia de los propios patrones de recaída, los detonantes y las vulnerabilidades. Fortalecer el plan de prevención de recaídas.",
+      "profundizacion": [
+        "¿Qué señales tempranas detectarías?",
+        "¿Qué harías diferente esta vez para no llegar a ese punto?",
+        "¿Qué recursos ya tienes que antes no tenías?"
+      ],
+      "observacion": [
+        "Conciencia clara de patrones y detonantes.",
+        "Negación (\"no voy a recaer, ya estoy bien\").",
+        "Miedo realista a situaciones específicas.",
+        "Confianza en los recursos internos adquiridos."
+      ],
+      "intervenciones": [
+        "TCC:: Plan de prevención de recaídas con señales de alerta.",
+        "Motivacional:: Refuerzo de la motivación al cambio y los logros.",
+        "ACT:: Aceptación de la vulnerabilidad como parte de la condición humana."
+      ],
+      "tarea": "Crea tu \"kit de emergencia emocional\": una lista de 5 personas, 5 actividades y 5 pensamientos que te ayudarían si empezaras a recaer. Llévalo contigo."
+    },
+    {
+      "codigo": "P-38",
+      "iconos": [],
+      "pregunta": "¿Qué parte de ti está más agradecida de haber empezado este proceso?",
+      "objetivo": "Fomentar la gratitud hacia sí mismo y el proceso. Fortalecer la alianza interna entre las diferentes partes del yo.",
+      "profundizacion": [
+        "¿Qué le dirías esa parte agradecida?",
+        "¿Hay alguna parte de ti que no está agradecida? ¿Por qué?",
+        "¿Cómo se siente tu cuerpo al reconocer esta gratitud?"
+      ],
+      "observacion": [
+        "Emoción genuina y conexión con el proceso.",
+        "Dificultad para agradecer (\"no he logrado nada\").",
+        "Agradecimiento dirigido al terapeuta (dependencia).",
+        "Reconocimiento del propio esfuerzo y valentía."
+      ],
+      "intervenciones": [
+        "CFT:: Activación del sistema de soothing y afiliación.",
+        "IFS:: Diálogo con la parte agradecida y sus cualidades.",
+        "Positiva:: Psicología de la gratitud y sus efectos en el bienestar."
+      ],
+      "tarea": "Cada noche antes de dormir, escribe tres cosas por las que te sientes agradecido contigo mismo hoy. Hazlo durante una semana y observa cómo cambia tu estado de ánimo."
+    },
+    {
+      "codigo": "P-39",
+      "iconos": [],
+      "pregunta": "¿Qué cambiaría en tu vida si hoy te fueras de esta sesión con una sola idea clara?",
+      "objetivo": "Focalizar el trabajo terapéutico. Identificar el insight o la idea nuclear que el paciente necesita integrar. Evaluar la capacidad de síntesis y priorización.",
+      "profundizacion": [
+        "¿Cuál crees que podría ser esa idea?",
+        "¿Qué harías diferente mañana si la tuvieras clara?",
+        "¿Qué te impide tenerla clara ya?"
+      ],
+      "observacion": [
+        "Claridad y orientación a soluciones.",
+        "Dispersión (\"necesito muchas ideas\").",
+        "Demanda al terapeuta (\"dímelo tú\").",
+        "Resistencia a reducir la complejidad."
+      ],
+      "intervenciones": [
+        "Breve / Soluciones:: Definición de la \"idea semilla\" del cambio.",
+        "Cognitiva:: Identificación de la creencia nuclear a trabajar.",
+        "Estratégica:: Prescripción de la tarea mínima necesaria."
+      ],
+      "tarea": "Al final de esta sesión, escribe en una tarjeta esa \"única idea clara\". Llévala contigo y mírala cada vez que dudes. Al final de la semana, evalúa si sigue siendo la misma."
+    },
+    {
+      "codigo": "P-40",
+      "iconos": [],
+      "pregunta": "¿Qué rito o gesto te ayudaría a cerrar esta sesión y dejar el consultorio atrás?",
+      "objetivo": "Fomentar la conciencia de las transiciones y los rituales de cierre. Evaluar la capacidad de contener el material emocional y reintegrarse a la vida cotidiana.",
+      "profundizacion": [
+        "¿Necesitas unos minutos de silencio antes de salir?",
+        "¿Hay algo que necesites \"dejar aquí\" y algo que quieras \"llevar contigo\"?",
+        "¿Cómo sueles transicionar entre la terapia y el resto de tu día?"
+      ],
+      "observacion": [
+        "Dificultad para soltar el material (\"me voy con la cabeza dando vueltas\").",
+        "Rituales claros de cierre (respirar, caminar).",
+        "Urgencia por salir (evitación del material trabajado).",
+        "Conciencia de las propias necesidades de transición."
+      ],
+      "intervenciones": [
+        "Somática:: Ejercicios de grounding y cierre corporal.",
+        "Mindfulness:: Rituales de atención plena para las transiciones.",
+        "Simbólica:: Creación de rituales personales de cierre."
+      ],
+      "tarea": "Diseña tu propio \"rito de cierre\" post-sesión. Puede ser lavarte las manos, caminar una cuadra respirando, o escuchar una canción específica. Practícalo conscientemente las próximas tres sesiones."
+    },
+    {
+      "codigo": "P-41",
+      "iconos": [],
+      "pregunta": "¿Qué parte de tu historia sientes que aún no puedes nombrar, aunque sepas que está aquí?",
+      "objetivo": "Identificar zonas de evitación experiencial o disociación funcional. Evaluar el ritmo de apertura del paciente y respetar los tiempos internos del trauma.",
+      "profundizacion": [
+        "¿Qué pasaría si le pusieras un nombre provisional, aunque sea una metáfora?",
+        "¿Qué temes que suceda si lo nombras?",
+        "¿Desde cuándo sientes que \"no puedes\"?"
+      ],
+      "observacion": [
+        "Cambio sutil de postura o mirada al mencionar \"esa parte\".",
+        "Minimización (\"no es tan grave\").",
+        "Apertura gradual con validación del ritmo.",
+        "Bloqueo completo o disociación."
+      ],
+      "intervenciones": [
+        "Trauma:: Titración y pendulación. Respetar la ventana de tolerancia.",
+        "Narrativa:: Externalización mediante metáforas seguras.",
+        "IFS:: Dialogar con la parte protectora que guarda ese secreto."
+      ],
+      "tarea": "Si te animas, escribe en un papel esa \"parte\" usando una metáfora (un color, un objeto, un clima). No tienes que mostrármelo. Solo obsérvalo y guárdalo donde te sientas seguro."
+    },
+    {
+      "codigo": "P-42",
+      "iconos": [],
+      "pregunta": "¿Qué te dices a ti mismo cuando sientes que \"no avanzas\" en terapia?",
+      "objetivo": "Explorar la autocrítica, las expectativas de rendimiento terapéutico y la relación del paciente con su propio proceso. Detectar patrones de descalificación del esfuerzo.",
+      "profundizacion": [
+        "¿A quién se parece esa voz que te juzga?",
+        "¿Qué considerarías tú que sí es \"avanzar\"?",
+        "¿Qué pasaría si el proceso no fuera lineal?"
+      ],
+      "observacion": [
+        "Autocrítica feroz (\"soy un caso perdido\").",
+        "Frustración por la lentitud del proceso.",
+        "Reconocimiento de avances no lineales.",
+        "Resignación o desesperanza aprendida."
+      ],
+      "intervenciones": [
+        "CFT:: Trabajar la autocrítica y activar la autocompasión.",
+        "TCC:: Reestructuración de la creencia \"debería estar mejor\".",
+        "Narrativa:: Re-autoría del proceso como un camino, no una carrera."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo compasivo\" hacia tu \"yo frustrado\". Reconoce el esfuerzo de venir, de hablar, de intentar. Léela cuando te sientas estancado."
+    },
+    {
+      "codigo": "P-43",
+      "iconos": [],
+      "pregunta": "¿Hay algo que sientes que tienes que \"proteger\" en este espacio, aunque sea de mí?",
+      "objetivo": "Identificar las zonas de defensa activa, los núcleos de vergüenza tóxica o los aspectos del yo que el paciente siente que deben ser preservados de la mirada del otro.",
+      "profundizacion": [
+        "¿Qué pasaría si yo viera eso que proteges?",
+        "¿De quién aprendiste que ciertas partes de ti no deben ser vistas?",
+        "¿Qué necesitarías para sentir que puedo sostener esa mirada sin dañarte?"
+      ],
+      "observacion": [
+        "Vergüenza intensa o deseo de desaparecer.",
+        "Desafío o control del encuadre (\"no voy a hablar de eso\").",
+        "Apertura gradual con validación del ritmo.",
+        "Reconocimiento de la función protectora de esa defensa."
+      ],
+      "intervenciones": [
+        "Humanista:: Aceptación incondicional y validación de la necesidad de protección.",
+        "IFS:: Dialogar con la parte \"guardiana\" y agradecer su función.",
+        "Trauma:: Trabajar la vergüenza tóxica con titración y recursos."
+      ],
+      "tarea": "Dibuja o describe esa \"parte protegida\" como si fuera un objeto valioso en una caja fuerte. Observa qué dice esa imagen sobre lo que necesitas para sentirte seguro."
+    },
+    {
+      "codigo": "P-44",
+      "iconos": [],
+      "pregunta": "¿Qué pasaría si hoy decidiéramos no hablar del \"problema\" y solo estuviéramos aquí, sin agenda?",
+      "objetivo": "Evaluar la relación del paciente con el silencio, la pausa y la ausencia de productividad. Explorar la ansiedad por \"rendir\" en terapia.",
+      "profundizacion": [
+        "¿Te da alivio o ansiedad pensar en no tener que \"producir\"?",
+        "¿Qué crees que pasaría si no habláramos del problema?",
+        "¿Hay algo que sí te gustaría compartir, aunque no sea \"el problema\"?"
+      ],
+      "observacion": [
+        "Ansiedad por \"aprovechar el tiempo\".",
+        "Alivio y apertura a temas más sutiles.",
+        "Confusión (\"¿entonces para qué vine?\").",
+        "Resistencia a soltar el control de la sesión."
+      ],
+      "intervenciones": [
+        "Gestalt:: Trabajar el \"darse cuenta\" en el momento presente.",
+        "Mindfulness:: Explorar la atención plena sin objetivo.",
+        "ACT:: Defusión de la urgencia por \"arreglar\" y conexión con el ser."
+      ],
+      "tarea": "Esta semana, dedica 10 minutos a \"no hacer nada productivo\". Solo observa, respira o camina sin objetivo. Anota qué emociones surgen cuando sueltas el control."
+    },
+    {
+      "codigo": "P-45",
+      "iconos": [],
+      "pregunta": "¿Qué emoción te gustaría poder sentir con más libertad, pero sientes que no te permites?",
+      "objetivo": "Identificar emociones subexpresadas o prohibidas. Explorar los mandatos familiares o sociales sobre la expresión emocional y su impacto en la vitalidad del paciente.",
+      "profundizacion": [
+        "¿Qué pasaría si la sintieras plenamente?",
+        "¿Quién te enseñó que esa emoción era peligrosa o indebida?",
+        "¿Dónde la sientes en el cuerpo cuando aparece, aunque sea un poco?"
+      ],
+      "observacion": [
+        "Deseo de rabia, límites, fuerza.",
+        "Deseo de tristeza, duelo, permiso para llorar.",
+        "Deseo de alegría, liviandad, juego.",
+        "Alexitimia o desconexión del repertorio emocional."
+      ],
+      "intervenciones": [
+        "EFT:: Trabajar emociones primarias vs. secundarias.",
+        "Gestalt:: Amplificación y expresión segura de la emoción.",
+        "Sistémica:: Explorar mandatos familiares sobre la expresión emocional."
+      ],
+      "tarea": "Busca esta semana una canción, película o situación que evoque esa emoción. Permítete sentirla aunque sea por unos minutos. Anota qué descubriste sobre ti."
+    },
+    {
+      "codigo": "P-46",
+      "iconos": [],
+      "pregunta": "¿Qué pasa en tu cuerpo y en tu mente cuando hay un silencio prolongado en la sesión?",
+      "objetivo": "Explorar la relación del paciente con el silencio, la pausa y la ausencia de estímulos. Detectar ansiedad, vergüenza o necesidad de llenar los vacíos.",
+      "profundizacion": [
+        "¿Qué temes que yo piense si no hablas?",
+        "¿Qué emociones surgen en ese silencio?",
+        "¿A quién de tu historia te recuerda ese silencio incómodo?"
+      ],
+      "observacion": [
+        "Ansiedad por llenar el silencio rápidamente.",
+        "Vergüenza o sensación de \"debería decir algo\".",
+        "Alivio y conexión con el momento presente.",
+        "Disociación o desconexión corporal."
+      ],
+      "intervenciones": [
+        "Gestalt:: Trabajar el \"darse cuenta\" en el silencio.",
+        "Mindfulness:: Explorar la atención plena sin juicio.",
+        "Humanista:: Validar la experiencia del silencio como parte del proceso."
+      ],
+      "tarea": "Practica esta semana 5 minutos de silencio intencional cada día. Solo observa qué pasa en tu cuerpo y mente. Anota tus descubrimientos."
+    },
+    {
+      "codigo": "P-47",
+      "iconos": [],
+      "pregunta": "¿Qué te hubiera gustado que alguien te dijera cuando eras niño, pero nunca escuchaste?",
+      "objetivo": "Acceder a necesidades emocionales históricas no satisfechas. Explorar duelos por la infancia no acompañada y la posibilidad de reparar simbólicamente esas ausencias.",
+      "profundizacion": [
+        "¿Quién debería haberlo dicho?",
+        "¿Cómo te hubiera cambiado la vida escucharlo?",
+        "¿Puedes decirte tú eso ahora, como adulto?"
+      ],
+      "observacion": [
+        "Emoción intensa y duelo por lo no tenido.",
+        "Rabia hacia figuras de cuidado.",
+        "Reconocimiento de la propia capacidad de auto-cuidado.",
+        "Confusión o bloqueo (\"no sé qué me faltó\")."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización del \"Niño Vulnerable\".",
+        "EMDR:: Procesamiento de memorias de negligencia emocional.",
+        "Narrativa:: Re-escribir la historia desde la mirada del adulto compasivo."
+      ],
+      "tarea": "Escribe una carta a ese niño que fuiste, diciéndole lo que necesitaba escuchar. Respóndele tú mismo como el adulto que eres hoy. Guárdala para releerla."
+    },
+    {
+      "codigo": "P-48",
+      "iconos": [],
+      "pregunta": "¿Qué creencia sobre ti mismo te gustaría cuestionar o transformar en este proceso?",
+      "objetivo": "Identificar creencias nucleares limitantes. Evaluar la disposición del paciente al cambio cognitivo y la flexibilidad psicológica.",
+      "profundizacion": [
+        "¿Desde cuándo crees eso sobre ti?",
+        "¿Qué evidencia tienes a favor y en contra?",
+        "¿Cómo sería tu vida si esa creencia no existiera?"
+      ],
+      "observacion": [
+        "Creencias de inutilidad, indignidad o defecto.",
+        "Creencias de vulnerabilidad o peligro constante.",
+        "Apertura al cuestionamiento y curiosidad.",
+        "Rigidez cognitiva o defensa de la creencia."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva y búsqueda de evidencia.",
+        "ACT:: Defusión cognitiva y conexión con valores.",
+        "Terapia de Esquemas:: Identificación y modificación de esquemas tempranos."
+      ],
+      "tarea": "Escribe esa creencia en un papel. Al lado, escribe tres evidencias que la contradicen. Léelas cada vez que la creencia aparezca con fuerza."
+    },
+    {
+      "codigo": "P-49",
+      "iconos": [],
+      "pregunta": "¿Qué momento de tu vida te gustaría revivir, no para cambiarlo, sino para sentirlo con la conciencia que tienes ahora?",
+      "objetivo": "Explorar la relación del paciente con su historia personal desde una perspectiva de integración y significado. Evaluar la capacidad de mentalización y perspectiva temporal.",
+      "profundizacion": [
+        "¿Qué verías ahora que no viste entonces?",
+        "¿Qué le dirías a tu \"yo\" de ese momento?",
+        "¿Qué aprenderías de esa experiencia revisitada?"
+      ],
+      "observacion": [
+        "Nostalgia por momentos de alegría o conexión.",
+        "Deseo de reparar momentos de dolor o pérdida.",
+        "Integración y aceptación de la historia.",
+        "Bloqueo o dificultad para acceder a memorias."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia con nuevos significados.",
+        "EMDR:: Reprocesamiento de memorias con recursos actuales.",
+        "Logoterapia:: Búsqueda de sentido en experiencias pasadas."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" de ese momento, contándole lo que sabes ahora. Observa qué emociones surgen y qué aprendizajes puedes integrar."
+    },
+    {
+      "codigo": "P-50",
+      "iconos": [],
+      "pregunta": "¿Qué parte de ti siente que ha sido ignorada o incomprendida, incluso por ti mismo?",
+      "objetivo": "Identificar partes del yo subvaloradas, rechazadas o ignoradas. Fomentar la integración y la autocompasión hacia todas las facetas del ser.",
+      "profundizacion": [
+        "¿Qué necesita esa parte de ti?",
+        "¿Por qué crees que la has ignorado?",
+        "¿Qué pasaría si le dieras más espacio y voz?"
+      ],
+      "observacion": [
+        "Reconocimiento de partes creativas, lúdicas o vulnerables.",
+        "Autocrítica hacia partes \"débiles\" o \"inútiles\".",
+        "Curiosidad y apertura a la exploración interna.",
+        "Dificultad para identificar partes ignoradas."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la parte ignorada y reconocer su valor.",
+        "Gestalt:: Amplificación y expresión de la parte subvalorada.",
+        "CFT:: Activar la autocompasión hacia todas las partes del yo."
+      ],
+      "tarea": "Dedica 10 minutos esta semana a \"escuchar\" a esa parte ignorada. Escribe lo que te dice y qué necesita. Observa cómo te sientes al darle voz."
+    },
+    {
+      "codigo": "P-51",
+      "iconos": [],
+      "pregunta": "¿Qué patrón de relación te gustaría romper, pero sientes que se repite una y otra vez?",
+      "objetivo": "Identificar patrones relacionales repetitivos y compulsivos. Explorar su origen histórico y su función adaptativa inicial.",
+      "profundizacion": [
+        "¿Cuándo apareció este patrón por primera vez?",
+        "¿Qué necesidad intentaba cubrir originalmente?",
+        "¿Qué señales tempranas podrías detectar la próxima vez?"
+      ],
+      "observacion": [
+        "Patrones de sumisión, complacencia o evitación.",
+        "Patrones de control, dominación o distancia.",
+        "Reconocimiento del patrón y deseo de cambio.",
+        "Resistencia o justificación del patrón."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar el patrón en el contexto familiar de origen.",
+        "TCC:: Identificación de disparadores y respuestas alternativas.",
+        "Terapia de Esquemas:: Trabajo con modos desadaptativos tempranos."
+      ],
+      "tarea": "Lleva un registro esta semana de las veces que aparece este patrón. Anota qué lo detonó, cómo reaccionaste y qué podrías hacer diferente la próxima vez."
+    },
+    {
+      "codigo": "P-52",
+      "iconos": [],
+      "pregunta": "¿Qué dolor has cargado solo, sin pedir ayuda, que ya no necesitas seguir cargando en soledad?",
+      "objetivo": "Explorar la hipervigilancia, la autosuficiencia defensiva y la dificultad para delegar o compartir la carga emocional. Fomentar la vulnerabilidad y la conexión.",
+      "profundizacion": [
+        "¿Qué temes que pase si lo compartes?",
+        "¿Quién te enseñó que tenías que cargarlo solo?",
+        "¿Cómo se siente tu cuerpo al imaginar soltar ese peso?"
+      ],
+      "observacion": [
+        "Alivio al reconocer la carga y la soledad.",
+        "Miedo a ser vulnerable o \"débil\".",
+        "Rabia por tener que cargarlo solo.",
+        "Resistencia a soltar el control."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación de la necesidad de apoyo y conexión.",
+        "CFT:: Activar el sistema de cuidado y afiliación.",
+        "Sistémica:: Explorar mandatos familiares sobre la autosuficiencia."
+      ],
+      "tarea": "Identifica una persona de confianza esta semana y comparte con ella algo de lo que has cargado solo. Observa cómo te sientes al recibir su apoyo."
+    },
+    {
+      "codigo": "P-53",
+      "iconos": [],
+      "pregunta": "¿Qué pequeño paso podrías dar esta semana que te acerque a la persona que quieres ser?",
+      "objetivo": "Conectar con los valores personales y traducirlos en acciones concretas. Fomentar la acción comprometida y la coherencia entre valores y conducta.",
+      "profundizacion": [
+        "¿Qué valores están detrás de ese paso?",
+        "¿Qué te impide darlo ya?",
+        "¿Cómo te sentirías al darlo, aunque sea pequeño?"
+      ],
+      "observacion": [
+        "Claridad de valores y motivación al cambio.",
+        "Dificultad para identificar valores o pasos concretos.",
+        "Miedo al fracaso o a la evaluación externa.",
+        "Compromiso con acciones alineadas a valores."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y acción comprometida.",
+        "TCC:: Planificación de actividades gratificantes.",
+        "Motivacional:: Exploración de la discrepancia entre valores y conducta."
+      ],
+      "tarea": "Elige un paso pequeño y concreto para esta semana. Escríbelo en un papel y ponlo donde lo veas cada día. Al final de la semana, evalúa cómo te sentiste al darlo."
+    },
+    {
+      "codigo": "P-54",
+      "iconos": [],
+      "pregunta": "¿Qué te dices a ti mismo cuando cometes un error, y qué te gustaría poder decirte?",
+      "objetivo": "Explorar el diálogo interno autocrítico vs. autocompasivo. Evaluar la capacidad de tolerar la imperfección y aprender de los errores sin descalificarse.",
+      "profundizacion": [
+        "¿A quién se parece esa voz crítica?",
+        "¿Qué pasaría si te hablaras con la misma compasión que a un amigo?",
+        "¿Qué aprenderías del error si no te juzgaras?"
+      ],
+      "observacion": [
+        "Autocrítica feroz y descalificación global.",
+        "Capacidad de autocompasión y aprendizaje.",
+        "Dificultad para acceder a la autocompasión.",
+        "Reconocimiento de la voz crítica como aprendida."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión y diálogos internos.",
+        "TCC:: Reestructuración del diálogo interno autocrítico.",
+        "Gestalt:: Diálogo entre el \"yo crítico\" y el \"yo vulnerable\"."
+      ],
+      "tarea": "La próxima vez que cometas un error, escribe lo que te dices y luego lo que te gustaría decirte. Practica hablarte con compasión, como lo harías con un amigo."
+    },
+    {
+      "codigo": "P-55",
+      "iconos": [],
+      "pregunta": "¿Qué relación de tu vida te gustaría sanar, aunque sea simbólicamente, antes de seguir avanzando?",
+      "objetivo": "Identificar vínculos no resueltos que generan carga emocional. Explorar la posibilidad de cierre simbólico, perdón o despedida para liberar energía psíquica.",
+      "profundizacion": [
+        "¿Qué necesitarías para sentir que esa relación está \"completa\"?",
+        "¿Qué le dirías si pudieras hablar con esa persona ahora?",
+        "¿Qué parte de ti sigue atrapada en esa relación?"
+      ],
+      "observacion": [
+        "Deseo de reconciliación o cierre.",
+        "Rabia o resentimiento no resuelto.",
+        "Duelo por la relación perdida.",
+        "Resistencia a soltar el vínculo."
+      ],
+      "intervenciones": [
+        "Gestalt:: Silla vacía para dialogar simbólicamente.",
+        "Narrativa:: Re-escribir la relación desde una perspectiva integradora.",
+        "Sistémica:: Explorar lealtades invisibles y mandatos familiares."
+      ],
+      "tarea": "Escribe una carta a esa persona (que no tienes que enviar). Dile todo lo que necesitas decir. Luego, escribe una carta de despedida o cierre simbólico."
+    },
+    {
+      "codigo": "P-56",
+      "iconos": [],
+      "pregunta": "¿Qué recurso interno has descubierto en este proceso que antes no sabías que tenías?",
+      "objetivo": "Consolidar los aprendizajes y recursos adquiridos. Fomentar la autoeficacia y el reconocimiento de las propias capacidades.",
+      "profundizacion": [
+        "¿Cómo lo descubriste?",
+        "¿En qué momentos lo has usado?",
+        "¿Cómo puedes fortalecerlo más?"
+      ],
+      "observacion": [
+        "Reconocimiento genuino de recursos internos.",
+        "Dificultad para identificar recursos (\"no tengo nada\").",
+        "Atribución de recursos a factores externos.",
+        "Orgullo y validación del propio crecimiento."
+      ],
+      "intervenciones": [
+        "Narrativa:: Construcción de \"documentos de identidad alternativa\" basada en recursos.",
+        "TCC:: Refuerzo de conductas adaptativas y autoeficacia.",
+        "CFT:: Activación del sistema de cuidado y soothing."
+      ],
+      "tarea": "Escribe una lista de 5 recursos internos que has descubierto. Llévala contigo y mírala cada vez que dudes de tus capacidades. Añade uno nuevo cada semana."
+    },
+    {
+      "codigo": "P-57",
+      "iconos": [],
+      "pregunta": "¿Qué te hubiera gustado saber antes de empezar este proceso terapéutico?",
+      "objetivo": "Evaluar las expectativas iniciales vs. la experiencia real. Identificar aprendizajes meta-terapéuticos y normalizar las dificultades del proceso.",
+      "profundizacion": [
+        "¿Qué te hubiera preparado mejor para el proceso?",
+        "¿Qué te sorprendió para bien o para mal?",
+        "¿Qué le dirías a alguien que está por empezar terapia?"
+      ],
+      "observacion": [
+        "Reconocimiento de que el proceso es más difícil de lo esperado.",
+        "Valoración del proceso como transformador.",
+        "Frustración por expectativas no cumplidas.",
+        "Sabiduría y capacidad de transmitir a otros."
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Aclarar expectativas y normalizar el proceso.",
+        "Narrativa:: Re-autoría del proceso como un viaje de aprendizaje.",
+        "Motivacional:: Refuerzo de la motivación al cambio."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del primer día de terapia, contándole lo que sabes ahora. Incluye consejos, advertencias y palabras de aliento."
+    },
+    {
+      "codigo": "P-58",
+      "iconos": [],
+      "pregunta": "¿Qué parte de ti ha cambiado desde que empezamos a trabajar juntos?",
+      "objetivo": "Evaluar el progreso terapéutico y la integración de cambios. Fomentar la conciencia del propio crecimiento y la consolidación de la nueva identidad.",
+      "profundizacion": [
+        "¿Cómo lo notas en tu día a día?",
+        "¿Qué lo hizo posible?",
+        "¿Qué parte de ti sigue igual y necesita más trabajo?"
+      ],
+      "observacion": [
+        "Reconocimiento genuino de cambios internos.",
+        "Dificultad para percibir cambios (\"no he cambiado nada\").",
+        "Cambios en relaciones o conductas específicas.",
+        "Integración de nuevas perspectivas sobre sí mismo."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia con los nuevos elementos.",
+        "TCC:: Refuerzo de conductas adaptativas y autoeficacia.",
+        "ACT:: Clarificación de valores emergentes del proceso."
+      ],
+      "tarea": "Escribe una lista de 5 cambios que has notado en ti. Comparte esta lista con alguien de confianza y observa cómo te sientes al reconocer tu crecimiento."
+    },
+    {
+      "codigo": "P-59",
+      "iconos": [],
+      "pregunta": "¿Qué te llevas de este mazo de cartas que quieres seguir explorando en los próximos?",
+      "objetivo": "Evaluar la transferencia de aprendizajes y la preparación para los siguientes mazos. Identificar temas pendientes y áreas de interés para el trabajo futuro.",
+      "profundizacion": [
+        "¿Qué preguntas quedaron sin responder?",
+        "¿Qué temas te gustaría explorar más a fondo?",
+        "¿Cómo te sientes al pensar en continuar con otros mazos?"
+      ],
+      "observacion": [
+        "Curiosidad y apertura a nuevos temas.",
+        "Saturación o necesidad de integrar lo trabajado.",
+        "Identificación clara de temas pendientes.",
+        "Resistencia a profundizar más."
+      ],
+      "intervenciones": [
+        "Motivacional:: Refuerzo de la motivación al cambio y exploración.",
+        "Narrativa:: Co-construcción de la próxima etapa del proceso.",
+        "TCC:: Planificación de metas para la siguiente fase."
+      ],
+      "tarea": "Escribe una lista de 3 temas o preguntas que te gustaría explorar en los próximos mazos. Tráelas a la próxima sesión para que las trabajemos juntos."
+    },
+    {
+      "codigo": "P-60",
+      "iconos": [],
+      "pregunta": "¿Qué rito o gesto te ayudaría a cerrar este mazo y prepararte para el siguiente?",
+      "objetivo": "Fomentar la conciencia de las transiciones y los rituales de cierre. Evaluar la capacidad de integrar lo trabajado y prepararse para nuevas exploraciones.",
+      "profundizacion": [
+        "¿Qué necesitas \"dejar aquí\" y qué quieres \"llevar contigo\"?",
+        "¿Cómo te gustaría celebrar o reconocer este cierre?",
+        "¿Qué intención te llevas para el próximo mazo?"
+      ],
+      "observacion": [
+        "Necesidad de ritualizar el cierre y la transición.",
+        "Dificultad para soltar el material trabajado.",
+        "Apertura y entusiasmo por continuar.",
+        "Resistencia a cerrar o pasar a otro tema."
+      ],
+      "intervenciones": [
+        "Simbólica:: Creación de rituales personales de cierre y transición.",
+        "Mindfulness:: Atención plena al momento presente y a la transición.",
+        "Narrativa:: Re-autoría del proceso como un viaje con etapas."
+      ],
+      "tarea": "Diseña tu propio \"rito de cierre\" para este mazo. Puede ser escribir una carta, encender una vela, o hacer una lista de gratitud. Practícalo conscientemente antes de pasar al siguiente mazo."
+    }
+  ]
+}

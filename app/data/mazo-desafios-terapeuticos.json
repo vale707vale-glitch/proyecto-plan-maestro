@@ -1,0 +1,2049 @@
+{
+  "id": "desafios-terapeuticos",
+  "nombre": "Desafios Terapeuticos",
+  "numero": 12,
+  "rango": "DT-01 a DT-60",
+  "descripcion": "Intervenciones de choque, tareas paradojicas, exposicion y desafios terapeuticos.",
+  "cartas": [
+    {
+      "codigo": "DT-01",
+      "iconos": [
+        "span",
+        "🤫",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué es lo que este silencio está protegiendo en este preciso momento?",
+      "objetivo": "Transformar el silencio incómodo en material terapéutico, diferenciando entre silencio reflexivo, disociativo o de resistencia, sin presionar prematuramente al paciente.",
+      "profundizacion": [
+        "¿Es un silencio de procesamiento interno o un bloqueo defensivo?",
+        "¿Qué temes que pase (o que yo piense) si rompemos este silencio ahora?",
+        "Si este silencio tuviera voz y pudiera hablar por ti, ¿qué estaría gritando?",
+        "✔ Mirada evasiva o fija en el vacío (disociación leve).",
+        "✔ Tensión muscular visible (mandíbula apretada, hombros elevados).",
+        "✔ Suspiros profundos o cambios bruscos en el patrón respiratorio.",
+        "✔ Alivio visible cuando el terapeuta valida el silencio en lugar de llenarlo."
+      ],
+      "observacion": [
+        "Mirada evasiva o fija en el vacío (disociación leve).",
+        "Tensión muscular visible (mandíbula apretada, hombros elevados).",
+        "Suspiros profundos o cambios bruscos en el patrón respiratorio.",
+        "Alivio visible cuando el terapeuta valida el silencio en lugar de llenarlo."
+      ],
+      "intervenciones": [
+        "Somática:: Regular el sistema nervioso antes de exigir contenido verbal, ofreciendo grounding.",
+        "Gestalt:: Amplificar el silencio, darle forma, peso o temperatura en la sala.",
+        "Psicoanálisis:: Analizar el silencio como resistencia, acting out o transferencia."
+      ],
+      "tarea": "Esta semana, cuando surja un silencio incómodo en tu vida diaria, no lo llenes inmediatamente con el celular o palabras. Obsérvalo durante 30 segundos y anota qué emoción emerge."
+    },
+    {
+      "codigo": "DT-02",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿De qué manera estás haciendo todo 'correctamente' en terapia, pero evitando sentir lo que realmente importa?",
+      "objetivo": "Identificar la resistencia encubierta o la \"falsa colaboración\", donde el paciente cumple con las tareas pero mantiene una barrera emocional infranqueable.",
+      "profundizacion": [
+        "¿Qué tema o emoción hemos estado rodeando sin tocar directamente?",
+        "¿Qué pasaría si bajaras la guardia intelectual por solo cinco minutos?",
+        "¿A quién estás intentando impresionar o proteger con esta \"buena conducta\"?",
+        "✔ Discurso altamente intelectualizado y desconectado del afecto.",
+        "✔ Tareas completadas al pie de la letra, pero sin impacto emocional.",
+        "✔ Cambio sutil de tema cuando se acerca el material vulnerable.",
+        "✔ Frustración del terapeuta por la falta de profundidad real."
+      ],
+      "observacion": [
+        "Discurso altamente intelectualizado y desconectado del afecto.",
+        "Tareas completadas al pie de la letra, pero sin impacto emocional.",
+        "Cambio sutil de tema cuando se acerca el material vulnerable.",
+        "Frustración del terapeuta por la falta de profundidad real."
+      ],
+      "intervenciones": [
+        "Metacomunicación:: Señalar amablemente el patrón (\"Noto que hablamos mucho, pero sentimos poco\").",
+        "IFS:: Dialogar con la \"parte gerente\" que mantiene el control para que permita el acceso a la parte vulnerable.",
+        "Humanista:: Ofrecer una aceptación radical que haga innecesaria la máscara de \"buen paciente\"."
+      ],
+      "tarea": "Identifica una emoción que has estado \"analizando\" en lugar de \"sintiendo\". Esta semana, dedícale 3 minutos a sentirla en tu cuerpo sin intentar explicarla ni resolverla."
+    },
+    {
+      "codigo": "DT-03",
+      "iconos": [
+        "span",
+        "💔",
+        "span",
+        "span",
+        "🤝",
+        "span"
+      ],
+      "pregunta": "¿Hay algo que yo haya dicho o hecho recientemente que te haya hecho dudar de si este es un espacio seguro para ti?",
+      "objetivo": "Reparar proactivamente las rupturas de la alianza terapéutica. Normalizar el conflicto en la relación y modelar la responsabilidad y la apertura al feedback.",
+      "profundizacion": [
+        "¿En qué momento exacto sentiste que nos desconectamos o que no te comprendí?",
+        "¿Qué temías que pasaría si me lo decías? (¿Juicio, enojo, abandono?).",
+        "¿Qué necesito hacer o decir ahora para que podamos reparar ese quiebre?",
+        "✔ Sorpresa inicial seguida de alivio por la invitación a la honestidad.",
+        "✔ Acusación directa o enojo contenido hacia el terapeuta.",
+        "✔ Negación defensiva (\"no, todo está bien\") con lenguaje corporal de cierre.",
+        "✔ Fortalecimiento visible de la confianza tras la reparación exitosa."
+      ],
+      "observacion": [
+        "Sorpresa inicial seguida de alivio por la invitación a la honestidad.",
+        "Acusación directa o enojo contenido hacia el terapeuta.",
+        "Negación defensiva (\"no, todo está bien\") con lenguaje corporal de cierre.",
+        "Fortalecimiento visible de la confianza tras la reparación exitosa."
+      ],
+      "intervenciones": [
+        "Relacional:: Asumir la responsabilidad sin defensas y validar la experiencia subjetiva del paciente.",
+        "Terapia de Esquemas:: Explorar si la ruptura activó un esquema de Abandono o Desconfianza.",
+        "Sistémica:: Analizar la ruptura como un patrón de comunicación que se repite en otros vínculos."
+      ],
+      "tarea": "Si surge alguna incomodidad conmigo antes de la próxima sesión, anótala y tráela. Practica el acto de expresar una queja o duda en un entorno que se compromete a escucharla sin juzgar."
+    },
+    {
+      "codigo": "DT-04",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Cuando decimos 'sí, pero...' a cada sugerencia, ¿qué es lo que realmente necesita ser validado antes de que puedas dar un paso adelante?",
+      "objetivo": "Desarmar el juego psicológico del \"Sí, pero...\" (Yes-set), reconociendo que la resistencia a las soluciones suele esconder una necesidad no atendida de validación o duelo.",
+      "profundizacion": [
+        "¿Qué se perdería o qué sería injusto si esta solución funcionara demasiado rápido?",
+        "¿Necesitas que yo entienda primero lo difícil que es, antes de intentar arreglarlo?",
+        "¿A quién estás demostrando que \"ya lo intentaste todo y nada funciona\"?",
+        "✔ Agotamiento del terapeuta al sentir que ninguna idea es aceptada.",
+        "✔ El paciente se siente incomprendido y el terapeuta, inútil.",
+        "✔ Alivio profundo cuando el terapeuta deja de dar soluciones y solo valida.",
+        "✔ Patrón crónico de queja sin búsqueda activa de cambio."
+      ],
+      "observacion": [
+        "Agotamiento del terapeuta al sentir que ninguna idea es aceptada.",
+        "El paciente se siente incomprendido y el terapeuta, inútil.",
+        "Alivio profundo cuando el terapeuta deja de dar soluciones y solo valida.",
+        "Patrón crónico de queja sin búsqueda activa de cambio."
+      ],
+      "intervenciones": [
+        "Análisis Transaccional:: Salir del rol de \"Salvador\" para no alimentar el rol de \"Víctima\" del paciente.",
+        "Motivacional:: Explorar la ambivalencia y devolver la responsabilidad del cambio al paciente.",
+        "Validación:: \"Tienes razón, suena agotador. No voy a darte más soluciones hoy. Solo quiero entender lo pesado que es\"."
+      ],
+      "tarea": "Esta semana, cuando alguien te dé un consejo no solicitado, practica decir: \"Gracias, ahora mismo solo necesito que me escuches, no que lo resuelvas\". Observa su reacción y la tuya."
+    },
+    {
+      "codigo": "DT-05",
+      "iconos": [
+        "span",
+        "👑",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué pasaría si dejaras de verme como el 'experto que tiene todas las respuestas' y empezaras a verme como un compañero de viaje que también duda?",
+      "objetivo": "Trabajar la idealización del terapeuta, fomentando la autonomía del paciente y desmontando la expectativa de una cura mágica o una autoridad infalible.",
+      "profundizacion": [
+        "¿Qué miedo te da pensar que tú tienes el poder real de cambio, no yo?",
+        "¿Cómo te sentirías si te decepciono o cometo un error?",
+        "¿Estás buscando en mí la figura de autoridad que te faltó en el pasado?",
+        "✔ Elogios excesivos o dependencia de la aprobación del terapeuta.",
+        "✔ Decepción o enojo intenso ante una mínima falla o límite del terapeuta.",
+        "✔ Pasividad en la sesión, esperando que el terapeuta \"haga la magia\".",
+        "✔ Empoderamiento gradual al asumir su propia agencia."
+      ],
+      "observacion": [
+        "Elogios excesivos o dependencia de la aprobación del terapeuta.",
+        "Decepción o enojo intenso ante una mínima falla o límite del terapeuta.",
+        "Pasividad en la sesión, esperando que el terapeuta \"haga la magia\".",
+        "Empoderamiento gradual al asumir su propia agencia."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis de la transferencia idealizadora y su origen en figuras parentales.",
+        "Humanista:: Transparencia y autenticidad del terapeuta para humanizar la relación.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" del paciente para que no necesite un \"Salvador\"."
+      ],
+      "tarea": "Antes de la próxima sesión, escribe una decisión pequeña que hayas tomado por ti mismo, sin pedir consejo a nadie. Tráela como evidencia de tu propia capacidad de respuesta."
+    },
+    {
+      "codigo": "DT-06",
+      "iconos": [
+        "span",
+        "🚪",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "Si tuvieras que imaginar una razón por la que podrías no volver a la próxima sesión, ¿cuál sería?",
+      "objetivo": "Abordar proactivamente el riesgo de abandono prematuro (dropout). Normalizar la ambivalencia sobre continuar la terapia y abrir un espacio seguro para hablar de irse.",
+      "profundizacion": [
+        "¿Es un obstáculo logístico (dinero, tiempo) o emocional (miedo, vergüenza, estancamiento)?",
+        "¿Qué te diría esa parte de ti que quiere huir si la escucháramos con compasión?",
+        "¿Qué necesitaría cambiar en nuestra forma de trabajar para que valiera la pena quedarte?",
+        "✔ Evasión o incomodidad ante la pregunta directa sobre el abandono.",
+        "✔ Admisión honesta de barreras prácticas o emocionales.",
+        "✔ Alivio al saber que se puede hablar de irse sin que el terapeuta se enoje.",
+        "✔ Señales previas de desenganche (llegar tarde, cancelar, silencio)."
+      ],
+      "observacion": [
+        "Evasión o incomodidad ante la pregunta directa sobre el abandono.",
+        "Admisión honesta de barreras prácticas o emocionales.",
+        "Alivio al saber que se puede hablar de irse sin que el terapeuta se enoje.",
+        "Señales previas de desenganche (llegar tarde, cancelar, silencio)."
+      ],
+      "intervenciones": [
+        "Motivacional:: Explorar la discrepancia entre los valores de salud y la conducta de evitación.",
+        "Relacional:: Negociar el encuadre o la frecuencia de sesiones si hay barreras logísticas reales.",
+        "IFS:: Darle voz a la \"parte\" que quiere huir, entendiendo su intención protectora."
+      ],
+      "tarea": "Reflexiona esta semana: \"¿Qué me está costando tanto de este proceso que me hace querer dejarlo?\". Si surge algo, prométete traerlo a la sesión antes de tomar una decisión final."
+    },
+    {
+      "codigo": "DT-07",
+      "iconos": [
+        "span",
+        "👁️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué emoción difícil te está provocando nuestra relación terapéutica que te resulta complicado admitir?",
+      "objetivo": "Explorar la transferencia negativa o las emociones hostiles hacia el terapeuta (enojo, decepción, atracción, aburrimiento) que el paciente oculta por miedo a dañar el vínculo.",
+      "profundizacion": [
+        "¿Sientes que te juzgo, te presiono o te ignoro en algún momento?",
+        "¿Qué temes que pase si me dices que estás enojado/a o decepcionado/a conmigo?",
+        "¿Esta emoción que sientes conmigo te resulta familiar de otras relaciones en tu vida?",
+        "✔ Sarcasmo sutil, pasivo-agresividad o llegadas sistemáticas tarde.",
+        "✔ Sumisión aparente con tensión corporal de enojo contenido.",
+        "✔ Ruptura emocional catártica al finalmente expresar la emoción oculta.",
+        "✔ Mejora drástica de la alianza tras la validación de la emoción negativa."
+      ],
+      "observacion": [
+        "Sarcasmo sutil, pasivo-agresividad o llegadas sistemáticas tarde.",
+        "Sumisión aparente con tensión corporal de enojo contenido.",
+        "Ruptura emocional catártica al finalmente expresar la emoción oculta.",
+        "Mejora drástica de la alianza tras la validación de la emoción negativa."
+      ],
+      "intervenciones": [
+        "Psicodinámica:: Interpretación de la transferencia como una repetición de patrones relacionales tempranos.",
+        "Gestalt:: Expresión directa y en primera persona de la emoción hacia el terapeuta en el aquí y ahora.",
+        "Relacional:: Agradecer la honestidad y usar el momento para modelar una relación que sobrevive al conflicto."
+      ],
+      "tarea": "Si notas una emoción negativa hacia mí o hacia el proceso, anótala inmediatamente después de la sesión. El simple hecho de nombrarla reduce su poder destructivo."
+    },
+    {
+      "codigo": "DT-08",
+      "iconos": [
+        "span",
+        "🕸️",
+        "span",
+        "span",
+        "🕰️",
+        "span"
+      ],
+      "pregunta": "Si sintiéramos que estamos dando vueltas en círculo sin avanzar, ¿cómo podríamos romper ese patrón juntos hoy mismo?",
+      "objetivo": "Abordar el estancamiento terapéutico o \"impasse\". Revisar las metas, la metodología y la dinámica de la sesión para inyectar nueva energía y dirección.",
+      "profundizacion": [
+        "¿Estamos evitando un tema doloroso dando vueltas alrededor de él?",
+        "¿Necesitamos cambiar la técnica, la frecuencia o el enfoque de nuestro trabajo?",
+        "¿Qué pasaría si hoy hiciéramos algo radicalmente diferente a lo habitual?",
+        "✔ Sensación mutua de aburrimiento, rutina o falta de chispa.",
+        "✔ Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "✔ Apertura y creatividad al ser invitado a cambiar las reglas del juego.",
+        "✔ Alivio al nombrar el \"elefante en la habitación\" (el estancamiento)."
+      ],
+      "observacion": [
+        "Sensación mutua de aburrimiento, rutina o falta de chispa.",
+        "Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "Apertura y creatividad al ser invitado a cambiar las reglas del juego.",
+        "Alivio al nombrar el \"elefante en la habitación\" (el estancamiento)."
+      ],
+      "intervenciones": [
+        "Supervisión/Consulta:: El terapeuta busca una mirada externa para desbloquear su propia contratransferencia.",
+        "Experimento:: Proponer una dinámica inusual (cambiar de asiento, usar arte, escribir en lugar de hablar).",
+        "Revisión de metas:: Volver al contrato terapéutico inicial y ajustar las expectativas."
+      ],
+      "tarea": "Propón tú mismo una idea loca o diferente para la próxima sesión. Romper la rutina es responsabilidad de ambos, no solo del terapeuta."
+    },
+    {
+      "codigo": "DT-09",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Estás usando tu inteligencia y tu capacidad de análisis como un escudo para no tener que sentir el dolor que hay debajo?",
+      "objetivo": "Desafiar la sobre-intelectualización como mecanismo de defensa. Ayudar al paciente a transitar del \"entender\" el problema a \"experimentar y procesar\" la emoción asociada.",
+      "profundizacion": [
+        "¿Qué pasaría si dejaras de explicarme tu problema y solo me dejaras ver cómo te duele?",
+        "¿A quién necesitas demostrarle que \"entiendes\" perfectamente lo que te pasa?",
+        "¿Qué emoción específica se esconde detrás de este análisis tan perfecto?",
+        "✔ Uso de jerga psicológica o conceptos teóricos para describir su propio dolor.",
+        "✔ Ausencia de lágrimas, rabia o tristeza a pesar de narrar eventos traumáticos.",
+        "✔ Frustración cuando el terapeuta devuelve la pregunta al cuerpo o a la emoción.",
+        "✔ Liberación emocional repentina al bajar la guardia intelectual."
+      ],
+      "observacion": [
+        "Uso de jerga psicológica o conceptos teóricos para describir su propio dolor.",
+        "Ausencia de lágrimas, rabia o tristeza a pesar de narrar eventos traumáticos.",
+        "Frustración cuando el terapeuta devuelve la pregunta al cuerpo o a la emoción.",
+        "Liberación emocional repentina al bajar la guardia intelectual."
+      ],
+      "intervenciones": [
+        "Somática:: \"Deja la historia un momento. ¿Dónde sientes eso en tu cuerpo ahora mismo?\".",
+        "Gestalt:: Pedir al paciente que repita una frase emocionalmente cargada en lugar de explicarla.",
+        "EMDR:: Mover el procesamiento del córtex prefrontal hacia las redes de memoria emocional."
+      ],
+      "tarea": "Esta semana, cuando te sorprendas analizando una emoción, detente y pon una mano en tu pecho. Pregúntate: \"¿Qué necesita sentir esta parte, sin que yo la explique?\"."
+    },
+    {
+      "codigo": "DT-10",
+      "iconos": [
+        "span",
+        "🗝️",
+        "span",
+        "span",
+        "🤫",
+        "span"
+      ],
+      "pregunta": "¿Hay algún secreto o verdad que sientes que, si lo traes a esta sala, podría cambiar todo lo que hemos construido hasta ahora?",
+      "objetivo": "Crear un espacio de seguridad radical para la revelación de material oculto (vergüenza, traumas, conductas de riesgo) que está actuando como un freno invisible en el progreso.",
+      "profundizacion": [
+        "¿Qué catástrofe imaginas que ocurriría si yo supiera esa verdad?",
+        "¿Cuánta energía te cuesta mantener esa puerta cerrada mientras hablamos de otras cosas?",
+        "¿Podrías escribirlo en lugar de decirlo, si las palabras son demasiado pesadas?",
+        "✔ Pausas largas, mirada hacia el suelo, cambios en el tono de voz.",
+        "✔ Ensayos fallidos (\"Bueno, hay algo, pero no es importante...\").",
+        "✔ Alivio masivo y descarga de tensión tras la revelación.",
+        "✔ Prueba de la solidez de la alianza terapéutica en el momento de la respuesta del terapeuta."
+      ],
+      "observacion": [
+        "Pausas largas, mirada hacia el suelo, cambios en el tono de voz.",
+        "Ensayos fallidos (\"Bueno, hay algo, pero no es importante...\").",
+        "Alivio masivo y descarga de tensión tras la revelación.",
+        "Prueba de la solidez de la alianza terapéutica en el momento de la respuesta del terapeuta."
+      ],
+      "intervenciones": [
+        "Humanista:: Aceptación incondicional y neutralidad cálida para contrarrestar la expectativa de juicio.",
+        "Escritura terapéutica:: Ofrecer la opción de escribir el secreto y entregar el papel, sin necesidad de verbalizarlo aún.",
+        "Psicoanálisis:: Trabajar la culpa y la vergüenza tóxica asociada al contenido del secreto."
+      ],
+      "tarea": "Si hay algo que no puedes decir aún, escríbelo en un papel, dóblalo y guárdalo en tu billetera. El simple acto de tenerlo \"fuera\" de tu mente reduce su carga tóxica, a tu propio ritmo."
+    },
+    {
+      "codigo": "DT-11",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de lo que yo estoy sintiendo en esta sesión crees que tiene que ver con vos, y qué parte tiene que ver conmigo?",
+      "objetivo": "Introducir la metacomunicación sobre la contratransferencia de forma accesible. Ayudar al paciente a distinguir entre lo que proyecta y lo que genuinamente evoca en el otro, fortaleciendo la mentalización relacional.",
+      "profundizacion": [
+        "¿Sientes que te estoy tratando como a alguien del pasado, o como a vos mismo?",
+        "¿Qué partes de mi reacción te resultan familiares de otras relaciones?",
+        "¿Qué pasaría si pudiéramos hablar de esto sin que ninguno de los dos se sintiera juzgado?",
+        "✔ Sorpresa al ser invitado a observar la dinámica relacional en vivo.",
+        "✔ Proyección masiva (\"vos sos como mi padre/madre\").",
+        "✔ Capacidad de mentalizar y separar las experiencias.",
+        "✔ Rechazo defensivo a explorar la relación terapéutica."
+      ],
+      "observacion": [
+        "Sorpresa al ser invitado a observar la dinámica relacional en vivo.",
+        "Proyección masiva (\"vos sos como mi padre/madre\").",
+        "Capacidad de mentalizar y separar las experiencias.",
+        "Rechazo defensivo a explorar la relación terapéutica."
+      ],
+      "intervenciones": [
+        "Relacional:: Uso de la contratransferencia como herramienta diagnóstica y reparadora.",
+        "Psicodinámica:: Análisis de la transferencia/contratransferencia como material central.",
+        "Mentalización:: Entrenamiento en distinguir estados mentales propios y ajenos."
+      ],
+      "tarea": "Esta semana, cuando sientas una emoción intensa hacia alguien, pregúntate: \"¿Esta emoción es 100% mía, o estoy proyectando algo de mi pasado?\". Anota tus observaciones sin juzgarlas."
+    },
+    {
+      "codigo": "DT-12",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué necesitás de mí en este momento para que esta avalancha emocional no te arrastre y puedas volver a tu centro?",
+      "objetivo": "Gestionar una crisis o desregulación emocional durante la sesión. Pasar del contenido al proceso, priorizando la regulación del sistema nervioso antes que el insight cognitivo.",
+      "profundizacion": [
+        "¿Necesitás que hable más, que guarde silencio, que te ofrezca agua o que te ayude a respirar?",
+        "¿Hay alguna parte de vos que se quedó fuera de la sala cuando llegó esta emoción?",
+        "¿Qué le dirías a tu cuerpo en este momento para que sepa que está a salvo?",
+        "✔ Llanto inconsolable, hiperventilación o disociación.",
+        "✔ Petición concreta de ayuda (\"necesito que me abraces\", \"necesito silencio\").",
+        "✔ Capacidad de auto-regularse con el apoyo del terapeuta.",
+        "✔ Vergüenza posterior por la pérdida de control."
+      ],
+      "observacion": [
+        "Llanto inconsolable, hiperventilación o disociación.",
+        "Petición concreta de ayuda (\"necesito que me abraces\", \"necesito silencio\").",
+        "Capacidad de auto-regularse con el apoyo del terapeuta.",
+        "Vergüenza posterior por la pérdida de control."
+      ],
+      "intervenciones": [
+        "Somática:: Grounding, respiración diafragmática, anclaje sensorial en la sala.",
+        "Polivagal:: Activación del sistema ventral vagal mediante tono de voz calmado y presencia.",
+        "DBT:: Habilidades de tolerancia al malestar (TIPP, autopacificación)."
+      ],
+      "tarea": "Crea un \"kit de emergencia emocional\" con 3 objetos o acciones que te ayuden a regulararte (una canción, una textura, una frase). Llévalo contigo esta semana como recordatorio de tu capacidad de volver a tu centro."
+    },
+    {
+      "codigo": "DT-13",
+      "iconos": [
+        "span",
+        "⏰",
+        "span",
+        "span",
+        "🚪",
+        "span"
+      ],
+      "pregunta": "¿Qué estás llegando tarde o cancelando con tanta frecuencia? ¿Es un acto de protesta, de protección o de sabotaje?",
+      "objetivo": "Abordar los patrones de impuntualidad o cancelaciones como comunicación no verbal. Explorar la resistencia encubierta, el miedo a la intimidad o la prueba de los límites del encuadre.",
+      "profundizacion": [
+        "¿Qué sentís en los minutos previos a venir a sesión que te hacen retrasarte o cancelar?",
+        "¿Qué temés que pase si llegás puntual y tenés que enfrentar todo lo que hablamos?",
+        "¿Qué mensaje creés que me estás enviando con estos retrasos?",
+        "✔ Justificaciones elaboradas o minimización (\"es el tráfico\").",
+        "✔ Reconocimiento honesto del miedo o la resistencia.",
+        "✔ Patrón de sabotaje justo antes de un avance significativo.",
+        "✔ Prueba de los límites del terapeuta (¿me va a retar, me va a abandonar?)."
+      ],
+      "observacion": [
+        "Justificaciones elaboradas o minimización (\"es el tráfico\").",
+        "Reconocimiento honesto del miedo o la resistencia.",
+        "Patrón de sabotaje justo antes de un avance significativo.",
+        "Prueba de los límites del terapeuta (¿me va a retar, me va a abandonar?)."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis del acting out y la resistencia como comunicación inconsciente.",
+        "Sistémica:: Explorar si el patrón replica dinámicas familiares de impuntualidad o caos.",
+        "Encuadre:: Revisar el contrato terapéutico y las consecuencias de las cancelaciones."
+      ],
+      "tarea": "Antes de tu próxima sesión, anota qué emoción surge cuando pensás en venir. No intentes cambiarla, solo observala. Tráela a la sesión como material de trabajo."
+    },
+    {
+      "codigo": "DT-14",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué pasaría si un día no pudieras venir a sesión? ¿Sentirías que te caes al vacío o que podés sostenerte solo?",
+      "objetivo": "Evaluar y trabajar la dependencia del terapeuta. Fomentar la internalización del objeto terapéutico y la autonomía emocional, sin abandonar el sostén necesario.",
+      "profundizacion": [
+        "¿Qué parte de vos siente que yo soy el único que te entiende o te sostiene?",
+        "¿Qué recursos internos tuyos hemos descubierto que podrías usar cuando yo no estoy?",
+        "¿Qué te da más miedo: que yo me vaya o que vos no me necesites más?",
+        "✔ Pánico o angustia intensa ante la idea de una sesión cancelada.",
+        "✔ Idealización del terapeuta como única fuente de regulación.",
+        "✔ Capacidad creciente de auto-regularse entre sesiones.",
+        "✔ Duelo anticipado por el fin de la terapia."
+      ],
+      "observacion": [
+        "Pánico o angustia intensa ante la idea de una sesión cancelada.",
+        "Idealización del terapeuta como única fuente de regulación.",
+        "Capacidad creciente de auto-regularse entre sesiones.",
+        "Duelo anticipado por el fin de la terapia."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Dependencia/Incompetencia y fortalecer al Adulto Sano.",
+        "Apego:: Construir un \"objeto transicional interno\" (voz del terapeuta internalizada).",
+        "IFS:: Dialogar con la parte que teme la soledad y con la parte que quiere ser autónoma."
+      ],
+      "tarea": "Esta semana, cuando surja una dificultad, intentá resolverla primero solo antes de pensar en contármelo. Anotá qué recursos usaste y cómo te sentiste al hacerlo."
+    },
+    {
+      "codigo": "DT-15",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "🚪",
+        "span"
+      ],
+      "pregunta": "¿Estás mejorando porque realmente estás integrando los cambios, o porque querés darte de alta cuanto antes para escapar de lo que duele aquí?",
+      "objetivo": "Distinguir entre el cambio genuino y la \"falsa mejoría\" como resistencia al proceso profundo. Explorar el miedo a la intimidad terapéutica o a enfrentar material más doloroso.",
+      "profundizacion": [
+        "¿Qué temés que descubramos si seguimos profundizando?",
+        "¿Hay algún tema que hemos estado evitando y que ahora querés cerrar rápido?",
+        "¿Cómo sabrías que este cambio es sólido y no solo un alivio temporal?",
+        "✔ Mejoría repentina y superficial sin procesamiento emocional profundo.",
+        "✔ Discurso de \"ya estoy bien\" que evita temas pendientes.",
+        "✔ Reconocimiento honesto del miedo a seguir.",
+        "✔ Cambio genuino con integración de insights y nuevas conductas."
+      ],
+      "observacion": [
+        "Mejoría repentina y superficial sin procesamiento emocional profundo.",
+        "Discurso de \"ya estoy bien\" que evita temas pendientes.",
+        "Reconocimiento honesto del miedo a seguir.",
+        "Cambio genuino con integración de insights y nuevas conductas."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis de la resistencia al cambio y la fuga hacia la salud.",
+        "Motivacional:: Explorar la ambivalencia entre el alivio y el crecimiento profundo.",
+        "Revisión de metas:: Volver al contrato inicial y evaluar si se han cumplido los objetivos."
+      ],
+      "tarea": "Escribe una lista de los cambios reales que has notado en tu vida (no solo en cómo te sentís, sino en lo que hacés). Si la lista es corta, reflexioná sobre qué más necesita ser trabajado."
+    },
+    {
+      "codigo": "DT-16",
+      "iconos": [
+        "span",
+        "💔",
+        "span",
+        "span",
+        "🌅",
+        "span"
+      ],
+      "pregunta": "¿Cómo te preparás para el duelo de terminar este proceso? ¿Qué vas a extrañar de este espacio y de mí?",
+      "objetivo": "Normalizar y procesar el duelo por el fin de la terapia. Validar la ambivalencia entre la celebración del crecimiento y la tristeza por la despedida de un vínculo significativo.",
+      "profundizacion": [
+        "¿Qué partes de vos se quedan aquí y cuáles te llevás afuera?",
+        "¿Cómo te gustaría que fuera nuestra última sesión?",
+        "¿Qué te dirías a vos mismo para recordar que este vínculo sigue vivo aunque no nos veamos?",
+        "✔ Negación del duelo (\"ya estoy bien, no necesito esto\").",
+        "✔ Tristeza profunda y reconocimiento del vínculo terapéutico.",
+        "✔ Anticipación ansiosa del fin.",
+        "✔ Capacidad de integrar la experiencia y proyectar el futuro."
+      ],
+      "observacion": [
+        "Negación del duelo (\"ya estoy bien, no necesito esto\").",
+        "Tristeza profunda y reconocimiento del vínculo terapéutico.",
+        "Anticipación ansiosa del fin.",
+        "Capacidad de integrar la experiencia y proyectar el futuro."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación del duelo como prueba de la profundidad del vínculo.",
+        "Narrativa:: Co-construcción de una \"historia de cierre\" que integre el proceso.",
+        "Gestalt:: Ritual simbólico de despedida y agradecimiento mutuo."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a este proceso (no necesariamente a mí, sino al espacio, a lo que aprendiste, a las partes de vos que sanaron). Léela cuando necesites recordar de dónde venís."
+    },
+    {
+      "codigo": "DT-17",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué estás trayendo de esa otra terapia que no pudiste traer aquí? ¿Y qué no estás trayendo?",
+      "objetivo": "Explorar la transferencia de material entre terapeutas. Identificar lealtades, comparaciones o temas que el paciente está usando como resistencia en el proceso actual.",
+      "profundizacion": [
+        "¿Qué te dijo ese otro terapeuta que te gustaría que yo dijera?",
+        "¿Hay algo que te da miedo contarme porque temés que lo interprete diferente?",
+        "¿Qué pasaría si pudieras ser completamente honesto conmigo sobre esa otra experiencia?",
+        "✔ Comparación constante (\"mi otro terapeuta decía que...\").",
+        "✔ Ocultamiento de información por lealtad o miedo.",
+        "✔ Uso de la otra terapia como resistencia (\"ya lo trabajé allá\").",
+        "✔ Apertura y transparencia sobre las diferencias entre ambos procesos."
+      ],
+      "observacion": [
+        "Comparación constante (\"mi otro terapeuta decía que...\").",
+        "Ocultamiento de información por lealtad o miedo.",
+        "Uso de la otra terapia como resistencia (\"ya lo trabajé allá\").",
+        "Apertura y transparencia sobre las diferencias entre ambos procesos."
+      ],
+      "intervenciones": [
+        "Relacional:: Explorar la transferencia triangular y las lealtades divididas.",
+        "Psicoanálisis:: Análisis de la resistencia a profundizar en este vínculo específico.",
+        "Encuadre:: Clarificar los límites éticos y la importancia de la coherencia terapéutica."
+      ],
+      "tarea": "Si estás en dos terapias simultáneamente, reflexioná: \"¿Qué estoy buscando en cada una que no encuentro en la otra?\". Anota tus observaciones y tráelas a la próxima sesión."
+    },
+    {
+      "codigo": "DT-18",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Qué esperás que yo sea o haga diferente para que esta terapia funcione? ¿Qué estás comparando conmigo?",
+      "objetivo": "Abordar las expectativas no cumplidas y las comparaciones con otros terapeutas, figuras de autoridad o ideales. Explorar la decepción como material terapéutico y no como fracaso.",
+      "profundizacion": [
+        "¿En qué momentos sentís que no te entiendo o no te cuido como esperabas?",
+        "¿Qué figura de tu pasado estoy representando para vos cuando te decepciono?",
+        "¿Qué necesitarías de mí para reparar esa brecha y seguir trabajando juntos?",
+        "✔ Crítica directa o indirecta al estilo del terapeuta.",
+        "✔ Idealización de otros terapeutas o enfoques.",
+        "✔ Reconocimiento de la proyección de figuras parentales.",
+        "✔ Capacidad de negociar y co-crear el estilo terapéutico."
+      ],
+      "observacion": [
+        "Crítica directa o indirecta al estilo del terapeuta.",
+        "Idealización de otros terapeutas o enfoques.",
+        "Reconocimiento de la proyección de figuras parentales.",
+        "Capacidad de negociar y co-crear el estilo terapéutico."
+      ],
+      "intervenciones": [
+        "Psicodinámica:: Análisis de la transferencia negativa y las expectativas infantiles.",
+        "Relacional:: Reparación de la ruptura y negociación del encuadre.",
+        "Terapia de Esquemas:: Trabajar el esquema de Derechos Especiales o Estándares Inalcanzables."
+      ],
+      "tarea": "Escribe una lista de 3 cosas que esperás de mí como terapeuta y 3 cosas que yo espero de vos como paciente. Compartila en la próxima sesión para alinear expectativas."
+    },
+    {
+      "codigo": "DT-19",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de vos tiene miedo de mejorar porque teme perder algo importante (atención, identidad, justificación)?",
+      "objetivo": "Explorar la resistencia al cambio desde la ganancia secundaria. Validar los miedos legítimos a perder protecciones, identidades o vínculos construidos alrededor del síntoma.",
+      "profundizacion": [
+        "¿Qué te da seguridad seguir sufriendo o estando \"roto\"?",
+        "¿Quién en tu vida se beneficiaría si seguís igual?",
+        "¿Qué necesitarías para creer que podés ser valioso/a sin este dolor?",
+        "✔ Negación absoluta de cualquier ganancia secundaria.",
+        "✔ Reconocimiento honesto del miedo a la identidad nueva.",
+        "✔ Duelo por la pérdida del síntoma como protector.",
+        "✔ Sabotaje justo antes de un avance significativo."
+      ],
+      "observacion": [
+        "Negación absoluta de cualquier ganancia secundaria.",
+        "Reconocimiento honesto del miedo a la identidad nueva.",
+        "Duelo por la pérdida del síntoma como protector.",
+        "Sabotaje justo antes de un avance significativo."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la parte que se aferra al síntoma y entender su intención protectora.",
+        "Sistémica:: Explorar las lealtades invisibles y los mandatos familiares de sufrimiento.",
+        "Narrativa:: Re-autoría de la identidad más allá del problema."
+      ],
+      "tarea": "Escribe una carta de despedida a tu síntoma o problema. Agradecéle por lo que te protegió, pero declará que estás listo para algo nuevo. No la envíes, solo escribila."
+    },
+    {
+      "codigo": "DT-20",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🎭",
+        "span"
+      ],
+      "pregunta": "¿Estás usando tu conocimiento psicológico como un escudo para no tener que sentir lo que realmente te duele?",
+      "objetivo": "Desafiar la \"psicologización defensiva\" donde el paciente usa terminología técnica para intellectualizar y evitar la experiencia emocional directa. Bajar del córtex al sistema límbico.",
+      "profundizacion": [
+        "¿Qué pasaría si dejaras de explicarme tu problema con términos técnicos y solo me mostraras cómo te duele?",
+        "¿A quién necesitas demostrarle que \"entendés perfectamente\" lo que te pasa?",
+        "¿Qué emoción específica se esconde detrás de este análisis tan perfecto?",
+        "✔ Uso excesivo de jerga psicológica (\"mi apego evitativo\", \"mi esquema de abandono\").",
+        "✔ Ausencia de emoción a pesar de narrar eventos traumáticos.",
+        "✔ Frustración cuando el terapeuta devuelve la pregunta al cuerpo.",
+        "✔ Liberación emocional al bajar la guardia intelectual."
+      ],
+      "observacion": [
+        "Uso excesivo de jerga psicológica (\"mi apego evitativo\", \"mi esquema de abandono\").",
+        "Ausencia de emoción a pesar de narrar eventos traumáticos.",
+        "Frustración cuando el terapeuta devuelve la pregunta al cuerpo.",
+        "Liberación emocional al bajar la guardia intelectual."
+      ],
+      "intervenciones": [
+        "Somática:: \"Dejá la historia un momento. ¿Dónde sentís eso en tu cuerpo ahora mismo?\".",
+        "Gestalt:: Pedir al paciente que repita una frase emocionalmente cargada en lugar de explicarla.",
+        "EMDR:: Mover el procesamiento del córtex prefrontal hacia las redes de memoria emocional."
+      ],
+      "tarea": "Esta semana, cuando te sorprendas analizando una emoción, detente y pon una mano en tu pecho. Preguntate: \"¿Qué necesita sentir esta parte, sin que yo la explique?\". Registra lo que surja."
+    },
+    {
+      "codigo": "DT-21",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Estás diciéndome lo que crees que quiero escuchar, o lo que realmente necesitas decir hoy?",
+      "objetivo": "Desarmar la complacencia terapéutica o el rol de \"paciente perfecto\". Fomentar la autenticidad y detectar la ansiedad por agradar al terapeuta.",
+      "profundizacion": [
+        "¿Qué temés que pase si me decepcionás o me mostrás una parte \"fea\" de vos?",
+        "¿De quién es esa voz que te dice que debés ser \"el paciente ideal\"?",
+        "¿Cómo se siente tu cuerpo cuando intentás filtrar tus palabras para que suenen bien?",
+        "✔ Discurso excesivamente coherente, pulido o intelectualizado.",
+        "✔ Búsqueda constante de aprobación o validación del terapeuta.",
+        "✔ Alivio visible cuando se le da permiso para ser \"desordenado\".",
+        "✔ Enojo o frustración si el terapeuta no \"adivina\" lo que calla."
+      ],
+      "observacion": [
+        "Discurso excesivamente coherente, pulido o intelectualizado.",
+        "Búsqueda constante de aprobación o validación del terapeuta.",
+        "Alivio visible cuando se le da permiso para ser \"desordenado\".",
+        "Enojo o frustración si el terapeuta no \"adivina\" lo que calla."
+      ],
+      "intervenciones": [
+        "Relacional:: Validar explícitamente que el espacio es para lo auténtico, no para lo \"correcto\".",
+        "IFS:: Dialogar con la \"parte gerente\" que intenta controlar la impresión que causa.",
+        "Gestalt:: Experimento de decir una \"verdad fea\" o incómoda en la sesión."
+      ],
+      "tarea": "Esta semana, cuando sientas la urge de decir lo \"correcto\" en lugar de lo verdadero, hacé una pausa. Anotá qué hubieras dicho si no te importara la aprobación del otro."
+    },
+    {
+      "codigo": "DT-22",
+      "iconos": [
+        "span",
+        "⚓",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de vos teme que, si este problema desaparece, pierdas algo importante (identidad, atención, una excusa válida)?",
+      "objetivo": "Explorar la ganancia secundaria y la lealtad al síntoma. Validar el miedo legítimo a la identidad post-enfermedad o post-crisis.",
+      "profundizacion": [
+        "¿Quién en tu vida se beneficiaría o se vería afectado si ya no tuvieras este problema?",
+        "¿Qué te define hoy que tendrías que reinventar si estuvieras \"sano\"?",
+        "¿Qué te costaría emocionalmente dejar de ser \"el que sufre\" o \"el que aguanta\"?",
+        "✔ Negación defensiva (\"quiero curarme ya, no gano nada con esto\").",
+        "✔ Reconocimiento honesto del miedo al vacío o a la responsabilidad.",
+        "✔ Duelo anticipado por la pérdida del rol de paciente.",
+        "✔ Sabotaje inconsciente justo antes de un avance terapéutico."
+      ],
+      "observacion": [
+        "Negación defensiva (\"quiero curarme ya, no gano nada con esto\").",
+        "Reconocimiento honesto del miedo al vacío o a la responsabilidad.",
+        "Duelo anticipado por la pérdida del rol de paciente.",
+        "Sabotaje inconsciente justo antes de un avance terapéutico."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar la homeostasis familiar y cómo el síntoma mantiene el equilibrio.",
+        "IFS:: Negociar con la parte que se aferra al síntoma, agradeciéndole su protección.",
+        "Narrativa:: Re-autoría de la identidad más allá del problema o la etiqueta diagnóstica."
+      ],
+      "tarea": "Escribe una carta de despedida a tu síntoma. Agradecéle por lo que te protegió, pero declará que estás listo para construir una identidad que no dependa de él."
+    },
+    {
+      "codigo": "DT-23",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué fantasía o expectativa has construido sobre nuestra relación que va más allá de lo estrictamente terapéutico?",
+      "objetivo": "Abordar con delicadeza y profesionalismo la transferencia erótica, romántica o de idealización extrema, estableciendo límites claros con empatía.",
+      "profundizacion": [
+        "¿Qué necesidad profunda estás intentando cubrir a través de esta fantasía?",
+        "¿Qué temes que pase si mantenemos la relación estrictamente en el marco profesional?",
+        "¿Cómo se relaciona esta sensación con vínculos significativos de tu pasado?",
+        "✔ Regalos excesivos, preguntas sobre la vida personal del terapeuta.",
+        "✔ Celos hacia otros pacientes o hacia la vida externa del terapeuta.",
+        "✔ Vergüenza intensa al ser confrontado amablemente sobre el límite.",
+        "✔ Alivio al entender que la fantasía es un material de trabajo, no un rechazo."
+      ],
+      "observacion": [
+        "Regalos excesivos, preguntas sobre la vida personal del terapeuta.",
+        "Celos hacia otros pacientes o hacia la vida externa del terapeuta.",
+        "Vergüenza intensa al ser confrontado amablemente sobre el límite.",
+        "Alivio al entender que la fantasía es un material de trabajo, no un rechazo."
+      ],
+      "intervenciones": [
+        "Psicodinámica:: Análisis de la transferencia como repetición de deseos o carencias infantiles.",
+        "Encuadre:: Reafirmación firme pero cálida de los límites éticos y profesionales.",
+        "Humanista:: Validar el sentimiento sin actuar sobre él, normalizando la experiencia."
+      ],
+      "tarea": "Reflexioná: \"¿Qué cualidad que veo en mi terapeuta me gustaría desarrollar en mí mismo o encontrar en mis relaciones fuera de la consulta?\". Anotalo."
+    },
+    {
+      "codigo": "DT-24",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿En qué momentos de esta sesión sentís que me estás pidiendo que actúe como el padre o la madre que no tuviste?",
+      "objetivo": "Identificar la regresión y la demanda parental en la transferencia. Diferenciar entre la necesidad de contención y la expectativa de que el terapeuta \"resuelva\" o \"crie\".",
+      "profundizacion": [
+        "¿Qué te gustaría que te dijera o hiciera yo que nadie te dijo en su momento?",
+        "¿Qué pasa en tu cuerpo cuando te das cuenta de que yo no puedo ser esa figura?",
+        "¿Cómo podemos trabajar juntos para que esa parte de vos se cuide a sí misma hoy?",
+        "✔ Demandas de consejos directivos o rescate inmediato.",
+        "✔ Enojo o decepción infantil cuando el terapeuta pone un límite.",
+        "✔ Regresión en el lenguaje o la postura corporal.",
+        "✔ Insight doloroso pero sanador al reconocer la proyección."
+      ],
+      "observacion": [
+        "Demandas de consejos directivos o rescate inmediato.",
+        "Enojo o decepción infantil cuando el terapeuta pone un límite.",
+        "Regresión en el lenguaje o la postura corporal.",
+        "Insight doloroso pero sanador al reconocer la proyección."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" para que reparentalice al \"Niño Vulnerable\".",
+        "Relacional:: Ofrecer una experiencia emocional correctiva sin cruzar los límites del rol.",
+        "Psicoanálisis:: Interpretación de la transferencia parental y su origen."
+      ],
+      "tarea": "Esta semana, cuando sientas esa necesidad urgente de que alguien te \"salve\", poné una mano en tu pecho y decite a vos mismo la frase de contención que necesitás escuchar."
+    },
+    {
+      "codigo": "DT-25",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "Si sintieras que estamos dando vueltas en círculo sin avanzar, ¿qué necesitaríamos cambiar hoy mismo para romper ese patrón?",
+      "objetivo": "Abordar el \"impasse\" o estancamiento terapéutico. Co-crear soluciones para reactivar el proceso cuando la rutina o la evitación lo han frenado.",
+      "profundizacion": [
+        "¿Estamos evitando un tema doloroso dando vueltas alrededor de él?",
+        "¿Necesitamos cambiar la técnica, la frecuencia o el enfoque de nuestro trabajo?",
+        "¿Qué pasaría si hoy hiciéramos algo radicalmente diferente a lo habitual?",
+        "✔ Sensación mutua de aburrimiento, rutina o falta de chispa.",
+        "✔ Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "✔ Apertura y creatividad al ser invitado a cambiar las reglas del juego.",
+        "✔ Alivio al nombrar el \"elefante en la habitación\" (el estancamiento)."
+      ],
+      "observacion": [
+        "Sensación mutua de aburrimiento, rutina o falta de chispa.",
+        "Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "Apertura y creatividad al ser invitado a cambiar las reglas del juego.",
+        "Alivio al nombrar el \"elefante en la habitación\" (el estancamiento)."
+      ],
+      "intervenciones": [
+        "Supervisión:: El terapeuta busca una mirada externa para desbloquear su propia contratransferencia.",
+        "Experimento:: Proponer una dinámica inusual (escribir en lugar de hablar, cambiar de asiento).",
+        "Revisión de metas:: Volver al contrato terapéutico inicial y ajustar las expectativas."
+      ],
+      "tarea": "Propón vos mismo una idea \"loca\" o diferente para la próxima sesión. Romper la rutina es responsabilidad de ambos, no solo del terapeuta."
+    },
+    {
+      "codigo": "DT-26",
+      "iconos": [
+        "span",
+        "🤫",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Este silencio es un espacio para pensar, o es una forma de castigarme o castigarte por algo que pasó?",
+      "objetivo": "Diferenciar el silencio reflexivo del silencio punitivo o pasivo-agresivo. Abordar la hostilidad encubierta en la relación terapéutica.",
+      "profundizacion": [
+        "¿Qué enojo o decepción estás expresando a través de no hablar?",
+        "¿Qué temes que pase si expresás esa rabia con palabras en lugar de con silencio?",
+        "¿Cómo podemos reparar lo que sea que haya generado este muro entre nosotros?",
+        "✔ Tensión corporal, mirada desafiante o evasiva.",
+        "✔ Suspiros de frustración o lenguaje corporal cerrado.",
+        "✔ Negación del enojo (\"no pasa nada\") mientras el cuerpo dice lo contrario.",
+        "✔ Ruptura emocional catártica al finalmente verbalizar la queja."
+      ],
+      "observacion": [
+        "Tensión corporal, mirada desafiante o evasiva.",
+        "Suspiros de frustración o lenguaje corporal cerrado.",
+        "Negación del enojo (\"no pasa nada\") mientras el cuerpo dice lo contrario.",
+        "Ruptura emocional catártica al finalmente verbalizar la queja."
+      ],
+      "intervenciones": [
+        "Relacional:: Nombrar el patrón con curiosidad, no con defensa (\"Noto un silencio pesado, me pregunto qué hay ahí\").",
+        "Gestalt:: Darle voz al silencio: \"Si este silencio pudiera hablar, ¿qué diría?\".",
+        "DBT:: Entrenamiento en comunicación efectiva de la queja o el enojo."
+      ],
+      "tarea": "Si sentís enojo hacia mí o hacia el proceso, escribila en un papel antes de la próxima sesión. El simple acto de nombrarla reduce su poder destructivo."
+    },
+    {
+      "codigo": "DT-27",
+      "iconos": [
+        "span",
+        "🗣️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Qué pasaría si hoy no te diera una respuesta o un consejo, sino que te ayudara a encontrar la tuya propia?",
+      "objetivo": "Manejar la demanda de directividad. Fomentar la autonomía, la autoeficacia y la tolerancia a la incertidumbre, evitando la trampa del \"experto salvador\".",
+      "profundizacion": [
+        "¿Qué te da más miedo: tomar tu propia decisión o equivocarte?",
+        "¿A quién estás intentando culpar si el consejo que te doy no funciona?",
+        "¿Qué evidencia tenés de que ya sabés más de lo que crees sobre tu propia vida?",
+        "✔ Frustración o impaciencia ante las preguntas reflexivas del terapeuta.",
+        "✔ Alivio progresivo al descubrir sus propias respuestas.",
+        "✔ Intentos repetidos de devolver la responsabilidad al terapeuta.",
+        "✔ Empoderamiento visible al tomar una decisión autónoma."
+      ],
+      "observacion": [
+        "Frustración o impaciencia ante las preguntas reflexivas del terapeuta.",
+        "Alivio progresivo al descubrir sus propias respuestas.",
+        "Intentos repetidos de devolver la responsabilidad al terapeuta.",
+        "Empoderamiento visible al tomar una decisión autónoma."
+      ],
+      "intervenciones": [
+        "Motivacional:: Usar preguntas abiertas para evocar la propia motivación y sabiduría del paciente.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Competente\" frente al \"Niño que necesita que lo salven\".",
+        "Constructivismo:: El terapeuta como facilitador del significado, no como poseedor de la verdad."
+      ],
+      "tarea": "Esta semana, ante una duda pequeña, tomá la decisión por vos mismo sin consultar a nadie. Anotá cómo te sentiste al confiar en tu propio criterio."
+    },
+    {
+      "codigo": "DT-28",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Qué esperás que yo haga diferente a tu terapeuta anterior, y qué temés que repita?",
+      "objetivo": "Explorar la transferencia de experiencias previas. Identificar lealtades, comparaciones o heridas no resueltas que se traen al vínculo actual.",
+      "profundizacion": [
+        "¿Qué te dijo o hizo ese otro terapeuta que te dolió o te marcó?",
+        "¿Hay algo que te da miedo contarme porque temés que reaccione igual?",
+        "¿Qué pasaría si pudieras ser completamente honesto conmigo sobre esa experiencia?",
+        "✔ Comparación constante (\"mi otro terapeuta decía que...\").",
+        "✔ Ocultamiento de información por lealtad o miedo a ser juzgado.",
+        "✔ Uso de la otra terapia como resistencia (\"ya lo trabajé allá\").",
+        "✔ Apertura y transparencia sobre las diferencias entre ambos procesos."
+      ],
+      "observacion": [
+        "Comparación constante (\"mi otro terapeuta decía que...\").",
+        "Ocultamiento de información por lealtad o miedo a ser juzgado.",
+        "Uso de la otra terapia como resistencia (\"ya lo trabajé allá\").",
+        "Apertura y transparencia sobre las diferencias entre ambos procesos."
+      ],
+      "intervenciones": [
+        "Relacional:: Explorar la transferencia triangular y las lealtades divididas con curiosidad.",
+        "Psicoanálisis:: Análisis de la resistencia a profundizar en este vínculo específico por miedo a la repetición.",
+        "Encuadre:: Clarificar los límites éticos y la importancia de la coherencia terapéutica actual."
+      ],
+      "tarea": "Si tuviste otra terapia, escribí qué te sirvió y qué no. Traé esa lista para que podamos construir juntos un enfoque que se adapte a lo que necesitás hoy."
+    },
+    {
+      "codigo": "DT-29",
+      "iconos": [
+        "span",
+        "⚓",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué te asusta más: necesitar demasiado de este espacio, o no necesitarlo en absoluto?",
+      "objetivo": "Explorar la ambivalencia hacia la dependencia terapéutica. Trabajar el miedo a la fusión vs. el miedo al abandono o a la autosuficiencia forzada.",
+      "profundizacion": [
+        "¿Qué significa para vos \"necesitar\" a alguien? ¿Es debilidad o es conexión?",
+        "¿Cómo aprendiste a lidiar con la dependencia en tus vínculos tempranos?",
+        "¿Qué necesitarías para sentir que podés apoyarte en mí sin perder tu autonomía?",
+        "✔ Evitación feroz de mostrar vulnerabilidad (falsa independencia).",
+        "✔ Angustia ante la idea de la separación o el fin de la terapia.",
+        "✔ Reconocimiento de la necesidad de un apego seguro.",
+        "✔ Fluctuación entre el acercamiento intenso y el alejamiento defensivo."
+      ],
+      "observacion": [
+        "Evitación feroz de mostrar vulnerabilidad (falsa independencia).",
+        "Angustia ante la idea de la separación o el fin de la terapia.",
+        "Reconocimiento de la necesidad de un apego seguro.",
+        "Fluctuación entre el acercamiento intenso y el alejamiento defensivo."
+      ],
+      "intervenciones": [
+        "Teoría del Apego:: Identificar el estilo de apego y cómo se manifiesta en la sala.",
+        "IFS:: Dialogar con la parte que teme la dependencia y la que teme la soledad.",
+        "Relacional:: Ofrecer una base segura que permita la exploración y el retorno."
+      ],
+      "tarea": "Reflexioná sobre una relación en tu vida donde la dependencia sea saludable. ¿Qué la hace segura? Anotá esas características."
+    },
+    {
+      "codigo": "DT-30",
+      "iconos": [
+        "span",
+        "🚪",
+        "span",
+        "span",
+        "⏳",
+        "span"
+      ],
+      "pregunta": "¿Qué excusa estamos usando para prolongar este proceso más allá de lo que realmente necesita?",
+      "objetivo": "Abordar la evitación del cierre o la prolongación innecesaria de la terapia. Evaluar si el proceso ha cumplido sus metas o si se ha convertido en una zona de confort.",
+      "profundizacion": [
+        "¿Qué temés que pase en tu vida cuando ya no nos veamos semanalmente?",
+        "¿Estamos hablando de cosas nuevas o reciclando viejos temas por comodidad?",
+        "¿Qué necesitarías para sentirte listo para cerrar este capítulo con confianza?",
+        "✔ Sesiones que se vuelven charlas casuales sin profundidad clínica.",
+        "✔ Aparición de \"nuevos\" problemas menores justo cuando se habla del alta.",
+        "✔ Miedo mutuo a la separación o al duelo del vínculo.",
+        "✔ Reconocimiento honesto de que es momento de transitar la despedida."
+      ],
+      "observacion": [
+        "Sesiones que se vuelven charlas casuales sin profundidad clínica.",
+        "Aparición de \"nuevos\" problemas menores justo cuando se habla del alta.",
+        "Miedo mutuo a la separación o al duelo del vínculo.",
+        "Reconocimiento honesto de que es momento de transitar la despedida."
+      ],
+      "intervenciones": [
+        "Revisión de metas:: Evaluar objetivamente los logros alcanzados desde la primera sesión.",
+        "Terapia de Esquemas:: Trabajar el miedo al abandono o la incapacidad percibida para funcionar solo.",
+        "Gradualidad:: Proponer un espaciado progresivo de las sesiones como puente hacia el alta."
+      ],
+      "tarea": "Hacé una lista de 3 herramientas o insights que te llevás de este proceso. Leela cuando sientas que \"no podés solo\", para recordar que ya tenés lo necesario."
+    },
+    {
+      "codigo": "DT-31",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿En qué momentos de nuestra relación has sentido que soy un 'espejo roto' que no te refleja o te juzga?",
+      "objetivo": "Abordar las rupturas de empatía o los malentendidos en la alianza terapéutica. Validar la percepción subjetiva del paciente y reparar el vínculo mediante la transparencia.",
+      "profundizacion": [
+        "¿Qué palabra o gesto mío te hizo sentir que no te estaba entendiendo?",
+        "¿Qué temías que pasara si me lo decías en ese momento?",
+        "¿Qué necesitarías de mí ahora para que el espejo vuelva a reflejarte con claridad?",
+        "✔ Acusación directa o enojo contenido hacia el terapeuta.",
+        "✔ Alivio visible al ver que el terapeuta no se pone a la defensiva.",
+        "✔ Negación inicial por miedo a dañar la relación (\"no, no es nada\").",
+        "✔ Fortalecimiento drástico de la confianza tras la reparación."
+      ],
+      "observacion": [
+        "Acusación directa o enojo contenido hacia el terapeuta.",
+        "Alivio visible al ver que el terapeuta no se pone a la defensiva.",
+        "Negación inicial por miedo a dañar la relación (\"no, no es nada\").",
+        "Fortalecimiento drástico de la confianza tras la reparación."
+      ],
+      "intervenciones": [
+        "Relacional:: Asumir la responsabilidad sin justificaciones y validar la experiencia del paciente.",
+        "Terapia de Esquemas:: Explorar si la \"rotura\" activó un esquema de Abandono o Defecto.",
+        "Humanista:: Uso de la congruencia y la empatía primaria para restaurar el vínculo."
+      ],
+      "tarea": "Si surge alguna incomodidad conmigo antes de la próxima sesión, anótala. Tráela como material de trabajo, practicando el acto de expresar una duda en un entorno seguro."
+    },
+    {
+      "codigo": "DT-32",
+      "iconos": [
+        "span",
+        "📝",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué pasa por tu mente cuando no completas una tarea o 'deber' que acordamos, y cómo crees que yo lo juzgo?",
+      "objetivo": "Desactivar la culpa y la vergüenza asociadas al incumplimiento de tareas. Explorar la resistencia, el perfeccionismo o las expectativas irreales sobre el \"paciente ideal\".",
+      "profundizacion": [
+        "¿La tarea era demasiado difícil, irrelevante o te generaba ansiedad?",
+        "¿Qué voz interna te critica por no haberla hecho?",
+        "¿Qué pasaría si aceptáramos que no hacerla es, en sí mismo, un dato clínico valioso?",
+        "✔ Justificaciones elaboradas o minimización (\"se me olvidó\", \"no tuve tiempo\").",
+        "✔ Vergüenza intensa y expectativa de regaño por parte del terapeuta.",
+        "✔ Resistencia pasiva a tareas que no resuenan con sus valores.",
+        "✔ Alivio al descubrir que el \"fracaso\" es parte del proceso, no un castigo."
+      ],
+      "observacion": [
+        "Justificaciones elaboradas o minimización (\"se me olvidó\", \"no tuve tiempo\").",
+        "Vergüenza intensa y expectativa de regaño por parte del terapeuta.",
+        "Resistencia pasiva a tareas que no resuenan con sus valores.",
+        "Alivio al descubrir que el \"fracaso\" es parte del proceso, no un castigo."
+      ],
+      "intervenciones": [
+        "TCC:: Analizar las creencias disfuncionales sobre el rendimiento y el \"deber\".",
+        "Motivacional:: Explorar la ambivalencia y ajustar la tarea al nivel de readiness del paciente.",
+        "Humanista:: Ofrecer aceptación incondicional, desvinculando el valor del paciente de su \"productividad\"."
+      ],
+      "tarea": "Esta semana, si no puedes hacer algo acordado, practica decírmelo directamente al inicio de la sesión sin dar excusas. Observa mi reacción y la tuya."
+    },
+    {
+      "codigo": "DT-33",
+      "iconos": [
+        "span",
+        "🏷️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué etiqueta o diagnóstico de otros profesionales sientes que te define, y cuál te gustaría arrancar de tu piel hoy?",
+      "objetivo": "Explorar el impacto de las etiquetas clínicas previas. Diferenciar entre la identidad de la persona y el diagnóstico, fomentando la externalización del problema.",
+      "profundizacion": [
+        "¿Esa etiqueta te ha dado alivio (nombre a lo que te pasa) o te ha encerrado en una caja?",
+        "¿Qué partes de ti quedan ocultas cuando te llaman solo por ese diagnóstico?",
+        "¿Cómo te describirías si no existieran los manuales de diagnóstico?",
+        "✔ Fusión total con el diagnóstico (\"soy bipolar\", \"soy TDAH\").",
+        "✔ Resentimiento hacia el sistema o profesionales previos.",
+        "✔ Alivio al ser visto como una persona compleja, no como un conjunto de síntomas.",
+        "✔ Uso del diagnóstico como excusa para no cambiar (\"es mi química\")."
+      ],
+      "observacion": [
+        "Fusión total con el diagnóstico (\"soy bipolar\", \"soy TDAH\").",
+        "Resentimiento hacia el sistema o profesionales previos.",
+        "Alivio al ser visto como una persona compleja, no como un conjunto de síntomas.",
+        "Uso del diagnóstico como excusa para no cambiar (\"es mi química\")."
+      ],
+      "intervenciones": [
+        "Narrativa:: Externalización: \"Tú no eres el problema, el problema es el problema\".",
+        "ACT:: Defusión de las etiquetas y conexión con los valores personales.",
+        "Psicoeducación:: Explicar el diagnóstico como una herramienta descriptiva, no como una sentencia de identidad."
+      ],
+      "tarea": "Escribe la etiqueta que más te pesa. Al lado, escribe 3 cualidades o roles tuyos que esa etiqueta no puede capturar (ej. \"amigo leal\", \"creativo\")."
+    },
+    {
+      "codigo": "DT-34",
+      "iconos": [
+        "span",
+        "🦸",
+        "span",
+        "span",
+        "⚖️",
+        "span"
+      ],
+      "pregunta": "¿Sientes que estoy intentando 'salvarte' o que tú estás esperando que yo lo haga? ¿Cómo nos afecta eso?",
+      "objetivo": "Identificar y disolver la dinámica de rescate (triángulo dramático de Karpman). Fomentar la corresponsabilidad y la autonomía en el proceso terapéutico.",
+      "profundizacion": [
+        "¿Qué ganas tú si yo soy el \"experto que tiene todas las respuestas\"?",
+        "¿Qué pierdo yo como terapeuta si asumo el rol de salvador en lugar de facilitador?",
+        "¿Cómo sería nuestra relación si fuéramos dos adultos colaborando en igualdad de condiciones?",
+        "✔ Dependencia excesiva de los consejos o validación del terapeuta.",
+        "✔ Agotamiento del terapeuta (contratransferencia de rescate).",
+        "✔ Enojo o decepción del paciente cuando el terapeuta no \"resuelve\" el problema.",
+        "✔ Empoderamiento gradual al asumir la propia agencia."
+      ],
+      "observacion": [
+        "Dependencia excesiva de los consejos o validación del terapeuta.",
+        "Agotamiento del terapeuta (contratransferencia de rescate).",
+        "Enojo o decepción del paciente cuando el terapeuta no \"resuelve\" el problema.",
+        "Empoderamiento gradual al asumir la propia agencia."
+      ],
+      "intervenciones": [
+        "Análisis Transaccional:: Salir del rol de \"Salvador\" para no alimentar el rol de \"Víctima\".",
+        "Colaborativa:: Devolver preguntas al paciente: \"¿Qué te dice tu intuición sobre esto?\".",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" del paciente para que no necesite un salvador externo."
+      ],
+      "tarea": "Antes de la próxima sesión, toma una decisión pequeña por ti mismo sin pedir consejo a nadie. Tráela como evidencia de tu propia capacidad de respuesta."
+    },
+    {
+      "codigo": "DT-35",
+      "iconos": [
+        "span",
+        "🧊",
+        "span",
+        "span",
+        "🗣️",
+        "span"
+      ],
+      "pregunta": "Cuando dices 'hoy no tengo nada que decir' o 'estoy en blanco', ¿es un vacío real o una pared que estás levantando?",
+      "objetivo": "Diferenciar entre el bloqueo genuino, el agotamiento o la resistencia defensiva. Explorar el silencio no como un fracaso, sino como un material terapéutico válido.",
+      "profundizacion": [
+        "¿Qué pasaría si nos quedáramos en este silencio juntos por unos minutos sin forzar nada?",
+        "¿Hay algo que estés evitando que, si saliera, sería demasiado intenso para hoy?",
+        "¿Necesitas que yo te haga una pregunta muy específica o prefieres que te acompañe en el vacío?",
+        "✔ Mirada perdida, desconexión o disociación leve.",
+        "✔ Tensión muscular que sugiere contención activa, no vacío.",
+        "✔ Alivio cuando el terapeuta valida el silencio en lugar de llenarlo.",
+        "✔ Frustración mutua si el terapeuta presiona demasiado."
+      ],
+      "observacion": [
+        "Mirada perdida, desconexión o disociación leve.",
+        "Tensión muscular que sugiere contención activa, no vacío.",
+        "Alivio cuando el terapeuta valida el silencio en lugar de llenarlo.",
+        "Frustración mutua si el terapeuta presiona demasiado."
+      ],
+      "intervenciones": [
+        "Somática:: Regular el sistema nervioso antes de exigir contenido verbal (ofrecer grounding).",
+        "Gestalt:: Amplificar el silencio, darle forma, peso o temperatura en la sala.",
+        "ACT:: Aceptar la incomodidad del silencio sin intentar \"arreglarlo\" inmediatamente."
+      ],
+      "tarea": "Esta semana, cuando sientas que \"no tienes nada que decir\" en tu vida diaria, quédate con esa sensación 30 segundos. Observa qué emoción o pensamiento emerge debajo del \"bloqueo\"."
+    },
+    {
+      "codigo": "DT-36",
+      "iconos": [
+        "span",
+        "🔥",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Hay algo de mi forma de trabajar que te genere enojo o frustración, pero que te da miedo expresar por temor a que me ofenda o te abandone?",
+      "objetivo": "Abordar la hostilidad encubierta o la transferencia negativa. Crear un espacio seguro para la crítica constructiva, fortaleciendo la solidez de la alianza terapéutica.",
+      "profundizacion": [
+        "¿En qué momento exacto sentiste que no te estaba escuchando o que te juzgaba?",
+        "¿Qué temes que pase si me lo dices abiertamente?",
+        "¿Esta sensación de enojo te resulta familiar de otras relaciones de autoridad en tu vida?",
+        "✔ Sarcasmo sutil, pasivo-agresividad o llegadas sistemáticas tarde.",
+        "✔ Sumisión aparente con tensión corporal de enojo contenido.",
+        "✔ Ruptura emocional catártica al finalmente expresar la emoción oculta.",
+        "✔ Mejora drástica de la alianza tras la validación de la emoción negativa."
+      ],
+      "observacion": [
+        "Sarcasmo sutil, pasivo-agresividad o llegadas sistemáticas tarde.",
+        "Sumisión aparente con tensión corporal de enojo contenido.",
+        "Ruptura emocional catártica al finalmente expresar la emoción oculta.",
+        "Mejora drástica de la alianza tras la validación de la emoción negativa."
+      ],
+      "intervenciones": [
+        "Relacional:: Agradecer la honestidad y modelar una relación que sobrevive al conflicto.",
+        "Psicodinámica:: Interpretación de la transferencia como repetición de patrones relacionales tempranos.",
+        "Gestalt:: Expresión directa y en primera persona de la emoción hacia el terapeuta en el aquí y ahora."
+      ],
+      "tarea": "Si notas una emoción negativa hacia mí o hacia el proceso, anótala inmediatamente después de la sesión. El simple acto de nombrarla reduce su poder destructivo."
+    },
+    {
+      "codigo": "DT-37",
+      "iconos": [
+        "span",
+        "📚",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Estás usando tu conocimiento teórico o psicológico como un escudo para no tener que sentir la vulnerabilidad de tu propia experiencia?",
+      "objetivo": "Desafiar la \"psicologización defensiva\". Ayudar al paciente a transitar del \"entender\" el problema a \"experimentar y procesar\" la emoción asociada.",
+      "profundizacion": [
+        "¿Qué pasaría si dejaras de explicarme tu problema con términos técnicos y solo me mostraras cómo te duele?",
+        "¿A quién necesitas demostrarle que \"entiendes\" perfectamente lo que te pasa?",
+        "¿Qué emoción específica se esconde detrás de este análisis tan perfecto?",
+        "✔ Uso de jerga psicológica o conceptos teóricos para describir su propio dolor.",
+        "✔ Ausencia de lágrimas, rabia o tristeza a pesar de narrar eventos traumáticos.",
+        "✔ Frustración cuando el terapeuta devuelve la pregunta al cuerpo o a la emoción.",
+        "✔ Liberación emocional repentina al bajar la guardia intelectual."
+      ],
+      "observacion": [
+        "Uso de jerga psicológica o conceptos teóricos para describir su propio dolor.",
+        "Ausencia de lágrimas, rabia o tristeza a pesar de narrar eventos traumáticos.",
+        "Frustración cuando el terapeuta devuelve la pregunta al cuerpo o a la emoción.",
+        "Liberación emocional repentina al bajar la guardia intelectual."
+      ],
+      "intervenciones": [
+        "Somática:: \"Deja la historia un momento. ¿Dónde sientes eso en tu cuerpo ahora mismo?\".",
+        "Gestalt:: Pedir al paciente que repita una frase emocionalmente cargada en lugar de explicarla.",
+        "EMDR:: Mover el procesamiento del córtex prefrontal hacia las redes de memoria emocional."
+      ],
+      "tarea": "Esta semana, cuando te sorprendas analizando una emoción, detente y pon una mano en tu pecho. Pregúntate: \"¿Qué necesita sentir esta parte, sin que yo la explique?\"."
+    },
+    {
+      "codigo": "DT-38",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🌫️",
+        "span"
+      ],
+      "pregunta": "¿Sientes que este proceso te está haciendo cuestionar tus creencias más profundas? ¿Te da miedo o te libera ese cuestionamiento?",
+      "objetivo": "Abordar la crisis de valores o de significado que a menudo surge en fases intermedias de la terapia. Validar la desorientación como parte del crecimiento.",
+      "profundizacion": [
+        "¿Qué creencia sobre ti, sobre los demás o sobre el mundo está tambaleándose ahora?",
+        "¿Qué te daba seguridad esa creencia antigua?",
+        "¿Qué nuevo valor o verdad estás empezando a vislumbrar en medio de esta niebla?",
+        "✔ Ansiedad existencial o sensación de \"pérdida de suelo\".",
+        "✔ Nostalgia por la \"ingenuidad\" o las certezas del pasado.",
+        "✔ Apertura y curiosidad por construir un nuevo sistema de significado.",
+        "✔ Conflicto con valores familiares o culturales al individuar."
+      ],
+      "observacion": [
+        "Ansiedad existencial o sensación de \"pérdida de suelo\".",
+        "Nostalgia por la \"ingenuidad\" o las certezas del pasado.",
+        "Apertura y curiosidad por construir un nuevo sistema de significado.",
+        "Conflicto con valores familiares o culturales al individuar."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Acompañar la búsqueda de sentido en medio de la crisis.",
+        "Constructivismo:: Validar que deconstruir es un paso necesario para reconstruir.",
+        "ACT:: Clarificación de valores propios, diferenciándolos de los impuestos."
+      ],
+      "tarea": "Escribe una creencia antigua que ya no te sirve y una nueva que estás empezando a cultivar. Obsérvalas como un puente entre quien eras y quien estás llegando a ser."
+    },
+    {
+      "codigo": "DT-39",
+      "iconos": [
+        "span",
+        "🛑",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna parte de ti que está saboteando el progreso justo ahora que las cosas empiezan a ir bien?",
+      "objetivo": "Explorar el autoboicot o la \"reacción terapéutica negativa\". Identificar el miedo al éxito, a la responsabilidad o a la pérdida de la identidad de \"enfermo\".",
+      "profundizacion": [
+        "¿Qué se volvería más difícil o exigente en tu vida si este problema desapareciera?",
+        "¿A quién en tu entorno le resultaría incómodo que tú estés bien?",
+        "¿Qué le dirías a esa parte de ti que tiene tanto miedo de mejorar?",
+        "✔ Aparición de nuevos síntomas \"de reemplazo\" tras una mejora significativa.",
+        "✔ Procrastinación o olvido de sesiones justo después de un avance.",
+        "✔ Reconocimiento honesto del miedo a la nueva responsabilidad.",
+        "✔ Duelo por la pérdida del rol de \"víctima\" o \"paciente\".",
+        "<strong>Sistémica:</strong> Explorar las lealtades invisibles y los mandatos familiares de sufrimiento."
+      ],
+      "observacion": [
+        "Aparición de nuevos síntomas \"de reemplazo\" tras una mejora significativa.",
+        "Procrastinación o olvido de sesiones justo después de un avance.",
+        "Reconocimiento honesto del miedo a la nueva responsabilidad.",
+        "Duelo por la pérdida del rol de \"víctima\" o \"paciente\".",
+        "<strong>Sistémica:</strong> Explorar las lealtades invisibles y los mandatos familiares de sufrimiento."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la \"parte protectora\" que sabotea para evitar un peligro percibido.Sistémica:: Explorar las lealtades invisibles y los mandatos familiares de sufrimiento. Narrativa:: Re-autoría de la identidad más allá del problema."
+      ],
+      "tarea": "Identifica un pequeño acto de autoboicot esta semana. En lugar de juzgarte, pregúntale con curiosidad: \"¿De qué estás intentando protegerme?\". Anota la respuesta."
+    },
+    {
+      "codigo": "DT-40",
+      "iconos": [
+        "span",
+        "❓",
+        "span",
+        "span",
+        "🤝",
+        "span"
+      ],
+      "pregunta": "Si me preguntaras '¿Usted qué haría en mi lugar?', ¿qué crees que te respondería y por qué esa respuesta no te sirve del todo?",
+      "objetivo": "Manejar la demanda de directividad. Fomentar la autonomía, la autoeficacia y la tolerancia a la incertidumbre, evitando la trampa del \"experto salvador\".",
+      "profundizacion": [
+        "¿Qué te da más miedo: tomar tu propia decisión o equivocarte?",
+        "¿A quién estás intentando culpar si el consejo que te doy no funciona?",
+        "¿Qué evidencia tenés de que ya sabés más de lo que crees sobre tu propia vida?",
+        "✔ Frustración o impaciencia ante las preguntas reflexivas del terapeuta.",
+        "✔ Alivio progresivo al descubrir sus propias respuestas.",
+        "✔ Intentos repetidos de devolver la responsabilidad al terapeuta.",
+        "✔ Empoderamiento visible al tomar una decisión autónoma."
+      ],
+      "observacion": [
+        "Frustración o impaciencia ante las preguntas reflexivas del terapeuta.",
+        "Alivio progresivo al descubrir sus propias respuestas.",
+        "Intentos repetidos de devolver la responsabilidad al terapeuta.",
+        "Empoderamiento visible al tomar una decisión autónoma."
+      ],
+      "intervenciones": [
+        "Motivacional:: Usar preguntas abiertas para evocar la propia motivación y sabiduría del paciente.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Competente\" frente al \"Niño que necesita que lo salven\".",
+        "Constructivismo:: El terapeuta como facilitador del significado, no como poseedor de la verdad."
+      ],
+      "tarea": "Esta semana, ante una duda pequeña, tomá la decisión por vos mismo sin consultar a nadie. Anotá cómo te sentiste al confiar en tu propio criterio."
+    },
+    {
+      "codigo": "DT-41",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Sientes que esta sesión se ha vuelto una rutina predecible y qué necesitamos hacer hoy para romper ese patrón?",
+      "objetivo": "Abordar el estancamiento o la \"rutinización\" del proceso terapéutico. Reactivar la alianza y la curiosidad mutua cuando las sesiones se sienten mecánicas.",
+      "profundizacion": [
+        "¿En qué momento empezamos a dar vueltas en círculo sin avanzar?",
+        "¿Qué tema estamos evitando tocar porque se siente demasiado incómodo?",
+        "¿Qué pasaría si hoy hiciéramos algo radicalmente diferente a lo habitual?",
+        "✔ Sensación mutua de aburrimiento, piloto automático o falta de chispa.",
+        "✔ Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "✔ Alivio al nombrar el \"elefante en la habitación\" (el estancamiento).",
+        "✔ Apertura y creatividad al ser invitado a cambiar las reglas del juego."
+      ],
+      "observacion": [
+        "Sensación mutua de aburrimiento, piloto automático o falta de chispa.",
+        "Repetición de las mismas quejas sin nuevos insights ni acciones.",
+        "Alivio al nombrar el \"elefante en la habitación\" (el estancamiento).",
+        "Apertura y creatividad al ser invitado a cambiar las reglas del juego."
+      ],
+      "intervenciones": [
+        "Supervisión:: El terapeuta busca una mirada externa para desbloquear su propia contratransferencia de aburrimiento.",
+        "Experimento:: Proponer una dinámica inusual (escribir en lugar de hablar, cambiar de asiento, usar arte).",
+        "Revisión de metas:: Volver al contrato terapéutico inicial y ajustar las expectativas y el enfoque."
+      ],
+      "tarea": "Propón tú mismo una idea \"loca\" o diferente para la próxima sesión. Romper la rutina es responsabilidad de ambos, no solo del terapeuta."
+    },
+    {
+      "codigo": "DT-42",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿De qué tema hemos estado dando vueltas sin tocar el centro, y qué nos da tanto miedo enfrentar?",
+      "objetivo": "Identificar la evitación experiencial encubierta y la resistencia a profundizar en el material nuclear del conflicto.",
+      "profundizacion": [
+        "¿Qué catástrofe imaginas que ocurriría si tocáramos ese tema directamente?",
+        "¿Quién en tu historia te enseñó que hablar de eso era peligroso o prohibido?",
+        "¿Qué necesitarías de mí para sentirte lo suficientemente seguro como para dar ese paso?",
+        "✔ Cambios de tema sutiles pero constantes cuando se acerca el núcleo.",
+        "✔ Intelectualización o humor como mecanismo de desvío.",
+        "✔ Activación somática visible (respiración contenida, tensión) al rozar el tema.",
+        "✔ Alivio profundo cuando el terapeuta valida el miedo y ofrece contención."
+      ],
+      "observacion": [
+        "Cambios de tema sutiles pero constantes cuando se acerca el núcleo.",
+        "Intelectualización o humor como mecanismo de desvío.",
+        "Activación somática visible (respiración contenida, tensión) al rozar el tema.",
+        "Alivio profundo cuando el terapeuta valida el miedo y ofrece contención."
+      ],
+      "intervenciones": [
+        "EMDR:: Preparar el terreno con recursos de estabilidad antes de abordar la memoria nuclear.",
+        "Somática:: Trabajar la regulación del sistema nervioso para ampliar la ventana de tolerancia al tema.",
+        "IFS:: Negociar con la \"parte protectora\" que desvía la atención para obtener permiso de acercarse."
+      ],
+      "tarea": "Escribe el nombre del tema evitado en un papel. No tienes que hablar de él aún, solo sostén el papel y observa qué sensaciones corporales emergen."
+    },
+    {
+      "codigo": "DT-43",
+      "iconos": [
+        "span",
+        "🚧",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna regla o límite de este espacio terapéutico que sientas la necesidad de probar o desafiar hoy?",
+      "objetivo": "Abordar la actuación (acting out) o la puesta a prueba de los límites del encuadre como una forma de comunicación no verbal de necesidades o miedos relacionales.",
+      "profundizacion": [
+        "¿Qué esperas que haga yo si cruzas ese límite? (¿Que me enoje, que ceda, que te abandone?).",
+        "¿Esta necesidad de probar se siente familiar de otras relaciones en tu vida?",
+        "¿Qué te daría la seguridad de que no necesitas poner a prueba este vínculo?",
+        "✔ Llegadas tarde sistemáticas, intentos de prolongar la sesión o contacto fuera de horario.",
+        "✔ Provocación sutil o desafío a la autoridad del terapeuta.",
+        "✔ Alivio cuando el terapeuta mantiene el límite con firmeza y calidez.",
+        "✔ Miedo a la represalia tras el desafío."
+      ],
+      "observacion": [
+        "Llegadas tarde sistemáticas, intentos de prolongar la sesión o contacto fuera de horario.",
+        "Provocación sutil o desafío a la autoridad del terapeuta.",
+        "Alivio cuando el terapeuta mantiene el límite con firmeza y calidez.",
+        "Miedo a la represalia tras el desafío."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis de la transferencia y la repetición de patrones de vínculo tempranos.",
+        "Encuadre:: Reafirmación clara, consistente y no punitiva de los límites terapéuticos.",
+        "Terapia de Esquemas:: Trabajar el esquema de Inestabilidad Emocional o Desconfianza/Abuso."
+      ],
+      "tarea": "Reflexiona: \"¿Qué necesito realmente cuando siento el impulso de desafiar una regla?\". Anota la necesidad subyacente (ej. atención, seguridad, control) y tráela a la sesión."
+    },
+    {
+      "codigo": "DT-44",
+      "iconos": [
+        "span",
+        "🚪",
+        "span",
+        "span",
+        "⏳",
+        "span"
+      ],
+      "pregunta": "¿Qué fantasía tienes sobre el día en que ya no nos veamos más, y cómo afecta eso a lo que hacemos hoy?",
+      "objetivo": "Explorar la ansiedad de separación, el apego al terapeuta o el miedo al abandono, que pueden estar frenando el progreso o la autonomía.",
+      "profundizacion": [
+        "¿Te imaginas ese día con alivio, con pánico o con tristeza?",
+        "¿Sientes que si mejoras demasiado, perderás este espacio y a mí?",
+        "¿Qué necesitas para confiar en que podrás sostenerte sin esta silla frente a ti?",
+        "✔ Aparición de \"nuevos\" problemas menores justo cuando se habla de avances.",
+        "✔ Idealización del terapeuta como única fuente de estabilidad.",
+        "✔ Tristeza o duelo anticipado al mencionar el final del proceso.",
+        "✔ Capacidad de integrar la despedida como parte natural del crecimiento."
+      ],
+      "observacion": [
+        "Aparición de \"nuevos\" problemas menores justo cuando se habla de avances.",
+        "Idealización del terapeuta como única fuente de estabilidad.",
+        "Tristeza o duelo anticipado al mencionar el final del proceso.",
+        "Capacidad de integrar la despedida como parte natural del crecimiento."
+      ],
+      "intervenciones": [
+        "Teoría del Apego:: Trabajar el estilo de apego ansioso y la construcción de un objeto interno seguro.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" para que sostenga al \"Niño Vulnerable\" tras el alta.",
+        "Gradualidad:: Proponer un espaciado progresivo de las sesiones como puente hacia la autonomía."
+      ],
+      "tarea": "Escribe una lista de 3 herramientas o recursos que ya has internalizado de este proceso y que te llevarás contigo cuando ya no nos veamos."
+    },
+    {
+      "codigo": "DT-45",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿En qué parte de tu cuerpo sientes la resistencia a hablar de lo que realmente importa hoy?",
+      "objetivo": "Bypassar la resistencia cognitiva y acceder directamente a la somatización de la evitación. Validar el cuerpo como radar de la verdad emocional.",
+      "profundizacion": [
+        "¿Es un nudo, un vacío, un calor o una pesadez?",
+        "¿Qué te dice esa sensación si la escuchas sin intentar cambiarla?",
+        "¿Qué necesitaría esa parte de tu cuerpo para sentirse lo suficientemente segura como para soltar un poco?",
+        "✔ Disociación o desconexión total de las sensaciones corporales.",
+        "✔ Identificación precisa de la zona de tensión vinculada al tema evitado.",
+        "✔ Alivio somático visible al ser validada la sensación sin presión para hablar.",
+        "✔ Llanto o liberación emocional al conectar la sensación con la emoción."
+      ],
+      "observacion": [
+        "Disociación o desconexión total de las sensaciones corporales.",
+        "Identificación precisa de la zona de tensión vinculada al tema evitado.",
+        "Alivio somático visible al ser validada la sensación sin presión para hablar.",
+        "Llanto o liberación emocional al conectar la sensación con la emoción."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Pendulación: mover la atención entre la zona de tensión y un recurso de calma en el cuerpo.",
+        "Focusing:: Acompañar al paciente a \"sentir el sentido\" (felt sense) de la resistencia sin forzar la verbalización.",
+        "EMDR:: Usar la sensación corporal como foco de atención bilateral para procesar el bloqueo."
+      ],
+      "tarea": "Cuando sientas esa resistencia corporal esta semana, pon tu mano sobre esa zona, respira y dite: \"Te escucho, no tenemos que resolverlo ahora\"."
+    },
+    {
+      "codigo": "DT-46",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Cuánto de lo que me cuentas hoy es para que yo te vea como un 'buen paciente' y cuánto es tu verdad cruda y desordenada?",
+      "objetivo": "Desarmar la complacencia terapéutica y la máscara del \"paciente ideal\". Fomentar la autenticidad y detectar la ansiedad por agradar al terapeuta.",
+      "profundizacion": [
+        "¿Qué temes que pase si me muestras una parte \"fea\", caótica o \"malas\" de ti?",
+        "¿De quién es esa voz que te dice que debes ser el paciente ejemplar?",
+        "¿Cómo se siente tu cuerpo cuando filtras tus palabras para que suenen bien?",
+        "✔ Discurso excesivamente coherente, pulido o intelectualizado.",
+        "✔ Búsqueda constante de aprobación o validación del terapeuta.",
+        "✔ Alivio visible cuando se le da permiso explícito para ser \"desordenado\".",
+        "✔ Enojo o frustración si el terapeuta no \"adivina\" lo que calla."
+      ],
+      "observacion": [
+        "Discurso excesivamente coherente, pulido o intelectualizado.",
+        "Búsqueda constante de aprobación o validación del terapeuta.",
+        "Alivio visible cuando se le da permiso explícito para ser \"desordenado\".",
+        "Enojo o frustración si el terapeuta no \"adivina\" lo que calla."
+      ],
+      "intervenciones": [
+        "Relacional:: Validar explícitamente que el espacio es para lo auténtico, no para lo \"correcto\".",
+        "IFS:: Dialogar con la \"parte gerente\" que intenta controlar la impresión que causa.",
+        "Gestalt:: Experimento de decir una \"verdad fea\" o incómoda en la sesión."
+      ],
+      "tarea": "Esta semana, cuando sientas la urgencia de decir lo \"correcto\" en lugar de lo verdadero, haz una pausa. Anota qué hubieras dicho si no te importara la aprobación del otro."
+    },
+    {
+      "codigo": "DT-47",
+      "iconos": [
+        "span",
+        "🪑",
+        "span",
+        "span",
+        "🤝",
+        "span"
+      ],
+      "pregunta": "Si nuestra relación terapéutica fuera un objeto en esta habitación, ¿cuál sería y en qué estado se encuentra hoy?",
+      "objetivo": "Externalizar la alianza terapéutica para evaluar su estado de forma segura y metafórica, facilitando la discusión sobre rupturas o fortalezas del vínculo.",
+      "profundizacion": [
+        "¿Es un objeto frágil, sólido, oxidado, flexible o pesado?",
+        "¿Quién se encarga de cuidar o mantener ese objeto?",
+        "¿Qué necesitaría ese objeto para estar en mejores condiciones?",
+        "✔ Creatividad y proyección clara del estado del vínculo.",
+        "✔ Descripción de objetos rotos o inestables (señal de ruptura no hablada).",
+        "✔ Dificultad para acceder a la metáfora (rigidez cognitiva).",
+        "✔ Alivio al poder hablar del vínculo a través de un objeto tercero."
+      ],
+      "observacion": [
+        "Creatividad y proyección clara del estado del vínculo.",
+        "Descripción de objetos rotos o inestables (señal de ruptura no hablada).",
+        "Dificultad para acceder a la metáfora (rigidez cognitiva).",
+        "Alivio al poder hablar del vínculo a través de un objeto tercero."
+      ],
+      "intervenciones": [
+        "Gestalt:: Dialogar con el objeto que representa la relación para entender sus necesidades.",
+        "Relacional:: Usar la metáfora para negociar reparaciones o ajustes en el encuadre.",
+        "Arte terapia:: Dibujar o modelar ese objeto para explorar sus detalles de forma no verbal."
+      ],
+      "tarea": "Dibuja o describe ese objeto en tu libreta. Obsérvalo y pregúntate: \"¿Qué puedo hacer yo esta semana para cuidar un poco más de este objeto?\"."
+    },
+    {
+      "codigo": "DT-48",
+      "iconos": [
+        "span",
+        "👁️",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de ti teme que, si te conozco realmente, deje de aceptarte o validarte?",
+      "objetivo": "Abordar la vergüenza tóxica y el miedo a la exposición total. Trabajar la creencia nuclear de ser \"inaceptable\" o \"defectuoso\" si se muestra la vulnerabilidad.",
+      "profundizacion": [
+        "¿Qué experiencia pasada te enseñó que ser visto completamente era peligroso?",
+        "¿Qué \"defecto\" crees que es tan grande que yo no podría tolerarlo?",
+        "¿Qué pasaría si, a pesar de ver eso, yo siguiera aquí, sentado frente a ti?",
+        "✔ Vergüenza intensa, rubor, mirada hacia el suelo.",
+        "✔ Minimización de los propios logros o cualidades.",
+        "✔ Pruebas constantes de la aceptación del terapeuta.",
+        "✔ Llanto liberador al experimentar una aceptación incondicional."
+      ],
+      "observacion": [
+        "Vergüenza intensa, rubor, mirada hacia el suelo.",
+        "Minimización de los propios logros o cualidades.",
+        "Pruebas constantes de la aceptación del terapeuta.",
+        "Llanto liberador al experimentar una aceptación incondicional."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión para contrarrestar la voz de la vergüenza interna.",
+        "Humanista:: Ofrecer una presencia cálida, congruente y de aceptación radical.",
+        "EMDR:: Procesar las memorias de humillación o rechazo que instalaron esta creencia."
+      ],
+      "tarea": "Escribe una cualidad o experiencia que hayas ocultado por vergüenza. Al lado, escribe cómo le responderías a un amigo querido que te confesara eso mismo."
+    },
+    {
+      "codigo": "DT-49",
+      "iconos": [
+        "span",
+        "⏱️",
+        "span",
+        "span",
+        "🌊",
+        "span"
+      ],
+      "pregunta": "¿Sientes que vamos demasiado rápido para tu ritmo o demasiado lento para tu urgencia, y cómo podemos ajustar el paso?",
+      "objetivo": "Regular la alianza terapéutica y el ritmo del proceso. Evitar la retraumatización por ir demasiado rápido o la frustración y el abandono por ir demasiado lento.",
+      "profundizacion": [
+        "¿Qué te hace sentir que el ritmo actual no te sirve?",
+        "¿Qué necesitas de mí para sentir que vamos a una velocidad segura?",
+        "¿Hay alguna parte de ti que quiere acelerar y otra que quiere frenar?",
+        "✔ Ansiedad, agobio o sensación de ser desbordado (demasiado rápido).",
+        "✔ Frustración, aburrimiento o sensación de estancamiento (demasiado lento).",
+        "✔ Ambivalencia: una parte quiere correr y otra quiere esconderse.",
+        "✔ Alivio al ser consultado y tener poder de decisión sobre el ritmo."
+      ],
+      "observacion": [
+        "Ansiedad, agobio o sensación de ser desbordado (demasiado rápido).",
+        "Frustración, aburrimiento o sensación de estancamiento (demasiado lento).",
+        "Ambivalencia: una parte quiere correr y otra quiere esconderse.",
+        "Alivio al ser consultado y tener poder de decisión sobre el ritmo."
+      ],
+      "intervenciones": [
+        "Somática:: Chequear la ventana de tolerancia y ajustar la profundidad del material según la activación.",
+        "Colaborativa:: Negociar explícitamente la agenda y el ritmo de la sesión con el paciente.",
+        "IFS:: Mediar entre la \"parte ansiosa\" que quiere resultados ya y la \"parte asustada\" que necesita ir despacio."
+      ],
+      "tarea": "Antes de la próxima sesión, evalúa tu \"velocímetro interno\" del 1 al 10. Tráelo como dato para que podamos calibrar juntos el ritmo de la jornada."
+    },
+    {
+      "codigo": "DT-50",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "🗝️",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna 'agenda oculta' o expectativa no dicha que traes a esta sesión y que está dirigiendo la conversación desde las sombras?",
+      "objetivo": "Sacar a la luz las motivaciones secundarias, los deseos no expresados o las expectativas mágicas que, al no ser verbalizadas, generan frustración o desvíos en el proceso.",
+      "profundizacion": [
+        "¿Hay algo que esperas que yo haga, diga o adivine, pero que no te animas a pedir?",
+        "¿Qué pasaría si pusieras esa expectativa sobre la mesa con total honestidad?",
+        "¿Cómo te afecta el esfuerzo de mantener esa agenda en secreto?",
+        "✔ Indirectas sutiles o frustración cuando el terapeuta no \"capta la indirecta\".",
+        "✔ Sensación de que la terapia no avanza porque se está trabajando en la dirección equivocada.",
+        "✔ Alivio masivo al verbalizar la expectativa oculta (ej. \"solo quiero que me digas que no estoy loco\").",
+        "✔ Negación inicial seguida de una revelación gradual."
+      ],
+      "observacion": [
+        "Indirectas sutiles o frustración cuando el terapeuta no \"capta la indirecta\".",
+        "Sensación de que la terapia no avanza porque se está trabajando en la dirección equivocada.",
+        "Alivio masivo al verbalizar la expectativa oculta (ej. \"solo quiero que me digas que no estoy loco\").",
+        "Negación inicial seguida de una revelación gradual."
+      ],
+      "intervenciones": [
+        "Relacional:: Crear un espacio de seguridad radical donde cualquier expectativa, por \"irracional\" que parezca, pueda ser dicha.",
+        "Psicoanálisis:: Análisis de la demanda latente detrás de la demanda manifiesta.",
+        "Asertividad:: Entrenar al paciente en expresar necesidades directas en lugar de usar indirectas."
+      ],
+      "tarea": "Escribe en un papel: \"Lo que realmente quiero de esta terapia, pero me da vergüenza o miedo decir, es...\". Si te animas, tráelo la próxima vez."
+    },
+    {
+      "codigo": "DT-51",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "👁️",
+        "span"
+      ],
+      "pregunta": "¿Estás guiando esta sesión desde tu propia ansiedad por 'hacer algo útil' o desde la necesidad real del paciente en este momento?",
+      "objetivo": "Detectar la contratransferencia de \"hacer\" vs. \"estar\". Fomentar la presencia terapéutica y la tolerancia a la incertidumbre sin necesidad de intervenir constantemente.",
+      "profundizacion": [
+        "¿Qué temes que pase si te quedas en silencio y no \"diriges\" la sesión?",
+        "¿Esta intervención que planeas es para aliviar tu ansiedad o para ayudar al paciente?",
+        "¿Puedes confiar en que el paciente tiene su propio ritmo y sabiduría para encontrar el camino?",
+        "✔ Hablar demasiado, llenar silencios o dar consejos prematuros.",
+        "✔ Sensación interna de urgencia o incompetencia si no se \"hace\" algo.",
+        "✔ Alivio al soltar el control y permitir que el silencio o el paciente lideren.",
+        "✔ El paciente se siente más escuchado y menos dirigido."
+      ],
+      "observacion": [
+        "Hablar demasiado, llenar silencios o dar consejos prematuros.",
+        "Sensación interna de urgencia o incompetencia si no se \"hace\" algo.",
+        "Alivio al soltar el control y permitir que el silencio o el paciente lideren.",
+        "El paciente se siente más escuchado y menos dirigido."
+      ],
+      "intervenciones": [
+        "Supervisión:: Explorar la propia necesidad de ser \"útil\" o \"competente\" a toda costa.",
+        "Mindfulness:: Practicar la presencia plena y la observación sin juicio de la propia ansiedad.",
+        "Humanista:: Confiar en la tendencia actualizante del paciente y ofrecer presencia incondicional."
+      ],
+      "tarea": "En tu próxima sesión, cuenta mentalmente hasta 5 antes de responder a un silencio. Observa si la necesidad de hablar era tuya o del paciente."
+    },
+    {
+      "codigo": "DT-52",
+      "iconos": [
+        "span",
+        "🪞",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de tu propia historia no resuelta está siendo activada por este paciente y cómo está coloreando tu percepción?",
+      "objetivo": "Identificar la resonancia personal y la proyección de la historia no resuelta del terapeuta sobre el material del paciente.",
+      "profundizacion": [
+        "¿A quién de mi pasado me recuerda este paciente o esta situación?",
+        "¿Estoy reaccionando a lo que el paciente dice o a lo que yo viví en su lugar?",
+        "¿Qué necesito procesar en mi propia terapia o supervisión para limpiar esta lente?",
+        "✔ Reacciones emocionales desproporcionadas o intensas ante material específico.",
+        "✔ Consejos o interpretaciones que parecen más dirigidos a uno mismo que al paciente.",
+        "✔ Evitación sutil de ciertos temas que tocan la propia herida.",
+        "✔ Claridad y alivio al reconocer la proyección y separarla del proceso del paciente."
+      ],
+      "observacion": [
+        "Reacciones emocionales desproporcionadas o intensas ante material específico.",
+        "Consejos o interpretaciones que parecen más dirigidos a uno mismo que al paciente.",
+        "Evitación sutil de ciertos temas que tocan la propia herida.",
+        "Claridad y alivio al reconocer la proyección y separarla del proceso del paciente."
+      ],
+      "intervenciones": [
+        "Terapia personal:: Procesar la propia historia para evitar la contaminación del espacio terapéutico.",
+        "Supervisión:: Traer el caso específicamente para explorar la contratransferencia y la resonancia.",
+        "Reflexión:: Escribir sobre la similitud entre el caso y la propia vida para ganar distancia y objetividad."
+      ],
+      "tarea": "Escribe una carta (que no enviarás) a tu \"yo del pasado\" que se parece a este paciente. Ofrece la compasión que necesitas, para no exigirla inconscientemente al paciente."
+    },
+    {
+      "codigo": "DT-53",
+      "iconos": [
+        "span",
+        "📉",
+        "span",
+        "span",
+        "🔋",
+        "span"
+      ],
+      "pregunta": "¿Estás ignorando tus propias señales de agotamiento porque crees que 'los pacientes te necesitan más que tú a ti mismo'?",
+      "objetivo": "Confrontar la creencia de autosacrificio y el síndrome del salvador. Validar la necesidad de autocuidado como requisito ético, no como lujo.",
+      "profundizacion": [
+        "¿De dónde viene la idea de que tu bienestar es menos importante que el de tus pacientes?",
+        "¿Cómo puede un terapeuta agotado ofrecer una presencia de calidad y segura?",
+        "¿Qué pasaría si priorizaras tu descanso hoy, sin que el mundo se caiga a pedazos?",
+        "✔ Cansancio crónico, irritabilidad o cinismo con los pacientes.",
+        "✔ Culpa intensa al tomar tiempo libre o establecer límites.",
+        "✔ Errores clínicos menores o falta de atención por agotamiento.",
+        "✔ Alivio al recibir permiso explícito para cuidarse sin culpa."
+      ],
+      "observacion": [
+        "Cansancio crónico, irritabilidad o cinismo con los pacientes.",
+        "Culpa intensa al tomar tiempo libre o establecer límites.",
+        "Errores clínicos menores o falta de atención por agotamiento.",
+        "Alivio al recibir permiso explícito para cuidarse sin culpa."
+      ],
+      "intervenciones": [
+        "Ética profesional:: Revisar los códigos deontológicos que exigen el autocuidado como competencia profesional.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Autosacrificio\" y fortalecer al \"Niño Vulnerable\" propio.",
+        "Supervisión:: Evaluar la carga de casos y la necesidad de ajustar la práctica clínica."
+      ],
+      "tarea": "Cancela o reprograma una obligación no esencial esta semana y usa ese tiempo exclusivamente para algo que te recargue, sin justificarlo como \"productivo\"."
+    },
+    {
+      "codigo": "DT-54",
+      "iconos": [
+        "span",
+        "🤐",
+        "span",
+        "span",
+        "🗣️",
+        "span"
+      ],
+      "pregunta": "¿Hay algo que necesitas decirle a este paciente sobre cómo te afecta su comportamiento, pero que evitas por miedo a dañar la alianza?",
+      "objetivo": "Abordar la evitación de la confrontación terapéutica necesaria. Fomentar la autenticidad y el uso del \"aquí y ahora\" relacional de forma constructiva.",
+      "profundizacion": [
+        "¿Qué catástrofe imaginas que ocurrirá si eres honesto sobre tu experiencia en la relación?",
+        "¿Estás protegiendo al paciente o te estás protegiendo a ti de su posible reacción?",
+        "¿Cómo puedes formular este feedback de manera que sea una invitación a explorar, no un ataque?",
+        "✔ Resentimiento acumulado o frustración silenciosa del terapeuta.",
+        "✔ Sesiones que se sienten falsas o superficialmente agradables.",
+        "✔ Alivio y profundización del vínculo tras una confrontación compasiva y honesta.",
+        "✔ El paciente se siente visto y contenido, incluso en su comportamiento difícil."
+      ],
+      "observacion": [
+        "Resentimiento acumulado o frustración silenciosa del terapeuta.",
+        "Sesiones que se sienten falsas o superficialmente agradables.",
+        "Alivio y profundización del vínculo tras una confrontación compasiva y honesta.",
+        "El paciente se siente visto y contenido, incluso en su comportamiento difícil."
+      ],
+      "intervenciones": [
+        "Relacional:: Usar la inmediatez para compartir el impacto del comportamiento del paciente en el terapeuta (\"Yo\" messages).",
+        "Gestalt:: Experimento de expresar el sentimiento no dicho en el \"aquí y ahora\" de la sesión.",
+        "Supervisión:: Ensayar la formulación del feedback para asegurar que sea clínico y no reactivo."
+      ],
+      "tarea": "Escribe lo que necesitas decir. Luego, reescríbelo usando la fórmula: \"Cuando haces X, yo siento Y, y me pregunto si podemos explorar Z\". Llévalo a la próxima sesión."
+    },
+    {
+      "codigo": "DT-55",
+      "iconos": [
+        "span",
+        "🏆",
+        "span",
+        "span",
+        "🪞",
+        "span"
+      ],
+      "pregunta": "¿Estás midiendo tu valía como terapeuta por la 'mejora' de tus pacientes, fusionando tu autoestima con sus resultados?",
+      "objetivo": "Diferenciar la responsabilidad profesional de la responsabilidad omnipotente. Desvincular la autoestima del terapeuta de los resultados clínicos, que dependen de múltiples factores.",
+      "profundizacion": [
+        "¿Qué dice de ti como persona que un paciente no mejore o abandone la terapia?",
+        "¿Estás cargando con el peso de resultados que están fuera de tu control?",
+        "¿Cómo puedes definir un \"buen trabajo terapéutico\" más allá de la \"cura\" o el \"éxito\" visible?",
+        "✔ Ansiedad excesiva por el progreso del paciente.",
+        "✔ Sentimiento de fracaso personal cuando un caso se complica.",
+        "✔ Dificultad para aceptar los límites de la propia eficacia.",
+        "✔ Alivio al reconocer que el proceso es co-construido y el resultado no depende solo del terapeuta."
+      ],
+      "observacion": [
+        "Ansiedad excesiva por el progreso del paciente.",
+        "Sentimiento de fracaso personal cuando un caso se complica.",
+        "Dificultad para aceptar los límites de la propia eficacia.",
+        "Alivio al reconocer que el proceso es co-construido y el resultado no depende solo del terapeuta."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de la idea de \"terapeuta exitoso\" y conexión con los valores del proceso, no solo del resultado.",
+        "Supervisión:: Normalizar los casos estancados o fallidos como parte inherente de la práctica clínica.",
+        "Humanista:: Separar el \"hacer\" (resultados) del \"ser\" (valía inherente como profesional y persona)."
+      ],
+      "tarea": "Escribe una lista de 3 cosas que hiciste bien en un caso \"difícil\", independientemente del resultado final. Reconoce tu esfuerzo y tu intención."
+    },
+    {
+      "codigo": "DT-56",
+      "iconos": [
+        "span",
+        "🕳️",
+        "span",
+        "span",
+        "🤲",
+        "span"
+      ],
+      "pregunta": "¿Te sientes responsable de 'salvar' a este paciente, y cómo esa fantasía te está alejando de acompañarlo realmente?",
+      "objetivo": "Identificar y desmontar el complejo de salvador. Fomentar el acompañamiento empoderador en lugar de la rescate codependiente.",
+      "profundizacion": [
+        "¿Qué necesidad personal tuya se alimenta al sentirte el \"salvador\" de alguien?",
+        "¿Qué le estás quitando al paciente al asumir su responsabilidad de cambio?",
+        "¿Cómo sería tu postura si confiaras plenamente en su capacidad de autosalvarse con tu apoyo?",
+        "✔ Horarios extendidos, contacto excesivo fuera de sesión o préstamos (límites difusos).",
+        "✔ Frustración intensa cuando el paciente no sigue los \"consejos\" dados.",
+        "✔ El paciente se vuelve pasivo o dependiente, esperando que el terapeuta lo \"arregle\".",
+        "✔ Alivio al devolver la responsabilidad del cambio al paciente de forma compasiva."
+      ],
+      "observacion": [
+        "Horarios extendidos, contacto excesivo fuera de sesión o préstamos (límites difusos).",
+        "Frustración intensa cuando el paciente no sigue los \"consejos\" dados.",
+        "El paciente se vuelve pasivo o dependiente, esperando que el terapeuta lo \"arregle\".",
+        "Alivio al devolver la responsabilidad del cambio al paciente de forma compasiva."
+      ],
+      "intervenciones": [
+        "Psicoanálisis:: Análisis de la contratransferencia y los deseos de omnipotencia del terapeuta.",
+        "Sistémica:: Observar cómo el rol de \"salvador\" mantiene al paciente en el rol de \"víctima\" incapaz.",
+        "Encuadre:: Reafirmar los límites profesionales como acto de respeto y promoción de la autonomía."
+      ],
+      "tarea": "La próxima vez que sientas el impulso de \"dar la solución\", haz una pausa y haz una pregunta que devuelva la responsabilidad al paciente: \"¿Qué crees tú que sería lo más útil hacer ahora?\"."
+    },
+    {
+      "codigo": "DT-57",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🔍",
+        "span"
+      ],
+      "pregunta": "¿Estás evitando un tema difícil porque tú mismo no te sientes lo suficientemente formado o seguro para abordarlo?",
+      "objetivo": "Reconocer las limitaciones de competencia y la evitación por inseguridad profesional. Fomentar la derivación o la búsqueda de formación específica.",
+      "profundizacion": [
+        "¿Qué tema específico te hace sentir que \"no sabes por dónde agarrarlo\"?",
+        "¿Estás dispuesto a admitir esta limitación ante el paciente y/o un supervisor?",
+        "¿Es ético continuar sin buscar la formación o la consulta necesaria para este caso?",
+        "✔ Cambios de tema sutiles cuando el paciente aborda ciertas áreas (ej. trauma complejo, sexualidad).",
+        "✔ Sensación de incompetencia o fraude (síndrome del impostor) en casos específicos.",
+        "✔ Estancamiento del caso por falta de herramientas técnicas adecuadas.",
+        "✔ Alivio y profesionalismo al reconocer la necesidad de formación o derivación."
+      ],
+      "observacion": [
+        "Cambios de tema sutiles cuando el paciente aborda ciertas áreas (ej. trauma complejo, sexualidad).",
+        "Sensación de incompetencia o fraude (síndrome del impostor) en casos específicos.",
+        "Estancamiento del caso por falta de herramientas técnicas adecuadas.",
+        "Alivio y profesionalismo al reconocer la necesidad de formación o derivación."
+      ],
+      "intervenciones": [
+        "Ética:: Revisar el principio de competencia: solo ejercer en áreas de formación demostrable.",
+        "Supervisión:: Buscar consultoría específica para el área de dificultad.",
+        "Derivación:: Planificar una derivación ética y cuidadosa si el caso excede las competencias actuales."
+      ],
+      "tarea": "Identifica el tema que evitas por inseguridad. Esta semana, busca un recurso (libro, taller, colega) que te ayude a sentirte más preparado para abordarlo en el futuro."
+    },
+    {
+      "codigo": "DT-58",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "🎪",
+        "span"
+      ],
+      "pregunta": "¿Estás actuando el rol de 'terapeuta perfecto' en lugar de ser un ser humano auténtico y falible en la sala?",
+      "objetivo": "Desmontar la fachada de perfección profesional. Fomentar la autenticidad y el uso terapéutico de la propia humanidad y vulnerabilidad.",
+      "profundizacion": [
+        "¿Qué temes que pierdas si el paciente ve que no lo sabes todo o que también te equivocas?",
+        "¿Cómo afecta tu \"máscara de perfección\" a la posibilidad de una conexión real y profunda?",
+        "¿Qué pasaría si admitieras un error o una duda en la sesión con humildad?",
+        "✔ Respuestas ensayadas, lenguaje excesivamente técnico o distancia emocional.",
+        "✔ Miedo a decir \"no sé\" o a mostrar confusión.",
+        "✔ El paciente siente una barrera invisible o una relación jerárquica rígida.",
+        "✔ Profundización del vínculo al compartir una duda o una reparación auténtica tras un error."
+      ],
+      "observacion": [
+        "Respuestas ensayadas, lenguaje excesivamente técnico o distancia emocional.",
+        "Miedo a decir \"no sé\" o a mostrar confusión.",
+        "El paciente siente una barrera invisible o una relación jerárquica rígida.",
+        "Profundización del vínculo al compartir una duda o una reparación auténtica tras un error."
+      ],
+      "intervenciones": [
+        "Relacional:: Uso de la transparencia y la autenticidad como herramienta terapéutica principal.",
+        "Humanista:: Congruencia: alinear la experiencia interna del terapeuta con su expresión externa.",
+        "Supervisión:: Explorar el miedo subyacente a la vulnerabilidad y la necesidad de aprobación profesional."
+      ],
+      "tarea": "La próxima vez que no sepas algo o cometas un pequeño error en sesión, admítelo con naturalidad: \"Me di cuenta de que me equivoqué en eso, gracias por corregirme\". Observa la respuesta."
+    },
+    {
+      "codigo": "DT-59",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "🧘",
+        "span"
+      ],
+      "pregunta": "¿Cómo estás equilibrando la empatía profunda con la necesaria distancia profesional para no ahogarte en el dolor ajeno?",
+      "objetivo": "Prevenir la fatiga por compasión y el trauma vicario. Fomentar la regulación de la empatía y el mantenimiento de límites saludables.",
+      "profundizacion": [
+        "¿Te llevas el dolor de tus pacientes a casa y te cuesta \"quitarte el sombrero\" de terapeuta?",
+        "¿Estás usando mecanismos de defensa (como la desconexión total) para protegerte del dolor?",
+        "¿Qué prácticas tienes para \"limpiar\" tu espacio energético y emocional al final del día?",
+        "✔ Insomnio, pesadillas o rumiación sobre los casos fuera del horario laboral.",
+        "✔ Entumecimiento emocional o cinismo como mecanismo de protección.",
+        "✔ Dificultad para disfrutar de la vida personal debido a la carga emocional acumulada.",
+        "✔ Alivio al establecer rituales claros de transición entre el trabajo y la vida personal."
+      ],
+      "observacion": [
+        "Insomnio, pesadillas o rumiación sobre los casos fuera del horario laboral.",
+        "Entumecimiento emocional o cinismo como mecanismo de protección.",
+        "Dificultad para disfrutar de la vida personal debido a la carga emocional acumulada.",
+        "Alivio al establecer rituales claros de transición entre el trabajo y la vida personal."
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Entender la diferencia entre empatía (siento contigo) y simpatía/contagio emocional (me ahogo contigo).",
+        "Rituales:: Establecer prácticas de cierre de jornada (ej. lavado de manos simbólico, cambio de ropa, meditación).",
+        "Supervisión:: Monitorear regularmente los niveles de fatiga por compasión y trauma vicario."
+      ],
+      "tarea": "Crea un \"ritual de cierre\" de 5 minutos al final de tu jornada laboral. Puede ser respirar, escribir una nota de cierre o simplemente decir en voz alta: \"El trabajo termina aquí\"."
+    },
+    {
+      "codigo": "DT-60",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🦋",
+        "span"
+      ],
+      "pregunta": "¿Qué has aprendido de ti mismo como profesional y como persona a través de los desafíos que este proyecto terapéutico te ha presentado?",
+      "objetivo": "Cierre reflexivo y integración del crecimiento profesional. Transformar los desafíos en sabiduría y reafirmar el compromiso con la vocación desde un lugar más maduro.",
+      "profundizacion": [
+        "¿Qué fortaleza inesperada has descubierto en ti como terapeuta?",
+        "¿Cómo ha evolucionado tu comprensión de la empatía, los límites o la paciencia?",
+        "¿Qué mensaje de agradecimiento te darías a ti mismo por haber persistido en este camino?",
+        "✔ Orgullo saludable y reconocimiento de la propia trayectoria de crecimiento.",
+        "✔ Integración de las propias sombras y limitaciones como parte de la herramienta terapéutica.",
+        "✔ Renovación de la vocación desde un lugar más realista y compasivo.",
+        "✔ Gratitud hacia los pacientes como maestros de la propia humanidad."
+      ],
+      "observacion": [
+        "Orgullo saludable y reconocimiento de la propia trayectoria de crecimiento.",
+        "Integración de las propias sombras y limitaciones como parte de la herramienta terapéutica.",
+        "Renovación de la vocación desde un lugar más realista y compasivo.",
+        "Gratitud hacia los pacientes como maestros de la propia humanidad."
+      ],
+      "intervenciones": [
+        "Narrativa:: Co-construir la \"historia del terapeuta en crecimiento\", integrando los errores como aprendizajes.",
+        "Logoterapia:: Reafirmar el sentido y el propósito de la labor terapéutica más allá de las dificultades.",
+        "Supervisión:: Celebrar los hitos de crecimiento profesional y planificar los próximos pasos de desarrollo."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ti mismo como profesional. Reconoce específicamente tres desafíos que has superado y cómo te han hecho mejor terapeuta y persona."
+    }
+  ]
+}

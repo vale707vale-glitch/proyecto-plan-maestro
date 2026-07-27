@@ -1,0 +1,1632 @@
+{
+  "id": "relaciones",
+  "nombre": "Relaciones",
+  "numero": 6,
+  "rango": "R-01 a R-60",
+  "descripcion": "Patrones vinculares, estilos de apego, conflictos relacionales, limites y comunicacion.",
+  "cartas": [
+    {
+      "codigo": "R-01",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🎯"
+      ],
+      "pregunta": "Si tuvieras que dibujar un mapa de tus relaciones actuales, ¿quién estaría en el centro, quién en los bordes y quién ya no tiene lugar?",
+      "objetivo": "Realizar un genograma o ecomapa emocional actual. Evaluar la percepción del paciente sobre su red de apoyo, la intimidad y el aislamiento. Detectar relaciones desequilibradas o invasivas.",
+      "profundizacion": [
+        "¿Qué criterios usas para decidir quién está \"cerca\" y quién está \"lejos\"?",
+        "¿Hay alguien que te gustaría mover del borde al centro, o viceversa?",
+        "¿Cómo te sientes al observar este mapa: acompañado/a, abrumado/a o vacío/a?"
+      ],
+      "observacion": [
+        "Mapa centrado en uno mismo (aislamiento o autosuficiencia defensiva).",
+        "Mapa saturado (límites difusos, dificultad para priorizar).",
+        "Presencia de relaciones tóxicas ubicadas paradójicamente en el \"centro\".",
+        "Claridad y equilibrio en la distribución de los vínculos."
+      ],
+      "intervenciones": [
+        "Sistémica:: Construcción de un ecomapa visual para objetivar la distancia emocional y la calidad de los vínculos.",
+        "Terapia de Esquemas:: Identificar si el mapa refleja el modo de Aislamiento Social o el de Complacencia.",
+        "Gestalt:: Usar cojines o sillas para representar a las personas del mapa y explorar la distancia física que el paciente elige.",
+        "TCC:: Análisis de las creencias nucleares que determinan quién \"merece\" estar cerca."
+      ],
+      "tarea": "Dibuja tu mapa relacional actual en un papel. Usa círculos de diferentes tamaños y distancias. Al lado de cada persona, escribe una palabra que defina cómo te sientes con ella. Observa los patrones."
+    },
+    {
+      "codigo": "R-02",
+      "iconos": [
+        "❤️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "Cuando sientes que alguien se acerca demasiado emocionalmente, ¿cuál es tu primera reacción: acercarte más, congelarte o alejarte?",
+      "objetivo": "Evaluar el estilo de apego predominante en situaciones de intimidad creciente. Detectar patrones de evitación, ansiedad o desorganización en la regulación de la proximidad.",
+      "profundizacion": [
+        "¿Qué amenaza percibes cuando alguien se acerca demasiado?",
+        "¿Esta reacción te resulta familiar de tu infancia?",
+        "¿Qué necesitarías para sentirte seguro/a permitiendo esa cercanía?"
+      ],
+      "observacion": [
+        "Respuesta de huida o desdén (apego evitativo).",
+        "Respuesta de fusión o ansiedad por complacer (apego ansioso).",
+        "Respuesta contradictoria (acercarse y empujar simultáneamente, apego desorganizado).",
+        "Capacidad de regular la distancia con flexibilidad y comunicación."
+      ],
+      "intervenciones": [
+        "Teoría del Apego:: Psicoeducación sobre los estilos de apego y cómo se activan en la vida adulta.",
+        "Terapia de Esquemas:: Trabajar el modo de Protector Hipervigilante (evitativo) o el Niño Ansioso.",
+        "Sensoriomotriz:: Observar las señales corporales de invasión o seguridad cuando se habla de cercanía.",
+        "EFT (Parejas/Individual):: Identificar el ciclo de interacción negativo que se activa ante la proximidad."
+      ],
+      "tarea": "Recuerda la última vez que alguien se acercó emocionalmente a ti. Anota tu reacción automática (física y mental). Luego, escribe una respuesta alternativa que te hubiera gustado dar desde la calma."
+    },
+    {
+      "codigo": "R-03",
+      "iconos": [
+        "🔄",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué patrón repetitivo has notado en tus relaciones pasadas que te preocupa que se esté repitiendo ahora?",
+      "objetivo": "Identificar la compulsión a la repetición en los vínculos. Detectar esquemas interpersonales desadaptativos (ej. elegir parejas emocionalmente no disponibles, atraer relaciones de rescate).",
+      "profundizacion": [
+        "¿Qué tienen en común las personas que eliges?",
+        "¿Qué rol sueles ocupar tú en estas dinámicas (el salvador, la víctima, el crítico)?",
+        "¿Qué creencia sobre ti mismo/a te hace creer que \"mereces\" o \"solo puedes tener\" este tipo de relación?"
+      ],
+      "observacion": [
+        "Reconocimiento claro del patrón (ej. \"siempre elijo a quien debo arreglar\").",
+        "Negación del patrón (\"todas mis relaciones fueron completamente diferentes\").",
+        "Externalización de la culpa (\"el problema siempre son ellos\").",
+        "Insight doloroso pero necesario sobre la propia contribución al ciclo."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Identificar el \"modo de afrontamiento\" que mantiene vivo el esquema relacional.",
+        "Psicodinámica:: Explorar la repetición de dinámicas objetales tempranas en las relaciones actuales.",
+        "Análisis Transaccional:: Mapear el Triángulo Dramático (Karpman) en las relaciones del paciente.",
+        "Narrativa:: Externalizar el patrón como un \"guion\" que el paciente puede decidir reescribir."
+      ],
+      "tarea": "Escribe el \"título\" de la película que se repite en tus relaciones (ej. \"El rescatador incansable\"). Luego, escribe el título de la nueva película que quieres empezar a protagonizar."
+    },
+    {
+      "codigo": "R-04",
+      "iconos": [
+        "🛡️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué te resulta más difícil: pedir ayuda o permitir que otros te ayuden sin sentir que les debes algo?",
+      "objetivo": "Evaluar la capacidad de interdependencia saludable. Detectar esquemas de autosuficiencia defensiva, autosacrificio o hipersensibilidad a la deuda emocional.",
+      "profundizacion": [
+        "¿Qué creencia tienes sobre lo que significa \"necesitar\" a alguien?",
+        "¿Cómo te sientes físicamente cuando alguien hace algo por ti sin que se lo pidas?",
+        "¿De quién aprendiste que la dependencia es peligrosa o vergonzosa?"
+      ],
+      "observacion": [
+        "Incomodidad extrema al recibir, con necesidad inmediata de \"devolver el favor\".",
+        "Orgullo rígido por \"no necesitar a nadie\".",
+        "Capacidad de recibir con gratitud y sin ansiedad.",
+        "Uso de la ayuda como herramienta de control o manipulación."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Autosacrificio o el de Estándares Inalcanzables (no mostrar debilidad).",
+        "Sistémica:: Explorar las reglas familiares sobre el dar y el recibir (ej. \"en esta familia nos bastamos solos\").",
+        "Humanista:: Validar la interdependencia como una fortaleza evolutiva y humana, no como una falla.",
+        "TCC:: Reestructuración de la creencia \"si acepto ayuda, soy una carga\"."
+      ],
+      "tarea": "Esta semana, acepta una pequeña ayuda o favor sin ofrecer nada a cambio inmediatamente. Solo di \"gracias\". Anota la ansiedad o incomodidad que pueda surgir y cómo la manejaste."
+    },
+    {
+      "codigo": "R-05",
+      "iconos": [
+        "👤",
+        "❤️"
+      ],
+      "pregunta": "¿Cuál es la diferencia, para ti, entre \"estar solo/a\" y \"sentirte solo/a\"?",
+      "objetivo": "Diferenciar la soledad física (estado) de la soledad emocional (experiencia de desconección). Explorar la relación del paciente con su propia compañía y el miedo al abandono.",
+      "profundizacion": [
+        "¿Puedes disfrutar de tu propia compañía o la llenas inmediatamente con ruido/pantallas?",
+        "¿Has sentido soledad estando rodeado de gente?",
+        "¿Qué te dice tu voz interna cuando estás completamente a solas?"
+      ],
+      "observacion": [
+        "Pánico o ansiedad ante la soledad física (búsqueda compulsiva de compañía).",
+        "Soledad emocional crónica a pesar de tener una red social activa.",
+        "Soledad elegida como espacio de recarga, creatividad y paz.",
+        "Evitación de la soledad mediante relaciones tóxicas o superficiales."
+      ],
+      "intervenciones": [
+        "ACT:: Exposición gradual a la soledad con aceptación de las emociones que surgen, sin evitarlas.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono/Inestabilidad y la vulnerabilidad al estar solo.",
+        "CFT:: Desarrollar un \"yo compasivo\" que pueda acompañar al paciente en la soledad de forma segura y cálida.",
+        "Conductual:: Programación de actividades placenteras en solitario para reasociar la soledad con bienestar."
+      ],
+      "tarea": "Programa una \"cita contigo mismo\" de 30 minutos esta semana, sin pantallas ni distracciones. Solo tú, un cuaderno y una bebida caliente. Observa qué emerge y anótalo sin juzgar."
+    },
+    {
+      "codigo": "R-06",
+      "iconos": [
+        "⚡",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué conflicto no resuelto de tu familia de origen ves que se repite hoy en tus relaciones elegidas?",
+      "objetivo": "Conectar las dinámicas relacionales actuales con los modelos de apego y conflicto de la familia de origen. Identificar lealtades invisibles y patrones transgeneracionales.",
+      "profundizacion": [
+        "¿Cómo manejaban los desacuerdos en tu casa cuando eras niño/a?",
+        "¿A qué figura de tu familia te pareces más cuando estás en conflicto?",
+        "¿Qué estás intentando \"resolver\" o \"reparar\" inconscientemente con tus relaciones actuales?"
+      ],
+      "observacion": [
+        "Reconocimiento claro de la repetición (ej. \"me peleo igual que mis padres\").",
+        "Reacción defensiva (\"mi familia no tiene nada que ver con mi pareja\").",
+        "Insight sobre el intento inconsciente de \"salvar\" a la pareja como no pudo salvar a un progenitor.",
+        "Duelo por los modelos relacionales saludables que no se recibieron."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma relacional para visualizar la repetición de patrones a través de generaciones.",
+        "Terapia de Esquemas:: Trabajar el modo de Copia Sumisa o Sobrecompensación frente a los esquemas de la infancia.",
+        "Narrativa:: Re-autoría de la historia familiar, rompiendo la cadena de patrones disfuncionales.",
+        "EFT:: Identificar cómo los \"fantasmas\" del pasado activan las amenazas de apego en el presente."
+      ],
+      "tarea": "Escribe una similitud y una diferencia entre cómo se manejaban los conflictos en tu familia de origen y cómo los manejas tú hoy. Reflexiona sobre qué parte de ese legado quieres conservar y cuál quieres dejar ir."
+    },
+    {
+      "codigo": "R-07",
+      "iconos": [
+        "🛡️",
+        "🎯"
+      ],
+      "pregunta": "¿Tus límites en las relaciones son más como un muro de ladrillos (rígido) o como una cerca de alambre (difuso)?",
+      "objetivo": "Evaluar la calidad de los límites interpersonales. Detectar la rigidez defensiva (aislamiento) o la porosidad (fusión, dificultad para decir no, codependencia).",
+      "profundizacion": [
+        "¿En qué relaciones son más rígidos y en cuáles más difusos?",
+        "¿Qué temes que pase si construyes un límite saludable (ni muro, ni cerca rota)?",
+        "¿Cómo reacciona tu cuerpo cuando alguien cruza un límite tuyo?"
+      ],
+      "observacion": [
+        "Límites rígidos: dificultad para delegar, compartir o mostrar vulnerabilidad.",
+        "Límites difusos: asumir responsabilidades ajenas, resentimiento encubierto.",
+        "Límites inconsistentes: rígidos con unos, difusos con otros (ej. con la familia vs. con extraños).",
+        "Claridad y flexibilidad para ajustar los límites según el contexto."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades de asertividad (DEAR MAN) para construir límites claros y respetuosos.",
+        "Terapia de Esquemas:: Fortalecer el Adulto Saludable para proteger al Niño Vulnerable sin aislarlo.",
+        "Sensoriomotriz:: Trabajar la sensación física de \"tener un límite\" (ej. empujar con las manos, sentir los pies en el suelo).",
+        "Gestalt:: Experimentos en sesión para practicar el \"no\" y observar la respuesta del entorno terapéutico."
+      ],
+      "tarea": "Identifica una situación actual donde tus límites son demasiado rígidos o demasiado difusos. Escribe cómo sería un límite \"saludable\" en esa situación y un guion de cómo lo expresarías."
+    },
+    {
+      "codigo": "R-08",
+      "iconos": [
+        "🎭",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué rol sueles ocupar en tus grupos de amigos, trabajo o familia (el cuidador, el mediador, el gracioso, el invisible)?",
+      "objetivo": "Identificar los roles relacionales internalizados. Explorar cómo estos roles limitan la autenticidad y generan agotamiento o resentimiento al no permitir la expresión de otras partes del self.",
+      "profundizacion": [
+        "¿Cómo aprendiste que ese era tu lugar en el grupo?",
+        "¿Qué partes de ti tienes que esconder para mantener ese rol?",
+        "¿Qué pasaría si un día te negaras a cumplir con las expectativas de ese rol?"
+      ],
+      "observacion": [
+        "Agotamiento crónico por mantener el rol de \"el fuerte\" o \"el cuidador\".",
+        "Miedo a la irrelevancia si deja de ser \"el gracioso\" o \"el que resuelve\".",
+        "Resentimiento hacia el grupo por no ver sus necesidades reales.",
+        "Flexibilidad para transitar entre diferentes roles según la necesidad."
+      ],
+      "intervenciones": [
+        "Análisis Transaccional:: Explorar cómo el rol actual encaja en los guiones de vida y juegos psicológicos.",
+        "Terapia de Esquemas:: Trabajar el modo de Complacencia Sumisa o el de Rescatador.",
+        "Gestalt:: Experimento de \"salir del rol\" en sesión y explorar la identidad subyacente.",
+        "Sistémica:: Analizar la homeostasis del grupo y cómo se resiste al cambio de rol del paciente."
+      ],
+      "tarea": "Esta semana, en una situación grupal segura, haz algo pequeño que rompa tu rol habitual (ej. si eres el que siempre propone planes, di \"hoy no sé, ¿qué proponen ustedes?\"). Observa la reacción del grupo y la tuya propia."
+    },
+    {
+      "codigo": "R-09",
+      "iconos": [
+        "⚡",
+        "❤️"
+      ],
+      "pregunta": "Cuando sientes celos o posesividad, ¿qué necesidad de seguridad o validación estás intentando cubrir desesperadamente?",
+      "objetivo": "Desestigmatizar los celos y explorar su función como señal de alarma de necesidades de apego no cubiertas o heridas de inseguridad, en lugar de verlos solo como un defecto moral.",
+      "profundizacion": [
+        "¿Qué historia te cuentas a ti mismo/a cuando aparecen los celos?",
+        "¿A qué miedo primario (abandono, no ser suficiente, traición) apuntan?",
+        "¿Cómo podrías pedir esa seguridad de forma directa en lugar de a través del control?"
+      ],
+      "observacion": [
+        "Vergüenza tóxica por sentir celos, llevando a la negación o la proyección.",
+        "Uso de los celos como justificación para conductas de control o vigilancia.",
+        "Reconocimiento de los celos como un síntoma de inseguridad personal, no de la infidelidad del otro.",
+        "Capacidad de usar la emoción como un disparador para una conversación vulnerable."
+      ],
+      "intervenciones": [
+        "EFT:: Acceder a la emoción primaria de miedo o tristeza que se esconde detrás de la ira o el control de los celos.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono/Inestabilidad y el modo de Protector Hipervigilante.",
+        "TCC:: Reestructuración de las distorsiones cognitivas (ej. lectura de mente, catastrofismo) que alimentan los celos.",
+        "DBT:: Habilidades de regulación emocional y efectividad interpersonal para expresar la inseguridad sin atacar."
+      ],
+      "tarea": "La próxima vez que sientas celos, no actúes sobre ellos inmediatamente. Escribe: \"Siento celos, y lo que realmente necesito en este momento es sentirme...\". Completa la frase y busca una forma saludable de pedir eso."
+    },
+    {
+      "codigo": "R-10",
+      "iconos": [
+        "🗣️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Cuánto de lo que no dices en tus relaciones se convierte en resentimiento, sarcasmo o \"olvidos\" convenientes?",
+      "objetivo": "Evaluar la comunicación pasivo-agresiva o evitativa. Detectar la acumulación de emociones no expresadas que luego se filtran de formas destructivas e indirectas.",
+      "profundizacion": [
+        "¿Por qué te resulta más seguro callar que confrontar directamente?",
+        "¿Qué crees que pasaría si expresaras tu necesidad de forma clara y directa?",
+        "¿Cómo te gustaría que fuera tu comunicación ideal en un conflicto?"
+      ],
+      "observacion": [
+        "Uso frecuente del silencio castigador o la ley del hielo.",
+        "Sarcasmo o \"bromas\" que contienen críticas veladas.",
+        "\"Olvidos\" sistemáticos de compromisos con personas hacia las que hay enojo no resuelto.",
+        "Reconocimiento del patrón y deseo de aprender comunicación asertiva."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento específico en habilidades de comunicación asertiva (DEAR MAN, GIVE, FAST).",
+        "Terapia de Esquemas:: Trabajar el modo de Complacencia Sumisa que evita el conflicto a toda costa.",
+        "Gestalt:: Practicar la expresión directa de una queja en sesión, eliminando el \"pero\" o la justificación.",
+        "Comunicación No Violenta (CNV):** Reestructurar la queja pasivo-agresiva en observación, sentimiento, necesidad y petición."
+      ],
+      "tarea": "Identifica un resentimiento actual que hayas estado expresando de forma indirecta. Escribe lo que quieres decir usando la fórmula CNV: \"Cuando veo [hecho], siento [emoción], porque necesito [necesidad]. ¿Podrías [petición concreta]?\"."
+    },
+    {
+      "codigo": "R-11",
+      "iconos": [
+        "🎯",
+        "❤️"
+      ],
+      "pregunta": "¿Qué expectativas no expresadas tienes sobre tus seres queridos que, cuando no se cumplen, te hacen sentir decepcionado/a?",
+      "objetivo": "Identificar los \"contratos encubiertos\" en las relaciones. Explorar cómo las expectativas no comunicadas generan ciclos de decepción y reclamo, y cómo la claridad puede reducir el sufrimiento.",
+      "profundizacion": [
+        "¿Por qué esperas que la otra persona \"adivine\" lo que necesitas?",
+        "¿Son estas expectativas realistas y justas para la otra persona?",
+        "¿Qué te impide verbalizar estas necesidades de forma clara?"
+      ],
+      "observacion": [
+        "Lista extensa de expectativas no comunicadas (\"debería saberlo\").",
+        "Decepción crónica y sensación de \"no ser importante\" para el otro.",
+        "Reconocimiento de que está pidiendo al otro que lea su mente.",
+        "Apertura a negociar expectativas de forma explícita y realista."
+      ],
+      "intervenciones": [
+        "TCC:: Identificación y desafío de las distorsiones cognitivas de \"lectura de mente\" y \"debería\".",
+        "EFT:: Ayudar al paciente a expresar la necesidad vulnerable subyacente a la decepción.",
+        "Terapia de Pareja/Sistémica:: Facilitar una conversación en sesión para hacer explícitos los contratos encubiertos.",
+        "ACT:: Aceptación de que el otro es un ser separado con limitaciones, no un proveedor de necesidades omnipotente."
+      ],
+      "tarea": "Escribe 3 expectativas que tienes sobre alguien cercano y que no le has dicho claramente. Al lado de cada una, escribe cómo podrías comunicársela esta semana de forma amable y directa."
+    },
+    {
+      "codigo": "R-12",
+      "iconos": [
+        "👻",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿De qué manera las relaciones pasadas (ex parejas, amistades rotas) siguen \"fantasmeando\" o influyendo en tus decisiones relacionales actuales?",
+      "objetivo": "Explorar el impacto de los duelos no resueltos o las heridas relacionales pasadas en la disponibilidad para nuevos vínculos. Detectar proyecciones de ex parejas en personas nuevas.",
+      "profundizacion": [
+        "¿Qué te prometiste a ti mismo/a después de esa relación que aún estás cumpliendo?",
+        "¿Estás castigando a personas nuevas por los errores de personas del pasado?",
+        "¿Qué necesitas para cerrar ese ciclo y estar plenamente presente en tus relaciones actuales?"
+      ],
+      "observacion": [
+        "Comparación constante de nuevas parejas con una ex relación idealizada o demonizada.",
+        "Miedo a repetir el pasado que paraliza la inversión emocional en el presente.",
+        "Lealtad inconsciente a un vínculo pasado que impide comprometerse con uno nuevo.",
+        "Integración del aprendizaje pasado sin que este contamine el presente."
+      ],
+      "intervenciones": [
+        "Gestalt:: Técnica de la silla vacía para cerrar gestalts pendientes con figuras del pasado.",
+        "EMDR:: Procesamiento de las memorias de traición o dolor relacional que siguen activas.",
+        "Narrativa:: Re-autoría de la historia de la relación pasada, pasando del \"daño\" al \"aprendizaje\".",
+        "Terapia de Esquemas:: Trabajar el modo de Protector Hipervigilante que generaliza el peligro de una relación a todas."
+      ],
+      "tarea": "Escribe una carta de despedida definitiva a esa relación o persona del pasado. Agradece lo que te enseñó, suelta lo que te dolió, y declara que a partir de hoy juzgarás a las nuevas personas por quiénes son, no por quiénes fueron otros."
+    },
+    {
+      "codigo": "R-13",
+      "iconos": [
+        "🌱",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué te resulta más difícil: celebrar los logros de los demás o permitir que otros celebren los tuyos sin minimizarlos?",
+      "objetivo": "Evaluar la dinámica de competencia vs. colaboración en las relaciones. Detectar la vergüenza tóxica ante el reconocimiento o la envidia no procesada que sabotea la alegría compartida.",
+      "profundizacion": [
+        "¿Qué te dice tu voz interna cuando alguien que conoces tiene éxito?",
+        "¿Por qué te resulta incómodo recibir un cumplido o reconocimiento?",
+        "¿Cómo sería una relación donde el éxito de uno no se siente como una amenaza para el otro?"
+      ],
+      "observacion": [
+        "Minimización automática de los propios logros (\"fue suerte\", \"no fue para tanto\").",
+        "Envidia encubierta o comentarios descalificadores ante el éxito ajeno.",
+        "Capacidad genuina de alegría compartida (fiero compasivo).",
+        "Creencia de que el reconocimiento es peligroso o atraerá envidia."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Insuficiencia o el de Estándares Inalcanzables.",
+        "CFT:: Cultivar la autocompasión y la capacidad de recibir calidez y validación externa.",
+        "Positiva:: Práctica de \"capitalización\": entrenar la respuesta activa y constructiva ante las buenas noticias del otro.",
+        "Gestalt:: Experimento de recibir un cumplido en sesión diciendo solo \"gracias\", sin justificar ni desviar."
+      ],
+      "tarea": "Esta semana, cuando alguien te haga un cumplido o reconozca algo que hiciste bien, tu única tarea es decir \"Gracias\" y sonreír. No lo niegues, no lo minimices. Solo recíbelo. Anota cómo te sentiste."
+    },
+    {
+      "codigo": "R-14",
+      "iconos": [
+        "🛡️",
+        "❤️"
+      ],
+      "pregunta": "¿Qué parte de ti crees que, si la conocieran realmente, haría que los demás te rechazaran o te abandonaran?",
+      "objetivo": "Acceder al núcleo de la vergüenza tóxica y el miedo a la exposición auténtica. Explorar la brecha entre el \"yo público\" y el \"yo oculto\" que el paciente cree inaceptable.",
+      "profundizacion": [
+        "¿De dónde viene esa creencia de que esa parte es \"inaceptable\"?",
+        "¿Alguna vez has mostrado un poco de esa parte y la reacción fue diferente a la que temías?",
+        "¿Qué pasaría si la persona \"correcta\" conociera esa parte y te aceptara de todos modos?"
+      ],
+      "observacion": [
+        "Vergüenza intensa y bloqueo al intentar nombrar la parte \"rechazable\".",
+        "Convicción absoluta de que sería abandonado si se mostrara auténtico.",
+        "Reconocimiento de que es una creencia de la infancia que no se ha puesto a prueba en la adultez.",
+        "Alivio al verbalizar el miedo en un espacio terapéutico seguro y no ser rechazado."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza y el aislamiento social.",
+        "Humanista:: Ofrecer una experiencia correctiva de aceptación incondicional en el vínculo terapéutico.",
+        "ACT:: Defusión de la historia de \"soy inaceptable\", observándola como un pensamiento, no como un hecho.",
+        "IFS:: Dialogar con el \"exiliado\" que carga esta vergüenza y protegerlo con el Self compasivo."
+      ],
+      "tarea": "Escribe esa \"parte inaceptable\" en un papel. Luego, escribe una respuesta desde la perspectiva de un amigo que te ama incondicionalmente. Lee ambas y observa cómo cambia la carga emocional de la primera."
+    },
+    {
+      "codigo": "R-15",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo equilibras la lealtad a tu familia de origen con la construcción de tu propia \"familia elegida\" o pareja?",
+      "objetivo": "Explorar los conflictos de lealtad en la transición hacia la autonomía relacional. Detectar intromisiones familiares o dificultades para priorizar los vínculos construidos en la adultez.",
+      "profundizacion": [
+        "¿Sientes que \"traicionas\" a tu familia cuando estableces límites o priorizas a tu pareja/amigos?",
+        "¿Cómo maneja tu familia de origen tus nuevas relaciones?",
+        "¿Qué necesitas para sentir que tienes permiso para crear tu propio camino?"
+      ],
+      "observacion": [
+        "Culpa intensa al poner límites a la familia de origen.",
+        "La pareja o amigos son constantemente puestos en segundo plano.",
+        "Conflicto abierto entre la familia de origen y la familia elegida.",
+        "Integración saludable: pertenecer a la familia de origen sin renunciar a la autonomía."
+      ],
+      "intervenciones": [
+        "Sistémica:: Trabajo con las lealtades invisibles y la diferenciación del self (Bowen).",
+        "Terapia de Esquemas:: Fortalecer el modo del Adulto Saludable para establecer límites sin caer en la rebelión o la sumisión.",
+        "Narrativa:: Re-autoría de la historia familiar: \"Puedo amar a mi familia y, al mismo tiempo, elegir mi propia vida\".",
+        "Estructura:: Jerarquización saludable de los subsistemas familiares (la pareja como núcleo primario)."
+      ],
+      "tarea": "Escribe una declaración de lealtad dual: \"Honro mis raíces y lo que me dieron, y al mismo tiempo, me doy permiso para construir mi propia vida con mis propias reglas\". Léela en voz alta."
+    },
+    {
+      "codigo": "R-16",
+      "iconos": [
+        "🍂",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Cómo sueles manejar las despedidas o los finales de ciclo en las relaciones? ¿Prefieres cortar de golpe, alargar lo inevitable o cerrar con gratitud?",
+      "objetivo": "Evaluar la relación del paciente con el cierre, el duelo relacional y la impermanencia. Detectar patrones de evitación fóbica, apego ansioso o capacidad de cierre saludable.",
+      "profundizacion": [
+        "¿Qué te enseñaron sobre las despedidas en tu infancia?",
+        "¿Qué miedo hay detrás de tu forma habitual de terminar las cosas?",
+        "¿Cómo sería una despedida \"ideal\" o sana para ti?"
+      ],
+      "observacion": [
+        "Ghosting o corte abrupto para evitar el dolor del duelo (evitación).",
+        "Alargar relaciones tóxicas o terminadas por miedo a la soledad.",
+        "Duelo no resuelto que contamina las nuevas relaciones.",
+        "Capacidad de cerrar ciclos con tristeza saludable, gratitud y claridad."
+      ],
+      "intervenciones": [
+        "Gestalt:: Trabajo con sillas vacías para completar gestalts pendientes de despedidas no dichas.",
+        "Logoterapia:: Encontrar sentido en la finitud de los vínculos y en lo que perdura más allá de la presencia física.",
+        "Terapia de Esquemas:: Trabajar el esquema de Abandono que hace que toda despedida se sienta como una catástrofe.",
+        "Narrativa:: Crear un ritual de cierre simbólico para honrar lo que fue y permitir que termine."
+      ],
+      "tarea": "Escribe una despedida simbólica a una etapa, relación o versión de ti mismo que ya no existe. Agradece lo que te dio, reconoce por qué tuvo que terminar, y declara que la sueltas con respeto."
+    },
+    {
+      "codigo": "R-17",
+      "iconos": [
+        "❤️",
+        "⚡"
+      ],
+      "pregunta": "¿La intimidad física y sexual en tus relaciones es un espacio de conexión y placer, o de desempeño, obligación y ansiedad?",
+      "objetivo": "Explorar las creencias y experiencias en torno a la intimidad física. Detectar mandatos, traumas o ansiedades que interfieren con la vivencia plena y conectada de la sexualidad.",
+      "profundizacion": [
+        "¿Qué mensajes recibiste sobre el sexo y el cuerpo al crecer?",
+        "¿Sientes que tu cuerpo te pertenece completamente en la intimidad?",
+        "¿Cómo afecta esta creencia a tu capacidad de decir \"sí\" o \"no\" en la intimidad?"
+      ],
+      "observacion": [
+        "Sexualidad vivida como obligación, deber o transacción.",
+        "Desconexión corporal o disociación durante el contacto físico.",
+        "Ansiedad de desempeño o miedo al juicio del otro.",
+        "Vivencia de la intimidad como espacio seguro de placer, autonomía y conexión mutua."
+      ],
+      "intervenciones": [
+        "Sexología Clínica / Sensoriomotriz:: Reconexión con las sensaciones corporales y el derecho al placer sin culpa (espectatoring).",
+        "EMDR:: Procesamiento de memorias de abuso, coerción o vergüenza sexual temprana.",
+        "Sistémica:: Exploración de los mandatos transgeneracionales sobre el cuerpo, la moralidad y el género.",
+        "ACT:: Aceptación de las propias necesidades de intimidad y clarificación de valores sexuales auténticos."
+      ],
+      "tarea": "Escribe una carta a tu cuerpo agradeciéndole por algo específico que hace por ti (no relacionado con la apariencia). Reivindica tu derecho absoluto a decidir sobre tu propia intimidad."
+    },
+    {
+      "codigo": "R-18",
+      "iconos": [
+        "🌱",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "Si tuvieras una crisis grave mañana, ¿a quiénes llamarías realmente y a quiénes solo les dirías que \"todo está bien\"?",
+      "objetivo": "Mapear la red de apoyo real vs. la red de apoyo percibida. Evaluar la confianza básica en los demás y la tendencia al aislamiento en momentos de vulnerabilidad.",
+      "profundizacion": [
+        "¿Por qué le ocultarías tu dolor a ciertas personas?",
+        "¿Alguna vez has llamado a alguien y te has arrepentido por su reacción?",
+        "¿Qué necesitarías para construir una red de apoyo más sólida y confiable?"
+      ],
+      "observacion": [
+        "Aislamiento total en crisis (\"no quiero molestar a nadie\").",
+        "Red de apoyo percibida grande, pero red real inexistente o poco confiable.",
+        "Dependencia excesiva de una sola persona para toda la regulación emocional.",
+        "Red de apoyo diversificada y jerarquizada de forma saludable."
+      ],
+      "intervenciones": [
+        "Sistémica:: Construcción de un ecomapa de apoyo para identificar vacíos y fortalezas en la red.",
+        "Terapia de Esquemas:: Trabajar el esquema de Desconfianza/Abuso o el de Aislamiento Social.",
+        "DBT:: Entrenamiento en habilidades para pedir ayuda de manera efectiva y construir relaciones que validen.",
+        "Conductual:: Experimentos graduales de auto-revelación vulnerable con personas seguras para probar su confiabilidad."
+      ],
+      "tarea": "Haz dos listas: \"Personas a las que llamaría en una crisis\" y \"Personas a las que les ocultaría mi dolor\". Reflexiona sobre qué creencia te hace dudar de las personas de la segunda lista."
+    },
+    {
+      "codigo": "R-19",
+      "iconos": [
+        "🎭",
+        "🎯"
+      ],
+      "pregunta": "¿Qué necesidades no cubiertas de tu infancia estás esperando, inconscientemente, que tu pareja o amigos actuales satisfagan?",
+      "objetivo": "Identificar la transferencia de necesidades infantiles no resueltas a las relaciones adultas. Explorar cómo esta expectativa injusta genera frustración mutua y desgaste en el vínculo.",
+      "profundizacion": [
+        "¿Qué necesitabas de niño/a que no recibiste (protección, validación, juego)?",
+        "¿Cómo le estás pidiendo a tu pareja/amigo que sea un \"padre/madre\" para ti?",
+        "¿Cómo puedes empezar a satisfacer esa necesidad tú mismo/a como adulto?"
+      ],
+      "observacion": [
+        "Exigencia de que el otro \"adivine\" y cubra necesidades de cuidado parental.",
+        "Frustración crónica porque \"nadie me cuida como yo necesito\".",
+        "Reconocimiento de la carga injusta que se pone sobre los hombros del otro.",
+        "Inicio de la reparentalización propia, reduciendo la dependencia del otro."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización limitada: el terapeuta modela el cuidado, y el paciente aprende a dárselo a su Niño Vulnerable.",
+        "IFS:: Negociar con las partes que exigen al externo que cambien la estrategia y busquen el cuidado interno.",
+        "EFT:: Ayudar al paciente a expresar la necesidad de apego de forma vulnerable, no como un reclamo o exigencia.",
+        "Psicodinámica:: Análisis de la transferencia y la búsqueda de objetos de apego sustitutos."
+      ],
+      "tarea": "Escribe una necesidad no cubierta de tu infancia. Luego, escribe 3 formas en las que tu \"yo adulto\" de hoy puede empezar a satisfacer esa necesidad por sí mismo, sin depender exclusivamente de otros."
+    },
+    {
+      "codigo": "R-20",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "Si pudieras diseñar tu \"relación ideal\" (pareja, amistad o familiar), ¿cuáles serían sus 3 pilares fundamentales y qué paso pequeño puedes dar hoy hacia ella?",
+      "objetivo": "Cierre del lote con enfoque en la construcción activa de vínculos saludables. Trasladar el foco de la queja o el análisis del pasado a la acción comprometida con los valores relacionales en el presente.",
+      "profundizacion": [
+        "¿Por qué elegiste esos 3 pilares? ¿Qué valor profundo representan?",
+        "¿Qué te ha impedido construir esto hasta ahora?",
+        "¿Cómo sería tu vida si empezaras a actuar como si esa relación ya fuera posible?"
+      ],
+      "observacion": [
+        "Pilares realistas, basados en valores (ej. respeto, comunicación, espacio propio).",
+        "Pilares idealizados o mágicos (ej. \"que nunca nos peleemos\", \"que me adivine el pensamiento\").",
+        "Dificultad para imaginar una relación diferente a los patrones conocidos.",
+        "Compromiso conductual claro y pequeño hacia la construcción del vínculo deseado."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores relacionales y diseño de acciones comprometidas pequeñas y sostenibles.",
+        "Soluciones:: Preguntas orientadas al futuro: \"¿Cuál sería la primera señal pequeña de que esta relación ideal está empezando a construirse?\".",
+        "TCC:: Reestructuración de creencias derrotistas sobre las relaciones (\"todas son iguales\", \"no me merezco algo así\").",
+        "Narrativa:: Co-crear una \"hoja de ruta\" relacional basada en estos pilares."
+      ],
+      "tarea": "Escribe tus 3 pilares de relación ideal. Elige UNO y diseña una acción microscópica que puedas hacer esta semana para honrar ese pilar en una de tus relaciones actuales. Hazlo y observa el resultado."
+    },
+    {
+      "codigo": "R-21",
+      "iconos": [
+        "⚡",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "Cuando tienes un conflicto con tu pareja, ¿sueles ser quien persigue la conversación o quien se retira para evitar la escalada?",
+      "objetivo": "Identificar el patrón de interacción demanda-retirada (pursuer-withdrawer). Evaluar cómo este ciclo mantiene el conflicto y bloquea la conexión emocional genuina.",
+      "profundizacion": [
+        "¿Qué temes que pase si persigues la conversación? ¿Y si te retiras?",
+        "¿Qué emoción primaria hay detrás de tu postura (miedo al abandono vs. miedo a la invasión)?",
+        "¿Cómo podrías romper este ciclo la próxima vez que se active?"
+      ],
+      "observacion": [
+        "Identificación clara como \"perseguidor\" (ansioso por resolver, crítica).",
+        "Identificación clara como \"retirado\" (evitación, silencios, desconexión).",
+        "Oscilación entre ambos roles según el contexto o la intensidad del conflicto.",
+        "Capacidad de meta-comunicación sobre el propio patrón durante la sesión."
+      ],
+      "intervenciones": [
+        "EFT (Terapia Emocionalmente Focalizada):: Identificar el ciclo negativo y facilitar la expresión de la vulnerabilidad primaria detrás de la demanda o el retiro.",
+        "Gottman:: Psicoeducación sobre el patrón \"demanda-retirada\" y entrenamiento en inicio suave de las conversaciones difíciles.",
+        "Terapia de Esquemas:: Trabajar el modo de Protector Hipervigilante (retirado) o el Niño Enfadado (perseguidor).",
+        "Sistémica:: Re-enmarcar el problema como el \"ciclo\" es el enemigo, no la pareja."
+      ],
+      "tarea": "La próxima vez que sientas que el ciclo se activa, detente y di en voz alta: \"Estamos cayendo en nuestro patrón de [persecución/retiro]. Necesito una pausa de 20 minutos, pero volvemos a hablar de esto\". Anota cómo se sintió la interrupción consciente."
+    },
+    {
+      "codigo": "R-22",
+      "iconos": [
+        "⚖️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Sientes que en tu relación hay un equilibrio de poder, o que uno de los dos cede más a menudo para \"mantener la paz\"?",
+      "objetivo": "Evaluar las dinámicas de poder y sumisión en la relación. Detectar patrones de complacencia crónica, control encubierto o resentimiento acumulado por desequilibrios percibidos.",
+      "profundizacion": [
+        "¿En qué áreas (dinero, sexo, decisiones sociales) se nota más este desequilibrio?",
+        "¿Qué creencia te dice que \"ceder\" es la única forma de ser amado/a o seguro/a?",
+        "¿Qué pasaría si empezaras a expresar tus preferencias con la misma firmeza que la otra persona?"
+      ],
+      "observacion": [
+        "Reconocimiento de un patrón de sumisión por miedo al conflicto o abandono.",
+        "Reconocimiento de un patrón de control o dominancia en la toma de decisiones.",
+        "Resentimiento encubierto del que \"siempre cede\".",
+        "Visión de la relación como una colaboración equitativa y negociada."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo de Complacencia Sumisa y fortalecer el Adulto Saludable para negociar necesidades.",
+        "Feminista/Sistémica:: Deconstruir los roles de género internalizados que asignan el poder de decisión a uno de los miembros.",
+        "DBT:: Entrenamiento en asertividad (habilidad FAST) para mantener el autorrespeto durante las negociaciones.",
+        "Gottman:: Ejercicios de \"ceder el paso\" y búsqueda de áreas de compromiso mutuo (gridlock vs. perpetual problems)."
+      ],
+      "tarea": "Identifica una decisión pequeña que hayas cedido recientemente por \"mantener la paz\". Escribe cómo habrías expresado tu preferencia real de forma asertiva y respetuosa."
+    },
+    {
+      "codigo": "R-23",
+      "iconos": [
+        "❤️",
+        "⚡"
+      ],
+      "pregunta": "¿Cómo manejan las discrepancias en el deseo o la frecuencia sexual? ¿Es un tema que pueden hablar o un elefante en la habitación?",
+      "objetivo": "Explorar la comunicación sobre la intimidad sexual y el manejo de las discrepancias de deseo. Detectar vergüenza, rechazo percibido o evitación del tema.",
+      "profundizacion": [
+        "¿Qué te dice tu voz interna cuando tu pareja inicia o rechaza el contacto sexual?",
+        "¿Confundes la frecuencia sexual con el nivel de amor o compromiso?",
+        "¿Cómo podrían negociar la intimidad sin que nadie se sienta presionado o rechazado?"
+      ],
+      "observacion": [
+        "Evitación total del tema por miedo a herir o ser rechazado.",
+        "Sexo utilizado como moneda de cambio o herramienta de castigo.",
+        "Discrepancia de deseo con culpa o resentimiento asociado.",
+        "Capacidad de dialogar sobre el deseo con curiosidad y sin juicio."
+      ],
+      "intervenciones": [
+        "Sexología Clínica:: Psicoeducación sobre el deseo espontáneo vs. receptivo y la normalización de las fluctuaciones.",
+        "EFT:: Explorar el significado de apego detrás del rechazo sexual (ej. \"si no quiere sexo, es que no me ama\").",
+        "Gottman:: Ejercicios para ampliar la \"zona de acuerdo\" en la intimidad sin coerción.",
+        "Sensoriomotriz:: Reconexión con las sensaciones corporales de placer sin la presión del rendimiento o el objetivo final."
+      ],
+      "tarea": "Escribe en un papel qué significa para ti el rechazo sexual y qué significa para tu pareja (según tu percepción). Luego, comparte esta reflexión con tu pareja en un momento de calma, no durante un conflicto."
+    },
+    {
+      "codigo": "R-24",
+      "iconos": [
+        "⚡",
+        "🛡️"
+      ],
+      "pregunta": "Si ha habido una ruptura de confianza (infidelidad, mentiras, secretos), ¿en qué etapa de la reparación se encuentra tu relación hoy?",
+      "objetivo": "Evaluar el proceso de reparación de la confianza. Identificar si la pareja está atascada en la fase de crisis, en la de significado, o si ha logrado una reconciliación genuina.",
+      "profundizacion": [
+        "¿Se ha asumido la responsabilidad completa por la ruptura de confianza?",
+        "¿Hay espacio para que la persona herida haga preguntas sin ser castigada?",
+        "¿Están ambos dispuestos a construir una \"nueva\" relación, no a volver a la \"antigua\"?"
+      ],
+      "observacion": [
+        "Estancamiento en la fase de \"investigación\" o interrogatorio constante.",
+        "Minimización o justificación por parte de quien rompió la confianza.",
+        "Perdón prematuro sin procesamiento del dolor (falsa reconciliación).",
+        "Compromiso visible con la transparencia y la reparación activa."
+      ],
+      "intervenciones": [
+        "Gottman (Método de Confianza):: Fases de Attunement (Sintonía), con énfasis en Remorse, Attunement, Transparency, Non-defensiveness, Empathy.",
+        "EFT:: Trabajar el trauma de apego generado por la traición y facilitar la expresión del dolor primario.",
+        "EMDR:: Procesamiento de las imágenes intrusivas o flashbacks relacionados con el descubrimiento de la infidelidad.",
+        "Sistémica:: Reestructuración de los límites y reglas de transparencia en la nueva etapa de la relación."
+      ],
+      "tarea": "Si aplica, escribe una lista de \"acciones de reparación concretas\" que la persona que rompió la confianza puede realizar esta semana para demostrar compromiso (ej. compartir contraseñas, llegar a la hora acordada, validar el dolor sin defenderse)."
+    },
+    {
+      "codigo": "R-25",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🛡️"
+      ],
+      "pregunta": "¿Cómo manejan los desacuerdos con la familia política o extendida? ¿Se protegen mutuamente o se deja que interfieran?",
+      "objetivo": "Evaluar la capacidad de la pareja para formar un \"nosotros\" sólido frente a las familias de origen. Detectar triangulaciones, lealtades divididas o falta de límites con los suegros/familiares.",
+      "profundizacion": [
+        "¿De qué lado se pone cada uno cuando hay un conflicto con su propia familia?",
+        "¿Hay críticas no resueltas hacia la familia del otro que envenenan el vínculo?",
+        "¿Qué límite necesitan establecer juntos para proteger su espacio como pareja?"
+      ],
+      "observacion": [
+        "Triangulación: un miembro de la pareja se alía con su familia contra el otro.",
+        "Evitación del conflicto con la familia propia, dejando al otro expuesto.",
+        "Críticas constantes y desprecio hacia la familia del otro.",
+        "Frente unido: la pareja prioriza su acuerdo interno antes de responder al exterior."
+      ],
+      "intervenciones": [
+        "Estructural:: Fortalecer el subsistema conyugal y establecer límites claros y ejecutables con la familia extendida.",
+        "Sistémica:: Trabajar las lealtades invisibles y la diferenciación del self (Bowen) para reducir la reactividad familiar.",
+        "Gottman:: Ejercicio de \"construir la cultura de nosotros\" frente a las interferencias externas.",
+        "TCC:: Reestructuración de las creencias catastróficas sobre \"quedar mal\" con la familia propia."
+      ],
+      "tarea": "Identifiquen juntos una situación reciente de interferencia familiar. Escriban un guion conjunto de cómo responderán la próxima vez, asegurándose de que quien tiene la familia de origen sea quien ponga el límite principal."
+    },
+    {
+      "codigo": "R-26",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🌱"
+      ],
+      "pregunta": "Si tienen hijos (o los planean), ¿cómo manejan las diferencias en sus estilos de crianza sin que se convierta en una guerra de poder?",
+      "objetivo": "Explorar las alianzas parentales y los conflictos de valores en la crianza. Detectar dinámicas de \"policía bueno/policía malo\" o desacuerdos que los hijos puedan aprovechar.",
+      "profundizacion": [
+        "¿Qué modelo de crianza de tu infancia estás repitiendo o rechazando radicalmente?",
+        "¿Se critican mutuamente frente a los hijos?",
+        "¿Cómo pueden negociar una \"política de crianza\" común sin anular la identidad de cada uno?"
+      ],
+      "observacion": [
+        "Desautorización mutua frente a los hijos (debilitamiento de la jerarquía).",
+        "Rigidez extrema en las reglas por miedo a repetir patrones propios.",
+        "Alianzas cruzadas (un progenitor y un hijo contra el otro progenitor).",
+        "Capacidad de discutir las diferencias en privado y presentar un frente unido."
+      ],
+      "intervenciones": [
+        "Estructural:: Restablecer la jerarquía parental y fortalecer la coalición conyugal como base de la crianza.",
+        "Narrativa:: Explorar las \"historias de crianza\" de cada uno y co-crear una nueva historia conjunta.",
+        "TCC:: Entrenamiento en resolución de problemas para negociar reglas específicas sin atacar el carácter del otro.",
+        "Terapia de Esquemas:: Identificar el modo del \"Niño Vulnerable\" que reacciona cuando se critica su forma de ser padre/madre."
+      ],
+      "tarea": "Escriban juntos 3 valores no negociables de crianza que ambos comparten. Al lado, escriban 2 áreas donde están dispuestos a ceder o permitir que el otro maneje a su estilo."
+    },
+    {
+      "codigo": "R-27",
+      "iconos": [
+        "🎯",
+        "⚖️"
+      ],
+      "pregunta": "¿El dinero es una fuente de conexión y proyectos compartidos, o de control, secreto y ansiedad en tu relación?",
+      "objetivo": "Explorar la dinámica financiera de la pareja. El dinero suele ser un proxy de poder, seguridad, libertad o confianza. Detectar comportamientos financieros compulsivos o de control.",
+      "profundizacion": [
+        "¿Qué significaba el dinero en tu familia de origen (escasez, estatus, amor)?",
+        "¿Hay gastos secretos, deudas ocultas o control unilateral de las finanzas?",
+        "¿Cómo pueden alinear sus valores económicos con sus metas como pareja?"
+      ],
+      "observacion": [
+        "Control financiero como forma de abuso o dominación.",
+        "Gastos compulsivos como regulación emocional o rebelión.",
+        "Evitación total de hablar de dinero por ansiedad o vergüenza.",
+        "Transparencia, presupuestos conjuntos y metas financieras compartidas."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los significados simbólicos del dinero en cada familia de origen y cómo chocan en la pareja.",
+        "TCC:: Psicoeducación financiera y establecimiento de acuerdos conductuales claros (ej. límite de gasto sin consulta).",
+        "EFT:: Acceder a la vulnerabilidad (miedo a la escasez, sensación de no ser valorado) detrás de las peleas por dinero.",
+        "Gottman:: Ejercicio de \"sueños dentro del conflicto\" para entender el significado profundo de la posición financiera de cada uno."
+      ],
+      "tarea": "Cada uno escribe su \"historia del dinero\" en 3 párrafos: qué aprendió de niño, su mayor miedo financiero actual y su mayor esperanza. Intercambien las historias y léanlas sin interrumpir ni juzgar."
+    },
+    {
+      "codigo": "R-28",
+      "iconos": [
+        "⚡",
+        "❤️"
+      ],
+      "pregunta": "Cuando sientes celos, ¿logras distinguir entre una intuición válida sobre un límite cruzado y tu propia inseguridad proyectada?",
+      "objetivo": "Diferenciar los celos reactivos (basados en hechos de deslealtad) de los celos proyectivos (basados en inseguridad interna o trauma de apego no resuelto).",
+      "profundizacion": [
+        "¿Qué evidencia concreta tienes de que tu pareja está cruzando un límite?",
+        "¿Estás reaccionando a lo que hace tu pareja hoy o a lo que te hizo alguien en el pasado?",
+        "¿Cómo puedes expresar tu inseguridad sin acusar o controlar?"
+      ],
+      "observacion": [
+        "Celos paranoides o de control sin base en la realidad (proyección).",
+        "Minimización de señales reales de deslealtad por miedo a enfrentar la verdad.",
+        "Uso de los celos para justificar el aislamiento de la pareja de su red social.",
+        "Capacidad de auto-reflexión y verificación de la realidad antes de reaccionar."
+      ],
+      "intervenciones": [
+        "TCC:: Análisis de evidencias a favor y en contra del pensamiento celoso, desafiando la \"lectura de mente\".",
+        "EFT:: Transformar la acusación celosa en una expresión de necesidad de apego (\"me siento inseguro y necesito reafirmación\").",
+        "DBT:: Habilidades de \"Check the facts\" (verificar los hechos) antes de actuar bajo la emoción de los celos.",
+        "EMDR:: Procesar traumas de infidelidad pasados que están siendo activados por estímulos neutros en el presente."
+      ],
+      "tarea": "La próxima vez que sientas celos, completa esta frase por escrito antes de hablar con tu pareja: \"Me siento [emoción] porque mi mente me dice que [pensamiento], pero la evidencia real que tengo es [hecho]. Lo que realmente necesito es [necesidad de apego].\""
+    },
+    {
+      "codigo": "R-29",
+      "iconos": [
+        "🗣️",
+        "⚡"
+      ],
+      "pregunta": "De los \"Cuatro Jinetes del Apocalipsis\" (crítica, desprecio, actitud defensiva, obstruccionismo), ¿cuál aparece más en sus conflictos y cómo lo contrarrestan?",
+      "objetivo": "Evaluar la calidad de la comunicación durante el conflicto utilizando el marco de Gottman. Identificar los predictores más fuertes de deterioro relacional y trabajar sus antídotos.",
+      "profundizacion": [
+        "¿Reconoces el desprecio (sarcasmo, burla, ojo en blanco) como el más dañino de los cuatro?",
+        "¿Cómo suelen iniciar las discusiones (inicio suave vs. inicio duro)?",
+        "¿Tienen algún mecanismo de \"reparación\" que funcione para detener la escalada?"
+      ],
+      "observacion": [
+        "Presencia frecuente de desprecio (el predictor más fuerte de divorcio/separación).",
+        "Actitud defensiva crónica que impide asumir cualquier responsabilidad.",
+        "Obstruccionismo (stonewalling) con activación fisiológica alta (FC > 100 lpm).",
+        "Uso consciente de los antídotos: queja suave, apreciación, asumir responsabilidad, pausa fisiológica."
+      ],
+      "intervenciones": [
+        "Gottman:: Entrenamiento específico en los 4 antídotos: Queja suave (sin crítica), Construir cultura de aprecio (vs. desprecio), Asumir responsabilidad (vs. defensiva), Pausa de 20 min (vs. obstruccionismo).",
+        "Sensoriomotriz:: Monitoreo de la activación fisiológica durante la sesión para enseñar la auto-regulación antes de continuar el diálogo.",
+        "DBT:: Habilidades de efectividad interpersonal para expresar quejas sin atacar el carácter.",
+        "Narrativa:: Externalizar \"el jinete\" como un invasor de la relación que ambos deben combatir juntos."
+      ],
+      "tarea": "Identifiquen cuál de los 4 jinetes es su \"especialidad\" destructiva. Escriban juntos su antídoto específico y pónganlo en un lugar visible (ej. en el refrigerador) como recordatorio durante las discusiones."
+    },
+    {
+      "codigo": "R-30",
+      "iconos": [
+        "❤️",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo diferencian la \"intimidad emocional\" (sentirse visto y escuchado) de la \"intimidad física\", y cuál de las dos sienten más descuidada hoy?",
+      "objetivo": "Desglosar el concepto de \"intimidad\" para identificar déficits específicos. A menudo, la desconexión emocional precede y alimenta la desconexión física.",
+      "profundizacion": [
+        "¿Se sienten compañeros de cuarto o amantes conectados?",
+        "¿Qué pequeñas acciones diarias harían que te sintieras más emocionalmente íntimo/a?",
+        "¿Cómo afecta la falta de intimidad emocional a su deseo físico?"
+      ],
+      "observacion": [
+        "Intimidad física presente pero vacía de conexión emocional.",
+        "Intimidad emocional alta pero deseo sexual inhibido por dinámica de \"hermanos\".",
+        "Desconexión total en ambas dimensiones (relación en piloto automático).",
+        "Claridad sobre qué dimensión necesita atención prioritaria."
+      ],
+      "intervenciones": [
+        "Gottman:: Ejercicio de \"Mapas de amor\" y actualización del conocimiento mutuo para reconstruir la intimidad emocional.",
+        "Sexología Clínica:: Ejercicios de \"Sensate Focus\" (Masters & Johnson) para reconectar físicamente sin la presión del coito.",
+        "EFT:: Facilitar momentos de vulnerabilidad compartida en sesión para crear un nuevo vínculo de seguridad.",
+        "Conductual:: Programación de \"citas semanales\" obligatorias sin discusión de logística o problemas."
+      ],
+      "tarea": "Cada uno escribe 3 acciones pequeñas y concretas que le harían sentir más intimidad emocional (ej. \"que me preguntes cómo me sentí en esa reunión\"). Intercambien las listas y comprométanse a hacer una esta semana."
+    },
+    {
+      "codigo": "R-31",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿La rutina y el aburrimiento en la relación se sienten como una \"paz segura\" o como una \"muerte en vida\"? ¿Cómo inyectan novedad?",
+      "objetivo": "Evaluar la vitalidad de la relación a largo plazo. Diferenciar la calma segura del apego de la estancamiento emocional. Explorar la capacidad de co-crear novedad.",
+      "profundizacion": [
+        "¿Cuándo fue la última vez que hicieron algo juntos que no fuera parte de la logística diaria?",
+        "¿El aburrimiento es con la relación o con la vida en general?",
+        "¿Qué miedo hay a explorar nuevos intereses por separado o juntos?"
+      ],
+      "observacion": [
+        "Resignación al aburrimiento como \"precio\" de la estabilidad.",
+        "Búsqueda de novedad fuera de la relación (riesgo de infidelidad emocional).",
+        "Agotamiento logístico (hijos, trabajo) que impide cualquier inversión en la pareja.",
+        "Esfuerzos activos y exitosos por mantener la curiosidad y el juego."
+      ],
+      "intervenciones": [
+        "Positiva:: Introducción de actividades de \"arousal\" (excitación) compartidas para reasociar la adrenalina con la pareja.",
+        "Gottman:: Ejercicio de \"Sueños y aspiraciones\" para reconectar con los proyectos vitales individuales y conjuntos.",
+        "Sistémica:: Reestructuración de la rutina familiar para priorizar el subsistema conyugal.",
+        "Narrativa:: Re-autoría de la relación pasando del \"capítulo de la rutina\" al \"capítulo de la exploración\"."
+      ],
+      "tarea": "Hagan una \"lluvia de ideas\" de 10 cosas nuevas que podrían hacer juntos (desde cocinar un plato exótico hasta tomar una clase). Elijan una y agéndenla para las próximas dos semanas, sin excusas."
+    },
+    {
+      "codigo": "R-32",
+      "iconos": [
+        "👨‍👩‍👧",
+        "⚖️"
+      ],
+      "pregunta": "¿Sienten que los roles de género tradicionales (quién trabaja, quién cuida, quién decide) les quedan cómodos o les generan un resentimiento silencioso?",
+      "objetivo": "Explorar la división del trabajo (pagado y no pagado) y las expectativas de género internalizadas. Detectar la \"carga mental\" desigual como fuente de conflicto crónico.",
+      "profundizacion": [
+        "¿Quién lleva la \"carga mental\" de recordar, planificar y organizar la vida doméstica?",
+        "¿Se siente valorado/a el trabajo de cuidado tanto como el trabajo remunerado?",
+        "¿Cómo les gustaría redistribuir estas tareas si no existieran los mandatos sociales?"
+      ],
+      "observacion": [
+        "Resentimiento crónico por división desigual del trabajo doméstico/cuidado.",
+        "Defensa rígida de los roles tradicionales por creencias religiosas o culturales.",
+        "Conflicto constante sobre \"quién hace más\" sin llegar a acuerdos estructurales.",
+        "Redistribución negociada, flexible y con reconocimiento mutuo del esfuerzo."
+      ],
+      "intervenciones": [
+        "Feminista/Sistémica:: Deconstrucción crítica de los mandatos de género y validación de la \"carga mental\" como trabajo real.",
+        "Gottman:: Ejercicio de \"hacerse cargo\" (taking ownership) de tareas específicas sin necesidad de ser gestionado.",
+        "TCC:: Negociación conductual de contratos de tareas con criterios claros y justos.",
+        "Terapia de Esquemas:: Trabajar el modo de Exigencia implacable que impide delegar o aceptar ayuda."
+      ],
+      "tarea": "Hagan una lista de todas las tareas domésticas, logísticas y de cuidado (incluyendo la carga mental de planificación). Asignarlas de nuevo de forma equitativa, no necesariamente 50/50, pero sí 100% consensuada y valorada."
+    },
+    {
+      "codigo": "R-33",
+      "iconos": [
+        "🛡️",
+        "❤️"
+      ],
+      "pregunta": "Cuando uno de los dos pasa por una crisis personal (duelo, enfermedad, pérdida de empleo), ¿cómo responde el otro? ¿Se acerca o se aleja?",
+      "objetivo": "Evaluar la capacidad de la pareja para funcionar como base segura en momentos de alta vulnerabilidad. Detectar patrones de abandono, sobreprotección o incapacidad de sostener el dolor ajeno.",
+      "profundizacion": [
+        "¿Te sientes una carga cuando estás mal, o sientes que tu pareja te sostiene?",
+        "¿La persona que apoya siente que su propio bienestar es sacrificado o ignorado?",
+        "¿Cómo pueden pedir y ofrecer apoyo de una manera que nutra a ambos?"
+      ],
+      "observacion": [
+        "Retirada del compañero sano por incomodidad o miedo a la enfermedad/duelo.",
+        "Sobreprotección que infantiliza a la persona en crisis.",
+        "Agotamiento del cuidador (caregiver burnout) sin espacio para sus propias necesidades.",
+        "Respuesta empática, equilibrada y de equipo frente a la adversidad."
+      ],
+      "intervenciones": [
+        "EFT:: Facilitar que la persona en crisis exprese su miedo y que el otro responda con empatía y no con soluciones prematuras.",
+        "Sistémica:: Reequilibrar el sistema familiar para incluir apoyo externo y evitar el colapso de la díada.",
+        "Logoterapia:: Encontrar sentido compartido en el sufrimiento y fortalecer el \"nosotros\" frente a la adversidad.",
+        "Conductual:: Planificación de \"turnos de cuidado\" para prevenir el agotamiento del compañero sano."
+      ],
+      "tarea": "Recuerden una crisis pasada. Escriban cada uno: \"Lo que más necesité de ti en ese momento fue...\" y \"Lo que más me costó darte fue...\". Compartan esto para cerrar brechas de incomprensión."
+    },
+    {
+      "codigo": "R-34",
+      "iconos": [
+        "👤",
+        "🌱"
+      ],
+      "pregunta": "¿Sienten que han sacrificado su individualidad por la relación, o que la relación les permite florecer como individuos?",
+      "objetivo": "Evaluar el equilibrio entre autonomía y conexión (diferenciación). Detectar relaciones simbióticas, fusionadas o, por el contrario, excesivamente distantes y paralelas.",
+      "profundizacion": [
+        "¿Tienes hobbies, amigos o intereses que tu pareja no comparte ni intenta controlar?",
+        "¿Te sientes culpable cuando disfrutas de algo sin tu pareja?",
+        "¿Cómo enriquece tu individualidad a la relación en lugar de amenazarla?"
+      ],
+      "observacion": [
+        "Fusión: pérdida de identidad propia, hacer todo juntos, celos de las amistades externas.",
+        "Pseudo-mutualidad: aparentar acuerdo para evitar la ansiedad de la diferencia.",
+        "Desconexión: vidas completamente paralelas sin intersección ni curiosidad.",
+        "Diferenciación saludable: apoyo mutuo a los proyectos individuales con un núcleo compartido sólido."
+      ],
+      "intervenciones": [
+        "Bowen (Sistémica):** Trabajar la diferenciación del self y la tolerancia a la ansiedad que produce la autonomía del otro.",
+        "ACT:: Clarificación de valores individuales y cómo la relación puede ser un contexto para vivirlos, no un obstáculo.",
+        "Gottman:: Fomento de los \"sueños dentro del conflicto\" para apoyar las aspiraciones personales del otro.",
+        "Terapia de Esquemas:: Trabajar el miedo a la separación o al abandono que impulsa la fusión."
+      ],
+      "tarea": "Cada uno debe planificar y ejecutar esta semana una actividad puramente individual que le apasione. Al volver, compartirán la experiencia con entusiasmo, sin que el otro se sienta excluido."
+    },
+    {
+      "codigo": "R-35",
+      "iconos": [
+        "⚡",
+        "🗣️"
+      ],
+      "pregunta": "Cuando la ira estalla en la relación, ¿hay algún límite claro sobre lo que \"no se puede decir\" o \"no se puede hacer\", o todo vale?",
+      "objetivo": "Evaluar la seguridad física y emocional durante los conflictos. Detectar patrones de agresión verbal, emocional o física, y establecer protocolos de seguridad inquebrantables.",
+      "profundizacion": [
+        "¿Se han dicho cosas que hirieron profundamente y nunca se repararon?",
+        "¿Hay miedo físico o emocional a la reacción del otro cuando se enoja?",
+        "¿Qué \"reglas de compromiso\" necesitan establecer para discutir sin destruirse?"
+      ],
+      "observacion": [
+        "Presencia de violencia verbal, amenazas o intimidación (requiere evaluación de riesgo).",
+        "Golpes bajos: atacar inseguridades conocidas o defectos físicos durante la pelea.",
+        "Capacidad de detener la discusión antes de cruzar la línea del daño irreversible.",
+        "Reparación genuina y disculpas específicas tras un estallido de ira."
+      ],
+      "intervenciones": [
+        "Evaluación de Riesgo:: Si hay violencia física o miedo, priorizar la seguridad y derivar a recursos especializados (la terapia de pareja está contraindicada en violencia activa).",
+        "Gottman:: Establecimiento de un \"acuerdo de no agresión\" con consecuencias claras si se rompe (ej. pausa inmediata).",
+        "DBT:: Entrenamiento intensivo en tolerancia al malestar y regulación de la ira para ambos miembros.",
+        "Sensoriomotriz:: Reconocer las señales fisiológicas de \"punto de no retorno\" y aprender a retirarse a tiempo."
+      ],
+      "tarea": "Redacten juntos un \"Tratado de Paz\" con 3 reglas innegociables para las discusiones (ej. \"no gritar\", \"no irse sin avisar\", \"no mencionar el divorcio como amenaza\"). Fírmenlo y pónganlo a la vista."
+    },
+    {
+      "codigo": "R-36",
+      "iconos": [
+        "🌱",
+        "❤️"
+      ],
+      "pregunta": "¿Hay resentimientos del pasado que siguen \"vivos\" y que sacan a relucir en cada discusión nueva, impidiendo que el conflicto actual se resuelva?",
+      "objetivo": "Identificar los \"conflictos perpetuos\" o \"heridas no cerradas\" que contaminan las discusiones presentes. Trabajar la necesidad de cierre y perdón para avanzar.",
+      "profundizacion": [
+        "¿Qué evento del pasado sientes que tu pareja nunca entendió o por el que nunca se disculpó adecuadamente?",
+        "¿Cómo afecta este \"fantasma\" a tu capacidad de confiar hoy?",
+        "¿Qué necesitarías para cerrar esa herida de una vez por todas?"
+      ],
+      "observacion": [
+        "\"Cocina\" (kitchen-sinking): traer todos los errores pasados a una discusión actual.",
+        "Resistencia a perdonar como forma de mantener el poder moral o la protección.",
+        "Disminución de la reactividad emocional al hablar del evento pasado.",
+        "Capacidad de separar el conflicto actual de las heridas históricas."
+      ],
+      "intervenciones": [
+        "Gottman (Heridas no cerradas):** Protocolo de 5 pasos para procesar un incidente pasado: compartir la realidad, explorar la vulnerabilidad, asumir responsabilidad, planificar el futuro, perdonar.",
+        "EFT:: Facilitar que el ofensor exprese remordimiento genuino y el herido exprese su dolor sin ataque.",
+        "Narrativa:: Re-escribir el significado del evento pasado, pasando de \"me traicionó\" a \"sobrevivimos a esto y aprendimos\".",
+        "Logoterapia:: Encontrar un significado de crecimiento en el sufrimiento compartido."
+      ],
+      "tarea": "Elijan UNA herida del pasado que siga doliendo. Dediquen una sesión completa solo a procesarla usando el protocolo de \"heridas no cerradas\", sin permitir que la conversación derive a otros temas."
+    },
+    {
+      "codigo": "R-37",
+      "iconos": [
+        "👨‍👩‍👧",
+        "🧠"
+      ],
+      "pregunta": "¿Estás esperando que tu pareja te \"salve\", te \"complete\" o te dé la validación que no te diste a ti mismo/a?",
+      "objetivo": "Explorar la codependencia y las expectativas irrealistas de fusión. Ayudar al paciente a asumir la responsabilidad de su propia regulación emocional y autoestima.",
+      "profundizacion": [
+        "¿Qué parte de ti se siente \"incompleta\" sin la validación constante del otro?",
+        "¿Cómo reaccionas cuando tu pareja no puede (o no quiere) ser tu terapeuta o padre?",
+        "¿Qué puedes hacer tú por ti mismo/a que le estás exigiendo a tu pareja?"
+      ],
+      "observacion": [
+        "Exigencia constante de reafirmación y agotamiento del otro.",
+        "Colapso emocional cuando la pareja establece un límite o necesita espacio.",
+        "Reconocimiento de la propia responsabilidad en el bienestar emocional.",
+        "Transición de la dependencia a la interdependencia saludable."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del Adulto Saludable para que se haga cargo de las necesidades del Niño Vulnerable, en lugar de exigirle a la pareja que lo haga.",
+        "DBT:: Entrenamiento en auto-validación y regulación emocional independiente.",
+        "ACT:: Defusión de la creencia de que \"necesito al otro para estar bien\" y conexión con valores de autonomía.",
+        "Psicodinámica:: Análisis de la transferencia y la búsqueda de objetos de apego sustitutos."
+      ],
+      "tarea": "Haz una lista de 3 cosas que le exiges a tu pareja para sentirte bien (ej. \"que me diga que soy atractivo/a\", \"que adivine por qué estoy triste\"). Al lado, escribe cómo puedes empezar a dártelas a ti mismo/a."
+    },
+    {
+      "codigo": "R-38",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿Qué \"rituales de conexión\" tienen (o les gustaría tener) para mantener la chispa viva en medio del caos diario?",
+      "objetivo": "Identificar o co-crear rituales relacionales que actúen como amortiguadores del estrés y mantenedores del vínculo. La falta de rituales es un predictor de desconexión.",
+      "profundizacion": [
+        "¿Cómo se despiden por la mañana y cómo se saludan al final del día?",
+        "¿Tienen un ritual semanal solo para ustedes dos, sin hijos ni pantallas?",
+        "¿Qué pequeño ritual podrían implementar esta misma semana?"
+      ],
+      "observacion": [
+        "Ausencia total de rituales; la relación se gestiona solo por logística.",
+        "Rituales forzados o vividos como una obligación más.",
+        "Rituales sólidos (ej. café juntos, caminata semanal) que protegen el vínculo.",
+        "Entusiasmo por diseñar nuevos rituales significativos."
+      ],
+      "intervenciones": [
+        "Gottman:: Diseño de rituales de conexión específicos para: despedidas, reencuentros, estrés, citas y descanso.",
+        "Sistémica:: Introducción de rituales que reafirmen la identidad de la pareja como subsistema prioritario.",
+        "Conductual:: Programación inquebrantable de estos rituales en la agenda, tratándolos como citas médicas importantes.",
+        "Positiva:: Fomento de la gratitud mutua dentro de estos rituales (ej. compartir una cosa que agradecen del otro cada noche)."
+      ],
+      "tarea": "Diseñen juntos un \"ritual de reencuentro\" para cuando lleguen a casa después del trabajo (ej. 6 segundos de abrazo, dejar los teléfonos en otra habitación por 15 minutos). Practíquenlo durante 7 días."
+    },
+    {
+      "codigo": "R-39",
+      "iconos": [
+        "🎯",
+        "🧠"
+      ],
+      "pregunta": "Si tuvieran que evaluar la \"salud\" de su relación en una escala del 1 al 10 hoy, ¿qué número le pondrían y qué necesitaría pasar para subir un solo punto?",
+      "objetivo": "Realizar una evaluación colaborativa y orientada a soluciones del estado actual del vínculo. Evitar la queja global y centrarse en el cambio microscópico y alcanzable.",
+      "profundizacion": [
+        "¿Por qué le pusiste ese número y no uno más bajo? (busca excepciones y fortalezas).",
+        "¿Es ese \"punto extra\" algo que depende de ti, del otro o de ambos?",
+        "¿Están dispuestos a hacer ese pequeño cambio esta semana?"
+      ],
+      "observacion": [
+        "Puntuaciones muy dispares que revelan percepciones diferentes de la realidad.",
+        "Respuestas cínicas o derrotistas (\"da igual, siempre será un 3\").",
+        "Capacidad de identificar fortalezas existentes (el \"por qué no es más bajo\").",
+        "Compromiso concreto con una acción pequeña y realista para mejorar la puntuación."
+      ],
+      "intervenciones": [
+        "Soluciones:: Uso de la \"pregunta de escala\" y la \"pregunta de excepción\" para movilizar recursos ya presentes.",
+        "Gottman:: Enfocarse en los \"pequeños cambios\" que tienen un efecto desproporcionadamente positivo en la satisfacción.",
+        "TCC:: Reestructuración del pensamiento dicotómico (\"si no es un 10, es un fracaso\") hacia un pensamiento gradual.",
+        "EFT:: Validar el dolor detrás de una puntuación baja y usarlo como motivación para el cambio conjunto."
+      ],
+      "tarea": "Cada uno escribe su número y una acción concreta que él/ella puede hacer esta semana para subir la nota un punto. Compártanlo y comprométanse a ejecutarlo sin esperar que el otro lo haga primero."
+    },
+    {
+      "codigo": "R-40",
+      "iconos": [
+        "🌱",
+        "🎯",
+        "❤️"
+      ],
+      "pregunta": "Al terminar este bloque, ¿qué visión compartida del futuro pueden construir juntos que los motive a seguir eligiéndose cada día?",
+      "objetivo": "Cierre del lote con enfoque en la construcción de significado compartido. Trasladar el foco de la resolución de problemas a la creación de un propósito común que dé sentido a la relación.",
+      "profundizacion": [
+        "¿Cuáles son los sueños y valores que los unieron al principio y cómo pueden reavivarlos?",
+        "¿Qué legado quieren dejar como pareja (con hijos, comunidad o entre ustedes)?",
+        "¿Cómo pueden recordar esta visión cuando el conflicto vuelva a aparecer?"
+      ],
+      "observacion": [
+        "Visión compartida clara, inspiradora y con valores comunes definidos.",
+        "Dificultad para recordar por qué están juntos (pérdida de significado).",
+        "Visión unilateral donde solo uno tiene sueños y el otro solo \"acompaña\".",
+        "Compromiso renovado y esperanza realista en el proyecto de pareja."
+      ],
+      "intervenciones": [
+        "Gottman:: Ejercicio de \"Crear significado compartido\": explorar roles, metas, símbolos y valores como pareja.",
+        "Narrativa:: Co-escribir el \"manifiesto de la relación\" que defina quiénes son y hacia dónde van.",
+        "Logoterapia:: Encontrar el sentido último de la unión, más allá de la satisfacción inmediata.",
+        "ACT:: Alinear las acciones diarias con los valores compartidos de la pareja, incluso en presencia de conflictos."
+      ],
+      "tarea": "Escriban juntos un \"Manifiesto de Pareja\" de un párrafo. Debe comenzar con: \"Nosotros somos una pareja que valora...\" y terminar con \"...y nos comprometemos a seguir eligiéndonos, incluso en los días difíciles\". Léanlo en voz alta."
+    },
+    {
+      "codigo": "R-41",
+      "iconos": [
+        "🕊️",
+        "❤️"
+      ],
+      "pregunta": "¿Cuál es la diferencia, para ti, entre \"pedir perdón\" y \"reparar genuinamente\" un daño en la relación?",
+      "objetivo": "Diferenciar la disculpa verbal superficial de la reparación conductual y emocional profunda. Evaluar la comprensión del paciente sobre los componentes de una disculpa efectiva.",
+      "profundizacion": [
+        "¿Qué elementos crees que debe tener una disculpa para que se sienta real?",
+        "¿Alguna vez has dicho \"perdón\" solo para que la discusión termine, sin sentirlo?",
+        "¿Qué acción concreta demostraría que el aprendizaje fue real?"
+      ],
+      "observacion": [
+        "Confusión entre disculpa rápida y cambio de comportamiento.",
+        "Reconocimiento de disculpas vacías dadas en el pasado.",
+        "Comprensión clara de que la reparación requiere tiempo y acción.",
+        "Dificultad para perdonar sin ver cambios conductuales tangibles."
+      ],
+      "intervenciones": [
+        "Gottman:: Enseñar los 3 componentes de una disculpa efectiva: expresión de remordimiento, asunción de responsabilidad y plan de acción.",
+        "EFT:: Facilitar la expresión de la vulnerabilidad y el remordimiento genuino detrás de la disculpa.",
+        "TCC:: Análisis funcional de las disculpas instrumentales vs. las disculpas auténticas.",
+        "Narrativa:: Re-escribir la historia del conflicto para incluir un capítulo de reparación activa."
+      ],
+      "tarea": "Escribe una disculpa que hayas dado o recibido recientemente. Reescríbela ahora incluyendo: 1) qué hiciste mal específicamente, 2) cómo crees que afectó al otro, y 3) qué harás diferente la próxima vez."
+    },
+    {
+      "codigo": "R-42",
+      "iconos": [
+        "🕊️",
+        "🛡️"
+      ],
+      "pregunta": "Después de una ruptura de confianza, ¿qué \"pequeñas acciones\" diarias pueden reconstruir la seguridad más que las grandes promesas?",
+      "objetivo": "Desglosar la reconstrucción de la confianza en micro-comportamientos observables y consistentes. Alejar el foco de las declaraciones grandilocuentes y acercarlo a la coherencia diaria.",
+      "profundizacion": [
+        "¿Qué pequeños gestos te harían sentir más seguro/a hoy?",
+        "¿Estás dispuesto/a a ser transparente en detalles que antes parecían insignificantes?",
+        "¿Cómo puedes celebrar estos pequeños avances sin minimizar el dolor pasado?"
+      ],
+      "observacion": [
+        "Expectativa de que la confianza vuelva \"mágicamente\" de un día para otro.",
+        "Frustración por la lentitud del proceso de reconstrucción.",
+        "Capacidad de identificar gestos concretos de fiabilidad (llegar a tiempo, cumplir promesas pequeñas).",
+        "Reconocimiento de que la confianza se gana en gotas y se pierde en cubos."
+      ],
+      "intervenciones": [
+        "Conductual:: Establecimiento de un \"menú de acciones reparadoras\" diarias o semanales acordadas por ambos.",
+        "Gottman:: Práctica de la \"transparencia radical\" voluntaria como antídoto a la desconfianza.",
+        "EFT:: Validar el miedo del herido y la paciencia requerida, sin que el ofensor se sienta en juicio perpetuo.",
+        "Sistémica:: Crear nuevos rituales de verificación que no se sientan como control, sino como cuidado."
+      ],
+      "tarea": "Hagan una lista de 5 \"micro-acciones\" de confianza que pueden realizar esta semana (ej. avisar si se llega tarde, compartir un pensamiento vulnerable). Comprométanse a cumplir al menos 3."
+    },
+    {
+      "codigo": "R-43",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿Cómo pueden celebrar los pequeños logros relacionales sin que parezca forzado o cursi?",
+      "objetivo": "Fomentar el refuerzo positivo en la relación. Muchas parejas o amigos olvidan celebrar lo que funciona bien, centrando toda su energía en corregir lo que está mal.",
+      "profundizacion": [
+        "¿Cuándo fue la última vez que celebraron haber manejado bien un conflicto?",
+        "¿Qué les impide reconocerse mutuamente los esfuerzos?",
+        "¿Qué forma de celebración se siente auténtica para ambos?"
+      ],
+      "observacion": [
+        "Incapacidad para reconocer lo positivo (sesgo de negatividad relacional).",
+        "Rechazo a los cumplidos o celebraciones por sentirse \"merecedores\" solo de crítica.",
+        "Identificación de formas simples y genuinas de reconocimiento mutuo.",
+        "Alivio al darse permiso para disfrutar de los momentos buenos sin culpa."
+      ],
+      "intervenciones": [
+        "Positiva:: Implementación de la práctica de \"capitalización\" (responder con entusiasmo activo a las buenas noticias del otro).",
+        "Gottman:: Ejercicio de \"reconocimiento de esfuerzos\": verbalizar específicamente lo que el otro hizo bien esta semana.",
+        "Conductual:: Establecer un ritual semanal de 5 minutos para compartir \"lo que más aprecié de ti esta semana\".",
+        "Narrativa:: Re-enmarcar la relación no como un \"problema a resolver\", sino como un \"jardín a cultivar\"."
+      ],
+      "tarea": "Esta semana, identifiquen un momento en que el otro manejó bien una situación difícil. Díganlo explícitamente: \"Noté cómo manejaste X, y lo hice muy bien. Gracias\"."
+    },
+    {
+      "codigo": "R-44",
+      "iconos": [
+        "📜",
+        "🧠"
+      ],
+      "pregunta": "¿Necesitan reescribir algún \"acuerdo\" o regla no dicha de su relación que ya no les funciona?",
+      "objetivo": "Identificar contratos relacionales obsoletos. Las relaciones evolucionan, y las reglas que funcionaban al inicio (o en la infancia) pueden volverse opresivas o disfuncionales con el tiempo.",
+      "profundizacion": [
+        "¿Qué regla de \"cómo debemos ser\" les está causando fricción hoy?",
+        "¿Quién se beneficia de mantener el acuerdo antiguo y quién se siente perjudicado?",
+        "¿Cómo sería un nuevo acuerdo que respete las necesidades actuales de ambos?"
+      ],
+      "observacion": [
+        "Acuerdos obsoletos sobre roles de género, finanzas o intimidad.",
+        "Resistencia al cambio por miedo a la incertidumbre (\"siempre lo hemos hecho así\").",
+        "Apertura para negociar nuevos términos de forma colaborativa.",
+        "Reconocimiento de que los acuerdos saludables son flexibles y revisables."
+      ],
+      "intervenciones": [
+        "Sistémica:: Renegociación explícita de los límites y reglas del sistema relacional.",
+        "TCC:: Cuestionamiento de las creencias rígidas sobre \"cómo debe ser\" una relación.",
+        "Gottman:: Diálogo sobre los \"sueños dentro del conflicto\" para encontrar un terreno común en el nuevo acuerdo.",
+        "Narrativa:: Ceremonia simbólica de \"cierre del viejo contrato\" y \"firma del nuevo\"."
+      ],
+      "tarea": "Identifiquen una regla no dicha que ya no sirve (ej. \"uno de los dos debe ceder siempre\"). Escriban juntos una nueva versión de esa regla que sea justa para ambos."
+    },
+    {
+      "codigo": "R-45",
+      "iconos": [
+        "🕊️",
+        "⚖️"
+      ],
+      "pregunta": "¿El perdón en su relación es un evento único o un proceso que hay que elegir repetir algunos días?",
+      "objetivo": "Desmitificar el perdón como un acto mágico e instantáneo. Normalizar la naturaleza no lineal del perdón, donde los recuerdos del dolor pueden reaparecer y requieren una nueva elección consciente.",
+      "profundizacion": [
+        "¿Qué pasa cuando el dolor del pasado resurge después de haber \"perdonado\"?",
+        "¿Se usa el perdón pasado como un arma (\"ya te perdoné, no lo saques más\")?",
+        "¿Cómo pueden ser compasivos con el proceso de sanación del otro?"
+      ],
+      "observacion": [
+        "Exigencia de \"olvidar y seguir adelante\" inmediatamente.",
+        "Uso del perdón como herramienta de control moral.",
+        "Reconocimiento de que el perdón es una decisión diaria, no un interruptor.",
+        "Paciencia mutua ante los \"días malos\" del proceso de sanación."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Enmarcar el perdón como un acto de libertad y búsqueda de sentido, no como debilidad.",
+        "EFT:: Validar que la reaparición del dolor no significa que el perdón fue falso, sino que la herida está en proceso de cicatrización.",
+        "ACT:: Aceptación de los recuerdos dolorosos sin dejar que dicten las acciones presentes.",
+        "Gottman:: Diferenciar entre \"perdonar\" y \"confiar\" (el perdón se da, la confianza se reconstruye con el tiempo)."
+      ],
+      "tarea": "Escriban juntos: \"Entendemos que el perdón es un camino, no un destino. Nos comprometemos a tener paciencia cuando el dolor del pasado resurja, sin usarlo como un arma\"."
+    },
+    {
+      "codigo": "R-46",
+      "iconos": [
+        "🌱",
+        "❤️"
+      ],
+      "pregunta": "¿Cómo pueden reintroducir el \"juego\", la ligereza y la risa en su relación, sin que parezca que están ignorando los problemas serios?",
+      "objetivo": "Recuperar la dimensión lúdica del vínculo. Las relaciones en conflicto o en reparación a menudo se vuelven excesivamente serias y transaccionales, perdiendo la chispa que las hizo atractivas al inicio.",
+      "profundizacion": [
+        "¿Qué actividades hacían al principio que los hacían reír juntos?",
+        "¿Sienten que \"no tienen derecho\" a divertirse hasta que todo esté \"resuelto\"?",
+        "¿Cómo puede el juego ser un espacio seguro de reconexión, no una evasión?"
+      ],
+      "observacion": [
+        "Culpa al intentar divertirse mientras hay problemas pendientes.",
+        "Pérdida total de la capacidad de jugar o bromear sin que se malinterprete.",
+        "Reconocimiento de que la ligereza es un recurso, no una evasión.",
+        "Apertura a planificar momentos de \"no-problema\" deliberados."
+      ],
+      "intervenciones": [
+        "Positiva:: Prescripción de \"tiempo de juego\" no negociable, separado del tiempo de resolución de problemas.",
+        "Gottman:: Fomento de la \"cultura de la admiración y el afecto\" a través de interacciones lúdicas.",
+        "Narrativa:: Recordar y re-narrar las historias divertidas de los inicios de la relación.",
+        "Conductual:: Programación de una actividad nueva y ligeramente desafiante (que genere adrenalina positiva compartida)."
+      ],
+      "tarea": "Acuerden una \"regla de oro\": durante las próximas 24 horas, está prohibido hablar de problemas o logística. Solo se permite conversar, jugar o compartir algo ligero. Observen cómo se sienten."
+    },
+    {
+      "codigo": "R-47",
+      "iconos": [
+        "🔄",
+        "🛡️"
+      ],
+      "pregunta": "Cuando recaen en un patrón antiguo de conflicto, ¿cómo pueden usarlo como una señal de aprendizaje en lugar de una prueba de que \"nada ha cambiado\"?",
+      "objetivo": "Re-enmarcar las recaídas. En lugar de ver una recaída como un fracaso total, enseñar al paciente a verla como una oportunidad para aplicar las nuevas herramientas aprendidas y acortar el tiempo de recuperación.",
+      "profundizacion": [
+        "¿En qué se diferencia esta recaída de las del pasado (ej. duró menos, fue menos intensa)?",
+        "¿Qué herramienta nueva pudieron aplicar esta vez que antes no tenían?",
+        "¿Cómo pueden \"debriefing\" (analizar) la recaída sin culparse?"
+      ],
+      "observacion": [
+        "Catastrofismo ante la recaída (\"volvimos a empezar, es inútil\").",
+        "Capacidad de detectar la recaída antes de que escale completamente.",
+        "Uso de la recaída como dato: \"ah, aquí está nuestro punto ciego\".",
+        "Autocompasión mutua durante el proceso de corrección."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva del pensamiento dicotómico (\"si recaemos, no hemos avanzado nada\").",
+        "Soluciones:: Análisis de la \"excepción\": ¿qué hicieron diferente esta vez que ayudó a salir del bache más rápido?",
+        "Gottman:: Práctica del \"debriefing\" post-conflicto: analizar qué desencadenó el ciclo y cómo interrumpirlo mejor la próxima vez.",
+        "ACT:: Aceptación de que el cambio es un proceso en espiral, no una línea recta."
+      ],
+      "tarea": "La próxima vez que noten que están en un patrón antiguo, deténganse y digan: \"Aquí está nuestro viejo patrón. Esta vez vamos a probar [nueva herramienta]\". Anoten el resultado después."
+    },
+    {
+      "codigo": "R-48",
+      "iconos": [
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "¿Cómo pueden practicar la gratitud mutua de manera específica, para contrarrestar el sesgo de negatividad que acumula resentimiento?",
+      "objetivo": "Implementar la gratitud como una intervención activa contra el resentimiento. La gratitud genérica (\"gracias por todo\") no funciona; se requiere especificidad para re cablear la atención hacia lo positivo.",
+      "profundizacion": [
+        "¿Qué hizo el otro esta semana que pasó desapercibido pero que valoras?",
+        "¿Cómo te sientes cuando expresas gratitud específica? ¿Y cuando la recibes?",
+        "¿Pueden hacer de esto un hábito, no solo algo para ocasiones especiales?"
+      ],
+      "observacion": [
+        "Dificultad para encontrar algo específico que agradecer (ceguera al positivo).",
+        "Gratitud expresada de forma vaga o impersonal.",
+        "Emoción genuina y conexión al recibir un reconocimiento específico.",
+        "Compromiso para integrar la gratitud en la rutina diaria."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio de \"Tres cosas buenas\" aplicado específicamente a las acciones de la pareja/amigo.",
+        "Gottman:: Práctica de \"captar al otro haciéndolo bien\" y verbalizarlo inmediatamente.",
+        "TCC:: Registro diario de gratitud específica para contrarrestar el filtraje mental negativo.",
+        "Conductual:: Establecer una alarma diaria compartida para enviarse un mensaje de agradecimiento específico."
+      ],
+      "tarea": "Esta noche, envíenle al otro un mensaje o díganle en persona: \"Hoy agradecí específicamente que tú [acción concreta], porque me hizo sentir [emoción]\"."
+    },
+    {
+      "codigo": "R-49",
+      "iconos": [
+        "🎯",
+        "❤️"
+      ],
+      "pregunta": "¿Qué significa para ustedes, hoy, tener una \"relación saludable\"? ¿Ha cambiado esta definición desde que empezaron?",
+      "objetivo": "Actualizar la definición de \"salud relacional\". Las ideas idealizadas o ingenuas del inicio suelen dar paso a una definición más madura, basada en la reparación, el respeto y la flexibilidad.",
+      "profundizacion": [
+        "¿Qué creían que era una relación saludable al principio que ahora ven como irreal?",
+        "¿Qué nuevo elemento (ej. capacidad de reparar, límites claros) es ahora no negociable para ustedes?",
+        "¿Cómo se alinea su relación actual con esta nueva definición?"
+      ],
+      "observacion": [
+        "Definición inmadura: \"una relación saludable es la que no tiene conflictos\".",
+        "Definición madura: \"una relación saludable es la que sabe reparar sus rupturas\".",
+        "Desalineación entre lo que valoran y cómo actúan actualmente.",
+        "Claridad y consenso sobre los pilares de su relación actual."
+      ],
+      "intervenciones": [
+        "Narrativa:: Co-crear un \"manifiesto de relación saludable\" actualizado, realista y propio.",
+        "ACT:: Evaluar si las acciones diarias están alineadas con esta nueva definición de salud.",
+        "Sistémica:: Negociar los nuevos límites y expectativas basados en esta definición madura.",
+        "Humanista:: Validar la evolución y la sabiduría ganada a través de las dificultades."
+      ],
+      "tarea": "Escriban juntos 3 características de su \"relación saludable\" actual. Compárenlas con las que tenían al principio. Celebren la madurez y la profundidad que han ganado."
+    },
+    {
+      "codigo": "R-50",
+      "iconos": [
+        "🛡️",
+        "🧠"
+      ],
+      "pregunta": "¿Cómo diferencian cuándo un problema es \"de ustedes dos\" para resolver, y cuándo necesitan ayuda externa (terapeuta, mediador)?",
+      "objetivo": "Evaluar la metacognición relacional y la disposición a buscar ayuda. Desestigmatizar la terapia de pareja o la mediación como un signo de fracaso, y re-enmarcarla como un recurso de fortaleza.",
+      "profundizacion": [
+        "¿Qué señales les indican que están \"atascados\" y no pueden salir solos?",
+        "¿Qué miedos o estigmas tienen sobre pedir ayuda profesional?",
+        "¿Cómo pueden acordar buscar ayuda antes de que la crisis sea inmanejable?"
+      ],
+      "observacion": [
+        "Estigma fuerte: \"ir al terapeuta significa que vamos a terminar\".",
+        "Espera hasta el punto de quiebre total antes de buscar ayuda.",
+        "Reconocimiento de que un tercero puede ofrecer una perspectiva neutral valiosa.",
+        "Acuerdo previo sobre cuándo y cómo buscarían ayuda si fuera necesario."
+      ],
+      "intervenciones": [
+        "Psicoeducación:: Desmitificar la terapia de pareja como un \"último recurso\", presentándola como un \"mantenimiento preventivo\".",
+        "Sistémica:: Normalizar la necesidad de un \"observador del sistema\" para romper patrones enquistados.",
+        "TCC:: Reestructuración de la creencia \"debemos poder resolver todo solos\".",
+        "Soluciones:: Acordar de antemano una \"señal de alarma\" mutua que indique que es hora de buscar apoyo."
+      ],
+      "tarea": "Acuerden juntos: \"Si alguno de los dos siente que estamos dando vueltas en el mismo problema por más de [X tiempo], propondremos buscar una sesión de orientación, sin que esto sea una amenaza\"."
+    },
+    {
+      "codigo": "R-51",
+      "iconos": [
+        "🗣️",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo pueden pedir retroalimentación sobre su propio comportamiento en la relación sin que suene a que están buscando aprobación o atacando?",
+      "objetivo": "Fomentar la humildad relacional y la comunicación bidireccional. Enseñar a pedir feedback de manera vulnerable y receptiva, creando un canal seguro para el crecimiento mutuo.",
+      "profundizacion": [
+        "¿Qué te da miedo escuchar si le preguntas a tu pareja/amigo cómo lo estás haciendo?",
+        "¿Cómo puedes formular la pregunta para invitar a la honestidad, no a la queja?",
+        "¿Cómo puedes recibir esa información sin ponerte a la defensiva?"
+      ],
+      "observacion": [
+        "Miedo paralizante a la crítica, evitando pedir feedback.",
+        "Pedir feedback de forma pasivo-agresiva (\"¿estás feliz conmigo o qué?\").",
+        "Capacidad de escuchar la retroalimentación con curiosidad, no con defensa.",
+        "Creación de un espacio seguro donde ambos se sienten cómodos dando y recibiendo opiniones."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en la habilidad de pedir retroalimentación de manera efectiva y en la tolerancia a la respuesta sin reactividad.",
+        "Gottman:: Práctica de hacer preguntas abiertas y suaves sobre el propio impacto en el otro.",
+        "ACT:: Aceptación de la incomodidad de escuchar críticas constructivas sin fusionarse con ellas.",
+        "Narrativa:: Re-enmarcar la retroalimentación como un \"regalo de información\" para mejorar, no como un veredicto."
+      ],
+      "tarea": "Esta semana, pregúntale al otro: \"¿Hay algo que yo haga que te hace sentir menos conectado/a conmigo? Lo pregunto porque quiero mejorar, no para discutir\". Escucha solo para entender, no para responder."
+    },
+    {
+      "codigo": "R-52",
+      "iconos": [
+        "⚖️",
+        "🕊️"
+      ],
+      "pregunta": "¿Cómo pueden aceptar y \"dialogar\" con las diferencias irreconciliables (problemas perpetuos) sin intentar cambiar al otro?",
+      "objetivo": "Introducir el concepto de \"problemas perpetuos\" de Gottman (el 69% de los conflictos de pareja son perpetuos). El objetivo no es resolverlos, sino pasar del \"estancamiento conflictivo\" al \"diálogo continuo\".",
+      "profundizacion": [
+        "¿Cuál es ese tema que siempre discuten y nunca se resuelve del todo?",
+        "¿Qué sueño o necesidad profunda hay detrás de tu posición en ese tema?",
+        "¿Puedes aceptar que esta diferencia es parte del \"paquete\" de estar con esta persona?"
+      ],
+      "observacion": [
+        "Agotamiento por intentar \"ganar\" o \"cambiar\" al otro en un tema perpetuo.",
+        "Reconocimiento de que el problema es un \"diálogo en curso\", no un error a eliminar.",
+        "Capacidad de encontrar humor o ternura en la diferencia.",
+        "Estancamiento y resentimiento por la falta de \"solución\"."
+      ],
+      "intervenciones": [
+        "Gottman:: Ejercicio de \"sueños dentro del conflicto\": explorar el significado simbólico de la posición de cada uno sin intentar debatirlo.",
+        "ACT:: Aceptación radical de la diferencia como parte de la realidad, dejando de luchar contra ella.",
+        "Narrativa:: Re-enmarcar el problema perpetuo como una característica de la relación, no como un fracaso.",
+        "Sistémica:: Buscar el equilibrio homeostático que permita la coexistencia de la diferencia sin ruptura."
+      ],
+      "tarea": "Elijan un problema perpetuo. En lugar de debatir quién tiene razón, turnense para explicar: \"Lo que este tema significa para mí en el fondo es...\". El otro solo escucha y valida, sin contraargumentar."
+    },
+    {
+      "codigo": "R-53",
+      "iconos": [
+        "🌱",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué legado relacional están construyendo? ¿Qué enseñan sobre el amor y el respeto a quienes los observan (hijos, amigos, familia)?",
+      "objetivo": "Conectar la relación actual con un propósito trascendente. Elevar la perspectiva desde los conflictos diarios hacia el impacto positivo que la relación puede tener en el entorno y en las futuras generaciones.",
+      "profundizacion": [
+        "¿Qué modelo de relación están ofreciendo a los demás?",
+        "¿De qué se sentirían orgullosos que otros dijeran sobre cómo se tratan?",
+        "¿Cómo puede esta visión de legado motivarlos a cuidar mejor el vínculo hoy?"
+      ],
+      "observacion": [
+        "Conexión profunda con un propósito compartido más allá de sí mismos.",
+        "Preocupación por el impacto de sus conflictos en hijos o seres queridos.",
+        "Orgullo y sentido de responsabilidad por el modelo que representan.",
+        "Indiferencia o enfoque exclusivo en la satisfacción inmediata."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Encontrar el sentido último de la relación como un legado de amor y respeto.",
+        "Sistémica:: Visualizar la relación como un subsistema que modela salud para todo el sistema familiar.",
+        "Narrativa:: Co-crear la \"historia de legado\" que quieren que otros recuerden sobre su vínculo.",
+        "Positiva:: Fomentar la generatividad: el deseo de contribuir al bienestar de otros a través de la propia relación."
+      ],
+      "tarea": "Escriban juntos una frase que defina el legado que quieren dejar: \"Nuestra relación enseña que es posible...\". Pónganla en un lugar visible como recordatorio de su propósito."
+    },
+    {
+      "codigo": "R-54",
+      "iconos": [
+        "❤️",
+        "🌱"
+      ],
+      "pregunta": "¿Pueden disfrutar de la \"soledad acompañada\" (estar en el mismo espacio, en silencio, haciendo cosas diferentes, pero sintiéndose conectados)?",
+      "objetivo": "Evaluar la madurez del apego y la capacidad de estar juntos sin necesidad de estimulación constante. La \"soledad acompañada\" es un indicador de seguridad y comodidad profunda en el vínculo.",
+      "profundizacion": [
+        "¿El silencio entre ustedes se siente pacífico o tenso?",
+        "¿Necesitan estar entretenidos o conversando constantemente para sentirse conectados?",
+        "¿Cómo pueden cultivar este tipo de presencia tranquila?"
+      ],
+      "observacion": [
+        "Ansiedad ante el silencio, necesidad de llenarlo con palabras o pantallas.",
+        "Silencio tenso o castigador (ley del hielo).",
+        "Comodidad genuina y paz en la presencia silenciosa del otro.",
+        "Reconocimiento de que la conexión no requiere acción constante."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Práctica de meditación o presencia conjunta en silencio, notando la sensación de estar juntos sin hacer nada.",
+        "Apego:: Trabajar la seguridad interna que permite estar solo sin sentirse abandonado, gracias a la presencia confiable del otro.",
+        "Conductual:: Programar 15 minutos de \"silencio compartido\" (leyendo, tomando café) sin pantallas ni conversación.",
+        "Humanista:: Validar la belleza de la presencia pura como forma máxima de intimidad."
+      ],
+      "tarea": "Esta semana, dediquen 15 minutos a estar en la misma habitación, en silencio, cada uno haciendo algo tranquilo (leer, tejer, tomar té). Al final, compartan cómo se sintió esa presencia silenciosa."
+    },
+    {
+      "codigo": "R-55",
+      "iconos": [
+        "🔄",
+        "🎯"
+      ],
+      "pregunta": "A medida que ambos cambian y crecen, ¿cómo actualizan su \"contrato relacional\" para asegurar que siguen eligiéndose en sus nuevas versiones?",
+      "objetivo": "Reconocer que las personas cambian y que la relación debe ser lo suficientemente flexible para acomodar ese crecimiento. Prevenir la deriva relacional por falta de actualización mutua.",
+      "profundizacion": [
+        "¿En qué has cambiado tú en el último año que te gustaría que tu relación reconociera?",
+        "¿Cómo puedes apoyar el crecimiento del otro, incluso si cambia la dinámica que conocías?",
+        "¿Con qué frecuencia \"revisan\" si siguen en la misma página?"
+      ],
+      "observacion": [
+        "Miedo a que el crecimiento personal amenace la relación.",
+        "Estancamiento por aferrarse a quién era el otro hace años.",
+        "Curiosidad activa por las nuevas versiones del otro.",
+        "Práctica regular de \"chequeos\" relacionales para ajustar el rumbo."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores individuales y cómo la relación puede ser un contexto de apoyo para ellos, no una jaula.",
+        "Gottman:: Ejercicio de \"actualización de los mapas de amor\" para conocer los sueños y temores actuales del otro.",
+        "Sistémica:: Permitir la morfogénesis (cambio estructural) en la relación para adaptarse a las nuevas etapas vitales.",
+        "Narrativa:: Re-escribir la historia de la relación como una de \"crecimiento conjunto\", no de \"mantenimiento del status quo\"."
+      ],
+      "tarea": "Tómense 20 minutos para una \"reunión de estado de la relación\". Pregúntense mutuamente: \"¿Qué necesitas de mí hoy que quizás no necesitabas hace un año?\". Escuchen sin juzgar."
+    },
+    {
+      "codigo": "R-56",
+      "iconos": [
+        "❤️",
+        "🛡️"
+      ],
+      "pregunta": "¿Cómo pueden reconocer y validar el esfuerzo del otro, incluso cuando el resultado no es perfecto o no es exactamente lo que tú querías?",
+      "objetivo": "Fomentar la validación del intento, no solo del resultado. Esto reduce la defensiva y fomenta un entorno donde ambos se sienten seguros para intentar mejorar sin miedo al fracaso o la crítica.",
+      "profundizacion": [
+        "¿Sueles centrarte más en lo que faltó o en lo que se logró?",
+        "¿Cómo te sientes cuando tu esfuerzo es reconocido, aunque el resultado no sea ideal?",
+        "¿Cómo puedes expresar tu necesidad de una manera que no invalide el intento del otro?"
+      ],
+      "observacion": [
+        "Crítica automática que anula cualquier esfuerzo previo (\"sí, pero lo hiciste mal\").",
+        "Desánimo y retirada del que siente que \"nada de lo que hago es suficiente\".",
+        "Capacidad de separar la intención del impacto y validar ambos.",
+        "Cultura de aprecio que motiva a seguir intentándolo."
+      ],
+      "intervenciones": [
+        "Gottman:: Práctica de \"captar al otro haciéndolo bien\" y verbalizar el esfuerzo específicamente.",
+        "TCC:: Reestructuración del pensamiento \"todo o nada\" sobre el desempeño en la relación.",
+        "EFT:: Validar la vulnerabilidad que implica hacer un esfuerzo y el dolor de que no sea reconocido.",
+        "DBT:: Habilidad de validación: encontrar el grano de verdad en la acción del otro, incluso si se necesita un ajuste."
+      ],
+      "tarea": "Esta semana, cuando el otro intente hacer algo por ti (aunque no salga perfecto), di primero: \"Valoro mucho que hayas intentado esto. Gracias por el esfuerzo\". Luego, si es necesario, sugiere un ajuste con suavidad."
+    },
+    {
+      "codigo": "R-57",
+      "iconos": [
+        "🍂",
+        "🕊️"
+      ],
+      "pregunta": "¿Qué necesitan \"despedir\" o soltar de la relación que eran, para dar espacio a la relación que son ahora?",
+      "objetivo": "Facilitar el duelo por las etapas pasadas de la relación. Para que una relación evolucione, a menudo hay que soltar expectativas, dinámicas o versiones de uno mismo que ya no encajan.",
+      "profundizacion": [
+        "¿A qué ideal de \"cómo debíamos ser\" todavía están aferrados?",
+        "¿Qué dinámica antigua (ej. de noviazgo) ya no funciona en su vida actual?",
+        "¿Cómo pueden honrar lo que fue, sin que les impida avanzar?"
+      ],
+      "observacion": [
+        "Nostalgia paralizante por \"los buenos viejos tiempos\".",
+        "Resistencia a aceptar las nuevas realidades (ej. llegada de hijos, cambios laborales).",
+        "Duelo saludable y reconocimiento de que la evolución es natural.",
+        "Apertura a construir algo nuevo sobre las cenizas de lo antiguo."
+      ],
+      "intervenciones": [
+        "Gestalt:: Ritual de despedida simbólico para cerrar una etapa y dar la bienvenida a la nueva.",
+        "Narrativa:: Re-autoría de la relación, reconociendo que cada capítulo tiene su propio valor y propósito.",
+        "Logoterapia:: Encontrar sentido en la transición y en la pérdida de la etapa anterior.",
+        "ACT:: Aceptación de la impermanencia como parte natural de cualquier vínculo vivo."
+      ],
+      "tarea": "Escriban en un papel una expectativa o dinámica de la relación que ya no sirve. Léanla en voz alta, agradézcanle por lo que les dio en su momento, y luego rómpenla o deséchenla simbólicamente."
+    },
+    {
+      "codigo": "R-58",
+      "iconos": [
+        "🌱",
+        "⚡"
+      ],
+      "pregunta": "Mirando hacia atrás, ¿qué dificultades superadas juntos les han dado más resiliencia como unidad?",
+      "objetivo": "Fortalecer la identidad de \"equipo\" a través de la narrativa de resiliencia. Recordar las crisis superadas refuerza la confianza en la capacidad de la relación para manejar futuros desafíos.",
+      "profundizacion": [
+        "¿Qué creían que no podrían superar y sin embargo lo hicieron?",
+        "¿Qué fortaleza descubrieron en el otro o en ustedes como pareja durante esa prueba?",
+        "¿Cómo pueden usar esa misma fortaleza ante los desafíos actuales?"
+      ],
+      "observacion": [
+        "Amnesia de las fortalezas: solo recuerdan los fracasos o el dolor.",
+        "Orgullo compartido y sensación de \"hemos pasado por mucho y seguimos aquí\".",
+        "Reconocimiento de patrones de afrontamiento exitosos del pasado.",
+        "Renovada esperanza y confianza en la solidez del vínculo."
+      ],
+      "intervenciones": [
+        "Narrativa:: Ejercicio de \"línea de vida de la relación\", marcando los picos de crisis y cómo los superaron juntos.",
+        "Positiva:: Identificación de las fortalezas de carácter que emergieron durante las dificultades.",
+        "Soluciones:: Preguntas de excepción aplicadas a la relación: \"¿Cómo lograron salir de aquella otra crisis? ¿Qué pueden aplicar de eso hoy?\".",
+        "EFT:: Reforzar el vínculo de apego recordando cómo se apoyaron mutuamente en momentos oscuros."
+      ],
+      "tarea": "Elijan la dificultad más grande que hayan superado juntos. Escriban 3 cosas que aprendieron de esa experiencia que los hace más fuertes hoy. Compártanlo."
+    },
+    {
+      "codigo": "R-59",
+      "iconos": [
+        "🎯",
+        "🌱"
+      ],
+      "pregunta": "Si proyectan su relación a 5 años, ¿qué les gustaría estar celebrando y qué están haciendo hoy para que eso sea posible?",
+      "objetivo": "Future pacing (proyección futura) aplicado a la relación. Alinear las acciones diarias con una visión compartida a largo plazo, fomentando la esperanza y la planificación colaborativa.",
+      "profundizacion": [
+        "¿Qué sueños compartidos tienen que aún no han comenzado a construir?",
+        "¿Qué pequeño hábito de hoy es la semilla de esa celebración futura?",
+        "¿Cómo pueden apoyarse mutuamente para no perder de vista esa meta?"
+      ],
+      "observacion": [
+        "Visión compartida clara y motivadora del futuro.",
+        "Desconexión: uno tiene un sueño y el otro no se ve en él.",
+        "Parálisis por la magnitud de la meta, sin identificar los pasos pequeños.",
+        "Compromiso activo y entusiasmado con la construcción del futuro."
+      ],
+      "intervenciones": [
+        "Soluciones:: Preguntas de milagro y escalas para definir el primer paso pequeño hacia esa visión a 5 años.",
+        "ACT:: Alinear los valores compartidos con acciones comprometidas semanales.",
+        "Gottman:: Ejercicio de \"sueños compartidos\": identificar las aspiraciones vitales que pueden apoyar mutuamente.",
+        "Narrativa:: Escribir una \"carta desde el futuro\" celebrando los logros que están construyendo hoy."
+      ],
+      "tarea": "Dediquen 15 minutos a soñar juntos: \"Dentro de 5 años, nos alegrará haber empezado a hacer [X] hoy\". Elijan una acción pequeña que puedan iniciar esta semana."
+    },
+    {
+      "codigo": "R-60",
+      "iconos": [
+        "🕊️",
+        "❤️",
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "Al cerrar este ciclo de trabajo, ¿cuál es el compromiso renovado que se hacen el uno al otro para seguir eligiéndose, día a día, en la belleza y en la dificultad?",
+      "objetivo": "Cierre e integración final del Mazo de Relaciones. Consolidar los aprendizajes en un compromiso consciente, realista y renovado, reconociendo que el amor es una práctica diaria, no un estado permanente.",
+      "profundizacion": [
+        "¿Qué palabra o frase resume lo que se llevan de este proceso?",
+        "¿Cómo recordarán este compromiso cuando las cosas se pongan difíciles?",
+        "¿Qué celebración pequeña pueden hacer hoy para marcar este cierre?"
+      ],
+      "observacion": [
+        "Compromiso genuino, maduro y con los pies en la tierra.",
+        "Reconocimiento de que el trabajo relacional es continuo, no un destino final.",
+        "Emoción de esperanza, gratitud y conexión renovada.",
+        "Integración fluida de la metáfora de la relación como un jardín que requiere cuidado constante."
+      ],
+      "intervenciones": [
+        "Narrativa:: Ritual de cierre: redacción y lectura mutua de un \"voto de compromiso renovado\".",
+        "ACT:: Anclaje del compromiso en los valores profundos que sostienen la relación.",
+        "Humanista:: Celebración terapéutica de la valentía, la vulnerabilidad y el trabajo realizado.",
+        "Positiva:: Fomento de la celebración activa del logro y la esperanza en el futuro compartido."
+      ],
+      "tarea": "Escriban juntos su \"Compromiso Renovado\". Debe ser breve, realista y significativo. Ej: \"Nos comprometemos a seguir eligiéndonos, a reparar cuando nos rompamos y a celebrar lo bueno, incluso en los días ordinarios\". Fírmenlo y guárdenlo."
+    }
+  ]
+}

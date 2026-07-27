@@ -1,0 +1,1632 @@
+{
+  "id": "sombras",
+  "nombre": "Sombras",
+  "numero": 5,
+  "rango": "S-01 a S-60",
+  "descripcion": "Partes reprimidas, proyeccion, mascaras sociales, ira oculta y deseos inconfesables.",
+  "cartas": [
+    {
+      "codigo": "S-01",
+      "iconos": [
+        "🎭",
+        "👁️"
+      ],
+      "pregunta": "Si tuvieras que describir la parte de ti que escondes del mundo para ser \"aceptado/a\", ¿cómo sería?",
+      "objetivo": "Introducir el concepto de la sombra de manera accesible. Identificar los rasgos, emociones o deseos que el paciente ha relegado al inconsciente para mantener la pertenencia o la imagen social.",
+      "profundizacion": [
+        "¿A qué edad aprendiste que esa parte no era \"segura\" de mostrar?",
+        "¿Qué temes que pasaría si esa parte tomara el control por un día?",
+        "¿Qué nombre le pondrías a esa parte oculta?"
+      ],
+      "observacion": [
+        "Reconocimiento inmediato de una \"parte oscura\" o prohibida.",
+        "Negación total (\"no escondo nada, soy como me ven\").",
+        "Vergüenza intensa al intentar describirla.",
+        "Curiosidad y alivio al ponerle palabras a lo oculto."
+      ],
+      "intervenciones": [
+        "Junguiana:: Introducción a la imaginación activa para dialogar con esta figura de la sombra.",
+        "IFS:: Identificar esta parte como un \"exiliado\" o un \"protector\" que cumple una función de supervivencia.",
+        "ACT:: Defusión de la fusión con la \"máscara social\", observando la diferencia entre el yo observador y el yo conceptual.",
+        "Gestalt:: Técnica de la silla vacía para que el paciente personifique y hable desde esa parte oculta."
+      ],
+      "tarea": "Dibuja o describe en un papel a esta \"parte oculta\" como si fuera un personaje. No la juzgues, solo obsérvala. Escribe una cualidad que tenga que, en el fondo, te gustaría poder expresar."
+    },
+    {
+      "codigo": "S-02",
+      "iconos": [
+        "👁️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Qué es lo que más te irrita o te molesta profundamente de los demás, y en qué se parece a algo que tú no te permites ser?",
+      "objetivo": "Trabajar la proyección de la sombra. Ayudar al paciente a reconocer que lo que le resulta insoportable en otros suele ser un reflejo de sus propias cualidades o deseos reprimidos.",
+      "profundizacion": [
+        "¿Cuándo fue la primera vez que sentiste ese mismo rechazo hacia ti mismo/a?",
+        "¿Qué te daría permiso para expresar esa cualidad de forma saludable?",
+        "¿Cómo sería tu vida si pudieras integrar ese rasgo en lugar de juzgarlo?"
+      ],
+      "observacion": [
+        "Insight repentino al conectar la irritación externa con la negación interna.",
+        "Defensa rígida (\"yo no soy así en absoluto\").",
+        "Identificación de múltiples proyecciones (ej. juzgar la pereza, la arrogancia o la vulnerabilidad ajena).",
+        "Alivio al reconocer la proyección como un mapa de propias necesidades."
+      ],
+      "intervenciones": [
+        "Junguiana:: Ejercicio de \"re-proyección\": retirar la energía proyectada y reclamar la cualidad como propia.",
+        "Gestalt:: \"Lo que me molesta de ti es algo mío\": experimentar la polaridad opuesta en la propia conducta.",
+        "TCC:: Cuestionamiento del pensamiento dicotómico y la generalización sobre los demás.",
+        "ACT:: Observar el juicio moral como un evento mental, no como una verdad absoluta sobre el otro."
+      ],
+      "tarea": "Piensa en alguien que te irrite profundamente. Escribe 3 cualidades que tiene esa persona. Luego, pregúntate honestamente: \"¿Dónde, en qué medida, yo también soy así o deseo ser así?\". Anota tus descubrimientos."
+    },
+    {
+      "codigo": "S-03",
+      "iconos": [
+        "🎭",
+        "👤"
+      ],
+      "pregunta": "¿Quién eres cuando estás completamente solo/a y nadie puede juzgarte?",
+      "objetivo": "Diferenciar la identidad auténtica de la \"Persona\" (máscara social junguiana). Explorar el contraste entre el yo social y el yo privado, detectando posibles vacíos o libertades ocultas.",
+      "profundizacion": [
+        "¿Qué haces en secreto que te daría vergüenza admitir?",
+        "¿Te sientes más en paz o más vacío cuando se quita la máscara?",
+        "¿Qué parte de ese \"yo a solas\" te gustaría traer a tu vida pública?"
+      ],
+      "observacion": [
+        "Descripción de conductas liberadoras y auténticas.",
+        "Confesión de conductas de evitación o vicios en la soledad.",
+        "Dificultad para imaginar un \"yo\" sin la mirada del otro.",
+        "Contraste marcado entre la vitalidad privada y la rigidez pública."
+      ],
+      "intervenciones": [
+        "Junguiana:: Análisis de la compensación: cómo la sombra equilibra una Persona demasiado rígida.",
+        "Humanista:: Fomento de la congruencia entre el yo real y el yo ideal/social.",
+        "ACT:: Clarificación de valores: ¿qué acciones de tu \"yo a solas\" están alineadas con lo que realmente valoras?",
+        "Conductual:: Experimentos para integrar gradualmente pequeños comportamientos auténticos en el ámbito social."
+      ],
+      "tarea": "Haz una lista de 3 cosas que haces solo/a que te hacen sentir genuinamente tú. Elige una y busca una forma segura y pequeña de expresarla en compañía esta semana."
+    },
+    {
+      "codigo": "S-04",
+      "iconos": [
+        "⚡",
+        "❤️"
+      ],
+      "pregunta": "¿Dónde se esconde tu rabia? ¿En tu cuerpo, en tu silencio o en tu sarcasmo?",
+      "objetivo": "Detectar la ira reprimida o canalizada de forma pasivo-agresiva. Explorar cómo la sombra almacena la rabia no expresada y cómo esta se somatiza o se filtra en la comunicación.",
+      "profundizacion": [
+        "¿Qué te enseñaron sobre la expresión de la ira en tu infancia?",
+        "¿Qué temes que destruiría tu rabia si la dejaras salir?",
+        "¿Cómo se manifiesta físicamente tu enojo cuando no lo verbalizas?"
+      ],
+      "observacion": [
+        "Reconocimiento de tensión muscular crónica (mandíbula, hombros).",
+        "Uso de humor ácido, sarcasmo o \"olvidos\" como descarga de ira.",
+        "Negación absoluta de la ira (\"yo nunca me enojo\").",
+        "Alivio al nombrar la rabia como una emoción legítima y necesaria."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Exploración de los impulsos de acción truncados (ej. empujar, gritar) y su completitud en un entorno seguro.",
+        "Gestalt:: Uso de la silla vacía o un cojín para expresar físicamente la rabia reprimida.",
+        "EFT:: Validación de la ira como emoción primaria adaptativa que señala límites violados.",
+        "TCC:: Reestructuración de creencias disfuncionales sobre la ira (ej. \"enojarse es malo\")."
+      ],
+      "tarea": "Esta semana, cuando sientas la más mínima señal de irritación, no la reprimas. Detente, respira y di en voz alta (aunque sea en privado): \"Tengo derecho a estar molesto/a por esto\". Observa qué pasa en tu cuerpo."
+    },
+    {
+      "codigo": "S-05",
+      "iconos": [
+        "🎭",
+        "🎯"
+      ],
+      "pregunta": "¿Qué deseas profundamente pero te da demasiada vergüenza admitir, incluso ante ti mismo/a?",
+      "objetivo": "Acceder a los deseos inconfesables de la sombra (poder, reconocimiento, placer, venganza, descanso). Reducir la vergüenza tóxica asociada a tener necesidades humanas \"imperfectas\".",
+      "profundizacion": [
+        "¿Por qué ese deseo se siente \"prohibido\" o \"incorrecto\"?",
+        "¿A quién traicionarías si permitieras que ese deseo exista?",
+        "¿Hay alguna forma saludable y ética de honrar una pequeña parte de ese deseo?"
+      ],
+      "observacion": [
+        "Vergüenza intensa y bloqueo al intentar nombrar el deseo.",
+        "Confesión de deseos de poder, abandono de responsabilidades o éxito desmedido.",
+        "Minimización (\"son tonterías, no importan\").",
+        "Alivio catártico al verbalizar lo innombrable en un espacio seguro."
+      ],
+      "intervenciones": [
+        "Psicodinámica:: Exploración de los conflictos entre el Ello (deseo) y el Superyó (prohibición).",
+        "ACT:: Aceptación radical de la presencia del deseo sin necesidad de actuar sobre él inmediatamente, separando el deseo de la acción.",
+        "IFS:: Dialogar con la parte que siente vergüenza por ese deseo y validar su intención protectora.",
+        "Humanista:: Normalización de la ambivalencia y la complejidad de los deseos humanos."
+      ],
+      "tarea": "Escribe ese deseo en un papel. Encabezalo con: \"Es humano desear esto\". No tienes que actuar sobre él, solo reconócelo como una parte legítima de tu paisaje interno. Guarda el papel en un lugar seguro."
+    },
+    {
+      "codigo": "S-06",
+      "iconos": [
+        "⚡",
+        "👤"
+      ],
+      "pregunta": "¿Qué parte de tu infancia fue silenciada, castigada o obligada a madurar demasiado rápido?",
+      "objetivo": "Conectar la sombra actual con las heridas de desarrollo temprano. Identificar al \"niño herido\" o \"niño adaptado\" que fue relegado a la sombra para garantizar la supervivencia emocional.",
+      "profundizacion": [
+        "¿Qué necesitaba esa parte de ti que no recibió?",
+        "¿Cómo te sigue pidiendo atención esa parte hoy en día?",
+        "¿Qué le dirías ahora a ese niño/a si lo tuvieras delante?"
+      ],
+      "observacion": [
+        "Llanto o emoción intensa al conectar con el niño interior.",
+        "Disociación o relato puramente intelectual de la infancia.",
+        "Identificación clara de un rol infantil asumido (ej. \"el cuidador\", \"el invisible\").",
+        "Emergencia de compasión espontánea hacia el yo pasado."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización limitada: el terapeuta y el Adulto Saludable del paciente cuidan al Niño Vulnerable.",
+        "EMDR:: Procesamiento de las memorias tempranas de abandono, invalidación o exigencia prematura.",
+        "IFS:: Rescate del \"exiliado\" infantil y negociación con los \"protectores\" que lo mantienen aislado.",
+        "CFT:: Envío de calidez y seguridad a la parte joven que tuvo que crecer antes de tiempo."
+      ],
+      "tarea": "Busca una foto tuya de la infancia (o imagina a ese niño/a). Escribe una nota corta diciéndole: \"Ya no tienes que cargar con eso solo/a. Yo (tu yo adulto) estoy aquí para cuidarte\"."
+    },
+    {
+      "codigo": "S-07",
+      "iconos": [
+        "🎭",
+        "⚡"
+      ],
+      "pregunta": "¿De qué manera te saboteas a ti mismo/a justo cuando las cosas empiezan a ir bien, y qué \"protección\" te ofrece ese sabotaje?",
+      "objetivo": "Explorar el autosabotaje como una estrategia de la sombra para mantener la homeostasis y evitar el miedo a lo desconocido, al éxito o a la vulnerabilidad que implica el bienestar.",
+      "profundizacion": [
+        "¿Qué catástrofe imagina tu mente que ocurrirá si tienes éxito?",
+        "¿A quién superarías o dejarías atrás si no te sabotearas?",
+        "¿Cómo puedes agradecer a esa parte por intentar \"protegerte\" mientras le muestras que ya no necesitas ese método?"
+      ],
+      "observacion": [
+        "Reconocimiento de patrones cíclicos de autodestrucción.",
+        "Identificación del miedo al éxito o a la envidia ajena.",
+        "Resistencia a ver el sabotaje como una \"protección\" mal adaptada.",
+        "Insight sobre la lealtad invisible a un destino familiar de sufrimiento."
+      ],
+      "intervenciones": [
+        "Sistémica:: Trabajo con lealtades invisibles y permiso para ser más feliz que el clan familiar.",
+        "IFS:: Dialogar con el \"protector\" que sabotea, entender su miedo y negociar una nueva estrategia de seguridad.",
+        "TCC:: Identificación de las creencias nucleares que se activan ante el éxito (ej. \"si tengo éxito, me exigirán más y fracasaré\").",
+        "ACT:: Acción comprometida a pesar de la presencia de los pensamientos de sabotaje."
+      ],
+      "tarea": "La próxima vez que sientas el impulso de sabotear algo bueno, detente y di: \"Gracias por intentar protegerme del cambio, pero hoy elijo arriesgarme a estar bien\". Anota lo que sucede."
+    },
+    {
+      "codigo": "S-08",
+      "iconos": [
+        "👁️",
+        "❤️"
+      ],
+      "pregunta": "Cuando sientes envidia o celos, ¿qué te está revelando tu sombra sobre lo que realmente anhelas para tu propia vida?",
+      "objetivo": "Desestigmatizar la envidia y los celos, utilizándolos como brújulas de la sombra que señalan deseos propios no reconocidos o no perseguidos. Transformar la emoción tóxica en información valiosa.",
+      "profundizacion": [
+        "¿Qué tiene esa persona o situación que tú quieres pero no te permites buscar?",
+        "¿Qué creencia te impide creer que eso es posible para ti?",
+        "¿Cómo puedes convertir esa envidia en un primer paso de acción propia?"
+      ],
+      "observacion": [
+        "Transformación de la envidia en claridad de valores.",
+        "Vergüenza paralizante por sentir celos (\"soy una mala persona\").",
+        "Proyección de la propia ambición en el otro, seguida de ataque.",
+        "Reconocimiento maduro de la envidia como \"un mapa de mis anhelos\"."
+      ],
+      "intervenciones": [
+        "Junguiana:: Integración del \"oro de la sombra\": reclamar las cualidades proyectadas como propias y desarrollables.",
+        "ACT:: Defusión de la historia de \"maldad\" asociada a la envidia, observándola como una señal de valor no vivido.",
+        "Coaching/Positiva:: Establecimiento de metas concretas inspiradas en lo que la envidia señaló.",
+        "Terapia de Esquemas:: Trabajar el esquema de Insuficiencia que hace que el éxito ajeno se sienta como una propia carencia."
+      ],
+      "tarea": "Piensa en alguien a quien envidias. Escribe: \"Envidio de ti [X], porque en el fondo yo también quiero [X] para mi vida\". Luego, escribe un paso pequeño que puedas dar esta semana hacia ese deseo."
+    },
+    {
+      "codigo": "S-09",
+      "iconos": [
+        "🎭",
+        "🛡️"
+      ],
+      "pregunta": "¿Qué \"fortaleza\" de la que te enorgulleces es, en realidad, una muralla para no mostrar tu vulnerabilidad?",
+      "objetivo": "Identificar las \"fortalezas defensivas\" o hipercualidades (ej. ser \"el fuerte\", \"el independiente\", \"el que siempre resuelve\") que en realidad son mecanismos de la sombra para evitar la intimidad y el cuidado.",
+      "profundizacion": [
+        "¿Qué pasaría si un día no fueras \"el fuerte\"?",
+        "¿Quién te enseñó que mostrar debilidad era peligroso?",
+        "¿Qué parte de ti está exhausta de mantener esa muralla en pie?"
+      ],
+      "observacion": [
+        "Reconocimiento de la fatiga detrás de la autosuficiencia.",
+        "Defensa rígida de la fortaleza (\"no necesito a nadie\").",
+        "Llanto o alivio al tener permiso para \"bajar la guardia\".",
+        "Conexión entre la hipercualidad y el miedo al abandono o la invasión."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo del \"Protector Hipervigilante\" o \"Autosuficiente\" y acceder al Niño Vulnerable subyacente.",
+        "Humanista:: Creación de un espacio de aceptación incondicional donde la vulnerabilidad sea recibida sin juicio.",
+        "DBT:: Entrenamiento en la habilidad de \"pedir ayuda\" como un acto de efectividad interpersonal, no de debilidad.",
+        "Somática:: Explorar la tensión crónica asociada a \"sostener\" la fortaleza y permitir la relajación muscular."
+      ],
+      "tarea": "Esta semana, pide una ayuda pequeña e innecesaria a alguien de confianza (ej. que te alcancen algo, una opinión). Observa la incomodidad y anota: \"Pedir ayuda no me hace menos valioso/a\"."
+    },
+    {
+      "codigo": "S-10",
+      "iconos": [
+        "🧠",
+        "👁️"
+      ],
+      "pregunta": "Si el crítico interno que te juzga constantemente tuviera una voz y un rostro, ¿de quién se trataría?",
+      "objetivo": "Externalizar el crítico interno como una introyección de la sombra (a menudo una figura parental o social internalizada). Desidentificar al paciente de esa voz y reducir su poder destructivo.",
+      "profundizacion": [
+        "¿Qué te decía esa persona originalmente?",
+        "¿Cómo te defiendes actualmente de esa voz?",
+        "¿Qué le respondería tu \"Adulto Saludable\" a ese crítico hoy?"
+      ],
+      "observacion": [
+        "Identificación clara de la figura introyectada (padre, madre, maestro).",
+        "Fusión total con el crítico (\"esa voz soy yo, es la verdad\").",
+        "Emergencia de rabia sana hacia la figura que instaló el crítico.",
+        "Capacidad de modular la voz del crítico con autocompasión."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Técnica de diálogo de modos: el Adulto Saludable pone límites firmes al Padre/Madre Crítico.",
+        "Gestalt:: Silla vacía para confrontar directamente a la figura internalizada y expresar el resentimiento acumulado.",
+        "CFT:: Desarrollar una \"voz compasiva\" que actúe como contrapeso directo y regulador del sistema nervioso.",
+        "ACT:: Defusión: \"Estoy escuchando la historia del crítico\", sin engancharse a su contenido."
+      ],
+      "tarea": "Dibuja o describe a ese crítico. Luego, escribe una respuesta desde tu \"yo adulto y compasivo\" diciéndole: \"Te escucho, pero ya no estoy a tu servicio. Ahora me cuido yo\"."
+    },
+    {
+      "codigo": "S-11",
+      "iconos": [
+        "⚡",
+        "❤️"
+      ],
+      "pregunta": "¿Qué mandatos \"oscuros\" o prohibiciones heredaste sobre tu cuerpo, tu placer o tu sexualidad?",
+      "objetivo": "Explorar la sombra sexual y corporal. Detectar mandatos religiosos, culturales o familiares que hayan generado vergüenza, disociación o conflicto en la vivencia del placer y la intimidad.",
+      "profundizacion": [
+        "¿Qué mensajes recibiste sobre el deseo o la desnudez al crecer?",
+        "¿Sientes que tu cuerpo te pertenece plenamente o que es un territorio vigilado?",
+        "¿Cómo te impide disfrutar estos mandatos hoy?"
+      ],
+      "observacion": [
+        "Vergüenza tóxica o disociación al hablar del cuerpo o el placer.",
+        "Reconocimiento de mandatos de pureza, sacrificio o control.",
+        "Ira hacia las figuras que transmitieron estos mandatos.",
+        "Apertura a reclamar la soberanía corporal como acto de sanación."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Reconexión con las sensaciones corporales neutras o placenteras, respetando los límites del paciente.",
+        "Sistémica:: Devolución simbólica de los mandatos morales o religiosos que no pertenecen al paciente.",
+        "EMDR:: Procesamiento de memorias de vergüenza corporal, abuso o invalidación sexual temprana.",
+        "Sexología Clínica:: Psicoeducación sobre el derecho al placer y la despatologización del deseo."
+      ],
+      "tarea": "Escribe un \"decreto de soberanía corporal\": \"Mi cuerpo me pertenece. Tengo derecho a sentir, a decir no y a buscar mi propio placer sin culpa\". Léelo en voz alta frente al espejo."
+    },
+    {
+      "codigo": "S-12",
+      "iconos": [
+        "🎭",
+        "🎯"
+      ],
+      "pregunta": "¿Cómo usas el control (sobre ti, sobre otros o sobre las situaciones) para no sentirte vulnerable?",
+      "objetivo": "Identificar la necesidad de control como una estrategia de la sombra para gestionar la ansiedad y el miedo a la incertidumbre. Explorar el costo relacional y emocional de esta hipervigilancia.",
+      "profundizacion": [
+        "¿Qué catástrofe imaginas que ocurrirá si sueltas el control?",
+        "¿Cuándo aprendiste que solo podías confiar en ti mismo/a?",
+        "¿Qué parte de tu vida está pidiendo a gritos un poco de caos o espontaneidad?"
+      ],
+      "observacion": [
+        "Reconocimiento del agotamiento que produce mantener el control.",
+        "Defensa del control como \"responsabilidad\" o \"madurez\".",
+        "Ansiedad visible ante la mera idea de ceder el control.",
+        "Insight sobre el origen del control en experiencias de caos o abandono temprano."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la incertidumbre y exposición gradual a la falta de control en áreas de bajo riesgo.",
+        "Terapia de Esquemas:: Trabajar el modo del \"Protector Hipervigilante\" y calmar al Niño Vulnerable que teme el caos.",
+        "Sistémica:: Observar cómo el control del paciente impide que otros asuman sus propias responsabilidades.",
+        "Mindfulness:: Práctica de \"soltar\" en la meditación, observando la ansiedad sin intentar controlar la experiencia."
+      ],
+      "tarea": "Esta semana, elige una situación pequeña y deja que se resuelva sin tu intervención (ej. no planificar el fin de semana, dejar que otro elija el restaurante). Anota la ansiedad que surge y cómo sobrevives a ella."
+    },
+    {
+      "codigo": "S-13",
+      "iconos": [
+        "⚡",
+        "👁️"
+      ],
+      "pregunta": "¿Qué dolor o duelo no llorado se ha convertido en una \"piedra\" pesada dentro de ti?",
+      "objetivo": "Acceder a los duelos congelados o no reconocidos (pérdidas, traiciones, oportunidades perdidas) que la sombra ha encapsulado para permitir el funcionamiento diario, pero que generan pesadez crónica.",
+      "profundizacion": [
+        "¿Qué te prohibió llorar o procesar esa pérdida en su momento?",
+        "¿Cómo te ha protegido ese dolor \"congelado\"?",
+        "¿Qué necesitarías para permitirte descongelar esa pena de forma segura?"
+      ],
+      "observacion": [
+        "Aparición de llanto repentino al nombrar la pérdida.",
+        "Negación del duelo (\"ya lo superé, no me afecta\").",
+        "Descripción somática de la \"pesadez\" o \"nudo\" en el cuerpo.",
+        "Reconocimiento de la necesidad de un ritual de cierre."
+      ],
+      "intervenciones": [
+        "Gestalt:: Trabajo con sillas vacías para expresar lo no dicho a la persona o situación perdida.",
+        "Logoterapia:: Encontrar sentido en el sufrimiento de la pérdida y honrar lo que fue.",
+        "Somática:: Acompañar la liberación de la tensión congelada (temblores, llanto) sin interrumpir el proceso.",
+        "Narrativa:: Crear un ritual simbólico de despedida y entierro de esa \"piedra\" emocional."
+      ],
+      "tarea": "Escribe una carta de despedida a lo que perdiste (una relación, una versión de ti, una oportunidad). No la envíes. Quémala o rómpela simbólicamente, permitiendo que el duelo fluya."
+    },
+    {
+      "codigo": "S-14",
+      "iconos": [
+        "🎭",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Cuánto te cuesta ser \"malo/a\", poner un límite firme o decepcionar a alguien para cuidarte a ti mismo/a?",
+      "objetivo": "Explorar la sombra de la \"buena persona\". Detectar el costo de la complacencia, la sumisión y el miedo a la hostilidad ajena. Validar la agresividad sana como herramienta de autoprotección.",
+      "profundizacion": [
+        "¿Qué crees que te harán si dejas de ser \"bueno/a\"?",
+        "¿De quién aprendiste que tu valor depende de tu utilidad o complacencia?",
+        "¿Qué pasaría si permitieras que alguien se sintiera temporalmente molesto contigo por poner un límite?"
+      ],
+      "observacion": [
+        "Terror a la desaprobación o al conflicto.",
+        "Agotamiento crónico por complacer a todos.",
+        "Rabia reprimida hacia los demás por \"explotarla\".",
+        "Alivio al reconocer que ser \"malo\" a veces es sinónimo de ser \"sano\"."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el Adulto Saludable para que proteja al Niño Vulnerable de la explotación, desafiando el modo de Complacencia Sumisa.",
+        "DBT:: Entrenamiento en asertividad (DEAR MAN) para poner límites sin agresión ni sumisión.",
+        "Junguiana:: Integración de la \"sombra agresiva\": reconocer que la capacidad de decir \"no\" es una fuente de poder vital.",
+        "Gestalt:: Experimento de decir \"no\" repetidamente en sesión para romper el bloqueo muscular y emocional."
+      ],
+      "tarea": "Esta semana, di \"no\" a una petición pequeña que no quieras hacer. No des excusas ni justificaciones largas. Solo \"no, no puedo\". Observa tu nivel de ansiedad y cómo el mundo no se acaba."
+    },
+    {
+      "codigo": "S-15",
+      "iconos": [
+        "👁️",
+        "⚡"
+      ],
+      "pregunta": "¿Qué secreto guardas que sientes que, si se supiera, te separaría para siempre de las personas que amas?",
+      "objetivo": "Abordar el aislamiento que genera la sombra secreta. Evaluar el peso de la vergüenza tóxica y explorar la posibilidad de una aceptación condicional o incondicional en un espacio terapéutico seguro.",
+      "profundizacion": [
+        "¿Es un hecho, un deseo, o un miedo lo que escondes?",
+        "¿Has evaluado realmente la evidencia de que te rechazarían, o es tu propio juicio proyectado?",
+        "¿Qué parte de ti necesita ser testificada y aceptada para dejar de sentirse tan sola?"
+      ],
+      "observacion": [
+        "Alivio masivo al compartir el secreto en el espacio terapéutico.",
+        "Resistencia absoluta y cambio de tema (requiere respeto y paciencia).",
+        "Minimización del secreto para probar la reacción del terapeuta.",
+        "Reconocimiento de que el secreto es más pesado que la posible consecuencia de revelarlo."
+      ],
+      "intervenciones": [
+        "Humanista:: Ofrecer una aceptación incondicional radical que desafíe la creencia de que el secreto es \"imperdonable\".",
+        "ACT:: Defusión de la historia de \"soy inaceptable\", observando el secreto como un evento, no como la identidad total.",
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza y el aislamiento social.",
+        "IFS:: Dialogar con el \"guardián\" del secreto, agradecer su protección y negociar si es seguro compartir un poco más."
+      ],
+      "tarea": "No tienes que revelar el secreto a nadie aún. Pero escríbelo en un papel, dóblalo y guárdalo. Luego escribe al lado: \"Este secreto no me define. Soy mucho más que esto\". Observa si el peso disminuye."
+    },
+    {
+      "codigo": "S-16",
+      "iconos": [
+        "⚡",
+        "🌱"
+      ],
+      "pregunta": "¿Qué dice tu cuerpo (síntomas, tensiones, enfermedades) de lo que tu mente se niega a reconocer?",
+      "objetivo": "Explorar la somatización como el lenguaje de la sombra. Conectar síntomas físicos con emociones o conflictos psicológicos no procesados ni verbalizados.",
+      "profundizacion": [
+        "Si tu síntoma o tensión pudiera hablar, ¿qué estaría gritando o llorando?",
+        "¿Qué situación o emoción coincide con la aparición o empeoramiento de este síntoma?",
+        "¿Qué te está obligando a \"detenerte\" o a \"prestar atención\" este malestar?"
+      ],
+      "observacion": [
+        "Conexión clara entre un evento emocional y un síntoma físico.",
+        "Desconexión total (somatización pura sin insight emocional).",
+        "Frustración médica previa por \"no encontrar nada físico\".",
+        "Apertura a escuchar el cuerpo como un aliado, no como un enemigo."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Focusing: invitar al paciente a preguntar al síntoma \"¿qué necesitas?\" y esperar la respuesta corporal.",
+        "Psicosomática:: Psicoeducación sobre cómo el sistema nervioso almacena el trauma no verbalizado.",
+        "Gestalt:: Personificar el síntoma y dialogar con él para entender su mensaje adaptativo.",
+        "EMDR:: Procesamiento de las memorias que activan la respuesta de amenaza y la consiguiente somatización."
+      ],
+      "tarea": "Pon tu mano sobre la zona de tu cuerpo que más te duele o tensiona. Respira allí y di: \"Te escucho. Dime qué necesitas que yo no estoy viendo\". Anota cualquier imagen, palabra o emoción que surja."
+    },
+    {
+      "codigo": "S-17",
+      "iconos": [
+        "🎭",
+        "🧠"
+      ],
+      "pregunta": "¿En qué áreas de tu vida te crees superior a los demás para no tener que enfrentar tus propios sentimientos de inferioridad o insuficiencia?",
+      "objetivo": "Explorar la sombra de la arrogancia o la superioridad como mecanismo de defensa contra la vergüenza y el esquema de insuficiencia. Desmontar la grandiosidad defensiva.",
+      "profundizacion": [
+        "¿Qué te hace sentir que debes ser \"mejor\" para tener valor?",
+        "¿Cómo te sientes en el fondo cuando no eres el \"mejor\" o el \"más listo\"?",
+        "¿Qué te daría permiso para ser simplemente \"uno más\", con derecho a equivocarte?"
+      ],
+      "observacion": [
+        "Defensa intelectual o desdén hacia la pregunta.",
+        "Reconocimiento doloroso de la fragilidad bajo la fachada de superioridad.",
+        "Historia de exigencia extrema y amor condicional por logros.",
+        "Alivio al descubrir que la humildad es más conectante que la perfección."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el modo del \"Niño Exigido\" y el \"Padre Crítico\" que impulsan la sobrecompensación.",
+        "Junguiana:: Integración de la sombra de inferioridad: aceptar la propia ordinariez y humanidad como liberación.",
+        "CFT:: Cultivar la humildad compasiva y la conexión con la humanidad compartida (common humanity).",
+        "ACT:: Defusión de la necesidad de ser \"especial\" para merecer pertenencia."
+      ],
+      "tarea": "Esta semana, admítelo en voz alta una vez: \"No sé\" o \"Me equivoqué\". Observa si el mundo te rechaza o si, por el contrario, te sientes más humano y cercano a los demás."
+    },
+    {
+      "codigo": "S-18",
+      "iconos": [
+        "👁️",
+        "⚡"
+      ],
+      "pregunta": "¿Cuál de estos dos roles habita más en tu sombra: el \"Héroe que todo lo salva\" o la \"Víctima a la que todo le pasa\"?",
+      "objetivo": "Identificar los arquetipos de la sombra que organizan la narrativa vital del paciente. Explorar cómo ambos roles evitan la responsabilidad adulta y la vulnerabilidad real.",
+      "profundizacion": [
+        "¿Qué ganas siendo el héroe? (ej. control, admiración, evitar tu propio dolor).",
+        "¿Qué ganas siendo la víctima? (ej. atención, exención de responsabilidad, moralidad).",
+        "¿Cómo sería tu vida si no necesitaras ninguno de los dos roles?"
+      ],
+      "observacion": [
+        "Identificación clara con uno de los polos y resistencia a ver el otro.",
+        "Oscilación rápida entre ambos roles (drama triangular de Karpman).",
+        "Insight sobre el agotamiento de mantener el rol de héroe.",
+        "Apertura a la posición de \"protagonista responsable\" (ni héroe ni víctima)."
+      ],
+      "intervenciones": [
+        "Análisis Transaccional:: Identificar el Triángulo Dramático (Rescatador, Perseguidor, Víctima) y moverse hacia el \"Triángulo Ganador\" (Cuidador, Retador, Vulnerable).",
+        "Narrativa:: Re-autoría de la historia de vida, pasando del drama a la agencia y la responsabilidad radical.",
+        "Terapia de Esquemas:: Trabajar el modo del Rescatador o el de Víctima, fortaleciendo el Adulto Saludable.",
+        "ACT:: Aceptación de la propia impotencia ante lo que no se puede controlar, sin caer en la resignación victimista."
+      ],
+      "tarea": "Escribe una situación reciente donde actuaste como héroe o víctima. Reescríbela desde la perspectiva de un \"Adulto responsable\": ¿qué podías controlar y qué no? ¿Qué habrías hecho diferente?"
+    },
+    {
+      "codigo": "S-19",
+      "iconos": [
+        "🌱",
+        "🎭"
+      ],
+      "pregunta": "¿Qué pasaría si, en lugar de luchar contra tu \"monstruo\" interno, lo invitaras a sentarse contigo y le preguntaras qué necesita?",
+      "objetivo": "Introducir la integración de la sombra como alternativa a la represión o la guerra interna. Fomentar la curiosidad compasiva hacia las partes más oscuras o temidas del psiquismo.",
+      "profundizacion": [
+        "¿Qué imagen te viene a la mente cuando piensas en tu \"monstruo\"?",
+        "¿Qué crees que te respondería si lo trataras con amabilidad en lugar de con miedo?",
+        "¿Qué cualidad valiosa podría estar custodiando ese \"monstruo\"?"
+      ],
+      "observacion": [
+        "Cambio de postura corporal (de tensión a curiosidad).",
+        "Miedo intenso a que el \"monstruo\" tome el control si se le da atención.",
+        "Emergencia de compasión hacia una parte de sí mismo previamente odiada.",
+        "Reconocimiento de que el \"monstruo\" es, en realidad, una parte herida."
+      ],
+      "intervenciones": [
+        "IFS:: Desblending (separación) del \"monstruo\" para verlo como una parte exiliada o protectora, no como el yo total.",
+        "Junguiana:: Imaginación activa: dialogar con la figura de la sombra en un espacio interno seguro.",
+        "CFT:: Enviar un flujo de calidez y seguridad a la parte más \"monstruosa\" o rechazada de uno mismo.",
+        "Gestalt:: Abrazar la polaridad opuesta: permitir que el paciente exprese la energía del \"monstruo\" de forma segura en sesión."
+      ],
+      "tarea": "Dibuja o visualiza a tu \"monstruo\" interno. En lugar de huir, acércate y pregúntale: \"¿Qué necesitas que yo no te he dado?\". Anota la primera respuesta que llegue, sin filtrarla."
+    },
+    {
+      "codigo": "S-20",
+      "iconos": [
+        "👁️",
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "Al terminar este primer bloque de trabajo con tu sombra, ¿qué pequeña luz has logrado arrojar sobre tu propia oscuridad y cómo te sientes al respecto?",
+      "objetivo": "Cierre e integración del Lote 01. Validar el coraje del paciente por mirar hacia adentro, normalizar la incomodidad del proceso y consolidar los primeros insights sobre la propia sombra.",
+      "profundizacion": [
+        "¿Qué descubrimiento te ha sorprendido más de ti mismo/a?",
+        "¿Cómo ha cambiado tu relación con tus \"defectos\" o partes ocultas?",
+        "¿Qué te llevas de este recorrido para aplicar en tu día a día?"
+      ],
+      "observacion": [
+        "Sensación de alivio, integración y mayor autenticidad.",
+        "Reconocimiento de que el trabajo con la sombra es un proceso continuo, no un destino.",
+        "Mayor autocompasión y reducción de la autocrítica feroz.",
+        "Curiosidad genuina por seguir explorando en los próximos lotes."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación y celebración del coraje y la honestidad mostrada durante el proceso.",
+        "Narrativa:: Resumir la nueva narrativa: \"Soy alguien que puede mirar su oscuridad sin destruirse\".",
+        "ACT:: Reforzar la flexibilidad psicológica ganada al aceptar partes previamente evitadas.",
+        "Positiva:: Anclaje de la emoción de orgullo y autenticidad como recurso para el futuro."
+      ],
+      "tarea": "Escribe una \"Carta de bienvenida a mi sombra\". Agradece a tus partes ocultas por haber intentado protegerte, y declara tu intención de integrarlas con amor y conciencia a partir de hoy."
+    },
+    {
+      "codigo": "S-21",
+      "iconos": [
+        "🔥",
+        "👤"
+      ],
+      "pregunta": "Si tuvieras permiso total para enojarte con alguien sin consecuencias, ¿hacia quién dirigirías esa ira?",
+      "objetivo": "Acceder a la ira reprimida mediante un escenario de permiso imaginario. Identificar el objeto de la rabia contenida y explorar las lealtades o miedos que la mantienen silenciada.",
+      "profundizacion": [
+        "¿Qué te impide enojarte con esa persona en la vida real?",
+        "¿Qué pasaría con el vínculo si le expresaras esa ira?",
+        "¿Cuánto tiempo llevas cargando esta rabia sin decirla?"
+      ],
+      "observacion": [
+        "Ira dirigida a figuras de autoridad (padres, jefes) con miedo a las consecuencias.",
+        "Ira dirigida a uno mismo por no haber puesto límites antes.",
+        "Bloqueo total (\"no siento rabia con nadie\").",
+        "Liberación emocional intensa al dar permiso imaginario."
+      ],
+      "intervenciones": [
+        "Gestalt:: Silla vacía para expresar la ira contenida hacia la figura identificada en un entorno seguro.",
+        "Terapia de Esquemas:: Trabajar el modo del Niño Enfadado y validar la rabia como emoción adaptativa ante límites violados.",
+        "EFT:: Diferenciar la ira primaria adaptativa de la ira secundaria defensiva y trabajar la herida subyacente.",
+        "Sensoriomotriz:: Completar los impulsos de acción truncados (empujar, gritar) de forma segura en sesión."
+      ],
+      "tarea": "Escribe una \"carta de ira\" a esa persona. No la envíes. Escribe todo lo que nunca dijiste, sin filtros. Luego rómpela o quémala simbólicamente, declarando: \"Esta rabia fue mía, la honro y la suelto\"."
+    },
+    {
+      "codigo": "S-22",
+      "iconos": [
+        "🔥",
+        "⚡"
+      ],
+      "pregunta": "¿Qué parte de tu ira se ha convertido en resentimiento crónico, y a qué te aferras al no soltarlo?",
+      "objetivo": "Diferenciar la ira aguda del resentimiento crónico. Explorar la identidad que se organiza alrededor del agravio y los beneficios secundarios de mantener la herida abierta.",
+      "profundizacion": [
+        "¿Qué pasaría con tu identidad si soltaras este resentimiento?",
+        "¿Quién serías sin esta historia de agravio?",
+        "¿Qué necesitas para cerrar este ciclo sin traicionarte?"
+      ],
+      "observacion": [
+        "Identidad fusionada con el rol de \"el/la agraviado/a\".",
+        "Miedo a que soltar el resentimiento signifique justificar al ofensor.",
+        "Reconocimiento de que el resentimiento le hace más daño al paciente que al ofensor.",
+        "Apertura a explorar formas de soltar sin olvidar ni perdonar prematuramente."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Encontrar sentido en el sufrimiento sin quedarse atrapado en el rol de víctima eterna.",
+        "Narrativa:: Re-autoría de la historia, pasando del \"agravio que me define\" al \"sufrimiento que me enseñó\".",
+        "ACT:: Defusión de la historia de \"me hicieron daño y por eso soy así\", abriendo espacio a nuevas posibilidades.",
+        "Terapia de Esquemas:: Trabajar el esquema de Castigo emocional que mantiene al paciente atrapado en el rol de víctima."
+      ],
+      "tarea": "Escribe una declaración de liberación: \"Hoy decido soltar este resentimiento no porque lo que pasó estuvo bien, sino porque merezco vivir sin este veneno\". Léela en voz alta y observa qué emerge."
+    },
+    {
+      "codigo": "S-23",
+      "iconos": [
+        "🔥",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Contra quién te da más miedo enojarte, y qué catástrofe imaginas que ocurriría si lo hicieras?",
+      "objetivo": "Explorar el miedo a la ira dirigida a figuras de apego o autoridad. Identificar las creencias catastróficas sobre las consecuencias de expresar rabia hacia personas significativas.",
+      "profundizacion": [
+        "¿Qué te enseñaron sobre enojarte con esa persona?",
+        "¿Qué pasó la última vez que lo intentaste?",
+        "¿Es real el peligro o es una creencia heredada?"
+      ],
+      "observacion": [
+        "Miedo a la ira dirigida a padres (lealtad, miedo al abandono).",
+        "Miedo a la ira dirigida a la pareja (miedo a la ruptura).",
+        "Miedo a la ira dirigida a figuras de autoridad (miedo al castigo).",
+        "Reconocimiento de que el miedo es desproporcionado al riesgo real."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración de las creencias catastróficas sobre las consecuencias de expresar ira.",
+        "Sistémica:: Explorar los mandatos familiares sobre a quién se puede y no se puede enojarse.",
+        "Terapia de Esquemas:: Trabajar el esquema de Subordinación y el miedo al castigo o al abandono.",
+        "Gestalt:: Experimento de expresar ira en sesión hacia una silla vacía representando a esa figura."
+      ],
+      "tarea": "Escribe una lista de las \"catástrofes\" que imaginas si te enojas con esa persona. Al lado de cada una, anota: ¿qué tan probable es realmente? ¿Qué evidencia tienes de que ocurriría?"
+    },
+    {
+      "codigo": "S-24",
+      "iconos": [
+        "🔥",
+        "🎭"
+      ],
+      "pregunta": "¿Cómo transformas tu ira en otras emociones (tristeza, culpa, apatía) para no tener que enfrentarla directamente?",
+      "objetivo": "Identificar la transformación defensiva de la ira en emociones \"más seguras\". Explorar cómo la sombra redirige la energía agresiva hacia adentro (autocastigo) o hacia emociones socialmente aceptables.",
+      "profundizacion": [
+        "¿Qué te resulta más aceptable sentir: ira o tristeza?",
+        "¿Cuándo fue la última vez que transformaste la ira en culpa?",
+        "¿Qué necesitarías para permitirte sentir la rabia original?"
+      ],
+      "observacion": [
+        "Ira transformada en depresión (agresión vuelta contra uno mismo).",
+        "Ira transformada en culpa (\"algo hice mal para merecer esto\").",
+        "Ira transformada en apatía (desconexión defensiva).",
+        "Reconocimiento del patrón de transformación defensiva."
+      ],
+      "intervenciones": [
+        "EFT:: Búsqueda sistemática de la ira primaria adaptativa detrás de la tristeza o culpa secundaria.",
+        "Psicodinámica:: Análisis de la agresión vuelta contra el yo (melancolía freudiana).",
+        "Gestalt:: Amplificación de la emoción secundaria hasta que emerja la ira primaria subyacente.",
+        "TCC:: Psicoeducación sobre la función adaptativa de la ira y reestructuración de creencias sobre su \"peligrosidad\"."
+      ],
+      "tarea": "La próxima vez que sientas tristeza o culpa intensa, detente y pregúntate: \"¿Contra quién estoy realmente enojado/a?\". Anota lo que surja, aunque parezca incómodo."
+    },
+    {
+      "codigo": "S-25",
+      "iconos": [
+        "🔥",
+        "🌱"
+      ],
+      "pregunta": "Si tu ira pudiera hablar con una voz propia, ¿qué te estaría pidiendo que hagas o que dejes de hacer?",
+      "objetivo": "Personificar la ira como una parte sabia de la sombra que señala límites violados y necesidades no atendidas. Transformar la rabia de \"enemiga\" a \"aliada\" que protege la dignidad.",
+      "profundizacion": [
+        "¿Qué límite te está pidiendo que pongas esta ira?",
+        "¿Qué necesidad no atendida está señalando?",
+        "¿Cómo puedes honrar su mensaje sin actuar de forma destructiva?"
+      ],
+      "observacion": [
+        "La ira pide poner límites con personas invasivas.",
+        "La ira pide dejar de complacer y empezar a priorizarse.",
+        "La ira pide salir de situaciones de abuso o explotación.",
+        "Dificultad para escuchar el mensaje de la ira (seguir viéndola como destructiva)."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la \"parte enfadada\" como un protector que señala límites violados.",
+        "Evolucionista:: Psicoeducación sobre la función adaptativa de la ira como señal de amenaza a la integridad.",
+        "ACT:: Aceptación de la ira como emoción válida y acción comprometida alineada con el mensaje.",
+        "DBT:: Entrenamiento en asertividad para traducir el mensaje de la ira en límites claros y efectivos."
+      ],
+      "tarea": "Escribe una carta desde tu ira hacia ti. Empieza con: \"Querido/a [tu nombre], te estoy pidiendo que...\". Lee la carta y anota qué acción concreta puedes tomar esta semana para honrar ese mensaje."
+    },
+    {
+      "codigo": "S-26",
+      "iconos": [
+        "💎",
+        "🎭"
+      ],
+      "pregunta": "¿Qué deseo secreto tienes que, si se hiciera público, te haría sentir profundamente avergonzado/a?",
+      "objetivo": "Acceder a los deseos inconfesables de la sombra (poder, reconocimiento, abandono de responsabilidades, venganza, placer prohibido). Evaluar el nivel de vergüenza tóxica asociado a la propia vida deseante.",
+      "profundizacion": [
+        "¿De quién viene el juicio que te hace sentir vergüenza por este deseo?",
+        "¿Qué pasaría si pudieras honrar una pequeña parte de este deseo de forma ética?",
+        "¿Qué te dice este deseo sobre tus valores más profundos?"
+      ],
+      "observacion": [
+        "Vergüenza paralizante al nombrar el deseo.",
+        "Deseos de poder, éxito desmedido o abandono de roles.",
+        "Deseos sexuales o de placer considerados \"prohibidos\".",
+        "Alivio al descubrir que el deseo es humano y no \"monstruoso\"."
+      ],
+      "intervenciones": [
+        "Junguiana:: Exploración del deseo como expresión de la sombra y búsqueda de su \"oro\" (energía vital bloqueada).",
+        "ACT:: Defusión de la historia de \"soy malo/a por desear esto\", separando el deseo de la identidad moral.",
+        "Humanista:: Aceptación incondicional del deseo como parte legítima del paisaje humano.",
+        "IFS:: Dialogar con la parte que siente vergüenza por el deseo y validar su intención protectora."
+      ],
+      "tarea": "Escribe tu deseo secreto en un papel. Encabezalo con: \"Este deseo es humano y me pertenece\". No tienes que actuar sobre él, solo reconocerlo. Guárdalo en un lugar privado."
+    },
+    {
+      "codigo": "S-27",
+      "iconos": [
+        "💎",
+        "⚡"
+      ],
+      "pregunta": "¿Qué deseo reprimido de tu infancia sigue pidiendo ser honrado hoy, aunque ya seas adulto/a?",
+      "objetivo": "Conectar los deseos actuales con las carencias infantiles. Explorar cómo los deseos no atendidos en la infancia siguen operando desde la sombra, generando compulsiones o insatisfacciones crónicas.",
+      "profundizacion": [
+        "¿Qué necesitabas de niño/a que no recibiste?",
+        "¿Cómo se manifiesta esa necesidad hoy en tu vida adulta?",
+        "¿Puedes darte a ti mismo/a algo de eso ahora?"
+      ],
+      "observacion": [
+        "Deseo de ser visto/a, escuchado/a o validado/a.",
+        "Deseo de jugar, crear o ser espontáneo/a.",
+        "Deseo de ser cuidado/a sin tener que pedirlo.",
+        "Reconocimiento de que el deseo infantil sigue activo en el adulto."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Reparentalización limitada: el Adulto Saludable satisface las necesidades del Niño Vulnerable.",
+        "IFS:: Rescate del \"exiliado\" que carga el deseo no atendido y negociación con los protectores.",
+        "CFT:: Envío de calidez y cuidado al niño interior que aún espera ser atendido.",
+        "Gestalt:: Diálogo con el niño interior para ofrecerle lo que necesitaba y no recibió."
+      ],
+      "tarea": "Escribe una carta a tu niño/a interior preguntándole: \"¿Qué necesitas que yo no te di?\". Luego, escribe una respuesta desde tu yo adulto comprometido a satisfacer esa necesidad de forma saludable."
+    },
+    {
+      "codigo": "S-28",
+      "iconos": [
+        "💎",
+        "🔥"
+      ],
+      "pregunta": "¿Qué deseo te da miedo cumplir porque temes que, si lo logras, te conviertas en alguien que no quieres ser?",
+      "objetivo": "Explorar el miedo al éxito o a la transformación que implica cumplir ciertos deseos. Identificar las creencias sobre la identidad que se activan ante la posibilidad de cambio radical.",
+      "profundizacion": [
+        "¿En quién te convertirías si ese deseo se hiciera realidad?",
+        "¿A quién traicionarías o dejarías atrás si lo lograras?",
+        "¿Qué creencia sobre ti mismo/a te impide dar el paso?"
+      ],
+      "observacion": [
+        "Miedo a convertirse en \"como mi padre/madre\" al tener éxito.",
+        "Miedo a perder la pertenencia familiar al superar el clan.",
+        "Miedo a la soledad o al aislamiento que implica el éxito.",
+        "Reconocimiento de que la identidad puede evolucionar sin traicionar los valores."
+      ],
+      "intervenciones": [
+        "Sistémica:: Trabajo con lealtades invisibles y permiso para evolucionar sin traicionar al sistema familiar.",
+        "ACT:: Clarificación de valores: ¿qué tipo de persona quiero ser al cumplir este deseo?",
+        "Narrativa:: Re-autoría de la identidad: puedo ser exitoso/a y seguir siendo fiel a mis valores.",
+        "Terapia de Esquemas:: Trabajar el esquema de Autosacrificio que impide priorizar el propio deseo."
+      ],
+      "tarea": "Escribe: \"Si cumpliera este deseo, me convertiría en...\". Luego escribe: \"Y eso está bien porque...\". Observa qué creencias limitantes aparecen y cómo puedes desactivarlas."
+    },
+    {
+      "codigo": "S-29",
+      "iconos": [
+        "💎",
+        "❤️"
+      ],
+      "pregunta": "¿Qué placer te niegas sistemáticamente, y qué creencia te dice que \"no lo mereces\" o \"es incorrecto\"?",
+      "objetivo": "Explorar la negación del placer como expresión de la sombra. Detectar creencias de merecimiento, mandatos de sacrificio o vergüenza tóxica asociada al disfrute.",
+      "profundizacion": [
+        "¿Quién te enseñó que el placer es peligroso o egoísta?",
+        "¿Qué pasaría si te permitieras disfrutar sin culpa?",
+        "¿Qué creencia sobre ti mismo/a se rompería si aceptaras el placer?"
+      ],
+      "observacion": [
+        "Creencia de que el placer debe \"ganarse\" con sufrimiento previo.",
+        "Mandatos religiosos o culturales sobre la \"pureza\" o el \"sacrificio\".",
+        "Incapacidad de recibir complacimientos sin sentir deuda.",
+        "Reconocimiento del derecho al placer como parte de la dignidad humana."
+      ],
+      "intervenciones": [
+        "Sistémica:: Devolución simbólica de los mandatos de sacrificio que no pertenecen al paciente.",
+        "Terapia de Esquemas:: Trabajar el esquema de Privación Emocional y la creencia de no merecimiento.",
+        "CFT:: Cultivo de la autocompasión y el merecimiento incondicional.",
+        "Sensoriomotriz:: Reconexión con las sensaciones corporales de placer sin culpa."
+      ],
+      "tarea": "Esta semana, date un placer pequeño que normalmente te negarías (un baño largo, una comida especial, descansar sin culpa). Observa la culpa que surge y anota: \"Merezco disfrutar sin tener que ganármelo\"."
+    },
+    {
+      "codigo": "S-30",
+      "iconos": [
+        "💎",
+        "🎯"
+      ],
+      "pregunta": "Si pudieras diseñar tu \"vida ideal\" sin restricciones morales, sociales o económicas, ¿cómo sería?",
+      "objetivo": "Acceder a los deseos más auténticos de la sombra mediante un escenario de libertad total. Explorar la brecha entre la vida actual y la vida deseada, identificando los valores profundos del paciente.",
+      "profundizacion": [
+        "¿Qué elementos de esta \"vida ideal\" podrías integrar en tu vida actual, aunque sea en un 10%?",
+        "¿Qué te impide acercarte a esta visión?",
+        "¿Qué valores profundos revela esta fantasía?"
+      ],
+      "observacion": [
+        "Vida ideal centrada en libertad, autonomía y creatividad.",
+        "Vida ideal centrada en conexión, amor y pertenencia.",
+        "Vida ideal centrada en poder, reconocimiento o impacto.",
+        "Dificultad para imaginar una vida diferente a la actual (rigidez cognitiva)."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores a través de la visión de la vida ideal.",
+        "Coaching/Positiva:: Ejercicio del \"Mejor Yo Posible\" con visualización detallada.",
+        "Narrativa:: Re-autoría de la historia de vida alineada con los valores revelados.",
+        "Soluciones:: Identificación de \"pequeños pasos\" hacia la vida ideal."
+      ],
+      "tarea": "Escribe una descripción detallada de tu \"vida ideal\". Luego, elige UN elemento que puedas integrar esta semana, aunque sea en una versión pequeña y realista. Hazlo y observa cómo te sientes."
+    },
+    {
+      "codigo": "S-31",
+      "iconos": [
+        "⚖️",
+        "👤"
+      ],
+      "pregunta": "¿De qué te sientes profundamente culpable, aunque racionalmente sepas que no fue tu culpa?",
+      "objetivo": "Explorar la culpa irracional o desproporcionada. Diferenciar la culpa adaptativa (responsabilidad real) de la culpa tóxica (sobrerresponsabilidad o introyección de culpas ajenas).",
+      "profundizacion": [
+        "¿De quién aprendiste que eras responsable de eso?",
+        "¿Qué pasaría si soltaras esta culpa?",
+        "¿Qué necesidad estás cubriendo al mantenerte culpable?"
+      ],
+      "observacion": [
+        "Culpa por eventos de la infancia (\"debí haber hecho algo\").",
+        "Culpa por decisiones de otros (\"si no hubiera hecho X, ellos no habrían...\").",
+        "Culpa por sobrevivir o estar mejor que otros (culpa del sobreviviente).",
+        "Reconocimiento de que la culpa es desproporcionada o no le pertenece."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva de la culpa irracional con análisis de evidencias y responsabilidad real.",
+        "Terapia de Esquemas:: Trabajar el esquema de Autosacrificio y la sobrerresponsabilidad.",
+        "Sistémica:: Devolución simbólica de la culpa que pertenece a otros o al sistema.",
+        "EMDR:: Procesamiento de las memorias que generaron la culpa tóxica."
+      ],
+      "tarea": "Escribe una \"declaración de inocencia\": \"No soy responsable de [evento]. Hice lo que pude con lo que sabía en ese momento. Suelto esta culpa que no me pertenece\". Léela en voz alta."
+    },
+    {
+      "codigo": "S-32",
+      "iconos": [
+        "⚖️",
+        "⚡"
+      ],
+      "pregunta": "¿Qué culpa cargas que en realidad le pertenece a otra persona o a tu sistema familiar?",
+      "objetivo": "Identificar las culpas introyectadas o heredadas del sistema familiar. Explorar las lealtades invisibles que mantienen al paciente cargando culpas que no le corresponden.",
+      "profundizacion": [
+        "¿A quién de tu familia se parece esta culpa?",
+        "¿Qué lealtad invisible te mantiene cargándola?",
+        "¿Qué pasaría si se la devolvieras a su dueño original?"
+      ],
+      "observacion": [
+        "Culpa por el sufrimiento de los padres (\"debí haberlos salvado\").",
+        "Culpa por secretos familiares o traumas transgeneracionales.",
+        "Culpa por romper patrones familiares (\"si estoy bien, los traiciono\").",
+        "Reconocimiento de que la culpa no le pertenece y puede ser devuelta."
+      ],
+      "intervenciones": [
+        "Sistémica:: Ritual de devolución simbólica de la culpa a su dueño original.",
+        "Constelaciones:: Trabajo con lealtades invisibles y órdenes del amor.",
+        "Narrativa:: Externalización de la culpa como herencia no elegida.",
+        "Terapia de Esquemas:: Diferenciar culpas propias de introyecciones familiares."
+      ],
+      "tarea": "Escribe una carta a la persona de quien crees que heredaste esta culpa. Dile: \"Te devuelvo esto con respeto. Es tuyo, no mío. Yo elijo vivir sin esta carga\". Observa cómo te sientes después."
+    },
+    {
+      "codigo": "S-33",
+      "iconos": [
+        "⚖️",
+        "❤️"
+      ],
+      "pregunta": "¿Cómo usas la culpa para castigarte y no tener que enfrentar el dolor real de lo que pasó?",
+      "objetivo": "Explorar la culpa como mecanismo de evitación del dolor. Detectar cómo el autocastigo funciona como una forma de \"pagar\" por el sufrimiento sin tener que procesar la herida real.",
+      "profundizacion": [
+        "¿Qué dolor estás evitando al mantenerte culpable?",
+        "¿Qué pasaría si soltaras la culpa y enfrentaras el dolor directamente?",
+        "¿Qué necesitas para permitirte sentir la tristeza o la rabia original?"
+      ],
+      "observacion": [
+        "Culpa como forma de controlar el dolor (\"si me castigo, tengo poder\").",
+        "Culpa como evitación de la tristeza o el duelo.",
+        "Culpa como forma de mantener la conexión con el ofensor (\"si sufro, no lo olvidé\").",
+        "Reconocimiento de que la culpa es una defensa contra el dolor más profundo."
+      ],
+      "intervenciones": [
+        "EFT:: Explorar la emoción primaria (tristeza, rabia) detrás de la culpa secundaria.",
+        "Psicodinámica:: Análisis de la culpa como defensa contra el duelo o la agresión.",
+        "ACT:: Aceptación del dolor sin intentar \"pagarlo\" con culpa.",
+        "Gestalt:: Amplificación de la emoción evitada (tristeza, rabia) para procesarla directamente."
+      ],
+      "tarea": "Escribe: \"Me siento culpable por X, pero en el fondo lo que realmente siento es [tristeza/rabia/dolor]\". Permítete sentir esa emoción primaria durante 5 minutos sin juzgarla."
+    },
+    {
+      "codigo": "S-34",
+      "iconos": [
+        "⚖️",
+        "🎭"
+      ],
+      "pregunta": "¿Qué vergüenza tóxica cargas sobre quién eres, y cómo organiza tu vida entera para evitar que los demás la descubran?",
+      "objetivo": "Acceder a la vergüenza nuclear que organiza la identidad fragmentada. Explorar cómo la vergüenza tóxica genera máscaras, evitación y aislamiento para proteger la \"parte defectuosa\".",
+      "profundizacion": [
+        "¿Qué crees que dirían los demás si descubrieran esta \"parte defectuosa\"?",
+        "¿Cuándo fue la primera vez que sentiste esta vergüenza?",
+        "¿Qué necesitarías para empezar a integrar esta parte en lugar de esconderla?"
+      ],
+      "observacion": [
+        "Vergüenza sobre la propia identidad (\"soy defectuoso/a en el fondo\").",
+        "Vergüenza sobre el cuerpo, la sexualidad o los deseos.",
+        "Vergüenza sobre el origen familiar o la clase social.",
+        "Reconocimiento de que la vergüenza es tóxica y no refleja la realidad."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Trabajar el esquema de Defecto/Vergüenza y el modo del Niño Avergonzado.",
+        "CFT:: Cultivo de la autocompasión como antídoto directo a la vergüenza tóxica.",
+        "Humanista:: Experiencia correctiva de aceptación incondicional en el vínculo terapéutico.",
+        "EMDR:: Procesamiento de las memorias de vergüenza temprana que cristalizaron el esquema."
+      ],
+      "tarea": "Escribe la frase de vergüenza que más te duele: \"Soy...\". Luego, escribe al lado: \"Y aunque siento esto, también soy...\". Completa con 3 cualidades positivas reales. Observa la tensión entre ambas verdades."
+    },
+    {
+      "codigo": "S-35",
+      "iconos": [
+        "⚖️",
+        "🌱"
+      ],
+      "pregunta": "¿Qué necesitarías para perdonarte a ti mismo/a por lo que hiciste o dejaste de hacer, y por qué no te lo has dado aún?",
+      "objetivo": "Explorar la autoinculpación crónica y la dificultad para el autoperdón. Identificar las condiciones que el paciente cree que debe cumplir para merecerse el perdón, y explorar por qué no se las ha otorgado.",
+      "profundizacion": [
+        "¿Qué tendrías que hacer para \"ganarte\" el perdón?",
+        "¿A quién le estás pidiendo permiso para perdonarte?",
+        "¿Qué pasaría si te dieras el perdón hoy, sin condiciones?"
+      ],
+      "observacion": [
+        "Creencia de que el perdón debe \"ganarse\" con sufrimiento prolongado.",
+        "Miedo a que el autoperdón signifique justificar el error.",
+        "Necesidad de validación externa para poder perdonarse.",
+        "Apertura a explorar el autoperdón como acto de libertad, no de justificación."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Encontrar sentido en el error y transformar la culpa en aprendizaje.",
+        "CFT:: Cultivo de la autocompasión como base para el autoperdón.",
+        "ACT:: Aceptación del error como parte de la condición humana, sin fusión con la identidad de \"culpable\".",
+        "Gestalt:: Diálogo con la parte que juzga y negociación para soltar el castigo."
+      ],
+      "tarea": "Escribe una carta de autoperdón: \"Me perdono por [error]. Hice lo que pude con lo que sabía en ese momento. Hoy elijo soltar este castigo y seguir aprendiendo\". Léela en voz alta y observa qué emerge."
+    },
+    {
+      "codigo": "S-36",
+      "iconos": [
+        "🛡️",
+        "🧠"
+      ],
+      "pregunta": "¿Qué realidad estás negando ahora mismo para no tener que enfrentar el dolor que te causaría aceptarla?",
+      "objetivo": "Explorar la negación como mecanismo de defensa primario. Identificar las realidades que el paciente evita reconocer para protegerse del dolor, la pérdida o la responsabilidad.",
+      "profundizacion": [
+        "¿Qué te dice tu intuición que sabes pero no quieres admitir?",
+        "¿Qué pasaría si aceptaras esta realidad?",
+        "¿Qué recursos necesitarías para enfrentar lo que viene?"
+      ],
+      "observacion": [
+        "Negación de una relación tóxica o insostenible.",
+        "Negación de un duelo no procesado.",
+        "Negación de la propia responsabilidad en un conflicto.",
+        "Reconocimiento de la realidad con alivio (\"por fin lo digo\")."
+      ],
+      "intervenciones": [
+        "Entrevista Motivacional:: Exploración de la ambivalencia y evocación de la motivación al cambio.",
+        "TCC:: Análisis de evidencias de la realidad negada y reestructuración de la evitación.",
+        "ACT:: Aceptación radical de la realidad sin intentar controlarla o negarla.",
+        "Gestalt:: Amplificación de la intuición corporal que señala la verdad evitada."
+      ],
+      "tarea": "Escribe en un papel la realidad que estás negando. No tienes que actuar sobre ella hoy, solo reconocerla. Guarda el papel y léelo mañana. Observa cómo cambia tu relación con esa verdad."
+    },
+    {
+      "codigo": "S-37",
+      "iconos": [
+        "🛡️",
+        "👁️"
+      ],
+      "pregunta": "¿Qué cualidad tuya que más admiras en otros es, en realidad, una parte de ti que no te has permitido expresar?",
+      "objetivo": "Trabajar la proyección positiva de la sombra. Explorar cómo las cualidades que admiramos en otros suelen ser partes propias no desarrolladas o reprimidas.",
+      "profundizacion": [
+        "¿Qué te impide expresar esta cualidad?",
+        "¿Qué creencia te dice que \"no eres así\" o \"no te corresponde\"?",
+        "¿Qué pasaría si empezaras a cultivar esta cualidad en ti?"
+      ],
+      "observacion": [
+        "Admiración por la libertad, creatividad o espontaneidad ajena.",
+        "Admiración por la asertividad o la capacidad de poner límites.",
+        "Admiración por la vulnerabilidad o la expresión emocional.",
+        "Reconocimiento de que la cualidad admirada es una parte propia bloqueada."
+      ],
+      "intervenciones": [
+        "Junguiana:: Integración del \"oro de la sombra\": reclamar las cualidades proyectadas como propias.",
+        "ACT:: Clarificación de valores: ¿qué cualidad quiero cultivar para vivir más alineado con mis valores?",
+        "Coaching:: Diseño de experimentos conductuales para desarrollar la cualidad reprimida.",
+        "Gestalt:: Experimento de \"actuar como si\" ya tuvieras esa cualidad para integrarla."
+      ],
+      "tarea": "Elige una cualidad que admiras en otros. Esta semana, haz UNA acción pequeña que exprese esa cualidad en ti. Observa cómo te sientes al hacerlo."
+    },
+    {
+      "codigo": "S-38",
+      "iconos": [
+        "🛡️",
+        "⚡"
+      ],
+      "pregunta": "¿Qué mecanismo de defensa usas más para no sentir: racionalizar, intellectualizar, bromear, disociarte o algo más?",
+      "objetivo": "Identificar el mecanismo de defensa predominante del paciente. Explorar cómo este mecanismo protege del dolor pero también bloquea el procesamiento emocional y la conexión auténtica.",
+      "profundizacion": [
+        "¿Cuándo aprendiste a usar este mecanismo?",
+        "¿Qué te protege de sentir?",
+        "¿Qué te pierde este mecanismo en términos de conexión y autenticidad?"
+      ],
+      "observacion": [
+        "Racionalización intelectual (\"entiendo todo, pero no siento nada\").",
+        "Humor como evitación (\"si me río, no lloro\").",
+        "Disociación (\"me voy, me desconecto, no estoy presente\").",
+        "Reconocimiento del mecanismo con curiosidad por explorar alternativas."
+      ],
+      "intervenciones": [
+        "Psicodinámica:: Análisis de los mecanismos de defensa y su función adaptativa original.",
+        "Sensoriomotriz:: Reconexión con el cuerpo para reducir la disociación o la intellectualización.",
+        "Gestalt:: Amplificación de la emoción evitada para procesarla directamente.",
+        "Mindfulness:: Entrenamiento en la presencia corporal para reducir la disociación."
+      ],
+      "tarea": "Esta semana, cada vez que notes que tu mecanismo de defensa se activa, detente y di: \"Estoy usando [mecanismo] para no sentir [emoción]\". Luego, permítete sentir esa emoción durante 2 minutos. Anota lo que descubras."
+    },
+    {
+      "codigo": "S-39",
+      "iconos": [
+        "🛡️",
+        "🎭"
+      ],
+      "pregunta": "¿Qué emoción o impulso expresas de forma exagerada o teatral para no tener que enfrentar la emoción real que sientes?",
+      "objetivo": "Explorar la formación reactiva y la dramatización como defensas contra emociones más vulnerables. Identificar cómo la exageración emocional funciona como máscara para ocultar la verdad interna.",
+      "profundizacion": [
+        "¿Qué emoción más vulnerable estás evitando con esta exageración?",
+        "¿Qué pasaría si expresaras la emoción real en lugar de la dramatizada?",
+        "¿Qué necesidad estás cubriendo con esta teatralidad?"
+      ],
+      "observacion": [
+        "Ira exagerada para no mostrar tristeza o vulnerabilidad.",
+        "Alegría maníaca para no enfrentar el vacío o la depresión.",
+        "Seducción exagerada para no mostrar inseguridad o miedo al rechazo.",
+        "Reconocimiento de la dramatización como defensa contra la vulnerabilidad."
+      ],
+      "intervenciones": [
+        "EFT:: Búsqueda de la emoción primaria adaptativa detrás de la emoción secundaria exagerada.",
+        "Psicodinámica:: Análisis de la formación reactiva y su función defensiva.",
+        "Gestalt:: Amplificación de la emoción exagerada hasta que emerja la emoción auténtica.",
+        "Humanista:: Creación de un espacio seguro para expresar la vulnerabilidad sin juicio."
+      ],
+      "tarea": "La próxima vez que notes que estás exagerando una emoción, detente y pregúntate: \"¿Qué estoy sintiendo realmente?\". Anota la emoción más vulnerable que encuentres debajo de la dramatización."
+    },
+    {
+      "codigo": "S-40",
+      "iconos": [
+        "🛡️",
+        "🌱"
+      ],
+      "pregunta": "Al terminar este segundo bloque de trabajo con tu sombra, ¿qué mecanismos de defensa has identificado y cómo puedes empezar a relacionarte con ellos de forma más consciente?",
+      "objetivo": "Cierre e integración del Lote 02. Consolidar la conciencia de los mecanismos de defensa y la capacidad de observarlos sin juicio, abriendo la posibilidad de elegir respuestas más adaptativas.",
+      "profundizacion": [
+        "¿Qué mecanismo de defensa te ha sorprendido más descubrir en ti?",
+        "¿Cómo ha cambiado tu relación con tus \"defectos\" o partes ocultas?",
+        "¿Qué te llevas de este recorrido para aplicar en tu día a día?"
+      ],
+      "observacion": [
+        "Mayor conciencia de los patrones defensivos automáticos.",
+        "Reconocimiento de que las defensas tuvieron una función protectora.",
+        "Apertura a elegir respuestas más conscientes y adaptativas.",
+        "Integración de las partes de la sombra con mayor compasión."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación y celebración del coraje y la honestidad mostrada durante el proceso.",
+        "Narrativa:: Resumir la nueva narrativa: \"Soy alguien que puede observar sus defensas sin quedar atrapado en ellas\".",
+        "ACT:: Reforzar la flexibilidad psicológica ganada al aceptar partes previamente evitadas.",
+        "Mindfulness:: Consolidar la práctica de observación sin juicio de los mecanismos de defensa."
+      ],
+      "tarea": "Escribe una \"Carta de agradecimiento a mis defensas\". Agradece a tus mecanismos de protección por haber intentado cuidarte, y declara tu intención de elegir respuestas más conscientes a partir de hoy."
+    },
+    {
+      "codigo": "S-41",
+      "iconos": [
+        "🕊️",
+        "🎭"
+      ],
+      "pregunta": "Si pudieras abrazar físicamente a esa parte de ti que has rechazado por más tiempo, ¿qué le dirías?",
+      "objetivo": "Facilitar el primer paso hacia la integración somática y emocional de la sombra. Transformar la relación de rechazo o miedo en una de acogida y validación.",
+      "profundizacion": [
+        "¿Cómo crees que reaccionaría esa parte al ser abrazada en lugar de rechazada?",
+        "¿Qué te impide darle ese abrazo en tu vida diaria?",
+        "¿Qué necesitas para permitirte sentir compasión por esa parte de ti?"
+      ],
+      "observacion": [
+        "Llanto liberador o alivio físico al imaginar el abrazo.",
+        "Resistencia o rigidez corporal ante la idea de abrazar la sombra.",
+        "Disociación o dificultad para personificar la parte rechazada.",
+        "Expresión espontánea de palabras de perdón o aceptación."
+      ],
+      "intervenciones": [
+        "Gestalt:: Técnica del abrazo a la silla vacía que representa la parte rechazada, integrando el contacto físico simbólico.",
+        "IFS:: Facilitar que el \"Yo\" (Self) abrace al exiliado, proporcionando la conexión que ha estado buscando.",
+        "Sensoriomotriz:: Trabajar la postura corporal de apertura y acogida para anclar la sensación de integración.",
+        "CFT:: Ejercicio de flujo de calidez dirigido específicamente a la parte más avergonzada o rechazada."
+      ],
+      "tarea": "Pon tus brazos cruzados sobre tu propio pecho, abrazándote. Di en voz alta: \"Te abrazo, te acepto y te doy la bienvenida a casa\". Quédate con esa sensación durante 1 minuto y anota qué emerge."
+    },
+    {
+      "codigo": "S-42",
+      "iconos": [
+        "🕊️",
+        "⚖️"
+      ],
+      "pregunta": "¿Qué \"oro\" o cualidad positiva has descubierto escondido dentro de tu sombra?",
+      "objetivo": "Identificar y reclamar el \"oro de la sombra\": talentos, fortalezas o cualidades positivas que fueron reprimidos junto con lo negativo, pero que ahora pueden ser recuperados para enriquecer la vida del paciente.",
+      "profundizacion": [
+        "¿Cómo te ha limitado no tener acceso a esta cualidad?",
+        "¿En qué situaciones de tu vida podrías usarla ahora de forma saludable?",
+        "¿Qué paso pequeño puedes dar esta semana para expresarla?"
+      ],
+      "observacion": [
+        "Reconocimiento de creatividad, pasión o asertividad reprimidas.",
+        "Sorpresa y asombro al descubrir fortalezas ocultas.",
+        "Dificultad inicial para ver algo \"positivo\" en la sombra.",
+        "Entusiasmo por integrar esta nueva dimensión de la identidad."
+      ],
+      "intervenciones": [
+        "Junguiana:: Ejercicio de imaginación activa para dialogar con el \"oro\" y negociar su integración en la vida consciente.",
+        "Positiva:: Identificación de fortalezas de carácter (VIA) que estaban dormidas y diseño de planes para activarlas.",
+        "ACT:: Acción comprometida: planificar un comportamiento que exprese esta cualidad recuperada.",
+        "Narrativa:: Re-escribir la historia personal incluyendo esta fortaleza como un hilo conductor recién descubierto."
+      ],
+      "tarea": "Escribe el nombre de esta cualidad \"de oro\" en un papel. Debajo, anota 3 situaciones concretas de la próxima semana donde podrías permitirla un 10% más. Elige una y hazla."
+    },
+    {
+      "codigo": "S-43",
+      "iconos": [
+        "🕊️",
+        "❤️"
+      ],
+      "pregunta": "¿Cómo puedes perdonar a tu propia sombra por haberte \"traicionado\" o haber actuado de formas que no aprobabas?",
+      "objetivo": "Trabajar el autoperdón dirigido específicamente a las partes de la sombra. Reconocer que estas partes actuaban desde la supervivencia, el dolor o la confusión, no desde la maldad.",
+      "profundizacion": [
+        "¿Qué necesitaba esa parte en ese momento que la llevó a actuar así?",
+        "¿Qué le dirías a un amigo que actuó de la misma forma por las mismas razones?",
+        "¿Qué se liberaría en ti si soltaras este resentimiento hacia ti mismo/a?"
+      ],
+      "observacion": [
+        "Alivio profundo y reducción de la autocrítica.",
+        "Resistencia a perdonar (\"no se lo merece\", \"fue imperdonable\").",
+        "Comprensión intelectual del perdón, pero bloqueo emocional.",
+        "Reconocimiento de la intención de protección detrás de la acción dañina."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de re-encuadre compasivo: entender la acción de la sombra como un intento torpe de proteger o satisfacer una necesidad.",
+        "IFS:: Dialogar con la parte que actuó, escuchar su historia de dolor y ofrecerle el perdón del Self.",
+        "Logoterapia:: Encontrar sentido en el error y transformar la culpa en aprendizaje y crecimiento.",
+        "Gestalt:: Diálogo de reconciliación entre la parte que juzga y la parte que actuó, buscando la integración."
+      ],
+      "tarea": "Escribe una carta de perdón a esa parte de ti. Empieza con: \"Te perdono por [acción]. Sé que hiciste lo que pudiste con las herramientas que tenías. Hoy te ofrezco una forma mejor de cuidar de nosotros\"."
+    },
+    {
+      "codigo": "S-44",
+      "iconos": [
+        "🕊️",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo ha cambiado tu definición de \"ser una buena persona\" ahora que has conocido tu propia oscuridad?",
+      "objetivo": "Reestructurar la moralidad rígida o perfeccionista. Evolucionar desde una bondad ingenua (negación de la sombra) hacia una bondad consciente (elección ética a pesar de conocer la propia capacidad para el daño).",
+      "profundizacion": [
+        "¿Era tu \"bondad\" anterior genuina o era miedo a ser \"malo/a\"?",
+        "¿Cómo te hace sentir saber que tienes capacidad para ambas cosas?",
+        "¿Qué valores guían ahora tus decisiones, más allá del miedo al juicio?"
+      ],
+      "observacion": [
+        "Transición de la moralidad impuesta a la ética auténtica.",
+        "Alivio al soltar la presión de ser \"perfectamente bueno/a\".",
+        "Miedo temporal a la propia capacidad de daño (hipervigilancia moral).",
+        "Integración madura: \"Soy humano/a, con luz y sombra, y elijo el bien\"."
+      ],
+      "intervenciones": [
+        "Junguiana:: Psicoeducación sobre la diferencia entre inocencia (ignorar la sombra) y integridad (conocerla y elegirla).",
+        "ACT:: Clarificación de valores: definir qué significa \"ser bueno\" basado en acciones elegidas, no en la ausencia de pensamientos oscuros.",
+        "Terapia de Esquemas:: Trabajar el modo del Niño Exigido que demandaba perfección moral.",
+        "Humanista:: Validación de la complejidad humana como fuente de autenticidad y profundidad."
+      ],
+      "tarea": "Escribe tu nueva definición de \"ser una buena persona\". Debe incluir la aceptación de tus imperfecciones. Ej: \"Soy una buena persona porque, a pesar de mis sombras, elijo actuar con respeto y compasión\"."
+    },
+    {
+      "codigo": "S-45",
+      "iconos": [
+        "🕊️",
+        "🧠"
+      ],
+      "pregunta": "Si tu sombra fuera tu consejera más sabia, ¿qué te aconsejaría hacer en tu situación actual?",
+      "objetivo": "Re-encuadrar la sombra de \"enemiga\" a \"aliada sabia\". Acceder a la intuición, la astucia o la verdad cruda que la sombra posee, pero que el yo consciente ignora por comodidad o miedo.",
+      "profundizacion": [
+        "¿Qué verdad incómoda te está pidiendo que reconozcas?",
+        "¿Qué acción te está empujando a tomar?",
+        "¿Por qué has ignorado este consejo hasta ahora?"
+      ],
+      "observacion": [
+        "Consejos directos, pragmáticos o orientados a poner límites.",
+        "Sorpresa ante la sabiduría práctica de la sombra.",
+        "Resistencia a seguir el consejo por miedo a las consecuencias.",
+        "Integración fluida: el paciente reconoce que la sombra \"tenía razón\"."
+      ],
+      "intervenciones": [
+        "IFS:: Consultar a la parte protectora o exiliada por su perspectiva sobre el problema actual.",
+        "Junguiana:: Imaginación activa: sentarse internamente con la figura de la sombra y pedirle su consejo.",
+        "Gestalt:: Role-playing donde el paciente habla desde la perspectiva de su sombra dando consejos.",
+        "ACT:: Evaluar si el consejo de la sombra está alineado con los valores profundos del paciente."
+      ],
+      "tarea": "Cierra los ojos e imagina que tu sombra se sienta frente a ti. Pregúntale: \"¿Qué debo hacer?\". Anota la primera respuesta que llegue, sin filtrarla ni juzgarla. Luego, evalúa su sabiduría."
+    },
+    {
+      "codigo": "S-46",
+      "iconos": [
+        "🕊️",
+        "🎯"
+      ],
+      "pregunta": "¿Qué ritual o símbolo puedes crear para marcar oficialmente la integración de esta parte de ti?",
+      "objetivo": "Utilizar el poder del ritual para consolidar el cambio psicológico. Crear un marcador simbólico que le indique al cerebro inconsciente que el proceso de integración ha comenzado o completado.",
+      "profundizacion": [
+        "¿Qué tipo de símbolo resuena contigo (fuego, agua, escritura, naturaleza)?",
+        "¿Qué necesitas sentir al realizar este ritual?",
+        "¿Cómo puedes hacer que este ritual sea significativo y no solo una tarea?"
+      ],
+      "observacion": [
+        "Creación de un ritual personal, significativo y emocionalmente cargado.",
+        "Escepticismo o rechazo a lo \"simbólico\" (enfoque puramente racional).",
+        "Emoción intensa o catarsis durante la planificación del ritual.",
+        "Compromiso firme con la realización del acto simbólico."
+      ],
+      "intervenciones": [
+        "Narrativa:: Diseño de un ritual de paso que marque el cierre de la guerra interna y el inicio de la cooperación.",
+        "Junguiana:: Uso de símbolos arquetípicos (mandalas, fuego, agua) para procesar la transformación a nivel inconsciente.",
+        "Somática:: Anclaje kinestésico: asociar un gesto físico (ej. mano en el corazón) con la sensación de integración.",
+        "Humanista:: Validación de la necesidad humana de ceremonializar los cambios profundos de identidad."
+      ],
+      "tarea": "Diseña tu ritual de integración. Puede ser escribir tus miedos y quemar el papel, enterrar un objeto simbólico, o simplemente mirarte al espejo y declarar la paz. Realízalo esta semana."
+    },
+    {
+      "codigo": "S-47",
+      "iconos": [
+        "🕊️",
+        "👤"
+      ],
+      "pregunta": "¿Cómo puedes aprender a tolerar y hasta disfrutar de tu propia contradicción interna?",
+      "objetivo": "Fomentar la tolerancia a la ambigüedad y la complejidad. Ayudar al paciente a aceptar que puede ser, por ejemplo, fuerte y vulnerable, egoísta y generoso, sin que esto lo haga \"falso\" o \"roto\".",
+      "profundizacion": [
+        "¿Qué te han enseñado sobre las contradicciones (que son malas, que hay que elegir un lado)?",
+        "¿Cómo sería tu vida si dejaras de intentar \"resolver\" todas tus contradicciones?",
+        "¿Qué riqueza aporta esta dualidad a tu experiencia humana?"
+      ],
+      "observacion": [
+        "Alivio al recibir permiso para ser contradictorio.",
+        "Ansiedad por la falta de coherencia o definición clara.",
+        "Reconocimiento de que la riqueza humana reside en los matices.",
+        "Capacidad de sostener dos verdades opuestas simultáneamente."
+      ],
+      "intervenciones": [
+        "ACT:: Trabajo con la flexibilidad psicológica y la aceptación de la paradoja como parte de la condición humana.",
+        "Gestalt:: Integración de polaridades: experimentar cómo ambos extremos son necesarios y pertenecen al mismo todo.",
+        "DBT:: Habilidad de \"Ambivalencia\" o \"Mente Sabia\": sintetizar la mente emocional y la mente racional.",
+        "Positiva:: Cultivo de la sabiduría como la capacidad de navegar la complejidad sin necesidad de certezas absolutas."
+      ],
+      "tarea": "Escribe 3 pares de contradicciones que convivan en ti (ej. \"Quiero estar solo Y quiero ser amado\"). Debajo de cada par, escribe: \"Y está bien que ambas cosas sean ciertas\"."
+    },
+    {
+      "codigo": "S-48",
+      "iconos": [
+        "🕊️",
+        "🌱"
+      ],
+      "pregunta": "¿De qué manera tu sombra ha sido la fuente de tu mayor creatividad, pasión o vitalidad?",
+      "objetivo": "Conectar la sombra con la energía vital (libido en sentido junguiano). Reconocer que la represión de la sombra también reprime la pasión, la creatividad y la espontaneidad, y que su integración las libera.",
+      "profundizacion": [
+        "¿En qué momentos has sentido que tu \"lado oscuro\" te dio energía para crear o actuar?",
+        "¿Qué pasaría si canalizaras esa energía de forma constructiva en lugar de reprimirla?",
+        "¿Qué proyecto o pasión has estado evitando por miedo a lo que podría despertar en ti?"
+      ],
+      "observacion": [
+        "Reconocimiento de que la ira o la rebeldía impulsaron logros creativos.",
+        "Sorpresa al ver la sombra como fuente de poder, no solo de peligro.",
+        "Dificultad para conectar la sombra con algo positivo.",
+        "Entusiasmo por explorar proyectos que antes parecían \"prohibidos\"."
+      ],
+      "intervenciones": [
+        "Junguiana:: Exploración de cómo la energía de la sombra puede ser sublimada en arte, trabajo o relaciones.",
+        "Positiva:: Identificación de fortalezas de creatividad y vitalidad que estaban bloqueadas por la represión.",
+        "ACT:: Acción comprometida: usar la energía de la sombra para avanzar hacia un valor importante.",
+        "Gestalt:: Experimento de expresar la energía reprimida a través del movimiento, el arte o la escritura."
+      ],
+      "tarea": "Piensa en algo creativo o apasionado que siempre quisiste hacer pero te pareció \"demasiado\" o \"inapropiado\". Diseña un paso pequeño y seguro para explorarlo esta semana."
+    },
+    {
+      "codigo": "S-49",
+      "iconos": [
+        "🕊️",
+        "🛡️"
+      ],
+      "pregunta": "¿Qué pasaría si dejaras de intentar ser \"bueno/a\" todo el tiempo y te permitieras ser simplemente \"humano/a\"?",
+      "objetivo": "Desmantelar el ideal del \"buenismo\" tóxico o la complacencia crónica. Introducir la humanidad compartida (con sus errores, egoísmos y límites) como un estándar más saludable y sostenible que la perfección moral.",
+      "profundizacion": [
+        "¿Cuánta energía te cuesta mantener esa imagen de \"bueno/a\"?",
+        "¿Qué relaciones cambiarían si fueras más auténtico/a y menos \"perfecto/a\"?",
+        "¿Qué te da miedo de ser visto como \"humano\" (con fallas)?"
+      ],
+      "observacion": [
+        "Alivio masivo y sensación de liberación de una carga pesada.",
+        "Miedo a ser rechazado/a si se muestra la imperfección.",
+        "Reconocimiento del agotamiento crónico por complacer.",
+        "Compromiso con la autenticidad por encima de la aprobación."
+      ],
+      "intervenciones": [
+        "CFT:: Cultivo de la \"humanidad compartida\" (common humanity): reconocer que la imperfección es universal, no un defecto personal.",
+        "Terapia de Esquemas:: Trabajar el modo del Niño Exigido y el Padre Crítico que demandan perfección moral.",
+        "ACT:: Defusión de la regla \"debo ser bueno para ser amado\" y conexión con valores de autenticidad.",
+        "Humanista:: Aceptación incondicional positiva del terapeuta como modelo de que se puede ser amado siendo imperfecto."
+      ],
+      "tarea": "Esta semana, admítelo en voz alta una vez: \"Me equivoqué\", \"No sé\" o \"No tengo ganas\". Observa si el mundo se cae o si, por el contrario, te sientes más libre y conectado."
+    },
+    {
+      "codigo": "S-50",
+      "iconos": [
+        "🕊️",
+        "⚡"
+      ],
+      "pregunta": "¿Cómo puedes integrar tu agresividad sana como una fuerza vital que protege tus límites, en lugar de verla como algo \"malo\"?",
+      "objetivo": "Rehabilitar la agresividad como una energía neutra y necesaria para la autoprotección, la asertividad y la vitalidad, despojándola de la connotación moral negativa de \"violencia\" o \"maldad\".",
+      "profundizacion": [
+        "¿Dónde sientes esa energía en tu cuerpo cuando está sana?",
+        "¿Qué límites has dejado que se crucen por miedo a tu propia agresividad?",
+        "¿Cómo se vería tu vida si usaras esta energía para construir, no para destruir?"
+      ],
+      "observacion": [
+        "Reconocimiento de la agresividad como energía de empuje y protección.",
+        "Miedo a que la agresividad, una vez liberada, sea incontrolable.",
+        "Historia de sumisión o complacencia por miedo a la propia fuerza.",
+        "Empoderamiento al reclamar el derecho a la propia fuerza vital."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Exploración de la postura de poder y los impulsos de acción (empujar, decir no) para anclar la agresividad sana.",
+        "Junguiana:: Integración del arquetipo del Guerrero sano: protección, límites y acción decidida.",
+        "DBT:: Entrenamiento en asertividad como la expresión canalizada y efectiva de la agresividad sana.",
+        "EFT:: Validación de la ira primaria adaptativa como señal de que un límite importante ha sido violado."
+      ],
+      "tarea": "Ponte de pie, planta bien los pies en el suelo y di en voz alta y con firmeza: \"No\". Siente la energía en tu cuerpo. Repítelo hasta que se sienta como un derecho, no como un ataque."
+    },
+    {
+      "codigo": "S-51",
+      "iconos": [
+        "🕊️",
+        "👨‍👩‍👧"
+      ],
+      "pregunta": "¿Cómo ha influido la \"sombra colectiva\" de tu cultura, religión o comunidad en lo que has reprimido de ti mismo/a?",
+      "objetivo": "Contextualizar la sombra personal dentro de la sombra colectiva. Ayudar al paciente a ver que muchas de sus represiones no son fallas personales, sino mandatos culturales o sistémicos internalizados.",
+      "profundizacion": [
+        "¿Qué exige tu grupo de pertenencia que reprimas para ser aceptado?",
+        "¿Qué precio has pagado por cumplir con estas expectativas colectivas?",
+        "¿Cómo puedes honrar tu origen sin seguir esclavo de sus sombras?"
+      ],
+      "observacion": [
+        "Insight liberador al ver la sombra como un mandato externo, no interno.",
+        "Rabia hacia el sistema cultural o religioso que impuso la represión.",
+        "Conflicto de lealtad entre la individuación y la pertenencia al grupo.",
+        "Capacidad de diferenciar valores propios de valores impuestos."
+      ],
+      "intervenciones": [
+        "Sistémica:: Exploración de las reglas invisibles del clan o cultura y trabajo de diferenciación saludable.",
+        "Junguiana:: Análisis de los arquetipos culturales y cómo el paciente puede trascender la sombra colectiva.",
+        "Narrativa:: Deconstrucción de los discursos dominantes que han patologizado partes legítimas del paciente.",
+        "ACT:: Clarificación de valores personales por encima de las reglas sociales internalizadas."
+      ],
+      "tarea": "Escribe una regla no dicha de tu cultura o familia que hayas internalizado (ej. \"no mostrar debilidad\"). Al lado, escribe: \"Esta es una regla de ellos, no mía. Yo elijo...\"."
+    },
+    {
+      "codigo": "S-52",
+      "iconos": [
+        "🕊️",
+        "❤️"
+      ],
+      "pregunta": "¿Cómo puedes reconciliarte con tu cuerpo, sabiendo que él ha sido el guardián de todas tus sombras y traumas?",
+      "objetivo": "Sanar la relación con el cuerpo, que a menudo es visto como el \"delincuente\" que almacena la vergüenza, el dolor o los impulsos no deseados. Transformar la relación de guerra a una de alianza y gratitud.",
+      "profundizacion": [
+        "¿De qué formas has castigado o ignorado a tu cuerpo por lo que \"guarda\"?",
+        "¿Qué te ha protegido tu cuerpo a pesar de todo?",
+        "¿Cómo puedes empezar a tratarlo como un aliado en lugar de un enemigo?"
+      ],
+      "observacion": [
+        "Conmovedora gratitud hacia el cuerpo al cambiar la perspectiva.",
+        "Persistencia de la desconexión o el asco corporal.",
+        "Reconocimiento de la resiliencia somática del paciente.",
+        "Apertura a prácticas de cuidado corporal compasivo."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de agradecimiento corporal, enviando calidez a las zonas que se han criticado o disociado.",
+        "Sensoriomotriz:: Prácticas de anclaje y regulación que reconstruyen la confianza en las señales corporales.",
+        "Somática:: Movimiento consciente para liberar la tensión y celebrar la capacidad de movimiento del cuerpo.",
+        "Humanista:: Re-encuadre del cuerpo como el vehículo sagrado que ha permitido la supervivencia y la experiencia."
+      ],
+      "tarea": "Pon tus manos sobre una parte de tu cuerpo que hayas criticado. Di: \"Gracias por protegerme y por aguantar todo esto. A partir de hoy, te trataré con más respeto\". Nota la respuesta de tu cuerpo."
+    },
+    {
+      "codigo": "S-53",
+      "iconos": [
+        "🕊️",
+        "🎯"
+      ],
+      "pregunta": "¿Qué legado de tu sombra estás dispuesto/a a romper para que no pase a la siguiente generación (hijos, alumnos, personas que influencias)?",
+      "objetivo": "Conectar el trabajo de integración de la sombra con un propósito transgeneracional. Empoderar al paciente como el \"eslabón que rompe la cadena\" de patrones de vergüenza, represión o silencio.",
+      "profundizacion": [
+        "¿Qué patrón de tu familia no quieres que se repita?",
+        "¿Cómo te está preparando este trabajo para ser ese eslabón diferente?",
+        "¿Qué mensaje quieres dejar sobre cómo tratar la propia oscuridad?"
+      ],
+      "observacion": [
+        "Sentido profundo de propósito y responsabilidad generativa.",
+        "Tristeza por el legado recibido, pero determinación de cambiarlo.",
+        "Miedo a no ser capaz de romper el patrón.",
+        "Visión clara de un legado de autenticidad y compasión."
+      ],
+      "intervenciones": [
+        "Sistémica:: Ritual de cierre de ciclos transgeneracionales y bendición de la nueva dirección.",
+        "Logoterapia:: Encontrar sentido último en el sufrimiento propio al transformarlo en protección para otros.",
+        "Narrativa:: Construcción de la identidad como \"el que rompió el ciclo\", un héroe cotidiano.",
+        "Positiva:: Enfoque en la generatividad (Etapa de Erikson) como fruto de la integración de la sombra."
+      ],
+      "tarea": "Escribe una declaración de legado: \"Yo rompo el ciclo de [patrón familiar]. A partir de mí, mi linaje aprende que está bien sentir, expresar y ser auténtico\". Léela con solemnidad."
+    },
+    {
+      "codigo": "S-54",
+      "iconos": [
+        "🕊️",
+        "🧠"
+      ],
+      "pregunta": "¿Cómo te ha enseñado tu sombra a ser más humilde y más compasivo/a con los demás?",
+      "objetivo": "Extraer la sabiduría relacional de la sombra. Reconocer que conocer la propia capacidad para el error, la oscuridad y el dolor es la base más sólida para la empatía genuina hacia los demás.",
+      "profundizacion": [
+        "¿Cómo ha cambiado tu juicio hacia los demás desde que conoces tu propia sombra?",
+        "¿Qué te hace ahora más paciente o comprensivo/a?",
+        "¿Cómo es una relación basada en la humanidad compartida en lugar de en la perfección?"
+      ],
+      "observacion": [
+        "Reducción significativa del juicio moral hacia otros.",
+        "Expresión de una empatía más profunda y menos condescendiente.",
+        "Reconocimiento de que la propia vulnerabilidad conecta con la ajena.",
+        "Integración madura de la humildad como fortaleza, no como debilidad."
+      ],
+      "intervenciones": [
+        "CFT:: Reforzar la \"humanidad compartida\" como antídoto contra el aislamiento y el juicio.",
+        "Junguiana:: Reflexión sobre cómo la integración de la propia sombra es el requisito para la verdadera compasión.",
+        "Humanista:: Validación de la autenticidad como la base de las relaciones profundas y significativas.",
+        "Narrativa:: Re-escribir las historias sobre otros, reemplazando el juicio por la curiosidad compasiva."
+      ],
+      "tarea": "Piensa en alguien a quien hayas juzgado duramente recientemente. Recuerda una vez en tu vida en la que actuaste de forma similar por dolor o miedo. Permítete sentir compasión por ambos."
+    },
+    {
+      "codigo": "S-55",
+      "iconos": [
+        "🕊️",
+        "🌱"
+      ],
+      "pregunta": "Visualiza a tu \"yo integrado\" dentro de un año. ¿Cómo camina, cómo habla y cómo se relaciona con su propia oscuridad?",
+      "objetivo": "Future pacing (proyección futura) de la identidad integrada. Utilizar la visualización detallada para crear un imán psicológico que oriente el comportamiento y las decisiones hacia la totalidad.",
+      "profundizacion": [
+        "¿Qué ya no le preocupa a ese \"yo integrado\"?",
+        "¿Cómo maneja los conflictos o las tentaciones de la sombra?",
+        "¿Qué mensaje te da ese \"yo del futuro\" sobre el proceso que estás viviendo hoy?"
+      ],
+      "observacion": [
+        "Visualización rica, serena y empoderada del yo futuro.",
+        "Dificultad para imaginar un futuro sin la lucha interna.",
+        "Descripción de una relación de cooperación, no de guerra, con la sombra.",
+        "Motivación renovada al conectar con esta visión atractiva."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio detallado del \"Mejor Yo Posible\" (Best Possible Self) enfocado en la integración y la paz interna.",
+        "ACT:: Visualización de la vida valiosa: conectar la proyección futura con los valores fundamentales.",
+        "Gestalt:: Role-playing donde el paciente habla desde la perspectiva de su \"yo integrado\" del futuro.",
+        "Soluciones:: Preguntas de milagro aplicadas a la integración: \"¿Cuál sería la primera pequeña señal de que esto ya está ocurriendo?\"."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo integrado\" del futuro, dirigida a ti hoy. Dile: \"Sé que es difícil ahora, pero vale la pena. Así es como nos vemos cuando dejamos de luchar contra nosotros mismos...\"."
+    },
+    {
+      "codigo": "S-56",
+      "iconos": [
+        "🕊️",
+        "⚡"
+      ],
+      "pregunta": "Cuando tu sombra \"tome el control\" nuevamente (porque lo hará), ¿cuál será tu nuevo plan de respuesta, diferente al de antes?",
+      "objetivo": "Prevención de recaídas y normalización de la no-linealidad del proceso. Crear un plan de acción compasivo y efectivo para cuando la sombra se reactive, evitando la espiral de culpa y desesperanza.",
+      "profundizacion": [
+        "¿Cuáles serán tus señales de alerta temprana de que la sombra está tomando el mando?",
+        "¿Qué te dirás a ti mismo/a en lugar de castigarte?",
+        "¿Qué acción reparadora tomarás en lugar de huir o esconderse?"
+      ],
+      "observacion": [
+        "Plan realista, compasivo y con pasos concretos de reparación.",
+        "Negación de la posibilidad de recaída (\"ya lo superé para siempre\").",
+        "Miedo paralizante a que la sombra vuelva y arruine todo.",
+        "Aceptación serena de que la integración es una práctica continua."
+      ],
+      "intervenciones": [
+        "TCC:: Elaboración de un plan de prevención de recaídas con identificación de señales de alerta y respuestas alternativas.",
+        "ACT:: Tarjetas de recordatorio de valores y defusión para usar en momentos de \"secuestro\" por la sombra.",
+        "DBT:: Creación de un \"kit de habilidades de crisis\" personalizado para momentos de alta vulnerabilidad.",
+        "IFS:: Recordatorio de los pasos para volver al \"Self\": detenerse, respirar y preguntar a la parte qué necesita."
+      ],
+      "tarea": "Diseña tu \"Plan de Respuesta a la Sombra\": 3 pasos que seguirás la próxima vez que actúes desde ella. Ej: 1) Notarlo sin juzgar, 2) Respirar, 3) Preguntar \"¿qué necesito?\". Guárdalo en tu teléfono."
+    },
+    {
+      "codigo": "S-57",
+      "iconos": [
+        "🕊️",
+        "🎯"
+      ],
+      "pregunta": "¿Cómo puedes celebrar la totalidad de quien eres, incluyendo las partes que antes considerabas \"indeseables\"?",
+      "objetivo": "Fomentar la celebración y la gratitud hacia la propia complejidad. Cambiar el marco de \"tolerar\" la sombra a \"celebrar\" la riqueza que aporta a la experiencia humana completa.",
+      "profundizacion": [
+        "¿Qué harías diferente si te amaras a ti mismo/a en tu totalidad, sin reservas?",
+        "¿Cómo sería un día en tu vida si dejaras de esconderte?",
+        "¿Qué pequeño acto de celebración puedes hacer hoy por haber llegado hasta aquí?"
+      ],
+      "observacion": [
+        "Expresión genuina de orgullo, gratitud y amor propio.",
+        "Incomodidad o vergüenza al intentar \"celebrarse\" a sí mismo.",
+        "Reconocimiento de la belleza en la propia complejidad y cicatrices.",
+        "Compromiso con la autenticidad radical como forma de vida."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio de \"Tres cosas buenas\" aplicado a las propias cualidades, incluyendo las que antes se juzgaban.",
+        "Humanista:: Celebración terapéutica: el terapeuta valida y refleja la belleza de la totalidad del paciente.",
+        "Gestalt:: Experimento de celebrar la propia existencia con un gesto o palabra de afirmación en sesión.",
+        "Narrativa:: Escribir el epílogo de esta etapa del viaje como una historia de triunfo sobre la fragmentación."
+      ],
+      "tarea": "Haz algo esta semana que sea un acto puro de celebración de quien eres. Puede ser comprar algo que te guste, bailar, o simplemente mirarte al espejo y decir: \"Me gusto, completo/a, con todo\"."
+    },
+    {
+      "codigo": "S-58",
+      "iconos": [
+        "🕊️",
+        "👤"
+      ],
+      "pregunta": "Si pudieras resumir en una sola palabra o frase lo que has aprendido de tu sombra, ¿cuál sería?",
+      "objetivo": "Síntesis y consolidación del aprendizaje. Ayudar al paciente a destilar la esencia de todo el trabajo realizado en un mantra o principio rector que pueda llevar consigo.",
+      "profundizacion": [
+        "¿Por qué elegiste esa palabra o frase?",
+        "¿Cómo te ha cambiado esa comprensión?",
+        "¿Cómo la usarás como brújula en el futuro?"
+      ],
+      "observacion": [
+        "Síntesis profunda, poética o filosófica del proceso.",
+        "Palabras de aceptación, paz, totalidad o curiosidad.",
+        "Dificultad para resumir (el proceso se siente demasiado complejo).",
+        "Insight claro que marca un antes y un después."
+      ],
+      "intervenciones": [
+        "Narrativa:: Convertir esa palabra o frase en el \"título\" de esta nueva etapa de la vida del paciente.",
+        "ACT:: Usar esa frase como un anclaje de valores para momentos de duda o desregulación.",
+        "Humanista:: Validar la sabiduría adquirida y reflejar la madurez emocional del paciente.",
+        "Mindfulness:: Usar la frase como un mantra de meditación para anclar la integración."
+      ],
+      "tarea": "Escribe esa palabra o frase en un papel pequeño, decórala o hazla especial. Llévala contigo como un recordatorio de la sabiduría que has ganado en este viaje."
+    },
+    {
+      "codigo": "S-59",
+      "iconos": [
+        "🕊️",
+        "🌱"
+      ],
+      "pregunta": "¿Cómo ha cambiado tu relación contigo mismo/a desde que empezamos a trabajar con tu sombra?",
+      "objetivo": "Evaluación metacognitiva del proceso. Ayudar al paciente a reconocer y consolidar los cambios positivos en su autoimagen, autocompasión y flexibilidad interna.",
+      "profundizacion": [
+        "¿Qué es lo que más te sorprendió de ti mismo/a en este proceso?",
+        "¿Qué ya no haces que antes hacías constantemente?",
+        "¿Qué nueva capacidad te llevas de este recorrido?"
+      ],
+      "observacion": [
+        "Reconocimiento claro de mayor autocompasión y menos autocrítica.",
+        "Visión más matizada, amable y realista de sí mismo/a.",
+        "Dificultad para ver los cambios (sesgo de negatividad persistente).",
+        "Orgullo genuino y gratitud por el trabajo realizado."
+      ],
+      "intervenciones": [
+        "Positiva:: Ejercicio de \"fortalezas en acción\": identificar y celebrar las fortalezas que permitieron este cambio.",
+        "Narrativa:: Consolidar la identidad de \"persona que se conoce y se acepta\" en la historia de vida.",
+        "TCC:: Reforzar el locus de control interno, atribuyendo el éxito al esfuerzo y la valentía del paciente.",
+        "Humanista:: Reflejo profundo de la transformación observada por el terapeuta, validando el coraje del paciente."
+      ],
+      "tarea": "Escribe una lista de \"3 cosas que he aprendido a amar o aceptar de mí mismo/a gracias a este trabajo\". Guárdala como un testimonio de tu crecimiento."
+    },
+    {
+      "codigo": "S-60",
+      "iconos": [
+        "🕊️",
+        "🎭",
+        "🌱",
+        "🎯"
+      ],
+      "pregunta": "Tu mosaico está completo: ni solo luz, ni solo sombra, sino la obra entera. ¿Cómo eliges sostener esta totalidad a partir de hoy?",
+      "objetivo": "Cierre e integración final del Mazo de la Sombra. Consolidar la idea de que la sanación no es la eliminación de la oscuridad, sino la capacidad de sostener la totalidad con gracia, curiosidad y compasión.",
+      "profundizacion": [
+        "¿Qué significa para ti \"sostener\" tu totalidad sin aferrarte rígidamente a ninguna parte?",
+        "¿Cómo te relacionarás con las futuras dudas o apariciones de la sombra?",
+        "¿Qué palabra resume tu estado actual al terminar este trabajo?"
+      ],
+      "observacion": [
+        "Sensación de cierre, paz, plenitud y aceptación de la propia complejidad.",
+        "Reconocimiento de que el trabajo con la sombra es una práctica de por vida, no un destino final.",
+        "Expresión de gratitud hacia el proceso, hacia el terapeuta y hacia sí mismo/a.",
+        "Integración fluida de la metáfora del mosaico como identidad resiliente y hermosa."
+      ],
+      "intervenciones": [
+        "Narrativa:: Ritual de cierre: el terapeuta valida y celebra la completitud del trabajo, entregando simbólicamente el \"mosaico\" al paciente.",
+        "ACT:: Aceptación radical de la naturaleza cambiante de la mente, con compromiso a volver a los valores como brújula.",
+        "Humanista:: Celebración de la autenticidad alcanzada y la capacidad del paciente de ser el autor y el artista de su propia vida.",
+        "Positiva:: Anclaje de la emoción de logro, paz y plenitud como recurso interno para futuros desafíos."
+      ],
+      "tarea": "Dibuja o describe tu \"Mosaico Completo\". No tiene que ser perfecto, solo tiene que ser tuyo. Escribe en el centro: \"Soy el artista de mi propia mente, y abrazo todas mis piezas, claras y oscuras, porque juntas forman mi obra maestra\"."
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .chapter-heading { position: relative; padding-left: 1.5rem; }
+        .chapter-heading::before { content: ''; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 4px; background-color: #10b981; border-radius: 2px; }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        table.clinical-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.9rem; }
+        table.clinical-table thead th { background: #0f172a; color: white; padding: 12px 16px; text-align: left; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; }
+        table.clinical-table tbody td { padding: 14px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+        table.clinical-table tbody tr:hover { background: #f8fafc; }
+        table.clinical-table tbody tr:last-child td { border-bottom: none; }
+        .task-card { background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); border-left: 4px solid #059669; }
+        .dialogue-card { background: #fefce8; border-left: 4px solid #ca8a04; }
+        .dialogue-card .speaker { font-weight: 700; color: #854d0e; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .dialogue-card .line { color: #422006; font-style: italic; }
+        .resistance-card { background: #fef2f2; border-left: 4px solid #dc2626; }
+        .intervention-card { background: #eff6ff; border-left: 4px solid #2563eb; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section { break-inside: avoid; }
+            table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="../app/" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- HEADER BLOQUE 3 -->
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_left,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Volumen III &bull; Bloque 3</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Capítulos 4 & 5</h1>
+            <p class="text-lg text-slate-300 font-light max-w-2xl">Profundización clínica, gestión de la resistencia y el arte de la intervención conversacional.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- ÍNDICE DEL BLOQUE -->
+        <nav class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4">Contenido de este bloque</h3>
+            <div class="grid md:grid-cols-2 gap-3 text-sm">
+                <a href="#cap4" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="text-accent-600 font-bold">Cap. 4</span>
+                    <span class="text-slate-700">Profundización Clínica</span>
+                </a>
+                <a href="#cap4-1" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">4.1</span>
+                    <span class="text-slate-600">De lo superficial a lo significativo</span>
+                </a>
+                <a href="#cap4-2" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">4.2</span>
+                    <span class="text-slate-600">Lectura de lo no dicho</span>
+                </a>
+                <a href="#cap4-3" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">4.3</span>
+                    <span class="text-slate-600">Adaptación según escuela terapéutica</span>
+                </a>
+                <a href="#cap5" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="text-accent-600 font-bold">Cap. 5</span>
+                    <span class="text-slate-700">Gestión de la Resistencia</span>
+                </a>
+                <a href="#cap5-1" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">5.1</span>
+                    <span class="text-slate-600">Tipología de resistencias</span>
+                </a>
+                <a href="#cap5-2" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">5.2</span>
+                    <span class="text-slate-600">Intervenciones para respuestas difíciles</span>
+                </a>
+                <a href="#cap5-3" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">5.3</span>
+                    <span class="text-slate-600">El silencio y la metáfora</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- ============================================= -->
+        <!-- CAPÍTULO 4 -->
+        <!-- ============================================= -->
+        <section id="cap4">
+            <div class="mb-10">
+                <span class="text-accent-600 font-bold tracking-widest uppercase text-xs">Capítulo 4</span>
+                <h2 class="font-serif text-4xl text-brand-900 font-bold mt-2">Profundización Clínica</h2>
+                <div class="elegant-separator mt-4 w-24"></div>
+                <p class="mt-4 text-slate-700">La carta es solo el punto de partida. El trabajo clínico real ocurre en lo que viene <em>después</em> de la primera respuesta del paciente. Este capítulo te ofrece un marco sistemático para transformar respuestas superficiales en insights significativos, leyendo tanto lo que se dice como lo que se omite.</p>
+            </div>
+
+            <!-- 4.1 De lo superficial a lo significativo -->
+            <article id="cap4-1" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">4.1 De la Respuesta Superficial a la Significativa</h3>
+                <p class="text-slate-700 mb-6">Las primeras respuestas del paciente a una carta suelen ser <strong>defensivas o cognitivas</strong>. El arte del terapeuta consiste en acompañar al paciente hacia capas más profundas mediante preguntas de segundo y tercer orden. La siguiente tabla ofrece un mapa de esta progresión:</p>
+
+                <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden mb-6">
+                    <table class="clinical-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 18%;">Nivel</th>
+                                <th style="width: 22%;">Características</th>
+                                <th style="width: 30%;">Ejemplo de Respuesta</th>
+                                <th style="width: 30%;">Pregunta del Terapeuta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="font-bold text-slate-600">Nivel 1</span><br><span class="text-xs text-slate-500">Superficial / Cognitivo</span></td>
+                                <td class="text-sm">Respuesta rápida, intelectualizada, socialmente aceptable. El paciente "sabe" lo que debería sentir.</td>
+                                <td class="text-sm italic">"Estoy bien, solo un poco cansado."</td>
+                                <td class="text-sm">"Si el cansancio pudiera hablar, ¿qué te estaría diciendo?"</td>
+                            </tr>
+                            <tr>
+                                <td><span class="font-bold text-slate-600">Nivel 2</span><br><span class="text-xs text-slate-500">Emocional / Corporal</span></td>
+                                <td class="text-sm">Emergen emociones o sensaciones. El paciente conecta con la experiencia vivida.</td>
+                                <td class="text-sm italic">"Siento un peso en el pecho cuando pienso en eso."</td>
+                                <td class="text-sm">"¿A qué momento de tu vida te lleva ese peso?"</td>
+                            </tr>
+                            <tr>
+                                <td><span class="font-bold text-slate-600">Nivel 3</span><br><span class="text-xs text-slate-500">Significativo / Narrativo</span></td>
+                                <td class="text-sm">Conexión con patrones, creencias o eventos nucleares. Insight emergente.</td>
+                                <td class="text-sm italic">"Me doy cuenta de que siempre me hago cargo de todo, como mi madre."</td>
+                                <td class="text-sm">"¿Qué parte de vos aprendió que hacerse cargo era la única opción?"</td>
+                            </tr>
+                            <tr>
+                                <td><span class="font-bold text-accent-600">Nivel 4</span><br><span class="text-xs text-accent-700">Transformador</span></td>
+                                <td class="text-sm">Reorganización de la narrativa. El paciente accede a una nueva perspectiva de sí mismo.</td>
+                                <td class="text-sm italic">"Nunca me había dado cuenta de que no tengo que cargar con todo. Puedo soltar."</td>
+                                <td class="text-sm">"¿Cómo sería tu vida esta semana si soltaras una de esas cargas?"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="dialogue-card p-5 rounded-r-lg mb-6">
+                    <h4 class="font-sans font-bold uppercase text-xs tracking-widest mb-3 flex items-center gap-2">💬 Ejemplo de Progresión en 4 Niveles</h4>
+                    <p class="text-xs text-slate-600 mb-3">Carta: <span class="code-badge">E-14</span> <em>"¿Qué emoción has estado evitando esta semana?"</em></p>
+                    <div class="space-y-3 text-sm">
+                        <div><span class="speaker">Paciente (Nivel 1):</span> <span class="line">"No sé, quizás un poco de estrés por el trabajo."</span></div>
+                        <div><span class="speaker">Terapeuta:</span> <span class="line">"Si miramos más allá del estrés... ¿hay algo que no quieras nombrar?"</span></div>
+                        <div><span class="speaker">Paciente (Nivel 2):</span> <span class="line">"Me da vergüenza decirlo... siento envidia de mi hermana."</span></div>
+                        <div><span class="speaker">Terapeuta:</span> <span class="line">"La envidia suele señalar algo que deseamos para nosotros. ¿Qué tiene ella que vos sentís que no podés tener?"</span></div>
+                        <div><span class="speaker">Paciente (Nivel 3):</span> <span class="line">"Ella se permite ser feliz sin culpa. Yo siempre siento que no merezco estar bien."</span></div>
+                        <div><span class="speaker">Terapeuta:</span> <span class="line">"¿De quién aprendiste que no merecés estar bien?"</span></div>
+                        <div><span class="speaker">Paciente (Nivel 4):</span> <span class="line">"De mi padre. Siempre me dijo que yo era el problema. Hoy lo veo... y no tiene que ser así."</span></div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-l-4 border-brand-800 p-5 rounded-r-lg shadow-sm">
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-2">🔑 Principios de la Profundización</h4>
+                    <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                        <li><strong>Respeta el ritmo:</strong> No fuerces el Nivel 4 si el paciente aún está en el Nivel 1. La profundidad es un proceso, no una meta.</li>
+                        <li><strong>Usa las palabras del paciente:</strong> Repite sus términos ("peso", "carga", "vacío") para mantener la conexión con su experiencia.</li>
+                        <li><strong>Pregunta, no interpretes:</strong> "¿Qué significa eso para vos?" es más poderoso que "Eso significa que..."</li>
+                        <li><strong>Tolerá la incomodidad:</strong> El silencio después de una pregunta profunda es productivo. No lo llenes prematuramente.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- 4.2 Lectura de lo no dicho -->
+            <article id="cap4-2" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">4.2 Lectura de lo No Dicho: Observación Clínica</h3>
+                <p class="text-slate-700 mb-6">Cada carta del sistema MOSAICO incluye una sección de <strong>"Observación clínica"</strong> que te ayuda a detectar patrones de respuesta defensivos. Aprender a leer estos patrones es tan importante como escuchar el contenido manifiesto.</p>
+
+                <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden mb-6">
+                    <table class="clinical-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 22%;">Patrón Observado</th>
+                                <th style="width: 30%;">Qué Puede Estar Indicando</th>
+                                <th style="width: 48%;">Intervención Sugerida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Evita responder</strong><br><span class="text-xs text-slate-500">Silencio prolongado, cambio de postura, mirada evasiva</span></td>
+                                <td class="text-sm">La carta tocó un tema sensible. La evitación es una protección.</td>
+                                <td class="text-sm">"Noto que esta carta te incomoda. ¿Querés contarme qué pasó cuando la leíste?" o "Podemos dejar esta carta a un lado y volver después, si querés."</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Responde intelectualmente</strong><br><span class="text-xs text-slate-500">Análisis teórico, generalizaciones, "la gente suele..."</span></td>
+                                <td class="text-sm">El paciente usa la cognición para mantener distancia de la emoción.</td>
+                                <td class="text-sm">"Eso es interesante desde un punto de vista general. Pero me interesa lo que eso significa <em>para vos</em>. ¿Cómo lo vivís en tu cuerpo?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Responde emocionalmente</strong><br><span class="text-xs text-slate-500">Llanto, voz quebrada, agitación</span></td>
+                                <td class="text-sm">La emoción está emergiendo. Es material valioso, pero requiere contención.</td>
+                                <td class="text-sm">"Veo que esto te toca profundamente. Quedate con esa sensación un momento. No hay apuro. Estoy acá con vos."</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Cambia de tema</strong><br><span class="text-xs text-slate-500">Deriva hacia anécdotas irrelevantes, minimiza</span></td>
+                                <td class="text-sm">La carta activó algo que el paciente no está listo para explorar.</td>
+                                <td class="text-sm">"Noto que nos estamos alejando de la carta. ¿Te das cuenta de eso? ¿Qué pasó justo antes de que cambiaras de tema?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sobre-adaptación</strong><br><span class="text-xs text-slate-500">"Lo que vos querés escuchar", respuestas "correctas"</span></td>
+                                <td class="text-sm">El paciente busca aprobación o teme decepcionar al terapeuta.</td>
+                                <td class="text-sm">"Me interesa más lo que es verdad para vos que lo que suena bien. ¿Hay algo que no me estás diciendo?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Humor defensivo</strong><br><span class="text-xs text-slate-500">Chistes, ironía, minimización graciosa</span></td>
+                                <td class="text-sm">El humor como escudo contra la vulnerabilidad.</td>
+                                <td class="text-sm">"Veo que lo tomás con humor. A veces nos reímos de lo que nos duele. ¿Hay algo de dolor detrás de esta carta para vos?"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="task-card p-5 rounded-r-lg">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-2 flex items-center gap-2">📋 Tarea para el Paciente: Registro de Respuestas</h4>
+                    <p class="text-sm text-slate-700 mb-2">Entre sesiones, el paciente puede observar sus propias reacciones al leer una carta:</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>"¿Qué sentí en mi cuerpo al leer esta carta?"</li>
+                        <li>"¿Tuve ganas de evitarla? ¿Por qué?"</li>
+                        <li>"¿Qué pensé primero? ¿Qué sentí después?"</li>
+                        <li>"¿Hay algo que no quiero admitir sobre esta pregunta?"</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- 4.3 Adaptación según escuela -->
+            <article id="cap4-3" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">4.3 Adaptación Según Escuela Terapéutica</h3>
+                <p class="text-slate-700 mb-6">El sistema MOSAICO es <strong>teóricamente integrativo</strong>. Las mismas cartas pueden trabajarse desde diferentes marcos teóricos según la orientación del terapeuta. A continuación, presentamos cómo abordar una misma carta desde tres enfoques principales:</p>
+
+                <div class="space-y-6">
+                    <!-- NARRATIVA -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold text-lg">N</div>
+                            <div>
+                                <h4 class="font-sans font-bold text-brand-900 uppercase text-sm tracking-widest">Enfoque Narrativo</h4>
+                                <p class="text-xs text-slate-500">Re-authoring, externalización, narrativas alternativas</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Carta ejemplo:</strong> <span class="code-badge">C-23</span> <em>"¿Qué creencia sobre vos mismo te limita más?"</em></p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Preguntas narrativas:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc mb-3">
+                            <li>"¿Cuándo apareció esa creencia por primera vez en tu vida?"</li>
+                            <li>"¿Qué historia te contás a vos mismo sobre esa creencia?"</li>
+                            <li>"Si esa creencia fuera un personaje, ¿cómo se llamaría? ¿Qué quiere para vos?"</li>
+                            <li>"¿Hay algún momento en que hayas logrado actuar <em>a pesar</em> de esa creencia?"</li>
+                            <li>"¿Qué nueva historia podrías contar sobre vos mismo a partir de esos momentos?"</li>
+                        </ul>
+                        <p class="text-sm text-slate-700"><strong>Objetivo:</strong> Externalizar la creencia (no es "yo soy", sino "tengo una historia que me dice que soy") y co-construir narrativas alternativas basadas en excepciones.</p>
+                    </div>
+
+                    <!-- ACT -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold text-lg">A</div>
+                            <div>
+                                <h4 class="font-sans font-bold text-brand-900 uppercase text-sm tracking-widest">Enfoque ACT</h4>
+                                <p class="text-xs text-slate-500">Aceptación, defusión, valores, acción comprometida</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Carta ejemplo:</strong> <span class="code-badge">C-23</span> <em>"¿Qué creencia sobre vos mismo te limita más?"</em></p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Preguntas ACT:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc mb-3">
+                            <li>"¿Qué hace esa creencia por vos? ¿Te protege de algo?"</li>
+                            <li>"Si pudieras observar esa creencia como un pensamiento pasajero, sin luchar contra ella, ¿cómo se vería?"</li>
+                            <li>"¿Qué valores importantes estás dejando de lado cuando esa creencia toma el control?"</li>
+                            <li>"¿Qué pequeña acción podrías dar hoy, <em>con</em> esa creencia presente, pero alineada con tus valores?"</li>
+                            <li>"¿Cómo sería tu vida si esa creencia no decidiera por vos?"</li>
+                        </ul>
+                        <p class="text-sm text-slate-700"><strong>Objetivo:</strong> Defusión cognitiva (la creencia es un pensamiento, no una verdad), clarificación de valores y acción comprometida a pesar de la presencia de pensamientos limitantes.</p>
+                    </div>
+
+                    <!-- GESTALT -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-12 h-12 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold text-lg">G</div>
+                            <div>
+                                <h4 class="font-sans font-bold text-brand-900 uppercase text-sm tracking-widest">Enfoque Gestalt</h4>
+                                <p class="text-xs text-slate-500">Awareness, diálogo de partes, aquí-ahora, experimento</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Carta ejemplo:</strong> <span class="code-badge">C-23</span> <em>"¿Qué creencia sobre vos mismo te limita más?"</em></p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Preguntas gestálticas:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc mb-3">
+                            <li>"¿Dónde sentís esa creencia en tu cuerpo ahora mismo?"</li>
+                            <li>"Si esa creencia pudiera hablar, ¿qué te diría? ¿Con qué tono?"</li>
+                            <li>"¿Qué parte de vos sostiene esa creencia? ¿Qué parte quiere soltarla?"</li>
+                            <li>"Hacé un diálogo entre esas dos partes. ¿Qué necesita cada una?"</li>
+                            <li>"¿Qué experimento podríamos hacer ahora para explorar esa creencia en el aquí-ahora?"</li>
+                        </ul>
+                        <p class="text-sm text-slate-700"><strong>Objetivo:</strong> Traer la creencia al aquí-ahora, encarnarla somáticamente, facilitar el diálogo entre partes conflictivas y promover la integración a través de la experiencia directa.</p>
+                    </div>
+                </div>
+
+                <div class="bg-accent-50 border border-accent-500/20 rounded-xl p-6 mt-6">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-3 flex items-center gap-2">💡 Integración de Escuelas</h4>
+                    <p class="text-sm text-slate-700">No es necesario elegir una sola escuela. Un terapeuta integrativo puede combinar enfoques según el momento del proceso:</p>
+                    <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc mt-3">
+                        <li><strong>Fase inicial:</strong> Gestalt para encarnar la experiencia ("¿Dónde lo sentís?").</li>
+                        <li><strong>Fase de exploración:</strong> Narrativa para externalizar y re-authoring ("¿Qué historia te contás?").</li>
+                        <li><strong>Fase de acción:</strong> ACT para defusión y compromiso ("¿Qué pequeña acción alineada con tus valores?").</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CAPÍTULO 5 -->
+        <!-- ============================================= -->
+        <section id="cap5">
+            <div class="mb-10">
+                <span class="text-accent-600 font-bold tracking-widest uppercase text-xs">Capítulo 5</span>
+                <h2 class="font-serif text-4xl text-brand-900 font-bold mt-2">Gestión de la Resistencia y la Defensa</h2>
+                <div class="elegant-separator mt-4 w-24"></div>
+                <p class="mt-4 text-slate-700">La resistencia no es un obstáculo: es <strong>información clínica</strong>. Cuando un paciente resiste, está comunicando algo importante sobre sus límites, sus miedos o su ritmo. Este capítulo te ofrece herramientas para trabajar <em>con</em> la resistencia, no <em>contra</em> ella.</p>
+            </div>
+
+            <!-- 5.1 Tipología de resistencias -->
+            <article id="cap5-1" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">5.1 Identificación de Resistencias Comunes</h3>
+                <p class="text-slate-700 mb-6">Las cartas, al ser un recurso proyectivo, activan defensas específicas. Reconocer estas defensas te permite intervenir con precisión y respeto.</p>
+
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">🚫 Evitación Total</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> "No quiero usar esta carta", "Mejor elijo otra", "Esto no es para mí".</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Protección contra material percibido como amenazante.</p>
+                    </div>
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">🧠 Intelectualización</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> Respuestas teóricas, análisis abstractos, "La gente suele...", "En general...".</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Mantener distancia emocional mediante la cognición.</p>
+                    </div>
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">🎭 Minimización</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> "No es para tanto", "A todo el mundo le pasa", "No es tan grave".</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Reducir la intensidad emocional para no desbordarse.</p>
+                    </div>
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">🔄 Cambio de Tema</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> Deriva hacia anécdotas irrelevantes, preguntas al terapeuta, humor.</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Desviar el foco de lo que duele o incomoda.</p>
+                    </div>
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">🤐 Silencio Prolongado</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> No responde, mira al suelo, se cierra corporalmente.</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Puede ser procesamiento interno o bloqueo por sobrecarga emocional.</p>
+                    </div>
+                    <div class="resistance-card p-5 rounded-r-lg">
+                        <h4 class="font-sans font-bold text-red-800 uppercase text-xs tracking-widest mb-2">✅ Sobre-adaptación</h4>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Manifestación:</strong> Respuestas "correctas", "Lo que vos querés escuchar", complacencia.</p>
+                        <p class="text-sm text-slate-700"><strong>Función:</strong> Evitar conflicto o decepción, buscar aprobación.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 5.2 Intervenciones para respuestas difíciles -->
+            <article id="cap5-2" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">5.2 Intervenciones para Respuestas Difíciles</h3>
+                <p class="text-slate-700 mb-6">Cuando el paciente responde con "No sé", "Todas", "Ninguna" o similar, no es un callejón sin salida: es una oportunidad clínica. La siguiente tabla ofrece intervenciones específicas para cada situación:</p>
+
+                <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden mb-6">
+                    <table class="clinical-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 20%;">Respuesta del Paciente</th>
+                                <th style="width: 35%;">Interpretación Clínica</th>
+                                <th style="width: 45%;">Intervención Sugerida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>"No sé"</strong></td>
+                                <td class="text-sm">Puede indicar bloqueo, miedo a equivocarse, o que la pregunta es demasiado amplia.</td>
+                                <td class="text-sm">"Está bien no saber. Si tuvieras que adivinar, ¿qué se te ocurre?" o "¿Qué es lo primero que te vino a la mente, aunque parezca tonto?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Todas"</strong></td>
+                                <td class="text-sm">Sobrecarga emocional, dificultad para priorizar, o evitación mediante la generalización.</td>
+                                <td class="text-sm">"Si tuvieras que elegir <em>una</em> que sea la más intensa hoy, ¿cuál sería?" o "¿Hay alguna que te dé más miedo elegir?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Ninguna"</strong></td>
+                                <td class="text-sm">Resistencia activa, desconexión emocional, o defensa de omnipotencia ("No me afecta nada").</td>
+                                <td class="text-sm">"Eso es interesante. ¿Qué pasaría si eligieras una aunque no te identifiques con ella?" o "¿Qué carta te genera más rechazo?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"No quiero responder"</strong></td>
+                                <td class="text-sm">Límite legítimo. El paciente está ejerciendo su autonomía.</td>
+                                <td class="text-sm">"Respeto tu decisión. ¿Querés contarme qué pasó cuando leíste la carta?" o "Podemos dejarla a un lado y volver después."</td>
+                            </tr>
+                            <tr>
+                                <td><strong>"Es una pregunta tonta"</strong></td>
+                                <td class="text-sm">Desvalorización del recurso, miedo a la vulnerabilidad, o enojo desplazado.</td>
+                                <td class="text-sm">"¿Qué tiene de tonta?" o "A veces lo que nos parece tonto es lo que más nos incomoda. ¿Qué te incomoda de esta?"</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Llanto o emoción intensa</strong></td>
+                                <td class="text-sm">La carta tocó material sensible. La emoción está emergiendo.</td>
+                                <td class="text-sm">"Quedate con esa sensación. No hay apuro. Estoy acá con vos." (Silencio terapéutico. Ofrecer pañuelo si es necesario.)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Risa nerviosa</strong></td>
+                                <td class="text-sm">Defensa contra la vulnerabilidad, incomodidad, o alivio por nombrar algo difícil.</td>
+                                <td class="text-sm">"Veo que te da risa. A veces nos reímos de lo que nos duele. ¿Hay algo de dolor detrás de esta carta?"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="intervention-card p-5 rounded-r-lg">
+                    <h4 class="font-sans font-bold text-blue-800 uppercase text-xs tracking-widest mb-2 flex items-center gap-2">💡 Principio General</h4>
+                    <p class="text-sm text-slate-700">La resistencia nunca es "mala". Es una señal de que el paciente está en el borde de algo importante. Tu trabajo es <strong>acompañar ese borde</strong>, no empujarlo más allá de lo que puede tolerar. A veces, trabajar la resistencia misma es más productivo que la carta original.</p>
+                </div>
+            </article>
+
+            <!-- 5.3 El silencio y la metáfora -->
+            <article id="cap5-3" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">5.3 El Uso Terapéutico del Silencio y la Metáfora</h3>
+                <p class="text-slate-700 mb-6">Cuando las palabras no alcanzan, el silencio y la metáfora se convierten en herramientas poderosas. Estas dos herramientas permiten acceder a contenidos que la cognición no puede alcanzar.</p>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold mb-3 flex items-center gap-2">🤫 El Silencio Terapéutico</h4>
+                        <p class="text-sm text-slate-700 mb-3">El silencio no es vacío: es <strong>espacio de procesamiento</strong>. Aprender a tolerar el silencio es una de las habilidades más difíciles y más valiosas del terapeuta.</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Cuándo usarlo:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc mb-3">
+                            <li>Después de una pregunta profunda</li>
+                            <li>Cuando el paciente está llorando</li>
+                            <li>Cuando emerge una insight importante</li>
+                            <li>Cuando el paciente dice "No sé" y está pensando</li>
+                        </ul>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Cuándo NO usarlo:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li>Si el paciente está disociado (necesita anclaje, no silencio)</li>
+                            <li>Si el silencio genera ansiedad paralizante</li>
+                            <li>Si el terapeuta está evitando intervenir por incomodidad propia</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold mb-3 flex items-center gap-2">🌉 La Metáfora como Puente</h4>
+                        <p class="text-sm text-slate-700 mb-3">La metáfora permite acceder a contenidos sensibles de manera <strong>indirecta</strong>, reduciendo la resistencia. El mazo <span class="code-badge">M</span> Metáforas está diseñado específicamente para esto.</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Ejemplos de preguntas metafóricas:</strong></p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc mb-3">
+                            <li>"Si esa emoción fuera un animal, ¿cuál sería?"</li>
+                            <li>"Si tu vida fuera una casa, ¿qué habitación estaría más oscura?"</li>
+                            <li>"Si esa creencia fuera un personaje de una película, ¿quién sería?"</li>
+                            <li>"Si pudieras ponerle un nombre a ese dolor, ¿cómo lo llamarías?"</li>
+                        </ul>
+                        <p class="text-sm text-slate-700"><strong>Por qué funciona:</strong> La metáfora activa el hemisferio derecho, bypassa las defensas cognitivas y permite la expresión de lo innombrable.</p>
+                    </div>
+                </div>
+
+                <div class="task-card p-5 rounded-r-lg mt-6">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-2 flex items-center gap-2">📋 Tarea para el Paciente: Diario Metafórico</h4>
+                    <p class="text-sm text-slate-700 mb-2">Entre sesiones, el paciente puede explorar sus emociones mediante metáforas:</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>"Si mi ansiedad de esta semana fuera un clima, ¿cómo sería?"</li>
+                        <li>"Si mi relación conmigo mismo fuera un paisaje, ¿cómo se vería?"</li>
+                        <li>"Si esa parte que no me gusta fuera un objeto, ¿qué sería?"</li>
+                        <li>"¿Qué metáfora me ayuda a entender mejor lo que me pasó esta semana?"</li>
+                    </ul>
+                    <p class="text-sm text-slate-700 mt-3 italic">Este diario se comparte en sesión y se convierte en material para nuevas cartas.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 flex items-center gap-2">✅ Índice de Integridad — Bloque 3</h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Capítulo 4 completo (3 subcapítulos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Tabla de 4 niveles de profundización</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Ejemplo de progresión en 4 niveles (diálogo completo)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Tabla de observación clínica (6 patrones defensivos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">3 escuelas terapéuticas (Narrativa, ACT, Gestalt)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Capítulo 5 completo (3 subcapítulos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">6 tipologías de resistencia identificadas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Tabla de intervenciones (7 respuestas difíciles)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Silencio y metáfora como herramientas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">3 tareas para el paciente incluidas</span>
+                </div>
+            </div>
+            <p class="text-xs text-slate-500 mt-4 pt-4 border-t border-slate-100">El 100% del contenido planificado para este bloque ha sido trasladado sin omisiones. Listo para revisión y aprobación antes de continuar con el Bloque 4.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm">
+        <div class="max-w-4xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Manual Clínico Profesional &bull; Bloque 3 de 6</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

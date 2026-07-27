@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .chapter-heading { position: relative; padding-left: 1.5rem; }
+        .chapter-heading::before { content: ''; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 4px; background-color: #10b981; border-radius: 2px; }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        table.clinical-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.9rem; }
+        table.clinical-table thead th { background: #0f172a; color: white; padding: 12px 16px; text-align: left; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; }
+        table.clinical-table tbody td { padding: 14px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+        table.clinical-table tbody tr:hover { background: #f8fafc; }
+        table.clinical-table tbody tr:last-child td { border-bottom: none; }
+        .task-card { background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); border-left: 4px solid #059669; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section { break-inside: avoid; }
+            table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="../app/" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- HEADER BLOQUE 2 -->
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Volumen III &bull; Bloque 2</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Capítulos 2 & 3</h1>
+            <p class="text-lg text-slate-300 font-light max-w-2xl">Selección estratégica de mazos, combinaciones clínicas y secuenciación terapéutica.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- ÍNDICE DEL BLOQUE -->
+        <nav class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4">Contenido de este bloque</h3>
+            <div class="grid md:grid-cols-2 gap-3 text-sm">
+                <a href="#cap2" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="text-accent-600 font-bold">Cap. 2</span>
+                    <span class="text-slate-700">Criterios de Selección de Mazos</span>
+                </a>
+                <a href="#cap2-1" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">2.1</span>
+                    <span class="text-slate-600">Mapeo sintomático</span>
+                </a>
+                <a href="#cap2-2" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">2.2</span>
+                    <span class="text-slate-600">"La Puerta" como protocolo estándar</span>
+                </a>
+                <a href="#cap2-3" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">2.3</span>
+                    <span class="text-slate-600">Adaptación por modalidad</span>
+                </a>
+                <a href="#cap3" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="text-accent-600 font-bold">Cap. 3</span>
+                    <span class="text-slate-700">Integración y Combinatoria</span>
+                </a>
+                <a href="#cap3-1" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">3.1</span>
+                    <span class="text-slate-600">El arte de cruzar mazos</span>
+                </a>
+                <a href="#cap3-2" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition pl-10">
+                    <span class="text-slate-500">3.2</span>
+                    <span class="text-slate-600">Secuenciación lógica</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- ============================================= -->
+        <!-- CAPÍTULO 2 -->
+        <!-- ============================================= -->
+        <section id="cap2">
+            <div class="mb-10">
+                <span class="text-accent-600 font-bold tracking-widest uppercase text-xs">Capítulo 2</span>
+                <h2 class="font-serif text-4xl text-brand-900 font-bold mt-2">Criterios de Selección de Mazos</h2>
+                <div class="elegant-separator mt-4 w-24"></div>
+                <p class="mt-4 text-slate-700">La elección del mazo no es arbitraria: es una <strong>decisión clínica</strong> basada en la presentación sintomática, el momento terapéutico y los objetivos de la sesión. Este capítulo ofrece un marco sistemático para tomar esa decisión con fundamento.</p>
+            </div>
+
+            <!-- 2.1 Mapeo Sintomático -->
+            <article id="cap2-1" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">2.1 Mapeo Sintomático: Qué Mazo Elegir</h3>
+                <p class="text-slate-700 mb-6">La siguiente tabla constituye una <strong>guía orientativa</strong>, no un protocolo rígido. Cada presentación clínica debe evaluarse en su singularidad, considerando la historia del paciente, la alianza terapéutica y el momento del proceso.</p>
+
+                <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                    <table class="clinical-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 25%;">Presentación Clínica</th>
+                                <th style="width: 25%;">Mazo Primario</th>
+                                <th style="width: 25%;">Mazo Complementario</th>
+                                <th style="width: 25%;">Justificación Clínica</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Ansiedad generalizada</strong><br><span class="text-xs text-slate-500">Rumiación, preocupación excesiva</span></td>
+                                <td><span class="code-badge">E</span> Emociones</td>
+                                <td><span class="code-badge">U</span> El Cuerpo Habla</td>
+                                <td class="text-sm">Nombrar la emoción reduce su intensidad. Conectar con sensaciones corporales ancla la cognición al presente.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Episodio depresivo</strong><br><span class="text-xs text-slate-500">Anhedonia, desesperanza</span></td>
+                                <td><span class="code-badge">RE</span> Recursos</td>
+                                <td><span class="code-badge">F</span> Futuro</td>
+                                <td class="text-sm">Activar recursos previos contrarresta la narrativa de vacío. Proyectar futuro abre posibilidades.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Duelo no resuelto</strong><br><span class="text-xs text-slate-500">Estancamiento, culpa</span></td>
+                                <td><span class="code-badge">H</span> Historia Personal</td>
+                                <td><span class="code-badge">M</span> Metáforas</td>
+                                <td class="text-sm">Revisar la historia con el otro permite integrar la pérdida. La metáfora suaviza el dolor directo.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Crisis de identidad</strong><br><span class="text-xs text-slate-500">"No sé quién soy"</span></td>
+                                <td><span class="code-badge">C</span> Creencias</td>
+                                <td><span class="code-badge">S</span> La Sombra</td>
+                                <td class="text-sm">Las creencias constituyen el andamiaje identitario. La sombra revela lo rechazado que también es parte.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Trauma complejo</strong><br><span class="text-xs text-slate-500">Disociación, flashbacks</span></td>
+                                <td><span class="code-badge">U</span> El Cuerpo Habla</td>
+                                <td><span class="code-badge">RE</span> Recursos</td>
+                                <td class="text-sm">El trauma se almacena somáticamente. Primero recursos (estabilización), luego cuerpo (con precaución).</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Conflictos relacionales</strong><br><span class="text-xs text-slate-500">Patrones repetitivos</span></td>
+                                <td><span class="code-badge">R</span> Relaciones</td>
+                                <td><span class="code-badge">D</span> Decisiones</td>
+                                <td class="text-sm">Mapear el sistema relacional y detectar qué decisiones sostienen el patrón.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Somatizaciones</strong><br><span class="text-xs text-slate-500">Dolor sin causa orgánica</span></td>
+                                <td><span class="code-badge">U</span> El Cuerpo Habla</td>
+                                <td><span class="code-badge">E</span> Emociones</td>
+                                <td class="text-sm">Dar voz al cuerpo y conectar con la emoción no expresada que se está somatizando.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Estancamiento vital</strong><br><span class="text-xs text-slate-500">"No avanzo", parálisis</span></td>
+                                <td><span class="code-badge">D</span> Decisiones</td>
+                                <td><span class="code-badge">F</span> Futuro</td>
+                                <td class="text-sm">Identificar decisiones postergadas y construir una imagen motivadora del futuro posible.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Autosabotaje</strong><br><span class="text-xs text-slate-500">Conductas contradictorias</span></td>
+                                <td><span class="code-badge">S</span> La Sombra</td>
+                                <td><span class="code-badge">C</span> Creencias</td>
+                                <td class="text-sm">Explorar la función protectora del sabotaje y las creencias de merecimiento subyacentes.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Primera sesión</strong><br><span class="text-xs text-slate-500">Evaluación inicial</span></td>
+                                <td><span class="code-badge">P</span> La Puerta</td>
+                                <td><span class="code-badge">E</span> Emociones</td>
+                                <td class="text-sm">Abrir el vínculo, evaluar motivación y estado emocional actual sin invadir.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="task-card p-5 rounded-r-lg mt-6">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-2 flex items-center gap-2">📋 Tarea para el Paciente: Auto-Mapeo</h4>
+                    <p class="text-sm text-slate-700 mb-2">Entre sesiones, el paciente puede completar esta ficha para preparar la próxima sesión:</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>"¿Cuál es el malestar principal que me trajo esta semana?"</li>
+                        <li>"¿En qué parte del cuerpo lo siento más?"</li>
+                        <li>"¿Qué carta creo que necesitaría hoy?"</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- 2.2 La Puerta como Protocolo -->
+            <article id="cap2-2" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">2.2 "La Puerta" como Protocolo Estándar de Apertura</h3>
+                <p class="text-slate-700 mb-6">El mazo <span class="code-badge">P</span> <strong>La Puerta</strong> (60 cartas) fue diseñado como punto de entrada universal al sistema MOSAICO. Cumple cuatro funciones clínicas simultáneas:</p>
+
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold">1</div>
+                            <h4 class="font-sans font-bold text-brand-900">Apertura del vínculo</h4>
+                        </div>
+                        <p class="text-sm text-slate-700">Establece un tono colaborativo y despatologiza el proceso terapéutico desde el primer minuto.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold">2</div>
+                            <h4 class="font-sans font-bold text-brand-900">Evaluación del estado actual</h4>
+                        </div>
+                        <p class="text-sm text-slate-700">Permite calibrar el estado emocional, cognitivo y relacional del paciente en el aquí-ahora.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold">3</div>
+                            <h4 class="font-sans font-bold text-brand-900">Detección de motivación</h4>
+                        </div>
+                        <p class="text-sm text-slate-700">Revela si el paciente viene por motivación propia, presión externa o ambivalencia.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-brand-900 text-accent-500 rounded-full flex items-center justify-center font-serif font-bold">4</div>
+                            <h4 class="font-sans font-bold text-brand-900">Orientación para la sesión</h4>
+                        </div>
+                        <p class="text-sm text-slate-700">La respuesta del paciente indica qué mazo será más productivo trabajar ese día.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border-l-4 border-accent-600 p-5 rounded-r-lg shadow-sm mt-6">
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-2">💡 Ejemplo de Secuencia de Apertura</h4>
+                    <p class="text-sm text-slate-700 mb-2"><strong>Paso 1:</strong> El paciente elige una carta de <span class="code-badge">P</span> (ej. <span class="code-badge">P-001</span> <em>"¿Qué parte de vos decidió venir hoy?"</em>).</p>
+                    <p class="text-sm text-slate-700 mb-2"><strong>Paso 2:</strong> El terapeuta explora la respuesta usando las preguntas de profundización de la carta.</p>
+                    <p class="text-sm text-slate-700 mb-2"><strong>Paso 3:</strong> Según lo que emerge, el terapeuta propone: "Lo que me estás contando me hace pensar que hoy podríamos trabajar con el mazo de <em>Emociones</em>. ¿Te parece?"</p>
+                    <p class="text-sm text-slate-700"><strong>Paso 4:</strong> Transición fluida al mazo seleccionado, manteniendo el hilo narrativo.</p>
+                </div>
+            </article>
+
+            <!-- 2.3 Adaptación por Modalidad -->
+            <article id="cap2-3" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">2.3 Adaptación por Modalidad Terapéutica</h3>
+                <p class="text-slate-700 mb-6">El sistema MOSAICO es versátil y se adapta a distintos contextos clínicos. A continuación, las consideraciones específicas para cada modalidad:</p>
+
+                <div class="space-y-4">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold mb-3 flex items-center gap-2">👤 Terapia Individual</h4>
+                        <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                            <li><strong>Selección:</strong> El paciente elige sus propias cartas (autonomía máxima).</li>
+                            <li><strong>Profundización:</strong> Se puede dedicar tiempo extenso a una sola carta.</li>
+                            <li><strong>Mazos prioritarios:</strong> Todos son aplicables; se recomienda comenzar con <span class="code-badge">P</span> y avanzar según el proceso.</li>
+                            <li><strong>Precaución:</strong> En trauma, evitar <span class="code-badge">H</span> sin estabilización previa.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold mb-3 flex items-center gap-2">👨‍👩‍👧 Terapia de Pareja</h4>
+                        <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                            <li><strong>Selección:</strong> Cada miembro elige en privado, luego se comparten las elecciones.</li>
+                            <li><strong>Profundización:</strong> Enfocarse en las convergencias y divergencias entre las respuestas.</li>
+                            <li><strong>Mazos prioritarios:</strong> <span class="code-badge">R</span> Relaciones, <span class="code-badge">E</span> Emociones, <span class="code-badge">D</span> Decisiones.</li>
+                            <li><strong>Dinámica sugerida:</strong> "El Espejo" (ver Capítulo 7) — uno responde, el otro parafrasea antes de dar su propia respuesta.</li>
+                            <li><strong>Precaución:</strong> Evitar cartas de <span class="code-badge">S</span> (Sombra) en sesiones de alta conflictividad; pueden escalar la confrontación.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold mb-3 flex items-center gap-2">👥 Terapia Grupal</h4>
+                        <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                            <li><strong>Selección:</strong> Las cartas se eligen individualmente pero se comparten en subgrupos o plenaria.</li>
+                            <li><strong>Profundización:</strong> Aprovechar la resonancia grupal ("¿A quién más le pasó algo similar?").</li>
+                            <li><strong>Mazos prioritarios:</strong> <span class="code-badge">R</span> Relaciones, <span class="code-badge">RE</span> Recursos, <span class="code-badge">M</span> Metáforas.</li>
+                            <li><strong>Dinámica sugerida:</strong> "El Mosaico Colectivo" (ver Capítulo 7) — cada miembro aporta una carta y se construye una narrativa grupal.</li>
+                            <li><strong>Precaución:</strong> Respetar el derecho a pasar; nunca forzar la exposición en grupo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CAPÍTULO 3 -->
+        <!-- ============================================= -->
+        <section id="cap3">
+            <div class="mb-10">
+                <span class="text-accent-600 font-bold tracking-widest uppercase text-xs">Capítulo 3</span>
+                <h2 class="font-serif text-4xl text-brand-900 font-bold mt-2">Integración y Combinatoria de Barajas</h2>
+                <div class="elegant-separator mt-4 w-24"></div>
+                <p class="mt-4 text-slate-700">El verdadero poder clínico de MOSAICO emerge cuando los mazos se combinan de manera estratégica. Una sola carta rara vez agota un tema; es la <strong>secuencia y el cruce entre mazos</strong> lo que permite una exploración multidimensional.</p>
+            </div>
+
+            <!-- 3.1 El Arte de Cruzar Mazos -->
+            <article id="cap3-1" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">3.1 El Arte de Cruzar Mazos: Combinaciones Clínicas</h3>
+                <p class="text-slate-700 mb-6">Cada combinación responde a un <strong>objetivo clínico específico</strong>. A continuación, presentamos las combinaciones más potentes con ejemplos concretos de uso:</p>
+
+                <div class="space-y-6">
+                    <!-- Combinación 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="code-badge">C</span>
+                            <span class="text-slate-400">+</span>
+                            <span class="code-badge">U</span>
+                            <span class="ml-auto text-xs font-bold text-accent-600 uppercase tracking-widest">Somatización</span>
+                        </div>
+                        <h4 class="font-sans font-bold text-brand-900 mb-2">Creencias + El Cuerpo Habla</h4>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Objetivo:</strong> Conectar creencias limitantes con su expresión somática.</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Secuencia:</strong></p>
+                        <ol class="text-sm text-slate-700 space-y-1 ml-4 list-decimal">
+                            <li>Iniciar con <span class="code-badge">U-08</span>: "¿Qué parte de tu cuerpo está hablando hoy?"</li>
+                            <li>Cuando el paciente identifique la sensación, pasar a <span class="code-badge">C-23</span>: "¿Qué creencia sostiene esa sensación?"</li>
+                            <li>Volver a <span class="code-badge">U</span>: "¿Cómo cambia la sensación cuando nombras esa creencia?"</li>
+                        </ol>
+                        <p class="text-sm text-slate-700 mt-3"><strong>Indicación:</strong> Pacientes con dolor crónico sin causa orgánica, cefaleas tensionales, contracturas.</p>
+                    </div>
+
+                    <!-- Combinación 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="code-badge">H</span>
+                            <span class="text-slate-400">+</span>
+                            <span class="code-badge">RE</span>
+                            <span class="ml-auto text-xs font-bold text-accent-600 uppercase tracking-widest">Reparación narrativa</span>
+                        </div>
+                        <h4 class="font-sans font-bold text-brand-900 mb-2">Historia Personal + Recursos</h4>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Objetivo:</strong> Re-significar eventos dolorosos desde los recursos actuales del paciente.</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Secuencia:</strong></p>
+                        <ol class="text-sm text-slate-700 space-y-1 ml-4 list-decimal">
+                            <li>Con <span class="code-badge">H-14</span>: "¿Qué evento de tu historia sigue pesando?"</li>
+                            <li>Explorar el evento y la emoción asociada.</li>
+                            <li>Cambiar a <span class="code-badge">RE-07</span>: "¿Qué recurso tenés hoy que no tenías en ese momento?"</li>
+                            <li>Integrar: "¿Qué le dirías a ese vos de entonces desde el vos de ahora?"</li>
+                        </ol>
+                        <p class="text-sm text-slate-700 mt-3"><strong>Indicación:</strong> Duelos, traumas resueltos parcialmente, narrativas de victimización.</p>
+                    </div>
+
+                    <!-- Combinación 3 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="code-badge">S</span>
+                            <span class="text-slate-400">+</span>
+                            <span class="code-badge">M</span>
+                            <span class="ml-auto text-xs font-bold text-accent-600 uppercase tracking-widest">Integración de la sombra</span>
+                        </div>
+                        <h4 class="font-sans font-bold text-brand-900 mb-2">La Sombra + Metáforas</h4>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Objetivo:</strong> Acceder a contenidos rechazados mediante la mediación metafórica (menor resistencia).</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Secuencia:</strong></p>
+                        <ol class="text-sm text-slate-700 space-y-1 ml-4 list-decimal">
+                            <li>Con <span class="code-badge">M-11</span>: "Si esa parte que no querés mostrar fuera un animal, ¿cuál sería?"</li>
+                            <li>Explorar las características del animal (esto proyecta la sombra de manera segura).</li>
+                            <li>Pasar a <span class="code-badge">S-19</span>: "¿Qué necesita esa parte de vos?"</li>
+                            <li>Cerrar con otra metáfora: "¿Cómo sería un acuerdo entre vos y ese animal?"</li>
+                        </ol>
+                        <p class="text-sm text-slate-700 mt-3"><strong>Indicación:</strong> Pacientes muy racionales, con alta resistencia a hablar directamente de aspectos rechazados.</p>
+                    </div>
+
+                    <!-- Combinación 4 -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="code-badge">D</span>
+                            <span class="text-slate-400">+</span>
+                            <span class="code-badge">F</span>
+                            <span class="ml-auto text-xs font-bold text-accent-600 uppercase tracking-widest">Activación conductual</span>
+                        </div>
+                        <h4 class="font-sans font-bold text-brand-900 mb-2">Decisiones + Futuro</h4>
+                        <p class="text-sm text-slate-700 mb-3"><strong>Objetivo:</strong> Transformar la parálisis en acción comprometida.</p>
+                        <p class="text-sm text-slate-700 mb-2"><strong>Secuencia:</strong></p>
+                        <ol class="text-sm text-slate-700 space-y-1 ml-4 list-decimal">
+                            <li>Con <span class="code-badge">D-05</span>: "¿Qué decisión estás postergando?"</li>
+                            <li>Explorar los miedos asociados a esa decisión.</li>
+                            <li>Cambiar a <span class="code-badge">F-12</span>: "Si ya hubieras tomado esa decisión, ¿cómo sería tu vida en 6 meses?"</li>
+                            <li>Volver a <span class="code-badge">D</span>: "¿Cuál es el paso más pequeño que podés dar esta semana?"</li>
+                        </ol>
+                        <p class="text-sm text-slate-700 mt-3"><strong>Indicación:</strong> Estancamiento vital, procrastinación crónica, ambivalencia en cambios de vida.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 3.2 Secuenciación Lógica -->
+            <article id="cap3-2" class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">3.2 Secuenciación Lógica: Del Diagnóstico a la Acción</h3>
+                <p class="text-slate-700 mb-6">Un proceso terapéutico con MOSAICO suele seguir una <strong>arquitectura temporal</strong> que respeta la lógica del cambio: primero se explora, luego se comprende, después se integran recursos y finalmente se proyecta la acción. Esta secuencia no es rígida, pero ofrece un marco orientativo.</p>
+
+                <div class="bg-gradient-to-br from-brand-900 to-brand-800 text-white p-8 rounded-xl shadow-lg">
+                    <h4 class="font-serif text-2xl text-accent-500 mb-6 text-center">Arco Terapéutico MOSAICO</h4>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-16 h-16 bg-accent-600 rounded-full flex items-center justify-center font-serif font-bold text-2xl">I</div>
+                            <div class="flex-1 border-l-2 border-accent-500/30 pl-4 pb-2">
+                                <h5 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-1">Fase 1 — Apertura y Evaluación</h5>
+                                <p class="text-sm text-slate-300 mb-2">Sesiones 1-3</p>
+                                <p class="text-slate-200 text-sm">Mazos: <span class="code-badge">P</span> La Puerta + <span class="code-badge">E</span> Emociones</p>
+                                <p class="text-slate-300 text-sm mt-2">Objetivo: Establecer alianza, evaluar estado actual, identificar motivación y temas prioritarios.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-16 h-16 bg-accent-600 rounded-full flex items-center justify-center font-serif font-bold text-2xl">II</div>
+                            <div class="flex-1 border-l-2 border-accent-500/30 pl-4 pb-2">
+                                <h5 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-1">Fase 2 — Exploración en Profundidad</h5>
+                                <p class="text-sm text-slate-300 mb-2">Sesiones 4-10</p>
+                                <p class="text-slate-200 text-sm">Mazos: <span class="code-badge">H</span> Historia Personal + <span class="code-badge">C</span> Creencias + <span class="code-badge">S</span> La Sombra</p>
+                                <p class="text-slate-300 text-sm mt-2">Objetivo: Mapear el origen de los patrones, identificar creencias nucleares y aspectos rechazados.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-16 h-16 bg-accent-600 rounded-full flex items-center justify-center font-serif font-bold text-2xl">III</div>
+                            <div class="flex-1 border-l-2 border-accent-500/30 pl-4 pb-2">
+                                <h5 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-1">Fase 3 — Integración Corporal y Relacional</h5>
+                                <p class="text-sm text-slate-300 mb-2">Sesiones 8-15</p>
+                                <p class="text-slate-200 text-sm">Mazos: <span class="code-badge">U</span> El Cuerpo Habla + <span class="code-badge">R</span> Relaciones</p>
+                                <p class="text-slate-300 text-sm mt-2">Objetivo: Integrar lo explorado en el cuerpo y en los vínculos significativos.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-16 h-16 bg-accent-600 rounded-full flex items-center justify-center font-serif font-bold text-2xl">IV</div>
+                            <div class="flex-1 border-l-2 border-accent-500/30 pl-4 pb-2">
+                                <h5 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-1">Fase 4 — Activación de Recursos</h5>
+                                <p class="text-sm text-slate-300 mb-2">Sesiones 12-18</p>
+                                <p class="text-slate-200 text-sm">Mazos: <span class="code-badge">RE</span> Recursos + <span class="code-badge">M</span> Metáforas</p>
+                                <p class="text-slate-300 text-sm mt-2">Objetivo: Consolidar herramientas internas y narrativas alternativas.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-16 h-16 bg-accent-600 rounded-full flex items-center justify-center font-serif font-bold text-2xl">V</div>
+                            <div class="flex-1 pl-4">
+                                <h5 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-1">Fase 5 — Proyección y Cierre</h5>
+                                <p class="text-sm text-slate-300 mb-2">Sesiones 16-20</p>
+                                <p class="text-slate-200 text-sm">Mazos: <span class="code-badge">D</span> Decisiones + <span class="code-badge">F</span> Futuro</p>
+                                <p class="text-slate-300 text-sm mt-2">Objetivo: Comprometer acciones concretas y proyectar la nueva narrativa vital.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-accent-50 border border-accent-500/20 rounded-xl p-6 mt-6">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-3 flex items-center gap-2">⚠️ Consideraciones Clínicas sobre la Secuencia</h4>
+                    <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                        <li><strong>No es lineal:</strong> Los pacientes pueden transitar fases de manera no secuencial. Respeta el ritmo del proceso.</li>
+                        <li><strong>El mazo del Terapeuta <span class="code-badge">T</span>:</strong> Puede usarse en cualquier fase para reflexionar sobre el proceso mismo.</li>
+                        <li><strong>El mazo Desafíos Terapéuticos <span class="code-badge">DT</span>:</strong> No es para el paciente; es una herramienta de supervisión y auto-reflexión del terapeuta.</li>
+                        <li><strong>Flexibilidad:</strong> Si en Fase 2 emerge un trauma, vuelve a Fase 1 y estabiliza antes de continuar.</li>
+                    </ul>
+                </div>
+
+                <div class="task-card p-5 rounded-r-lg mt-6">
+                    <h4 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-2 flex items-center gap-2">📋 Tarea para el Paciente: Bitácora de Sesión</h4>
+                    <p class="text-sm text-slate-700 mb-2">Al finalizar cada sesión, el paciente puede registrar en su bitácora personal:</p>
+                    <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                        <li>"¿Qué carta elegí hoy?" (código y pregunta)</li>
+                        <li>"¿Qué descubrí que me sorprendió?"</li>
+                        <li>"¿Qué me llevo para esta semana?"</li>
+                        <li>"¿Qué carta me gustaría explorar la próxima sesión?"</li>
+                    </ul>
+                    <p class="text-sm text-slate-700 mt-3 italic">Esta bitácora se revisa al inicio de la siguiente sesión, creando continuidad y reforzando el trabajo entre sesiones.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 flex items-center gap-2">✅ Índice de Integridad — Bloque 2</h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Capítulo 2 completo (3 subcapítulos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Tabla de mapeo sintomático (10 presentaciones)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Protocolo de "La Puerta" detallado</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Adaptación por modalidad (3 contextos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Capítulo 3 completo (2 subcapítulos)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">4 combinaciones clínicas con códigos específicos</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Arco terapéutico de 5 fases</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Tareas para el paciente incluidas</span>
+                </div>
+            </div>
+            <p class="text-xs text-slate-500 mt-4 pt-4 border-t border-slate-100">El 100% del contenido planificado para este bloque ha sido trasladado sin omisiones. Listo para revisión y aprobación antes de continuar con el Bloque 3.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm">
+        <div class="max-w-4xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Manual Clínico Profesional &bull; Bloque 2 de 6</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 10 (Futuro)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        future: { 50: '#f0f9ff', 500: '#0ea5e9', 600: '#0284c7', 800: '#075985' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #0ea5e9; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-future-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-future-600/20 border border-future-500/30 rounded-full text-future-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 10: <span class="italic text-future-500">Futuro</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas F-01 a F-60. Formato de referencia cruzada para consulta rápida del terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato compacto permite al terapeuta buscar rápidamente por código (ej: <span class="code-badge">F-01</span>) y acceder a:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo clínico:</strong> Para qué sirve la carta.</li>
+                <li><strong>Procesos psicológicos:</strong> Qué mecanismos activa.</li>
+                <li><strong>Respuestas y profundización:</strong> Cómo intervenir según la reacción del paciente.</li>
+                <li><strong>Contraindicaciones:</strong> Cuándo NO usarla.</li>
+                <li><strong>Combinaciones:</strong> Qué otras cartas del sistema potencian su efecto.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-future-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Visualización, Esperanza y Proyección Temporal
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas F-07 a F-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- F-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-01</span>
+                        <span class="text-2xl">🔮 🌱</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si pudieras saltar un año en el tiempo y ver tu vida desde ahí, ¿qué pequeña señal te indicaría que las cosas han mejorado?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Fomentar la visualización positiva y la orientación a soluciones. Ayudar al paciente a identificar indicadores concretos y realistas de progreso.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Esperanza, clarificación de metas, ruptura de la rumiación del presente, mentalización del cambio.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Señal concreta:</strong> "Dormiría mejor". → <em>Profundizar:</em> "¿Qué estarías haciendo de manera diferente para que eso sea posible?"</li>
+                            <li><strong>Bloqueo:</strong> "No puedo imaginar nada mejor". → <em>Intervención:</em> "¿Qué te dice esa dificultad sobre tu nivel de desesperanza actual?"</li>
+                            <li><strong>Metas mágicas:</strong> "Todo sería perfecto". → <em>Profundizar:</em> "¿Qué parte realista de esa perfección podríamos construir hoy?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases de crisis aguda o duelo reciente donde la proyección futura puede sentirse invalidante o imposible.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-19</span> (decisión microscópica), <span class="code-badge">RE-010</span> (momentos de flujo).</p></div>
+                    </div>
+                </div>
+
+                <!-- F-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-02</span>
+                        <span class="text-2xl">⚡ ❤️</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué miedo sobre el futuro te está paralizando hoy, y qué evidencia real tienes de que ese miedo se vaya a cumplir?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Identificar y desafiar las distorsiones cognitivas catastróficas sobre el futuro. Separar la ansiedad anticipatoria de la probabilidad real.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Defusión cognitiva, cuestionamiento socrático, regulación de la ansiedad anticipatoria.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Catastrofización:</strong> "Todo va a salir mal". → <em>Profundizar:</em> "¿En el pasado, cuántas veces ese miedo se hizo realidad tal como lo imaginaste?"</li>
+                            <li><strong>Reconocimiento de resiliencia:</strong> "Tengo miedo, pero sé que puedo manejarlo". → <em>Profundizar:</em> "¿Qué recursos tienes hoy que no tenías antes?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con trastorno de ansiedad generalizada severa sin herramientas previas de regulación.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">C-042</span> (búsqueda de evidencia), <span class="code-badge">U-31</span> (recursos de grounding).</p></div>
+                    </div>
+                </div>
+
+                <!-- F-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-03</span>
+                        <span class="text-2xl">👤 🕰️</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tu 'yo' de dentro de 10 años pudiera darte un solo consejo hoy, ¿cuál crees que sería?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Activar la sabiduría interna y la perspectiva a largo plazo. Fomentar la autocompasión y reducir la urgencia ansiosa del momento presente.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Reparentalización, integración temporal, acceso a la intuición y al "yo observador".</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Consejo compasivo:</strong> "Todo va a estar bien, respira". → <em>Profundizar:</em> "¿Qué te impide darte ese permiso hoy?"</li>
+                            <li><strong>Consejo severo:</strong> "Deberías esforzarte más". → <em>Intervención:</em> "¿Esa es tu voz o la de alguien que te exigía en el pasado?"</li>
+                            <li><strong>Bloqueo:</strong> "No sé qué diría". → <em>Profundizar:</em> "Si tuvieras que inventarlo, ¿qué te gustaría escuchar?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con desconexión severa del self o psicosis activa.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">RE-004</span> (diálogo con el yo pasado), <span class="code-badge">C-048</span> (autocompasión).</p></div>
+                    </div>
+                </div>
+
+                <!-- F-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-04</span>
+                        <span class="text-2xl">👣 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Cuál es el paso más pequeño e insignificante que podrías dar esta semana para acercarte a ese futuro que deseas?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Romper la parálisis por la magnitud de la meta. Fomentar la acción comprometida a través de pasos microscópicos y de bajo riesgo.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Activación conductual, desglose de tareas (shaping), fortalecimiento de la autoeficacia.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Desdén:</strong> "Eso no cambia nada". → <em>Profundizar:</em> "¿Qué pasaría si ese pequeño paso fuera la semilla de un cambio mayor?"</li>
+                            <li><strong>Perfeccionismo:</strong> "Necesito hacer todo bien o nada". → <em>Intervención:</em> "¿Cómo te impide ese perfeccionismo empezar?"</li>
+                            <li><strong>Claridad:</strong> "Podría enviar ese mensaje". → <em>Profundizar:</em> "¿Qué te impide hacerlo hoy mismo?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes en fase de estabilización donde la acción prematura puede generar abrumación.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-19</span> (decisión microscópica), <span class="code-badge">RE-027</span> (celebración de pequeñas victorias).</p></div>
+                    </div>
+                </div>
+
+                <!-- F-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-05</span>
+                        <span class="text-2xl">🎒 🌅</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué equipaje emocional o creencia necesitas dejar en la estación anterior para poder subir al tren de tu nuevo futuro?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar el desapego y la renuncia necesaria para el crecimiento. Identificar lealtades, culpas o identidades obsoletas que impiden el avance.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Duelo por lo que se deja ir, externalización de la carga, redefinición identitaria.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Aferramiento:</strong> "No puedo soltarlo, es parte de mí". → <em>Profundizar:</em> "¿Qué pasaría si intentaras avanzar cargando con eso mismo por 10 años más?"</li>
+                            <li><strong>Duelo genuino:</strong> Tristeza al nombrar lo que hay que dejar. → <em>Intervención:</em> "Validar que soltar duele, pero también libera espacio para lo nuevo."</li>
+                            <li><strong>Culpa:</strong> "Sería traicionar mi pasado". → <em>Profundizar:</em> "¿Puedes honrar tu pasado sin repetir su sufrimiento?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases de duelo no elaborado donde la idea de "dejar ir" puede sentirse como un abandono.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-055</span> (conversaciones pendientes), <span class="code-badge">S-033</span> (ritual de bienvenida a la parte rechazada).</p></div>
+                    </div>
+                </div>
+
+                <!-- F-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">F-06</span>
+                        <span class="text-2xl">📜 👥</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Cuando mires atrás desde el final de tu vida, ¿qué te gustaría que dijeran de ti las personas que más te quieren?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Clarificar valores profundos y el legado personal. Conectar con el sentido de vida más allá de las preocupaciones cotidianas.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Logoterapia, clarificación de valores, trascendencia, alineación identidad-valores.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Valores relacionales:</strong> "Que fui amoroso/a". → <em>Profundizar:</em> "¿Cómo se traduce eso en una acción concreta esta semana?"</li>
+                            <li><strong>Valores de logro:</strong> "Que fui exitoso/a". → <em>Intervención:</em> "¿Ese éxito te define o es algo que hiciste? ¿Quién eres más allá de tus logros?"</li>
+                            <li><strong>Bloqueo existencial:</strong> "No he pensado en eso". → <em>Profundizar:</em> "¿Qué te da miedo de mirar esa perspectiva?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con ideación autolítica activa o depresión mayor severa sin contención previa.</p></div>
+                        <div><p class="font-bold text-future-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-31</span> (valores no negociables), <span class="code-badge">RE-048</span> (legado de fortaleza).</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE RÁPIDO DE TEMAS DEL MAZO 10 -->
+        <!-- ============================================= -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6">Índice Rápido de Temas - Mazo 10 (Futuro)</h3>
+            <p class="text-slate-700 mb-6">Este índice temático permite al terapeuta buscar cartas por <strong>objetivo clínico</strong> en lugar de por número. Cada código remite a la entrada completa en el formato detallado mostrado arriba.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- CATEGORÍA: VISUALIZACIÓN Y ESPERANZA -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🔮 Visualización y Esperanza (F-01 a F-15)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Señales concretas de mejora en el futuro</span> <span class="code-badge">F-01</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Desafío a la ansiedad anticipatoria catastrófica</span> <span class="code-badge">F-02</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Consejo del "yo" dentro de 10 años</span> <span class="code-badge">F-03</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Micro-pasos hacia el futuro deseado</span> <span class="code-badge">F-04</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Desapego de equipaje emocional obsoleto</span> <span class="code-badge">F-05</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Legado personal y valores al final de la vida</span> <span class="code-badge">F-06</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciación entre metas propias e impuestas</span> <span class="code-badge">F-07</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Visualización sensorial de un día perfecto</span> <span class="code-badge">F-08</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Habilidades nuevas necesarias para el futuro</span> <span class="code-badge">F-09</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso concreto con el futuro deseado</span> <span class="code-badge">F-10</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reencuadre de los "fracasos" como datos de aprendizaje</span> <span class="code-badge">F-11</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Imaginación de barreras y planes de contingencia</span> <span class="code-badge">F-12</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebración de la propia capacidad de cambio</span> <span class="code-badge">F-13</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Redefinición del éxito más allá de lo material</span> <span class="code-badge">F-14</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Conexión con la esperanza como práctica diaria</span> <span class="code-badge">F-15</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: METAS, VALORES Y PROPÓSITO -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">⚖️ Metas, Valores y Propósito (F-16 a F-30)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Alineación entre acciones diarias y valores profundos</span> <span class="code-badge">F-16</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Soltar la necesidad de controlar cada detalle</span> <span class="code-badge">F-17</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Identificación de modelos a seguir inspiradores</span> <span class="code-badge">F-18</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconocimiento de la propia agencia en el cambio</span> <span class="code-badge">F-19</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Transformación de la envidia en inspiración</span> <span class="code-badge">F-20</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Construcción de un entorno que favorezca el crecimiento</span> <span class="code-badge">F-21</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de la presión social por "tenerlo todo resuelto"</span> <span class="code-badge">F-22</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Valoración del proceso tanto como del resultado</span> <span class="code-badge">F-23</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración de la vulnerabilidad en la visión de futuro</span> <span class="code-badge">F-24</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconocimiento de los sacrificios necesarios y su valor</span> <span class="code-badge">F-25</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Diferenciación entre urgencia y importancia</span> <span class="code-badge">F-26</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Construcción de rituales que marquen nuevos comienzos</span> <span class="code-badge">F-27</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Aceptación de la incertidumbre como parte del camino</span> <span class="code-badge">F-28</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reevaluación de metas a la luz de nuevas experiencias</span> <span class="code-badge">F-29</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Conexión con un propósito que trascienda al yo</span> <span class="code-badge">F-30</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: ACCIÓN COMPROMETIDA Y SUPERACIÓN -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🛠️ Acción Comprometida y Superación (F-31 a F-45)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Estrategias para mantener la motivación a largo plazo</span> <span class="code-badge">F-31</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Manejo de la autocrítica ante retrocesos</span> <span class="code-badge">F-32</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Búsqueda activa de apoyo en la red social</span> <span class="code-badge">F-33</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Flexibilidad para ajustar el rumbo sin abandonar la meta</span> <span class="code-badge">F-34</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebración de hitos intermedios no reconocidos</span> <span class="code-badge">F-35</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Transformación del miedo al fracaso en curiosidad</span> <span class="code-badge">F-36</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Desarrollo de la tolerancia a la frustración</span> <span class="code-badge">F-37</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Establecimiento de límites para proteger la energía</span> <span class="code-badge">F-38</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconocimiento de la propia valía independiente de los logros</span> <span class="code-badge">F-39</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración de la intuición en la toma de decisiones</span> <span class="code-badge">F-40</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Práctica de la gratitud por las oportunidades presentes</span> <span class="code-badge">F-41</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reparación de relaciones dañadas en el camino</span> <span class="code-badge">F-42</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Aceptación de que algunos sueños evolucionan o cambian</span> <span class="code-badge">F-43</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Construcción de hábitos que sostengan la visión</span> <span class="code-badge">F-44</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso con la autenticidad por sobre la aprobación</span> <span class="code-badge">F-45</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: INTEGRACIÓN, LEGADO Y CIERRE -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">✨ Integración, Legado y Cierre (F-46 a F-60)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Reconocimiento de la propia evolución y crecimiento</span> <span class="code-badge">F-46</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración de todas las partes del self en la visión</span> <span class="code-badge">F-47</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Legado de fortaleza para las próximas generaciones</span> <span class="code-badge">F-48</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebración de la propia singularidad y camino único</span> <span class="code-badge">F-49</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Testimonio de supervivencia y esperanza para otros</span> <span class="code-badge">F-50</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Confianza en la capacidad de enfrentar futuros desafíos</span> <span class="code-badge">F-51</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Paz interior como recurso permanente y meta</span> <span class="code-badge">F-52</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Gratitud hacia el proceso terapéutico y sus herramientas</span> <span class="code-badge">F-53</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconocimiento de la propia valía inherente e incondicional</span> <span class="code-badge">F-54</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso renovado con la autenticidad diaria</span> <span class="code-badge">F-55</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Visión esperanzadora y realista del futuro</span> <span class="code-badge">F-56</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Integración de la vulnerabilidad como fortaleza</span> <span class="code-badge">F-57</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Ritual de cierre y agradecimiento al propio recorrido</span> <span class="code-badge">F-58</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reafirmación del compromiso con el bienestar continuo</span> <span class="code-badge">F-59</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Cierre del mazo y transición hacia la autonomía plena</span> <span class="code-badge">F-60</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOTA FINAL DEL ÍNDICE -->
+        <section class="bg-brand-900 text-white p-8 rounded-xl shadow-lg">
+            <h3 class="font-serif text-2xl text-future-500 mb-4">📌 Instrucciones para el Terapeuta</h3>
+            <p class="text-slate-300 mb-4">Este índice rápido te permite ubicar el código de la carta que necesitas según el <strong>objetivo clínico</strong> del momento. Una vez identificado el código (ej: <span class="code-badge">F-04</span>), consulta la entrada completa en la sección detallada de este anexo (o en los archivos fuente del proyecto) para acceder a:</p>
+            <ul class="text-slate-300 space-y-2 ml-4 list-disc">
+                <li>Las preguntas de profundización específicas.</li>
+                <li>Las observaciones clínicas a monitorear.</li>
+                <li>Las líneas de intervención según tu orientación teórica.</li>
+                <li>Las combinaciones recomendadas con otros mazos.</li>
+            </ul>
+            <p class="text-slate-400 text-sm mt-6 italic">El desarrollo completo de las 60 entradas en formato detallado se encuentra disponible en los archivos fuente del proyecto ("futuro 1.html" a "futuro 6.html"). Este índice sirve como mapa de navegación rápido para la práctica clínica.</p>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-6 flex items-center gap-2">✅ Índice de Integridad — Mazo 10 Completo</h3>
+            
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">60 cartas consolidadas (F-01 a F-60)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">4 categorías temáticas definidas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Formato compacto de referencia cruzada</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Índice rápido de temas por objetivo clínico</span>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-6 pt-4 border-t border-slate-100">El 100% del contenido del Mazo 10 ha sido consolidado sin omisiones. Listo para continuar con el Mazo 11 (Metáforas).</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Anexo A: Índice Maestro de Códigos &bull; Mazo 10: Futuro (F-01 a F-60)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

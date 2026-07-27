@@ -1,0 +1,2049 @@
+{
+  "id": "recursos",
+  "nombre": "Recursos",
+  "numero": 9,
+  "rango": "RE-01 a RE-60",
+  "descripcion": "Fortalezas personales, resiliencia, redes de apoyo, autocuidado y recursos internalizados.",
+  "cartas": [
+    {
+      "codigo": "RE-01",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué te ha sostenido hasta ahora en los momentos más difíciles de tu vida?",
+      "objetivo": "Identificar recursos internos y externos de resiliencia. Validar las estrategias de supervivencia que han permitido al paciente llegar hasta aquí.",
+      "profundizacion": [
+        "¿Ese recurso es interno (fortaleza, humor, fe) o externo (personas, lugares, rutinas)?",
+        "¿Desde cuándo cuentas con ese sostén?",
+        "¿Cómo podrías fortalecer o recuperar ese recurso si lo has perdido?",
+        "✔ Dificultad para identificar recursos (\"no tengo nada, solo aguanto\").",
+        "✔ Reconocimiento de recursos no humanos (naturaleza, arte, mascotas).",
+        "✔ Dependencia exclusiva de recursos externos frágiles.",
+        "✔ Orgullo silencioso al reconocer la propia fortaleza."
+      ],
+      "observacion": [
+        "Dificultad para identificar recursos (\"no tengo nada, solo aguanto\").",
+        "Reconocimiento de recursos no humanos (naturaleza, arte, mascotas).",
+        "Dependencia exclusiva de recursos externos frágiles.",
+        "Orgullo silencioso al reconocer la propia fortaleza."
+      ],
+      "intervenciones": [
+        "Narrativa:: Construir \"documentos de resiliencia\" que testimonien las fortalezas del paciente.",
+        "Sistémica:: Genograma de recursos: mapear quiénes y qué han sostenido al paciente.",
+        "CFT:: Activar el sistema de calmado y afiliación a través del reconocimiento de recursos."
+      ],
+      "tarea": "Escribe una lista de 5 recursos (personas, lugares, habilidades, objetos) que te han sostenido en momentos difíciles. Llévala contigo esta semana y consúltala cuando te sientas vulnerable."
+    },
+    {
+      "codigo": "RE-02",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué habilidad o capacidad tienes que a veces das por sentada pero que te ha servido mucho?",
+      "objetivo": "Visibilizar fortalezas personales que el paciente ha normalizado o minimizado. Fomentar el reconocimiento de la autoeficacia.",
+      "profundizacion": [
+        "¿Cuándo descubriste que tenías esta habilidad?",
+        "¿Quién te enseñó o te ayudó a desarrollarla?",
+        "¿Cómo podrías usarla más conscientemente en tu vida actual?",
+        "✔ Minimización extrema (\"eso lo hace cualquiera, no es especial\").",
+        "✔ Sorpresa al ser reconocido por una capacidad que daba por sentada.",
+        "✔ Dificultad para identificar fortalezas (baja autoestima).",
+        "✔ Orgullo y expansión al validar la propia competencia."
+      ],
+      "observacion": [
+        "Minimización extrema (\"eso lo hace cualquiera, no es especial\").",
+        "Sorpresa al ser reconocido por una capacidad que daba por sentada.",
+        "Dificultad para identificar fortalezas (baja autoestima).",
+        "Orgullo y expansión al validar la propia competencia."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Competente\" frente al \"Niño Vulnerable\".",
+        "Narrativa:: Re-escribir la historia personal destacando momentos de competencia y maestría.",
+        "TCC:: Registro de evidencias de autoeficacia para contrarrestar creencias de incapacidad."
+      ],
+      "tarea": "Esta semana, usa conscientemente esa habilidad en una situación nueva. Anota cómo te sentiste al aplicarla y qué resultado obtuviste."
+    },
+    {
+      "codigo": "RE-03",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué lugar, objeto o actividad te hace sentir en paz o te recarga la energía?",
+      "objetivo": "Identificar recursos de regulación emocional y restauración. Explorar los \"lugares seguros\" internos y externos del paciente.",
+      "profundizacion": [
+        "¿Qué tiene ese lugar o actividad que te calma (sonidos, colores, texturas)?",
+        "¿Con qué frecuencia te permites acceder a ese recurso?",
+        "¿Qué te impide ir más seguido a ese lugar o hacer esa actividad?",
+        "✔ Dificultad para identificar lugares o actividades placenteras (anhedonia).",
+        "✔ Recursos frágiles o inaccesibles (ej. \"solo me calma cuando viajo\").",
+        "✔ Culpa por dedicarse tiempo a uno mismo.",
+        "✔ Alivio y expansión al describir el recurso con detalle."
+      ],
+      "observacion": [
+        "Dificultad para identificar lugares o actividades placenteras (anhedonia).",
+        "Recursos frágiles o inaccesibles (ej. \"solo me calma cuando viajo\").",
+        "Culpa por dedicarse tiempo a uno mismo.",
+        "Alivio y expansión al describir el recurso con detalle."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Anclaje sensorial en el recurso (visualización, sonidos, texturas).",
+        "EMDR:: Instalación de recurso como lugar seguro para el procesamiento traumático.",
+        "Activación Conductual:: Programación de actividades placenteras en la agenda semanal."
+      ],
+      "tarea": "Programa una \"cita\" contigo mismo esta semana para visitar ese lugar o hacer esa actividad. Trátala con la misma seriedad que una cita médica o de trabajo."
+    },
+    {
+      "codigo": "RE-04",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué momento de tu vida te demuestra que eres más fuerte de lo que crees?",
+      "objetivo": "Acceder a memorias de superación y resiliencia. Fortalecer la identidad de \"sobreviviente\" y \"persona capaz\".",
+      "profundizacion": [
+        "¿Qué recursos internos usaste en ese momento que hoy puedes recuperar?",
+        "¿Quién te acompañó o te inspiró durante esa prueba?",
+        "¿Qué le dirías a tu \"yo\" de ese momento si pudieras hablarle hoy?",
+        "✔ Bloqueo total (\"no tengo ningún momento así, todo ha sido horrible\").",
+        "✔ Emoción intensa (orgullo, ternura, llanto) al recordar la superación.",
+        "✔ Minimización del logro (\"cualquiera lo habría hecho\").",
+        "✔ Conexión con la fortaleza interna al validar la experiencia."
+      ],
+      "observacion": [
+        "Bloqueo total (\"no tengo ningún momento así, todo ha sido horrible\").",
+        "Emoción intensa (orgullo, ternura, llanto) al recordar la superación.",
+        "Minimización del logro (\"cualquiera lo habría hecho\").",
+        "Conexión con la fortaleza interna al validar la experiencia."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría de la historia personal destacando los \"picos de resiliencia\".",
+        "EMDR:: Reprocesar la memoria traumática instalando el recurso de fortaleza.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sanador\" que sobrevivió a esa prueba."
+      ],
+      "tarea": "Escribe esa historia de superación como si fuera un cuento o una leyenda. Léela en voz alta cuando necesites recordarte quién eres realmente."
+    },
+    {
+      "codigo": "RE-05",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Quién en tu vida te ha demostrado que es posible ser amado/a tal como eres?",
+      "objetivo": "Identificar modelos de apego seguro y experiencias de amor incondicional. Activar el sistema de afiliación y cuidado.",
+      "profundizacion": [
+        "¿Qué hacía esa persona que te hacía sentir aceptado/a?",
+        "¿Cómo se siente tu cuerpo al recordar esa experiencia de amor?",
+        "¿Qué parte de ti todavía no cree que mereces ese tipo de amor?",
+        "✔ Dificultad para identificar experiencias de amor genuino (trauma de apego).",
+        "✔ Llanto o ternura al recordar a la persona que amó sin condiciones.",
+        "✔ Idealización de figuras que en realidad fueron ambivalentes.",
+        "✔ Apertura y esperanza al reconocer que el amor es posible."
+      ],
+      "observacion": [
+        "Dificultad para identificar experiencias de amor genuino (trauma de apego).",
+        "Llanto o ternura al recordar a la persona que amó sin condiciones.",
+        "Idealización de figuras que en realidad fueron ambivalentes.",
+        "Apertura y esperanza al reconocer que el amor es posible."
+      ],
+      "intervenciones": [
+        "CFT:: Activar el sistema de cuidado y afiliación a través de la memoria del amor recibido.",
+        "EMDR:: Instalar recurso de amor incondicional para contrarrestar creencias de indignidad.",
+        "Terapia de Esquemas:: Proveer experiencia correctiva de apego seguro en la relación terapéutica."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa persona (aunque no se la envíes). Reconoce explícitamente cómo te amó y qué te enseñó sobre el amor."
+    },
+    {
+      "codigo": "RE-06",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué has aprendido sobre ti mismo/a a través de las dificultades que te ha tocado vivir?",
+      "objetivo": "Fomentar la mentalización y el crecimiento postraumático. Extraer sabiduría y significado de las experiencias dolorosas.",
+      "profundizacion": [
+        "¿Qué fortaleza descubriste en ti que no sabías que tenías?",
+        "¿Qué relaciones o prioridades cambiaron después de esa prueba?",
+        "¿Cómo te ha transformado ese aprendizaje en la persona que eres hoy?",
+        "✔ Resistencia a encontrar sentido al dolor (\"solo fue horrible, nada más\").",
+        "✔ Insight profundo sobre la propia resiliencia y valores.",
+        "✔ Crecimiento postraumático visible (sabiduría, compasión, fortaleza).",
+        "✔ Amargura o cinismo ante la idea de \"aprender\" del sufrimiento."
+      ],
+      "observacion": [
+        "Resistencia a encontrar sentido al dolor (\"solo fue horrible, nada más\").",
+        "Insight profundo sobre la propia resiliencia y valores.",
+        "Crecimiento postraumático visible (sabiduría, compasión, fortaleza).",
+        "Amargura o cinismo ante la idea de \"aprender\" del sufrimiento."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido incluso en el sufrimiento inevitable.",
+        "Narrativa:: Re-escribir la historia de \"víctima\" a \"sabio sobreviviente\".",
+        "ACT:: Clarificación de valores que emergieron de la adversidad."
+      ],
+      "tarea": "Escribe una \"carta de sabiduría\" dirigida a alguien que esté pasando por una dificultad similar a la que tú superaste. Comparte lo que aprendiste."
+    },
+    {
+      "codigo": "RE-07",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué estrategia usaste para sobrevivir a lo más difícil que te pasó y que hoy ya no necesitas?",
+      "objetivo": "Identificar mecanismos de defensa o estrategias de supervivencia que fueron útiles en el pasado pero que ahora limitan. Facilitar la transición hacia recursos más adaptativos.",
+      "profundizacion": [
+        "¿Cómo te das cuenta de que esa estrategia ya no te sirve?",
+        "¿Qué recurso nuevo podrías usar en su lugar?",
+        "¿Qué necesitarías para soltar esa vieja estrategia con gratitud en lugar de culpa?",
+        "✔ Aferramiento a estrategias obsoletas por miedo al vacío.",
+        "✔ Alivio al reconocer que ya no es necesario sobrevivir de esa manera.",
+        "✔ Culpa por \"abandonar\" una estrategia que salvó la vida.",
+        "✔ Curiosidad por explorar nuevas formas de estar en el mundo."
+      ],
+      "observacion": [
+        "Aferramiento a estrategias obsoletas por miedo al vacío.",
+        "Alivio al reconocer que ya no es necesario sobrevivir de esa manera.",
+        "Culpa por \"abandonar\" una estrategia que salvó la vida.",
+        "Curiosidad por explorar nuevas formas de estar en el mundo."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con la \"parte protectora\" que usa esa estrategia y negociar nuevas formas.",
+        "Somática:: Explorar la sensación corporal de soltar la vieja estrategia y probar la nueva.",
+        "Gestalt:: Ritual simbólico de despedida a la estrategia de supervivencia."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa estrategia de supervivencia. Reconoce que te protegió cuando lo necesitabas, pero que ahora estás listo/a para algo nuevo."
+    },
+    {
+      "codigo": "RE-08",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Qué pequeño hábito o rutina te ayuda a mantener el equilibrio cuando todo se complica?",
+      "objetivo": "Identificar micro-recursos de regulación y estabilidad. Fomentar la creación de rituales de autocuidado accesibles y sostenibles.",
+      "profundizacion": [
+        "¿Desde cuándo tienes este hábito y cómo lo descubriste?",
+        "¿Qué pasa en tu cuerpo y tu mente cuando lo practicas?",
+        "¿Qué te impide hacerlo con más frecuencia?",
+        "✔ Dificultad para identificar hábitos de autocuidado (neglect crónico).",
+        "✔ Hábitos frágiles o dependientes de condiciones ideales.",
+        "✔ Culpa por \"perder el tiempo\" en cuidarse.",
+        "✔ Alivio al reconocer el poder de los pequeños rituales."
+      ],
+      "observacion": [
+        "Dificultad para identificar hábitos de autocuidado (neglect crónico).",
+        "Hábitos frágiles o dependientes de condiciones ideales.",
+        "Culpa por \"perder el tiempo\" en cuidarse.",
+        "Alivio al reconocer el poder de los pequeños rituales."
+      ],
+      "intervenciones": [
+        "TCC:: Programación de actividades y establecimiento de rutinas de autocuidado.",
+        "Mindfulness:: Integración de la atención plena en las rutinas diarias.",
+        "Somática:: Creación de rituales de regulación del sistema nervioso."
+      ],
+      "tarea": "Elige un micro-hábito que ya tienes y complétalo conscientemente durante 5 días seguidos. Anota cómo te sientes antes y después de practicarlo."
+    },
+    {
+      "codigo": "RE-09",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Qué emoción o estado interno puedes generar tú mismo/a sin depender de nadie más?",
+      "objetivo": "Evaluar la capacidad de autorregulación emocional y auto-generación de recursos. Fortalecer la autonomía emocional.",
+      "profundizacion": [
+        "¿Cómo haces para generar esa emoción (pensamientos, imágenes, acciones)?",
+        "¿En qué situaciones te resulta más fácil acceder a ese estado?",
+        "¿Qué te impide generarlo cuando más lo necesitas?",
+        "✔ Dependencia exclusiva de recursos externos para regular emociones.",
+        "✔ Capacidad de generar calma, alegría o motivación internamente.",
+        "✔ Dificultad para identificar estados emocionales positivos propios.",
+        "✔ Sorpresa al descubrir que tiene más control del que creía."
+      ],
+      "observacion": [
+        "Dependencia exclusiva de recursos externos para regular emociones.",
+        "Capacidad de generar calma, alegría o motivación internamente.",
+        "Dificultad para identificar estados emocionales positivos propios.",
+        "Sorpresa al descubrir que tiene más control del que creía."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Entrenamiento en la generación consciente de estados internos.",
+        "TCC:: Identificación de pensamientos y conductas que generan emociones deseadas.",
+        "Somática:: Anclaje corporal de estados emocionales positivos."
+      ],
+      "tarea": "Esta semana, practica generar conscientemente esa emoción durante 2 minutos al día. Anota qué pensamientos, imágenes o acciones te ayudan a lograrlo."
+    },
+    {
+      "codigo": "RE-10",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Qué cualidad tuya admiran otras personas aunque tú no la valores?",
+      "objetivo": "Explorar la discrepancia entre la auto-percepción y la percepción externa. Validar fortalezas que el paciente no reconoce en sí mismo.",
+      "profundizacion": [
+        "¿Por qué crees que te cuesta ver esa cualidad en ti mismo/a?",
+        "¿Qué mensaje recibiste en tu infancia sobre esa cualidad?",
+        "¿Cómo sería tu vida si empezaras a valorarla tanto como los demás?",
+        "✔ Incredulidad o rechazo (\"eso no es nada especial\").",
+        "✔ Emoción al ser reconocido por algo que daba por sentado.",
+        "✔ Dificultad para aceptar elogios o reconocimiento.",
+        "✔ Apertura gradual a integrar una imagen más positiva de sí mismo."
+      ],
+      "observacion": [
+        "Incredulidad o rechazo (\"eso no es nada especial\").",
+        "Emoción al ser reconocido por algo que daba por sentado.",
+        "Dificultad para aceptar elogios o reconocimiento.",
+        "Apertura gradual a integrar una imagen más positiva de sí mismo."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el esquema de Defecto/Vergüenza que bloquea el auto-reconocimiento.",
+        "Narrativa:: Re-escribir la identidad personal incluyendo las fortalezas reconocidas por otros.",
+        "CFT:: Practicar la autocompasión y el auto-aprecio como habilidades entrenables."
+      ],
+      "tarea": "Pregúntale a 3 personas de confianza: \"¿Qué cualidad mía admiras?\". Anota sus respuestas y compáralas con lo que tú crees de ti mismo."
+    },
+    {
+      "codigo": "RE-11",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Quién en tu vida te ha demostrado con hechos (no solo palabras) que se puede confiar en los demás?",
+      "objetivo": "Identificar experiencias de confianza interpersonal que sirvan como recurso para reparar el apego y fortalecer la capacidad de vincularse.",
+      "profundizacion": [
+        "¿Qué hizo esa persona específicamente que te hizo sentir que podías confiar?",
+        "¿Cómo se siente tu cuerpo al recordar ese momento de confianza?",
+        "¿Qué parte de ti todavía tiene miedo de volver a confiar?",
+        "✔ Dificultad para identificar experiencias de confianza genuina (trauma relacional).",
+        "✔ Emoción intensa (gratitud, ternura) al recordar a la persona confiable.",
+        "✔ Idealización de figuras que en realidad fueron inconsistentes.",
+        "✔ Apertura gradual a la posibilidad de confiar nuevamente."
+      ],
+      "observacion": [
+        "Dificultad para identificar experiencias de confianza genuina (trauma relacional).",
+        "Emoción intensa (gratitud, ternura) al recordar a la persona confiable.",
+        "Idealización de figuras que en realidad fueron inconsistentes.",
+        "Apertura gradual a la posibilidad de confiar nuevamente."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Sano\" a través de la internalización de figuras confiables.",
+        "EMDR:: Instalar recurso de confianza para contrarrestar creencias de traición o abandono.",
+        "Sistémica:: Explorar el genograma de confianza: quiénes fueron confiables y quiénes no."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa persona confiable (aunque no se la envíes). Reconoce explícitamente qué hizo y cómo te impactó."
+    },
+    {
+      "codigo": "RE-12",
+      "iconos": [
+        "span",
+        "✨",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué creencia, práctica espiritual o conexión con algo más grande que vos te ha dado fuerzas en momentos oscuros?",
+      "objetivo": "Explorar los recursos trascendentales o espirituales (religiosos, filosóficos, naturales) que han sostenido al paciente en la adversidad.",
+      "profundizacion": [
+        "¿Cómo te conectas con esa fuente de fortaleza (oración, meditación, naturaleza, arte)?",
+        "¿Qué te dice esa creencia sobre tu lugar en el mundo y tu capacidad de superar esto?",
+        "¿Qué parte de ti ha perdido la conexión con ese recurso y cómo podrías recuperarla?",
+        "✔ Dificultad para identificar recursos trascendentales (materialismo extremo).",
+        "✔ Conexión profunda con la naturaleza, el arte o la espiritualidad.",
+        "✔ Crisis de fe o pérdida del sentido como fuente de sufrimiento adicional.",
+        "✔ Alivio al reconectar con una creencia o práctica que da sentido."
+      ],
+      "observacion": [
+        "Dificultad para identificar recursos trascendentales (materialismo extremo).",
+        "Conexión profunda con la naturaleza, el arte o la espiritualidad.",
+        "Crisis de fe o pérdida del sentido como fuente de sufrimiento adicional.",
+        "Alivio al reconectar con una creencia o práctica que da sentido."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido incluso en el sufrimiento inevitable.",
+        "Mindfulness:: Prácticas de conexión con el momento presente y la interdependencia.",
+        "Narrativa:: Re-escribir la historia personal como un viaje con propósito y significado."
+      ],
+      "tarea": "Dedica 10 minutos esta semana a reconectar con ese recurso trascendental (caminar en la naturaleza, meditar, rezar, crear arte). Anota cómo te sientes después."
+    },
+    {
+      "codigo": "RE-13",
+      "iconos": [
+        "span",
+        "🎨",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué actividad creativa (pintar, escribir, cocinar, bailar, etc.) te ha ayudado a expresar lo que no podías decir con palabras?",
+      "objetivo": "Identificar la creatividad como recurso de expresión emocional, procesamiento y transformación del sufrimiento.",
+      "profundizacion": [
+        "¿Qué sientes durante y después de crear algo?",
+        "¿Hay algo que hayas creado que te ayude a recordar quién eres realmente?",
+        "¿Qué te impide dedicarle más tiempo a esta actividad creativa?",
+        "✔ Dificultad para identificar actividades creativas (bloqueo creativo crónico).",
+        "✔ Pasión y vitalidad al hablar de la expresión artística.",
+        "✔ Culpa por \"perder el tiempo\" en crear algo \"no productivo\".",
+        "✔ Alivio al reconocer el valor terapéutico de la creatividad."
+      ],
+      "observacion": [
+        "Dificultad para identificar actividades creativas (bloqueo creativo crónico).",
+        "Pasión y vitalidad al hablar de la expresión artística.",
+        "Culpa por \"perder el tiempo\" en crear algo \"no productivo\".",
+        "Alivio al reconocer el valor terapéutico de la creatividad."
+      ],
+      "intervenciones": [
+        "Arte terapia:: Uso de la expresión artística como vía de procesamiento emocional.",
+        "Activación Conductual:: Programación de actividades creativas placenteras.",
+        "Narrativa:: Escritura expresiva como herramienta de re-autoría de la historia."
+      ],
+      "tarea": "Dedica 15 minutos esta semana a una actividad creativa sin juzgar el resultado. Solo crea. Anota cómo te sientes antes, durante y después."
+    },
+    {
+      "codigo": "RE-14",
+      "iconos": [
+        "span",
+        "😄",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué te hace reír genuinamente, incluso en medio de las dificultades?",
+      "objetivo": "Identificar el humor como recurso de regulación emocional, conexión social y perspectiva frente a la adversidad.",
+      "profundizacion": [
+        "¿Qué tipo de humor te conecta más (absurdo, irónico, autocrítico, tierno)?",
+        "¿Hay alguna anécdota o chiste interno que te haya ayudado a sobrellevar momentos difíciles?",
+        "¿Qué parte de ti se siente culpable por reír cuando las cosas van mal?",
+        "✔ Dificultad para acceder al humor (anhedonia, depresión severa).",
+        "✔ Humor como defensa (evitación de emociones profundas).",
+        "✔ Risa genuina y liberadora al recordar momentos de alegría.",
+        "✔ Culpa por disfrutar en medio del sufrimiento."
+      ],
+      "observacion": [
+        "Dificultad para acceder al humor (anhedonia, depresión severa).",
+        "Humor como defensa (evitación de emociones profundas).",
+        "Risa genuina y liberadora al recordar momentos de alegría.",
+        "Culpa por disfrutar en medio del sufrimiento."
+      ],
+      "intervenciones": [
+        "ACT:: Usar el humor como herramienta de defusión cognitiva.",
+        "Narrativa:: Re-escribir historias difíciles desde una perspectiva humorística sin minimizarlas.",
+        "Humanista:: Validar el humor como expresión legítima de la resiliencia humana."
+      ],
+      "tarea": "Esta semana, busca activamente algo que te haga reír (una película, un meme, una conversación). Permítete reír sin culpa y observa cómo cambia tu estado."
+    },
+    {
+      "codigo": "RE-15",
+      "iconos": [
+        "span",
+        "🌳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué lugar de la naturaleza (un parque, la playa, el campo, una montaña) te hace sentir en paz o reconectado/a contigo mismo/a?",
+      "objetivo": "Identificar la naturaleza como recurso de regulación, restauración y conexión con algo más grande que el yo individual.",
+      "profundizacion": [
+        "¿Qué elementos de ese lugar te calman específicamente (sonidos, colores, texturas)?",
+        "¿Con qué frecuencia te permites visitar ese lugar o uno similar?",
+        "¿Qué te impide ir más seguido a reconectarte con la naturaleza?",
+        "✔ Dificultad para identificar lugares naturales (vida urbana sin acceso).",
+        "✔ Conexión profunda y restauradora al describir el lugar.",
+        "✔ Nostalgia por lugares naturales del pasado (infancia, viajes).",
+        "✔ Alivio al reconocer la naturaleza como recurso accesible."
+      ],
+      "observacion": [
+        "Dificultad para identificar lugares naturales (vida urbana sin acceso).",
+        "Conexión profunda y restauradora al describir el lugar.",
+        "Nostalgia por lugares naturales del pasado (infancia, viajes).",
+        "Alivio al reconocer la naturaleza como recurso accesible."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Prácticas de atención plena en la naturaleza (ecoterapia).",
+        "EMDR:: Instalación de recurso de lugar natural seguro.",
+        "Activación Conductual:: Programación de visitas a la naturaleza como prescripción terapéutica."
+      ],
+      "tarea": "Visita un lugar natural esta semana (aunque sea un parque urbano). Quédate al menos 15 minutos observando, escuchando y respirando. Anota cómo te sientes después."
+    },
+    {
+      "codigo": "RE-16",
+      "iconos": [
+        "span",
+        "🎵",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué canción, álbum o tipo de música te ayuda a regular tus emociones o a conectarte con algo profundo?",
+      "objetivo": "Identificar la música como recurso de regulación emocional, evocación de memorias y conexión con estados internos.",
+      "profundizacion": [
+        "¿Qué emociones te ayuda a procesar o generar esa música?",
+        "¿Hay alguna canción que esté asociada a un momento importante de tu vida?",
+        "¿Cómo usas la música en tu día a día (para calmarte, motivarte, llorar)?",
+        "✔ Dificultad para identificar música que le impacte emocionalmente.",
+        "✔ Uso consciente de la música como herramienta de regulación.",
+        "✔ Emoción intensa (llanto, nostalgia, alegría) al escuchar ciertas canciones.",
+        "✔ Dependencia exclusiva de la música para evitar otras estrategias."
+      ],
+      "observacion": [
+        "Dificultad para identificar música que le impacte emocionalmente.",
+        "Uso consciente de la música como herramienta de regulación.",
+        "Emoción intensa (llanto, nostalgia, alegría) al escuchar ciertas canciones.",
+        "Dependencia exclusiva de la música para evitar otras estrategias."
+      ],
+      "intervenciones": [
+        "Musico-terapia:: Uso de la música como herramienta de procesamiento emocional.",
+        "EMDR:: Instalación de recurso musical para acceso rápido a estados positivos.",
+        "Narrativa:: Construir una \"playlist de vida\" que narre la historia del paciente."
+      ],
+      "tarea": "Crea una playlist con 3 canciones: una para calmarte, una para motivarte y una para permitirte sentir. Úsala conscientemente esta semana según lo que necesites."
+    },
+    {
+      "codigo": "RE-17",
+      "iconos": [
+        "span",
+        "📚",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué libro, frase o enseñanza te ha ayudado a entender tu vida o a encontrar sentido en momentos difíciles?",
+      "objetivo": "Identificar recursos intelectuales o filosóficos que han guiado al paciente en la construcción de significado y resiliencia.",
+      "profundizacion": [
+        "¿Cómo aplicaste esa enseñanza en tu vida concreta?",
+        "¿Qué parte de esa sabiduría sigue siendo útil hoy y cuál ya no?",
+        "¿Qué otras fuentes de sabiduría (personas, experiencias) te han enseñado algo similar?",
+        "✔ Dificultad para identificar fuentes de sabiduría (vida sin reflexión).",
+        "✔ Conexión profunda con una filosofía de vida o enseñanza específica.",
+        "✔ Intelectualización excesiva sin aplicación práctica.",
+        "✔ Alivio al reconocer que tiene herramientas internas de sentido."
+      ],
+      "observacion": [
+        "Dificultad para identificar fuentes de sabiduría (vida sin reflexión).",
+        "Conexión profunda con una filosofía de vida o enseñanza específica.",
+        "Intelectualización excesiva sin aplicación práctica.",
+        "Alivio al reconocer que tiene herramientas internas de sentido."
+      ],
+      "intervenciones": [
+        "Logoterapia:: Búsqueda de sentido a través de la filosofía, la literatura o las enseñanzas de vida.",
+        "Narrativa:: Integrar enseñanzas en la re-autoría de la historia personal.",
+        "ACT:: Clarificación de valores a través de metáforas y enseñanzas significativas."
+      ],
+      "tarea": "Escribe la frase o enseñanza que más te ha marcado. Debajo, anota cómo la has aplicado en tu vida. Léela cuando necesites recordar tu sabiduría interna."
+    },
+    {
+      "codigo": "RE-18",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué parte de tu cuerpo ha sido tu mayor aliada para superar momentos difíciles?",
+      "objetivo": "Identificar el cuerpo como recurso de resiliencia, explorando las zonas que han sostenido, protegido o permitido la supervivencia.",
+      "profundizacion": [
+        "¿Qué hizo esa parte de tu cuerpo por ti (sostener, correr, abrazar, llorar)?",
+        "¿Cómo te has relacionado con esa parte: con gratitud, con indiferencia, con crítica?",
+        "¿Qué necesitaría esa parte de ti para sentirse reconocida y cuidada?",
+        "✔ Dificultad para identificar el cuerpo como aliado (disociación, desprecio corporal).",
+        "✔ Reconocimiento de zonas específicas que han sido fuertes (piernas, brazos, corazón).",
+        "✔ Emoción intensa (gratitud, ternura) al reconocer el esfuerzo del cuerpo.",
+        "✔ Culpa por haber ignorado o maltratado el cuerpo en el pasado."
+      ],
+      "observacion": [
+        "Dificultad para identificar el cuerpo como aliado (disociación, desprecio corporal).",
+        "Reconocimiento de zonas específicas que han sido fuertes (piernas, brazos, corazón).",
+        "Emoción intensa (gratitud, ternura) al reconocer el esfuerzo del cuerpo.",
+        "Culpa por haber ignorado o maltratado el cuerpo en el pasado."
+      ],
+      "intervenciones": [
+        "Somática:: Escaneo corporal de gratitud y reconocimiento de la sabiduría corporal.",
+        "CFT:: Autocompasión dirigida al cuerpo como aliado de supervivencia.",
+        "Sensoriomotriz:: Explorar la sensación de fortaleza y resiliencia alojada en el cuerpo."
+      ],
+      "tarea": "Apoya tu mano en esa parte del cuerpo que te ha sostenido. Agradécele en voz alta por todo lo que ha hecho por ti. Observa qué sensaciones emergen."
+    },
+    {
+      "codigo": "RE-19",
+      "iconos": [
+        "span",
+        "⏪",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué recuerdo positivo de tu pasado puedes traer al presente cuando necesitas sentirte mejor?",
+      "objetivo": "Identificar memorias positivas como recurso de regulación emocional y conexión con estados internos de bienestar.",
+      "profundizacion": [
+        "¿Qué detalles sensoriales tiene ese recuerdo (imágenes, sonidos, olores, texturas)?",
+        "¿Qué emoción te genera revivir ese momento?",
+        "¿Qué te impide acceder a ese recuerdo con más frecuencia?",
+        "✔ Dificultad para acceder a memorias positivas (depresión, trauma).",
+        "✔ Vividez sensorial y emocional al describir el recuerdo.",
+        "✔ Tristeza o nostalgia por un pasado percibido como mejor.",
+        "✔ Alivio al reconocer que tiene recursos internos de bienestar."
+      ],
+      "observacion": [
+        "Dificultad para acceder a memorias positivas (depresión, trauma).",
+        "Vividez sensorial y emocional al describir el recuerdo.",
+        "Tristeza o nostalgia por un pasado percibido como mejor.",
+        "Alivio al reconocer que tiene recursos internos de bienestar."
+      ],
+      "intervenciones": [
+        "EMDR:: Instalación de recurso de memoria positiva para acceso rápido.",
+        "Mindfulness:: Práctica de evocación consciente de memorias placenteras.",
+        "Activación Conductual:: Uso de memorias positivas como motivación para actividades placenteras."
+      ],
+      "tarea": "Elige un recuerdo positivo y dedícale 5 minutos esta semana para revivirlo con todos los detalles sensoriales. Anota cómo te sientes después."
+    },
+    {
+      "codigo": "RE-20",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué imagen o esperanza del futuro te ayuda a seguir adelante cuando todo parece difícil?",
+      "objetivo": "Identificar la esperanza y la proyección positiva del futuro como recurso de motivación y resiliencia frente a la adversidad.",
+      "profundizacion": [
+        "¿Cómo se ve ese futuro en tu mente (imágenes, sensaciones, emociones)?",
+        "¿Qué pasos pequeños podrías dar hoy para acercarte a esa visión?",
+        "¿Qué parte de ti tiene miedo de esperar o de ilusionarse?",
+        "✔ Dificultad para imaginar un futuro positivo (desesperanza aprendida).",
+        "✔ Vividez y emoción al describir la visión de futuro.",
+        "✔ Miedo a la decepción si las expectativas no se cumplen.",
+        "✔ Motivación y activación al conectar con la esperanza."
+      ],
+      "observacion": [
+        "Dificultad para imaginar un futuro positivo (desesperanza aprendida).",
+        "Vividez y emoción al describir la visión de futuro.",
+        "Miedo a la decepción si las expectativas no se cumplen.",
+        "Motivación y activación al conectar con la esperanza."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y visión de vida como guía para la acción comprometida.",
+        "Soluciones:: Construcción de expectativas realistas y planificación de pasos concretos.",
+        "Narrativa:: Re-escribir el futuro como una historia de posibilidad y crecimiento."
+      ],
+      "tarea": "Dibuja o escribe esa imagen de futuro en un papel. Colócalo en un lugar visible. Cada día, míralo y pregúntate: \"¿Qué puedo hacer hoy para acercarme un poco más a esto?\"."
+    },
+    {
+      "codigo": "RE-21",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué persona (real, histórica o ficticia) te ha inspirado a ser quien eres hoy, aunque nunca la hayas conocido en persona?",
+      "objetivo": "Identificar modelos de referencia y figuras idealizadas que han moldeado los valores, la identidad y las aspiraciones del paciente.",
+      "profundizacion": [
+        "¿Qué cualidad específica de esa persona admiras y ya tienes desarrollada en ti?",
+        "¿En qué momento de tu vida necesitaste recordar su ejemplo?",
+        "¿Qué parte de su historia resuena con la tuya?",
+        "✔ Dificultad para identificar modelos (ausencia de referentes).",
+        "✔ Emoción intensa (admiración, ternura) al describir a la figura.",
+        "✔ Idealización extrema sin reconocimiento de la propia fortaleza.",
+        "✔ Insight al descubrir que ya posee las cualidades que admira."
+      ],
+      "observacion": [
+        "Dificultad para identificar modelos (ausencia de referentes).",
+        "Emoción intensa (admiración, ternura) al describir a la figura.",
+        "Idealización extrema sin reconocimiento de la propia fortaleza.",
+        "Insight al descubrir que ya posee las cualidades que admira."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integrar las cualidades del modelo en la identidad del paciente como recursos propios.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sano\" internalizando las virtudes del modelo.",
+        "ACT:: Clarificación de valores a través de la admiración por figuras inspiradoras."
+      ],
+      "tarea": "Escribe una carta imaginaria a esa persona agradeciéndole por su inspiración. Luego, escribe qué cualidad suya ya vive en ti y cómo la has usado esta semana."
+    },
+    {
+      "codigo": "RE-22",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿De qué decisión difícil que tomaste en el pasado te sientes genuinamente orgulloso/a, aunque nadie más lo sepa?",
+      "objetivo": "Acceder a memorias de valentía y autonomía personal. Fortalecer la identidad de \"persona que decide y actúa con integridad\".",
+      "profundizacion": [
+        "¿Qué recursos internos usaste para tomar esa decisión?",
+        "¿Qué te costó emocionalmente tomarla y qué ganaste?",
+        "¿Cómo te verías hoy si no hubieras tomado esa decisión?",
+        "✔ Bloqueo total (\"no tengo nada del qué estar orgulloso\").",
+        "✔ Emoción intensa (orgullo, ternura) al recordar la decisión.",
+        "✔ Minimización del logro (\"cualquiera lo habría hecho\").",
+        "✔ Conexión con la propia agencia y valentía."
+      ],
+      "observacion": [
+        "Bloqueo total (\"no tengo nada del qué estar orgulloso\").",
+        "Emoción intensa (orgullo, ternura) al recordar la decisión.",
+        "Minimización del logro (\"cualquiera lo habría hecho\").",
+        "Conexión con la propia agencia y valentía."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-autoría destacando los \"picos de valentía\" en la historia personal.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Competente\" que toma decisiones difíciles.",
+        "EMDR:: Instalar recurso de orgullo y autoeficacia."
+      ],
+      "tarea": "Escribe esa decisión en un papel como si fuera un acto heroico en una novela. Léela en voz alta y observa cómo te sientes al reconocerte como protagonista valiente."
+    },
+    {
+      "codigo": "RE-23",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cuál ha sido el momento más genuino de conexión con otra persona que recuerdas, donde te sentiste completamente visto y aceptado?",
+      "objetivo": "Identificar experiencias de conexión auténtica como recurso para reparar el apego y fortalecer la capacidad de vincularse.",
+      "profundizacion": [
+        "¿Qué hizo esa persona (o tú) que permitió esa conexión?",
+        "¿Cómo se siente tu cuerpo al recordar ese momento?",
+        "¿Qué parte de ti todavía no cree que mereces ese tipo de conexión?",
+        "✔ Dificultad para identificar momentos de conexión genuina (trauma relacional).",
+        "✔ Llanto o ternura al recordar la experiencia.",
+        "✔ Idealización de momentos que en realidad fueron superficiales.",
+        "✔ Apertura y esperanza al reconocer que la conexión es posible."
+      ],
+      "observacion": [
+        "Dificultad para identificar momentos de conexión genuina (trauma relacional).",
+        "Llanto o ternura al recordar la experiencia.",
+        "Idealización de momentos que en realidad fueron superficiales.",
+        "Apertura y esperanza al reconocer que la conexión es posible."
+      ],
+      "intervenciones": [
+        "CFT:: Activar el sistema de cuidado y afiliación a través de la memoria de conexión.",
+        "EMDR:: Instalar recurso de conexión para contrarrestar creencias de soledad o indignidad.",
+        "Relacional:: Usar la relación terapéutica como experiencia correctiva de conexión."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a esa persona (aunque no se la envíes). Reconoce explícitamente qué hizo y cómo te impactó esa conexión."
+    },
+    {
+      "codigo": "RE-24",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué frase, mantra o afirmación te repites internamente cuando necesitas recordarte quién eres y de qué eres capaz?",
+      "objetivo": "Identificar recursos cognitivos y lingüísticos de auto-afirmación. Explorar el diálogo interno positivo como herramienta de regulación.",
+      "profundizacion": [
+        "¿De dónde viene esa frase (la dijiste tú, te la dijo alguien, la leíste)?",
+        "¿En qué momentos la usas y qué efecto tiene en tu cuerpo?",
+        "¿Qué parte de ti todavía no se cree esa frase?",
+        "✔ Dificultad para identificar frases positivas (diálogo interno crítico).",
+        "✔ Frases vacías o intelectualizadas sin resonancia emocional.",
+        "✔ Conexión profunda con una frase que realmente sostiene.",
+        "✔ Alivio al reconocer que tiene herramientas lingüísticas de poder."
+      ],
+      "observacion": [
+        "Dificultad para identificar frases positivas (diálogo interno crítico).",
+        "Frases vacías o intelectualizadas sin resonancia emocional.",
+        "Conexión profunda con una frase que realmente sostiene.",
+        "Alivio al reconocer que tiene herramientas lingüísticas de poder."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva: reemplazar frases críticas por afirmaciones realistas.",
+        "ACT:: Defusión de frases autocríticas y compromiso con frases alineadas a valores.",
+        "Narrativa:: Construir un \"manifiesto personal\" con frases que definan la identidad deseada."
+      ],
+      "tarea": "Escribe tu frase o mantra en una tarjeta y llévala contigo. Cada vez que la leas, repítela en voz alta y nota cómo se siente tu cuerpo."
+    },
+    {
+      "codigo": "RE-25",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Qué logro pequeño de tu vida cotidiana minimizas constantemente pero que en realidad requiere mucha disciplina o fortaleza?",
+      "objetivo": "Visibilizar las fortalezas cotidianas que el paciente da por sentadas. Fomentar el reconocimiento de la autoeficacia en lo ordinario.",
+      "profundizacion": [
+        "¿Por qué crees que ese logro \"no cuenta\" o \"es normal\"?",
+        "¿Qué habilidades necesitas para mantenerlo en el tiempo?",
+        "¿Cómo sería tu vida si no tuvieras esa disciplina o fortaleza?",
+        "✔ Minimización extrema (\"eso lo hace cualquiera\").",
+        "✔ Sorpresa al ser reconocido por algo cotidiano.",
+        "✔ Dificultad para identificar cualquier logro (baja autoestima).",
+        "✔ Orgullo y expansión al validar la propia competencia."
+      ],
+      "observacion": [
+        "Minimización extrema (\"eso lo hace cualquiera\").",
+        "Sorpresa al ser reconocido por algo cotidiano.",
+        "Dificultad para identificar cualquier logro (baja autoestima).",
+        "Orgullo y expansión al validar la propia competencia."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el Estándar Inflexible que exige logros extraordinarios para valerse.",
+        "TCC:: Registro de evidencias de autoeficacia cotidiana.",
+        "Narrativa:: Re-escribir la historia personal destacando las fortalezas ordinarias."
+      ],
+      "tarea": "Esta semana, elige un logro cotidiano y celébralo conscientemente (aunque sea con un gesto pequeño). Anota cómo te sientes al reconocerte esa capacidad."
+    },
+    {
+      "codigo": "RE-26",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué acto de valentía cotidiana realizaste recientemente que nadie notó pero que te costó mucho esfuerzo interno?",
+      "objetivo": "Reconocer la valentía invisible: las decisiones internas, los límites puestos, las emociones toleradas que no tienen testigos externos.",
+      "profundizacion": [
+        "¿Qué te hubiera pasado si no hubieras tenido esa valentía?",
+        "¿Qué recurso interno usaste para sostener ese momento?",
+        "¿Cómo te habrías sentido contigo mismo si hubieras cedido?",
+        "✔ Dificultad para reconocer la valentía interna (\"no hice nada especial\").",
+        "✔ Emoción intensa (orgullo, ternura) al validar el esfuerzo.",
+        "✔ Minimización del costo emocional de la valentía.",
+        "✔ Conexión con la propia fortaleza silenciosa."
+      ],
+      "observacion": [
+        "Dificultad para reconocer la valentía interna (\"no hice nada especial\").",
+        "Emoción intensa (orgullo, ternura) al validar el esfuerzo.",
+        "Minimización del costo emocional de la valentía.",
+        "Conexión con la propia fortaleza silenciosa."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia destacando los \"actos heroicos invisibles\".",
+        "CFT:: Autocompasión y reconocimiento del esfuerzo interno no visible.",
+        "ACT:: Compromiso con acciones valiosas aunque no tengan reconocimiento externo."
+      ],
+      "tarea": "Escribe ese acto de valentía en un papel y guárdalo en un sobre. Cuando dudes de ti mismo, ábrelo y recuerda de qué eres capaz."
+    },
+    {
+      "codigo": "RE-27",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Quién en tu vida te ha pedido consejo o te ha buscado para apoyarse, reconociendo tu sabiduría o tu fortaleza?",
+      "objetivo": "Identificar el reconocimiento externo de las fortalezas del paciente. Explorar la discrepancia entre cómo lo ven otros y cómo se ve a sí mismo.",
+      "profundizacion": [
+        "¿Qué cualidad reconocen otros en ti que tú no ves?",
+        "¿Cómo te sientes cuando alguien te busca para apoyarse (orgullo, incomodidad, carga)?",
+        "¿Qué te impide tratarte a ti mismo con la misma sabiduría que ofreces a otros?",
+        "✔ Dificultad para aceptar el reconocimiento (\"no soy tan sabio\").",
+        "✔ Incomodidad o culpa por ser visto como fuerte.",
+        "✔ Orgullo silencioso al reconocer que otros lo valoran.",
+        "✔ Insight al descubrir que tiene sabiduría que no aplica a sí mismo."
+      ],
+      "observacion": [
+        "Dificultad para aceptar el reconocimiento (\"no soy tan sabio\").",
+        "Incomodidad o culpa por ser visto como fuerte.",
+        "Orgullo silencioso al reconocer que otros lo valoran.",
+        "Insight al descubrir que tiene sabiduría que no aplica a sí mismo."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el esquema de Defecto/Vergüenza que bloquea el auto-reconocimiento.",
+        "Narrativa:: Integrar el reconocimiento externo en la identidad propia.",
+        "CFT:: Practicar la autocompasión y el auto-aprecio como habilidades entrenables."
+      ],
+      "tarea": "Escribe el consejo que le darías a esa persona que te buscó. Luego, escribe ese mismo consejo dirigido a ti mismo. Observa las diferencias."
+    },
+    {
+      "codigo": "RE-28",
+      "iconos": [
+        "span",
+        "✨",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué actividad te absorbe tanto que pierdes la noción del tiempo y te sientes completamente presente?",
+      "objetivo": "Identificar experiencias de \"flow\" o absorción plena como recurso de regulación, creatividad y conexión con el momento presente.",
+      "profundizacion": [
+        "¿Qué tiene esa actividad que te permite entrar en ese estado?",
+        "¿Cómo te sientes después de salir de ese estado de flow?",
+        "¿Qué te impide dedicarle más tiempo a esta actividad?",
+        "✔ Dificultad para identificar actividades de flow (anhedonia, desconexión).",
+        "✔ Pasión y vitalidad al describir la experiencia.",
+        "✔ Culpa por \"perder el tiempo\" en algo placentero.",
+        "✔ Alivio al reconocer el valor terapéutico del flow."
+      ],
+      "observacion": [
+        "Dificultad para identificar actividades de flow (anhedonia, desconexión).",
+        "Pasión y vitalidad al describir la experiencia.",
+        "Culpa por \"perder el tiempo\" en algo placentero.",
+        "Alivio al reconocer el valor terapéutico del flow."
+      ],
+      "intervenciones": [
+        "Activación Conductual:: Programación de actividades de flow como prescripción terapéutica.",
+        "Mindfulness:: Integración de la atención plena en actividades cotidianas.",
+        "Somática:: Explorar la sensación corporal de absorción y presencia."
+      ],
+      "tarea": "Programa al menos 30 minutos esta semana para esa actividad de flow. Sin interrupciones, sin culpa. Anota cómo te sientes antes, durante y después."
+    },
+    {
+      "codigo": "RE-29",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué objeto físico (un anillo, una foto, una piedra, una carta) tienes que funciona como un talismán o ancla de algún recurso interno?",
+      "objetivo": "Identificar objetos transicionales o anclas sensoriales que conectan con recursos internos, memorias positivas o identidades valiosas.",
+      "profundizacion": [
+        "¿Qué representa ese objeto para ti (amor, fortaleza, pertenencia, recuerdo)?",
+        "¿Cómo te sientes cuando lo tocas o lo miras?",
+        "¿Qué pasaría si lo llevaras contigo conscientemente como recordatorio de ese recurso?",
+        "✔ Dificultad para identificar objetos significativos (desconexión simbólica).",
+        "✔ Emoción intensa (ternura, nostalgia) al describir el objeto.",
+        "✔ Minimización del valor del objeto (\"es solo una cosa\").",
+        "✔ Alivio al reconocer el poder de los anclas sensoriales."
+      ],
+      "observacion": [
+        "Dificultad para identificar objetos significativos (desconexión simbólica).",
+        "Emoción intensa (ternura, nostalgia) al describir el objeto.",
+        "Minimización del valor del objeto (\"es solo una cosa\").",
+        "Alivio al reconocer el poder de los anclas sensoriales."
+      ],
+      "intervenciones": [
+        "EMDR:: Usar el objeto como ancla de recurso para el procesamiento traumático.",
+        "Somática:: Anclaje sensorial de estados positivos a través del objeto.",
+        "Narrativa:: Construir la historia del objeto como testimonio de resiliencia."
+      ],
+      "tarea": "Elige un objeto que represente un recurso interno. Llévalo contigo esta semana y cada vez que lo toques, recuerda la fortaleza que representa."
+    },
+    {
+      "codigo": "RE-30",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué cualidad admiras en otra persona que ya existe en ti, aunque no la reconozcas o la uses poco?",
+      "objetivo": "Explorar la proyección de cualidades no reconocidas. Fomentar la integración de fortalezas latentes a través del reconocimiento de lo admirado en otros.",
+      "profundizacion": [
+        "¿En qué momentos pequeños ya has mostrado esa cualidad?",
+        "¿Qué te impide expresarla más libremente?",
+        "¿Qué cambiaría en tu vida si empezaras a usarla conscientemente?",
+        "✔ Dificultad para reconocer la cualidad en sí mismo.",
+        "✔ Insight al descubrir ejemplos propios de esa cualidad.",
+        "✔ Miedo a expresarla (vergüenza, inseguridad).",
+        "✔ Empoderamiento al integrar la cualidad admirada."
+      ],
+      "observacion": [
+        "Dificultad para reconocer la cualidad en sí mismo.",
+        "Insight al descubrir ejemplos propios de esa cualidad.",
+        "Miedo a expresarla (vergüenza, inseguridad).",
+        "Empoderamiento al integrar la cualidad admirada."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el esquema de Defecto que bloquea el auto-reconocimiento.",
+        "Narrativa:: Re-escribir la identidad incluyendo la cualidad proyectada.",
+        "Gestalt:: Experimento de \"encarnar\" la cualidad admirada."
+      ],
+      "tarea": "Esta semana, elige una situación donde puedas expresar conscientemente esa cualidad. Observa cómo te sientes al usarla y qué efecto tiene en tu entorno."
+    },
+    {
+      "codigo": "RE-31",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué pequeña cosa de hoy, por insignificante que parezca, te genera gratitud aunque tu mente crítica diga que 'no es para tanto'?",
+      "objetivo": "Activar el recurso de la gratitud como antídoto neurobiológico contra la rumiación negativa. Entrenar la atención selectiva hacia lo positivo sin caer en el pensamiento mágico.",
+      "profundizacion": [
+        "¿Por qué tu mente crítica minimiza esa cosa buena?",
+        "¿Cómo se siente tu cuerpo al permitirte reconocerla sin juzgarla?",
+        "¿Qué pasaría si durante una semana prestaras la misma atención a lo bueno que a lo malo?",
+        "✔ Bloqueo total (\"no tengo nada por qué estar agradecido\").",
+        "✔ Culpa por sentir gratitud en medio del sufrimiento.",
+        "✔ Alivio y expansión torácica al reconocer algo pequeño.",
+        "✔ Intelectualización de la gratitud sin conexión emocional."
+      ],
+      "observacion": [
+        "Bloqueo total (\"no tengo nada por qué estar agradecido\").",
+        "Culpa por sentir gratitud en medio del sufrimiento.",
+        "Alivio y expansión torácica al reconocer algo pequeño.",
+        "Intelectualización de la gratitud sin conexión emocional."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en gratitud focalizada como activador del sistema de calmado.",
+        "TCC positiva:: Diario de tres cosas buenas al final del día.",
+        "Mindfulness:: Atención plena a los micro-placeres cotidianos."
+      ],
+      "tarea": "Durante 7 días, anota cada noche una cosa pequeña por la que estás agradecido/a. No vale repetir. Al final de la semana, lee la lista completa y nota cómo te sientes."
+    },
+    {
+      "codigo": "RE-32",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuáles son los 3 valores innegociables que, cuando los honras, te hacen sentir que estás viviendo con integridad?",
+      "objetivo": "Clarificar la brújula interna de valores como recurso de orientación en momentos de confusión, ambivalencia o crisis. Diferenciar valores impuestos de valores elegidos.",
+      "profundizacion": [
+        "¿De quién heredaste esos valores y cuáles son genuinamente tuyos?",
+        "¿En qué momentos recientes traicionaste o honraste alguno de ellos?",
+        "¿Cómo se siente tu cuerpo cuando actúas alineado con tus valores?",
+        "✔ Dificultad para identificar valores más allá de \"estar bien\".",
+        "✔ Valores heredados sin cuestionar (lealtad familiar rígida).",
+        "✔ Expansión y claridad al nombrarlos con convicción.",
+        "✔ Dolor al reconocer que ha estado viviendo traicionándolos."
+      ],
+      "observacion": [
+        "Dificultad para identificar valores más allá de \"estar bien\".",
+        "Valores heredados sin cuestionar (lealtad familiar rígida).",
+        "Expansión y claridad al nombrarlos con convicción.",
+        "Dolor al reconocer que ha estado viviendo traicionándolos."
+      ],
+      "intervenciones": [
+        "ACT:: Brújula de valores y ejercicios de clarificación profunda.",
+        "Narrativa:: Historias de momentos donde los valores fueron honrados o traicionados.",
+        "Sistémica:: Genograma de valores familiares y diferenciación del self."
+      ],
+      "tarea": "Escribe tus 3 valores en una tarjeta y llévala contigo. Cada noche, pregúntate: \"¿Hoy honré alguno de estos valores? ¿Traicioné alguno?\". Solo observa, sin juzgarte."
+    },
+    {
+      "codigo": "RE-33",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué acto de autocuidado has estado postergando que, si lo hicieras esta semana, te enviaría el mensaje de que te importas?",
+      "objetivo": "Identificar la postergación del autocuidado como síntoma de autodesprecio o sobrecarga. Activar el autocuidado como acto revolucionario de autoafirmación.",
+      "profundizacion": [
+        "¿Qué voz interna te dice que \"no es el momento\" o \"no te lo mereces\"?",
+        "¿Qué mensaje le estarías enviando a tu cuerpo y a tu mente si lo hicieras?",
+        "¿Qué te costaría emocionalmente priorizarte hoy?",
+        "✔ Culpa intensa ante la idea de cuidarse (\"primero los demás\").",
+        "✔ Minimización del autocuidado (\"eso es egoísta\").",
+        "✔ Alivio y ternura al reconocer la necesidad postergada.",
+        "✔ Agotamiento crónico por neglect sostenido."
+      ],
+      "observacion": [
+        "Culpa intensa ante la idea de cuidarse (\"primero los demás\").",
+        "Minimización del autocuidado (\"eso es egoísta\").",
+        "Alivio y ternura al reconocer la necesidad postergada.",
+        "Agotamiento crónico por neglect sostenido."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el modo del \"Cuidador Punitivo\" que prohíbe el autocuidado.",
+        "CFT:: Entrenamiento en autocompasión como base del autocuidado.",
+        "Sistémica:: Explorar mandatos familiares sobre el sacrificio como virtud."
+      ],
+      "tarea": "Elige ese acto de autocuidado postergado y hazlo esta semana. Antes de hacerlo, dite en voz alta: \"Me cuido porque me importo\". Después, anota cómo te sientes."
+    },
+    {
+      "codigo": "RE-34",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Quién en tu vida, aunque no lo sepa, ha sido un 'ángel silencioso' que te sostuvo en algún momento sin que tú se lo pidieras?",
+      "objetivo": "Reconocer la red de apoyo invisible y las intervenciones sutiles de otros que han contribuido a la resiliencia. Fomentar la gratitud relacional.",
+      "profundizacion": [
+        "¿Qué hizo esa persona que marcó la diferencia en ese momento?",
+        "¿Por qué crees que lo hizo sin que se lo pidieras?",
+        "¿Cómo te sentirías si le agradecieras hoy, aunque sea en una carta no enviada?",
+        "✔ Dificultad para reconocer apoyo externo (aislamiento percibido).",
+        "✔ Emoción intensa (ternura, gratitud) al recordar al \"ángel silencioso\".",
+        "✔ Sorpresa al descubrir que no estaba tan solo como creía.",
+        "✔ Dolor por la pérdida de esa figura de apoyo."
+      ],
+      "observacion": [
+        "Dificultad para reconocer apoyo externo (aislamiento percibido).",
+        "Emoción intensa (ternura, gratitud) al recordar al \"ángel silencioso\".",
+        "Sorpresa al descubrir que no estaba tan solo como creía.",
+        "Dolor por la pérdida de esa figura de apoyo."
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapeo de la red de apoyo invisible y su impacto en la resiliencia.",
+        "Narrativa:: Re-escribir la historia incluyendo a estas figuras de sostén.",
+        "CFT:: Activar el sistema de afiliación a través del recuerdo del cuidado recibido."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ese \"ángel silencioso\". Si es posible y te sientes cómodo/a, entrégasela. Si no, guárdala como testimonio de que no estuviste solo/a."
+    },
+    {
+      "codigo": "RE-35",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué zona de tu cuerpo ha sido tu 'aliada silenciosa' durante los momentos más difíciles, sosteniéndote sin que se lo agradecieras?",
+      "objetivo": "Reconocer el cuerpo como recurso de supervivencia. Reparar la relación con zonas corporales que han cargado con el peso del estrés o el trauma sin recibir gratitud.",
+      "profundizacion": [
+        "¿Qué hizo esa zona por ti (sostener, respirar, latir, aguantar)?",
+        "¿Cómo te has tratado con ella: con exigencia, con indiferencia, con cuidado?",
+        "¿Qué necesitaría esa zona de ti para sentirse reconocida y cuidada?",
+        "✔ Desconexión total (\"mi cuerpo no me ayuda, me traiciona\").",
+        "✔ Reconocimiento de zonas específicas (espalda, piernas, corazón).",
+        "✔ Emoción intensa (ternura, gratitud, llanto) al reconocer el esfuerzo corporal.",
+        "✔ Culpa por haber ignorado o maltratado el cuerpo."
+      ],
+      "observacion": [
+        "Desconexión total (\"mi cuerpo no me ayuda, me traiciona\").",
+        "Reconocimiento de zonas específicas (espalda, piernas, corazón).",
+        "Emoción intensa (ternura, gratitud, llanto) al reconocer el esfuerzo corporal.",
+        "Culpa por haber ignorado o maltratado el cuerpo."
+      ],
+      "intervenciones": [
+        "Somática:: Escaneo corporal de gratitud y reconocimiento de la sabiduría corporal.",
+        "CFT:: Autocompasión dirigida al cuerpo como aliado de supervivencia.",
+        "Sensoriomotriz:: Explorar la sensación de fortaleza y resiliencia alojada en el cuerpo."
+      ],
+      "tarea": "Apoya tu mano en esa zona aliada durante 2 minutos al día. Agradécele en voz alta por todo lo que ha hecho por ti. Observa qué sensaciones emergen."
+    },
+    {
+      "codigo": "RE-36",
+      "iconos": [
+        "span",
+        "🗣️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la frase más sanadora que alguien te ha dicho en tu vida y que todavía resuena en ti cuando más lo necesitas?",
+      "objetivo": "Identificar palabras sanadoras internalizadas como recurso de regulación emocional y auto-apoyo. Explorar el poder del lenguaje recibido y su impacto duradero.",
+      "profundizacion": [
+        "¿Quién te dijo esa frase y en qué contexto?",
+        "¿Por qué esa frase en particular y no otra se quedó contigo?",
+        "¿Cómo podrías decirte a ti mismo esas mismas palabras hoy?",
+        "✔ Dificultad para recordar palabras sanadoras (historia de invalidación).",
+        "✔ Emoción intensa (ternura, llanto) al recordar la frase y a la persona.",
+        "✔ Frases que contrastan con el diálogo interno crítico actual.",
+        "✔ Alivio al reconocer que tiene voces internas de cuidado."
+      ],
+      "observacion": [
+        "Dificultad para recordar palabras sanadoras (historia de invalidación).",
+        "Emoción intensa (ternura, llanto) al recordar la frase y a la persona.",
+        "Frases que contrastan con el diálogo interno crítico actual.",
+        "Alivio al reconocer que tiene voces internas de cuidado."
+      ],
+      "intervenciones": [
+        "EMDR:: Instalar la frase como recurso cognitivo-emocional de acceso rápido.",
+        "Narrativa:: Integrar la frase en la identidad como voz internalizada de cuidado.",
+        "CFT:: Usar la frase como base para desarrollar el diálogo interno compasivo."
+      ],
+      "tarea": "Escribe esa frase en un papel y colócala en un lugar visible. Cada vez que la leas, repítela en voz alta como si te la dijeras a ti mismo. Nota cómo se siente tu cuerpo."
+    },
+    {
+      "codigo": "RE-37",
+      "iconos": [
+        "span",
+        "✨",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué momento reciente viviste donde el tiempo pareció detenerse y te sentiste completamente en paz, aunque fuera solo por unos segundos?",
+      "objetivo": "Identificar momentos de presencia plena y paz como recurso de regulación. Entrenar la atención hacia los \"micro-momentos\" de bienestar que suelen pasar desapercibidos.",
+      "profundizacion": [
+        "¿Qué estaba pasando en ese momento (lugar, actividad, compañía)?",
+        "¿Qué condiciones internas y externas permitieron esa paz?",
+        "¿Cómo podrías recrear esas condiciones, aunque sea en pequeña escala, esta semana?",
+        "✔ Dificultad para recordar momentos de paz (hipervigilancia crónica).",
+        "✔ Vividez sensorial al describir el momento (recurso accesible).",
+        "✔ Tristeza por la fugacidad del momento (\"ojalá durara más\").",
+        "✔ Alivio al reconocer que la paz es posible aunque sea breve."
+      ],
+      "observacion": [
+        "Dificultad para recordar momentos de paz (hipervigilancia crónica).",
+        "Vividez sensorial al describir el momento (recurso accesible).",
+        "Tristeza por la fugacidad del momento (\"ojalá durara más\").",
+        "Alivio al reconocer que la paz es posible aunque sea breve."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Entrenamiento en la atención a los micro-momentos de bienestar.",
+        "EMDR:: Instalar el momento de paz como recurso de regulación.",
+        "Activación Conductual:: Programación de actividades que favorezcan esos momentos."
+      ],
+      "tarea": "Durante esta semana, busca activamente al menos un \"micro-momento\" de paz al día (aunque sea de 10 segundos). Anota qué lo provocó y cómo te sentiste."
+    },
+    {
+      "codigo": "RE-38",
+      "iconos": [
+        "span",
+        "🕯️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué pequeño ritual personal tienes (o te gustaría tener) que te ayude a marcar el inicio o el final de un momento difícil?",
+      "objetivo": "Identificar o crear rituales de transición como recurso de regulación y cierre. Reconocer el poder simbólico de los actos repetidos para procesar emociones.",
+      "profundizacion": [
+        "¿Qué elementos tiene ese ritual (movimiento, palabras, objetos, sonidos)?",
+        "¿Cómo te sientes antes y después de realizarlo?",
+        "¿Qué necesitaría ese ritual para ser más efectivo o significativo?",
+        "✔ Ausencia total de rituales (vida sin símbolos ni transiciones).",
+        "✔ Rituales compulsivos sin conciencia de su función.",
+        "✔ Curiosidad al descubrir el poder de los rituales conscientes.",
+        "✔ Alivio al crear un nuevo ritual con significado personal."
+      ],
+      "observacion": [
+        "Ausencia total de rituales (vida sin símbolos ni transiciones).",
+        "Rituales compulsivos sin conciencia de su función.",
+        "Curiosidad al descubrir el poder de los rituales conscientes.",
+        "Alivio al crear un nuevo ritual con significado personal."
+      ],
+      "intervenciones": [
+        "Narrativa:: Creación de rituales de cierre y apertura de ciclos vitales.",
+        "Somática:: Rituales corporales de regulación (respiración, movimiento, toque).",
+        "Gestalt:: Rituales simbólicos de despedida o bienvenida."
+      ],
+      "tarea": "Diseña un pequeño ritual de 2-3 minutos para marcar el final del día. Puede ser encender una vela, escribir una frase, respirar conscientemente. Hazlo durante 5 días seguidos y observa cómo te sientes."
+    },
+    {
+      "codigo": "RE-39",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo te hablaría tu 'terapeuta interno' (esa voz sabia y compasiva que tienes dentro) en este momento difícil?",
+      "objetivo": "Activar el recurso del \"terapeuta interno\" o \"Adulto Sanador\". Fortalecer la capacidad de auto-regulación y auto-compasión sin depender exclusivamente del terapeuta externo.",
+      "profundizacion": [
+        "¿Qué tono, palabras y gestos usaría ese terapeuta interno?",
+        "¿Qué te diría que necesitas escuchar pero que no te estás diciendo?",
+        "¿Qué te impide acceder a esa voz con más frecuencia?",
+        "✔ Ausencia total de voz interna compasiva (autocrítica dominante).",
+        "✔ Voz interna fría o distante, sin calidez emocional.",
+        "✔ Acceso gradual a una voz más cálida y sabia.",
+        "✔ Alivio al reconocer que tiene recursos internos de cuidado."
+      ],
+      "observacion": [
+        "Ausencia total de voz interna compasiva (autocrítica dominante).",
+        "Voz interna fría o distante, sin calidez emocional.",
+        "Acceso gradual a una voz más cálida y sabia.",
+        "Alivio al reconocer que tiene recursos internos de cuidado."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecimiento del modo del \"Adulto Sanador\" como terapeuta interno.",
+        "CFT:: Entrenamiento en el diálogo interno compasivo.",
+        "IFS:: Acceso al \"Self\" como recurso de sabiduría y calma."
+      ],
+      "tarea": "Escribe una carta desde tu \"terapeuta interno\" dirigida a ti mismo en este momento difícil. Léela en voz alta cuando necesites cuidado. Observa cómo te sientes."
+    },
+    {
+      "codigo": "RE-40",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si pudieras llevarte solo 3 recursos de todo lo explorado en este mazo para enfrentar los próximos desafíos, ¿cuáles elegirías y por qué?",
+      "objetivo": "Integración y cierre del Lote 02. Fomentar la síntesis personal de recursos. Consolidar los aprendizajes y fortalecer la sensación de autoeficacia.",
+      "profundizacion": [
+        "¿Qué tienen en común esos 3 recursos que los hace esenciales para ti?",
+        "¿Cómo los usarías en combinación cuando enfrentes un momento difícil?",
+        "¿Qué te dice esta elección sobre quién eres y qué necesitas?",
+        "✔ Dificultad para elegir (todos parecen importantes).",
+        "✔ Claridad y convicción al nombrar los recursos esenciales.",
+        "✔ Insight sobre los patrones de recursos que más le sostienen.",
+        "✔ Empoderamiento al reconocer su propia sabiduría interna."
+      ],
+      "observacion": [
+        "Dificultad para elegir (todos parecen importantes).",
+        "Claridad y convicción al nombrar los recursos esenciales.",
+        "Insight sobre los patrones de recursos que más le sostienen.",
+        "Empoderamiento al reconocer su propia sabiduría interna."
+      ],
+      "intervenciones": [
+        "Narrativa:: Construir una \"historia de recursos\" que integre los 3 elegidos.",
+        "ACT:: Compromiso con el uso consciente de estos recursos en la vida diaria.",
+        "Somática:: Anclaje corporal de los 3 recursos como toolkit de regulación."
+      ],
+      "tarea": "Crea una \"tarjeta de recursos\" con tus 3 elegidos. Llévala contigo esta semana. Cada vez que la mires, recuerda que tienes todo lo que necesitas para enfrentar lo que venga."
+    },
+    {
+      "codigo": "RE-41",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué situación difícil de tu pasado te enseñó, sin que te dieras cuenta en ese momento, el valor de la paciencia?",
+      "objetivo": "Reconocer la paciencia como recurso adquirido a través del sufrimiento. Transformar la narrativa de \"tiempo perdido\" en \"sabiduría ganada\".",
+      "profundizacion": [
+        "¿Qué parte de esa experiencia te parece hoy un \"regalo disfrazado\"?",
+        "¿Cómo sería tu vida si hubieras obtenido todo lo que querías en ese momento?",
+        "¿Qué cualidad desarrollaste entonces que hoy usas sin reconocerla?",
+        "✔ Resistencia a ver valor en el tiempo de espera (\"fueron años perdidos\").",
+        "✔ Insight al reconocer la madurez ganada en la espera.",
+        "✔ Tristeza por la inocencia perdida durante ese proceso.",
+        "✔ Orgullo silencioso al reconocer la propia fortaleza paciente."
+      ],
+      "observacion": [
+        "Resistencia a ver valor en el tiempo de espera (\"fueron años perdidos\").",
+        "Insight al reconocer la madurez ganada en la espera.",
+        "Tristeza por la inocencia perdida durante ese proceso.",
+        "Orgullo silencioso al reconocer la propia fortaleza paciente."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia del tiempo de espera como un periodo de incubación valiosa.",
+        "Logoterapia:: Encontrar sentido en los periodos de latencia vital.",
+        "Mindfulness:: Entrenar la paciencia como práctica de presencia."
+      ],
+      "tarea": "Identifica una situación actual donde necesites paciencia. Escríbele una carta al \"yo del pasado\" que esperó, agradeciéndole por haberte enseñado esta cualidad."
+    },
+    {
+      "codigo": "RE-42",
+      "iconos": [
+        "span",
+        "🔍",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué tema, por complejo que sea, te genera una curiosidad genuina que te hace perder la noción del tiempo al explorarlo?",
+      "objetivo": "Identificar la curiosidad como recurso de flow, aprendizaje y conexión con la vitalidad. Activar el sistema de exploración como antídoto contra la rumiación.",
+      "profundizacion": [
+        "¿Qué tiene ese tema que captura tu atención de esa manera?",
+        "¿Cuándo descubriste esta pasión y qué la mantuvo viva?",
+        "¿Cómo podrías integrar más de esta curiosidad en tu vida cotidiana?",
+        "✔ Dificultad para identificar intereses genuinos (anhedonia, desconexión).",
+        "✔ Brillo en los ojos y energía al describir el tema.",
+        "✔ Culpa por \"perder el tiempo\" en algo \"no productivo\".",
+        "✔ Alivio al reconocer la curiosidad como recurso legítimo."
+      ],
+      "observacion": [
+        "Dificultad para identificar intereses genuinos (anhedonia, desconexión).",
+        "Brillo en los ojos y energía al describir el tema.",
+        "Culpa por \"perder el tiempo\" en algo \"no productivo\".",
+        "Alivio al reconocer la curiosidad como recurso legítimo."
+      ],
+      "intervenciones": [
+        "Activación Conductual:: Programación de tiempo para la curiosidad como prescripción terapéutica.",
+        "Constructivismo:: La curiosidad como motor de construcción de significado.",
+        "Mindfulness:: Atención plena aplicada al objeto de curiosidad."
+      ],
+      "tarea": "Dedica al menos 30 minutos esta semana a explorar ese tema sin otro objetivo que el disfrute. Anota cómo te sientes después y qué descubriste."
+    },
+    {
+      "codigo": "RE-43",
+      "iconos": [
+        "span",
+        "🎭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué juego, broma interna o actividad lúdica compartes con alguien que te ayuda a aliviar la pesadez de la vida adulta?",
+      "objetivo": "Identificar el juego y el humor compartido como recurso de conexión, alivio y recuperación del niño interior. Validar la importancia del juego en la vida adulta.",
+      "profundizacion": [
+        "¿Qué tiene ese juego que te permite soltar el control por un momento?",
+        "¿Quién te enseñó a jugar así o con quién lo descubriste?",
+        "¿Qué parte de ti se siente más libre cuando juegas?",
+        "✔ Dificultad para identificar espacios de juego (adultez rígida).",
+        "✔ Risa genuina y relajación al recordar los momentos lúdicos.",
+        "✔ Culpa por \"ser infantil\" o \"no ser serio\".",
+        "✔ Alivio al reconocer el juego como necesidad vital."
+      ],
+      "observacion": [
+        "Dificultad para identificar espacios de juego (adultez rígida).",
+        "Risa genuina y relajación al recordar los momentos lúdicos.",
+        "Culpa por \"ser infantil\" o \"no ser serio\".",
+        "Alivio al reconocer el juego como necesidad vital."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Fortalecer el \"Niño Feliz\" o \"Niño Juguetón\" como parte sana del self.",
+        "Psicodrama:: Técnicas de juego dramático para liberar la espontaneidad.",
+        "Sistémica:: Explorar los mandatos familiares sobre la seriedad y el juego."
+      ],
+      "tarea": "Esta semana, recupera un juego de tu infancia o inventa uno nuevo con alguien de confianza. Observa cómo cambia tu estado emocional durante y después."
+    },
+    {
+      "codigo": "RE-44",
+      "iconos": [
+        "span",
+        "🤫",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué momento de silencio (no el incómodo, sino el elegido) te ha ayudado a reconectar contigo mismo/a?",
+      "objetivo": "Identificar el silencio elegido como recurso de introspección, regulación y conexión con la sabiduría interna. Diferenciar el silencio sano del aislamiento.",
+      "profundizacion": [
+        "¿Qué condiciones necesita ese silencio para ser reparador (lugar, momento, duración)?",
+        "¿Qué aparece en tu mente cuando te permites ese silencio?",
+        "¿Qué te impide darte más momentos de silencio elegido?",
+        "✔ Miedo al silencio (evitación de contenidos internos).",
+        "✔ Silencios vacíos vs. silencios plenos y nutritivos.",
+        "✔ Alivio al reconocer el silencio como recurso.",
+        "✔ Confusión entre soledad elegida y aislamiento forzado."
+      ],
+      "observacion": [
+        "Miedo al silencio (evitación de contenidos internos).",
+        "Silencios vacíos vs. silencios plenos y nutritivos.",
+        "Alivio al reconocer el silencio como recurso.",
+        "Confusión entre soledad elegida y aislamiento forzado."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Prácticas de silencio consciente como herramienta de regulación.",
+        "Somática:: Explorar la sensación corporal del silencio reparador.",
+        "Activación Conductual:: Programar \"citas con el silencio\" en la agenda semanal."
+      ],
+      "tarea": "Programa 10 minutos de silencio elegido esta semana (sin pantallas, sin música, sin hablar). Anota qué surge en ese espacio y cómo te sientes después."
+    },
+    {
+      "codigo": "RE-45",
+      "iconos": [
+        "span",
+        "✍️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué has descubierto de ti mismo/a cuando escribes sin filtro, solo para ti, sin la intención de que nadie más lo lea?",
+      "objetivo": "Identificar la escritura expresiva como recurso de auto-conocimiento, procesamiento emocional y clarificación mental. Validar la escritura como herramienta terapéutica autónoma.",
+      "profundizacion": [
+        "¿Qué tipo de escritura te resulta más liberadora (diario, cartas no enviadas, poesía, listas)?",
+        "¿Qué descubrimientos has hecho sobre ti al releer lo escrito tiempo después?",
+        "¿Qué te impide escribir con más regularidad?",
+        "✔ Dificultad para escribir (bloqueo, autocrítica del \"escritor interno\").",
+        "✔ Descubrimientos reveladores al releer textos antiguos.",
+        "✔ Escritura como válvula de escape emocional.",
+        "✔ Resistencia a la escritura por asociación con exigencias académicas."
+      ],
+      "observacion": [
+        "Dificultad para escribir (bloqueo, autocrítica del \"escritor interno\").",
+        "Descubrimientos reveladores al releer textos antiguos.",
+        "Escritura como válvula de escape emocional.",
+        "Resistencia a la escritura por asociación con exigencias académicas."
+      ],
+      "intervenciones": [
+        "Narrativa:: Escritura expresiva como herramienta de re-autoría.",
+        "TCC:: Registro de pensamientos como forma de escritura estructurada.",
+        "Logoterapia:: Escritura como búsqueda de sentido."
+      ],
+      "tarea": "Dedica 10 minutos esta semana a escribir sin filtro sobre lo que sientes. No releas, no corrijas. Al terminar, reflexiona: ¿qué descubriste que no sabías antes de escribir?"
+    },
+    {
+      "codigo": "RE-46",
+      "iconos": [
+        "span",
+        "💭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué sueño recurrente o significativo ha aparecido en momentos clave de tu vida, como si tu inconsciente intentara decirte algo?",
+      "objetivo": "Explorar los sueños como recurso de sabiduría inconsciente, procesamiento nocturno y guía simbólica. Validar el lenguaje onírico como fuente de conocimiento.",
+      "profundizacion": [
+        "¿Qué emociones te deja ese sueño al despertar?",
+        "¿Qué elementos se repiten y qué podrían simbolizar para ti?",
+        "¿Qué mensaje crees que tu inconsciente intenta comunicarte?",
+        "✔ Ausencia de recuerdo onírico (desconexión del inconsciente).",
+        "✔ Pesadillas recurrentes (trauma no procesado).",
+        "✔ Sueños lúcidos o premonitorios (recurso de sabiduría).",
+        "✔ Curiosidad por explorar el lenguaje simbólico propio."
+      ],
+      "observacion": [
+        "Ausencia de recuerdo onírico (desconexión del inconsciente).",
+        "Pesadillas recurrentes (trauma no procesado).",
+        "Sueños lúcidos o premonitorios (recurso de sabiduría).",
+        "Curiosidad por explorar el lenguaje simbólico propio."
+      ],
+      "intervenciones": [
+        "Psicoanálisis/Junguiano:: Análisis simbólico de los sueños como vía al inconsciente.",
+        "Gestalt:: Todas las partes del sueño son partes del self; diálogo con los elementos.",
+        "EMDR:: Procesar pesadillas recurrentes vinculadas a trauma."
+      ],
+      "tarea": "Coloca un cuaderno junto a tu cama. Al despertar, anota lo primero que recuerdes de tus sueños, aunque sean fragmentos. Al final de la semana, busca patrones o mensajes."
+    },
+    {
+      "codigo": "RE-47",
+      "iconos": [
+        "span",
+        "💃",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué tipo de movimiento (bailar, caminar, nadar, estirarte) te ayuda a 'sacudirte' cuando sientes que la vida te pesa?",
+      "objetivo": "Identificar el movimiento corporal como recurso de descarga, regulación y reconexión con la vitalidad. Validar el cuerpo en acción como herramienta terapéutica.",
+      "profundizacion": [
+        "¿Qué cambia en tu estado emocional después de moverte así?",
+        "¿Qué parte de tu cuerpo pide más movimiento del que le das?",
+        "¿Qué te impide moverte más libremente en tu vida cotidiana?",
+        "✔ Sedentarismo forzado o autoimpuesto.",
+        "✔ Movimiento compulsivo (ejercicio como castigo).",
+        "✔ Movimiento gozoso y libre como recurso de regulación.",
+        "✔ Vergüenza corporal que impide el movimiento expresivo."
+      ],
+      "observacion": [
+        "Sedentarismo forzado o autoimpuesto.",
+        "Movimiento compulsivo (ejercicio como castigo).",
+        "Movimiento gozoso y libre como recurso de regulación.",
+        "Vergüenza corporal que impide el movimiento expresivo."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Uso del movimiento para completar respuestas defensivas y liberar energía.",
+        "Danza Movimiento Terapia:: Expresión emocional a través del movimiento libre.",
+        "Activación Conductual:: Programación de movimiento placentero como prescripción."
+      ],
+      "tarea": "Pon una canción que te guste y muévete como tu cuerpo pida durante 5 minutos, sin coreografía ni juicio. Anota cómo te sientes antes y después."
+    },
+    {
+      "codigo": "RE-48",
+      "iconos": [
+        "span",
+        "🍲",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué acto de cocinar, preparar o compartir comida te conecta con una sensación de cuidado, hogar o pertenencia?",
+      "objetivo": "Identificar la alimentación consciente y el acto de cocinar como recursos de autocuidado, conexión cultural y ritual de pertenencia.",
+      "profundizacion": [
+        "¿Qué receta o aroma te transporta a un momento de seguridad o amor?",
+        "¿Quién te enseñó a cocinar o a disfrutar de la comida?",
+        "¿Cómo sería tu relación con la comida si la vieras como un acto de cuidado y no de obligación?",
+        "✔ Relación conflictiva con la comida (resticciones, atracones).",
+        "✔ Comida como único recurso de consuelo disponible.",
+        "✔ Conexión con recetas familiares como ancla de identidad.",
+        "✔ Placer genuino en el acto de cocinar para uno mismo o para otros."
+      ],
+      "observacion": [
+        "Relación conflictiva con la comida (resticciones, atracones).",
+        "Comida como único recurso de consuelo disponible.",
+        "Conexión con recetas familiares como ancla de identidad.",
+        "Placer genuino en el acto de cocinar para uno mismo o para otros."
+      ],
+      "intervenciones": [
+        "Mindfulness:: Alimentación consciente como práctica de atención plena.",
+        "Sistémica:: Explorar los rituales familiares en torno a la comida.",
+        "Narrativa:: Re-escribir la historia personal a través de las recetas significativas."
+      ],
+      "tarea": "Esta semana, prepara una comida solo para ti, con intención de cuidado. Come sin distracciones, saboreando cada bocado. Anota cómo te sientes al cuidarte así."
+    },
+    {
+      "codigo": "RE-49",
+      "iconos": [
+        "span",
+        "💧",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué relación tienes con el agua (duchas, baños, nadar, lluvia) y cómo te ayuda a 'lavar' o renovar tu estado emocional?",
+      "objetivo": "Explorar el agua como recurso simbólico y sensorial de purificación, renovación y regulación emocional. Identificar rituales hídricos de autocuidado.",
+      "profundizacion": [
+        "¿Prefieres agua caliente o fría cuando necesitas regulación? ¿Qué te dice eso?",
+        "¿Hay algún recuerdo vinculado al agua que te traiga paz o, por el contrario, malestar?",
+        "¿Cómo podrías usar el agua conscientemente como ritual de transición entre momentos difíciles?",
+        "✔ Duchas largas como refugio o como evitación.",
+        "✔ Miedo al agua (trauma vinculado a líquidos).",
+        "✔ Uso consciente del agua como ritual de renovación.",
+        "✔ Conexión con el agua como elemento regulador del sistema nervioso."
+      ],
+      "observacion": [
+        "Duchas largas como refugio o como evitación.",
+        "Miedo al agua (trauma vinculado a líquidos).",
+        "Uso consciente del agua como ritual de renovación.",
+        "Conexión con el agua como elemento regulador del sistema nervioso."
+      ],
+      "intervenciones": [
+        "Somática:: Uso del agua como herramienta de regulación sensorial (temperatura, presión).",
+        "Mindfulness:: Duchas conscientes como práctica de atención plena.",
+        "Narrativa:: Rituales simbólicos de \"lavar\" lo que ya no sirve."
+      ],
+      "tarea": "Dedica una ducha esta semana a un ritual consciente: imagina que el agua se lleva lo que ya no necesitas. Al salir, dite: \"Dejo ir lo que pesa, me quedo con lo que me nutre\"."
+    },
+    {
+      "codigo": "RE-50",
+      "iconos": [
+        "span",
+        "🔥",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué 'fuego interno' (pasión, causa, deseo profundo) sigue ardiendo en ti aunque la vida haya intentado apagarlo?",
+      "objetivo": "Identificar las pasiones y deseos profundos como recursos de vitalidad, sentido y motivación. Reconectar con el fuego interno que da energía para seguir.",
+      "profundizacion": [
+        "¿Quién o qué intentó apagar ese fuego en tu historia?",
+        "¿Qué necesitas para permitirte avivarlo de nuevo sin culpa?",
+        "¿Cómo sería tu vida si le dedicaras aunque sea un 10% de tu tiempo a ese fuego?",
+        "✔ Apagamiento total (\"ya no me apasiona nada\").",
+        "✔ Fuego oculto por miedo al juicio o al fracaso.",
+        "✔ Emoción intensa (nostalgia, esperanza) al recordar la pasión.",
+        "✔ Culpa por dedicarse a lo que \"no es productivo\"."
+      ],
+      "observacion": [
+        "Apagamiento total (\"ya no me apasiona nada\").",
+        "Fuego oculto por miedo al juicio o al fracaso.",
+        "Emoción intensa (nostalgia, esperanza) al recordar la pasión.",
+        "Culpa por dedicarse a lo que \"no es productivo\"."
+      ],
+      "intervenciones": [
+        "Logoterapia:: La pasión como fuente de sentido y motivación vital.",
+        "ACT:: Compromiso con acciones alineadas a los deseos profundos.",
+        "Narrativa:: Re-escribir la historia como un viaje de recuperación del fuego."
+      ],
+      "tarea": "Identifica ese fuego interno y haz esta semana una acción pequeña (aunque sea de 15 minutos) para alimentarlo. Observa cómo cambia tu energía vital."
+    },
+    {
+      "codigo": "RE-51",
+      "iconos": [
+        "span",
+        "🗺️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Si tuvieras que dibujar un 'mapa del tesoro' de todos tus recursos internos y externos, ¿dónde colocarías cada uno y qué camino los conectaría?",
+      "objetivo": "Integrar visualmente los recursos explorados. Fomentar la síntesis personal y crear una representación gráfica del sistema de apoyo del paciente.",
+      "profundizacion": [
+        "¿Qué recursos están más cerca de tu \"centro\" (los más esenciales)?",
+        "¿Qué recursos están en los \"bordes\" (accesibles pero menos usados)?",
+        "¿Qué caminos o puentes conectan esos recursos entre sí?",
+        "✔ Dificultad para visualizar los recursos como sistema.",
+        "✔ Mapa rico y detallado que revela autoconocimiento.",
+        "✔ Recursos aislados sin conexión entre sí (fragmentación).",
+        "✔ Insight al descubrir patrones en la distribución."
+      ],
+      "observacion": [
+        "Dificultad para visualizar los recursos como sistema.",
+        "Mapa rico y detallado que revela autoconocimiento.",
+        "Recursos aislados sin conexión entre sí (fragmentación).",
+        "Insight al descubrir patrones en la distribución."
+      ],
+      "intervenciones": [
+        "Arte terapia:: Creación del mapa como ejercicio de integración visual.",
+        "Narrativa:: El mapa como metáfora de la identidad integrada.",
+        "Sistémica:: Mapeo de la red de recursos y sus interconexiones."
+      ],
+      "tarea": "Dibuja tu \"mapa del tesoro\" de recursos. Colócalo en un lugar visible. Cada vez que lo mires, recuerda que tienes todo lo que necesitas para navegar tu vida."
+    },
+    {
+      "codigo": "RE-52",
+      "iconos": [
+        "span",
+        "💧",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué recurso has descubierto en este proceso terapéutico que antes no sabías que tenías?",
+      "objetivo": "Consolidar los aprendizajes del proceso terapéutico. Reconocer el crecimiento personal y la expansión del repertorio de recursos.",
+      "profundizacion": [
+        "¿Cómo lo descubriste y en qué momento te diste cuenta?",
+        "¿Qué te permitió acceder a este recurso nuevo?",
+        "¿Cómo sería tu vida si lo usaras con más frecuencia?",
+        "✔ Dificultad para reconocer el crecimiento (minimización del proceso).",
+        "✔ Orgullo y sorpresa al identificar el recurso descubierto.",
+        "✔ Gratitud hacia el proceso terapéutico como catalizador.",
+        "✔ Claridad sobre cómo usarlo en el futuro."
+      ],
+      "observacion": [
+        "Dificultad para reconocer el crecimiento (minimización del proceso).",
+        "Orgullo y sorpresa al identificar el recurso descubierto.",
+        "Gratitud hacia el proceso terapéutico como catalizador.",
+        "Claridad sobre cómo usarlo en el futuro."
+      ],
+      "intervenciones": [
+        "Narrativa:: Re-escribir la historia personal incluyendo este nuevo recurso.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Competente\" que ha desarrollado nuevas habilidades.",
+        "ACT:: Compromiso con el uso consciente del nuevo recurso."
+      ],
+      "tarea": "Escribe una carta de agradecimiento a ti mismo por haber descubierto y desarrollado este recurso. Reconoce el esfuerzo que te costó."
+    },
+    {
+      "codigo": "RE-53",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es tu 'frase ancla' para los momentos difíciles, esa que te recuerda quién eres y de qué eres capaz?",
+      "objetivo": "Crear o consolidar una frase de poder personal que funcione como recurso de acceso rápido en momentos de crisis o duda.",
+      "profundizacion": [
+        "¿De dónde viene esa frase (la creaste, te la dijo alguien, la leíste)?",
+        "¿Qué emociones y sensaciones corporales activa en ti?",
+        "¿Cómo podrías recordarla más fácilmente cuando la necesites?",
+        "✔ Dificultad para crear una frase propia (autocrítica dominante).",
+        "✔ Frases vacías sin resonancia emocional.",
+        "✔ Conexión profunda con una frase que realmente sostiene.",
+        "✔ Alivio al tener un recurso lingüístico tangible."
+      ],
+      "observacion": [
+        "Dificultad para crear una frase propia (autocrítica dominante).",
+        "Frases vacías sin resonancia emocional.",
+        "Conexión profunda con una frase que realmente sostiene.",
+        "Alivio al tener un recurso lingüístico tangible."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva: crear frases realistas y compasivas.",
+        "EMDR:: Instalar la frase como recurso cognitivo-emocional.",
+        "Narrativa:: Integrar la frase en la identidad como voz internalizada."
+      ],
+      "tarea": "Escribe tu frase ancla en una tarjeta pequeña y llévala contigo. Cada vez que la leas, repítela en voz alta y nota cómo se siente tu cuerpo."
+    },
+    {
+      "codigo": "RE-54",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué persona de tu vida actual podría convertirse en un 'recurso futuro' si le permitieras acercarse más?",
+      "objetivo": "Identificar oportunidades de expansión de la red de apoyo. Fomentar la apertura a nuevas conexiones significativas.",
+      "profundizacion": [
+        "¿Qué te impide permitir que esa persona se acerque más?",
+        "¿Qué necesitarías para confiar en que esa conexión sería nutritiva?",
+        "¿Qué ganaría tu vida si cultivaras esa relación?",
+        "✔ Miedo a la vulnerabilidad o al rechazo.",
+        "✔ Reconocimiento de oportunidades de conexión no exploradas.",
+        "✔ Patrones de aislamiento autoimpuesto.",
+        "✔ Apertura gradual a la posibilidad de vincularse."
+      ],
+      "observacion": [
+        "Miedo a la vulnerabilidad o al rechazo.",
+        "Reconocimiento de oportunidades de conexión no exploradas.",
+        "Patrones de aislamiento autoimpuesto.",
+        "Apertura gradual a la posibilidad de vincularse."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar los patrones de vinculación y las barreras internas.",
+        "Terapia de Esquemas:: Desafiar el esquema de Desconfianza/Abuso o Aislamiento Social.",
+        "ACT:: Compromiso con acciones de apertura alineadas al valor de la conexión."
+      ],
+      "tarea": "Esta semana, da un pequeño paso hacia esa persona (un mensaje, una invitación, una conversación más profunda). Observa cómo te sientes y qué respuesta recibes."
+    },
+    {
+      "codigo": "RE-55",
+      "iconos": [
+        "span",
+        "🌿",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué recurso de los explorados en este mazo te resulta más difícil de acceder y por qué?",
+      "objetivo": "Identificar los recursos bloqueados o de difícil acceso. Explorar las barreras internas que impiden su uso y trabajar en su desbloqueo.",
+      "profundizacion": [
+        "¿Qué creencia, miedo o experiencia pasada te impide acceder a ese recurso?",
+        "¿Qué necesitaría cambiar para que ese recurso estuviera más disponible?",
+        "¿Qué pequeño paso podrías dar esta semana para acercarte a él?",
+        "✔ Reconocimiento claro del recurso bloqueado.",
+        "✔ Dolor al reconocer la barrera interna.",
+        "✔ Motivación para trabajar en su desbloqueo.",
+        "✔ Resistencia a explorar por qué está bloqueado."
+      ],
+      "observacion": [
+        "Reconocimiento claro del recurso bloqueado.",
+        "Dolor al reconocer la barrera interna.",
+        "Motivación para trabajar en su desbloqueo.",
+        "Resistencia a explorar por qué está bloqueado."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar las memorias que bloquean el acceso al recurso.",
+        "IFS:: Dialogar con la \"parte protectora\" que bloquea el recurso.",
+        "TCC:: Identificar y cuestionar las creencias limitantes."
+      ],
+      "tarea": "Elige ese recurso bloqueado y dedica 5 minutos al día esta semana a acercarte a él, aunque sea de forma mínima. Anota qué surge y cómo te sientes."
+    },
+    {
+      "codigo": "RE-56",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué 'kit de emergencia' emocional te gustaría tener preparado para los momentos más difíciles?",
+      "objetivo": "Diseñar un plan de autocuidado preventivo. Crear un conjunto de recursos accesibles y personalizados para momentos de crisis.",
+      "profundizacion": [
+        "¿Qué elementos tendría ese kit (acciones, personas, objetos, frases)?",
+        "¿Dónde lo guardarías para que esté accesible cuando lo necesites?",
+        "¿Qué te impide crearlo o usarlo cuando ya tienes los recursos?",
+        "✔ Dificultad para pensar en momentos de crisis (evitación).",
+        "✔ Creatividad y entusiasmo al diseñar el kit.",
+        "✔ Reconocimiento de que ya tiene recursos pero no los organiza.",
+        "✔ Alivio al tener un plan concreto."
+      ],
+      "observacion": [
+        "Dificultad para pensar en momentos de crisis (evitación).",
+        "Creatividad y entusiasmo al diseñar el kit.",
+        "Reconocimiento de que ya tiene recursos pero no los organiza.",
+        "Alivio al tener un plan concreto."
+      ],
+      "intervenciones": [
+        "TCC:: Planificación de afrontamiento y prevención de recaídas.",
+        "DBT:: Creación de un \"kit de supervivencia\" con habilidades de tolerancia al malestar.",
+        "Somática:: Incluir recursos corporales en el kit (respiración, movimiento, toque)."
+      ],
+      "tarea": "Crea tu \"kit de emergencia\" físico o digital esta semana. Puede ser una caja, una carpeta en el celular o una lista en la agenda. Pruébalo en un momento de estrés leve."
+    },
+    {
+      "codigo": "RE-57",
+      "iconos": [
+        "span",
+        "🌅",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo te imaginas usando todos estos recursos dentro de un año, cuando mires hacia atrás y veas todo lo que has logrado?",
+      "objetivo": "Proyectar el uso de recursos hacia el futuro. Fortalecer la esperanza y la autoeficacia mediante la visualización del progreso.",
+      "profundizacion": [
+        "¿Qué desafíos habrás superado usando estos recursos?",
+        "¿Qué nuevos recursos habrás desarrollado en ese año?",
+        "¿Cómo sería tu relación contigo mismo si usaras estos recursos con fluidez?",
+        "✔ Dificultad para imaginar un futuro positivo (desesperanza).",
+        "✔ Vividez y emoción al visualizar el futuro.",
+        "✔ Motivación y compromiso con el proceso.",
+        "✔ Miedo a que los recursos no sean suficientes."
+      ],
+      "observacion": [
+        "Dificultad para imaginar un futuro positivo (desesperanza).",
+        "Vividez y emoción al visualizar el futuro.",
+        "Motivación y compromiso con el proceso.",
+        "Miedo a que los recursos no sean suficientes."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores y visión de vida como guía para la acción.",
+        "Soluciones:: Construcción de expectativas realistas y planificación de pasos.",
+        "Narrativa:: Re-escribir el futuro como una historia de crecimiento continuo."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo del futuro\" (dentro de un año) agradeciéndote por haber desarrollado y usado estos recursos. Guárdala y léela cuando dudes."
+    },
+    {
+      "codigo": "RE-58",
+      "iconos": [
+        "span",
+        "💎",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuál es el recurso más valioso que tienes y que a veces olvidas que es tuyo?",
+      "objetivo": "Reconocer el recurso esencial que suele ser minimizado o dado por sentado. Consolidar la identidad de persona valiosa y capaz.",
+      "profundizacion": [
+        "¿Por qué crees que lo olvidas o lo minimizas?",
+        "¿Qué pasaría si lo reconocieras y lo usaras conscientemente cada día?",
+        "¿Cómo cambiaría tu vida si trataras ese recurso con el valor que merece?",
+        "✔ Dificultad para identificar el recurso más valioso.",
+        "✔ Sorpresa al descubrir que lo tiene y lo da por sentado.",
+        "✔ Emoción intensa (ternura, orgullo) al reconocerlo.",
+        "✔ Compromiso de cuidarlo y usarlo más."
+      ],
+      "observacion": [
+        "Dificultad para identificar el recurso más valioso.",
+        "Sorpresa al descubrir que lo tiene y lo da por sentado.",
+        "Emoción intensa (ternura, orgullo) al reconocerlo.",
+        "Compromiso de cuidarlo y usarlo más."
+      ],
+      "intervenciones": [
+        "Terapia de Esquemas:: Desafiar el esquema de Defecto/Vergüenza que minimiza el valor propio.",
+        "CFT:: Autocompasión y reconocimiento del valor intrínseco.",
+        "Narrativa:: Re-escribir la identidad incluyendo este recurso esencial."
+      ],
+      "tarea": "Escribe ese recurso en un papel y colócalo en un lugar visible. Cada día, míralo y dite: \"Este es mi tesoro, lo reconozco y lo cuido\"."
+    },
+    {
+      "codigo": "RE-59",
+      "iconos": [
+        "span",
+        "🎁",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué regalo te harías a ti mismo/a como compromiso de seguir cuidando todos estos recursos que has descubierto?",
+      "objetivo": "Fomentar el autocuidado como acto de compromiso con uno mismo. Consolidar los recursos mediante un gesto simbólico de auto-aprecio.",
+      "profundizacion": [
+        "¿Qué necesita ese regalo para ser significativo y no solo material?",
+        "¿Qué mensaje te enviarías a ti mismo al dártelo?",
+        "¿Cómo te comprometes a seguir cuidando tus recursos después de este regalo?",
+        "✔ Dificultad para darse regalos (autodesprecio, culpa).",
+        "✔ Creatividad y ternura al pensar en el regalo.",
+        "✔ Compromiso genuino con el autocuidado futuro.",
+        "✔ Emoción al reconocer que se merece cuidado."
+      ],
+      "observacion": [
+        "Dificultad para darse regalos (autodesprecio, culpa).",
+        "Creatividad y ternura al pensar en el regalo.",
+        "Compromiso genuino con el autocuidado futuro.",
+        "Emoción al reconocer que se merece cuidado."
+      ],
+      "intervenciones": [
+        "CFT:: Entrenamiento en autocompasión a través del acto de darse.",
+        "Terapia de Esquemas:: Desafiar el modo del \"Punitivo\" que prohíbe el auto-cuidado.",
+        "Activación Conductual:: Programar el regalo como acción concreta de autocuidado."
+      ],
+      "tarea": "Date ese regalo esta semana (puede ser algo material, una experiencia o un tiempo para ti). Al dártelo, dite: \"Me cuido porque me valoro\". Observa cómo te sientes."
+    },
+    {
+      "codigo": "RE-60",
+      "iconos": [
+        "span",
+        "🌟",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Ahora que has explorado todos estos recursos, ¿qué le dirías a tu 'yo' del inicio de este proceso que no sabía todo lo que ahora sabes?",
+      "objetivo": "Cierre integrador del mazo. Consolidar los aprendizajes, reconocer el crecimiento y fortalecer la identidad de persona con recursos.",
+      "profundizacion": [
+        "¿Qué le dirías para tranquilizarlo/a sobre el proceso que estaba por comenzar?",
+        "¿Qué le agradecerías por haber iniciado este camino de autoconocimiento?",
+        "¿Qué promesa le harías de que seguirás cuidando todos estos recursos?",
+        "✔ Ternura y compasión hacia el \"yo\" del pasado.",
+        "✔ Orgullo por el camino recorrido y los recursos descubiertos.",
+        "✔ Compromiso con el autocuidado futuro.",
+        "✔ Emoción de cierre y gratitud por el proceso."
+      ],
+      "observacion": [
+        "Ternura y compasión hacia el \"yo\" del pasado.",
+        "Orgullo por el camino recorrido y los recursos descubiertos.",
+        "Compromiso con el autocuidado futuro.",
+        "Emoción de cierre y gratitud por el proceso."
+      ],
+      "intervenciones": [
+        "Narrativa:: Integración de la historia de crecimiento en la identidad.",
+        "Gestalt:: Diálogo con el \"yo\" del pasado para cerrar el ciclo.",
+        "ACT:: Compromiso con los valores y recursos descubiertos."
+      ],
+      "tarea": "Escribe una carta a tu \"yo\" del inicio de este proceso. Cuéntale todo lo que has descubierto, lo que has aprendido y lo que prometes seguir cuidando. Guárdala como testimonio de tu crecimiento."
+    }
+  ]
+}

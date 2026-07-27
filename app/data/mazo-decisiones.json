@@ -1,0 +1,2049 @@
+{
+  "id": "decisiones",
+  "nombre": "Decisiones",
+  "numero": 8,
+  "rango": "D-01 a D-60",
+  "descripcion": "Toma de decisiones, indecision cronica, costos de oportunidad, valores y prioridades.",
+  "cartas": [
+    {
+      "codigo": "D-01",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "Cuando estás frente a una encrucijada, ¿qué parte de ti empuja el acelerador y qué parte pisa el freno?",
+      "objetivo": "Explorar la ambivalencia y los conflictos internos al tomar decisiones, identificando las fuerzas en pugna y validando ambas necesidades.",
+      "profundizacion": [
+        "¿Qué teme la parte que pisa el freno?",
+        "¿Qué espera ganar la parte que empuja el acelerador?",
+        "¿Quién suele ganar esta batalla internamente y a qué costo emocional?",
+        "✔ Indecisión visible o cambio constante de postura.",
+        "✔ Racionalización extrema para justificar una de las opciones.",
+        "✔ Alivio al nombrar y validar las dos partes en conflicto.",
+        "✔ Parálisis total (\"no siento nada, estoy bloqueado\")."
+      ],
+      "observacion": [
+        "Indecisión visible o cambio constante de postura.",
+        "Racionalización extrema para justificar una de las opciones.",
+        "Alivio al nombrar y validar las dos partes en conflicto.",
+        "Parálisis total (\"no siento nada, estoy bloqueado\")."
+      ],
+      "intervenciones": [
+        "IFS:: Dialogar con las \"partes\" que quieren avanzar y las que quieren proteger, buscando un acuerdo interno.",
+        "ACT:: Clarificar los valores profundos que hay detrás de cada impulso.",
+        "Gestalt:: Técnica de silla vacía para que ambas partes negocien directamente."
+      ],
+      "tarea": "Dibuja un acelerador y un freno en un papel. Escribe qué dice cada uno sobre tu decisión actual esta semana. No juzgues, solo regístralo."
+    },
+    {
+      "codigo": "D-02",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué precio estás pagando hoy por no tomar una decisión que sabes que está pendiente?",
+      "objetivo": "Visibilizar el costo de la postergación y la parálisis por análisis, movilizando la conciencia sobre el impacto real de la inacción.",
+      "profundizacion": [
+        "¿Cómo afecta este precio a tu energía y tu estado de ánimo diario?",
+        "¿Qué ganas al mantener la situación como está (ganancia secundaria)?",
+        "¿Hasta cuándo estás dispuesto a pagar este costo?",
+        "✔ Agotamiento crónico o quejas somáticas relacionadas con el estrés.",
+        "✔ Minimización del impacto (\"no es para tanto, ya me acostumbré\").",
+        "✔ Culpa o vergüenza al reconocer la evitación.",
+        "✔ Insight repentino sobre el tiempo o la energía perdida."
+      ],
+      "observacion": [
+        "Agotamiento crónico o quejas somáticas relacionadas con el estrés.",
+        "Minimización del impacto (\"no es para tanto, ya me acostumbré\").",
+        "Culpa o vergüenza al reconocer la evitación.",
+        "Insight repentino sobre el tiempo o la energía perdida."
+      ],
+      "intervenciones": [
+        "Motivacional:: Analizar la discrepancia entre el costo actual de no decidir y los valores de vida.",
+        "TCC:: Desafiar las creencias catastróficas sobre las consecuencias de tomar una decisión.",
+        "Narrativa:: Re-escribir la historia de \"víctima de las circunstancias\" a \"protagonista en espera\"."
+      ],
+      "tarea": "Calcula el \"costo\" (tiempo, energía, dinero, paz mental) de no decidir esta semana. Anótalo y compártelo en la próxima sesión."
+    },
+    {
+      "codigo": "D-03",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu intuición y tu lógica tuvieran que votar por esta decisión, ¿cuál sería el resultado y quién se sentiría traicionado?",
+      "objetivo": "Diferenciar y validar tanto el procesamiento racional como el intuitivo, explorando el conflicto clásico mente-corazón.",
+      "profundizacion": [
+        "¿Qué argumentos usa la lógica para defender su voto?",
+        "¿Qué susurra la intuición que la mente se niega a escuchar?",
+        "¿A quién sueles darle el voto decisivo en tu vida y por qué?",
+        "✔ Desprecio por la intuición (\"eso es una tontería, hay que ser racional\").",
+        "✔ Lógica rígida que ignora por completo las señales emocionales.",
+        "✔ Confusión total entre lo que \"pienso\" y lo que \"siento\".",
+        "✔ Alivio al integrar y dar espacio a ambas voces."
+      ],
+      "observacion": [
+        "Desprecio por la intuición (\"eso es una tontería, hay que ser racional\").",
+        "Lógica rígida que ignora por completo las señales emocionales.",
+        "Confusión total entre lo que \"pienso\" y lo que \"siento\".",
+        "Alivio al integrar y dar espacio a ambas voces."
+      ],
+      "intervenciones": [
+        "Focusing:: Atender el \"felt sense\" o sentido sentido de cada opción antes de racionalizar.",
+        "TCC:: Evaluar la evidencia real de los argumentos lógicos presentados.",
+        "Gestalt:: Diálogo de sillas entre la cabeza y el corazón."
+      ],
+      "tarea": "Antes de dormir, pregúntale a tu intuición su voto sobre el tema. Anota la primera palabra o imagen que llegue, sin analizarla ni juzgarla."
+    },
+    {
+      "codigo": "D-04",
+      "iconos": [
+        "span",
+        "😨",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Qué crees que pasaría si te permitieras equivocarte en esta decisión?",
+      "objetivo": "Desactivar el perfeccionismo y el miedo al error, explorando la tolerancia a la incertidumbre y la resiliencia personal.",
+      "profundizacion": [
+        "¿Qué significa para ti \"equivocarte\" en este contexto específico?",
+        "¿Sobrevivirías a ese error? ¿Qué aprenderías de él?",
+        "¿De quién es el estándar de \"no equivocarse nunca\" que estás siguiendo?",
+        "✔ Catastrofización inmediata de las peores consecuencias posibles.",
+        "✔ Rigidez o necesidad de garantías absolutas antes de moverse.",
+        "✔ Alivio al normalizar el error como parte inevitable del aprendizaje.",
+        "✔ Parálisis por miedo al juicio o la decepción externa."
+      ],
+      "observacion": [
+        "Catastrofización inmediata de las peores consecuencias posibles.",
+        "Rigidez o necesidad de garantías absolutas antes de moverse.",
+        "Alivio al normalizar el error como parte inevitable del aprendizaje.",
+        "Parálisis por miedo al juicio o la decepción externa."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la incertidumbre y defusión de la regla \"debo acertar siempre\".",
+        "CFT:: Práctica de autocompasión ante la posibilidad humana de fallar.",
+        "TCC:: Reestructuración cognitiva del pensamiento catastrófico y todo-o-nada."
+      ],
+      "tarea": "Escribe el \"peor escenario posible\" si te equivocas. Luego, escribe 3 formas concretas en las que podrías manejar o resolver ese escenario."
+    },
+    {
+      "codigo": "D-05",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión la estás tomando por ti, o para cumplir la expectativa de alguien más?",
+      "objetivo": "Evaluar la autonomía, la diferenciación del self y la presencia de mandatos o lealtades familiares en la toma de decisiones.",
+      "profundizacion": [
+        "¿De quién es la voz que más resuena al pensar en esta opción?",
+        "¿Qué pasaría si decepcionaras a esa persona o a ese grupo?",
+        "¿Cómo sabrías con certeza que esta decisión es genuinamente tuya?",
+        "✔ Respuesta inmediata de complacencia (\"es lo que ellos quieren\").",
+        "✔ Enojo o resentimiento al reconocer la presión externa.",
+        "✔ Dificultad severa para identificar deseos o preferencias propias.",
+        "✔ Empoderamiento y expansión al reclamar la propia agencia."
+      ],
+      "observacion": [
+        "Respuesta inmediata de complacencia (\"es lo que ellos quieren\").",
+        "Enojo o resentimiento al reconocer la presión externa.",
+        "Dificultad severa para identificar deseos o preferencias propias.",
+        "Empoderamiento y expansión al reclamar la propia agencia."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar lealtades invisibles y genograma de expectativas familiares.",
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Sano\" frente al \"Niño Sumiso\".",
+        "Gestalt:: Experimento de decir \"no\" en voz alta a la expectativa ajena."
+      ],
+      "tarea": "Escribe la decisión en un papel. Tacha todo lo que no sea 100% tuyo. Quédate solo con lo que resuena contigo y léelo en voz alta."
+    },
+    {
+      "codigo": "D-06",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna decisión que estés postergando porque, en el fondo, ya la tomaste pero te da miedo ejecutarla?",
+      "objetivo": "Identificar la disonancia entre la decisión interna ya tomada y la inacción externa por miedo a las consecuencias o al cambio.",
+      "profundizacion": [
+        "¿Qué te dice tu cuerpo cuando piensas en ejecutar esa decisión?",
+        "¿Qué crees que se rompería o se perdería si das ese paso?",
+        "¿Qué necesitas para darte permiso de actuar en consecuencia?",
+        "✔ Suspiro de reconocimiento o risa nerviosa al ser confrontado.",
+        "✔ Justificaciones interminables sobre el \"timing\" perfecto.",
+        "✔ Sensación de peso o, por el contrario, alivio al admitir la verdad.",
+        "✔ Evitación de la mirada al tocar el tema de la ejecución."
+      ],
+      "observacion": [
+        "Suspiro de reconocimiento o risa nerviosa al ser confrontado.",
+        "Justificaciones interminables sobre el \"timing\" perfecto.",
+        "Sensación de peso o, por el contrario, alivio al admitir la verdad.",
+        "Evitación de la mirada al tocar el tema de la ejecución."
+      ],
+      "intervenciones": [
+        "Motivacional:: Explorar la discrepancia entre la acción actual y el deseo real.",
+        "Somática:: Trabajar el impulso de acción congelado y completar el movimiento.",
+        "Narrativa:: Re-autoría de la historia de \"no puedo\" a \"estoy esperando el momento\"."
+      ],
+      "tarea": "Escribe la decisión que ya tomaste internamente. Debajo, escribe el primer paso microscópico para ejecutarla esta semana."
+    },
+    {
+      "codigo": "D-07",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Cuántos 'debería' hay mezclados en esta decisión que en realidad son 'quiero' disfrazados?",
+      "objetivo": "Desmontar la tiranía del \"debería\" y conectar con el deseo auténtico y la motivación intrínseca del paciente.",
+      "profundizacion": [
+        "¿Qué pasaría si eliminaras la palabra \"debería\" de tu vocabulario hoy?",
+        "¿Qué quieres realmente, sin importar lo que sea \"correcto\" o \"esperado\"?",
+        "¿Cómo se siente tu cuerpo cuando cambias \"debo\" por \"elijo\"?",
+        "✔ Lenguaje cargado de obligación, culpa y pesadez.",
+        "✔ Dificultad para acceder a deseos propios (alexitimia de deseos).",
+        "✔ Alivio físico y emocional al traducir deberes en elecciones.",
+        "✔ Resistencia a soltar la moralidad impuesta o el rol de \"bueno/a\"."
+      ],
+      "observacion": [
+        "Lenguaje cargado de obligación, culpa y pesadez.",
+        "Dificultad para acceder a deseos propios (alexitimia de deseos).",
+        "Alivio físico y emocional al traducir deberes en elecciones.",
+        "Resistencia a soltar la moralidad impuesta o el rol de \"bueno/a\"."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión del lenguaje de obligación y reconexión con la elección.",
+        "TCC:: Cuestionamiento socrático de las reglas rígidas y los \"debería\" absolutos.",
+        "Gestalt:: Traducir cada \"debo\" en \"elijo\" y notar el cambio de energía y responsabilidad."
+      ],
+      "tarea": "Durante esta semana, cada vez que digas \"tengo que\" o \"debo\", corrígelo en voz alta por \"elijo\". Observa cómo cambia tu sensación de control."
+    },
+    {
+      "codigo": "D-08",
+      "iconos": [
+        "span",
+        "🍂",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué necesitas soltar para que esta decisión pueda tomar forma?",
+      "objetivo": "Explorar el apego, la renuncia necesaria y el espacio que debe crearse para que surja lo nuevo en la vida del paciente.",
+      "profundizacion": [
+        "¿A qué te estás aferrando que ya no te sirve ni te protege?",
+        "¿Qué miedo te genera el vacío que dejaría ese desapego?",
+        "¿Qué te promete la vida si te animas a soltar el control?",
+        "✔ Aferramiento físico (manos cerradas, postura rígida, mandíbula tensa).",
+        "✔ Tristeza o duelo genuino al nombrar lo que hay que soltar.",
+        "✔ Negación defensiva (\"no tengo que soltar nada, todo está bien\").",
+        "✔ Alivio y expansión corporal al imaginar el desapego."
+      ],
+      "observacion": [
+        "Aferramiento físico (manos cerradas, postura rígida, mandíbula tensa).",
+        "Tristeza o duelo genuino al nombrar lo que hay que soltar.",
+        "Negación defensiva (\"no tengo que soltar nada, todo está bien\").",
+        "Alivio y expansión corporal al imaginar el desapego."
+      ],
+      "intervenciones": [
+        "Gestalt:: Experimento físico de abrir las manos y soltar un objeto simbólico.",
+        "ACT:: Aceptación de la pérdida o el cambio como parte inherente del crecimiento.",
+        "Mindfulness:: Observar el apego y el deseo de controlar sin juzgarlos."
+      ],
+      "tarea": "Elige algo pequeño (un objeto, un hábito, un rencor) y suéltalo simbólicamente esta semana. Anota qué espacio se genera en tu vida."
+    },
+    {
+      "codigo": "D-09",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión nace de la urgencia y el miedo, o de la calma y la claridad?",
+      "objetivo": "Evaluar el estado del sistema nervioso al decidir, diferenciando entre reactividad emocional y elección consciente.",
+      "profundizacion": [
+        "¿Cómo se siente tu cuerpo cuando piensas en esta opción (acelerado o estable)?",
+        "¿Qué pasaría si esperaras 48 horas antes de decidir?",
+        "¿Quién o qué está presionando el reloj internamente?",
+        "✔ Taquicardia, respiración corta o agitación motora al hablar del tema.",
+        "✔ Impulsividad o necesidad de \"resolver ya\" a cualquier costo.",
+        "✔ Claridad, voz pausada y postura relajada (ventana de tolerancia).",
+        "✔ Dificultad extrema para tolerar la espera o la pausa."
+      ],
+      "observacion": [
+        "Taquicardia, respiración corta o agitación motora al hablar del tema.",
+        "Impulsividad o necesidad de \"resolver ya\" a cualquier costo.",
+        "Claridad, voz pausada y postura relajada (ventana de tolerancia).",
+        "Dificultad extrema para tolerar la espera o la pausa."
+      ],
+      "intervenciones": [
+        "Polivagal:: Regular el sistema nervioso antes de cualquier decisión importante.",
+        "TCC:: Identificar distorsiones cognitivas de urgencia y catastrofismo.",
+        "Mindfulness:: Pausa consciente y respiración diafragmática antes de actuar."
+      ],
+      "tarea": "Antes de decidir algo esta semana, haz 3 respiraciones profundas y pregúntate: \"¿Es urgencia o es claridad?\". Anota la respuesta."
+    },
+    {
+      "codigo": "D-10",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🧭",
+        "span"
+      ],
+      "pregunta": "Si le preguntaras a tu cuerpo '¿sí o no?' antes que a tu mente, ¿cuál sería su respuesta?",
+      "objetivo": "Priorizar la sabiduría somática y la intuición corporal como brújula primaria en la toma de decisiones.",
+      "profundizacion": [
+        "¿Dónde sientes la expansión (sí) o la contracción (no) en tu cuerpo?",
+        "¿Confías en la inteligencia de tu cuerpo para guiarte?",
+        "¿Qué te impide hacerle caso a esa señal corporal?",
+        "✔ Expansión en el pecho o abdomen (respuesta afirmativa somática).",
+        "✔ Contracción, nudo o pesadez en el estómago (respuesta negativa).",
+        "✔ Desconexión total (\"mi cuerpo no opina, no siento nada\").",
+        "✔ Sorpresa al notar la claridad y contundencia de la respuesta somática."
+      ],
+      "observacion": [
+        "Expansión en el pecho o abdomen (respuesta afirmativa somática).",
+        "Contracción, nudo o pesadez en el estómago (respuesta negativa).",
+        "Desconexión total (\"mi cuerpo no opina, no siento nada\").",
+        "Sorpresa al notar la claridad y contundencia de la respuesta somática."
+      ],
+      "intervenciones": [
+        "Focusing:: Atender la respuesta corporal directa y no verbal a la pregunta.",
+        "Somática:: Escaneo corporal para localizar el \"sí\" o \"no\" físico.",
+        "IFS:: Dialogar con la parte del cuerpo que tiene la respuesta y validarla."
+      ],
+      "tarea": "Haz una pregunta de sí/no a tu cuerpo sobre tu decisión. Nota la primera sensación física. No la analices, solo regístrala."
+    },
+    {
+      "codigo": "D-11",
+      "iconos": [
+        "span",
+        "⏪",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si ya hubieras tomado esta decisión y miraras hacia atrás desde el futuro, ¿qué te dirías sobre este momento de duda?",
+      "objetivo": "Utilizar la perspectiva temporal y la visualización para reducir la ansiedad y acceder a la sabiduría del \"yo\" futuro.",
+      "profundizacion": [
+        "¿Te agradecerías por haber decidido o por haber esperado?",
+        "¿Qué te diría ese \"yo\" del futuro para calmarte hoy?",
+        "¿Qué resultado, bueno o malo, te haría sentir orgulloso de haber intentado?",
+        "✔ Alivio y cambio de perspectiva al visualizar el futuro.",
+        "✔ Persistencia de la ansiedad a pesar de la visualización (trauma no resuelto).",
+        "✔ Conexión emocional profunda con el \"yo\" futuro.",
+        "✔ Dificultad para imaginar un futuro positivo o diferente."
+      ],
+      "observacion": [
+        "Alivio y cambio de perspectiva al visualizar el futuro.",
+        "Persistencia de la ansiedad a pesar de la visualización (trauma no resuelto).",
+        "Conexión emocional profunda con el \"yo\" futuro.",
+        "Dificultad para imaginar un futuro positivo o diferente."
+      ],
+      "intervenciones": [
+        "Narrativa:: Viaje en el tiempo narrativo para re-autorizar la decisión.",
+        "ACT:: Conexión con el \"Yo observador\" que trasciende el momento presente de angustia.",
+        "Gestalt:: Diálogo de sillas con el \"yo\" del futuro."
+      ],
+      "tarea": "Escribe una carta desde tu \"yo\" de dentro de un año, agradeciéndote por la decisión que estás a punto de tomar. Guárdala."
+    },
+    {
+      "codigo": "D-12",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Puedes tomar esta decisión aunque no tengas todas las garantías ni el mapa completo del camino?",
+      "objetivo": "Trabajar la tolerancia a la incertidumbre y la aceptación de que toda decisión implica un salto de fe.",
+      "profundizacion": [
+        "¿Qué porcentaje de certeza necesitas para moverte? ¿Es realista?",
+        "¿Qué te dice tu miedo sobre lo desconocido?",
+        "¿Qué recurso interno te ha ayudado antes a caminar sin mapa?",
+        "✔ Parálisis por necesidad de control absoluto y datos.",
+        "✔ Ansiedad visible ante lo impredecible.",
+        "✔ Valentía o aceptación serena de la incertidumbre.",
+        "✔ Búsqueda compulsiva de consejos externos para validar."
+      ],
+      "observacion": [
+        "Parálisis por necesidad de control absoluto y datos.",
+        "Ansiedad visible ante lo impredecible.",
+        "Valentía o aceptación serena de la incertidumbre.",
+        "Búsqueda compulsiva de consejos externos para validar."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la incertidumbre como condición inherente a la vida.",
+        "TCC:: Desafiar la creencia de que se necesita el 100% de información para actuar.",
+        "Narrativa:: Explorar historias de resiliencia en la incertidumbre."
+      ],
+      "tarea": "Identifica una decisión pequeña que puedas tomar esta semana sin tener toda la información. Hazla y observa qué pasa."
+    },
+    {
+      "codigo": "D-13",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna lealtad familiar invisible que esté votando en esta decisión por ti?",
+      "objetivo": "Explorar las dinámicas transgeneracionales y las lealtades que condicionan las elecciones actuales.",
+      "profundizacion": [
+        "¿Quién en tu familia tomó una decisión similar y qué le pasó?",
+        "¿Sientes que debes repetir o evitar ese destino a toda costa?",
+        "¿Cómo puedes honrar a tu familia y aun así elegir tu propio camino?",
+        "✔ Mención espontánea de patrones o destinos familiares.",
+        "✔ Miedo a traicionar al sistema familiar o a sus valores.",
+        "✔ Claridad al diferenciar lo propio de lo heredado.",
+        "✔ Culpa al elegir algo diferente a la norma familiar."
+      ],
+      "observacion": [
+        "Mención espontánea de patrones o destinos familiares.",
+        "Miedo a traicionar al sistema familiar o a sus valores.",
+        "Claridad al diferenciar lo propio de lo heredado.",
+        "Culpa al elegir algo diferente a la norma familiar."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma y exploración de lealtades invisibles.",
+        "Constelaciones:: Representación simbólica de la dinámica familiar.",
+        "Narrativa:: Re-escribir el guion familiar y crear uno nuevo."
+      ],
+      "tarea": "Escribe: \"Honro tu camino, pero hoy elijo el mío\". Léelo en voz alta y nota las sensaciones corporales que emergen."
+    },
+    {
+      "codigo": "D-14",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión es un límite que necesitas poner para protegerte, o un muro que estás construyendo por miedo?",
+      "objetivo": "Diferenciar entre un límite saludable (protección con apertura) y un muro defensivo (aislamiento por miedo).",
+      "profundizacion": [
+        "¿Esta decisión te acerca a lo que valoras o te aleja de todo?",
+        "¿Qué temes que pase si dejas la puerta entreabierta?",
+        "¿Cómo se siente la diferencia entre un límite y un muro en tu cuerpo?",
+        "✔ Rigidez y aislamiento defensivo (muro).",
+        "✔ Claridad y firmeza con flexibilidad (límite).",
+        "✔ Confusión entre protegerse y aislarse del mundo.",
+        "✔ Alivio al redefinir un muro como un límite saludable."
+      ],
+      "observacion": [
+        "Rigidez y aislamiento defensivo (muro).",
+        "Claridad y firmeza con flexibilidad (límite).",
+        "Confusión entre protegerse y aislarse del mundo.",
+        "Alivio al redefinir un muro como un límite saludable."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en asertividad para establecer límites claros y efectivos.",
+        "Sistémica:: Evaluar la permeabilidad de los límites familiares.",
+        "ACT:: Valores como guía para la apertura y la conexión."
+      ],
+      "tarea": "Identifica un \"muro\" que hayas construido. Esta semana, intenta poner una \"puerta\" o \"ventana\" en él, aunque sea pequeña."
+    },
+    {
+      "codigo": "D-15",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "⏳",
+        "span"
+      ],
+      "pregunta": "¿Estás analizando esta decisión para tomarla, o para encontrar una excusa perfecta para no tomarla?",
+      "objetivo": "Desenmascarar la parálisis por análisis y la racionalización como mecanismo de evitación experiencial.",
+      "profundizacion": [
+        "¿Cuánta información es realmente necesaria para avanzar?",
+        "¿Qué pasaría si decidieras con el 70% de la información?",
+        "¿Qué ganas al mantenerte en la fase segura de \"análisis\"?",
+        "✔ Listas interminables de pros y contras sin resolución.",
+        "✔ Agotamiento mental por sobre-pensar (rumiación).",
+        "✔ Insight al reconocer la evitación disfrazada de prudencia.",
+        "✔ Alivio al simplificar el proceso de decisión."
+      ],
+      "observacion": [
+        "Listas interminables de pros y contras sin resolución.",
+        "Agotamiento mental por sobre-pensar (rumiación).",
+        "Insight al reconocer la evitación disfrazada de prudencia.",
+        "Alivio al simplificar el proceso de decisión."
+      ],
+      "intervenciones": [
+        "TCC:: Detención del pensamiento y establecimiento de un límite de tiempo para decidir.",
+        "ACT:: Compromiso con la acción valiosa a pesar de la duda.",
+        "Estratégica:: Prescripción de la tarea de decidir al azar para romper el bucle."
+      ],
+      "tarea": "Pon un temporizador de 15 minutos para decidir algo pendiente. Cuando suene, toma la decisión con la información que tengas."
+    },
+    {
+      "codigo": "D-16",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🤝",
+        "span"
+      ],
+      "pregunta": "¿Qué necesitas perdonar (a ti mismo o a otros) para poder avanzar con esta decisión?",
+      "objetivo": "Explorar el resentimiento o la culpa como bloqueos en la toma de decisiones y fomentar la liberación emocional.",
+      "profundizacion": [
+        "¿A quién culpas por la situación que te obliga a decidir?",
+        "¿Qué te impide soltar esa culpa o ese resentimiento?",
+        "¿Cómo cambiaría tu decisión si te liberaras de ese peso?",
+        "✔ Amargura o resentimiento visible al hablar del tema.",
+        "✔ Culpa paralizante o autodesprecio.",
+        "✔ Alivio y ligereza al mencionar la posibilidad del perdón.",
+        "✔ Resistencia a perdonar (\"no se lo merecen\" o \"no me lo merezco\")."
+      ],
+      "observacion": [
+        "Amargura o resentimiento visible al hablar del tema.",
+        "Culpa paralizante o autodesprecio.",
+        "Alivio y ligereza al mencionar la posibilidad del perdón.",
+        "Resistencia a perdonar (\"no se lo merecen\" o \"no me lo merezco\")."
+      ],
+      "intervenciones": [
+        "CFT:: Práctica de autocompasión y perdón dirigido.",
+        "Gestalt:: Silla vacía para expresar y soltar el resentimiento acumulado.",
+        "Narrativa:: Re-enmarcar la historia desde la liberación y no desde la ofensa."
+      ],
+      "tarea": "Escribe una carta de perdón (no necesitas enviarla). Quémala o rómpela como símbolo de liberación para poder decidir."
+    },
+    {
+      "codigo": "D-17",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuál es el costo oculto de la opción que parece más 'segura' o 'fácil'?",
+      "objetivo": "Visibilizar las consecuencias a largo plazo de la evitación o la complacencia, desafiando la ilusión de seguridad.",
+      "profundizacion": [
+        "¿Qué parte de ti se sacrifica si eliges lo \"fácil\"?",
+        "¿Cómo te sentirás contigo mismo en un año si tomas este camino?",
+        "¿Vale la pena ese costo a cambio de la tranquilidad inmediata?",
+        "✔ Minimización del sacrificio personal o la propia anulación.",
+        "✔ Tristeza al reconocer el precio real de la inacción.",
+        "✔ Claridad sobre el costo a largo plazo de la comodidad.",
+        "✔ Miedo a enfrentar el costo de la opción difícil pero auténtica."
+      ],
+      "observacion": [
+        "Minimización del sacrificio personal o la propia anulación.",
+        "Tristeza al reconocer el precio real de la inacción.",
+        "Claridad sobre el costo a largo plazo de la comodidad.",
+        "Miedo a enfrentar el costo de la opción difícil pero auténtica."
+      ],
+      "intervenciones": [
+        "Motivacional:: Análisis de costos y beneficios a largo plazo.",
+        "ACT:: Clarificación de valores vs. comodidad momentánea.",
+        "Terapia de Esquemas:: Desafiar el modo de \"Sumisión\" o \"Autosacrificio\"."
+      ],
+      "tarea": "Escribe el \"costo oculto\" de la opción fácil. Luego, escribe el \"beneficio oculto\" de la opción difícil. Compáralos."
+    },
+    {
+      "codigo": "D-18",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Estás listo para cambiar de rumbo, aunque eso signifique dejar atrás el esfuerzo que ya invertiste?",
+      "objetivo": "Abordar la falacia del costo hundido y la dificultad de abandonar proyectos o relaciones que ya no funcionan.",
+      "profundizacion": [
+        "¿Sigues solo porque ya has invertido mucho tiempo, dinero o emoción?",
+        "¿Qué te dice tu cuerpo sobre continuar en esta dirección agotada?",
+        "¿Qué nuevo espacio se abriría si te permitieras girar?",
+        "✔ Aferramiento al pasado por miedo a \"perder\" lo invertido.",
+        "✔ Agotamiento por insistir en un camino que ya no da frutos.",
+        "✔ Alivio al darse permiso para cambiar de dirección.",
+        "✔ Racionalización defensiva del esfuerzo desperdiciado."
+      ],
+      "observacion": [
+        "Aferramiento al pasado por miedo a \"perder\" lo invertido.",
+        "Agotamiento por insistir en un camino que ya no da frutos.",
+        "Alivio al darse permiso para cambiar de dirección.",
+        "Racionalización defensiva del esfuerzo desperdiciado."
+      ],
+      "intervenciones": [
+        "TCC:: Psicoeducación sobre la falacia del costo hundido.",
+        "Gestalt:: Cierre de ciclos y despedida consciente de lo que fue.",
+        "ACT:: Flexibilidad psicológica para cambiar de dirección."
+      ],
+      "tarea": "Identifica algo en lo que sigues invirtiendo solo por \"lo ya gastado\". Esta semana, permite un pequeño giro o una pausa."
+    },
+    {
+      "codigo": "D-19",
+      "iconos": [
+        "span",
+        "🦋",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la decisión más pequeña que puedes tomar hoy que pondría en movimiento todo lo demás?",
+      "objetivo": "Fomentar la acción microscópica y romper la parálisis mediante un primer paso viable y de bajo riesgo.",
+      "profundizacion": [
+        "¿Por qué esa pequeña acción te da miedo o pereza?",
+        "¿Cómo se sentiría tu cuerpo al dar ese primer paso?",
+        "¿Qué te impide hacerlo hoy mismo?",
+        "✔ Subestimación del poder de los pequeños pasos.",
+        "✔ Alivio al simplificar la decisión a algo manejable.",
+        "✔ Procrastinación incluso de lo pequeño.",
+        "✔ Entusiasmo y activación al visualizar el primer paso."
+      ],
+      "observacion": [
+        "Subestimación del poder de los pequeños pasos.",
+        "Alivio al simplificar la decisión a algo manejable.",
+        "Procrastinación incluso de lo pequeño.",
+        "Entusiasmo y activación al visualizar el primer paso."
+      ],
+      "intervenciones": [
+        "TCC:: Desglose de tareas en pasos microscópicos y alcanzables.",
+        "Activación Conductual:: Programar la acción pequeña en la agenda diaria.",
+        "Soluciones:: Enfocarse en lo que funciona y es posible hacer ahora."
+      ],
+      "tarea": "Define esa \"decisión pequeña\". Hazla hoy antes de que termine el día. Anota cómo te sentiste después de hacerla."
+    },
+    {
+      "codigo": "D-20",
+      "iconos": [
+        "span",
+        "🎉",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo vas a celebrar tu capacidad de elegir, independientemente del resultado de esta decisión?",
+      "objetivo": "Fomentar la autoeficacia, la autonomía y la celebración del proceso de decidir, desvinculando el valor personal del resultado.",
+      "profundizacion": [
+        "¿Por qué es valiente de tu parte estar frente a esta elección?",
+        "¿Cómo puedes honrar tu propio poder de decisión hoy?",
+        "¿Qué te dirías para reforzar tu confianza en ti mismo?",
+        "✔ Dificultad para reconocerse el mérito de decidir.",
+        "✔ Autocrítica enfocada solo en el posible resultado.",
+        "✔ Orgullo y empoderamiento al reconocer la propia agencia.",
+        "✔ Alegría y expansión corporal al celebrar."
+      ],
+      "observacion": [
+        "Dificultad para reconocerse el mérito de decidir.",
+        "Autocrítica enfocada solo en el posible resultado.",
+        "Orgullo y empoderamiento al reconocer la propia agencia.",
+        "Alegría y expansión corporal al celebrar."
+      ],
+      "intervenciones": [
+        "CFT:: Autocompasión y reconocimiento del esfuerzo y la valentía.",
+        "Narrativa:: Construir una identidad de \"persona que decide y actúa\".",
+        "Humanista:: Validación incondicional de la capacidad de elección."
+      ],
+      "tarea": "Esta semana, celebra una decisión que hayas tomado (por pequeña que sea). Haz algo que te guste y dite: \"Confío en mi capacidad de elegir\"."
+    },
+    {
+      "codigo": "D-21",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué estás evitando sentir al mantenerte en esta zona de 'análisis' interminable?",
+      "objetivo": "Desenmascarar la parálisis por análisis como una estrategia de evitación experiencial de emociones displacenteras (miedo, duelo, vergüenza).",
+      "profundizacion": [
+        "¿Qué emoción específica aparecería si dejaras de pensar y empezaras a actuar?",
+        "¿Cuánto tiempo llevás usando la 'prudencia' como disfraz del miedo?",
+        "¿Qué pasaría si te permitieras sentir esa emoción sin que te destruya?",
+        "✔ Intelectualización excesiva y vocabulario técnico para distanciarse.",
+        "✔ Agotamiento mental visible (ojeras, tensión mandibular).",
+        "✔ Insight repentino al nombrar la emoción evitada.",
+        "✔ Resistencia a abandonar la seguridad de la rumiación."
+      ],
+      "observacion": [
+        "Intelectualización excesiva y vocabulario técnico para distanciarse.",
+        "Agotamiento mental visible (ojeras, tensión mandibular).",
+        "Insight repentino al nombrar la emoción evitada.",
+        "Resistencia a abandonar la seguridad de la rumiación."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de los pensamientos rumiantes y exposición gradual a la emoción evitada.",
+        "Somática:: Localizar la sensación física de la evitación y respirar hacia ella sin huir.",
+        "Gestalt:: Amplificar la parte que 'analiza' para que revele su miedo subyacente."
+      ],
+      "tarea": "Esta semana, cuando notes que empezás a dar vueltas sobre lo mismo, detenete y preguntate: \"¿Qué emoción estoy evitando ahora?\". Anotala y dejala estar por 2 minutos sin intentar resolverla."
+    },
+    {
+      "codigo": "D-22",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si tu intuición y tu lógica tuvieran que votar por esta decisión, ¿cuál sería el resultado y quién se sentiría traicionado?",
+      "objetivo": "Diferenciar y validar tanto el procesamiento racional como el intuitivo, explorando el conflicto clásico mente-corazón y las lealtades internas.",
+      "profundizacion": [
+        "¿Qué argumentos usa la lógica para defender su voto?",
+        "¿Qué susurra la intuición que la mente se niega a escuchar?",
+        "¿A quién sueles darle el voto decisivo en tu vida y por qué?",
+        "✔ Desprecio por la intuición (\"eso es una tontería, hay que ser racional\").",
+        "✔ Lógica rígida que ignora por completo las señales emocionales.",
+        "✔ Confusión total entre lo que \"pienso\" y lo que \"siento\".",
+        "✔ Alivio al integrar y dar espacio a ambas voces."
+      ],
+      "observacion": [
+        "Desprecio por la intuición (\"eso es una tontería, hay que ser racional\").",
+        "Lógica rígida que ignora por completo las señales emocionales.",
+        "Confusión total entre lo que \"pienso\" y lo que \"siento\".",
+        "Alivio al integrar y dar espacio a ambas voces."
+      ],
+      "intervenciones": [
+        "Focusing:: Atender el \"felt sense\" o sentido sentido de cada opción antes de racionalizar.",
+        "TCC:: Evaluar la evidencia real de los argumentos lógicos presentados.",
+        "Gestalt:: Diálogo de sillas entre la cabeza y el corazón."
+      ],
+      "tarea": "Antes de dormir, pregúntale a tu intuición su voto sobre el tema. Anota la primera palabra o imagen que llegue, sin analizarla ni juzgarla."
+    },
+    {
+      "codigo": "D-23",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión la estás tomando por vos, o para cumplir la expectativa de alguien más?",
+      "objetivo": "Evaluar la autonomía, la diferenciación del self y la presencia de mandatos o lealtades familiares en la toma de decisiones.",
+      "profundizacion": [
+        "¿De quién es la voz que más resuena al pensar en esta opción?",
+        "¿Qué pasaría si decepcionaras a esa persona o a ese grupo?",
+        "¿Cómo sabrías con certeza que esta decisión es genuinamente tuya?",
+        "✔ Respuesta inmediata de complacencia (\"es lo que ellos quieren\").",
+        "✔ Enojo o resentimiento al reconocer la presión externa.",
+        "✔ Dificultad severa para identificar deseos o preferencias propias.",
+        "✔ Empoderamiento y expansión al reclamar la propia agencia."
+      ],
+      "observacion": [
+        "Respuesta inmediata de complacencia (\"es lo que ellos quieren\").",
+        "Enojo o resentimiento al reconocer la presión externa.",
+        "Dificultad severa para identificar deseos o preferencias propias.",
+        "Empoderamiento y expansión al reclamar la propia agencia."
+      ],
+      "intervenciones": [
+        "Sistémica:: Explorar lealtades invisibles y genograma de expectativas familiares.",
+        "Terapia de Esquemas:: Fortalecer el modo del \"Adulto Sano\" frente al \"Niño Sumiso\".",
+        "Gestalt:: Experimento de decir \"no\" en voz alta a la expectativa ajena."
+      ],
+      "tarea": "Escribe la decisión en un papel. Tacha todo lo que no sea 100% tuyo. Quédate solo con lo que resuena contigo y léelo en voz alta."
+    },
+    {
+      "codigo": "D-24",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Estás buscando la 'decisión perfecta' para evitar el duelo de las opciones que no vas a elegir?",
+      "objetivo": "Abordar el perfeccionismo y el miedo a la pérdida (FOMO) inherente a toda elección, validando el duelo por lo no elegido.",
+      "profundizacion": [
+        "¿Qué te promete la fantasía de la \"opción perfecta\"?",
+        "¿Qué vas a tener que dejar ir inevitablemente, elijas lo que elijas?",
+        "¿Podés permitirte sentir tristeza por lo que queda atrás sin que eso signifique que te equivocaste?",
+        "✔ Búsqueda compulsiva de garantías o validación externa.",
+        "✔ Angustia ante la idea de \"cerrar puertas\".",
+        "✔ Alivio al normalizar que toda elección implica una renuncia.",
+        "✔ Parálisis por miedo a arrepentirse."
+      ],
+      "observacion": [
+        "Búsqueda compulsiva de garantías o validación externa.",
+        "Angustia ante la idea de \"cerrar puertas\".",
+        "Alivio al normalizar que toda elección implica una renuncia.",
+        "Parálisis por miedo a arrepentirse."
+      ],
+      "intervenciones": [
+        "ACT:: Aceptación de la pérdida como parte inherente de la elección comprometida.",
+        "Gestalt:: Ritual simbólico de despedida a las opciones no elegidas.",
+        "TCC:: Reestructuración de la creencia de que \"debe haber una opción sin costos\"."
+      ],
+      "tarea": "Escribí una carta de despedida a la opción que no vas a elegir. Agradecé lo que te ofrecía y soltala simbólicamente."
+    },
+    {
+      "codigo": "D-25",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué dice tu cuerpo cuando decís 'sí' con la boca, pero tu interior grita 'no'?",
+      "objetivo": "Conectar con la disonancia cognitivo-afectiva y las señales somáticas de incongruencia en la toma de decisiones por complacencia.",
+      "profundizacion": [
+        "¿Dónde sentís físicamente ese \"no\" que no sale (estómago, garganta, pecho)?",
+        "¿Qué temés que pase si ese \"no\" se convierte en palabras?",
+        "¿Cuánta energía te cuesta mantener esa contradicción interna?",
+        "✔ Tensión mandibular, nudo en la garganta o pesadez en el pecho.",
+        "✔ Sonrisa forzada mientras se describe una situación de sumisión.",
+        "✔ Alivio físico inmediato al ensayar un \"no\" en el consultorio.",
+        "✔ Minimización del malestar corporal (\"es solo estrés\")."
+      ],
+      "observacion": [
+        "Tensión mandibular, nudo en la garganta o pesadez en el pecho.",
+        "Sonrisa forzada mientras se describe una situación de sumisión.",
+        "Alivio físico inmediato al ensayar un \"no\" en el consultorio.",
+        "Minimización del malestar corporal (\"es solo estrés\")."
+      ],
+      "intervenciones": [
+        "Sensoriomotriz:: Amplificar la sensación corporal del \"no\" y permitirle expresarse mediante un gesto o sonido.",
+        "DBT:: Entrenamiento en habilidades de asertividad y límites interpersonales.",
+        "IFS:: Dialogar con la parte que dice \"sí\" por miedo y proteger a la parte que grita \"no\"."
+      ],
+      "tarea": "Esta semana, cuando sientas esa disonancia, poné una mano en la zona donde sentís el \"no\" y decí internamente: \"Te escucho. Tu no es válido\"."
+    },
+    {
+      "codigo": "D-26",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Estás dispuesto a hacerte responsable de las consecuencias de esta elección, incluso si salen mal?",
+      "objetivo": "Trabajar la madurez emocional, la asunción de la responsabilidad radical y el paso de la queja a la agencia personal.",
+      "profundizacion": [
+        "¿A quién le estás intentando culpar por adelantado si esto sale mal?",
+        "¿Qué te dice sobre tu propia fortaleza el hecho de poder asumir ese riesgo?",
+        "¿Preferís la seguridad de la queja o la libertad de la responsabilidad?",
+        "✔ Búsqueda de un \"chivo expiatorio\" o externalización de la culpa.",
+        "✔ Miedo paralizante a la propia capacidad de reparación.",
+        "✔ Postura erguida y voz firme al aceptar la responsabilidad.",
+        "✔ Infantilización o espera de que el terapeuta decida por él/ella."
+      ],
+      "observacion": [
+        "Búsqueda de un \"chivo expiatorio\" o externalización de la culpa.",
+        "Miedo paralizante a la propia capacidad de reparación.",
+        "Postura erguida y voz firme al aceptar la responsabilidad.",
+        "Infantilización o espera de que el terapeuta decida por él/ella."
+      ],
+      "intervenciones": [
+        "Existencial:: Abrazar la libertad y la responsabilidad como dos caras de la misma moneda.",
+        "Terapia de Esquemas:: Fortalecer el \"Adulto Sano\" que puede manejar las consecuencias.",
+        "Narrativa:: Re-escribir la historia de \"víctima de las circunstancias\" a \"autor de mi vida\"."
+      ],
+      "tarea": "Escribí: \"Elijo esto y me hago responsable de lo que pase\". Leelo en voz alta y notá si sentís miedo, alivio o poder."
+    },
+    {
+      "codigo": "D-27",
+      "iconos": [
+        "span",
+        "🌊",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué pasaría si en lugar de intentar controlar el resultado, te enfocaras solo en la calidad de tu intención?",
+      "objetivo": "Desplazar el foco del resultado (incontrolable) a la intención y el proceso (controlables), reduciendo la ansiedad de desempeño.",
+      "profundizacion": [
+        "¿Cuál es la intención más pura detrás de esta decisión?",
+        "¿Cómo cambiaría tu forma de actuar si supieras que el resultado no depende 100% de vos?",
+        "¿Podés valorar tu esfuerzo independientemente de lo que pase después?",
+        "✔ Ansiedad por el futuro y necesidad de garantías.",
+        "✔ Alivio al soltar la carga del control absoluto.",
+        "✔ Dificultad para separar el valor personal del resultado obtenido.",
+        "✔ Mayor fluidez y creatividad al hablar del proceso."
+      ],
+      "observacion": [
+        "Ansiedad por el futuro y necesidad de garantías.",
+        "Alivio al soltar la carga del control absoluto.",
+        "Dificultad para separar el valor personal del resultado obtenido.",
+        "Mayor fluidez y creatividad al hablar del proceso."
+      ],
+      "intervenciones": [
+        "ACT:: Defusión de la necesidad de control y compromiso con la acción valiosa.",
+        "Mindfulness:: Práctica de atención plena en la intención del momento presente.",
+        "CFT:: Autocompasión por el esfuerzo, independientemente del desenlace."
+      ],
+      "tarea": "Antes de actuar esta semana, definí tu intención en una frase (\"Mi intención es ser honesto\"). Al final del día, evaluá solo si cumpliste esa intención, no el resultado."
+    },
+    {
+      "codigo": "D-28",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión es un límite que necesitás poner para protegerte, o un muro que estás construyendo por miedo?",
+      "objetivo": "Diferenciar entre un límite saludable (protección con apertura) y un muro defensivo (aislamiento por miedo) en la toma de decisiones relacionales.",
+      "profundizacion": [
+        "¿Esta decisión te acerca a lo que valorás o te aleja de todo?",
+        "¿Qué temés que pase si dejás la puerta entreabierta?",
+        "¿Cómo se siente la diferencia entre un límite y un muro en tu cuerpo?",
+        "✔ Rigidez y aislamiento defensivo (muro).",
+        "✔ Claridad y firmeza con flexibilidad (límite).",
+        "✔ Confusión entre protegerse y aislarse del mundo.",
+        "✔ Alivio al redefinir un muro como un límite saludable."
+      ],
+      "observacion": [
+        "Rigidez y aislamiento defensivo (muro).",
+        "Claridad y firmeza con flexibilidad (límite).",
+        "Confusión entre protegerse y aislarse del mundo.",
+        "Alivio al redefinir un muro como un límite saludable."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en asertividad para establecer límites claros y efectivos.",
+        "Sistémica:: Evaluar la permeabilidad de los límites familiares y de pareja.",
+        "ACT:: Valores como guía para la apertura y la conexión a pesar del miedo."
+      ],
+      "tarea": "Identificá un \"muro\" que hayas construido. Esta semana, intentá poner una \"puerta\" o \"ventana\" en él, aunque sea pequeña, y observá qué pasa."
+    },
+    {
+      "codigo": "D-29",
+      "iconos": [
+        "span",
+        "⏪",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "Si ya hubieras tomado esta decisión y miraras hacia atrás desde el futuro, ¿qué te dirías sobre este momento de duda?",
+      "objetivo": "Utilizar la perspectiva temporal y la visualización para reducir la ansiedad y acceder a la sabiduría del \"yo\" futuro.",
+      "profundizacion": [
+        "¿Te agradecerías por haber decidido o por haber esperado?",
+        "¿Qué te diría ese \"yo\" del futuro para calmarte hoy?",
+        "¿Qué resultado, bueno o malo, te haría sentir orgulloso de haber intentado?",
+        "✔ Alivio y cambio de perspectiva al visualizar el futuro.",
+        "✔ Persistencia de la ansiedad a pesar de la visualización (trauma no resuelto).",
+        "✔ Conexión emocional profunda con el \"yo\" futuro.",
+        "✔ Dificultad para imaginar un futuro positivo o diferente."
+      ],
+      "observacion": [
+        "Alivio y cambio de perspectiva al visualizar el futuro.",
+        "Persistencia de la ansiedad a pesar de la visualización (trauma no resuelto).",
+        "Conexión emocional profunda con el \"yo\" futuro.",
+        "Dificultad para imaginar un futuro positivo o diferente."
+      ],
+      "intervenciones": [
+        "Narrativa:: Viaje en el tiempo narrativo para re-autorizar la decisión.",
+        "ACT:: Conexión con el \"Yo observador\" que trasciende el momento presente de angustia.",
+        "Gestalt:: Diálogo de sillas con el \"yo\" del futuro."
+      ],
+      "tarea": "Escribí una carta desde tu \"yo\" de dentro de un año, agradeciéndote por la decisión que estás a punto de tomar. Guardala."
+    },
+    {
+      "codigo": "D-30",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Sos consciente de que no decidir también es una decisión, y qué estás eligiendo con esa inacción?",
+      "objetivo": "Hacer consciente la paradoja de la elección: la inacción es una acción con consecuencias, a menudo elegida por defecto para evitar la responsabilidad.",
+      "profundizacion": [
+        "¿Qué estás eligiendo exactamente al mantenerte quieto/a?",
+        "¿Quién o qué se beneficia de que no tomes una decisión?",
+        "¿Hasta cuándo estás dispuesto/a a pagar el precio de esta \"no-decisión\"?",
+        "✔ Sorpresa o resistencia al ser confrontado con la responsabilidad de la inacción.",
+        "✔ Victimización (\"es que no tengo opción\").",
+        "✔ Claridad repentina sobre el costo de la pasividad.",
+        "✔ Movimiento hacia la toma de posición activa."
+      ],
+      "observacion": [
+        "Sorpresa o resistencia al ser confrontado con la responsabilidad de la inacción.",
+        "Victimización (\"es que no tengo opción\").",
+        "Claridad repentina sobre el costo de la pasividad.",
+        "Movimiento hacia la toma de posición activa."
+      ],
+      "intervenciones": [
+        "Existencial:: Confrontación amable con la libertad radical y la responsabilidad de elegir.",
+        "Motivacional:: Análisis de la discrepancia entre la inacción actual y los valores de vida.",
+        "TCC:: Cuestionamiento de la creencia de que \"no hacer nada\" es una opción neutra."
+      ],
+      "tarea": "Completá la frase: \"Al no decidir sobre [tema], estoy eligiendo activamente [consecuencia]\". Leela y observá tu reacción."
+    },
+    {
+      "codigo": "D-31",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cuáles son los 3 valores no negociables que deben estar presentes en esta decisión para que te sientas en paz?",
+      "objetivo": "Anclar la toma de decisiones en los valores profundos del paciente, proporcionando una brújula ética y emocional estable en medio de la incertidumbre.",
+      "profundizacion": [
+        "¿Por qué estos valores son tan importantes para vos?",
+        "¿Alguna de las opciones actuales viola alguno de estos valores?",
+        "¿Cómo te sentirías contigo mismo/a si traicionaras uno de estos valores por conveniencia?",
+        "✔ Dificultad para identificar valores más allá de \"estar bien\" o \"no sufrir\".",
+        "✔ Claridad y firmeza al nombrar los valores.",
+        "✔ Alivio al usar los valores como filtro para descartar opciones.",
+        "✔ Conflicto entre dos valores igualmente importantes (ej. seguridad vs. libertad)."
+      ],
+      "observacion": [
+        "Dificultad para identificar valores más allá de \"estar bien\" o \"no sufrir\".",
+        "Claridad y firmeza al nombrar los valores.",
+        "Alivio al usar los valores como filtro para descartar opciones.",
+        "Conflicto entre dos valores igualmente importantes (ej. seguridad vs. libertad)."
+      ],
+      "intervenciones": [
+        "ACT:: Ejercicios de clarificación de valores y brújula de valores.",
+        "Narrativa:: Explorar momentos pasados donde el paciente vivió fiel a estos valores.",
+        "Humanista:: Validación de la integridad personal como fuente de autoestima."
+      ],
+      "tarea": "Escribí tus 3 valores no negociables en una tarjeta. Llévala con vos esta semana y consultala antes de cualquier decisión pequeña."
+    },
+    {
+      "codigo": "D-32",
+      "iconos": [
+        "span",
+        "🍂",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Qué necesitás perdonar (a vos mismo o a otros) para poder avanzar con esta decisión?",
+      "objetivo": "Explorar el resentimiento o la culpa como bloqueos en la toma de decisiones y fomentar la liberación emocional necesaria para avanzar.",
+      "profundizacion": [
+        "¿A quién culpas por la situación que te obliga a decidir?",
+        "¿Qué te impide soltar esa culpa o ese resentimiento?",
+        "¿Cómo cambiaría tu decisión si te liberaras de ese peso emocional?",
+        "✔ Amargura o resentimiento visible al hablar del tema.",
+        "✔ Culpa paralizante o autodesprecio.",
+        "✔ Alivio y ligereza al mencionar la posibilidad del perdón.",
+        "✔ Resistencia a perdonar (\"no se lo merecen\" o \"no me lo merezco\")."
+      ],
+      "observacion": [
+        "Amargura o resentimiento visible al hablar del tema.",
+        "Culpa paralizante o autodesprecio.",
+        "Alivio y ligereza al mencionar la posibilidad del perdón.",
+        "Resistencia a perdonar (\"no se lo merecen\" o \"no me lo merezco\")."
+      ],
+      "intervenciones": [
+        "CFT:: Práctica de autocompasión y perdón dirigido hacia uno mismo y otros.",
+        "Gestalt:: Silla vacía para expresar y soltar el resentimiento acumulado.",
+        "Narrativa:: Re-enmarcar la historia desde la liberación y no desde la ofensa."
+      ],
+      "tarea": "Escribí una carta de perdón (no necesitás enviarla). Quémala o rómpala como símbolo de liberación para poder decidir con la mente clara."
+    },
+    {
+      "codigo": "D-33",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Confiás en tu propia capacidad de reparar las cosas si esta decisión sale mal?",
+      "objetivo": "Evaluar y fortalecer la autoeficacia y la resiliencia, desplazando el miedo al error por la confianza en la propia capacidad de respuesta.",
+      "profundizacion": [
+        "¿Qué evidencia tenés de tu vida pasada que demuestre que podés manejar situaciones difíciles?",
+        "¿Qué recursos internos o externos usarías si necesitaras reparar un daño?",
+        "¿Por qué te exigís ser infalible en lugar de ser capaz de reparar?",
+        "✔ Desconfianza total en la propia capacidad de manejo (\"me voy a derrumbar\").",
+        "✔ Reconocimiento de fortalezas pasadas ignoradas.",
+        "✔ Alivio al darse cuenta de que no necesita ser perfecto, solo resiliente.",
+        "✔ Búsqueda excesiva de garantías externas."
+      ],
+      "observacion": [
+        "Desconfianza total en la propia capacidad de manejo (\"me voy a derrumbar\").",
+        "Reconocimiento de fortalezas pasadas ignoradas.",
+        "Alivio al darse cuenta de que no necesita ser perfecto, solo resiliente.",
+        "Búsqueda excesiva de garantías externas."
+      ],
+      "intervenciones": [
+        "TCC:: Revisión de evidencia de resiliencia y autoeficacia en el historial del paciente.",
+        "Soluciones:: Identificación de estrategias de afrontamiento que ya funcionan.",
+        "EMDR:: Instalación de recurso de \"capacidad de manejo\" o \"adulto competente\"."
+      ],
+      "tarea": "Hacé una lista de 3 momentos en tu vida donde algo salió mal y vos lograste manejarlo o repararlo. Lée-la cuando sientas miedo a decidir."
+    },
+    {
+      "codigo": "D-34",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Esta urgencia por decidir es real, o es una ansiedad disfrazada que te empuja a actuar antes de tiempo?",
+      "objetivo": "Diferenciar entre una urgencia genuina del entorno y la ansiedad interna que simula urgencia para aliviar la tensión de la incertidumbre.",
+      "profundizacion": [
+        "¿Qué pasaría concretamente si esperaras 48 horas más?",
+        "¿Quién o qué está presionando el reloj internamente?",
+        "¿Cómo se siente tu cuerpo: acelerado por una fecha límite real o por pánico?",
+        "✔ Taquicardia, respiración corta o agitación motora al hablar del tema.",
+        "✔ Impulsividad o necesidad de \"resolver ya\" a cualquier costo.",
+        "✔ Claridad y calma al comprobar que no hay una fecha límite real.",
+        "✔ Dificultad extrema para tolerar la espera o la pausa."
+      ],
+      "observacion": [
+        "Taquicardia, respiración corta o agitación motora al hablar del tema.",
+        "Impulsividad o necesidad de \"resolver ya\" a cualquier costo.",
+        "Claridad y calma al comprobar que no hay una fecha límite real.",
+        "Dificultad extrema para tolerar la espera o la pausa."
+      ],
+      "intervenciones": [
+        "Polivagal:: Regular el sistema nervioso antes de cualquier decisión importante (ej. suspiro fisiológico).",
+        "TCC:: Identificar distorsiones cognitivas de urgencia y catastrofismo.",
+        "Mindfulness:: Pausa consciente y respiración diafragmática antes de actuar."
+      ],
+      "tarea": "Antes de decidir algo esta semana, hacé 3 respiraciones profundas y preguntate: \"¿Es urgencia real o es ansiedad?\". Anotá la respuesta."
+    },
+    {
+      "codigo": "D-35",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Estás tomando esta decisión desde la abundancia (lo que ganás) o desde la escasez (lo que temés perder)?",
+      "objetivo": "Evaluar el marco mental (framing) de la decisión, promoviendo un cambio de perspectiva desde el miedo a la pérdida hacia la búsqueda de crecimiento.",
+      "profundizacion": [
+        "¿Cómo cambiaría esta decisión si supieras que vas a tener lo suficiente pase lo que pase?",
+        "¿Qué oportunidad estás dejando de ver por estar tan enfocado en el peligro?",
+        "¿Qué necesita tu parte asustada para sentirse segura y permitirte elegir desde la confianza?",
+        "✔ Lenguaje catastrófico y enfocado en la pérdida.",
+        "✔ Apertura y curiosidad al explorar la perspectiva de la abundancia.",
+        "✔ Rigidez defensiva ante la idea de \"arriesgar\".",
+        "✔ Alivio al reconocer que el miedo está distorsionando las opciones."
+      ],
+      "observacion": [
+        "Lenguaje catastrófico y enfocado en la pérdida.",
+        "Apertura y curiosidad al explorar la perspectiva de la abundancia.",
+        "Rigidez defensiva ante la idea de \"arriesgar\".",
+        "Alivio al reconocer que el miedo está distorsionando las opciones."
+      ],
+      "intervenciones": [
+        "TCC:: Reestructuración cognitiva para cambiar el encuadre de pérdida a oportunidad.",
+        "ACT:: Conexión con la vitalidad y la expansión que traen las elecciones basadas en valores.",
+        "Sistémica:: Explorar creencias familiares de escasez (\"no hay suficiente para todos\")."
+      ],
+      "tarea": "Reescribí tu dilema actual enfocándote solo en lo que podés ganar o aprender, no en lo que podés perder. Observá cómo cambia tu energía."
+    },
+    {
+      "codigo": "D-36",
+      "iconos": [
+        "span",
+        "👣",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la decisión más pequeña y microscópica que podés tomar hoy que pondría en movimiento todo lo demás?",
+      "objetivo": "Fomentar la acción microscópica y romper la parálisis mediante un primer paso viable, concreto y de bajo riesgo.",
+      "profundizacion": [
+        "¿Por qué esa pequeña acción te da miedo o pereza?",
+        "¿Cómo se sentiría tu cuerpo al dar ese primer paso mínimo?",
+        "¿Qué te impide hacerlo hoy mismo, en las próximas 24 horas?",
+        "✔ Subestimación del poder de los pequeños pasos.",
+        "✔ Alivio al simplificar la decisión a algo manejable.",
+        "✔ Procrastinación incluso de lo pequeño.",
+        "✔ Entusiasmo y activación al visualizar el primer paso."
+      ],
+      "observacion": [
+        "Subestimación del poder de los pequeños pasos.",
+        "Alivio al simplificar la decisión a algo manejable.",
+        "Procrastinación incluso de lo pequeño.",
+        "Entusiasmo y activación al visualizar el primer paso."
+      ],
+      "intervenciones": [
+        "TCC:: Desglose de tareas en pasos microscópicos y alcanzables (shaping).",
+        "Activación Conductual:: Programar la acción pequeña en la agenda diaria con hora específica.",
+        "Soluciones:: Enfocarse en lo que funciona y es posible hacer ahora mismo."
+      ],
+      "tarea": "Definí esa \"decisión pequeña\". Hacela hoy antes de que termine el día. Anotá cómo te sentiste después de hacerla."
+    },
+    {
+      "codigo": "D-37",
+      "iconos": [
+        "span",
+        "🕰️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Estás respetando tu propio ritmo en este proceso, o te estás forzando a cumplir un cronograma que no es tuyo?",
+      "objetivo": "Validar la necesidad de tiempos personales en la toma de decisiones, combatiendo la presión social o interna por \"apurar\" los procesos.",
+      "profundizacion": [
+        "¿De quién es este reloj que sentís que te apura?",
+        "¿Qué necesita tu cuerpo y tu mente para sentir que tienen el tiempo justo?",
+        "¿Qué pasaría si te dieras permiso de tardar lo que necesites?",
+        "✔ Agotamiento por intentar acelerar un proceso natural.",
+        "✔ Culpa por \"no avanzar lo suficientemente rápido\".",
+        "✔ Alivio profundo al ser autorizado a ir a su propio ritmo.",
+        "✔ Comparación constante con los tiempos de otros."
+      ],
+      "observacion": [
+        "Agotamiento por intentar acelerar un proceso natural.",
+        "Culpa por \"no avanzar lo suficientemente rápido\".",
+        "Alivio profundo al ser autorizado a ir a su propio ritmo.",
+        "Comparación constante con los tiempos de otros."
+      ],
+      "intervenciones": [
+        "Humanista:: Validación incondicional del ritmo único e irrepetible de cada persona.",
+        "ACT:: Desapego de las reglas sociales de \"productividad\" y \"rapidez\".",
+        "Somática:: Ejercicios de ralentización consciente para reconectar con el tiempo interno."
+      ],
+      "tarea": "Esta semana, cuando sientas presión por apurarte, detente y decí: \"Mi ritmo es válido\". Hacé una pausa de 5 minutos sin hacer nada productivo."
+    },
+    {
+      "codigo": "D-38",
+      "iconos": [
+        "span",
+        "👨‍👩‍👧",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Hay alguna lealtad familiar invisible que esté votando en esta decisión por vos?",
+      "objetivo": "Explorar las dinámicas transgeneracionales y las lealtades invisibles que condicionan las elecciones actuales sin que el paciente sea consciente.",
+      "profundizacion": [
+        "¿Quién en tu familia tomó una decisión similar y qué le pasó?",
+        "¿Sentís que debés repetir o evitar ese destino a toda costa?",
+        "¿Cómo podés honrar a tu familia y aun así elegir tu propio camino?",
+        "✔ Mención espontánea de patrones o destinos familiares.",
+        "✔ Miedo a traicionar al sistema familiar o a sus valores.",
+        "✔ Claridad al diferenciar lo propio de lo heredado.",
+        "✔ Culpa al elegir algo diferente a la norma familiar."
+      ],
+      "observacion": [
+        "Mención espontánea de patrones o destinos familiares.",
+        "Miedo a traicionar al sistema familiar o a sus valores.",
+        "Claridad al diferenciar lo propio de lo heredado.",
+        "Culpa al elegir algo diferente a la norma familiar."
+      ],
+      "intervenciones": [
+        "Sistémica:: Genograma y exploración de lealtades invisibles y mandatos transgeneracionales.",
+        "Constelaciones:: Representación simbólica de la dinámica familiar para liberar al paciente.",
+        "Narrativa:: Re-escribir el guion familiar y crear uno nuevo y propio."
+      ],
+      "tarea": "Escribí: \"Honro tu camino, pero hoy elijo el mío\". Leelo en voz alta y notá las sensaciones corporales que emergen."
+    },
+    {
+      "codigo": "D-39",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Estás listo para cambiar de rumbo, aunque eso signifique dejar atrás el esfuerzo que ya invertiste?",
+      "objetivo": "Abordar la falacia del costo hundido y la dificultad de abandonar proyectos o relaciones que ya no funcionan, a pesar del tiempo invertido.",
+      "profundizacion": [
+        "¿Seguís solo porque ya has invertido mucho tiempo, dinero o emoción?",
+        "¿Qué te dice tu cuerpo sobre continuar en esta dirección agotada?",
+        "¿Qué nuevo espacio se abriría si te permitieras girar y empezar de nuevo?",
+        "✔ Aferramiento al pasado por miedo a \"perder\" lo invertido.",
+        "✔ Agotamiento por insistir en un camino que ya no da frutos.",
+        "✔ Alivio al darse permiso para cambiar de dirección.",
+        "✔ Racionalización defensiva del esfuerzo desperdiciado."
+      ],
+      "observacion": [
+        "Aferramiento al pasado por miedo a \"perder\" lo invertido.",
+        "Agotamiento por insistir en un camino que ya no da frutos.",
+        "Alivio al darse permiso para cambiar de dirección.",
+        "Racionalización defensiva del esfuerzo desperdiciado."
+      ],
+      "intervenciones": [
+        "TCC:: Psicoeducación sobre la falacia del costo hundido y toma de decisiones racional.",
+        "Gestalt:: Cierre de ciclos y despedida consciente de lo que fue.",
+        "ACT:: Flexibilidad psicológica para cambiar de dirección sin aferrarse al pasado."
+      ],
+      "tarea": "Identificá algo en lo que seguís invirtiendo solo por \"lo ya gastado\". Esta semana, permití un pequeño giro o una pausa consciente."
+    },
+    {
+      "codigo": "D-40",
+      "iconos": [
+        "span",
+        "🎉",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cómo vas a celebrar tu capacidad de elegir, independientemente del resultado final de esta decisión?",
+      "objetivo": "Fomentar la autoeficacia, la autonomía y la celebración del proceso de decidir, desvinculando el valor personal del resultado externo.",
+      "profundizacion": [
+        "¿Por qué es valiente de tu parte estar frente a esta elección?",
+        "¿Cómo podés honrar tu propio poder de decisión hoy?",
+        "¿Qué te dirías para reforzar tu confianza en vos mismo/a, pase lo que pase?",
+        "✔ Dificultad para reconocerse el mérito de decidir.",
+        "✔ Autocrítica enfocada solo en el posible resultado.",
+        "✔ Orgullo y empoderamiento al reconocer la propia agencia.",
+        "✔ Alegría y expansión corporal al celebrar el propio esfuerzo."
+      ],
+      "observacion": [
+        "Dificultad para reconocerse el mérito de decidir.",
+        "Autocrítica enfocada solo en el posible resultado.",
+        "Orgullo y empoderamiento al reconocer la propia agencia.",
+        "Alegría y expansión corporal al celebrar el propio esfuerzo."
+      ],
+      "intervenciones": [
+        "CFT:: Autocompasión y reconocimiento del esfuerzo y la valentía de elegir.",
+        "Narrativa:: Construir una identidad de \"persona que decide y actúa\" con orgullo.",
+        "Humanista:: Validación incondicional de la capacidad de elección como derecho humano."
+      ],
+      "tarea": "Esta semana, celebrá una decisión que hayas tomado (por pequeña que sea). Hacé algo que te guste y dite: \"Confío en mi capacidad de elegir\"."
+    },
+    {
+      "codigo": "D-41",
+      "iconos": [
+        "span",
+        "🧭",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Qué oportunidad estás dejando pasar por aferrarte a la seguridad de lo conocido?",
+      "objetivo": "Evaluar el costo de la inacción y la aversión a la pérdida, promoviendo la apertura a nuevas posibilidades más allá de la zona de confort.",
+      "profundizacion": [
+        "¿Qué te promete la seguridad que hoy estás eligiendo?",
+        "¿Qué parte de ti se está marchitando por falta de novedad o desafío?",
+        "¿Qué pasaría si dieras un pequeño paso hacia lo desconocido esta semana?",
+        "✔ Racionalización extrema de la comodidad actual.",
+        "✔ Suspiros o lenguaje corporal de cansancio al hablar de la rutina.",
+        "✔ Miedo paralizante ante la idea de cambiar.",
+        "✔ Destello de entusiasmo al imaginar la nueva oportunidad."
+      ],
+      "observacion": [
+        "Racionalización extrema de la comodidad actual.",
+        "Suspiros o lenguaje corporal de cansancio al hablar de la rutina.",
+        "Miedo paralizante ante la idea de cambiar.",
+        "Destello de entusiasmo al imaginar la nueva oportunidad."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores vs. evitación experiencial del miedo al cambio.",
+        "Narrativa:: Re-escribir la historia de \"seguridad\" como \"estancamiento\" si es el caso.",
+        "Gestalt:: Experimento de imaginar la vida en 5 años si nada cambia."
+      ],
+      "tarea": "Identifica una pequeña oportunidad que has estado evitando. Esta semana, da un paso microscópico hacia ella y anota qué sientes."
+    },
+    {
+      "codigo": "D-42",
+      "iconos": [
+        "span",
+        "🧠",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Cuánto tiempo llevás dejando que tu mente decida por tu corazón, o viceversa?",
+      "objetivo": "Explorar el desequilibrio crónico entre la cognición y la emoción en la toma de decisiones, buscando la integración.",
+      "profundizacion": [
+        "¿Qué ha ganado tu vida cuando has escuchado a tu corazón?",
+        "¿En qué situaciones tu mente te ha salvado de un error?",
+        "¿Cómo sería una decisión donde ambos estén de acuerdo?",
+        "✔ Historial de decisiones impulsivas con arrepentimiento posterior.",
+        "✔ Vida rígida y planificada, pero con sensación de vacío emocional.",
+        "✔ Conflicto interno visible al intentar equilibrar ambas voces.",
+        "✔ Alivio al validar que ambas partes son necesarias."
+      ],
+      "observacion": [
+        "Historial de decisiones impulsivas con arrepentimiento posterior.",
+        "Vida rígida y planificada, pero con sensación de vacío emocional.",
+        "Conflicto interno visible al intentar equilibrar ambas voces.",
+        "Alivio al validar que ambas partes son necesarias."
+      ],
+      "intervenciones": [
+        "IFS:: Facilitar una reunión interna entre la \"parte racional\" y la \"parte emocional\".",
+        "Gestalt:: Diálogo de sillas para negociar un acuerdo mutuo.",
+        "Somática:: Buscar la sensación corporal de coherencia cuando mente y corazón se alinean."
+      ],
+      "tarea": "Escribe una decisión pendiente. Haz dos columnas: \"Lo que dice mi mente\" y \"Lo que dice mi corazón\". Busca un punto medio."
+    },
+    {
+      "codigo": "D-43",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Estás dispuesto a decir 'no' a otros para poder decirte un 'sí' genuino a vos mismo?",
+      "objetivo": "Trabajar la asertividad, la diferenciación del self y el costo de la complacencia en la pérdida de la identidad propia.",
+      "profundizacion": [
+        "¿A quién temes decepcionar si estableces este límite?",
+        "¿Qué te costó decir \"sí\" cuando en realidad querías decir \"no\"?",
+        "¿Cómo se sentiría tu cuerpo al pronunciar un \"no\" firme y amable?",
+        "✔ Culpa anticipatoria ante la idea de establecer un límite.",
+        "✔ Historial de resentimiento acumulado por complacer a otros.",
+        "✔ Voz débil o justificativa al intentar poner un límite.",
+        "✔ Empoderamiento y expansión torácica al practicar el \"no\"."
+      ],
+      "observacion": [
+        "Culpa anticipatoria ante la idea de establecer un límite.",
+        "Historial de resentimiento acumulado por complacer a otros.",
+        "Voz débil o justificativa al intentar poner un límite.",
+        "Empoderamiento y expansión torácica al practicar el \"no\"."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en habilidades interpersonales efectivas (decir no sin culpa).",
+        "Terapia de Esquemas:: Desafiar el modo del \"Niño Sumiso\" y fortalecer al \"Adulto Sano\".",
+        "Gestalt:: Ensayo conductual de decir \"no\" con el cuerpo entero en el consultorio."
+      ],
+      "tarea": "Esta semana, identifica una petición pequeña que no quieras atender. Practica decir: \"Gracias por pensar en mí, pero esta vez no puedo\". Anota cómo te sientes."
+    },
+    {
+      "codigo": "D-44",
+      "iconos": [
+        "span",
+        "⏳",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Te estás engañando pensando que tendrás 'más tiempo' o 'más claridad' en el futuro para decidir esto?",
+      "objetivo": "Desafiar la procrastinación y la falacia de que las condiciones perfectas llegarán mágicamente, fomentando la acción en el presente.",
+      "profundizacion": [
+        "¿Qué evidencia tienes de que el futuro será menos complicado que el presente?",
+        "¿Qué estás evitando enfrentar hoy al posponer esta decisión?",
+        "¿Qué pequeño paso puedes dar hoy, aunque no tengas toda la claridad?",
+        "✔ Uso de frases como \"cuando tenga más dinero/tiempo/energía\".",
+        "✔ Ansiedad al ser confrontado con la realidad del tiempo finito.",
+        "✔ Alivio al aceptar que la claridad llega a veces *después* de actuar.",
+        "✔ Minimización de la urgencia real del problema."
+      ],
+      "observacion": [
+        "Uso de frases como \"cuando tenga más dinero/tiempo/energía\".",
+        "Ansiedad al ser confrontado con la realidad del tiempo finito.",
+        "Alivio al aceptar que la claridad llega a veces *después* de actuar.",
+        "Minimización de la urgencia real del problema."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento de la distorsión cognitiva de \"pensamiento mágico\" sobre el futuro.",
+        "ACT:: Compromiso con la acción valiosa a pesar de la falta de claridad total.",
+        "Existencial:: Conciencia de la finitud del tiempo como motor de decisión auténtica."
+      ],
+      "tarea": "Define una fecha y hora límite para tomar esta decisión pendiente. Escríbela y compártela con alguien de confianza para generar compromiso."
+    },
+    {
+      "codigo": "D-45",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "👤",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión la estás tomando desde tu historia pasada o desde tu realidad presente?",
+      "objetivo": "Diferenciar entre reacciones basadas en trauma o patrones antiguos y elecciones conscientes basadas en el contexto actual.",
+      "profundizacion": [
+        "¿A quién de tu pasado te estás defendiendo o complaciendo con esta elección?",
+        "¿Tu entorno actual es realmente tan peligroso como el de tu infancia?",
+        "¿Qué recursos tienes hoy que no tenías cuando se formó ese patrón?",
+        "✔ Reacciones desproporcionadas al tema de la decisión.",
+        "✔ Insight al conectar la decisión actual con un evento pasado.",
+        "✔ Sensación de estar \"atrapado en el tiempo\".",
+        "✔ Empoderamiento al reconocer los recursos adultos actuales."
+      ],
+      "observacion": [
+        "Reacciones desproporcionadas al tema de la decisión.",
+        "Insight al conectar la decisión actual con un evento pasado.",
+        "Sensación de estar \"atrapado en el tiempo\".",
+        "Empoderamiento al reconocer los recursos adultos actuales."
+      ],
+      "intervenciones": [
+        "EMDR:: Procesar la memoria pasada que está secuestrando la decisión presente.",
+        "IFS:: Actualizar la información de la \"parte\" que sigue creyendo que estamos en peligro.",
+        "Somática:: Ejercicios de orientación al presente para anclar al adulto actual."
+      ],
+      "tarea": "Escribe: \"Hoy soy un adulto con recursos. Esta decisión es sobre mi presente, no sobre mi pasado\". Léela cuando sientas que el miedo antiguo aparece."
+    },
+    {
+      "codigo": "D-46",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Qué te paraliza más: el miedo a tomar una decisión irreversible, o el miedo a no tomar ninguna?",
+      "objetivo": "Explorar la parálisis ante la permanencia de las elecciones y la aversión al cierre de posibilidades.",
+      "profundizacion": [
+        "¿Crees que las decisiones son realmente permanentes o pueden ajustarse?",
+        "¿Qué te dice tu cuerpo sobre el peso de la inacción prolongada?",
+        "¿Podrías ver esta decisión como un experimento en lugar de un destino final?",
+        "✔ Búsqueda obsesiva de garantías de que \"saldrá bien\".",
+        "✔ Agotamiento por mantener todas las opciones abiertas indefinidamente.",
+        "✔ Alivio al re-enmarcar la decisión como un \"paso\" y no como un \"final\".",
+        "✔ Miedo profundo a la irreversibilidad (ej. divorcio, cambio de carrera)."
+      ],
+      "observacion": [
+        "Búsqueda obsesiva de garantías de que \"saldrá bien\".",
+        "Agotamiento por mantener todas las opciones abiertas indefinidamente.",
+        "Alivio al re-enmarcar la decisión como un \"paso\" y no como un \"final\".",
+        "Miedo profundo a la irreversibilidad (ej. divorcio, cambio de carrera)."
+      ],
+      "intervenciones": [
+        "ACT:: Flexibilidad psicológica para aceptar la incertidumbre del compromiso.",
+        "TCC:: Reestructuración de la creencia de \"todo o nada\" sobre las decisiones.",
+        "Narrativa:: Re-escribir la decisión como un capítulo, no como el final del libro."
+      ],
+      "tarea": "Identifica una decisión que sientes como \"irreversible\". Reescribe cómo sería si la vieras como un \"experimento de 3 meses\". Anota las diferencias."
+    },
+    {
+      "codigo": "D-47",
+      "iconos": [
+        "span",
+        "🤝",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Estás dispuesto a pedir ayuda para tomar esta decisión, o insistes en cargar con todo el peso tú solo?",
+      "objetivo": "Evaluar la hiperautonomía defensiva y fomentar la vulnerabilidad de pedir apoyo como un acto de fortaleza, no de debilidad.",
+      "profundizacion": [
+        "¿Qué crees que diría de ti que necesitas ayuda?",
+        "¿Quién en tu vida tiene la sabiduría o la perspectiva que te falta ahora?",
+        "¿Cómo se sentiría tu cuerpo si compartieras esta carga?",
+        "✔ Orgullo herido o resistencia a delegar o consultar.",
+        "✔ Agotamiento visible por intentar resolver todo en soledad.",
+        "✔ Alivio y relajación muscular al considerar pedir apoyo.",
+        "✔ Desconfianza generalizada en las intenciones de los demás."
+      ],
+      "observacion": [
+        "Orgullo herido o resistencia a delegar o consultar.",
+        "Agotamiento visible por intentar resolver todo en soledad.",
+        "Alivio y relajación muscular al considerar pedir apoyo.",
+        "Desconfianza generalizada en las intenciones de los demás."
+      ],
+      "intervenciones": [
+        "Sistémica:: Mapear la red de apoyo y asignar roles de contención específicos.",
+        "Terapia de Esquemas:: Desafiar el esquema de Autosuficiencia Emocional.",
+        "Humanista:: Validar la interdependencia como una necesidad humana saludable."
+      ],
+      "tarea": "Esta semana, pide consejo o ayuda en algo pequeño a alguien de confianza. Observa si el mundo se derrumba o si te sientes más ligero."
+    },
+    {
+      "codigo": "D-48",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Cómo puedes empezar a confiar en ti mismo de nuevo después de haber tomado una decisión de la que te arrepientes?",
+      "objetivo": "Reparar la autoconfianza dañada por errores pasados, normalizando el arrepentimiento como parte del aprendizaje humano.",
+      "profundizacion": [
+        "¿Qué aprendiste de esa decisión que te hace más sabio hoy?",
+        "¿Te tratarías con la misma crueldad que tratas a un amigo que se equivocó?",
+        "¿Qué evidencia tienes de que has tomado buenas decisiones en el pasado?",
+        "✔ Autocastigo severo y rumiación sobre el error pasado.",
+        "✔ Parálisis actual por miedo a repetir la historia.",
+        "✔ Ternura y autocompasión al reconocer la humanidad del error.",
+        "✔ Capacidad de extraer aprendizajes concretos de la experiencia."
+      ],
+      "observacion": [
+        "Autocastigo severo y rumiación sobre el error pasado.",
+        "Parálisis actual por miedo a repetir la historia.",
+        "Ternura y autocompasión al reconocer la humanidad del error.",
+        "Capacidad de extraer aprendizajes concretos de la experiencia."
+      ],
+      "intervenciones": [
+        "CFT:: Práctica de autocompasión dirigida a la parte que se siente culpable.",
+        "Narrativa:: Re-enmarcar el \"error\" como un \"dato necesario\" para el crecimiento.",
+        "TCC:: Registro de evidencias de decisiones exitosas para equilibrar la balanza cognitiva."
+      ],
+      "tarea": "Escribe una carta de perdón a ti mismo por esa decisión pasada. Reconoce que hiciste lo mejor que pudiste con la información que tenías en ese momento."
+    },
+    {
+      "codigo": "D-49",
+      "iconos": [
+        "span",
+        "👣",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Cuál es la decisión más pequeña e insignificante que puedes tomar hoy que te alinearía con tu meta grande?",
+      "objetivo": "Desbloquear la parálisis por la magnitud de la meta, utilizando la estrategia de \"pasos microscópicos\" para generar impulso.",
+      "profundizacion": [
+        "¿Por qué esa pequeña acción te parece \"insignificante\" o difícil?",
+        "¿Cómo se sentiría tu cuerpo al completar esa pequeña victoria?",
+        "¿Qué te impide hacerla en los próximos 24 horas?",
+        "✔ Desdén por los pasos pequeños (\"eso no cambia nada\").",
+        "✔ Alivio al reducir la presión de tener que resolver todo hoy.",
+        "✔ Activación y energía renovada al visualizar una tarea viable.",
+        "✔ Perfeccionismo que rechaza cualquier acción que no sea \"perfecta\"."
+      ],
+      "observacion": [
+        "Desdén por los pasos pequeños (\"eso no cambia nada\").",
+        "Alivio al reducir la presión de tener que resolver todo hoy.",
+        "Activación y energía renovada al visualizar una tarea viable.",
+        "Perfeccionismo que rechaza cualquier acción que no sea \"perfecta\"."
+      ],
+      "intervenciones": [
+        "TCC:: Desglose de tareas (shaping) hasta llegar a un paso ridículamente pequeño.",
+        "Activación Conductual:: Programación de la micro-acción con hora y lugar específicos.",
+        "Soluciones:: Enfocarse en el primer paso, sin preocuparse por toda la escalera."
+      ],
+      "tarea": "Define esa micro-acción. Hazla hoy. Anota en tu celular: \"Hice [acción] y el mundo no se acabó, al contrario, avancé\"."
+    },
+    {
+      "codigo": "D-50",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Estás listo para perdonarte por las decisiones que tomaste cuando no sabías lo que sabes hoy?",
+      "objetivo": "Cerrar el ciclo de la culpa retroactiva, integrando el aprendizaje y permitiendo que el paciente avance sin el lastre del auto-reproche.",
+      "profundizacion": [
+        "¿Qué necesitaba esa versión de ti en ese momento para tomar esa decisión?",
+        "¿Cómo te está castigando hoy el no haberte perdonado?",
+        "¿Qué le dirías a un amigo que estuviera en la misma situación que tú estuviste?",
+        "✔ Llanto liberador al soltar la culpa antigua.",
+        "✔ Resistencia a perdonarse (\"no me lo merezco, fue imperdonable\").",
+        "✔ Cambio en la postura corporal (hombros que bajan, respiración profunda).",
+        "✔ Comprensión intelectual del perdón, pero bloqueo emocional."
+      ],
+      "observacion": [
+        "Llanto liberador al soltar la culpa antigua.",
+        "Resistencia a perdonarse (\"no me lo merezco, fue imperdonable\").",
+        "Cambio en la postura corporal (hombros que bajan, respiración profunda).",
+        "Comprensión intelectual del perdón, pero bloqueo emocional."
+      ],
+      "intervenciones": [
+        "CFT:: Ejercicio de la \"carta compasiva\" desde un yo sabio y amoroso.",
+        "EMDR:: Reprocesar la memoria de la decisión con la perspectiva del adulto actual.",
+        "Gestalt:: Abrazo al \"yo\" del pasado que hizo lo mejor que pudo."
+      ],
+      "tarea": "Mira tu reflejo en el espejo y di en voz alta: \"Te perdono por no saber entonces lo que sabes ahora\". Hazlo durante 3 días seguidos."
+    },
+    {
+      "codigo": "D-51",
+      "iconos": [
+        "span",
+        "⚖️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Cómo sabes cuándo has llegado a 'suficiente' en esta decisión, en lugar de buscar la perfección inalcanzable?",
+      "objetivo": "Trabajar el perfeccionismo paralizante y definir criterios claros de \"suficiencia\" para cerrar ciclos de decisión.",
+      "profundizacion": [
+        "¿Quién te enseñó que \"suficiente\" no era lo bastante bueno?",
+        "¿Qué te costará si sigues buscando esa perfección que no existe?",
+        "¿Podrías aceptar un resultado \"B+\" en lugar de un \"A+\" inalcanzable?",
+        "✔ Revisión obsesiva de detalles sin avanzar.",
+        "✔ Agotamiento y frustración crónica.",
+        "✔ Alivio al establecer un límite claro de \"bueno suficiente\".",
+        "✔ Miedo a ser criticado si el resultado no es perfecto."
+      ],
+      "observacion": [
+        "Revisión obsesiva de detalles sin avanzar.",
+        "Agotamiento y frustración crónica.",
+        "Alivio al establecer un límite claro de \"bueno suficiente\".",
+        "Miedo a ser criticado si el resultado no es perfecto."
+      ],
+      "intervenciones": [
+        "TCC:: Experimento conductual de entregar o decidir con un estándar \"suficiente\" y observar las consecuencias reales.",
+        "ACT:: Defusión de la regla \"debe ser perfecto\" y conexión con la acción efectiva.",
+        "Terapia de Esquemas:: Desafiar el Estándar Inflexible y el modo del Crítico Punitivo."
+      ],
+      "tarea": "Elige una tarea pendiente esta semana. Decídete a completarla al 80% de tu capacidad habitual. Observa si el resultado es realmente catastrófico o simplemente \"suficiente\"."
+    },
+    {
+      "codigo": "D-52",
+      "iconos": [
+        "span",
+        "🔄",
+        "span",
+        "span",
+        "🎯",
+        "span"
+      ],
+      "pregunta": "¿Tienes el coraje de cambiar de opinión, aunque hayas defendido esa postura durante mucho tiempo?",
+      "objetivo": "Fomentar la flexibilidad cognitiva y la humildad intelectual, desvinculando el cambio de opinión de la debilidad o la inconsistencia.",
+      "profundizacion": [
+        "¿Qué te hace pensar que cambiar de opinión es una señal de debilidad?",
+        "¿Qué nueva información has recibido que pone en duda tu postura actual?",
+        "¿Cómo te sentirías si te dieras permiso de evolucionar?",
+        "✔ Rigidez defensiva y justificación excesiva de la postura.",
+        "✔ Miedo a perder credibilidad o respeto ante los demás.",
+        "✔ Alivio y curiosidad al considerar nuevas perspectivas.",
+        "✔ Reconocimiento de que la evolución es parte del crecimiento."
+      ],
+      "observacion": [
+        "Rigidez defensiva y justificación excesiva de la postura.",
+        "Miedo a perder credibilidad o respeto ante los demás.",
+        "Alivio y curiosidad al considerar nuevas perspectivas.",
+        "Reconocimiento de que la evolución es parte del crecimiento."
+      ],
+      "intervenciones": [
+        "TCC:: Cuestionamiento socrático de la creencia de que \"cambiar de opinión es de débiles\".",
+        "Narrativa:: Re-escribir la identidad de \"persona que siempre tiene la razón\" a \"persona que siempre aprende\".",
+        "ACT:: Aceptación de la incertidumbre y apertura a la nueva experiencia."
+      ],
+      "tarea": "Identifica una opinión que hayas sostenido por mucho tiempo. Investiga un argumento válido en contra. Anota cómo te sientes al sostener ambas ideas."
+    },
+    {
+      "codigo": "D-53",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "⚡",
+        "span"
+      ],
+      "pregunta": "¿Esta decisión nace de la culpa, o nace de tus valores más profundos?",
+      "objetivo": "Diferenciar la motivación basada en la evitación de la culpa de la motivación basada en la aproximación a los valores personales.",
+      "profundizacion": [
+        "Si nadie te juzgara, ¿seguirías tomando esta misma decisión?",
+        "¿Qué valor profundo estás honrando con esta elección?",
+        "¿Cómo se siente tu cuerpo cuando decides desde la culpa vs. desde el valor?",
+        "✔ Sensación de pesadez, obligación o resentimiento (culpa).",
+        "✔ Sensación de expansión, propósito y paz (valores).",
+        "✔ Dificultad para identificar valores más allá de \"no hacer daño\".",
+        "✔ Insight al reconocer que ha estado viviendo para calmar culpas ajenas."
+      ],
+      "observacion": [
+        "Sensación de pesadez, obligación o resentimiento (culpa).",
+        "Sensación de expansión, propósito y paz (valores).",
+        "Dificultad para identificar valores más allá de \"no hacer daño\".",
+        "Insight al reconocer que ha estado viviendo para calmar culpas ajenas."
+      ],
+      "intervenciones": [
+        "ACT:: Ejercicio de clarificación de valores y brújula de valores.",
+        "Terapia de Esquemas:: Identificar y desafiar el modo del \"Culpabilizador\".",
+        "Somática:: Contrastar la sensación corporal de la obligación vs. la elección libre."
+      ],
+      "tarea": "Antes de decidir algo esta semana, pregúntate: \"¿Esto es por culpa o por valor?\". Si es por culpa, pausa y reevalúa."
+    },
+    {
+      "codigo": "D-54",
+      "iconos": [
+        "span",
+        "⚡",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿Tu cuerpo ya tomó esta decisión y tu mente es la última en enterarse?",
+      "objetivo": "Validar la sabiduría somática y la intuición corporal que a menudo precede a la comprensión cognitiva de una decisión.",
+      "profundizacion": [
+        "¿Qué síntomas físicos (insomnio, tensión, malestar) han aparecido alrededor de este tema?",
+        "¿Qué te dice tu instinto visceral cuando dejas de pensar?",
+        "¿Por qué tu mente se resiste a aceptar lo que tu cuerpo ya sabe?",
+        "✔ Síntomas psicosomáticos que aumentan al hablar de la opción \"lógica\".",
+        "✔ Alivio físico inmediato al verbalizar la decisión que el cuerpo ya sabía.",
+        "✔ Conflicto entre \"lo que debo hacer\" (mente) y \"lo que siento\" (cuerpo).",
+        "✔ Sorpresa al descubrir que el cuerpo llevaba tiempo \"votando\"."
+      ],
+      "observacion": [
+        "Síntomas psicosomáticos que aumentan al hablar de la opción \"lógica\".",
+        "Alivio físico inmediato al verbalizar la decisión que el cuerpo ya sabía.",
+        "Conflicto entre \"lo que debo hacer\" (mente) y \"lo que siento\" (cuerpo).",
+        "Sorpresa al descubrir que el cuerpo llevaba tiempo \"votando\"."
+      ],
+      "intervenciones": [
+        "Focusing:: Atender el \"felt sense\" para dejar que la decisión emerja del cuerpo.",
+        "Sensoriomotriz:: Seguir el impulso de movimiento que indica la dirección correcta.",
+        "Gestalt:: Darle voz al cuerpo como la entidad más sabia en la habitación."
+      ],
+      "tarea": "Haz una pregunta de sí/no a tu cuerpo sobre tu decisión. Nota la primera sensación física (expansión o contracción). Confía en esa señal."
+    },
+    {
+      "codigo": "D-55",
+      "iconos": [
+        "span",
+        "🛡️",
+        "span",
+        "span",
+        "👨‍👩‍👧",
+        "span"
+      ],
+      "pregunta": "¿Estás dispuesto a establecer un límite que sabes que va a decepcionar a alguien importante para ti?",
+      "objetivo": "Trabajar la tolerancia a la decepción ajena como un costo necesario de la autenticidad y el autocuidado.",
+      "profundizacion": [
+        "¿Qué crees que pasará si esa persona se decepciona?",
+        "¿Es tu responsabilidad gestionar las emociones de los demás a costa de tu bienestar?",
+        "¿Qué te dice tu cuerpo sobre el precio de no poner ese límite?",
+        "✔ Miedo catastrófico al abandono o al conflicto.",
+        "✔ Historial de relaciones donde el paciente siempre cede.",
+        "✔ Firmeza emergente al reconocer que la decepción ajena es manejable.",
+        "✔ Culpa intensa ante la idea de priorizarse."
+      ],
+      "observacion": [
+        "Miedo catastrófico al abandono o al conflicto.",
+        "Historial de relaciones donde el paciente siempre cede.",
+        "Firmeza emergente al reconocer que la decepción ajena es manejable.",
+        "Culpa intensa ante la idea de priorizarse."
+      ],
+      "intervenciones": [
+        "DBT:: Entrenamiento en asertividad y tolerancia al malestar interpersonal.",
+        "Terapia de Esquemas:: Fortalecer al \"Adulto Sano\" para proteger al \"Niño Vulnerable\" de la explotación.",
+        "Sistémica:: Explorar la homeostasis familiar y la resistencia al cambio de roles."
+      ],
+      "tarea": "Escribe el límite que necesitas poner. Debajo, escribe: \"Tengo derecho a decepcionar a otros para no traicionarme a mí mismo\". Léelo en voz alta."
+    },
+    {
+      "codigo": "D-56",
+      "iconos": [
+        "span",
+        "🌫️",
+        "span",
+        "span",
+        "🧠",
+        "span"
+      ],
+      "pregunta": "¿La parálisis que sientes se debe a que tienes muy pocas opciones, o a que tienes demasiadas?",
+      "objetivo": "Abordar la \"paradoja de la elección\" y el agotamiento por análisis cuando hay un exceso de alternativas.",
+      "profundizacion": [
+        "¿Cómo te sientes al tener que descartar opciones valiosas?",
+        "¿Podrías establecer un criterio único y no negociable para filtrar las opciones?",
+        "¿Qué pasaría si eligieras una opción al azar entre las tres mejores?",
+        "✔ Agotamiento mental por comparar infinitas variables.",
+        "✔ Miedo a elegir la \"segunda mejor\" opción.",
+        "✔ Alivio al reducir artificialmente el número de opciones.",
+        "✔ Perfeccionismo que busca la opción \"óptima\" absoluta."
+      ],
+      "observacion": [
+        "Agotamiento mental por comparar infinitas variables.",
+        "Miedo a elegir la \"segunda mejor\" opción.",
+        "Alivio al reducir artificialmente el número de opciones.",
+        "Perfeccionismo que busca la opción \"óptima\" absoluta."
+      ],
+      "intervenciones": [
+        "TCC:: Técnica de \"satisficing\" (elegir lo suficientemente bueno) vs. \"maximizing\".",
+        "Estratégica:: Prescripción de eliminar deliberadamente opciones para simplificar.",
+        "ACT:: Aceptación de la pérdida inherente a cualquier elección (no se puede tener todo)."
+      ],
+      "tarea": "Si tienes más de 3 opciones, descarta todas menos 2 de forma arbitraria. Toma la decisión final solo entre esas dos. Observa cómo se siente."
+    },
+    {
+      "codigo": "D-57",
+      "iconos": [
+        "span",
+        "🌱",
+        "span",
+        "span",
+        "❤️",
+        "span"
+      ],
+      "pregunta": "¿Estás tomando esta decisión para proteger tu salud mental, o para cumplir con la productividad que te exige el mundo?",
+      "objetivo": "Evaluar las prioridades vitales y desafiar la internalización de la cultura de la productividad a expensas del bienestar psicológico.",
+      "profundizacion": [
+        "¿Qué le está costando a tu cuerpo y a tu mente mantener este ritmo?",
+        "¿Quién se beneficiaría de que sigas priorizando la productividad sobre tu salud?",
+        "¿Qué pasaría si decidieras que tu bienestar es la prioridad número uno?",
+        "✔ Síntomas de burnout, insomnio o ansiedad crónica.",
+        "✔ Culpa al considerar descansar o bajar el ritmo.",
+        "✔ Alivio profundo al ser autorizado a priorizar la salud.",
+        "✔ Identidad fusionada con el rendimiento laboral o académico."
+      ],
+      "observacion": [
+        "Síntomas de burnout, insomnio o ansiedad crónica.",
+        "Culpa al considerar descansar o bajar el ritmo.",
+        "Alivio profundo al ser autorizado a priorizar la salud.",
+        "Identidad fusionada con el rendimiento laboral o académico."
+      ],
+      "intervenciones": [
+        "ACT:: Clarificación de valores: ¿la productividad es un valor o un medio?",
+        "Terapia de Esquemas:: Desafiar el modo del \"Exigente\" o \"Estándar Inflexible\".",
+        "Somática:: Escaneo corporal para evidenciar el costo físico del estrés crónico."
+      ],
+      "tarea": "Programa una \"cita inamovible\" contigo mismo esta semana para descansar o hacer algo placentero. Trátala con la misma seriedad que una cita de trabajo."
+    },
+    {
+      "codigo": "D-58",
+      "iconos": [
+        "span",
+        "👤",
+        "span",
+        "span",
+        "🛡️",
+        "span"
+      ],
+      "pregunta": "¿Estás listo para dejar de explicar y justificar tus decisiones ante personas que están comprometidas a no entenderte?",
+      "objetivo": "Fomentar la autonomía y la liberación de la necesidad de validación externa, especialmente en relaciones invalidantes.",
+      "profundizacion": [
+        "¿Qué esperas lograr explicándote una y otra vez?",
+        "¿Qué te cuesta aceptar que no todos van a aprobar tu camino?",
+        "¿Cómo se sentiría tu cuerpo al decir \"esta es mi decisión\" y cerrar el tema?",
+        "✔ Agotamiento por intentar convencer a otros.",
+        "✔ Frustración y enojo ante la falta de validación.",
+        "✔ Empoderamiento al soltar la necesidad de aprobación.",
+        "✔ Miedo a ser percibido como \"egoísta\" o \"difícil\"."
+      ],
+      "observacion": [
+        "Agotamiento por intentar convencer a otros.",
+        "Frustración y enojo ante la falta de validación.",
+        "Empoderamiento al soltar la necesidad de aprobación.",
+        "Miedo a ser percibido como \"egoísta\" o \"difícil\"."
+      ],
+      "intervenciones": [
+        "DBT:: Habilidades de efectividad interpersonal: saber cuándo retirarse de una discusión inútil.",
+        "ACT:: Defusión de la necesidad de ser \"entendido\" por todos para actuar.",
+        "Gestalt:: Experimento de dar una respuesta corta y sin justificaciones (\"Porque lo decidí así\")."
+      ],
+      "tarea": "La próxima vez que sientas el impulso de sobre-explicarte, detente. Di solo lo esencial y observa la ansiedad que sube y luego baja sin que te justifiques."
+    },
+    {
+      "codigo": "D-59",
+      "iconos": [
+        "span",
+        "❤️",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "¿Elegirás hoy la vulnerabilidad de ser auténtico, o la seguridad de seguir usando tu armadura emocional?",
+      "objetivo": "Explorar la elección consciente entre la protección defensiva y la conexión auténtica, validando el coraje que requiere la vulnerabilidad.",
+      "profundizacion": [
+        "¿De qué te ha protegido esta armadura hasta ahora?",
+        "¿De qué te está privando hoy esta misma armadura?",
+        "¿Qué pequeño gesto de vulnerabilidad podrías permitirte hoy?",
+        "✔ Rigidez corporal y discurso intelectualizado (armadura).",
+        "✔ Emoción genuina y contacto visual al bajar la guardia.",
+        "✔ Miedo a ser herido si se muestra la vulnerabilidad.",
+        "✔ Alivio y conexión terapéutica al compartir algo real."
+      ],
+      "observacion": [
+        "Rigidez corporal y discurso intelectualizado (armadura).",
+        "Emoción genuina y contacto visual al bajar la guardia.",
+        "Miedo a ser herido si se muestra la vulnerabilidad.",
+        "Alivio y conexión terapéutica al compartir algo real."
+      ],
+      "intervenciones": [
+        "Humanista:: Crear un espacio de aceptación incondicional que invite a bajar la armadura.",
+        "ACT:: La vulnerabilidad como un valor de coraje y conexión, no como debilidad.",
+        "Somática:: Notar la tensión de la \"armadura\" y permitir un micro-movimiento de apertura."
+      ],
+      "tarea": "Comparte una verdad pequeña pero auténtica con alguien de confianza esta semana, sin adornarla. Observa cómo responde tu cuerpo."
+    },
+    {
+      "codigo": "D-60",
+      "iconos": [
+        "span",
+        "🎯",
+        "span",
+        "span",
+        "🌱",
+        "span"
+      ],
+      "pregunta": "Ahora que has explorado todas las aristas, ¿estás listo para comprometerte con tu elección y abrazar lo que venga?",
+      "objetivo": "Cierre integrador del mazo. Fomentar el compromiso con la acción, la aceptación de la incertidumbre y la confianza en la propia resiliencia.",
+      "profundizacion": [
+        "¿Qué te dice tu cuerpo ahora que has llegado a este punto?",
+        "¿Qué recursos has descubierto en ti durante este proceso de decisión?",
+        "¿Cómo vas a celebrar el hecho de haber elegido, pase lo que pase?",
+        "✔ Claridad, calma y determinación en la voz y la postura.",
+        "✔ Aceptación serena de que no hay garantías, pero sí hay dirección.",
+        "✔ Orgullo por el trabajo interno realizado.",
+        "✔ Emoción de cierre y apertura hacia el futuro."
+      ],
+      "observacion": [
+        "Claridad, calma y determinación en la voz y la postura.",
+        "Aceptación serena de que no hay garantías, pero sí hay dirección.",
+        "Orgullo por el trabajo interno realizado.",
+        "Emoción de cierre y apertura hacia el futuro."
+      ],
+      "intervenciones": [
+        "ACT:: Compromiso formal con la acción elegida, anclada en valores.",
+        "Narrativa:: Ceremonia simbólica de cierre del capítulo de duda y apertura del de acción.",
+        "CFT:: Autocompasión y auto-afirmación de la propia capacidad de manejar el futuro."
+      ],
+      "tarea": "Escribe tu decisión final en un papel. Firmala como un contrato contigo mismo. Guárdala como testimonio de tu valentía para elegir."
+    }
+  ]
+}

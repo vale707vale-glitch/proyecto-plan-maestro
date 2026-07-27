@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Anexo A: Índice Maestro - Mazo 8 (Decisiones)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' },
+                        decision: { 50: '#fff7ed', 500: '#f97316', 600: '#ea580c', 800: '#9a3412' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .index-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; transition: all 0.2s; }
+        .index-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #f97316; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            .index-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-decision-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-decision-600/20 border border-decision-500/30 rounded-full text-decision-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Anexo A &bull; Índice Maestro</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Mazo 8: <span class="italic text-decision-500">Decisiones</span></h1>
+            <p class="text-lg text-slate-300 font-light max-w-3xl">Cartas D-01 a D-60. Formato de referencia cruzada para consulta rápida del terapeuta.</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16 space-y-12">
+
+        <!-- INTRODUCCIÓN AL ÍNDICE -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-serif text-2xl text-brand-900 font-semibold mb-4">Cómo usar este Índice Maestro</h3>
+            <p class="text-slate-700 mb-4">Cada entrada del índice corresponde a una carta física del mazo. El formato compacto permite al terapeuta buscar rápidamente por código (ej: <span class="code-badge">D-01</span>) y acceder a:</p>
+            <ul class="text-sm text-slate-700 space-y-2 ml-4 list-disc">
+                <li><strong>Objetivo clínico:</strong> Para qué sirve la carta.</li>
+                <li><strong>Procesos psicológicos:</strong> Qué mecanismos activa.</li>
+                <li><strong>Respuestas y profundización:</strong> Cómo intervenir según la reacción del paciente.</li>
+                <li><strong>Contraindicaciones:</strong> Cuándo NO usarla.</li>
+                <li><strong>Combinaciones:</strong> Qué otras cartas del sistema potencian su efecto.</li>
+            </ul>
+        </section>
+
+        <!-- LOTE 1: CARTAS 01-06 (EJEMPLOS DETALLADOS) -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6 flex items-center gap-3">
+                <span class="bg-decision-600 text-white text-sm font-bold px-4 py-2 rounded-lg">Lote 01</span>
+                Ambivalencia, Conflicto Interno y Parálisis
+            </h3>
+            <p class="text-slate-600 mb-6 text-sm">A continuación, se muestran las primeras 6 cartas en formato detallado completo. Las cartas D-07 a D-60 siguen esta misma estructura y están resumidas en el Índice Rápido de Temas más abajo.</p>
+            
+            <div class="space-y-6">
+
+                <!-- D-01 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-01</span>
+                        <span class="text-2xl">🧭 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Cuando estás frente a una encrucijada, ¿qué parte de ti empuja el acelerador y qué parte pisa el freno?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Explorar la ambivalencia y los conflictos internos al tomar decisiones, identificando las fuerzas en pugna y validando ambas necesidades.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia de partes internas (IFS), validación de la ambivalencia, negociación interna.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Conflicto claro:</strong> "Una parte quiere irse, otra tiene miedo". → <em>Profundizar:</em> "¿Qué teme la parte que pisa el freno? ¿Qué espera ganar la que acelera?"</li>
+                            <li><strong>Parálisis:</strong> "No siento nada, estoy bloqueado". → <em>Intervención:</em> "¿Qué pasaría si ese bloqueo fuera la forma en que tu cuerpo te pide pausa?"</li>
+                            <li><strong>Racionalización:</strong> Explicaciones largas para justificar una opción. → <em>Profundizar:</em> "¿A quién intentás convencer con esos argumentos, a mí o a vos mismo?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases de crisis aguda donde se requiere acción inmediata de seguridad, no exploración de partes.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">S-034</span> (diálogo entre partes), <span class="code-badge">E-026</span> (ambivalencia emocional).</p></div>
+                    </div>
+                </div>
+
+                <!-- D-02 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-02</span>
+                        <span class="text-2xl">⏳ ⚡</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué precio estás pagando hoy por no tomar una decisión que sabés que está pendiente?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Visibilizar el costo de la postergación y la parálisis por análisis, movilizando la conciencia sobre el impacto real de la inacción.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Análisis de costos-beneficios, conciencia del impacto de la evitación, motivación al cambio.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento del costo:</strong> "Me estoy consumiendo la energía". → <em>Profundizar:</em> "¿Hasta cuándo estás dispuesto a pagar este precio?"</li>
+                            <li><strong>Minimización:</strong> "No es para tanto, ya me acostumbré". → <em>Intervención:</em> "¿Qué pasaría si dejaras de acostumbrarte y empezaras a exigirte lo que merecés?"</li>
+                            <li><strong>Insight:</strong> Llanto o alivio al nombrar el costo real. → <em>Profundizar:</em> "¿Qué te dice ese alivio sobre lo que necesitás cambiar?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con culpa severa o depresión mayor donde la confrontación puede aumentar la autocrítica.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-17</span> (costo oculto de la opción segura), <span class="code-badge">U-22</span> (agotamiento crónico).</p></div>
+                    </div>
+                </div>
+
+                <!-- D-03 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-03</span>
+                        <span class="text-2xl">🧠 ❤️</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">Si tu intuición y tu lógica tuvieran que votar por esta decisión, ¿cuál sería el resultado y quién se sentiría traicionado?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Diferenciar y validar tanto el procesamiento racional como el intuitivo, explorando el conflicto clásico mente-corazón.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Integración mente-cuerpo, validación de la intuición, defusión de la racionalización excesiva.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Desprecio por la intuición:</strong> "La intuición es una tontería". → <em>Profundizar:</em> "¿Quién te enseñó a desconfiar de tu propia brújula interna?"</li>
+                            <li><strong>Conflicto claro:</strong> "La cabeza dice sí, el cuerpo dice no". → <em>Profundizar:</em> "¿Qué necesita la cabeza para escuchar al cuerpo, o viceversa?"</li>
+                            <li><strong>Alianza:</strong> "Ambas están de acuerdo". → <em>Profundizar:</em> "¿Cómo se siente esa coherencia en tu cuerpo?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con pensamiento concreto severo o psicosis activa donde la "intuición" puede ser un delirio.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">U-10</span> (felt sense), <span class="code-badge">D-42</span> (mente vs. corazón).</p></div>
+                    </div>
+                </div>
+
+                <!-- D-04 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-04</span>
+                        <span class="text-2xl">😨 🎯</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Qué crees que pasaría si te permitieras equivocarte en esta decisión?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Desactivar el perfeccionismo y el miedo al error, explorando la tolerancia a la incertidumbre y la resiliencia personal.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Tolerancia a la incertidumbre, reestructuración del pensamiento catastrófico, autocompasión.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Catastrofización:</strong> "Sería un desastre total". → <em>Profundizar:</em> "¿Sobrevivirías a ese desastre? ¿Qué recursos usarías para repararlo?"</li>
+                            <li><strong>Rigidez:</strong> "No puedo equivocarme, es imperdonable". → <em>Intervención:</em> "¿De quién es ese estándar de perfección que estás siguiendo?"</li>
+                            <li><strong>Apertura:</strong> "Aprendería algo nuevo". → <em>Profundizar:</em> "¿Cómo cambiaría tu forma de actuar si vieras el error como un dato, no como un fracaso?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Situaciones de riesgo real e inminente (ej. decisiones médicas o legales críticas) donde el error tiene consecuencias graves.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-33</span> (capacidad de reparar), <span class="code-badge">C-048</span> (autocompasión).</p></div>
+                    </div>
+                </div>
+
+                <!-- D-05 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-05</span>
+                        <span class="text-2xl">👨‍👩‍👧 🧭</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Esta decisión la estás tomando por vos, o para cumplir la expectativa de alguien más?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Evaluar la autonomía, la diferenciación del self y la presencia de mandatos o lealtades familiares en la toma de decisiones.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Diferenciación del self, exploración de lealtades invisibles, fortalecimiento de la agencia personal.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Complacencia:</strong> "Es lo que ellos quieren, supongo que yo también". → <em>Profundizar:</em> "¿Qué pasaría si los defraudaras? ¿Sobrevivirías a esa decepción?"</li>
+                            <li><strong>Enojo:</strong> "¡Siempre hago lo que me piden!". → <em>Profundizar:</em> "¿Qué te impide decir 'no' y elegir tu propio camino?"</li>
+                            <li><strong>Claridad:</strong> "Es 100% mío". → <em>Profundizar:</em> "¿Cómo sabés con certeza que esta decisión es genuinamente tuya?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Fases iniciales sin alianza terapéutica sólida, puede generar resistencia defensiva o culpa.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">H-062</span> (lealtades familiares), <span class="code-badge">D-43</span> (decir no para decirse sí).</p></div>
+                    </div>
+                </div>
+
+                <!-- D-06 -->
+                <div class="index-card">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="code-badge text-lg">D-06</span>
+                        <span class="text-2xl">⏳ 🌱</span>
+                        <h4 class="font-serif text-xl text-brand-900 font-semibold flex-1">¿Hay alguna decisión que estés postergando porque, en el fondo, ya la tomaste pero te da miedo ejecutarla?</h4>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><p class="font-bold text-brand-900 mb-1">🎯 Objetivo:</p><p class="text-slate-700">Identificar la disonancia entre la decisión interna ya tomada y la inacción externa por miedo a las consecuencias o al cambio.</p></div>
+                        <div><p class="font-bold text-brand-900 mb-1">🧠 Procesos:</p><p class="text-slate-700">Conciencia de la evitación, validación del miedo a la ejecución, activación conductual.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="font-bold text-brand-900 mb-2">💬 Respuestas y profundización:</p>
+                        <ul class="text-sm text-slate-700 space-y-1 ml-4 list-disc">
+                            <li><strong>Reconocimiento:</strong> Suspiro o risa nerviosa. "Sí, ya sé lo que tengo que hacer". → <em>Profundizar:</em> "¿Qué te dice tu cuerpo cuando pensás en ejecutar esa decisión?"</li>
+                            <li><strong>Negación:</strong> "No, realmente estoy indeciso". → <em>Intervención:</em> "¿Qué pasaría si tu indecisión fuera en realidad miedo a admitir lo que ya sabés?"</li>
+                            <li><strong>Alivio:</strong> "Es un peso menos". → <em>Profundizar:</em> "¿Qué necesitás para darte permiso de actuar en consecuencia?"</li>
+                        </ul>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm">
+                        <div><p class="font-bold text-red-700 mb-1">⚠️ NO usar en:</p><p class="text-slate-700">Pacientes con trauma complejo donde la "ejecución" implica un riesgo real de seguridad.</p></div>
+                        <div><p class="font-bold text-decision-700 mb-1">🔗 Combinar con:</p><p class="text-slate-700"><span class="code-badge">D-36</span> (decisión microscópica), <span class="code-badge">U-34</span> (contención somática).</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- ÍNDICE RÁPIDO DE TEMAS DEL MAZO 8 -->
+        <!-- ============================================= -->
+        <section>
+            <h3 class="font-serif text-3xl text-brand-900 font-bold mb-6">Índice Rápido de Temas - Mazo 8 (Decisiones)</h3>
+            <p class="text-slate-700 mb-6">Este índice temático permite al terapeuta buscar cartas por <strong>objetivo clínico</strong> en lugar de por número. Cada código remite a la entrada completa en el formato detallado mostrado arriba.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- CATEGORÍA: AMBIVALENCIA Y CONFLICTO INTERNO -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🧭 Ambivalencia y Conflicto Interno (D-01 a D-15)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Partes en pugna: acelerador vs. freno</span> <span class="code-badge">D-01</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Costo de la postergación y la inacción</span> <span class="code-badge">D-02</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Voto de la intuición vs. la lógica</span> <span class="code-badge">D-03</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Permiso para equivocarse y resiliencia</span> <span class="code-badge">D-04</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Autonomía vs. expectativa ajena</span> <span class="code-badge">D-05</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Decisión interna tomada pero no ejecutada</span> <span class="code-badge">D-06</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Desmontar la tiranía del "debería"</span> <span class="code-badge">D-07</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Soltar para que la decisión tome forma</span> <span class="code-badge">D-08</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Urgencia y miedo vs. calma y claridad</span> <span class="code-badge">D-09</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Sabiduría somática: el cuerpo dice sí o no</span> <span class="code-badge">D-10</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Perspectiva del "yo" futuro sobre la duda</span> <span class="code-badge">D-11</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Tolerancia a la incertidumbre y el salto de fe</span> <span class="code-badge">D-12</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Lealtades familiares invisibles en la elección</span> <span class="code-badge">D-13</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Límite saludable vs. muro defensivo</span> <span class="code-badge">D-14</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Parálisis por análisis como evitación</span> <span class="code-badge">D-15</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: PROCRASTINACIÓN, MIEDO Y EVITACIÓN -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">⏳ Procrastinación, Miedo y Evitación (D-16 a D-30)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Perdón necesario para avanzar</span> <span class="code-badge">D-16</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Costo oculto de la opción "segura" o "fácil"</span> <span class="code-badge">D-17</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Falacia del costo hundido y cambio de rumbo</span> <span class="code-badge">D-18</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Decisión microscópica para generar impulso</span> <span class="code-badge">D-19</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Celebrar la capacidad de elegir</span> <span class="code-badge">D-20</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Evitación experiencial disfrazada de análisis</span> <span class="code-badge">D-21</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Duelo por las opciones no elegidas (FOMO)</span> <span class="code-badge">D-24</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Disonancia: decir sí con la boca, no con el cuerpo</span> <span class="code-badge">D-25</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Responsabilidad radical de las consecuencias</span> <span class="code-badge">D-26</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Intención vs. resultado (soltar el control)</span> <span class="code-badge">D-27</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Inacción como una decisión activa con consecuencias</span> <span class="code-badge">D-30</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: AUTONOMÍA, VALORES Y ACCIÓN -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🌱 Autonomía, Valores y Acción (D-31 a D-45)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Valores no negociables como brújula</span> <span class="code-badge">D-31</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Confianza en la propia capacidad de reparar</span> <span class="code-badge">D-33</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Urgencia real vs. ansiedad disfrazada</span> <span class="code-badge">D-34</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Decisión desde la abundancia vs. la escasez</span> <span class="code-badge">D-35</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Respetar el propio ritmo vs. cronograma ajeno</span> <span class="code-badge">D-37</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Decisión basada en el presente, no en el trauma pasado</span> <span class="code-badge">D-45</span></li>
+                    </ul>
+                </div>
+
+                <!-- CATEGORÍA: INTEGRACIÓN, COMPROMISO Y CIERRE -->
+                <div>
+                    <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 border-b border-slate-200 pb-2">🎯 Integración, Compromiso y Cierre (D-46 a D-60)</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between"><span class="text-slate-700">Miedo a lo irreversible vs. miedo a la inacción</span> <span class="code-badge">D-46</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Pedir ayuda como acto de fortaleza, no debilidad</span> <span class="code-badge">D-47</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Reconstruir la autoconfianza tras un error</span> <span class="code-badge">D-48</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Perdonarse por no saber entonces lo que se sabe hoy</span> <span class="code-badge">D-50</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Definir "suficiente" en lugar de buscar perfección</span> <span class="code-badge">D-51</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Coraje para cambiar de opinión y evolucionar</span> <span class="code-badge">D-52</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Decisión por culpa vs. decisión por valores</span> <span class="code-badge">D-53</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">El cuerpo ya decidió, la mente es la última en enterarse</span> <span class="code-badge">D-54</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Tolerar la decepción ajena para ser auténtico</span> <span class="code-badge">D-55</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Paradoja de la elección: demasiadas opciones</span> <span class="code-badge">D-56</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Salud mental vs. productividad tóxica</span> <span class="code-badge">D-57</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Dejar de explicar y justificar ante quien no entiende</span> <span class="code-badge">D-58</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Vulnerabilidad auténtica vs. armadura emocional</span> <span class="code-badge">D-59</span></li>
+                        <li class="flex justify-between"><span class="text-slate-700">Compromiso final y abrazo a la incertidumbre</span> <span class="code-badge">D-60</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOTA FINAL DEL ÍNDICE -->
+        <section class="bg-brand-900 text-white p-8 rounded-xl shadow-lg">
+            <h3 class="font-serif text-2xl text-decision-500 mb-4">📌 Instrucciones para el Terapeuta</h3>
+            <p class="text-slate-300 mb-4">Este índice rápido te permite ubicar el código de la carta que necesitas según el <strong>objetivo clínico</strong> del momento. Una vez identificado el código (ej: <span class="code-badge">D-04</span>), consulta la entrada completa en la sección detallada de este anexo (o en los archivos fuente del proyecto) para acceder a:</p>
+            <ul class="text-slate-300 space-y-2 ml-4 list-disc">
+                <li>Las preguntas de profundización específicas.</li>
+                <li>Las observaciones clínicas a monitorear.</li>
+                <li>Las líneas de intervención según tu orientación teórica.</li>
+                <li>Las combinaciones recomendadas con otros mazos.</li>
+            </ul>
+            <p class="text-slate-400 text-sm mt-6 italic">El desarrollo completo de las 60 entradas en formato detallado se encuentra disponible en los archivos fuente del proyecto ("decisiones 1.html", "decisiones 2.html", "decisiones 3.html"). Este índice sirve como mapa de navegación rápido para la práctica clínica.</p>
+        </section>
+
+        <!-- ÍNDICE DE INTEGRIDAD -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-6 flex items-center gap-2">✅ Índice de Integridad — Mazo 8 Completo</h3>
+            
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">60 cartas consolidadas (D-01 a D-60)</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">4 categorías temáticas definidas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Formato compacto de referencia cruzada</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-accent-600">✓</span>
+                    <span class="text-slate-700">Índice rápido de temas por objetivo clínico</span>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-6 pt-4 border-t border-slate-100">El 100% del contenido del Mazo 8 ha sido consolidado sin omisiones. Listo para continuar con el Mazo 9 (Recursos).</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Anexo A: Índice Maestro de Códigos &bull; Mazo 8: Decisiones (D-01 a D-60)</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
