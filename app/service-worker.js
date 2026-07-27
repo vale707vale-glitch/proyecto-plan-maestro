@@ -1,4 +1,4 @@
-const CACHE = "mosaico-v15"
+const CACHE = "mosaico-v16"
 
 const PRECACHE = [
   "./",
