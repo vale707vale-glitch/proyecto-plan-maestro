@@ -230,7 +230,7 @@ function renderApp() {
     brandName.dataset.versionSet = "1"
     const ver = document.createElement("sup")
     ver.style.cssText = "font-size:0.55rem;opacity:0.6;margin-left:0.2rem"
-    ver.textContent = "v4"
+    ver.textContent = "v5"
     brandName.after(ver)
   }
   const syncDot = document.getElementById("sync-dot")
@@ -405,14 +405,9 @@ function guardarHistorial(h) {
 }
 
 function renderPaciente() {
-  // Primero ver si hay sesion habilitada
   const activa = getSesionActivaPaciente()
-  if (activa && activa.sesion.habilitada) {
-    renderPacienteSesionHabilitada(activa)
-    return
-  }
-  if (activa && !activa.sesion.habilitada) {
-    renderPacienteEsperando(activa)
+  if (activa) {
+    renderPacienteSesion(activa)
     return
   }
   renderPacientePedirCodigo()
@@ -447,49 +442,15 @@ function renderPacientePedirCodigo() {
     if (code.length !== 4) { error.textContent = "El codigo tiene 4 caracteres."; error.hidden = false; return }
     const found = buscarSesionPorCodigo(code)
     if (!found) { error.textContent = "Codigo no encontrado. Verifica con tu terapeuta."; error.hidden = false; return }
-    if (!found.sesion.habilitada) {
-      error.textContent = "La sesion aun no esta habilitada. Pide a tu terapeuta que la habilite."
-      error.hidden = false
-      return
-    }
     setSesionActivaPaciente(found.sesion.id)
     renderApp()
   })
 }
 
-function renderPacienteEsperando(activa) {
-  $("#app").innerHTML = ""
-  const wrap = document.createElement("section")
-  wrap.className = "tpl-section"
-  wrap.innerHTML = `
-    <header class="tpl-section-head">
-      <h2>Esperando habilitacion</h2>
-    </header>
-    <p class="muted">Estas conectado a una sesion con <strong>${escapeHtml(activa.paciente.nombre)}</strong>.</p>
-    <p class="muted">Tu terapeuta aun no habilito el robo de cartas. Cuando lo haga, recarga esta pantalla.</p>
-    <div style="margin-top:1rem;display:flex;gap:0.5rem">
-      <button id="btn-recheck" class="btn-primary">Volver a intentar</button>
-      <button id="btn-desvincular" class="btn-ghost">Desvincular sesion</button>
-    </div>
-  `
-  $("#app").appendChild(wrap)
-  $("#btn-recheck").addEventListener("click", () => {
-    // Re-leer la sesion del localStorage por si el terapeuta la habilito
-    pacienteState.sesionActiva = null
-    renderApp()
-  })
-  $("#btn-desvincular").addEventListener("click", () => {
-    if (!confirm("Desvincular de esta sesion? Tu historial local se conserva.")) return
-    setSesionActivaPaciente(null)
-    renderApp()
-  })
-}
-
-function renderPacienteSesionHabilitada(activa) {
+function renderPacienteSesion(activa) {
   const tpl = $("#tpl-paciente")
   $("#app").appendChild(tpl.content.cloneNode(true))
 
-  // Mostrar info de sesion vinculada
   const header = document.createElement("div")
   header.className = "paciente-sesion-info"
   header.innerHTML = `
@@ -508,7 +469,6 @@ function renderPacienteSesionHabilitada(activa) {
   select.value = state.mazoActivo ?? ""
   select.addEventListener("change", () => { state.mazoActivo = select.value })
 
-  // Autoguardar notas al escribir
   const notasInput = document.getElementById("carta-notas")
   if (notasInput) {
     notasInput.addEventListener("input", () => {
@@ -524,23 +484,18 @@ function renderPacienteSesionHabilitada(activa) {
     })
   }
 
-  $("#btn-robar").addEventListener("click", () => robarCartaPaciente())
+  if (activa.sesion.habilitada) {
+    $("#btn-robar").addEventListener("click", () => robarCartaPaciente())
+  } else {
+    const btn = $("#btn-robar")
+    btn.disabled = true
+    btn.textContent = "Robo deshabilitado por el terapeuta"
+    btn.style.opacity = "0.5"
+  }
   renderHistorialPaciente()
 }
 
 function robarCartaPaciente() {
-  // Verificar que hay sesion habilitada
-  const activa = getSesionActivaPaciente()
-  if (!activa) {
-    alert("No estas vinculado a una sesion habilitada. Ingresa un codigo primero.")
-    renderApp()
-    return
-  }
-  if (!activa.sesion.habilitada) {
-    alert("Tu terapeuta deshabilito el robo de cartas. Pide que lo habilite.")
-    return
-  }
-
   const select = document.getElementById("select-mazo")
   const mazoId = select?.value || state.mazoActivo || Object.keys(state.mazos)[0]
   if (mazoId) state.mazoActivo = mazoId

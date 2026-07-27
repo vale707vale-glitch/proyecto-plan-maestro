@@ -69,17 +69,20 @@ Opcion A: paciente anonimo, notas locales, sin backend. Exportar a JSON es la un
 
 ### Alta
 - ~~Migrar localStorage a Firebase Auth + Firestore~~ COMPLETADO
-- **Deploy a Netlify** para acceso publico (servir carpeta `app/`)
-- **Firestore rules de produccion** (ya aplicadas en consola)
+- ~~Deploy a Netlify~~ COMPLETADO (`cartaterapia.netlify.app`)
+- **Dominio propio** — comprar dominio (ej: `cartaterapia.com`) y conectarlo a Netlify
+- **Personalizar branding** — cambiar titulo, logo, colores del producto final
+- **Sistema de registro de terapeutas integrado** — UI en la app para crear usuarios sin entrar a Firebase Console
 
 ### Media
-- Sistema de registro de terapeutas controlado por admin (UI en la app)
 - Modo libre (paciente sin codigo de sesion)
 - Soporte offline completo (primera carga precachea todo)
+- Opcion: historial del paciente en Firestore vinculado a codigo de sesion (para que persista entre dispositivos)
 - Testing en celular real
 
 ### Baja
 - Manual clinico: integrar indice maestro dentro de la app (hoy abre en nueva pestana)
+- Sistema de licencias (Cloudflare Worker)
 
 ## Datos clave
 - Servir local: `python -m http.server 8080` desde la raiz del proyecto
