@@ -330,6 +330,12 @@ main {
   background: transparent; border: 1px solid var(--error); color: var(--error);
   border-radius: var(--radius); cursor: pointer; font-weight: 600;
 }
+.sv-carta-codigo-click { cursor: pointer; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 2px; }
+.sv-carta-codigo-click:hover { color: var(--accent); }
+.hs-carta-expand { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.75rem; margin-top: 0.5rem; font-size: 0.85rem; }
+.hs-carta-expand p { margin: 0.3rem 0; }
+.hs-carta-expand ul { margin: 0.2rem 0 0.5rem; padding-left: 1.2rem; }
+.hs-carta-expand li { margin: 0.15rem 0; }
 
 /* Historial sesion (read-only) */
 .hs-notas-bloque {

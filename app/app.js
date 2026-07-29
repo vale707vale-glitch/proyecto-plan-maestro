@@ -1853,15 +1853,35 @@ function renderHistorialSesion() {
       div.className = "sv-carta-asignada"
       div.innerHTML = `
         <div class="sv-carta-asignada-head">
-          <span>${c.codigo}</span>
+          <span class="sv-carta-codigo-click">${c.codigo}</span>
           <span class="mazo-label">${mazo?.nombre || c.mazoId}</span>
         </div>
         <textarea class="sv-notas" data-codigo="${c.codigo}" placeholder="Notas sobre esta carta..." style="min-height:60px">${escapeHtml(c.notas || "")}</textarea>
+        <div class="hs-carta-expand" hidden></div>
       `
       const ta = div.querySelector("textarea")
       ta.addEventListener("input", () => {
         c.notas = ta.value
         guardarPacientes()
+      })
+
+      const codigoEl = div.querySelector(".sv-carta-codigo-click")
+      const expand = div.querySelector(".hs-carta-expand")
+      codigoEl.addEventListener("click", () => {
+        if (!expand.hidden) { expand.hidden = true; return }
+        const carta = mazo?.cartas.find(x => x.codigo === c.codigo)
+        if (!carta) return
+        const imgSrc = `assets/img/${mazo.numero}/${c.codigo}.jpg`
+        expand.innerHTML = `
+          <img src="${imgSrc}" alt="${c.codigo}" style="width:100%;max-width:300px;border-radius:8px;margin-top:0.75rem;cursor:pointer" onclick="abrirModal(this)">
+          <p style="margin-top:0.5rem"><strong>Pregunta:</strong> ${escapeHtml(carta.pregunta)}</p>
+          ${carta.objetivo ? `<p><strong>Objetivo:</strong> ${escapeHtml(carta.objetivo)}</p>` : ""}
+          ${carta.profundizacion?.length ? "<p><strong>Profundizacion:</strong></p><ul>" + carta.profundizacion.map(i => "<li>" + escapeHtml(i) + "</li>").join("") + "</ul>" : ""}
+          ${carta.observacion?.length ? "<p><strong>Observacion:</strong></p><ul>" + carta.observacion.map(i => "<li>" + escapeHtml(i) + "</li>").join("") + "</ul>" : ""}
+          ${carta.intervenciones?.length ? "<p><strong>Intervenciones:</strong></p><ul>" + carta.intervenciones.map(i => "<li>" + escapeHtml(i) + "</li>").join("") + "</ul>" : ""}
+          <p><strong>Tarea:</strong> ${escapeHtml(carta.tarea)}</p>
+        `
+        expand.hidden = false
       })
 
       container.appendChild(div)
