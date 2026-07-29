@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .chapter-heading { position: relative; padding-left: 1.5rem; }
+        .chapter-heading::before { content: ''; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 4px; background-color: #10b981; border-radius: 2px; }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        table.clinical-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.9rem; }
+        table.clinical-table thead th { background: #0f172a; color: white; padding: 12px 16px; text-align: left; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; }
+        table.clinical-table tbody td { padding: 14px 16px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+        table.clinical-table tbody tr:hover { background: #f8fafc; }
+        table.clinical-table tbody tr:last-child td { border-bottom: none; }
+        .task-card { background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); border-left: 4px solid #059669; }
+        .dynamic-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; transition: all 0.2s; }
+        .dynamic-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #10b981; }
+        .dynamic-number { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; background: #0f172a; color: #10b981; border-radius: 50%; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 0.95rem; }
+        .category-badge { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+        .cat-diag { background: #dbeafe; color: #1e40af; }
+        .cat-desb { background: #fef3c7; color: #92400e; }
+        .cat-rec { background: #d1fae5; color: #065f46; }
+        .cat-cie { background: #ede9fe; color: #5b21b6; }
+        .step-list { counter-reset: step-counter; list-style: none; padding-left: 0; }
+        .step-list li { counter-increment: step-counter; position: relative; padding-left: 2.5rem; margin-bottom: 0.75rem; }
+        .step-list li::before { content: counter(step-counter); position: absolute; left: 0; top: 0; width: 1.75rem; height: 1.75rem; background: #ecfdf5; color: #059669; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section, .dynamic-card { break-inside: avoid; }
+            table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="#" onclick="if(window.opener){window.opener.postMessage('mosaico:volver','*');window.opener.focus();try{window.close()}catch(e){}}else{location.href=location.origin+'/app/'}return false" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- HEADER BLOQUE 6 -->
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Volumen III &bull; Bloque 6</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Banco de Dinámicas Clínicas</h1>
+            <p class="text-lg text-slate-300 font-light max-w-2xl">Dinámicas 56-80: Continuación del banco profesional con 25 intervenciones estructuradas.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- ÍNDICE DEL BLOQUE -->
+        <nav class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4">Contenido de este bloque</h3>
+            <div class="grid md:grid-cols-2 gap-3 text-sm">
+                <a href="#cat-a" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-diag">A</span>
+                    <span class="text-slate-600">Diagnóstico y Evaluación (56-62)</span>
+                </a>
+                <a href="#cat-b" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-desb">B</span>
+                    <span class="text-slate-600">Desbloqueo y Ruptura de Patrones (63-69)</span>
+                </a>
+                <a href="#cat-c" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-rec">C</span>
+                    <span class="text-slate-600">Fortalecimiento de Recursos (70-75)</span>
+                </a>
+                <a href="#cat-d" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-cie">D</span>
+                    <span class="text-slate-600">Cierre y Proyección (76-80)</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA A: DIAGNÓSTICO Y EVALUACIÓN (CONTINUACIÓN) -->
+        <!-- ============================================= -->
+        <section id="cat-a">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-diag">Categoría A</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Diagnóstico y Evaluación (Continuación)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 56-62: Herramientas adicionales para evaluación multidimensional, mapeo de patrones y establecimiento de línea base clínica.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 56 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">56</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Rueda de la Vida Terapéutica</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de satisfacción vital</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Evaluar la satisfacción del paciente en diferentes áreas de vida y detectar desequilibrios.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">P</span> La Puerta + <span class="code-badge">F</span> Futuro</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>Dibujá un círculo dividido en 8 porciones como una rueda (salud, trabajo, pareja, familia, amigos, crecimiento, ocio, espiritualidad).</li>
+                            <li>Para cada área, el paciente puntúa su satisfacción actual del 1 al 10.</li>
+                            <li>Para cada área, elige una carta de <span class="code-badge">P</span> que represente cómo se siente en ese dominio.</li>
+                            <li>Une los puntos para visualizar la "forma" de la rueda (¿está redonda o deformada?).</li>
+                            <li>Pregunta: "¿Qué área está más desatendida? ¿Cuál te da más energía?"</li>
+                            <li>Para el área más baja, elige una carta de <span class="code-badge">F</span>: "¿Cómo te gustaría que fuera esta área en 6 meses?"</li>
+                            <li>Cierra: "¿Qué pequeña acción podrías dar esta semana para mejorar el área más baja?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacerla al inicio y al final del proceso para comparar. En terapia de pareja, comparar las ruedas de ambos. Agregar cartas de <span class="code-badge">E</span> para emociones asociadas.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Evaluación inicial, pacientes con sensación de desequilibrio, burnout, crisis de vida, trabajo desde coaching o terapia centrada en soluciones.</span></div>
+                </div>
+
+                <!-- Dinámica 57 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">57</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Energía Vital</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de drenajes y fuentes</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar qué actividades, personas y situaciones drenan o recargan la energía del paciente.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">R</span> Relaciones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 10 actividades, personas o situaciones de su vida cotidiana.</li>
+                            <li>Para cada una, elige una carta de <span class="code-badge">RE</span> (si recarga energía) o <span class="code-badge">R</span> (si drena energía).</li>
+                            <li>Clasifica las cartas en dos grupos: <strong>Fuentes de energía</strong> (arriba) y <strong>Drenajes de energía</strong> (abajo).</li>
+                            <li>Para cada drenaje, pregunta: "¿Podés reducirlo? ¿Delegatearlo? ¿Eliminarlo?"</li>
+                            <li>Para cada fuente, pregunta: "¿Podés aumentarlo? ¿Frecuentarlo más?"</li>
+                            <li>Diseña un "plan de gestión energética": "Esta semana voy a reducir [drenaje] y aumentar [fuente]."</li>
+                            <li>Cierra: "¿Cómo cambiaría tu vida si gestionás mejor tu energía?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacerlo semanalmente como seguimiento. En burnout, enfocarse específicamente en el ámbito laboral. Agregar cartas de <span class="code-badge">U</span> para sensaciones corporales asociadas.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Burnout, fatiga crónica, depresión, pacientes sobrecargados, trabajo desde gestión del estrés o terapia ocupacional.</span></div>
+                </div>
+
+                <!-- Dinámica 58 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">58</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Inventario de Máscaras</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de autenticidad</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Explorar las diferentes "máscaras" o roles que el paciente usa según el contexto.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">P</span> La Puerta + <span class="code-badge">S</span> La Sombra</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica los diferentes contextos donde actúa (trabajo, familia, pareja, amigos, solo).</li>
+                            <li>Para cada contexto, elige una carta de <span class="code-badge">P</span> que represente cómo se muestra (la "máscara").</li>
+                            <li>Explora: "¿Qué mostrás en este contexto? ¿Qué ocultás? ¿Por qué?"</li>
+                            <li>Luego elige una carta de <span class="code-badge">S</span> que represente lo que oculta en cada contexto.</li>
+                            <li>Pregunta: "¿Qué pasaría si mostraras esa parte oculta? ¿Qué temés que pase?"</li>
+                            <li>Identifica en qué contexto el paciente se siente más auténtico.</li>
+                            <li>Cierra: "¿Qué máscara te pesa más? ¿Qué necesitás para ser más auténtico?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Usar máscaras físicas o dibujos. En terapia grupal, compartir las máscaras. Agregar cartas de <span class="code-badge">E</span> para emociones asociadas a cada máscara.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes con baja autenticidad, personas complacientes, trabajo desde Gestalt o terapia existencial.</span></div>
+                </div>
+
+                <!-- Dinámica 59 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">59</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Cartografía de Patrones</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Identificación de patrones repetitivos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar patrones repetitivos en la vida del paciente (relaciones, conductas, emociones).</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 situaciones similares que se repiten en su vida (ej. "siempre elijo parejas emocionalmente disponibles", "siempre postergo lo importante").</li>
+                            <li>Para cada situación, elige una carta de <span class="code-badge">H</span> que represente cuándo apareció por primera vez.</li>
+                            <li>Explora: "¿Qué tienen en común estas situaciones? ¿Qué patrón ves?"</li>
+                            <li>Para cada patrón, elige una carta de <span class="code-badge">D</span> que represente la decisión automática que toma.</li>
+                            <li>Pregunta: "¿Qué ganás repitiendo este patrón? ¿Qué perdés?"</li>
+                            <li>Identifica el patrón más dañino y el más fácil de romper.</li>
+                            <li>Cierra: "¿Qué decisión diferente podrías tomar la próxima vez que aparezca este patrón?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacer un diagrama visual del patrón. En terapia de pareja, comparar patrones individuales y relacionales. Agregar cartas de <span class="code-badge">C</span> para creencias que sostienen el patrón.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes con patrones repetitivos, relaciones disfuncionales, autosabotaje, trabajo desde terapia sistémica o psicodinámica.</span></div>
+                </div>
+
+                <!-- Dinámica 60 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">60</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Semáforo de Relaciones</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de vínculos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Evaluar la calidad de las relaciones significativas y detectar vínculos tóxicos o nutritivos.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">R</span> Relaciones + <span class="code-badge">E</span> Emociones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica las 10 personas más importantes de su vida.</li>
+                            <li>Para cada persona, elige una carta de <span class="code-badge">R</span> que represente la relación.</li>
+                            <li>Clasifica las relaciones en tres grupos: <strong>Verde</strong> (nutritivas, te hacen bien), <strong>Amarillo</strong> (ambivalentes, a veces bien a veces mal), <strong>Rojo</strong> (tóxicas, te hacen mal).</li>
+                            <li>Para las rojas, pregunta: "¿Por qué mantenés esta relación? ¿Qué te impide alejarte?"</li>
+                            <li>Para las verdes, pregunta: "¿Qué hace que esta relación sea nutritiva? ¿Cómo la cuidás?"</li>
+                            <li>Elige una carta de <span class="code-badge">E</span> que represente cómo te sentís después de estar con cada persona.</li>
+                            <li>Cierra: "¿Qué relación necesitás fortalecer? ¿Cuál necesitás soltar o limitar?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">En terapia de pareja, comparar los semáforos de ambos. En adolescentes, incluir redes digitales. Agregar cartas de <span class="code-badge">D</span> para decisiones sobre cada relación.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Relaciones tóxicas, dependencia emocional, aislamiento, pacientes que no ponen límites, trabajo desde terapia sistémica o de apego.</span></div>
+                </div>
+
+                <!-- Dinámica 61 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">61</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Radiografía del Día Ideal</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de valores y deseos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Explorar los valores y deseos profundos del paciente mediante la visualización de un día ideal.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">F</span> Futuro + <span class="code-badge">E</span> Emociones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente cierra los ojos e imagina su día ideal (desde que despierta hasta que se duerme).</li>
+                            <li>Elige 7 cartas de <span class="code-badge">F</span> que representen los momentos clave del día ideal (mañana, trabajo, almuerzo, tarde, noche, etc.).</li>
+                            <li>Para cada carta, explora: "¿Qué estás haciendo? ¿Con quién? ¿Cómo te sentís?"</li>
+                            <li>Para cada momento, elige una carta de <span class="code-badge">E</span> que represente la emoción predominante.</li>
+                            <li>Identifica los valores que aparecen (libertad, conexión, creatividad, descanso, etc.).</li>
+                            <li>Compara con su vida actual: "¿Qué tiene tu día real de diferente? ¿Qué podrías cambiar?"</li>
+                            <li>Cierra: "¿Qué pequeña parte de ese día ideal podés tener hoy?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir el día ideal en un relato. Dibujarlo. En terapia de pareja, comparar los días ideales de ambos.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes que no saben qué quieren, sensación de vacío, trabajo desde terapia centrada en valores o ACT.</span></div>
+                </div>
+
+                <!-- Dinámica 62 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">62</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Lealtades Familiares</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación transgeneracional</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Explorar las lealtades familiares invisibles que sostienen patrones transgeneracionales.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">C</span> Creencias + <span class="code-badge">R</span> Relaciones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica patrones familiares repetitivos (ej. "las mujeres de mi familia sufren en silencio", "los hombres no lloran").</li>
+                            <li>Elige una carta de <span class="code-badge">H</span> que represente el origen del patrón (abuelos, padres).</li>
+                            <li>Elige una carta de <span class="code-badge">C</span> que represente la creencia familiar sostenida.</li>
+                            <li>Elige una carta de <span class="code-badge">R</span> que represente a quién está siendo leal al mantener ese patrón.</li>
+                            <li>Explora: "¿Qué ganás siendo leal? ¿Qué perdés? ¿Qué pasaría si rompieras esa lealtad?"</li>
+                            <li>Pregunta: "¿Qué miembro de tu familia te daría permiso para romper ese patrón?"</li>
+                            <li>Cierra: "¿Qué nueva lealtad querés construir? ¿Qué querés transmitir diferente?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacer un genograma con las cartas. Escribir una carta al ancestro pidiendo permiso. En terapia familiar, trabajar con varios miembros.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Patrones transgeneracionales, lealtades familiares invisibles, trabajo desde terapia sistémica o constelaciones familiares.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA B: DESBLOQUEO Y RUPTURA DE PATRONES (CONTINUACIÓN) -->
+        <!-- ============================================= -->
+        <section id="cat-b">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-desb">Categoría B</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Desbloqueo y Ruptura de Patrones (Continuación)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 63-69: Herramientas para interrumpir patrones automáticos, cuestionar creencias limitantes y generar nuevas perspectivas.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 63 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">63</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Diario del Detonante</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Identificación de triggers</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar los detonantes específicos de reacciones emocionales intensas.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">E</span> Emociones + <span class="code-badge">U</span> El Cuerpo Habla + <span class="code-badge">C</span> Creencias</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica una reacción emocional intensa reciente (ej. "me enojé des

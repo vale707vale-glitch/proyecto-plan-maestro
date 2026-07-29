@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 7</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .code-badge { display: inline-block; padding: 2px 8px; background: #1e293b; color: #10b981; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 600; letter-spacing: 0.05em; }
+        .dynamic-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; transition: all 0.2s; }
+        .dynamic-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); border-color: #10b981; }
+        .dynamic-number { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; background: #0f172a; color: #10b981; border-radius: 50%; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 0.95rem; }
+        .category-badge { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+        .cat-diag { background: #dbeafe; color: #1e40af; }
+        .cat-desb { background: #fef3c7; color: #92400e; }
+        .cat-rec { background: #d1fae5; color: #065f46; }
+        .cat-cie { background: #ede9fe; color: #5b21b6; }
+        .step-list { counter-reset: step-counter; list-style: none; padding-left: 0; }
+        .step-list li { counter-increment: step-counter; position: relative; padding-left: 2.5rem; margin-bottom: 0.75rem; }
+        .step-list li::before { content: counter(step-counter); position: absolute; left: 0; top: 0; width: 1.75rem; height: 1.75rem; background: #ecfdf5; color: #059669; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; }
+        .milestone-banner { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section, .dynamic-card { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="#" onclick="if(window.opener){window.opener.postMessage('mosaico:volver','*');window.opener.focus();try{window.close()}catch(e){}}else{location.href=location.origin+'/app/'}return false" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- HEADER BLOQUE 7 -->
+    <header class="bg-brand-900 text-white py-16 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Proyecto MOSAICO &bull; Volumen III &bull; Bloque 7</div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-4 leading-tight">Banco de Dinámicas Clínicas</h1>
+            <p class="text-lg text-slate-300 font-light max-w-2xl">Dinámicas 81-105: Completando el banco profesional con las últimas 25 intervenciones estructuradas.</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- ÍNDICE DEL BLOQUE -->
+        <nav class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+            <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4">Contenido de este bloque</h3>
+            <div class="grid md:grid-cols-2 gap-3 text-sm">
+                <a href="#cat-a" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-diag">A</span>
+                    <span class="text-slate-600">Diagnóstico y Evaluación (81-85)</span>
+                </a>
+                <a href="#cat-b" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-desb">B</span>
+                    <span class="text-slate-600">Desbloqueo y Ruptura de Patrones (86-92)</span>
+                </a>
+                <a href="#cat-c" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-rec">C</span>
+                    <span class="text-slate-600">Fortalecimiento de Recursos (93-99)</span>
+                </a>
+                <a href="#cat-d" class="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition">
+                    <span class="category-badge cat-cie">D</span>
+                    <span class="text-slate-600">Cierre y Proyección (100-105)</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA A: DIAGNÓSTICO Y EVALUACIÓN (FINAL) -->
+        <!-- ============================================= -->
+        <section id="cat-a">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-diag">Categoría A</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Diagnóstico y Evaluación (Final)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 81-85: Últimas herramientas de evaluación multidimensional y mapeo clínico profundo.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 81 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">81</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Necesidades</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de necesidades insatisfechas</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar las necesidades emocionales, relacionales y vitales que están siendo insatisfechas.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">E</span> Emociones + <span class="code-badge">R</span> Relaciones + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 necesidades fundamentales (seguridad, amor, reconocimiento, autonomía, conexión, propósito, descanso).</li>
+                            <li>Para cada necesidad, elige una carta de <span class="code-badge">E</span> que represente cómo se siente respecto a esa necesidad (satisfecha/insatisfecha).</li>
+                            <li>Clasifica las necesidades en tres grupos: <strong>Cubiertas</strong>, <strong>Parcialmente cubiertas</strong>, <strong>Insatisfechas</strong>.</li>
+                            <li>Para las insatisfechas, pregunta: "¿Qué te impide satisfacer esta necesidad? ¿De quién depende?"</li>
+                            <li>Para cada necesidad insatisfecha, elige una carta de <span class="code-badge">R</span> que represente quién podría ayudar a satisfacerla.</li>
+                            <li>Elige una carta de <span class="code-badge">RE</span> que represente qué acción concreta podés dar para satisfacerla.</li>
+                            <li>Cierra: "¿Cuál es la necesidad más urgente? ¿Qué paso podés dar esta semana?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">En terapia de pareja, comparar las necesidades de ambos. En niños, usar dibujos. Agregar cartas de <span class="code-badge">D</span> para decisiones sobre cada necesidad.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Insatisfacción vital, depresión, pacientes que no saben qué necesitan, trabajo desde terapia centrada en necesidades o ACT.</span></div>
+                </div>
+
+                <!-- Dinámica 82 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">82</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Radiografía de la Autoestima</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación multidimensional de la autoestima</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Evaluar las diferentes dimensiones de la autoestima del paciente y detectar áreas de mejora.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">C</span> Creencias + <span class="code-badge">RE</span> Recursos + <span class="code-badge">R</span> Relaciones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente evalúa su autoestima en 5 dimensiones: autoconcepto (cómo me veo), autoeficacia (qué puedo lograr), autocuidado (cómo me trato), autosuficiencia (qué tan independiente soy), autoaceptación (cómo me acepto).</li>
+                            <li>Para cada dimensión, puntúa del 1 al 10.</li>
+                            <li>Para la dimensión más baja, elige una carta de <span class="code-badge">C</span> que represente la creencia que la limita.</li>
+                            <li>Explora: "¿De dónde viene esa creencia? ¿Cuándo la aprendiste?"</li>
+                            <li>Para la dimensión más alta, elige una carta de <span class="code-badge">RE</span> que represente el recurso que la sostiene.</li>
+                            <li>Pregunta: "¿Cómo podés usar esa fortaleza para mejorar la dimensión más baja?"</li>
+                            <li>Elige una carta de <span class="code-badge">R</span> que represente quién te ayuda a mantener una autoestima sana.</li>
+                            <li>Cierra: "¿Qué acción concreta podés dar esta semana para mejorar tu autoestima?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacerlo mensualmente como seguimiento. En adolescentes, enfocar en autoimagen corporal. Agregar cartas de <span class="code-badge">E</span> para emociones asociadas.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Baja autoestima, depresión, pacientes con autocrítica severa, trabajo desde terapia cognitiva o centrada en compasión.</span></div>
+                </div>
+
+                <!-- Dinámica 83 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">83</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Estrés</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de fuentes de estrés</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar y jerarquizar las fuentes de estrés del paciente y su impacto.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">U</span> El Cuerpo Habla + <span class="code-badge">E</span> Emociones + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 10 fuentes de estrés en su vida (trabajo, relaciones, dinero, salud, etc.).</li>
+                            <li>Para cada fuente, elige una carta de <span class="code-badge">U</span> que represente cómo se manifiesta en el cuerpo.</li>
+                            <li>Puntúa cada fuente del 1 al 10 según intensidad.</li>
+                            <li>Ordena las fuentes de mayor a menor intensidad.</li>
+                            <li>Para las 3 más intensas, elige una carta de <span class="code-badge">E</span> que represente la emoción asociada.</li>
+                            <li>Pregunta: "¿Cuáles de estas fuentes podés eliminar? ¿Cuáles podés reducir? ¿Cuáles tenés que aceptar?"</li>
+                            <li>Para cada fuente, elige una carta de <span class="code-badge">RE</span> que represente un recurso de afrontamiento.</li>
+                            <li>Cierra: "¿Qué fuente vas a abordar primero? ¿Qué recurso vas a usar?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacerlo semanalmente como seguimiento. En burnout, enfocar en ámbito laboral. Crear un "plan de gestión de estrés" escrito.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Estrés crónico, burnout, ansiedad, pacientes sobrecargados, trabajo desde gestión del estrés o terapia ocupacional.</span></div>
+                </div>
+
+                <!-- Dinámica 84 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">84</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Cartografía de Sueños</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de aspiraciones</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Explorar los sueños y aspiraciones del paciente más allá de las metas prácticas.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">F</span> Futuro + <span class="code-badge">M</span> Metáforas</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 sueños o aspiraciones profundas (no metas prácticas, sino deseos del alma).</li>
+                            <li>Para cada sueño, elige una carta de <span class="code-badge">M</span> que lo represente metafóricamente.</li>
+                            <li>Explora cada sueño: "¿Qué significa este sueño para vos? ¿Por qué es importante?"</li>
+                            <li>Pregunta: "¿Qué te impide perseguir este sueño? ¿Qué miedo tenés?"</li>
+                            <li>Para cada sueño, elige una carta de <span class="code-badge">F</span> que represente un pequeño paso hacia él.</li>
+                            <li>Identifica el sueño más postergado: "¿Por qué lo dejaste de lado? ¿Qué necesitás para retomar?"</li>
+                            <li>Cierra: "¿Qué sueño querés honrar esta semana, aunque sea con un gesto pequeño?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear un "tablero de sueños" con las cartas. Escribir los sueños en una hoja y guardarla. En niños, dibujar los sueños.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes que perdieron contacto con sus deseos, crisis de sentido, trabajo desde terapia existencial o centrada en significado.</span></div>
+                </div>
+
+                <!-- Dinámica 85 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">85</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Inventario de Deudas Emocionales</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Evaluación de pendientes emocionales</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar las deudas emocionales pendientes (agradecimientos, disculpas, perdones) que pesan al paciente.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">R</span> Relaciones + <span class="code-badge">H</span> Historia Personal + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 deudas emocionales (personas a las que debe agradecer, disculparse o perdonar).</li>
+                            <li>Para cada deuda, elige una carta de <span class="code-badge">R</span> que represente a la persona.</li>
+                            <li>Clasifica las deudas en tres tipos: <strong>Agradecimientos pendientes</strong>, <strong>Disculpas pendientes</strong>, <strong>Perdones pendientes</strong> (hacia otros o hacia sí mismo).</li>
+                            <li>Para cada deuda, elige una carta de <span class="code-badge">H</span> que represente el origen de esa deuda.</li>
+                            <li>Explora: "¿Qué te impide saldar esta deuda? ¿Qué miedo tenés?"</li>
+                            <li>Para cada deuda, elige una carta de <span class="code-badge">D</span> que represente la acción necesaria para saldarla.</li>
+                            <li>Prioriza: "¿Cuál deuda te pesa más? ¿Cuál es más urgente?"</li>
+                            <li>Cierra: "¿Qué deuda vas a saldar esta semana? ¿Cómo?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir las cartas pendientes. Hacer un ritual de cierre para deudas con personas fallecidas. En grupo, compartir deudas.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Duelos no resueltos, culpa, pacientes con relaciones pendientes, trabajo desde terapia de perdón o reconciliación.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA B: DESBLOQUEO (FINAL) -->
+        <!-- ============================================= -->
+        <section id="cat-b">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-desb">Categoría B</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Desbloqueo y Ruptura de Patrones (Final)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 86-92: Últimas herramientas para interrumpir patrones, cuestionar creencias y generar nuevas perspectivas.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 86 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">86</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Juicio a la Culpa</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Trabajo con culpa</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Examinar y liberar la culpa mediante un proceso de investigación y reencuadre.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">C</span> Creencias + <span class="code-badge">H</span> Historia Personal + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica una culpa que lo persigue.</li>
+                            <li>Elige una carta de <span class="code-badge">C</span> que represente la creencia de culpa ("debí haber...", "fue mi culpa").</li>
+                            <li>Elige una carta de <span class="code-badge">H</span> que represente el evento original.</li>
+                            <li>Explora: "¿Qué sabías en ese momento? ¿Qué recursos tenías? ¿Qué habrías hecho diferente si supieras lo que sabés ahora?"</li>
+                            <li>Pregunta: "¿Estás juzgando a tu yo de entonces con la sabiduría de tu yo de ahora?"</li>
+                            <li>Elige una carta de <span class="code-badge">RE</span> que represente lo que aprendiste de esa experiencia.</li>
+                            <li>Reencuadre: "¿Cómo honrarías esa experiencia si la vieras como maestra en lugar de como error?"</li>
+                            <li>Cierra: "¿Qué necesitás perdonarte? ¿Cómo te hablarías si fueras tu propio mejor amigo?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir una carta de perdón a uno mismo. Hacer un ritual de liberación. En duelo, trabajar culpa del sobreviviente.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Culpa crónica, depresión, duelo, pacientes autocríticos, trabajo desde terapia de perdón o compasión enfocada.</span></div>
+                </div>
+
+                <!-- Dinámica 87 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">87</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Rueda del Cambio</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Etapas del cambio</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar en qué etapa del cambio se encuentra el paciente y qué necesita para avanzar.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">D</span> Decisiones + <span class="code-badge">F</span> Futuro + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El terapeuta explica las 5 etapas del cambio: precontemplación (no veo el problema), contemplación (lo veo pero no actúo), preparación (planeo actuar), acción (actúo), mantenimiento (sostengo el cambio).</li>
+                            <li>El paciente identifica en qué etapa está respecto a un cambio específico.</li>
+                            <li>Elige una carta de <span class="code-badge">D</span> que represente su etapa actual.</li>
+                            <li>Explora: "¿Qué te mantiene en esta etapa? ¿Qué necesitás para pasar a la siguiente?"</li>
+                            <li>Elige una carta de <span class="code-badge">F</span> que represente cómo sería estar en la siguiente etapa.</li>
+                            <li>Elige una carta de <span class="code-badge">RE</span> que represente el recurso que necesita para avanzar.</li>
+                            <li>Diseña un "puente" hacia la siguiente etapa: "¿Qué pequeña acción podés dar esta semana?"</li>
+                            <li>Cierra: "¿Qué te dice esta rueda sobre tu relación con el cambio?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">En adicciones, usar el modelo transteórico. En pareja, comparar etapas de cambio de ambos. Revisar la rueda mensualmente.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes estancados, adicciones, cambio de hábitos, trabajo desde entrevista motivacional o terapia del cambio.</span></div>
+                </div>
+
+                <!-- Dinámica 88 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">88</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Diálogo con el Crítico</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Externalización de la voz crítica</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Externalizar la voz crítica interna y establecer un diálogo constructivo con ella.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">S</span> La Sombra + <span class="code-badge">C</span> Creencias + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica su voz crítica interna y le da un nombre (ej. "El Juez", "La Crítica").</li>
+                            <li>Elige una carta de <span class="code-badge">S</span> que represente a esa voz.</li>
+                            <li>Coloca la carta en una silla vacía frente a él.</li>
+                            <li>El paciente le habla: "¿Qué me decís? ¿Qué querés de mí?"</li>
+                            <li>Luego el paciente cambia de silla y responde COMO SI FUERA la voz crítica: "Te digo esto porque..."</li>
+                            <li>Explora: "¿Qué función cumple esta voz? ¿Qué intenta proteger?"</li>
+                            <li>Elige una carta de <span class="code-badge">C</span> que represente la creencia que sostiene la voz crítica.</li>
+                            <li>Elige una carta de <span class="code-badge">RE</span> que represente la voz compasiva/aliada.</li>
+                            <li>Cierra: "¿Qué le diría tu voz compasiva a tu voz crítica? ¿Qué acuerdo pueden hacer?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir un diálogo entre las voces. Grabarlo en audio. En niños, dibujar a las voces como personajes.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Autocrítica severa, perfeccionismo, pacientes con voz interna punitiva, trabajo desde terapia de esquemas o compasión enfocada.</span></div>
+                </div>
+
+                <!-- Dinámica 89 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">89</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Carta al Miedo</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Trabajo con miedos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Personalizar el miedo y establecer una relación diferente con él mediante la escritura.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">S</span> La Sombra + <span class="code-badge">M</span> Metáforas + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica un miedo que lo limita.</li>
+                            <li>Elige una carta de <span class="code-badge">M</span> que represente al miedo como personaje: "Si el miedo fuera una persona, ¿cómo sería?"</li>
+                            <li>Elige una carta de <span class="code-badge">S</span> que represente qué protege ese miedo.</li>
+                            <li>Escribe una carta al miedo: "Querido miedo, quiero que sepas que..."</li>
+                            <li>Incluye: "Sé que intentas protegerme de...", "Pero cuando me paralizás, perdés...", "Te agradezco por...", "Pero a partir de ahora..."</li>
+                            <li>Elige una carta de <span class="code-badge">D</span> que represente la decisión que va a tomar a pesar del miedo.</li>
+                            <li>Lee la carta en voz alta.</li>
+                            <li>Cierra: "¿Qué cambia cuando le hablás al miedo en lugar de que el miedo te hable a vos?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Guardar la carta y releerla antes de enfrentar el miedo. En niños, dibujar al miedo. Hacerlo con múltiples miedos.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Fobias, ansiedad, evitación, pacientes paralizados por el miedo, trabajo desde exposición o terapia narrativa.</span></div>
+                </div>
+
+                <!-- Dinámica 90 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">90</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Sombras</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Integración de la sombra</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar y comenzar a integrar las partes rechazadas de sí mismo (la sombra).</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">S</span> La Sombra + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 aspectos de sí mismo que rechaza o no quiere reconocer (ej. envidia, pereza, agresividad, dependencia, vanidad).</li>
+                            <li>Para cada aspecto, elige una carta de <span class="code-badge">S</span> que lo represente.</li>
+                            <li>Para cada carta, explora: "¿Cuándo aprendiste que esto era malo? ¿Quién te lo enseñó?"</li>
+                            <li>Pregunta: "¿Qué función cumple este aspecto? ¿Qué intenta proteger?"</li>
+                            <li>Para cada aspecto, elige una carta de <span class="code-badge">RE</span> que represente el regalo oculto (ej. la envidia señala deseos, la agresividad protege límites).</li>
+                            <li>Integra: "¿Cómo podrías honrar este aspecto sin que te domine?"</li>
+                            <li>Cierra: "¿Qué aspecto necesitás integrar primero? ¿Qué necesitás para darle un lugar?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Hacer un "altar de sombras" con las cartas. Escribir una carta a cada aspecto. En grupo, compartir sombras.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Autorechazo, perfeccionismo, pacientes muy autocríticos, trabajo desde psicología junguiana o terapia de integración.</span></div>
+                </div>
+
+                <!-- Dinámica 91 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">91</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Escalera de Valores</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Clarificación de valores</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Jerarquizar los valores personales y evaluar la alineación de la vida con ellos.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">F</span> Futuro + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 10 valores importantes para él (libertad, familia, honestidad, creatividad, etc.).</li>
+                            <li>Para cada valor, elige una carta de <span class="code-badge">F</span> que lo represente.</li>
+                            <li>Las ordena en una "escalera" del más al menos importante.</li>
+                            <li>Para cada valor, evalúa del 1 al 10 qué tan alineada está su vida con ese valor.</li>
+                            <li>Identifica el valor más importante con menor alineación: "¿Qué te impide vivir más alineado con este valor?"</li>
+                            <li>Elige una carta de <span class="code-badge">D</span> que represente una decisión que podrías tomar para alinearte más.</li>
+                            <li>Cierra: "¿Qué valor estás descuidando más? ¿Qué pequeña acción podrías dar esta semana?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">En terapia de pareja, comparar las escalas de valores. Revisar la escalera anualmente. Crear un "manifiesto de valores".</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Crisis de sentido, pacientes que no saben qué quieren, trabajo desde ACT o terapia centrada en valores.</span></div>
+                </div>
+
+                <!-- Dinámica 92 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">92</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Contrato de Autocompasión</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Compromiso con el autocuidado</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Formalizar un compromiso de autocompasión mediante un contrato simbólico consigo mismo.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">C</span> Creencias + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica cómo se trata cuando sufre o comete errores.</li>
+                            <li>Elige una carta de <span class="code-badge">C</span> que represente la creencia que sostiene el trato duro ("si soy duro conmigo, mejoro").</li>
+                            <li>Explora: "¿De dónde viene esa creencia? ¿Te funciona?"</li>
+                            <li>Elige 3 cartas de <span class="code-badge">RE</span> que representen formas de tratarse con compasión.</li>
+                            <li>Redacta un "contrato de autocompasión": "Yo, [nombre], me comprometo a tratarme con más compasión cuando..."</li>
+                            <li>Incluye acciones concretas: "En lugar de criticarme, voy a...", "Cuando sufra, voy a..."</li>
+                            <li>Elige una carta de <span class="code-badge">D</span> que represente el primer paso del compromiso.</li>
+                            <li>Firma el contrato y guárdalo.</li>
+                            <li>Cierra: "¿Qué te da miedo de este compromiso? ¿Qué te da esperanza?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Renovar el contrato mensualmente. Compartir el contrato con alguien de confianza. Crear un recordatorio físico.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Autocrítica severa, perfeccionismo, pacientes que no se perdonan, trabajo desde terapia centrada en compasión (CFT).</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA C: FORTALECIMIENTO DE RECURSOS (FINAL) -->
+        <!-- ============================================= -->
+        <section id="cat-c">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-rec">Categoría C</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Fortalecimiento de Recursos (Final)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 93-99: Últimas herramientas para activar, consolidar y expandir los recursos internos del paciente.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 93 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">93</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Jardín de Recursos</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Cultivo de recursos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Visualizar los recursos del paciente como un jardín que necesita ser cultivado.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">F</span> Futuro</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 recursos que ya tiene (como "plantas" en su jardín).</li>
+                            <li>Para cada recurso, elige una carta de <span class="code-badge">RE</span> que lo represente.</li>
+                            <li>Las dispone en forma de jardín frente a él.</li>
+                            <li>Para cada recurso, evalúa: "¿Qué tan cultivado está? ¿Le das suficiente atención?"</li>
+                            <li>Identifica el recurso más descuidado: "¿Qué necesita para florecer?"</li>
+                            <li>Elige una carta de <span class="code-badge">F</span> que represente cómo sería ese recurso si lo cultivaras.</li>
+                            <li>Diseña un "plan de riego": "Esta semana voy a cultivar [recurso] haciendo [acción]."</li>
+                            <li>Cierra: "¿Qué recurso nuevo te gustaría plantar en tu jardín?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Dibujar el jardín. En niños, usar flores de papel. Revisar el jardín mensualmente. Agregar cartas de <span class="code-badge">U</span> para sensaciones corporales.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Fase de consolidación, pacientes con recursos dispersos, trabajo desde psicología positiva o terapia centrada en fortalezas.</span></div>
+                </div>
+
+                <!-- Dinámica 94 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">94</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Farmacia Interna</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Recursos de regulación</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Crear una "farmacia" de recursos internos para regular emociones y estados.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">E</span> Emociones + <span class="code-badge">U</span> El Cuerpo Habla</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 emociones o estados que necesita regular (ansiedad, tristeza, enojo, insomnio, etc.).</li>
+                            <li>Para cada emoción, elige una carta de <span class="code-badge">E</span> que la represente.</li>
+                            <li>Para cada emoción, elige una carta de <span class="code-badge">RE</span> que represente el "remedio" (recurso para regularla).</li>
+                            <li>Para cada recurso, elige una carta de <span class="code-badge">U</span> que represente cómo se manifiesta en el cuerpo.</li>
+                            <li>Practica cada "remedio" en sesión: "Hagamos este recurso ahora. ¿Cómo te sentís?"</li>
+                            <li>Crea una "farmacia" física o imaginaria con las 7 cartas de recursos.</li>
+                            <li>Cierra: "¿Qué emoción vas a regular primero esta semana? ¿Qué recurso vas a usar?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear una tarjeta física con la farmacia. En niños, dibujar los "medicamentos". Agregar instrucciones de "dosis" (cuánto tiempo practicar).</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Regulación emocional, ansiedad, pacientes con alta activación, trabajo desde habilidades de afrontamiento o DBT.</span></div>
+                </div>
+
+                <!-- Dinámica 95 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">95</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Gratitud Profunda</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Gratitud transformadora</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Cultivar una gratitud profunda que transforme la perspectiva vital del paciente.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">R</span> Relaciones + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 experiencias o personas por las que está profundamente agradecido.</li>
+                            <li>Para cada una, elige una carta de <span class="code-badge">H</span> que represente el momento o la persona.</li>
+                            <li>Para cada una, elige una carta de <span class="code-badge">RE</span> que represente el regalo recibido.</li>
+                            <li>Para cada una, elige una carta de <span class="code-badge">R</span> que represente cómo honrar ese regalo.</li>
+                            <li>Explora: "¿Cómo te transformó este regalo? ¿Qué aprendiste?"</li>
+                            <li>Identifica el regalo más significativo: "¿Cómo lo estás honrando en tu vida?"</li>
+                            <li>Diseña un "ritual de gratitud": "Cada día voy a recordar..."</li>
+                            <li>Cierra: "¿A quién querías agradecer y no lo hiciste? ¿Cómo podés hacerlo?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir cartas de agradecimiento. Crear un "altar de gratitud". En duelo, agradecer al fallecido. En grupo, compartir gratitudes.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Depresión, pacientes centrados en lo negativo, trabajo desde psicología positiva o terapia de gratitud.</span></div>
+                </div>
+
+                <!-- Dinámica 96 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">96</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Biblioteca de Sabiduría</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Acceso a sabiduría interna</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Crear una "biblioteca" de sabiduría interna accesible mediante las cartas.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">M</span> Metáforas</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 temas donde necesita sabiduría (relaciones, trabajo, duelo, etc.).</li>
+                            <li>Para cada tema, elige una carta de <span class="code-badge">M</span> que represente un "mentor" o "libro" de sabiduría.</li>
+                            <li>Para cada mentor, elige una carta de <span class="code-badge">RE</span> que represente la enseñanza principal.</li>
+                            <li>Explora: "¿Qué te enseña este mentor? ¿Cómo aplicás esa enseñanza?"</li>
+                            <li>Crea una "biblioteca" con las 7 cartas de mentores.</li>
+                            <li>Practica: "Cuando necesites sabiduría sobre [tema], consultá a [mentor]."</li>
+                            <li>Cierra: "¿Qué mentor necesitás consultar esta semana? ¿Qué pregunta le harías?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Escribir las enseñanzas en un "libro". En niños, usar personajes de cuentos. Agregar cartas de <span class="code-badge">H</span> para experiencias que enseñaron.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes que no confían en su sabiduría interna, toma de decisiones, trabajo desde narrativa o terapia centrada en soluciones.</span></div>
+                </div>
+
+                <!-- Dinámica 97 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">97</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Gimnasio de Fortalezas</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Entrenamiento de recursos</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Diseñar un "programa de entrenamiento" para fortalecer recursos específicos.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">D</span> Decisiones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 fortalezas que quiere desarrollar (paciencia, asertividad, autodisciplina, etc.).</li>
+                            <li>Para cada fortaleza, elige una carta de <span class="code-badge">RE</span> que la represente.</li>
+                            <li>Para cada fortaleza, evalúa del 1 al 10 su nivel actual.</li>
+                            <li>Diseña un "ejercicio" para cada fortaleza: "Para desarrollar paciencia, voy a..."</li>
+                            <li>Elige una carta de <span class="code-badge">D</span> que represente la frecuencia del ejercicio.</li>
+                            <li>Crea un "programa semanal" con los 5 ejercicios.</li>
+                            <li>Practica un ejercicio en sesión.</li>
+                            <li>Cierra: "¿Qué fortaleza vas a entrenar primero? ¿Cuándo?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear una tarjeta con el programa. En niños, usar "misiones". Llevar un registro de progreso. En grupo, compartir ejercicios.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Fase de consolidación, pacientes que quieren desarrollar habilidades, trabajo desde psicología positiva o coaching.</span></div>
+                </div>
+
+                <!-- Dinámica 98 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">98</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mapa de Resiliencia</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Identificación de factores protectores</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Identificar los factores que han permitido al paciente superar adversidades.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 adversidades que ha superado.</li>
+                            <li>Para cada adversidad, elige una carta de <span class="code-badge">H</span> que represente el momento.</li>
+                            <li>Para cada adversidad, elige 2 cartas de <span class="code-badge">RE</span> que representen los recursos que lo salvaron.</li>
+                            <li>Explora: "¿Qué patrón ves? ¿Qué recursos se repiten?"</li>
+                            <li>Identifica el recurso más poderoso: "¿Cuál es tu 'superpoder' de resiliencia?"</li>
+                            <li>Diseña un "plan de resiliencia": "La próxima vez que enfrente una adversidad, voy a usar..."</li>
+                            <li>Cierra: "¿Qué te dice este mapa sobre tu capacidad de superar desafíos?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear un "certificado de resiliencia". En niños, usar "superhéroes". En grupo, compartir mapas. Agregar cartas de <span class="code-badge">R</span> para apoyos externos.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Pacientes que no reconocen su fortaleza, trauma, duelo, trabajo desde psicología de la resiliencia o terapia centrada en fortalezas.</span></div>
+                </div>
+
+                <!-- Dinámica 99 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">99</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Caja de Herramientas Emocionales</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Kit de regulación</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Crear una "caja de herramientas" portátil para manejar emociones difíciles en cualquier momento.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">RE</span> Recursos + <span class="code-badge">U</span> El Cuerpo Habla + <span class="code-badge">E</span> Emociones</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 5 emociones difíciles que enfrenta frecuentemente.</li>
+                            <li>Para cada emoción, elige una carta de <span class="code-badge">E</span> que la represente.</li>
+                            <li>Para cada emoción, elige una carta de <span class="code-badge">RE</span> que represente la herramienta para manejarla.</li>
+                            <li>Para cada herramienta, elige una carta de <span class="code-badge">U</span> que represente cómo se activa en el cuerpo.</li>
+                            <li>Practica cada herramienta en sesión.</li>
+                            <li>Crea una "caja" física o imaginaria con las 5 herramientas.</li>
+                            <li>Diseña un "plan de emergencia": "Cuando aparezca [emoción], voy a usar [herramienta]."</li>
+                            <li>Cierra: "¿Qué herramienta vas a llevar contigo esta semana?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear una caja física con las cartas. En niños, dibujar las herramientas. Agregar instrucciones de "cómo usar". Llevarla en la billetera.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Regulación emocional, ansiedad, pacientes con alta reactividad, trabajo desde habilidades de afrontamiento o DBT.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- ============================================= -->
+        <!-- CATEGORÍA D: CIERRE Y PROYECCIÓN (FINAL) -->
+        <!-- ============================================= -->
+        <section id="cat-d">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="category-badge cat-cie">Categoría D</span>
+                <h3 class="font-serif text-2xl text-brand-800 font-semibold">Dinámicas de Cierre y Proyección (Final)</h3>
+            </div>
+            <p class="text-slate-700 mb-6">Dinámicas 100-105: Últimas herramientas para el cierre de procesos, la integración de aprendizajes y la proyección hacia el futuro.</p>
+
+            <div class="space-y-6">
+                <!-- Dinámica 100 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">100</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Mosaico de la Identidad</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Integración identitaria</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Integrar las diferentes partes de la identidad del paciente en un mosaico coherente.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">P</span> La Puerta + <span class="code-badge">S</span> La Sombra + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente identifica 7 partes de su identidad (roles, aspectos, facetas).</li>
+                            <li>Para cada parte, elige una carta de <span class="code-badge">P</span> que la represente.</li>
+                            <li>Para las partes rechazadas, elige una carta de <span class="code-badge">S</span>.</li>
+                            <li>Para las partes valoradas, elige una carta de <span class="code-badge">RE</span>.</li>
+                            <li>Las dispone en forma de mosaico frente a él.</li>
+                            <li>Explora: "¿Qué partes están más integradas? ¿Cuáles están más separadas?"</li>
+                            <li>Pregunta: "¿Qué parte necesita más atención? ¿Cómo podés integrar las partes rechazadas?"</li>
+                            <li>Cierra: "Si este mosaico fuera tu identidad, ¿qué título le pondrías?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Crear un mosaico físico con las cartas. En adolescentes, enfocar en identidad en formación. En grupo, compartir mosaicos.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Crisis de identidad, pacientes fragmentados, trabajo desde terapia de integración o psicología del self.</span></div>
+                </div>
+
+                <!-- Dinámica 101 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">101</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">La Carta a la Vida</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Compromiso vital</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Escribir una carta a la vida expresando compromisos, gratitud y dirección.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">F</span> Futuro + <span class="code-badge">D</span> Decisiones + <span class="code-badge">RE</span> Recursos</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li>El paciente elige una carta de <span class="code-badge">F</span> que represente su visión de vida.</li>
+                            <li>Escribe una carta a la vida: "Querida vida, quiero que sepas que..."</li>
+                            <li>Incluye: "Te agradezco por...", "Me comprometo a...", "A partir de ahora voy a...", "Te pido..."</li>
+                            <li>Elige 3 cartas de <span class="code-badge">D</span> que representen los compromisos que asume.</li>
+                            <li>Elige 3 cartas de <span class="code-badge">RE</span> que representen los recursos con los que cuenta.</li>
+                            <li>Lee la carta en voz alta.</li>
+                            <li>Cierra: "¿Cómo te sentís al hacer este compromiso? ¿Qué te da miedo? ¿Qué te emociona?"</li>
+                        </ol>
+                    </div>
+                    <div class="text-sm"><strong class="text-brand-900">Variantes:</strong> <span class="text-slate-700">Guardar la carta y releerla anualmente. Enmarcarla. En grupo, compartir cartas. Escribir también una respuesta de la vida.</span></div>
+                    <div class="text-sm mt-2"><strong class="text-brand-900">Indicación:</strong> <span class="text-slate-700">Cierre de proceso, pacientes que necesitan un compromiso simbólico, trabajo desde terapia existencial o narrativa.</span></div>
+                </div>
+
+                <!-- Dinámica 102 -->
+                <div class="dynamic-card">
+                    <div class="flex items-start gap-4 mb-4">
+                        <span class="dynamic-number">102</span>
+                        <div class="flex-1">
+                            <h4 class="font-serif text-xl text-brand-900 font-semibold">El Árbol del Proceso</h4>
+                            <p class="text-xs text-slate-500 uppercase tracking-widest mt-1">Visualización del crecimiento</p>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm mb-4">
+                        <div><strong class="text-brand-900">Objetivo:</strong> <span class="text-slate-700">Visualizar el crecimiento terapéutico como un árbol con raíces, tronco, ramas y frutos.</span></div>
+                        <div><strong class="text-brand-900">Mazos:</strong> <span class="text-slate-700"><span class="code-badge">H</span> Historia Personal + <span class="code-badge">RE</span> Recursos + <span class="code-badge">F</span> Futuro</span></div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-brand-900 mb-2">Paso a paso:</p>
+                        <ol class="step-list text-sm text-slate-700">
+                            <li><strong>Raíces:</strong> El paciente elige 3 cartas de <span class="code-badge">H</span> que representen los orígenes del proceso (qué lo trajo a terapia).</li>
+                            <li><strong>Tronco:</strong> Elige 3 cartas de <span class="code-badge">RE</span> que representen las fortalezas desarrolladas.</li>
+                            <li><strong>Ramas:</strong> Elige 5 cartas de <span class="code-badge">RE</span> que representen los aprendizajes y habilidades adquiridas.</li>
+                            <li><strong>Frutos:</strong> Elige 3 cartas de <span class="code-badge">F</span> que representen los logros y cambios concretos.</li>
+                            <li>Construye el árbol con las cartas.</li>
+                            <li>Explora: "¿Qué raíces te sostienen? ¿Qué frutos te enorgullecen? ¿Qué ramas quer

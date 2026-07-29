@@ -29,6 +29,7 @@ const state = {
   pacienteId: null,
   sesionId: null,
   sync: "offline", // "syncing" | "synced" | "offline"
+  ultimaCartaVista: null, // { codigo, mazoId } para restaurar preview al volver del indice
 }
 
 function $(sel, root = document) {
@@ -71,9 +72,33 @@ window.onerror = function(msg, url, line) {
   document.body.appendChild(e)
 }
 
+if (!window._mosaicoFocusInit) {
+  window._mosaicoFocusInit = true
+  document.addEventListener("visibilitychange", () => {
+    if (state.rol === "paciente" && pacienteState.sesionActivaId) verificarSesionActiva()
+  })
+  window.addEventListener("focus", () => {
+    if (state.rol === "paciente" && pacienteState.sesionActivaId) verificarSesionActiva()
+  })
+  // polling cada 3s para detectar cambios del terapeuta
+  setInterval(() => {
+    if (state.rol === "paciente" && pacienteState.sesionActivaId) {
+      verificarSesionActiva()
+    }
+  }, 3000)
+}
+
 async function init() {
   initModal()
+  initModalClave()
   montarTopbar()
+
+  window.addEventListener("message", (e) => {
+    if (e.data === "mosaico:volver" && state.vistaT === "manual") {
+      state.vistaT = state.sesionId ? "sesion" : state.pacienteId ? "paciente" : "lista"
+      renderTerapeuta()
+    }
+  })
   await cargarMazos()
   cargarPacientes()
   const rolGuardado = localStorage.getItem(STORAGE_ROL)
@@ -91,7 +116,13 @@ async function init() {
       localStorage.setItem(STORAGE_CLAVE, user.uid)
       await sincronizarDesdeFirestore()
       cargarHistorialFirestore()
-      renderApp()
+      const tData = await fsCargarTerapeuta()
+      if (!tData || !tData.passwordUpdatedAt) {
+        renderApp()
+        abrirModalClave({ forzarCambio: true })
+      } else {
+        renderApp()
+      }
     } else {
       localStorage.removeItem(STORAGE_ROL)
       localStorage.removeItem(STORAGE_CLAVE)
@@ -191,7 +222,15 @@ function montarTopbar() {
 
   $("#btn-back")?.addEventListener("click", () => {
     if (state.vistaT === "indice") {
-      state.vistaT = "lista"
+      // Volver al contexto del que veniamos: sesion si habia una activa,
+      // si no paciente, si no lista.
+      if (state.sesionId) {
+        state.vistaT = "sesion"
+      } else if (state.pacienteId) {
+        state.vistaT = "paciente"
+      } else {
+        state.vistaT = "lista"
+      }
     } else if (state.vistaT === "paciente" || state.vistaT === "sesion") {
       state.vistaT = "lista"
       state.pacienteId = null
@@ -200,11 +239,22 @@ function montarTopbar() {
       state.sesionId = null
       state.vistaT = "paciente"
     } else if (state.vistaT === "manual") {
-      state.vistaT = "lista"
-      renderTerapeuta()
-      return
+      // Volver al contexto del que veniamos: sesion si habia una activa,
+      // si no paciente, si no lista.
+      if (state.sesionId) {
+        state.vistaT = "sesion"
+      } else if (state.pacienteId) {
+        state.vistaT = "paciente"
+      } else {
+        state.vistaT = "lista"
+      }
     }
     renderTerapeuta()
+  })
+
+  $("#btn-clave")?.addEventListener("click", () => {
+    if (state.rol !== "terapeuta") return
+    abrirModalClave({ forzarCambio: false })
   })
 }
 
@@ -224,6 +274,7 @@ function renderApp() {
   const logoutBtn = $("#logout-btn")
   const indiceBtn = $("#btn-indice")
   const manualBtn = $("#btn-manual")
+  const claveBtn = $("#btn-clave")
 
   const syncDot = document.getElementById("sync-dot")
   if (state.rol === "terapeuta") {
@@ -232,6 +283,7 @@ function renderApp() {
     logoutBtn.hidden = false
     indiceBtn.hidden = false
     if (manualBtn) manualBtn.hidden = false
+    if (claveBtn) claveBtn.hidden = false
     if (syncDot) syncDot.hidden = false
   } else if (state.rol === "paciente") {
     indicator.hidden = false
@@ -239,12 +291,14 @@ function renderApp() {
     logoutBtn.hidden = false
     indiceBtn.hidden = true
     if (manualBtn) manualBtn.hidden = true
+    if (claveBtn) claveBtn.hidden = true
     if (syncDot) syncDot.hidden = true
   } else {
     indicator.hidden = true
     logoutBtn.hidden = true
     indiceBtn.hidden = true
     if (manualBtn) manualBtn.hidden = true
+    if (claveBtn) claveBtn.hidden = true
     if (syncDot) syncDot.hidden = true
   }
 
@@ -305,6 +359,10 @@ function renderLogin() {
         localStorage.setItem(STORAGE_CLAVE, cred.user.uid)
         await sincronizarDesdeFirestore()
         cargarHistorialFirestore()
+        const tData = await fsCargarTerapeuta()
+        if (!tData || !tData.passwordUpdatedAt) {
+          abrirModalClave({ forzarCambio: true })
+        }
         renderApp()
       })
       .catch((err) => {
@@ -419,24 +477,103 @@ function renderPacientePedirCodigo() {
       <button type="submit" class="btn-primary">Entrar</button>
     </form>
     <p id="codigo-error" class="error" hidden></p>
+    <div style="margin-top:1.5rem;text-align:center">
+      <button id="btn-ver-historial-local" class="btn-ghost">Ver mi historial</button>
+    </div>
   `
   $("#app").appendChild(wrap)
 
   const form = $("#form-codigo")
   const input = $("#input-codigo")
   const error = $("#codigo-error")
+
+  const btnHist = $("#btn-ver-historial-local")
+  const hist = getHistorial()
+  const hasHistory = Object.values(hist).some(arr => arr.length > 0)
+  btnHist.hidden = !hasHistory
+  btnHist.addEventListener("click", () => renderHistorialLocalPaciente())
   input.addEventListener("input", () => {
     input.value = input.value.toUpperCase().replace(/[^A-Z0-9]/g, "")
   })
-  form.addEventListener("submit", (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault()
     const code = input.value.trim().toUpperCase()
+    console.log("[codigo] ingresado:", code)
     if (code.length !== 4) { error.textContent = "El codigo tiene 4 caracteres."; error.hidden = false; return }
+
+    const btn = form.querySelector("button[type=submit]")
+    btn.disabled = true
+    btn.textContent = "Buscando..."
+
+    console.log("[codigo] state.pacientes =", state.pacientes.length, "pacientes")
     const found = buscarSesionPorCodigo(code)
-    if (!found) { error.textContent = "Codigo no encontrado. Verifica con tu terapeuta."; error.hidden = false; return }
-    setSesionActivaPaciente(found.sesion.id)
-    renderApp()
+    if (found) {
+      console.log("[codigo] encontrado LOCAL:", found.paciente.nombre)
+      setSesionActivaPaciente(found.sesion.id)
+      renderApp()
+      return
+    }
+    console.log("[codigo] no encontrado localmente, probando Firestore...")
+
+    error.hidden = true
+    const fsData = await buscarCodigoEnFirestore(code)
+    console.log("[codigo] fsData =", fsData)
+    if (fsData) {
+      console.log("[codigo] encontrado en FIRESTORE, creando entrada. cartas:", fsData.cartas?.length)
+      const pacienteEntry = {
+        id: fsData.pacienteId,
+        nombre: fsData.pacienteNombre,
+        createdAt: new Date().toISOString(),
+        sesiones: [{
+          id: fsData.sesionId,
+          fecha: new Date().toISOString(),
+          notas: "",
+          cartas: fsData.cartas || [],
+          codigo: code,
+          habilitada: fsData.habilitada,
+        }]
+      }
+      state.pacientes.push(pacienteEntry)
+      localStorage.setItem(STORAGE_PACIENTES, JSON.stringify(state.pacientes))
+      const found2 = buscarSesionPorCodigo(code)
+      if (found2) {
+        setSesionActivaPaciente(found2.sesion.id)
+        renderApp()
+        return
+      }
+    }
+
+    btn.disabled = false
+    btn.textContent = "Entrar"
+    console.log("[codigo] NO ENCONTRADO")
+    error.textContent = "Codigo no encontrado. Verifica con tu terapeuta."
+    error.hidden = false
   })
+}
+
+function sincronizarCartasTerapeuta(activa) {
+  if (!activa?.sesion?.cartas?.length) return
+  const sesionId = activa.sesion.id
+  const historial = getHistorial()
+  const arr = historial[sesionId] || []
+  let changes = false
+  for (const c of activa.sesion.cartas) {
+    if (!arr.some(h => h.codigo === c.codigo && h.mazoId === c.mazoId && h.desdeTerapeuta)) {
+      arr.unshift({
+        id: idGen(),
+        codigo: c.codigo,
+        mazoId: c.mazoId,
+        timestamp: c.asignadaEn || new Date().toISOString(),
+        notas: c.notas || "",
+        desdeTerapeuta: true,
+      })
+      changes = true
+    }
+  }
+  if (changes) {
+    historial[sesionId] = arr
+    guardarHistorial(historial)
+  }
 }
 
 function renderPacienteSesion(activa) {
@@ -476,15 +613,91 @@ function renderPacienteSesion(activa) {
     })
   }
 
-  if (activa.sesion.habilitada) {
-    $("#btn-robar").addEventListener("click", () => robarCartaPaciente())
-  } else {
+  sincronizarCartasTerapeuta(activa)
+
+  async function pintarEstado() {
+    const activaFS = await verificarSesionActiva()
     const btn = $("#btn-robar")
-    btn.disabled = true
-    btn.textContent = "Robo deshabilitado por el terapeuta"
-    btn.style.opacity = "0.5"
+    if (!btn) return
+    btn.disabled = !activaFS
+    btn.textContent = activaFS ? "Robar carta" : "Robo deshabilitado por el terapeuta"
+    btn.style.opacity = activaFS ? "1" : "0.5"
   }
+
+  pintarEstado()
+
+  const btnRobar = $("#btn-robar")
+  btnRobar.addEventListener("click", async () => {
+    const ok = await verificarSesionActiva()
+    if (!ok) return
+    robarCartaPaciente()
+  })
+
   renderHistorialPaciente()
+}
+
+async function leerEstadoSesionFirestore(code) {
+  let user = auth.currentUser
+  if (!user) {
+    try { const cred = await auth.signInAnonymously(); user = cred.user } catch (_) { return null }
+  }
+  return await fsBuscarCodigoActivo(code)
+}
+
+async function verificarSesionActiva() {
+  const id = pacienteState.sesionActivaId
+  if (!id) return false
+
+  const activa = getSesionActivaPaciente()
+  if (!activa) return false
+
+  const code = activa.sesion.codigo
+  if (!code) return false
+
+  const data = await leerEstadoSesionFirestore(code)
+  const activaFS = !!(data && data.habilitada)
+  const activaMemoria = activa.sesion.habilitada
+
+  if (activaFS !== activaMemoria) {
+    activa.sesion.habilitada = activaFS
+    const btn = document.getElementById("btn-robar")
+    if (btn) {
+      btn.disabled = !activaFS
+      btn.textContent = activaFS ? "Robar carta" : "Robo deshabilitado por el terapeuta"
+      btn.style.opacity = activaFS ? "1" : "0.5"
+    }
+  }
+
+  if (data && data.cartas) {
+    const cartasPrevias = activa.sesion.cartas.length
+    activa.sesion.cartas = data.cartas
+    if (data.cartas.length > cartasPrevias) {
+      const sesionId = activa.sesion.id
+      const historial = getHistorial()
+      const arr = historial[sesionId] || []
+      let changes = false
+      for (const c of data.cartas) {
+        if (!arr.some(h => h.codigo === c.codigo && h.mazoId === c.mazoId && h.desdeTerapeuta)) {
+          arr.unshift({
+            id: idGen(),
+            codigo: c.codigo,
+            mazoId: c.mazoId,
+            timestamp: c.asignadaEn || new Date().toISOString(),
+            notas: c.notas || "",
+            desdeTerapeuta: true,
+          })
+          changes = true
+        }
+      }
+      if (changes) {
+        historial[sesionId] = arr
+        guardarHistorial(historial)
+        renderHistorialPaciente()
+      }
+    }
+  }
+
+  return activaFS
 }
 
 function robarCartaPaciente() {
@@ -648,31 +861,147 @@ function exportarHistorial() {
   const historial = sesionId ? getHistorialDeSesion(sesionId) : []
   if (!historial.length) { alert("No hay historial para exportar."); return }
   const activa = getSesionActivaPaciente()
-  const enriched = historial.map(h => {
+
+  const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, "")
+
+  const filas = historial.map(h => {
     const mazo = state.mazos[h.mazoId]
     const carta = mazo?.cartas.find(c => c.codigo === h.codigo)
-    return {
-      codigo: h.codigo,
-      mazo: mazo?.nombre || h.mazoId,
-      fecha: h.timestamp,
-      pregunta: carta?.pregunta || "",
-      objetivo: carta?.objetivo || "",
-      tarea: carta?.tarea || "",
-      notas: h.notas || "",
-    }
-  })
-  const payload = activa
-    ? { sesion: activa.sesion.codigo, paciente: activa.paciente.nombre, cartas: enriched }
-    : { cartas: enriched }
-  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" })
+    const pregunta = escapeHtml(carta?.pregunta || "")
+    const tarea = escapeHtml(carta?.tarea || "")
+    const notas = escapeHtml(h.notas || "")
+    const fecha = h.timestamp ? new Date(h.timestamp).toLocaleString("es-AR") : ""
+    const origen = h.desdeTerapeuta ? "Terapeuta" : "Robada"
+    const imgSrc = mazo ? `${baseUrl}/assets/img/${mazo.numero}/${escapeHtml(h.codigo)}.jpg` : ""
+    const imgHtml = imgSrc ? `<a href="${imgSrc}" target="_blank"><img src="${imgSrc}" alt="${escapeHtml(h.codigo)}" style="width:80px;height:auto;border-radius:4px;display:block" loading="lazy"></a>` : ""
+    return `<tr>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;font-weight:600;white-space:nowrap">${escapeHtml(h.codigo)}</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd">${escapeHtml(mazo?.nombre || h.mazoId)}</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;font-size:0.9rem">${fecha}<br><span style="font-size:0.8rem;color:#666">${origen}</span></td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;max-width:300px">${pregunta || "-"}</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;max-width:300px">${tarea || "-"}</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;max-width:300px">${notas || "-"}</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #ddd;text-align:center">${imgHtml}</td>
+    </tr>`
+  }).join("\n")
+
+  const paciente = activa ? escapeHtml(activa.paciente.nombre) : "Paciente"
+  const codigoSesion = activa ? escapeHtml(activa.sesion.codigo) : ""
+
+  const html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi historial - MOSAICO</title>
+<style>
+body{margin:0;padding:1rem;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f3ef;color:#1a1a1a}
+h1{font-size:1.3rem;margin:0 0 0.25rem}
+p{margin:0 0 1rem;color:#666;font-size:0.9rem}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+th{background:#1a2a3a;color:#fff;padding:0.75rem;text-align:left;font-size:0.8rem;white-space:nowrap}
+@media(max-width:600px){th,td{font-size:0.75rem;padding:0.5rem!important}td{max-width:150px!important}}
+</style>
+</head>
+<body>
+<h1>Mi historial - MOSAICO</h1>
+<p>${paciente}${codigoSesion ? " &middot; Codigo: " + codigoSesion : ""} &middot; ${historial.length} cartas &middot; ${new Date().toLocaleDateString("es-AR")}</p>
+<table>
+<thead><tr>
+<th>Codigo</th>
+<th>Mazo</th>
+<th>Fecha</th>
+<th>Pregunta</th>
+<th>Tarea</th>
+<th>Mis notas</th>
+<th>Imagen</th>
+</tr></thead>
+<tbody>
+${filas}
+</tbody>
+</table>
+<p style="margin-top:0.75rem;color:#999;font-size:0.75rem;text-align:center">Generado por MOSAICO</p>
+</body>
+</html>`
+
+  const blob = new Blob([html], { type: "text/html" })
   const url = URL.createObjectURL(blob)
   const a = document.createElement("a")
   a.href = url
-  a.download = `mosaico-mi-historial-${new Date().toISOString().slice(0,10)}.json`
+  a.download = `mosaico-mi-historial-${new Date().toISOString().slice(0,10)}.html`
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)
   URL.revokeObjectURL(url)
+}
+
+function renderHistorialLocalPaciente() {
+  const hist = getHistorial()
+  const todas = []
+  for (const arr of Object.values(hist)) {
+    for (const h of arr) {
+      if (!todas.some(x => x.id === h.id)) todas.push(h)
+    }
+  }
+  todas.sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""))
+
+  $("#app").innerHTML = ""
+  const wrap = document.createElement("section")
+  wrap.className = "tpl-section"
+  wrap.innerHTML = `
+    <header class="tpl-section-head">
+      <h2>Mi historial</h2>
+    </header>
+    <div id="ph-lista" class="ph-lista"></div>
+    <div style="margin-top:1rem;text-align:center">
+      <button id="btn-volver-codigo" class="btn-ghost">Volver</button>
+    </div>
+  `
+  $("#app").appendChild(wrap)
+
+  const container = $("#ph-lista")
+  if (!todas.length) {
+    container.innerHTML = '<div class="empty-state"><p>No hay historial guardado en este dispositivo.</p></div>'
+  } else {
+    for (const h of todas) {
+      const mazo = Object.values(state.mazos).find(m => m.id === h.mazoId)
+      const item = document.createElement("div")
+      item.className = "ph-item"
+      const origen = h.desdeTerapeuta ? "asignada" : "robada"
+      item.innerHTML = `
+        <div class="ph-item-main">
+          <span class="ph-item-codigo">${escapeHtml(h.codigo)}</span>
+          <span class="ph-item-mazo">${mazo ? escapeHtml(mazo.nombre) : ""}</span>
+          <span class="ph-item-origen ph-item-origen--${origen}">${origen}</span>
+        </div>
+        <span class="ph-item-fecha">${formatearFecha(h.timestamp)}</span>
+        <button class="ph-item-borrar" data-id="${h.id}" aria-label="Borrar">&times;</button>
+        <textarea class="ph-item-notas" data-id="${h.id}" placeholder="Mis notas..." style="width:100%;min-height:50px;margin-top:0.3rem">${escapeHtml(h.notas || "")}</textarea>
+      `
+      item.querySelector(".ph-item-borrar").addEventListener("click", (e) => {
+        e.stopPropagation()
+        if (!confirm(`Borrar la entrada de ${h.codigo}?`)) return
+        for (const key of Object.keys(hist)) {
+          hist[key] = hist[key].filter(x => x.id !== h.id)
+        }
+        guardarHistorial(hist)
+        renderHistorialLocalPaciente()
+      })
+      const ta = item.querySelector(".ph-item-notas")
+      const key = Object.keys(hist).find(k => hist[k].some(x => x.id === h.id))
+      ta.addEventListener("input", () => {
+        for (const k of Object.keys(hist)) {
+          for (const x of hist[k]) {
+            if (x.id === h.id) x.notas = ta.value
+          }
+        }
+        guardarHistorial(hist)
+      })
+      container.appendChild(item)
+    }
+  }
+
+  $("#btn-volver-codigo").addEventListener("click", () => renderApp())
 }
 
 function popularSelectMazos(select) {
@@ -757,12 +1086,63 @@ function generarCodigoSesion() {
 }
 
 function buscarSesionPorCodigo(codigo) {
+  refrescarPacientesLocal()
   const c = codigo.trim().toUpperCase()
   for (const p of state.pacientes) {
     for (const s of p.sesiones) {
       if (s.codigo === c) return { paciente: p, sesion: s }
     }
   }
+  return null
+}
+
+function refrescarPacientesLocal() {
+  try {
+    const raw = localStorage.getItem(STORAGE_PACIENTES)
+    console.log("[refrescar] STORAGE_PACIENTES en localStorage:", raw ? "tiene datos" : "vacio")
+    if (raw) {
+      const parsed = JSON.parse(raw)
+      console.log("[refrescar] pacientes parseados:", parsed.length)
+      state.pacientes = parsed
+    }
+  } catch (e) {
+    console.warn("[refrescar] error:", e)
+  }
+}
+
+async function buscarSesionFirestore(fsData) {
+  if (!fsData?.terapeutaId || !fsData?.sesionId) return null
+  try {
+    const pacientes = await fsCargarPacientesDe(fsData.terapeutaId)
+    if (!pacientes) return null
+    const pac = pacientes.find(p => p.id === fsData.pacienteId)
+    if (!pac) return null
+    return pac.sesiones.find(s => s.id === fsData.sesionId) || null
+  } catch (e) {
+    console.warn("[buscarSesionFirestore] error:", e.message)
+    return null
+  }
+}
+
+async function buscarCodigoEnFirestore(code) {
+  let user = auth.currentUser
+  console.log("[fsBuscar] auth.currentUser:", user ? user.uid : "null")
+  if (!user) {
+    try {
+      console.log("[fsBuscar] intentando auth anonima...")
+      const cred = await auth.signInAnonymously()
+      user = cred.user
+      console.log("[fsBuscar] auth anonima exitosa:", user.uid)
+    } catch (e) {
+      console.warn("[fsBuscar] No se pudo autenticar anonimamente:", e.message)
+      return null
+    }
+  }
+  console.log("[fsBuscar] consultando active_codes para:", code)
+  const data = await fsBuscarCodigoActivo(code)
+  console.log("[fsBuscar] resultado:", data)
+  if (data && data.habilitada) return data
+  console.log("[fsBuscar] no habilitado o no encontrado")
   return null
 }
 
@@ -888,8 +1268,21 @@ function renderPacienteView() {
         <div class="sesion-card-fecha">${formatearFecha(s.fecha)}</div>
         <div class="sesion-card-meta">${s.cartas.length} cartas · ${s.notas ? s.notas.slice(0, 60) + (s.notas.length > 60 ? "..." : "") : "sin notas"}</div>
       </div>
-      <span class="muted" style="font-size:0.8rem">Ver &rarr;</span>
+      <div style="display:flex;align-items:center;gap:0.5rem">
+        <span class="muted" style="font-size:0.8rem">Ver &rarr;</span>
+        <button class="btn-icon-peligro" data-sesion-id="${s.id}" aria-label="Eliminar sesion">&times;</button>
+      </div>
     `
+    card.querySelector("button").addEventListener("click", (e) => {
+      e.stopPropagation()
+      if (!confirm(`Eliminar la sesion del ${formatearFecha(s.fecha)}? Las cartas y notas se perderan.`)) return
+      if (s.habilitada && s.codigo) fsEliminarCodigoActivo(s.codigo)
+      const idx = pac.sesiones.indexOf(s)
+      if (idx > -1) pac.sesiones.splice(idx, 1)
+      guardarPacientes()
+      state.vistaT = "paciente"
+      renderTerapeuta()
+    })
     card.addEventListener("click", () => {
       state.sesionId = s.id
       state.vistaT = "historial"
@@ -928,6 +1321,39 @@ function renderSesionView() {
   const codigoEl = $("#sv-codigo-valor")
   const toggleBtn = $("#sv-habilitar-toggle")
   if (codigoEl) codigoEl.textContent = sesion.codigo
+  const uid = fsUser()
+  console.log("[sesionView] uid =", uid, "codigo =", sesion.codigo, "habilitada =", sesion.habilitada)
+
+  function sincronizarCodigoActivo() {
+    if (!uid) { console.warn("syncCode: no uid"); return }
+    console.log("syncCode: sesion.habilitada =", sesion.habilitada, "codigo =", sesion.codigo)
+    if (sesion.habilitada) {
+      fsGuardarCodigoActivo(sesion.codigo, {
+        terapeutaId: uid,
+        sesionId: sesion.id,
+        pacienteId: pac.id,
+        pacienteNombre: pac.nombre,
+        habilitada: true,
+        cartas: sesion.cartas,
+      }).then(ok => console.log("syncCode: guardado", ok))
+    } else {
+      fsEliminarCodigoActivo(sesion.codigo)
+        .then(ok => console.log("syncCode: eliminado", ok))
+    }
+  }
+
+  function actualizarCartasEnActivo() {
+    if (!uid || !sesion.habilitada || !sesion.codigo) return
+    fsGuardarCodigoActivo(sesion.codigo, {
+      terapeutaId: uid,
+      sesionId: sesion.id,
+      pacienteId: pac.id,
+      pacienteNombre: pac.nombre,
+      habilitada: true,
+      cartas: sesion.cartas,
+    }).catch(() => {})
+  }
+
   if (toggleBtn) {
     const pintar = () => {
       toggleBtn.textContent = sesion.habilitada ? "Habilitado" : "Deshabilitado"
@@ -938,6 +1364,7 @@ function renderSesionView() {
     toggleBtn.addEventListener("click", () => {
       sesion.habilitada = !sesion.habilitada
       guardarPacientes()
+      sincronizarCodigoActivo()
       pintar()
     })
   }
@@ -1023,6 +1450,7 @@ function renderSesionView() {
       asignadaEn: new Date().toISOString(),
     })
     guardarPacientes()
+    actualizarCartasEnActivo()
 
     // Propagar al historial del paciente para que lo vea
     try {
@@ -1052,10 +1480,24 @@ function renderSesionView() {
   // Inicializar browser
   poblarBrowser(mazoActual)
 
+  // Restaurar preview si veniamos viendo una carta antes de ir al indice
+  if (state.ultimaCartaVista) {
+    const m = state.mazos[state.ultimaCartaVista.mazoId]
+    const c = m?.cartas.find(x => x.codigo === state.ultimaCartaVista.codigo)
+    if (c) {
+      cartaSeleccionada = c
+      const item = browser.querySelector(`[data-codigo="${c.codigo}"]`)
+      if (item) item.classList.add("seleccionada")
+      mostrarCartaEnSesion(c, state.ultimaCartaVista.mazoId)
+    }
+  }
+
   // Mostrar carta en el preview
   function mostrarCartaEnSesion(carta, mazoId) {
     const mazo = state.mazos[mazoId]
     if (!mazo) return
+
+    state.ultimaCartaVista = { codigo: carta.codigo, mazoId }
 
     const area = document.getElementById("sv-carta-area")
     if (!area) return
@@ -1137,7 +1579,7 @@ function renderCartasAsignadas(sesion) {
 // ---- manual ----
 
 function renderManual() {
-  const BASE = "../manual/"
+  const BASE = "manual/"
   const abrir = (file, anchor) => {
     window.open(BASE + file + (anchor ? "#" + anchor : ""), "_blank")
   }
@@ -1376,7 +1818,7 @@ function renderIndiceMaestro() {
   }
 }
 
-// ---- historial de sesion (read-only) ----
+// ---- historial de sesion (editable) ----
 
 function renderHistorialSesion() {
   const pac = getPaciente()
@@ -1390,13 +1832,13 @@ function renderHistorialSesion() {
 
   $("#btn-back").hidden = false
 
-  // notas de sesion
-  const notasBloque = $("#hs-notas-sesion")
-  if (sesion.notas) {
-    notasBloque.textContent = sesion.notas
-  } else {
-    notasBloque.innerHTML = '<span class="muted">Sin notas registradas.</span>'
-  }
+  // notas de sesion (textarea editable con autoguardado)
+  const notasTA = $("#hs-notas-sesion")
+  notasTA.value = sesion.notas || ""
+  notasTA.addEventListener("input", () => {
+    sesion.notas = notasTA.value
+    guardarPacientes()
+  })
 
   // cartas
   const container = $("#hs-lista-cartas")
@@ -1404,22 +1846,43 @@ function renderHistorialSesion() {
 
   if (!sesion.cartas.length) {
     container.innerHTML = '<div class="empty-state"><p>No se asignaron cartas en esta sesion.</p></div>'
-    return
+  } else {
+    for (const c of sesion.cartas) {
+      const mazo = state.mazos[c.mazoId]
+      const div = document.createElement("div")
+      div.className = "sv-carta-asignada"
+      div.innerHTML = `
+        <div class="sv-carta-asignada-head">
+          <span>${c.codigo}</span>
+          <span class="mazo-label">${mazo?.nombre || c.mazoId}</span>
+        </div>
+        <textarea class="sv-notas" data-codigo="${c.codigo}" placeholder="Notas sobre esta carta..." style="min-height:60px">${escapeHtml(c.notas || "")}</textarea>
+      `
+      const ta = div.querySelector("textarea")
+      ta.addEventListener("input", () => {
+        c.notas = ta.value
+        guardarPacientes()
+      })
+
+      container.appendChild(div)
+    }
   }
 
-  for (const c of sesion.cartas) {
-    const mazo = state.mazos[c.mazoId]
-    const div = document.createElement("div")
-    div.className = "sv-carta-asignada"
-    div.innerHTML = `
-      <div class="sv-carta-asignada-head">
-        <span>${c.codigo}</span>
-        <span class="mazo-label">${mazo?.nombre || c.mazoId}</span>
-      </div>
-      ${c.notas ? `<div style="font-size:0.9rem;white-space:pre-wrap">${escapeHtml(c.notas)}</div>` : '<span class="muted" style="font-size:0.85rem">Sin notas</span>'}
-    `
-    container.appendChild(div)
-  }
+  const eliminarBtn = document.createElement("button")
+  eliminarBtn.className = "btn-peligro"
+  eliminarBtn.textContent = "Eliminar esta sesion"
+  eliminarBtn.style.cssText = "margin-top:1.5rem;display:block;margin-left:auto"
+  eliminarBtn.addEventListener("click", () => {
+    if (!confirm(`Eliminar la sesion del ${formatearFecha(sesion.fecha)}? Las cartas y notas se perderan.`)) return
+    if (sesion.habilitada && sesion.codigo) fsEliminarCodigoActivo(sesion.codigo)
+    const idx = pac.sesiones.indexOf(sesion)
+    if (idx > -1) pac.sesiones.splice(idx, 1)
+    guardarPacientes()
+    state.sesionId = null
+    state.vistaT = "paciente"
+    renderTerapeuta()
+  })
+  container.parentElement.appendChild(eliminarBtn)
 }
 
 // ============== HELPERS ==============
@@ -1440,6 +1903,130 @@ function escapeHtml(s) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
+}
+
+// ============== MODAL CAMBIO DE CLAVE ==============
+
+let claveModalForzado = false
+
+function abrirModalClave({ forzarCambio }) {
+  const modal = document.getElementById("clave-modal")
+  const form = document.getElementById("clave-form")
+  const err = document.getElementById("clave-error")
+  const ok = document.getElementById("clave-ok")
+  const aviso = document.getElementById("clave-modal-aviso")
+  const btnCancelar = document.getElementById("clave-cancelar")
+  if (!modal || !form) return
+
+  form.reset()
+  err.hidden = true
+  ok.hidden = true
+  claveModalForzado = !!forzarCambio
+
+  if (forzarCambio) {
+    aviso.hidden = false
+    aviso.textContent = "Estas usando una contraseña temporal. Definí tu contraseña personal para continuar."
+    btnCancelar.hidden = true
+    modal.classList.add("clave-modal-bloqueado")
+  } else {
+    aviso.hidden = true
+    btnCancelar.hidden = false
+    modal.classList.remove("clave-modal-bloqueado")
+  }
+
+  modal.hidden = false
+  modal.style.display = "flex"
+  setTimeout(() => form.elements["actual"].focus(), 50)
+}
+
+function cerrarModalClave() {
+  const modal = document.getElementById("clave-modal")
+  if (!modal) return
+  modal.hidden = true
+  modal.style.display = "none"
+}
+
+function initModalClave() {
+  const modal = document.getElementById("clave-modal")
+  const form = document.getElementById("clave-form")
+  const btnCancelar = document.getElementById("clave-cancelar")
+  if (!modal || !form) return
+
+  modal.style.display = "none"
+  btnCancelar?.addEventListener("click", () => {
+    if (claveModalForzado) return
+    cerrarModalClave()
+  })
+  modal.addEventListener("click", (e) => {
+    if (claveModalForzado) return
+    if (e.target === modal) cerrarModalClave()
+  })
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault()
+    const err = document.getElementById("clave-error")
+    const ok = document.getElementById("clave-ok")
+    err.hidden = true
+    ok.hidden = true
+
+    const actual = form.elements["actual"].value
+    const nueva = form.elements["nueva"].value
+    const repetir = form.elements["repetir"].value
+
+    if (nueva.length < 6) {
+      err.textContent = "La nueva contraseña debe tener al menos 6 caracteres."
+      err.hidden = false
+      return
+    }
+    if (nueva !== repetir) {
+      err.textContent = "Las contraseñas nuevas no coinciden."
+      err.hidden = false
+      return
+    }
+    if (nueva === actual) {
+      err.textContent = "La nueva contraseña debe ser distinta de la actual."
+      err.hidden = false
+      return
+    }
+
+    const user = auth.currentUser
+    if (!user || !user.email) {
+      err.textContent = "Sesion no valida. Volve a iniciar sesion."
+      err.hidden = false
+      return
+    }
+
+    const btn = form.querySelector("button[type=submit]")
+    btn.disabled = true
+    btn.textContent = "Cambiando..."
+
+    try {
+      const cred = firebase.auth.EmailAuthProvider.credential(user.email, actual)
+      await user.reauthenticateWithCredential(cred)
+      await user.updatePassword(nueva)
+      const guardado = await fsMarcarClaveActualizada()
+      if (!guardado) throw new Error("No se pudo guardar en el servidor. Reintenta.")
+      ok.textContent = "Contraseña actualizada."
+      ok.hidden = false
+      claveModalForzado = false
+      setTimeout(() => {
+        cerrarModalClave()
+        form.reset()
+      }, 800)
+    } catch (errAuth) {
+      if (errAuth.code === "auth/wrong-password" || errAuth.code === "auth/invalid-credential") {
+        err.textContent = "La contraseña actual es incorrecta."
+      } else if (errAuth.code === "auth/weak-password") {
+        err.textContent = "Contraseña demasiado debil."
+      } else {
+        err.textContent = "Error: " + errAuth.message
+      }
+      err.hidden = false
+    } finally {
+      btn.disabled = false
+      btn.textContent = "Cambiar"
+    }
+  })
 }
 
 document.addEventListener("DOMContentLoaded", init)

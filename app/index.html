@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
   <title>MOSAICO</title>
-  <link rel="stylesheet" href="styles.css?v=21" />
+  <link rel="stylesheet" href="styles.css?v=25" />
 </head>
 <body>
   <header class="topbar">
@@ -26,6 +26,7 @@
       <span id="sync-dot" class="sync-dot sync-dot--offline" title="Sin conexion" hidden></span>
       <button id="btn-indice" class="btn-ghost" hidden>Indice</button>
       <button id="btn-manual" class="btn-ghost" hidden>Manual</button>
+      <button id="btn-clave" class="btn-ghost" hidden>Cambiar clave</button>
       <button id="logout-btn" class="btn-ghost" hidden>Cerrar sesion</button>
     </div>
   </header>
@@ -243,7 +244,7 @@
         </div>
       </header>
 
-      <div id="hs-notas-sesion" class="hs-notas-bloque"></div>
+      <textarea id="hs-notas-sesion" class="sv-notas" placeholder="Notas generales de la sesion..."></textarea>
 
       <div id="hs-cartas" class="sv-cartas-asignadas">
         <h3>Cartas asignadas</h3>
@@ -261,11 +262,38 @@
     }
   </script>
   <script src="firebase-service.js"></script>
-  <script src="app.js?v=20"></script>
+  <script src="app.js?v=31"></script>
 
   <div id="img-modal" class="img-modal" hidden>
     <span class="img-modal-close">&times;</span>
     <img class="img-modal-content" id="img-modal-content" />
+  </div>
+
+  <div id="clave-modal" class="clave-modal" hidden>
+    <div class="clave-modal-card">
+      <h3>Cambiar contraseña</h3>
+      <div id="clave-modal-aviso" class="clave-modal-aviso" hidden></div>
+      <form id="clave-form" class="clave-form">
+        <label>
+          Contraseña actual
+          <input type="password" name="actual" autocomplete="current-password" required />
+        </label>
+        <label>
+          Nueva contraseña
+          <input type="password" name="nueva" autocomplete="new-password" minlength="6" required />
+        </label>
+        <label>
+          Repetir nueva contraseña
+          <input type="password" name="repetir" autocomplete="new-password" minlength="6" required />
+        </label>
+        <p id="clave-error" class="error" hidden></p>
+        <p id="clave-ok" class="ok" hidden></p>
+        <div class="clave-modal-actions">
+          <button type="button" id="clave-cancelar" class="btn-ghost">Cancelar</button>
+          <button type="submit" class="btn-primary">Cambiar</button>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 </html>

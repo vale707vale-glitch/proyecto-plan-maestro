@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto MOSAICO | Manual Clínico Profesional - Bloque 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { serif: ['"Playfair Display"', 'serif'], sans: ['"Inter"', 'sans-serif'] },
+                    colors: {
+                        brand: { 50: '#f8fafc', 100: '#f1f5f9', 800: '#1e293b', 900: '#0f172a' },
+                        accent: { 50: '#ecfdf5', 500: '#10b981', 600: '#059669', 800: '#065f46' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .elegant-separator { height: 1px; background: linear-gradient(to right, transparent, #cbd5e1, transparent); }
+        .chapter-heading { position: relative; padding-left: 1.5rem; }
+        .chapter-heading::before { content: ''; position: absolute; left: 0; top: 0.5rem; bottom: 0.5rem; width: 4px; background-color: #10b981; border-radius: 2px; }
+        @media print { 
+            .no-print { display: none; } 
+            body { background: white; color: black; }
+            .page-break { page-break-before: always; }
+            article, section { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-brand-50 text-slate-800 font-sans antialiased leading-relaxed">
+<a href="#" onclick="if(window.opener){window.opener.postMessage('mosaico:volver','*');window.opener.focus();try{window.close()}catch(e){}}else{location.href=location.origin+'/app/'}return false" class="fixed top-4 left-4 z-50 no-print flex items-center gap-2 bg-brand-900/90 hover:bg-accent-600 text-white px-3 py-2 rounded-lg shadow-lg transition-colors text-sm font-medium backdrop-blur-sm border border-white/10" title="Volver a MOSAICO">
+  <span class="text-lg leading-none">&larr;</span>
+  <span class="hidden sm:inline">Volver a MOSAICO</span>
+</a>
+
+    <!-- PORTADA / FRONT MATTER -->
+    <header class="bg-brand-900 text-white py-20 px-6 md:px-12 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-accent-500 via-brand-900 to-brand-900"></div>
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <div class="inline-block px-4 py-1.5 bg-accent-600/20 border border-accent-500/30 rounded-full text-accent-500 text-xs font-bold tracking-[0.2em] uppercase mb-8">Proyecto MOSAICO &bull; Volumen III</div>
+            <h1 class="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">Manual Clínico<br><span class="italic text-accent-500">de Intervención Conversacional</span></h1>
+            <p class="text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed">Guía profesional para el uso terapéutico de las 750 cartas de exploración. Metodología, encuadre y dinámicas de profundización.</p>
+            <div class="mt-12 elegant-separator max-w-xs mx-auto"></div>
+            <p class="mt-6 text-sm text-slate-400 uppercase tracking-widest">Uso exclusivo para profesionales de la salud mental</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 md:px-12 py-16 space-y-16">
+
+        <!-- PRÓLOGO -->
+        <section>
+            <h2 class="font-serif text-3xl text-brand-900 font-bold mb-6">Prólogo: De la pregunta a la intervención</h2>
+            <div class="prose prose-slate max-w-none text-slate-700">
+                <p class="mb-4">MOSAICO no es un juego de cartas. Es un <strong>sistema clínico de intervención conversacional</strong> diseñado para terapeutas que buscan romper patrones de resistencia, facilitar la insight y estructurar el trabajo entre sesiones de manera tangible y significativa.</p>
+                <p class="mb-4">Las 750 cartas que componen este sistema no son fines en sí mismas, sino <em>catalizadores</em>. Su verdadero valor no reside en el texto impreso, sino en el espacio terapéutico que se abre cuando el paciente interactúa con ellas. Este manual ha sido diseñado para acompañarte en ese proceso, ofreciéndote un marco teórico integrativo (Narrativa, ACT, Gestalt, Sistémica y Somática) y herramientas prácticas para gestionar desde la apertura de la sesión hasta la asignación de tareas terapéuticas.</p>
+                <p>Te invitamos a utilizar este recurso no como un guion rígido, sino como un mapa flexible que se adapta a la singularidad de cada paciente que cruza la puerta de tu consultorio.</p>
+            </div>
+        </section>
+
+        <div class="elegant-separator"></div>
+
+        <!-- CÓMO USAR ESTE MANUAL Y SISTEMA DE CÓDIGOS -->
+        <section>
+            <h2 class="font-serif text-3xl text-brand-900 font-bold mb-8">Navegación y Sistema de Codificación</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-10">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-4 flex items-center gap-2">📖 Cómo usar este manual</h3>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li class="flex gap-3"><span class="text-accent-600 font-bold">1.</span> <span>Utiliza el <strong>Índice Maestro de Códigos</strong> (Anexo A) para buscar intervenciones específicas basadas en la carta que el paciente seleccionó.</span></li>
+                        <li class="flex gap-3"><span class="text-accent-600 font-bold">2.</span> <span>Consulta el <strong>Capítulo 5</strong> cuando te enfrentes a resistencias ("No sé", "Todas", silencio prolongado).</span></li>
+                        <li class="flex gap-3"><span class="text-accent-600 font-bold">3.</span> <span>Revisa el <strong>Capítulo 7</strong> para encontrar dinámicas estructuradas que combinen múltiples mazos según el objetivo clínico.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-brand-900 text-white p-6 rounded-xl shadow-sm">
+                    <h3 class="font-sans font-bold text-accent-500 uppercase text-xs tracking-widest mb-4 flex items-center gap-2">🔑 Anatomía de un Código (Ej: E-14)</h3>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <p>La letra indica el <strong>Mazo</strong> de pertenencia:</p>
+                        <div class="grid grid-cols-2 gap-2 text-xs">
+                            <span><strong>P:</strong> La Puerta</span>
+                            <span><strong>E:</strong> Emociones</span>
+                            <span><strong>H:</strong> Historia Personal</span>
+                            <span><strong>C:</strong> Creencias</span>
+                            <span><strong>S:</strong> La Sombra</span>
+                            <span><strong>R:</strong> Relaciones</span>
+                            <span><strong>U:</strong> El Cuerpo Habla</span>
+                            <span><strong>D:</strong> Decisiones</span>
+                            <span><strong>RE:</strong> Recursos</span>
+                            <span><strong>F:</strong> Futuro</span>
+                            <span><strong>M:</strong> Metáforas</span>
+                            <span><strong>T:</strong> Terapeuta</span>
+                        </div>
+                        <p class="mt-3 pt-3 border-t border-slate-700">El número indica la <strong>carta específica</strong> dentro de ese mazo, permitiendo una búsqueda cruzada instantánea entre las cartas físicas y este manual.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-accent-50 border border-accent-500/20 rounded-xl p-6">
+                <h3 class="font-sans font-bold text-accent-800 uppercase text-xs tracking-widest mb-4">🎨 Leyenda de Iconos Clínicos</h3>
+                <p class="text-sm text-accent-900 mb-4">Cada carta incluye iconos que indican los procesos psicológicos primarios que activa. Esto te permite seleccionar cartas no solo por tema, sino por <em>mecanismo de acción</em>.</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">🧠</span> <span class="font-semibold text-slate-700">Cognición</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">❤️</span> <span class="font-semibold text-slate-700">Emoción</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">👤</span> <span class="font-semibold text-slate-700">Identidad</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">👨‍👩‍👧</span> <span class="font-semibold text-slate-700">Relaciones</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">⚡</span> <span class="font-semibold text-slate-700">Trauma / Sombra</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">🌱</span> <span class="font-semibold text-slate-700">Recursos</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm"><span class="text-2xl">🎯</span> <span class="font-semibold text-slate-700">Objetivos / Acción</span></div>
+                    <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm border-2 border-dashed border-slate-300"><span class="text-2xl text-slate-400">+</span> <span class="font-semibold text-slate-500">Combinable</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-break"></div>
+
+        <!-- CAPÍTULO 1 -->
+        <section>
+            <div class="mb-10">
+                <span class="text-accent-600 font-bold tracking-widest uppercase text-xs">Capítulo 1</span>
+                <h2 class="font-serif text-4xl text-brand-900 font-bold mt-2">Fundamentos del Uso Clínico</h2>
+                <div class="elegant-separator mt-4 w-24"></div>
+            </div>
+
+            <article class="mb-12">
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">1.1 El Encuadre Terapéutico: Presentando las Cartas</h3>
+                <div class="prose prose-slate max-w-none text-slate-700 space-y-4">
+                    <p>La forma en que introduces las cartas en la sesión establece el tono de toda la intervención. Un mal encuadre puede hacer que el paciente las perciba como un "juego", un "test" o una invasión. Un buen encuadre las posiciona como <strong>herramientas de exploración colaborativa</strong>.</p>
+                    
+                    <div class="bg-white border-l-4 border-brand-800 p-5 rounded-r-lg shadow-sm my-6">
+                        <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-2">💡 Guion Sugerido de Presentación (Primera vez)</h4>
+                        <p class="text-slate-700 italic">"Hoy me gustaría proponerte una forma diferente de explorar lo que me estás contando. Tengo un mazo de cartas con preguntas e ideas. No hay respuestas correctas ni incorrectas, y no es un test. Son simplemente disparadores. Te invito a elegir una que te llame la atención, o que te genere rechazo, y a partir de ahí vemos qué emerge. ¿Te parece bien probarlo?"</p>
+                    </div>
+
+                    <p><strong>Principios clave del encuadre:</strong></p>
+                    <ul class="list-disc list-inside space-y-2 ml-2">
+                        <li><strong>Despatologizar:</strong> Enfatizar que es un espacio de curiosidad, no de evaluación.</li>
+                        <li><strong>Autonomía:</strong> El paciente siempre tiene la última palabra sobre qué carta elegir o si prefiere no responder a una en particular.</li>
+                        <li><strong>Flexibilidad:</strong> Si una carta genera una emoción intensa, se puede abandonar la estructura de la pregunta y trabajar directamente con la emoción emergente.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h3 class="chapter-heading font-serif text-2xl text-brand-800 font-semibold mb-4">1.2 Preparación del Espacio y del Terapeuta (Set & Setting)</h3>
+                <div class="prose prose-slate max-w-none text-slate-700 space-y-4">
+                    <p>El uso de cartas modifica ligeramente la dinámica espacial de la sesión. Requiere una preparación intencional para mantener el foco clínico.</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mt-6">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                            <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-3 flex items-center gap-2">🛋️ El Espacio Físico</h4>
+                            <ul class="space-y-3 text-sm text-slate-700">
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Superficie de trabajo:</strong> Asegura una mesa o espacio en el suelo donde las cartas puedan desplegarse visualmente (mapa mental externo).</span></li>
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Iluminación:</strong> Las cartas deben ser fácilmente legibles. Evita reflejos en el barniz si las cartas son brillantes.</span></li>
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Privacidad:</strong> Si se trabaja en grupo o pareja, asegurar que cada uno tenga su propio espacio para seleccionar sin ser observado inicialmente.</span></li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                            <h4 class="font-sans font-bold text-brand-900 uppercase text-xs tracking-widest mb-3 flex items-center gap-2">🧘 El Estado del Terapeuta</h4>
+                            <ul class="space-y-3 text-sm text-slate-700">
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Neutralidad activa:</strong> Evita sugerir cartas ("Deberías elegir esta"). Tu rol es observar qué elige y por qué.</span></li>
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Tolerancia a la ambigüedad:</strong> A veces el paciente elegirá una carta "al azar" o "porque es bonita". Trabaja con eso; el "azar" también es material clínico.</span></li>
+                                <li class="flex gap-2"><span class="text-accent-600">✓</span> <span><strong>Conocimiento del mazo:</strong> Revisa mentalmente los objetivos de las cartas antes de la sesión para estar preparado para las líneas de profundización.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-900 text-slate-400 py-12 px-6 text-center text-sm">
+        <div class="max-w-4xl mx-auto">
+            <p class="font-serif text-lg text-white mb-2">Proyecto MOSAICO</p>
+            <p>Manual Clínico Profesional &bull; Documento confidencial para uso terapéutico.</p>
+            <p class="mt-4 text-xs">Diseñado con estándar de calidad editorial. Prohibida su reproducción total o parcial sin autorización.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
