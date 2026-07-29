@@ -822,15 +822,17 @@ function renderHistorialPaciente() {
     const item = document.createElement("div")
     item.className = "ph-item"
     const origen = h.desdeTerapeuta ? "asignada" : "robada"
+    const imgUrl = mazo ? `assets/img/${mazo.numero}/${h.codigo}.jpg` : "#"
     item.innerHTML = `
       <div class="ph-item-main">
-        <span class="ph-item-codigo">${escapeHtml(h.codigo)}</span>
+        <a class="ph-item-codigo" href="${imgUrl}" target="_blank" title="Ver imagen de la carta">${escapeHtml(h.codigo)}</a>
         <span class="ph-item-mazo">${mazo ? escapeHtml(mazo.nombre) : ""}</span>
         <span class="ph-item-origen ph-item-origen--${origen}">${origen}</span>
       </div>
       <span class="ph-item-fecha">${formatearFecha(h.timestamp)}</span>
       <button class="ph-item-borrar" data-id="${h.id}" aria-label="Borrar">&times;</button>
     `
+    item.querySelector(".ph-item-codigo").addEventListener("click", (e) => e.stopPropagation())
     item.querySelector(".ph-item-main").addEventListener("click", () => {
       const mazo = state.mazos[h.mazoId]
       if (!mazo) return
@@ -985,9 +987,10 @@ function renderHistorialLocalPaciente() {
       const item = document.createElement("div")
       item.className = "ph-item"
       const origen = h.desdeTerapeuta ? "asignada" : "robada"
+      const imgUrl = mazo ? `assets/img/${mazo.numero}/${h.codigo}.jpg` : "#"
       item.innerHTML = `
         <div class="ph-item-main">
-          <span class="ph-item-codigo">${escapeHtml(h.codigo)}</span>
+          <a class="ph-item-codigo" href="${imgUrl}" target="_blank" title="Ver imagen de la carta">${escapeHtml(h.codigo)}</a>
           <span class="ph-item-mazo">${mazo ? escapeHtml(mazo.nombre) : ""}</span>
           <span class="ph-item-origen ph-item-origen--${origen}">${origen}</span>
         </div>

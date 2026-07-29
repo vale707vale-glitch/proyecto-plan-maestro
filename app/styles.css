@@ -412,7 +412,8 @@ main {
 }
 .ph-item:hover { background: var(--line); }
 .ph-item-main { display: flex; flex-direction: column; flex: 1; min-width: 0; }
-.ph-item-codigo { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; color: var(--gold); }
+.ph-item-codigo { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; color: var(--gold); text-decoration: none; }
+.ph-item-codigo:hover { text-decoration: underline; text-underline-offset: 2px; color: var(--accent); }
 .ph-item-fecha { color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
 .ph-item-mazo { color: var(--muted); font-size: 0.8rem; }
 .ph-item-origen {
