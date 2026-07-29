@@ -118,8 +118,8 @@ async function init() {
       cargarHistorialFirestore()
       const tData = await fsCargarTerapeuta()
       if (!tData || !tData.passwordUpdatedAt) {
-        renderApp()
         abrirModalClave({ forzarCambio: true })
+        renderApp()
       } else {
         renderApp()
       }
@@ -136,9 +136,26 @@ async function init() {
 
 function resolverAuth() {
   return new Promise((resolve) => {
+    if (auth.currentUser) {
+      resolve(auth.currentUser)
+      return
+    }
+    let resolved = false
     const unsubscribe = auth.onAuthStateChanged((user) => {
-      unsubscribe()
-      resolve(user)
+      if (resolved) return
+      if (user) {
+        resolved = true
+        unsubscribe()
+        resolve(user)
+      } else {
+        setTimeout(() => {
+          if (!resolved) {
+            resolved = true
+            unsubscribe()
+            resolve(auth.currentUser)
+          }
+        }, 600)
+      }
     })
   })
 }
@@ -2022,8 +2039,10 @@ function initModalClave() {
 
     try {
       const cred = firebase.auth.EmailAuthProvider.credential(user.email, actual)
-      await user.reauthenticateWithCredential(cred)
-      await user.updatePassword(nueva)
+      const result = await user.reauthenticateWithCredential(cred)
+      const freshUser = result.user || auth.currentUser
+      if (!freshUser) throw new Error("Sesion perdida. Volve a iniciar sesion.")
+      await freshUser.updatePassword(nueva)
       const guardado = await fsMarcarClaveActualizada()
       if (!guardado) throw new Error("No se pudo guardar en el servidor. Reintenta.")
       ok.textContent = "Contraseña actualizada."
