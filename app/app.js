@@ -590,6 +590,17 @@ function sincronizarCartasTerapeuta(activa) {
   if (changes) {
     historial[sesionId] = arr
     guardarHistorial(historial)
+    // Mostrar la ultima carta asignada por el terapeuta
+    const latest = activa.sesion.cartas[activa.sesion.cartas.length - 1]
+    if (latest && latest.mazoId) {
+      const m = state.mazos[latest.mazoId]
+      const c = m?.cartas.find(x => x.codigo === latest.codigo)
+      if (c) {
+        const entry = arr.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId && h.desdeTerapeuta)
+        if (entry) state._pacCartaId = entry.id
+        setTimeout(() => renderCartaPaciente(c), 0)
+      }
+    }
   }
 }
 
@@ -710,6 +721,17 @@ async function verificarSesionActiva() {
         historial[sesionId] = arr
         guardarHistorial(historial)
         renderHistorialPaciente()
+        // Mostrar la ultima carta asignada por el terapeuta
+        const latest = data.cartas[data.cartas.length - 1]
+        if (latest && latest.mazoId) {
+          const m = state.mazos[latest.mazoId]
+          const c = m?.cartas.find(x => x.codigo === latest.codigo)
+          if (c) {
+            const entry = arr.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId && h.desdeTerapeuta)
+            if (entry) state._pacCartaId = entry.id
+            renderCartaPaciente(c)
+          }
+        }
       }
     }
   }
@@ -791,6 +813,21 @@ function renderCartaPaciente(carta) {
         desdePaciente: true,
       })
       guardarPacientes()
+
+      const code = activa.sesion.codigo
+      fsBuscarCodigoActivo(code).then(data => {
+        if (!data) return
+        const cartas = data.cartas || []
+        if (cartas.some(c => c.codigo === carta.codigo)) return
+        cartas.push({
+          codigo: carta.codigo,
+          mazoId: state.mazoActivo,
+          notas: "",
+          asignadaEn: new Date().toISOString(),
+          desdePaciente: true,
+        })
+        fsGuardarCodigoActivo(code, { ...data, cartas })
+      })
     }
   } else {
     state._pacCartaId = existing.id
@@ -1037,6 +1074,7 @@ function popularSelectMazos(select) {
 // ============== TERAPEUTA - PACIENTES ==============
 
 function renderTerapeuta() {
+  if (state._unsubActiveCode) { state._unsubActiveCode(); state._unsubActiveCode = null }
   $("#app").innerHTML = ""
 
   if (state.vistaT === "lista") renderListaPacientes()
@@ -1462,11 +1500,10 @@ function renderSesionView() {
       return
     }
 
-    const notas = $("#sv-notas-carta").value.trim()
     sesion.cartas.push({
       codigo: codigoMostrado,
       mazoId: mazoActual,
-      notas: notas,
+      notas: "",
       asignadaEn: new Date().toISOString(),
     })
     guardarPacientes()
@@ -1482,7 +1519,7 @@ function renderSesionView() {
           codigo: codigoMostrado,
           mazoId: mazoActual,
           timestamp: new Date().toISOString(),
-          notas: notas,
+          notas: "",
           desdeTerapeuta: true,
         })
         phist[state.sesionId] = hArr
@@ -1490,7 +1527,6 @@ function renderSesionView() {
       }
     } catch (_) {}
 
-    $("#sv-notas-carta").value = ""
     $("#sv-carta-area").hidden = true
     cartaSeleccionada = null
     document.querySelectorAll(".sv-card-browser-item").forEach(el => el.classList.remove("seleccionada"))
@@ -1540,16 +1576,30 @@ function renderSesionView() {
     setText("sv-carta-codigo-overlay", carta.codigo)
     setText("sv-carta-codigo", carta.codigo)
     setText("sv-carta-pregunta", carta.pregunta)
-    setText("sv-carta-objetivo", carta.objetivo || "")
-    setText("sv-carta-tarea", carta.tarea)
-    poblarLista("sv-carta-profundizacion", carta.profundizacion)
-    poblarLista("sv-carta-observacion", carta.observacion)
-    poblarLista("sv-carta-intervenciones", carta.intervenciones)
-    const notasCarta = document.getElementById("sv-notas-carta")
-    if (notasCarta) { notasCarta.value = ""; notasCarta.focus() }
+
   }
 
   renderCartasAsignadas(sesion)
+
+  if (sesion.codigo) {
+    state._unsubActiveCode = db.collection(FS_COL_CODIGOS).doc(sesion.codigo)
+      .onSnapshot(doc => {
+        if (!doc.exists) return
+        const data = doc.data()
+        if (!data.cartas) return
+        let changed = false
+        for (const c of data.cartas) {
+          if (c.desdePaciente && !sesion.cartas.some(x => x.codigo === c.codigo)) {
+            sesion.cartas.push(c)
+            changed = true
+          }
+        }
+        if (changed) {
+          guardarPacientes()
+          renderCartasAsignadas(sesion)
+        }
+      })
+  }
 }
 
 function renderCartasAsignadas(sesion) {
@@ -1567,14 +1617,18 @@ function renderCartasAsignadas(sesion) {
 
   for (const c of sesion.cartas) {
     const mazo = state.mazos[c.mazoId]
+    const desdePaciente = c.desdePaciente
     const div = document.createElement("div")
     div.className = "sv-carta-asignada"
+    const imgSrc = mazo ? `assets/img/${mazo.numero}/${c.codigo}.jpg` : ""
     div.innerHTML = `
       <div class="sv-carta-asignada-head">
         <span>${c.codigo}</span>
         <span class="mazo-label">${mazo?.nombre || c.mazoId}</span>
       </div>
-      <textarea data-codigo="${c.codigo}" placeholder="Notas sobre esta carta...">${escapeHtml(c.notas || "")}</textarea>
+      ${desdePaciente ? '<span style="font-size:0.75rem;font-weight:600;color:#1a2a5a;background:#dce3f0;padding:0.15rem 0.5rem;border-radius:4px;align-self:flex-start">Robada por paciente</span>' : ""}
+      ${imgSrc ? `<img src="${imgSrc}" alt="${c.codigo}" style="width:100%;max-width:300px;border-radius:8px;cursor:pointer" onclick="abrirModal(this)" loading="lazy">` : ""}
+      <textarea data-codigo="${c.codigo}" placeholder="Notas del terapeuta sobre esta carta...">${escapeHtml(c.notas || "")}</textarea>
       <div style="display:flex;justify-content:flex-end">
         <button class="btn-eliminar-carta" data-codigo="${c.codigo}">Quitar</button>
       </div>
@@ -1869,14 +1923,18 @@ function renderHistorialSesion() {
   } else {
     for (const c of sesion.cartas) {
       const mazo = state.mazos[c.mazoId]
+      const desdePaciente = c.desdePaciente
       const div = document.createElement("div")
       div.className = "sv-carta-asignada"
+      const imgSrc = mazo ? `assets/img/${mazo.numero}/${c.codigo}.jpg` : ""
       div.innerHTML = `
         <div class="sv-carta-asignada-head">
           <span class="sv-carta-codigo-click">${c.codigo}</span>
           <span class="mazo-label">${mazo?.nombre || c.mazoId}</span>
         </div>
-        <textarea class="sv-notas" data-codigo="${c.codigo}" placeholder="Notas sobre esta carta..." style="min-height:60px">${escapeHtml(c.notas || "")}</textarea>
+        ${desdePaciente ? '<span style="font-size:0.75rem;font-weight:600;color:#1a2a5a;background:#dce3f0;padding:0.15rem 0.5rem;border-radius:4px;align-self:flex-start">Robada por paciente</span>' : ""}
+        ${imgSrc ? `<img src="${imgSrc}" alt="${c.codigo}" style="width:100%;max-width:300px;border-radius:8px;cursor:pointer;margin-bottom:0.5rem" onclick="abrirModal(this)" loading="lazy">` : ""}
+        <textarea class="sv-notas" data-codigo="${c.codigo}" placeholder="Notas del terapeuta..." style="min-height:60px">${escapeHtml(c.notas || "")}</textarea>
         <div class="hs-carta-expand" hidden></div>
       `
       const ta = div.querySelector("textarea")
