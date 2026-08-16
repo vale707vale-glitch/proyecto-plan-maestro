@@ -52,9 +52,29 @@
           <button type="submit" class="btn-primary">Entrar como terapeuta</button>
           <button type="button" id="login-paciente" class="btn-ghost">Entrar como paciente</button>
         </div>
+        <p class="login-recuperar"><a href="#" id="login-olvide-clave">Olvide mi contraseña</a></p>
         <p id="login-error" class="error" hidden></p>
       </form>
     </section>
+  </template>
+
+  <template id="tpl-recuperar-clave-modal">
+    <div class="clave-modal" id="recuperar-overlay">
+      <div class="clave-modal-card">
+        <h3>Recuperar contraseña</h3>
+        <p class="muted" style="font-size:0.85rem;margin:0 0 1rem">Ingresa tu email y te enviaremos un enlace para restablecer tu contraseña.</p>
+        <label class="clave-form" style="display:block">
+          <span style="font-size:0.85rem;color:var(--muted)">Email</span>
+          <input type="email" id="recuperar-email" autocomplete="email" required />
+        </label>
+        <p id="recuperar-error" class="error" hidden></p>
+        <p id="recuperar-ok" class="ok" hidden></p>
+        <div class="clave-modal-actions">
+          <button id="recuperar-cancelar" class="btn-ghost">Cancelar</button>
+          <button id="recuperar-enviar" class="btn-primary">Enviar enlace</button>
+        </div>
+      </div>
+    </div>
   </template>
 
   <template id="tpl-paciente">
@@ -133,6 +153,24 @@
         <p>Todavia no tiene sesiones registradas.</p>
       </div>
     </section>
+  </template>
+
+  <template id="tpl-nueva-sesion-modal">
+    <div class="clave-modal" id="nueva-sesion-overlay">
+      <div class="clave-modal-card">
+        <h3>Nueva sesion</h3>
+        <p class="muted" style="font-size:0.85rem;margin:0 0 1rem">Dejalo como esta para crearla ahora, o elegí una fecha y hora para programarla.</p>
+        <label class="clave-form" style="display:block">
+          <span style="font-size:0.85rem;color:var(--muted)">Fecha y hora</span>
+          <input type="datetime-local" id="nueva-sesion-fecha">
+        </label>
+        <p id="nueva-sesion-aviso" class="muted" style="font-size:0.85rem;margin:0.75rem 0 1rem"></p>
+        <div class="clave-modal-actions">
+          <button id="nueva-sesion-cancelar" class="btn-ghost">Cancelar</button>
+          <button id="nueva-sesion-crear" class="btn-primary">Crear sesion</button>
+        </div>
+      </div>
+    </div>
   </template>
 
   <template id="tpl-sesion-view">

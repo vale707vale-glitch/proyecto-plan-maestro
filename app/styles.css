@@ -164,6 +164,8 @@ main {
   color: var(--ink);
 }
 .login-actions { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+.login-recuperar { margin-top: 0.75rem; text-align: center; font-size: 0.85rem; }
+.login-recuperar a { color: var(--accent); cursor: pointer; }
 
 /* ============== PACIENTE ============== */
 .robar-bar {
@@ -289,6 +291,17 @@ main {
 }
 .sesion-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 .sesion-card-fecha { font-weight: 600; }
+.badge-programada {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #8a6d00;
+  background: #fff3cd;
+  border-radius: 999px;
+  vertical-align: middle;
+}
 .sesion-card-meta { font-size: 0.8rem; color: var(--muted); }
 
 /* Sesion activa */

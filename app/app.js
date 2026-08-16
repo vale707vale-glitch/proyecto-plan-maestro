@@ -356,6 +356,11 @@ function renderLogin() {
     renderApp()
   })
 
+  $("#login-olvide-clave").addEventListener("click", (e) => {
+    e.preventDefault()
+    abrirModalRecuperarClave()
+  })
+
   form.addEventListener("submit", (e) => {
     e.preventDefault()
     const email = form.email.value.trim()
@@ -1281,6 +1286,83 @@ function renderListaPacientes() {
   renderPacientes()
 }
 
+// ---- modal nueva sesion (ahora o programada) ----
+
+function aLocalDatetimeValue(date) {
+  const pad = (n) => String(n).padStart(2, "0")
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}T${pad(date.getHours())}:${pad(date.getMinutes())}`
+}
+
+function abrirModalNuevaSesion(pac) {
+  const overlay = document.getElementById("nueva-sesion-overlay")
+  if (!overlay) {
+    $("#app").appendChild($("#tpl-nueva-sesion-modal").content.cloneNode(true))
+  }
+  const modal = document.getElementById("nueva-sesion-overlay")
+  const input = document.getElementById("nueva-sesion-fecha")
+  const aviso = document.getElementById("nueva-sesion-aviso")
+
+  const nuevoInput = input.cloneNode(true)
+  input.replaceWith(nuevoInput)
+  nuevoInput.value = aLocalDatetimeValue(new Date())
+  aviso.textContent = "Se creara con la fecha y hora de ahora."
+  modal.hidden = false
+  modal.style.display = "flex"
+
+  const cancelar = document.getElementById("nueva-sesion-cancelar")
+  const crear = document.getElementById("nueva-sesion-crear")
+
+  const nuevoCancelar = cancelar.cloneNode(true)
+  cancelar.replaceWith(nuevoCancelar)
+  const nuevoCrear = crear.cloneNode(true)
+  crear.replaceWith(nuevoCrear)
+
+  nuevoCancelar.addEventListener("click", () => cerrarModalNuevaSesion())
+
+  nuevoInput.addEventListener("change", () => {
+    if (!nuevoInput.value) {
+      aviso.textContent = "Elegi una fecha y hora."
+      return
+    }
+    const elegida = new Date(nuevoInput.value)
+    const ahora = new Date()
+    aviso.textContent = elegida > ahora
+      ? `Programada para ${formatearFecha(elegida.toISOString())}.`
+      : "Se creara con esa fecha y hora."
+  })
+
+  nuevoCrear.addEventListener("click", () => {
+    if (!nuevoInput.value) {
+      aviso.textContent = "Elegi una fecha y hora."
+      return
+    }
+    const elegida = new Date(nuevoInput.value)
+    const fechaISO = elegida.toISOString()
+    const programada = elegida.getTime() > Date.now()
+    pac.sesiones.push({
+      id: idGen(),
+      fecha: fechaISO,
+      notas: "",
+      cartas: [],
+      codigo: generarCodigoSesion(),
+      habilitada: false,
+      programada,
+    })
+    guardarPacientes()
+    cerrarModalNuevaSesion()
+    state.sesionId = pac.sesiones[pac.sesiones.length - 1].id
+    state.vistaT = "sesion"
+    renderTerapeuta()
+  })
+}
+
+function cerrarModalNuevaSesion() {
+  const modal = document.getElementById("nueva-sesion-overlay")
+  if (!modal) return
+  modal.hidden = true
+  modal.style.display = "none"
+}
+
 // ---- vista de un paciente ----
 
 function renderPacienteView() {
@@ -1293,20 +1375,7 @@ function renderPacienteView() {
   $("#pv-info").textContent = `${pac.sesiones.length} sesiones`
 
   $("#btn-back").hidden = false
-  $("#btn-nueva-sesion").addEventListener("click", () => {
-    pac.sesiones.push({
-      id: idGen(),
-      fecha: new Date().toISOString(),
-      notas: "",
-      cartas: [],
-      codigo: generarCodigoSesion(),
-      habilitada: false,
-    })
-    guardarPacientes()
-    state.sesionId = pac.sesiones[pac.sesiones.length - 1].id
-    state.vistaT = "sesion"
-    renderTerapeuta()
-  })
+  $("#btn-nueva-sesion").addEventListener("click", () => abrirModalNuevaSesion(pac))
 
   const historial = $("#pv-historial")
   historial.innerHTML = ""
@@ -1323,7 +1392,7 @@ function renderPacienteView() {
     card.className = "sesion-card"
     card.innerHTML = `
       <div>
-        <div class="sesion-card-fecha">${formatearFecha(s.fecha)}</div>
+        <div class="sesion-card-fecha">${formatearFecha(s.fecha)}${s.programada ? ' <span class="badge-programada">Programada</span>' : ""}</div>
         <div class="sesion-card-meta">${s.cartas.length} cartas · ${s.notas ? s.notas.slice(0, 60) + (s.notas.length > 60 ? "..." : "") : "sin notas"}</div>
       </div>
       <div style="display:flex;align-items:center;gap:0.5rem">
@@ -1343,7 +1412,7 @@ function renderPacienteView() {
     })
     card.addEventListener("click", () => {
       state.sesionId = s.id
-      state.vistaT = "historial"
+      state.vistaT = "sesion"
       renderTerapeuta()
     })
     historial.appendChild(card)
@@ -2001,6 +2070,68 @@ function escapeHtml(s) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
+}
+
+// ============== MODAL RECUPERAR CLAVE ==============
+
+function abrirModalRecuperarClave() {
+  const overlay = document.getElementById("recuperar-overlay")
+  if (!overlay) {
+    $("#app").appendChild($("#tpl-recuperar-clave-modal").content.cloneNode(true))
+  }
+  const modal = document.getElementById("recuperar-overlay")
+  const email = document.getElementById("recuperar-email")
+  const err = document.getElementById("recuperar-error")
+  const ok = document.getElementById("recuperar-ok")
+  const cancelar = document.getElementById("recuperar-cancelar")
+  const enviar = document.getElementById("recuperar-enviar")
+
+  const nuevoCancelar = cancelar.cloneNode(true)
+  cancelar.replaceWith(nuevoCancelar)
+  const nuevoEnviar = enviar.cloneNode(true)
+  enviar.replaceWith(nuevoEnviar)
+
+  const nuevoEmail = email.cloneNode(true)
+  email.replaceWith(nuevoEmail)
+  nuevoEmail.value = ""
+  err.hidden = true
+  ok.hidden = true
+  modal.hidden = false
+  modal.style.display = "flex"
+  setTimeout(() => nuevoEmail.focus(), 50)
+
+  nuevoCancelar.addEventListener("click", () => cerrarModalRecuperarClave())
+
+  nuevoEnviar.addEventListener("click", async () => {
+    const emailValue = nuevoEmail.value.trim()
+    if (!emailValue) {
+      err.textContent = "Ingresa tu email."
+      err.hidden = false
+      return
+    }
+    err.hidden = true
+    ok.hidden = true
+    nuevoEnviar.disabled = true
+    nuevoEnviar.textContent = "Enviando..."
+    try {
+      await auth.sendPasswordResetEmail(emailValue)
+      ok.textContent = "Si el email existe, te enviamos un enlace para restablecer tu contraseña."
+      ok.hidden = false
+    } catch (errAuth) {
+      err.textContent = "Error: " + errAuth.message
+      err.hidden = false
+    } finally {
+      nuevoEnviar.disabled = false
+      nuevoEnviar.textContent = "Enviar enlace"
+    }
+  })
+}
+
+function cerrarModalRecuperarClave() {
+  const modal = document.getElementById("recuperar-overlay")
+  if (!modal) return
+  modal.hidden = true
+  modal.style.display = "none"
 }
 
 // ============== MODAL CAMBIO DE CLAVE ==============
