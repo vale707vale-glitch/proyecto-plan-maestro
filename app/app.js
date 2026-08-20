@@ -409,6 +409,7 @@ const pacienteState = {
   sesionActivaId: null, // sesionId al que esta vinculado el dispositivo
   sesionActiva: null,   // objeto sesion resuelto (paciente + sesion)
   esperandoCodigo: false,
+  _pacCartaVistaKey: null, // ultima carta mostrada en pantalla: sesionId|codigo|mazoId
 }
 
 function getSesionActivaPaciente() {
@@ -595,18 +596,28 @@ function sincronizarCartasTerapeuta(activa) {
   if (changes) {
     historial[sesionId] = arr
     guardarHistorial(historial)
-    // Mostrar la ultima carta asignada por el terapeuta
-    const latest = activa.sesion.cartas[activa.sesion.cartas.length - 1]
-    if (latest && latest.mazoId) {
-      const m = state.mazos[latest.mazoId]
-      const c = m?.cartas.find(x => x.codigo === latest.codigo)
-      if (c) {
-        const entry = arr.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId && h.desdeTerapeuta)
-        if (entry) state._pacCartaId = entry.id
-        setTimeout(() => renderCartaPaciente(c), 0)
-      }
-    }
   }
+  mostrarCartaRecientePaciente(activa, arr)
+}
+
+// Muestra en el area principal del paciente la ultima carta de la sesion si
+// difiere de la que esta en pantalla. Cubre el caso de cartas asignadas por el
+// terapeuta que ya existian en el historial (y por eso nunca disparaban el render).
+function mostrarCartaRecientePaciente(activa, arr) {
+  const cartas = activa?.sesion?.cartas || []
+  if (!cartas.length) return
+  const latest = cartas[cartas.length - 1]
+  if (!latest?.mazoId) return
+  const key = pacienteState.sesionActivaId + "|" + latest.codigo + "|" + latest.mazoId
+  if (pacienteState._pacCartaVistaKey === key) return
+  const m = state.mazos[latest.mazoId]
+  const c = m?.cartas.find(x => x.codigo === latest.codigo)
+  if (!c) return
+  const lista = arr || []
+  const entry = lista.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId && h.desdeTerapeuta)
+    || lista.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId)
+  state._pacCartaId = entry ? entry.id : null
+  renderCartaPaciente(c, latest.mazoId)
 }
 
 function renderPacienteSesion(activa) {
@@ -726,18 +737,8 @@ async function verificarSesionActiva() {
         historial[sesionId] = arr
         guardarHistorial(historial)
         renderHistorialPaciente()
-        // Mostrar la ultima carta asignada por el terapeuta
-        const latest = data.cartas[data.cartas.length - 1]
-        if (latest && latest.mazoId) {
-          const m = state.mazos[latest.mazoId]
-          const c = m?.cartas.find(x => x.codigo === latest.codigo)
-          if (c) {
-            const entry = arr.find(h => h.codigo === c.codigo && h.mazoId === latest.mazoId && h.desdeTerapeuta)
-            if (entry) state._pacCartaId = entry.id
-            renderCartaPaciente(c)
-          }
-        }
       }
+      mostrarCartaRecientePaciente(activa, getHistorial()[activa.sesion.id] || [])
     }
   }
 
@@ -756,9 +757,10 @@ function robarCartaPaciente() {
   renderCartaPaciente(carta)
 }
 
-function renderCartaPaciente(carta) {
-  const mazo = state.mazos[state.mazoActivo]
+function renderCartaPaciente(carta, mazoId) {
+  const mazo = state.mazos[mazoId || state.mazoActivo]
   if (!mazo) return
+  pacienteState._pacCartaVistaKey = pacienteState.sesionActivaId + "|" + carta.codigo + "|" + mazo.id
 
   const emptyEl = document.getElementById("empty-state")
   if (emptyEl) emptyEl.hidden = true
@@ -797,7 +799,7 @@ function renderCartaPaciente(carta) {
     const entry = {
       id: idGen(),
       codigo: carta.codigo,
-      mazoId: state.mazoActivo,
+      mazoId: mazo.id,
       timestamp: new Date().toISOString(),
       notas: "",
     }
@@ -812,7 +814,7 @@ function renderCartaPaciente(carta) {
     if (activa && !activa.sesion.cartas.some(c => c.codigo === carta.codigo)) {
       activa.sesion.cartas.push({
         codigo: carta.codigo,
-        mazoId: state.mazoActivo,
+        mazoId: mazo.id,
         notas: "",
         asignadaEn: new Date().toISOString(),
         desdePaciente: true,
@@ -826,7 +828,7 @@ function renderCartaPaciente(carta) {
         if (cartas.some(c => c.codigo === carta.codigo)) return
         cartas.push({
           codigo: carta.codigo,
-          mazoId: state.mazoActivo,
+          mazoId: mazo.id,
           notas: "",
           asignadaEn: new Date().toISOString(),
           desdePaciente: true,
@@ -1596,7 +1598,7 @@ function renderSesionView() {
       }
     } catch (_) {}
 
-    $("#sv-carta-area").hidden = true
+    $("#sv-carta-area").hidden = false
     cartaSeleccionada = null
     document.querySelectorAll(".sv-card-browser-item").forEach(el => el.classList.remove("seleccionada"))
     renderCartasAsignadas(sesion)
@@ -1645,6 +1647,11 @@ function renderSesionView() {
     setText("sv-carta-codigo-overlay", carta.codigo)
     setText("sv-carta-codigo", carta.codigo)
     setText("sv-carta-pregunta", carta.pregunta)
+    setText("sv-carta-objetivo", carta.objetivo || "")
+    setText("sv-carta-tarea", carta.tarea)
+    poblarLista("sv-carta-profundizacion", carta.profundizacion)
+    poblarLista("sv-carta-observacion", carta.observacion)
+    poblarLista("sv-carta-intervenciones", carta.intervenciones)
 
   }
 
